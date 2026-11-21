@@ -1,0 +1,2 @@
+# Cold boot to the title screen (PUSH START): logos and intro play out on their own.
+2900 -
