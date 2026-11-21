@@ -1,2 +1,3 @@
-# SHA-1 of the supported dump, in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
-<sha1>  rom/<file>
+# SHA-1 of the supported dump (Redump), in sha1sum format (`sha1sum -c rom.sha1` works too). One line per file for discs.
+3ae2071d590825874ae769a9b733e0e00702ad9f  rom/Guardian Recall - Shugojuu Shoukan (Japan) (Disc 1).bin
+d45a833f2dc3986227b38aa4de2605ddb5c56785  rom/Guardian Recall - Shugojuu Shoukan (Japan) (Disc 2).bin
