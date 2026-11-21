@@ -1,24 +1,39 @@
-# Graphics-text survey (phase 1, in progress)
+# Graphics-text survey (phase 1: static sweep complete; marker tour in phase 5 adds rows)
 
 Scope per D5: translate all; keep the Japanese logo only if no official English one exists (the title logo is
 already English "Guardian Recall"; the 守護獣召喚 subtitle and ガーディアンリコール ruby are Japanese).
 
-Static sweep: `tools/tx03_sweep.py FILE OUT` decodes every TX03 stream (4bpp grey PNGs, index file with every
-failure), `tools/sweep_sheets.py IDX PNGDIR OUTDIR --cols 8 --max 48 --div 2` makes per-group sheets
-(work/gfx/sweep/sheets/gNN_sheet*.png). Rebuild them; work/ is not in git.
+Static sweep (rebuild into work/, not in git):
+- TX03 archives: `tools/tx03_sweep.py FILE OUT` (UNN.PAK, SUBTI.PAK, BTL.PAK), `tools/sweep_sheets.py IDX PNGDIR OUT`.
+- GRETC.RLZ: `tools/gretc.py extract GRETC.RLZ work/gretc`, then `tools/tim.py work/gretc/*.tim --out DIR`
+  (2 TIMs fail: 246 brain/dayf.tim and DATA/NUE01.TIM, multi-image or odd CLUT; check when touched).
+- STR movies: `tools/str_frames.py OUT FILE.STR..` (one frame per N s).
 
-| # | Element | Where seen | Source | Count | Reviewed |
-|---|---|---|---|---|---|
-| G1 | Episode title cards (第N話 + title + small English line, e.g. 襲撃！旅立ちの序曲 JOURNEY) | after route choice | SUBTI.PAK (TX03 160x240 4bpp) **and** its copy in UNN.PAK group 17 (+64); patch both | 53 (incl. duplicates) | yes, all 3 sheets |
-| G2 | Chapter cards (天の章, 地の章, 七龍の章, 覚醒の章, 龍鬼の章; vertical) | before episode cards | same SUBTI/g17 set | 5 | yes |
-| G3 | Location/time cards (雪花旅館 + furigana + HOKKAIDO 19:44; 荏狗覇莵基地 ... Unknown Place) | after episode card | UNN.PAK group 24 (TX03 160x240) | 66 | sheet 1 of 2 |
-| G4 | Battle victory/defeat condition cards (勝利条件 / 敗北条件 / 撤退可能) | battle start (guess) | UNN.PAK group 18 (TX03 128x240) | 24 | yes |
-| G5 | Route choice 天 / 地 (brush kanji over yin-yang) | new game | not found yet (GRETC.RLZ?) | 1 screen | tour only |
-| G6 | Title screen: 守護獣召喚, ガーディアンリコール ruby, copyright line with Japanese names | title | not found yet (GRETC.RLZ / TITLE*.BIN?) | 1 screen | tour only |
-| G7 | Boot memory-card messages (システムファイルが有りません etc.) | boot without card | probably font text (check) | - | tour only |
+| # | Element | Source | Count | Notes |
+|---|---|---|---|---|
+| G1 | Episode title cards (第N話 + title + small English line) | SUBTI.PAK (TX03 160x240 4bpp) **and** copy in UNN g17 (+64); patch both | 53 | reviewed |
+| G2 | Chapter cards (天の章, 地の章, 七龍の章, 覚醒の章, 龍鬼の章; vertical) | same SUBTI/g17 set | 5 | reviewed |
+| G3 | Location/time cards (雪花旅館 + furigana + HOKKAIDO 19:44 ...) | UNN g24 (TX03 160x240) | 66 | reviewed (both sheets) |
+| G4 | Battle victory/defeat condition cards (勝利条件 / 敗北条件 / 撤退可能) | UNN g18 (TX03 128x240) | 24 | reviewed |
+| G5 | Route choice 天 / 地 brush kanji (black and white versions) | GRETC rsel: 220 tiblk, 221 teblk, 223 tiwhi, 226 tewhi (TIM 192x128) | 4 | yin-yang halves 222/224/225/227 have no text |
+| G6 | Title screen 守護獣召喚 + ガーディアンリコール ruby | UNN g21 0x1A5EC10 (96x40), 0x1A5F1D8 (64x36); logo with small subtitle UNN g09 0x4698CC (248x144) | 3 | menu labels PUSH START/NEW GAME/LOAD/CONTINUE/OPTION already English |
+| G7 | Boot memory-card messages | GRETC txd/save.txd (font text, not graphics) | - | text work |
+| G8 | Disc-swap screen pieces: CHECK DISC を 2 / が違います / 中です 1 / OK! 入れて ください | UNN g09 0x467018 (244x160) | 1 | Japanese + English pieces composed at runtime |
+| G9 | Battle kanji glyph set (族 霊 鬼 騎 士 ... 直 撃 心 眼 ...) used to compose class/skill labels | GRETC mill 004 split.tim (256x256) | ~53 glyphs | find the composer (battle overlay) in phase 5; likely replace by English labels |
+| G10 | Element pentagram (天 風 海 炎 雷 地 聖 飛 kanji round the circle) | GRETC brain 244 penta.tim (320x240) | 1 | |
+| G11 | Dictionary cover: 用語辞典 seals + ガーディアンリコール katakana (English "GUARDIAN RECALL DICTIONARY" above) | GRETC dic 204 anim00.tim | 1 | 205 dicic.tim (small vertical label) also kanji |
+| G12 | Guardian-dictionary scroll with vertical calligraphy | GRETC gd 210 nun0.tim (170x186) | 1 | decorative poem; translate or leave (low) |
+| G13 | Character-file VOICE PLAY legend ○召 △戦 | GRETC cf 217 cfvc.tim (140x55) | 1 | |
+| G14 | Character-file emblems (kanji in medallion, e.g. ruen) | GRETC cf 215/216/218 (320x240) | 3 | decorative; check in tour |
+| G15 | Staff credits movie (burned-in Japanese roles/names; English "Thanks for Playing" end) | disc 2 STR/STAFF.STR | 1 movie | D3 = English credits: needs STR re-encode (phase 8) |
+| G16 | Opening/ending logo with small 守護獣召喚 under "Guardian Recall" | STR movies (OP, MEND) | 2 | leave (movie, logo); see status Waiting |
 
-Still to review (sheets exist): UNN groups 1, 2 (text-like strips 504x12, 588x12, 240x24: likely pre-rendered
-text lines), 3 (1459x16 strips), 4-9, 10 (55x 42x50), 21, 24 sheet 2, 25. Not yet swept: BTL.PAK (6965 TX03,
-battle sprites), GRETC.RLZ (format unknown), `DATA/*.TIM` (MEM_ERR.TIM, NUE01.TIM, HAM2.TIM), STR movies (check
-for burned-in text: opening showed none), the 天/地 screen, menus, battle UI, save/load screens, ending/credits
-(STAFF.STR on disc 2).
+Checked, no Japanese: UNN g01-g08 (battle effect animation frames; first page of each sampled, rest same strip
+format), g10 (55 face icons 42x50), g25 (earth), g09 rest (item/element icons, digits, **ASCII font 0x4069EC 128x25**,
+"Player Turn / Enemy Turn"), g21 rest (title swirl frames); BTL.PAK 6964 battle sprites (43 wide images checked:
+effects); GRETC btbg (battle bgs), gd2 (54 guardian art), cf2 (character art + English name labels, e.g. MIYUKI
+AMAGI), opt (English: OPTION, music player), day (fontn.tim = English menu labels LOAD/CONFIG/NEXT/DIARY/ROUTE/SAVE/
+OPTION + font), mill digits; DATA/MEM_ERR.TIM (English); STR movies other than STAFF (incidental signage only, e.g.
+サウナ室 sign: leave).
+
+Tour still to do (phase 5 marker tour / phase 2 warps): menus, battle UI, save/load, game over, ending.

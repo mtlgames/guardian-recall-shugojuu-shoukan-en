@@ -3,6 +3,8 @@ from pathlib import Path
 import pytest
 
 import gr_text
+import gretc
+import rlz
 import tx03
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -25,3 +27,23 @@ def test_tx03_literal_and_refs():
 def test_tx03_subti_first_card():
     out, end = tx03.decompress((DATA / "SUBTI.PAK").read_bytes(), 0)
     assert len(out) == 4 + 160 * 240 and end == 0x2065
+
+
+def test_rlz_roundtrip_and_xor():
+    for s in (b"", b"abc", b"\0" * 300 + b"xy\x07\x07z", bytes(range(256)) * 2):
+        for esc in (7, 0, 0xFF):
+            assert rlz.unpack(rlz.pack(s, esc), esc) == s
+    assert rlz.unpack(b"a\x05\x00\x03b", 5) == b"a\0\0\0b"
+    assert rlz.xor(b"\x00\x00", 0x80) == b"\x80\x2a"
+
+
+@pytest.mark.skipif(not (DATA / "GRETC.RLZ").is_file(), reason="disc not extracted (work/disc1)")
+def test_gretc_directory_and_entries():
+    data = (DATA / "GRETC.RLZ").read_bytes()
+    head, ents = gretc.directory(data)
+    assert len(ents) == 255 and ents[0]["name"] == "tea.tim" and ents[-1]["name"] == "save.txd"
+    for e in ents:
+        b = gretc.expand(data, e)  # asserts the directory size
+        if e["name"].endswith(".tim"):
+            assert b[:4] == b"\x10\0\0\0", e["name"]
+    assert "メモリーカード".encode("cp932") in gretc.expand(data, ents[-1])

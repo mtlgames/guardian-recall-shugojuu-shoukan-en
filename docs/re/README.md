@@ -12,12 +12,14 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| text.md | encoding, control codes, renderer + glyph map, scenario/battle text blocks, other string sites | encoding/blocks verified; buffer size, overlay addresses open |
-| containers.md | disc layout, UNN.PAK TOC + sub-tables, TX03 codec, GRETC.RLZ, overlays | UNN/TX03 verified; GRETC unknown |
-| graphics.md | graphics-text survey | in progress |
+| text.md | encoding + jp.tbl, renderer + glyph map, scenario/battle blocks, txd markup text, EXE/overlay strings + pointers, free space | verified except buffer size, txd renderer, BRAIN base |
+| containers.md | disc layout, UNN.PAK TOC + sub-tables, TX03 codec, GRETC.RLZ (dir, RLE, XOR), overlays | verified; GRETC checksum algorithm open |
+| graphics.md | graphics-text survey | static sweep complete (G1-G16); tour rows in phase 5 |
 
 Tools: `tools/gr_text.py` (decode), `gr_scan_blocks.py`, `gr_codes.py`, `gr_strings.py`, `sjis_survey.py`,
-`gr_index.py` (UNN index), `tx03.py`, `tx03_sweep.py`, `sweep_sheets.py`, `vram_view.py`, `tools/lua/dumpram_at.lua`.
+`gr_index.py` (UNN index), `tx03.py`, `tx03_sweep.py`, `sweep_sheets.py`, `vram_view.py`, `gretc.py` + `rlz.py`
+(GRETC.RLZ), `tim.py` (TIM -> PNG), `str_frames.py` (STR movie frames), `str_refs.py` (string references),
+`make_jptbl.py`, `tools/lua/dumpram_at.lua`, `tools/lua/gretc_probe.lua` (GRETC loads; needs `--debugger`).
 Savestates (work/states/, regenerate from cold boot if lost): `orig_title` (title screen), `orig_tenchi`
 (天/地 choice), `orig_dlg1` (first Earth-route dialogue). Dialogue advances on a circle *press*; `--mash` holds and
 does not advance text.
