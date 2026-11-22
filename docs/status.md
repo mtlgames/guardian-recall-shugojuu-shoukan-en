@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 2. Debug tool in progress (warp, scene list, tactics menus, battle, save editor, ending/credits,
-  music mode done; game over and day diary left). Last build: none yet.
+  music mode, disc_swap3 done; game over and day diary left, both RE'd most of the way). Last build: none yet.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -36,13 +36,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
   1. Full `regen.py --orig --timeout 2400` (110 scenes) and confirm all ok; look at any sheet not yet checked.
      epilogue_miyuki and epilogue_yuko end on the same motorbike frame: check their sheets differ later on
      (shared opening?) or lengthen them.
-  2. **Game over**: needs a defeat. Unit HP is not a plain u16 next to the shown Sp/Mp/Ap (searched a RAM dump
-     for 145/111/91/50). Try: diff RAM before/after the battle (work/qa/turns2 s000500 vs s002500 states) for the
-     damaged unit, poke a master's HP low in the battle state and let the enemy phase run; or find the 敗北条件
-     check near the "OldTurn"/"turn_chg_flag" prints (ACTION.BIN). Then GOD (pin HP) in warp.lua.
-  3. **Day diary (day.txd)**: DAY entry 0x8016B998 (a0 = disc id == 0) from mode fn 0x8004C450; likely shown in
-     the natural intermission after an event. Try finishing ev01 from the battle state (turn-cycle route), watch
-     for overlay 0x12; or RE DAY's mode switch.
+  2. **Game over** (2026-11-23 (3), docs/re/debug.md "Units"): HP found = USD 0x800C3050 + i*0x64 + 0x10
+     (allies in ev01 battle state: units 0, 1, 4 -> 0x800C3060, 0x800C30C4, 0x800C31F0). Poke them to 1 **on the
+     map** (`emu.py --state-in work/states/battle.sstate --script tools/lua/poke.lua --var AT=1400`, BATTLE writes
+     stats back so poking mid-battle is lost): the enemy phase kills ちかな (death line verified,
+     work/qa/gover4/f004200.png). Not finished: with `tools/routes/gover_turns.txt` the map then sits at Turn 04 with
+     炎真由 (1 HP) selected and no reaction to ○/△ (play.py session work/play/gover, from work/qa/gover5/s024000.sstate;
+     maybe a softlock because a dead master can't act, maybe just the enemy phase). Next: pc_log there, or poke all
+     three allies to 1 HP before the first enemy phase so one enemy phase wipes them; then make a `gameover` scene
+     (warp.lua writes on the map) and a GOD option (pin ally +0x10).
+  3. **Day diary / save menu (DAY.BIN)**: found the trigger: event-script **op 0x23 sub 1** (installs mode fn
+     0x8002059C -> DAY task with enter_mode 0); warp.lua `V>op:23010000000000` injects it. DAY.BIN loads, then it
+     crashes: via ev20 (ACTION) a clobbered stack ra jumps to 0x8013DE00 ~8 frames later; via ev7 (JAPAN) the console
+     resets in a CD read. Probably needs story state a warp leaves zero (0x80141398 per-event table = card +0x23A;
+     si.diary_no). Next: `tools/lua/write_val.lua --var LO=0x801FFF80 --var HI=0x801FFFFF --var VALUE=0x8013DE00
+     --var FROM=3450` with `--debugger --timeout 3000` on scene `20>op:23010000000000` (very slow: run it in the
+     background, ~1 h), or reach it naturally: win ev01 (enemy HP at USD 25+ +0x10: poke to 1) and save a state when
+     overlay 0x12 loads.
   4. Label the unlabeled events in `mk_scenes.py` (overview.py over work/qa/warp/ev*).
   5. Low priority: CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
 - **Open bugs:** none.
