@@ -32,6 +32,29 @@ LABEL = {1: "天の章 opening (city at night)", 2: "熊本支部 KUMAMOTO", 4: 
 for n in range(1, 71):
     disc = "1" if n <= 20 or n == 50 else "2"
     rows.append((f"ev{n:02d}", disc, str(n), "", "", "1800", LABEL.get(n, "")))
+# tactics-map menus, from ev70's Turn 01 (map ready ~1700 frames after the warp; cursor on the master 天城美由紀)
+MAP = "1750 -"
+RING = MAP + ";6 triangle;60 -" + ";6 down;40 -" * 6   # ring: UNIT MAP MISSION DIAGRAM SEARCH CONFIG BREAK
+for name, keys, frames, note in [
+        ("tac_unit_menu", ";6 circle;60 -", "1900", "unit command menu: 移動 情報 行動 思考 待機"),
+        ("tac_action", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;60 -", "1950", "行動 submenu: 超力 アイテム 話す 送還"),
+        ("tac_power", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -", "2000",
+         "超力 list + help box"),
+        ("tac_think", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -", "2050",
+         "思考 list (guardian orders) + help box"),
+        ("tac_info", ";6 circle;40 -;6 down;15 -;6 circle;90 -", "1950", "情報 (unit info screen)"),
+        ("tac_wait", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;60 -", "2000",
+         "待機: 決定 / キャンセル")]:
+    rows.append((name, "2", "70", "", MAP + keys, frames, note))
+rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ring menu (triangle), on UNIT"),
+         ("tac_config", "2", "70", "", RING.rsplit(";6 down;40 -", 1)[0] + ";6 circle;90 -", "2300", "ring > CONFIG"),
+         ("tac_mission", "2", "70", "", MAP + ";6 triangle;60 -;6 down;40 -;6 down;40 -;6 circle;90 -", "2100",
+          "ring > MISSION"),
+         ("tac_break", "2", "70", "", RING + ";6 circle;60 -", "2300", "ring > BREAK: マップセーブを行いますか？"),
+         ("tac_saved", "2", "70", "", RING + ";6 circle;60 -;6 up;20 -;6 circle;1100 -", "3400",
+          "BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)")]
+# the run ends WARP_BOOT (2800) + frames after power-on but the warp lands ~150 frames later: give routes headroom
+rows = [r[:5] + (str(int(r[5]) + 400),) + r[6:] if r[0].startswith("tac_") else r for r in rows]
 with open("tools/debug/scenes.tsv", "w", encoding="utf-8", newline="\n") as f:
     for r in rows:
         assert len(r) == 7, r

@@ -58,3 +58,26 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   +0x276 (0x230) -> 0x800C4A20 (first u16 = event number -> 0x8013CEE4; 25 x 4-byte unit stats), 0x800C4B50
   (0x100) -> 0x80140550. Saving happens inside ACTION (fn 0x8003B1E8 called 11x from ACTION; ACTION has
   SAVE_EXTRA/SAVE_ARRAY debug dumps: turn-based map state) - not yet triggered.
+
+## Tactics map (verified on ev70 by play.py session work/play/t70 and the tac_* scenes)
+- Overlay id reads 0 on the tactics map. ○ on a master: 移動 情報 行動 思考 待機; 行動 -> 超力 アイテム 話す 送還;
+  思考 -> 思考変更 対象確認 命令実行 (order list 私を守護せよ 03, 気力を癒せ 15, ... with a help box). Guardians show
+  only 情報. △ opens the ring menu UNIT MAP MISSION DIAGRAM SEARCH CONFIG BREAK (↓ steps; R1/L1 rotate camera).
+- BREAK = map save: "マップセーブを行いますか？" はい/いいえ, **cursor starts on いいえ** (press ↑ first); はい ->
+  セーブ中です (~900 frames) -> セーブしました + "ゲームを終了しますか？" ゲームを続ける / タイトルに戻る (title
+  return path). Code: prompt fn 0x80170FC4 (ACTION ovl), save state machine 0x8016FEBC, quit prompt 0x8016F110.
+- The map save goes **into the GRS system file**, not a GRD file: card block +0x276 u16 = event number (0x46),
+  map state at +0x342..+0x1B91, checksum +0x1FFE still the byte sum. Fixture: `tools/debug/cards/ev70_map.mcd`.
+  With it the title menu gains CONTINUE (LOAD / NEW GAME / OPTION / CONTINUE; ↓↓ from NEW GAME); title LOAD
+  still says "データファイルが存在しません" (needs a GRD). CONTINUE from a warp-made save hangs on NOW LOADING
+  (>6500 frames, cold boot too): the story-state blocks it restores (+0x214 -> 0x80136BD0, +0x23A -> 0x80141398,
+  0x800C4A20.., 0x80140550) are all zero after a warp, unlike a played game. Open: fill them, or make the save
+  from a played route.
+- Not yet reached: a BATTLE (overlay 0x15). Loader fn 0x8002B054 (loads BATTLE.BIN, string 0x80010B18), used as
+  a fn pointer at 0x8002CEA4. Playing ev70 Turn 01 (master 待機 決定, 命令実行) leaves the cursor on the guardian
+  天龍 forever (only 情報; no button tried - ○×△□ START SELECT L1 R1 - starts the guardian/enemy phase).
+  Guardians act after their master's action ends (web guide); enemies on ev70 are far from the master.
+- GRD filename "BISLPS-01297GRD" at 0x8009B4D8, used in 0x8005DF34 / 0x8005E034 / 0x8005F02C (card lib wrappers;
+  callers not found by direct jal: probably via a pointer).
+- Probes: `tools/lua/exec_log.lua` (log hits on addresses, --debugger), `tools/lua/watch_u32.lua` (log u32 or
+  *pointer changes per frame), `tools/lua/pc_log.lua` (pc/ra every N frames + pause catcher for hangs).

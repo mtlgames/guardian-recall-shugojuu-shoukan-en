@@ -81,3 +81,14 @@ ev67	2	67			1800
 ev68	2	68			1800	
 ev69	2	69			1800	
 ev70	2	70			1800	tactics map, Turn 01 (units, HP/AP bars) after its intro
+tac_unit_menu	2	70		1750 -;6 circle;60 -	2300	unit command menu: 移動 情報 行動 思考 待機
+tac_action	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;60 -	2350	行動 submenu: 超力 アイテム 話す 送還
+tac_power	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -	2400	超力 list + help box
+tac_think	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -	2450	思考 list (guardian orders) + help box
+tac_info	2	70		1750 -;6 circle;40 -;6 down;15 -;6 circle;90 -	2350	情報 (unit info screen)
+tac_wait	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;60 -	2400	待機: 決定 / キャンセル
+tac_ring	2	70		1750 -;6 triangle;80 -	2300	field ring menu (triangle), on UNIT
+tac_config	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;90 -	2700	ring > CONFIG
+tac_mission	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 circle;90 -	2500	ring > MISSION
+tac_break	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;60 -	2700	ring > BREAK: マップセーブを行いますか？
+tac_saved	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;60 -;6 up;20 -;6 circle;1100 -	3800	BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)
