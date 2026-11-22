@@ -36,7 +36,10 @@ for name, n, frames, note in [("replay_d2", 0, "2000", "disc 2 イベント再�
                  note, "unlock.mcd"))
 rows += [
     ("disc_swap", "1", "7>2", "0x8013DE46=0x1", "", "1500", "DAY disc check: DISC 1を入れてください (disc id faked as 2)"),
-    ("disc_swap2", "1", "7>call:0x8004C900", "0x8013CEE4=0x2", "", "1500", "DAY disc check: DISC 2を入れてください")]
+    ("disc_swap2", "1", "7>call:0x8004C900", "0x8013CEE4=0x2", "", "1500", "DAY disc check: DISC 2を入れてください"),
+    # DAY enter mode = (flag byte 0x8013E57B & 1) + 1 on disc 1: 2 = the second swap screen (heroine + Guardian Recall logo)
+    ("disc_swap3", "1", "7>call:0x8004C900", "0x8013E57B=0x1:1", "", "1800",
+     "DAY disc check, 2nd variant: DISC 2 を 入れてください (heroine, logo)")]
 LABEL = {1: "天の章 opening (city at night)", 2: "熊本支部 KUMAMOTO", 4: "フェリー OITA-EHIME", 5: "桜井海岸 EHIME",
          6: "白虎の間 Unknown Place", 7: "天の章第六話 大鳴門橋の罠", 8: "名古屋地下街 AICHI", 9: "京の宿 KYOTO",
          10: "地の章 opening (city at night)", 11: "地の章 card", 12: "青森支部 AOMORI", 13: "七ヶ宿ダム MIYAGI",

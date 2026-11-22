@@ -30,6 +30,7 @@ local OVL, OVL_ACTION, OVL_JAPAN = 0x80166218, 0x0D, 0x0C
 -- scenes.tsv: name, disc, target, writes ("0xADDR=0xVAL[:1|2|4];..."), route ("frames buttons;..."), frames, note.
 -- target:  N        start event N (1..70)
 --          call:A[:ARG]  call game function A(ARG) once from the main loop (a mode setter: BRAIN = 0x8004C9C0)
+--          V>op:HEX  event-script bytes run at the interpreter's PC inside event V (op:23000100000000 = DAY menu)
 --          V>T      start field event V first, then T from inside it: anything that goes through the DAY
 --                   intermission (disc check) crashes when started from the route-choice screen (its RSEL tasks)
 --          idle     no warp: stop on the screen the boot reaches (route choice)
@@ -42,7 +43,9 @@ local function target(t, s)
   if ov then s.ovl, s.event = tonumber(ov, 16), 0; return s end
   local via, rest = t:match("^(%d+)>(.+)$")
   if via then s.via, t = tonumber(via), rest end
-  local a, g = t:match("^call:(0x%x+):?(%d*)$")
+  local op = t:match("^op:(%x+)$")
+  if op then s.op, s.event = op, 0; return s end
+  local a, g = t:match("^call:(0x%x+):?(%w*)$")  -- ARG: decimal or 0x hex (32-bit)
   if a then s.call, s.arg, s.event = tonumber(a), tonumber(g), 0 else s.event = tonumber(t) end
   return s
 end
@@ -136,12 +139,19 @@ L.on_frame(function(n)
 
   if stage == "ready" then
     apply_writes(scene.writes)
-    if scene.call then
+    if scene.op then
+      -- inject event-script bytes at the interpreter's PC (u16 at gp+0xC6 into the buffer 0x800B68F0)
+      local pc = 0x800B68F0 + r16(PCSX.getRegisters().GPR.n.gp % 2^32 + 0xC6)
+      for i = 1, #scene.op, 2 do w8(pc + (i - 1) / 2, tonumber(scene.op:sub(i, i + 1), 16)) end
+      w32(TASK, IDLE)
+      L.log(string.format("warp: script op %s at %08X, frame %d", scene.op, pc, n))
+    elseif scene.call then
       -- stub: task = idle, a0 = arg, then tail-call the target, which returns into the main loop
-      local t = scene.call
+      local t, g = scene.call, scene.arg or 0
       poke_code(STUB, { 0x3C088014, 0x3C098001, 0x3529A5A0, 0xAD09CEE0,           -- sw IDLE -> 0x8013CEE0
                         0x3C0A0000 + math.floor(t / 65536), 0x354A0000 + t % 65536,  -- t2 = target
-                        0x24040000 + (scene.arg or 0), 0x01400008, 0 })             -- a0 = arg; jr t2
+                        0x3C040000 + math.floor(g / 65536), 0x34840000 + g % 65536,  -- a0 = arg (lui/ori)
+                        0x01400008, 0 })                                             -- jr t2
       w32(TASK, STUB)
       L.log(string.format("warp: call %08X(%d) at frame %d", t, scene.arg or 0, n))
     else
