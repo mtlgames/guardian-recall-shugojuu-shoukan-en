@@ -21,7 +21,8 @@ FIELDS = {                       # card offset: (length, RAM it loads into, mean
     0x3A6: (0x100, 0x8013E550, 'event flag array (BRAIN copies it into si)'),
     0x4DE: (0x180, 0x80157A90, 'system data (u32 time, u32 event, flags)'),
 }
-UNLOCK = [(0x23A + 0xA, 50, 0x01), (0x3A6, 0x100, 0xFF)]
+# block A (all 0xFF) unlocks the epilogue replays; BRAIN also copies its +6..+0x26 to 0x8013DE14 (options area)
+UNLOCK = [(0x214, 0x26, 0xFF), (0x23A + 0xA, 50, 0x01), (0x3A6, 0x100, 0xFF)]
 
 
 def files(card):

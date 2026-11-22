@@ -18,11 +18,22 @@ for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守�
                          ("opt_guardians", "8 right;40 -;8 circle", "OPTION > 守護獣図鑑 (gd.txd)"),
                          ("opt_replay", "8 down;40 -;8 circle", "OPTION > イベント再現 (rep.txd)"),
                          ("opt_dictionary", "8 down;40 -;8 right;40 -;8 circle", "OPTION > 用語辞典 (dic.txd)"),
-                         ("opt_charfile", "8 down;40 -;8 down;40 -;8 circle", "OPTION > キャラファイル (cf.txd)")]:
+                         ("opt_charfile", "8 down;40 -;8 down;40 -;8 circle", "OPTION > キャラファイル (cf.txd)"),
+                         ("opt_music", "8 triangle;300 -", "OPTION > △ MUSIC MODE (track 1:MAIN THEME, scrolling)"),
+                         ("opt_music_track", "8 triangle;300 -;8 r2;300 -", "MUSIC MODE > R2: next track")]:
     rows.append((name, "1", "ovl:16", "", OPT + (";" + keys + ";400 -" if keys else ""), "1800", note))
-    if keys:  # same screen with every entry unlocked: card made by tools/debug/save.py --unlock-all
+    if keys and "triangle" not in keys:  # same screen with every entry unlocked: card made by tools/debug/save.py --unlock-all
         rows.append((name + "_all", "1", "ovl:16", "", rows[-1][4], "1800", note + ", all entries (unlock.mcd)",
                      "unlock.mcd"))
+# disc 2 OPTION > イベント再現 lists rep entries 44-84 (disc 1 shows 1-43); entry 39 = エンディング (staff credits,
+# STAFF.STR ~19000 frames), 40/41 = epilogues. Unlocked card; the list ignores presses closer than ~30 frames.
+REP2 = OPT + ";8 down;40 -;8 circle;400 -"
+for name, n, frames, note in [("replay_d2", 0, "2000", "disc 2 イベント再現 list (entries 44-84)"),
+                              ("ending", 38, "23000", "イベント再現 > エンディング: ending + staff credits to the end"),
+                              ("epilogue_miyuki", 39, "5500", "イベント再現 > エピローグ（美由紀バージョン）"),
+                              ("epilogue_yuko", 40, "5500", "イベント再現 > エピローグ（裕子バージョン）")]:
+    rows.append((name, "2", "ovl:16", "", REP2 + ";6 down;30 -" * n + (";60 -;8 circle;400 -" if n else ""), frames,
+                 note, "unlock.mcd"))
 rows += [
     ("disc_swap", "1", "7>2", "0x8013DE46=0x1", "", "1500", "DAY disc check: DISC 1を入れてください (disc id faked as 2)"),
     ("disc_swap2", "1", "7>call:0x8004C900", "0x8013CEE4=0x2", "", "1500", "DAY disc check: DISC 2を入れてください")]
@@ -31,7 +42,8 @@ LABEL = {1: "天の章 opening (city at night)", 2: "熊本支部 KUMAMOTO", 4: 
          10: "地の章 opening (city at night)", 11: "地の章 card", 12: "青森支部 AOMORI", 13: "七ヶ宿ダム MIYAGI",
          14: "秋田支部 AKITA", 16: "青龍の間", 17: "栃木支部 TOCHIGI", 20: "七龍の章 日光山中",
          21: "栃木支部 TOCHIGI (disc 2)", 22: "国会前庭洋式庭園", 23: "石神井公園", 24: "日比谷公園", 25: "国会議事堂",
-         26: "新宿支部", 27: "トンダーエッグ", 50: "disc 1 (the starter special-cases it)",
+         26: "新宿支部", 27: "トンダーエッグ",
+         48: "DISC 1を入れてください (same screen when warped on disc 1: a swap point, not a disc-1 event)", 50: "disc 1 (the starter special-cases it)",
          70: "tactics map, Turn 01 (units, HP/AP bars) after its intro"}
 for n in range(1, 71):
     disc = "1" if n <= 20 or n == 50 else "2"
@@ -59,6 +71,12 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
          ("tac_break", "2", "70", "", RING + ";6 circle;60 -", "2300", "ring > BREAK: マップセーブを行いますか？"),
          ("tac_saved", "2", "70", "", RING + ";6 circle;60 -;6 up;20 -;6 circle;1100 -", "3400",
           "BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)")]
+# first battle, played from a new game (天 route, event 1): one cycle = a master's 待機 決定 (or dialog ○), cancel,
+# L2 to the next unit; the turn passes once every master has acted. The run stops 500 frames into BATTLE (0x15).
+# Slow (~60000 frames): regen.py --only battle --timeout 2400.
+TURN = "8 circle;30 -" + ";8 down;20 -" * 4 + ";8 circle;30 -;8 circle;60 -;8 cross;20 -;8 cross;20 -;8 l2;40 -"
+rows.append(("battle", "1", "idle", "", "60 -;6 circle;90 -;6 circle;90 -;6 circle;" + ";".join([TURN] * 220)
+             + ";stop:15+500", "90000", "first battle (BATTLE overlay 0x15), event 1 Turn 3-4, from a new game"))
 # the run ends WARP_BOOT (2800) + frames after power-on but the warp lands ~150 frames later: give routes headroom
 rows = [r[:5] + (str(int(r[5]) + 400),) + r[6:] if r[0].startswith("tac_") else r for r in rows]
 with open("tools/debug/scenes.tsv", "w", encoding="utf-8", newline="\n") as f:

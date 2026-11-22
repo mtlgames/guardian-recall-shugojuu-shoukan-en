@@ -9,3 +9,5 @@
 - scripts/emu.py: `--var ROUTE=...` is refused (driver global); name a script's own route var something else (WROUTE).
 - references/emulator-qa.md (PCSX): without `--sav`, every run shares tools/pcsx/memcard1.mcd and the game writes to it; parallel runs race. Pass a fixture card per run.
 - references/emulator-qa.md §Debug tool: a regen pool killed by taskkill on its emulators keeps starting new ones; kill the parent python (regen) first. Two sweeps writing the same work/qa dirs silently mixed results.
+- references/emulator-qa.md §Agent playtest: play.py's default 6-frame press was dropped by this game's tactics menus about half the time; `circle*8` (held 8 frames) with --gap 30 was reliable. Menus that scroll also ignore presses closer than ~30 frames.
+- scripts/lua/pcsx_lib.lua: a Lua script cannot drop the rest of a queued route; to end a run on a game condition call L.shot("final.png"), L.log("final frame N"), L.save_state(STATE_OUT), L.finish(0) itself (warp.lua `stop:X+N`). Worth an L.stop() helper in the driver.

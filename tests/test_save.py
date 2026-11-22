@@ -16,3 +16,4 @@ def test_unlock_card_matches_save_py(tmp_path):
     blk = new[0x2000:0x4000]  # GRS is block 1
     assert sum(blk[:0x1FFE]) & 0xFF == blk[0x1FFE]
     assert blk[0x244:0x276] == b"\x01" * 50 and blk[0x3A6:0x4A6] == b"\xff" * 0x100
+    assert blk[0x214:0x23A] == b"\xff" * 0x26

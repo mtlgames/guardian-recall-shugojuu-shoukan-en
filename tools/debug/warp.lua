@@ -71,10 +71,23 @@ local function apply_writes(spec)
     end
   end
 end
+-- route steps: "FRAMES BUTTONS"; "stop:X+N" ends the run (final shot, --state-out) N frames after overlay X loads
 local function queue_route()
   for step in scene.route:gmatch("[^;]+") do
     local fr, keys = step:match("^%s*(%d+)%s+(%S+)")
     if fr then L.press(keys, tonumber(fr)) end
+    local so, sn = step:match("^%s*stop:(%x+)%+(%d+)")
+    if so then scene.stop_ovl, scene.stop_after = tonumber(so, 16), tonumber(sn) end
+  end
+end
+local stop_seen
+local function check_stop(o, n)
+  if not scene.stop_ovl or (o ~= scene.stop_ovl and not stop_seen) then return end
+  if not stop_seen then stop_seen = n; L.log(string.format("stop overlay %X at %d", o, n)) end
+  if n - stop_seen >= scene.stop_after then
+    L.shot("final.png"); L.log("final frame " .. n)
+    if STATE_OUT then L.save_state(STATE_OUT) end
+    L.finish(0)
   end
 end
 local function start(ev) w16(EVNO, ev); w32(TASK, STARTER) end
@@ -90,6 +103,7 @@ L.on_frame(function(n)
   end
   local o = r32(OVL)
   if o ~= last_ovl then L.log(string.format("overlay %X at %d", o, n)); last_ovl = o end
+  check_stop(o, n)
   local c = r32(CNT)
   if c ~= last_cnt then last_bump, last_cnt = n, c end
   live = (n - last_bump <= 4) and live + 1 or 0
