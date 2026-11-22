@@ -3,7 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 2. Debug tool in progress (warp, scene list, tactics menus, battle, save editor, ending/credits,
-  music mode, disc_swap3 done; game over and day diary left, both RE'd most of the way). Last build: none yet.
+  music mode, disc_swap3, game over done; DAY diary reached from a state, not yet a cold-boot scene; the diary page
+  stalls). Last build: none yet.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -32,29 +33,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
     ovl: scenes, route step `stop:X+N`. Turn flow: the turn passes only after **every master** acted (L2 = next
     unit); the ev70 "guardian stall" was that. ev48 = swap screen on both discs (labelled). Probes
     tools/lua/{story_blocks,poke}.lua.
+  - 2026-11-23 (4): full `regen.py --orig --timeout 2400`: 110/110 ok. **Game over reached** (ev01 defeat =
+    美由紀の戦闘不能; GameOver graphic + dialog + map restart, work/qa/gover01c) and scene `gameover` added (new game,
+    writes `0x800C3060<0x1` = per-frame HP clamp, route step `stopeq:ADDR=VAL+N`; both new in warp.lua). All 70
+    events labelled in mk_scenes.py (51-65 = tactics tutorials). Epilogue scenes lengthened to 12000 (shared FMV
+    opening, distinct later). **DIARY reached** naturally (docs/re/debug.md "DIARY reached"; state
+    work/states/diary.sstate). Emulator stall after an ally master's retire line found and worked around
+    (tools/lua/unstick.lua). New probes units.lua, clamp_hp.lua.
 - **Next (phase 2):**
-  1. Full `regen.py --orig --timeout 2400` (110 scenes) and confirm all ok; look at any sheet not yet checked.
-     epilogue_miyuki and epilogue_yuko end on the same motorbike frame: check their sheets differ later on
-     (shared opening?) or lengthen them.
-  2. **Game over** (2026-11-23 (3), docs/re/debug.md "Units"): HP found = USD 0x800C3050 + i*0x64 + 0x10
-     (allies in ev01 battle state: units 0, 1, 4 -> 0x800C3060, 0x800C30C4, 0x800C31F0). Poke them to 1 **on the
-     map** (`emu.py --state-in work/states/battle.sstate --script tools/lua/poke.lua --var AT=1400`, BATTLE writes
-     stats back so poking mid-battle is lost): the enemy phase kills ちかな (death line verified,
-     work/qa/gover4/f004200.png). Not finished: with `tools/routes/gover_turns.txt` the map then sits at Turn 04 with
-     炎真由 (1 HP) selected and no reaction to ○/△ (play.py session work/play/gover, from work/qa/gover5/s024000.sstate;
-     maybe a softlock because a dead master can't act, maybe just the enemy phase). Next: pc_log there, or poke all
-     three allies to 1 HP before the first enemy phase so one enemy phase wipes them; then make a `gameover` scene
-     (warp.lua writes on the map) and a GOD option (pin ally +0x10).
-  3. **Day diary / save menu (DAY.BIN)**: found the trigger: event-script **op 0x23 sub 1** (installs mode fn
-     0x8002059C -> DAY task with enter_mode 0); warp.lua `V>op:23010000000000` injects it. DAY.BIN loads, then it
-     crashes: via ev20 (ACTION) a clobbered stack ra jumps to 0x8013DE00 ~8 frames later; via ev7 (JAPAN) the console
-     resets in a CD read. Probably needs story state a warp leaves zero (0x80141398 per-event table = card +0x23A;
-     si.diary_no). Next: `tools/lua/write_val.lua --var LO=0x801FFF80 --var HI=0x801FFFFF --var VALUE=0x8013DE00
-     --var FROM=3450` with `--debugger --timeout 3000` on scene `20>op:23010000000000` (very slow: run it in the
-     background, ~1 h), or reach it naturally: win ev01 (enemy HP at USD 25+ +0x10: poke to 1) and save a state when
-     overlay 0x12 loads.
-  4. Label the unlabeled events in `mk_scenes.py` (overview.py over work/qa/warp/ev*).
-  5. Low priority: CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
+  1. `gameover` regen ran ok from a cold boot (her HP hit 0 at frame 111630) but +300 was still the map; stop moved
+     to +900 (GameOver graphic from ~+500, checked by continuing from work/states/gameover.sstate: work/qa/gover_tail).
+     Re-run `regen.py --orig --only gameover --timeout 3600` (~1 h, background) to confirm the final shot.
+  2. **DIARY as a cold-boot scene**: chain battle route + enemy HP clamps (`0x800C3050+i*0x64+0x10<0x1`, i=25..30)
+     + leader teleport (sprite pokes, once the map is up: needs a timed/pinned write in warp.lua) + 待機 cycles + ○
+     mash; or find why the op-0x23 warp crashes by diffing story state against work/ram_day.bin (natural, at the
+     diary). Then: the diary page ignores input (stall; maybe XA again, maybe it waits on something else): find
+     what advances it (DAY task 0x80166508 state machine, a0 0x8017C27C) to reach the save menu after it.
+  3. Low priority: CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks). GOD mode not needed so
+     far (clamp_hp.lua covers forced wins/losses).
 - **Open bugs:** none.
 - **Waiting on the user:** (non-blocking) FMVs are voiced Japanese with no subtitles; default = no FMV subtitles,
   only the STAFF.STR credits get English (D3). Ask if subtitles are wanted.

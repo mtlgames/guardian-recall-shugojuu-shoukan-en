@@ -123,7 +123,15 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   DAY menu (installs mode fn 0x8002059C, which loads DAY.BIN and calls 0x80167C8C(0) = diary/save menu task
   0x80166508; 0x80167C8C(1) is the title LOAD path), 2 = load ACTION.BIN, 4 = DAY disc check (0x8016B998),
   19 = load JAPAN.BIN. warp.lua target `V>op:23010000000000` injects it at the PC inside event V.
-- **DAY menu not reached yet**: the op runs and DAY.BIN loads, but from ev20 (ACTION) the task crashes ~8 frames
+- **DIARY reached naturally (2026-11-23 (4))**: ev01 won from `work/states/battle.sstate`: clamp_hp ENEMY_HP=1 +
+  待機 loop (4 of 5 enemies die attacking, work/qa/win01/s040000), then the leader (unit 26, never moves) teleported
+  next to the party by poking its sprite objects (0x8013E980/2/4 = 600,-100,300; 0x8013E9FC/E/A00 = 600,-100,200),
+  enemy phase kills it, victory dialog, ○ mash: DAY overlay 0x12 at +3509 frames -> DIARY page (天の章第一話
+  守護獣召喚, NAME 天城美由紀, PLACE 福岡 天神高校, 4-line entry). State: `work/states/diary.sstate`. The page then
+  ignores every button for 16000+ frames (CEEE = 0x24; clearing it does nothing). DAY task 0x80166508(a0 =
+  0x8017C27C), per-frame 0x801681D0 -> 0x801670B0 (page draw; reads event no. 0x8013CEE4). Zeroing every enemy's HP
+  on the map does not win: the leader must die in a battle.
+- **DAY menu via op warp** (older notes): the op runs and DAY.BIN loads, but from ev20 (ACTION) the task crashes ~8 frames
   later (returns to 0x8013DE00 with sp 0x801FFFD0: a clobbered stack ra); from ev7 (JAPAN map) the console resets
   during a CD read. Likely missing story state (the case also reads 0x80141398[event], card +0x23A, zero after a
   warp). Next: `tools/lua/write_val.lua` on the stack slot, or play ev01 to its end (natural op) and save a state.

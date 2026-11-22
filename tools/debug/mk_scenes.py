@@ -93,9 +93,9 @@ TURN = "8 circle;30 -" + ";8 down;20 -" * 4 + ";8 circle;30 -;8 circle;60 -;8 cr
 rows.append(("battle", "1", "idle", "", "60 -;6 circle;90 -;6 circle;90 -;6 circle;" + ";".join([TURN] * 220)
              + ";stop:15+500", "90000", "first battle (BATTLE overlay 0x15), event 1 Turn 3-4, from a new game"))
 # game over: same new game, 美由紀 (USD unit 0, HP at 0x800C3060) clamped to 1 HP; event 1's defeat condition is
-# 美由紀の戦闘不能, so the first enemy hit on her ends the map. Stops 300 frames after her HP hits 0, on GameOver.
+# 美由紀の戦闘不能, so the first enemy hit on her ends the map. Stops 900 frames after her HP hits 0 (GameOver shows from ~+500), at ~112500 frames.
 rows.append(("gameover", "1", "idle", "0x800C3060<0x1", "60 -;6 circle;90 -;6 circle;90 -;6 circle;"
-             + ";".join([TURN] * 400) + ";stopeq:0x800C3060=0x0+300", "130000",
+             + ";".join([TURN] * 400) + ";stopeq:0x800C3060=0x0+900", "130000",
              "GameOver (event 1 lost: 美由紀 down) + defeat dialog, from a new game"))
 # the run ends WARP_BOOT (2800) + frames after power-on but the warp lands ~150 frames later: give routes headroom
 rows = [r[:5] + (str(int(r[5]) + 400),) + r[6:] if r[0].startswith("tac_") else r for r in rows]
