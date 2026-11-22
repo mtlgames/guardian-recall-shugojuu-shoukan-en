@@ -96,5 +96,30 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   a fn pointer at 0x8002CEA4.
 - GRD filename "BISLPS-01297GRD" at 0x8009B4D8, used in 0x8005DF34 / 0x8005E034 / 0x8005F02C (card lib wrappers;
   callers not found by direct jal: probably via a pointer).
+- **Units (USD[65])**: array at **0x800C3050**, stride 0x64; +0 Lv, +4 unit_flag (1 = present), +6 unit_no,
+  **+0x10 HP (current, the "Sp" bar)**, +0x12 AP, +0x14 MP (layout from ACTION's debug dump at 0x801690AC; HP
+  verified: an enemy went 112 -> 51 in the `battle` scene). 0-24 = allies (USD_ST[25]), 25+ = enemies. BATTLE
+  copies stats in and writes them back at the end, so poke HP on the map, not mid-battle. HP=1 then an enemy hit:
+  the unit "retires" with a death line (ちかな まいったね。こんなとこでリタイアかい). Level table (Sp u16, Ap u8, Mp u8,
+  8 bytes/level) at 0x80181490 (ev70 RAM).
+- Defeat condition is 味方の全滅 (tac_mission). Defeat voice clips: XA001-003 `gr_xa\編集map\61ゲームオーバー`; quotes
+  in UNN.PAK group 13 sub-entry 11 (ここは退いた方がいい ...).
+
+## Event script interpreter (EXE; verified by exec_log)
+- Buffer **0x800B68F0**, PC = u16 at gp+0xC6 (gp = **0x800B58E4**, so 0x800B59AA); gp+0xC4 = wait. Dispatcher
+  0x8001B3xx reads an op byte: op < 0x20 -> fn table 0x8009328C[op], else 0x8009338C[op-0x20] (8-byte entries fn,
+  flag). Args are little-endian u16 (0x8001D8EC). It is halted while u16 0x8013CEEE & 4 or 0x8013CEEC & 8.
+- **op 0x23** = system call 0x8001EAE4(sub, a, b), sub 0..0x27 via jump table 0x80010650: 1 = end of episode ->
+  DAY menu (installs mode fn 0x8002059C, which loads DAY.BIN and calls 0x80167C8C(0) = diary/save menu task
+  0x80166508; 0x80167C8C(1) is the title LOAD path), 2 = load ACTION.BIN, 4 = DAY disc check (0x8016B998),
+  19 = load JAPAN.BIN. warp.lua target `V>op:23010000000000` injects it at the PC inside event V.
+- **DAY menu not reached yet**: the op runs and DAY.BIN loads, but from ev20 (ACTION) the task crashes ~8 frames
+  later (returns to 0x8013DE00 with sp 0x801FFFD0: a clobbered stack ra); from ev7 (JAPAN map) the console resets
+  during a CD read. Likely missing story state (the case also reads 0x80141398[event], card +0x23A, zero after a
+  warp). Next: `tools/lua/write_val.lua` on the stack slot, or play ev01 to its end (natural op) and save a state.
+- DAY enter modes (0x8016B998 a0 = disc id == 0): disc 2 -> 0 = "DISC 1を入れてください"; disc 1 -> (byte
+  0x8013E57B & 1) + 1: 1 = DISC 2 screen (scene disc_swap2), 2 = second DISC 2 screen (heroine + logo, disc_swap3).
+- Probes: `tools/lua/exec_range.lua` (exec hooks on every word of a small range), `tools/lua/write_val.lua` (who
+  stores VALUE into a range), `tools/lua/dumpram_at.lua` (several frames: `DUMP_AT='5,600'`).
 - Probes: `tools/lua/exec_log.lua` (log hits on addresses, --debugger), `tools/lua/watch_u32.lua` (log u32 or
   *pointer changes per frame), `tools/lua/pc_log.lua` (pc/ra every N frames + pause catcher for hangs).
