@@ -102,7 +102,17 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   copies stats in and writes them back at the end, so poke HP on the map, not mid-battle. HP=1 then an enemy hit:
   the unit "retires" with a death line (ちかな まいったね。こんなとこでリタイアかい). Level table (Sp u16, Ap u8, Mp u8,
   8 bytes/level) at 0x80181490 (ev70 RAM).
-- Defeat condition is 味方の全滅 (tac_mission). Defeat voice clips: XA001-003 `gr_xa\編集map\61ゲームオーバー`; quotes
+- Conditions per map (ring > MISSION): ev70 勝利 真・龍鬼の戦闘不能 / 敗北 味方の全滅; **ev01 勝利 敵の全滅 / 敗北
+  美由紀の戦闘不能** (unit 0). The check runs after a battle, not on HP alone: poking HP 0 or flag 2 on the map
+  does nothing. **Game over verified** (work/qa/gover01c): 美由紀 at 1 HP, enemy hit -> "GameOver" graphic + defeat
+  dialog -> 勝利/敗北条件 card -> the map restarts at Turn 01 with full HP. Scene `gameover` (new game, writes
+  `0x800C3060<0x1` = clamp her HP, stops on her HP reaching 0). Unit +8 = order slot, +0x30/+0x34 -> sprite
+  objects (world x/height/z at +0x48 halfwords, 100 per tile); ev01's leader (unit 26) never leaves its spot.
+- **Stall after an ally master retires** (emulator): after ちかな's retire line u16 0x8013CEEE keeps bits 0x14
+  (normal 0x20; bit 4 halts the event script) and the map ignores all buttons for good. Clearing them resumes
+  the enemy phase: `tools/lua/unstick.lua`. Not a translation concern; likely an XA end PCSX-Redux never signals.
+- Probes: `tools/lua/units.lua` (USD dump every N frames), `tools/lua/clamp_hp.lua` (ALLY_HP / ENEMY_HP).
+- Defeat voice clips: XA001-003 `gr_xa\編集map\61ゲームオーバー`; quotes
   in UNN.PAK group 13 sub-entry 11 (ここは退いた方がいい ...).
 
 ## Event script interpreter (EXE; verified by exec_log)

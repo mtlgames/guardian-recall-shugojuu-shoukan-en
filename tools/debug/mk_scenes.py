@@ -30,8 +30,9 @@ for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守�
 REP2 = OPT + ";8 down;40 -;8 circle;400 -"
 for name, n, frames, note in [("replay_d2", 0, "2000", "disc 2 イベント再現 list (entries 44-84)"),
                               ("ending", 38, "23000", "イベント再現 > エンディング: ending + staff credits to the end"),
-                              ("epilogue_miyuki", 39, "5500", "イベント再現 > エピローグ（美由紀バージョン）"),
-                              ("epilogue_yuko", 40, "5500", "イベント再現 > エピローグ（裕子バージョン）")]:
+                              # the two epilogue FMVs share their opening (~5500 frames) and part later
+                              ("epilogue_miyuki", 39, "12000", "イベント再現 > エピローグ（美由紀バージョン）"),
+                              ("epilogue_yuko", 40, "12000", "イベント再現 > エピローグ（裕子バージョン）")]:
     rows.append((name, "2", "ovl:16", "", REP2 + ";6 down;30 -" * n + (";60 -;8 circle;400 -" if n else ""), frames,
                  note, "unlock.mcd"))
 rows += [
@@ -46,6 +47,17 @@ LABEL = {1: "天の章 opening (city at night)", 2: "熊本支部 KUMAMOTO", 4: 
          14: "秋田支部 AKITA", 16: "青龍の間", 17: "栃木支部 TOCHIGI", 20: "七龍の章 日光山中",
          21: "栃木支部 TOCHIGI (disc 2)", 22: "国会前庭洋式庭園", 23: "石神井公園", 24: "日比谷公園", 25: "国会議事堂",
          26: "新宿支部", 27: "トンダーエッグ",
+         3: "朱雀の間 Unknown Place", 15: "地の章第六話 ふせげ!恐怖のダムダム作戦", 18: "青龍の間 Unknown Place",
+         19: "栃木支部 TOCHIGI", 28: "新宿中央公園 Shinjuku", 29: "JAPAN map, then a three-figure scene",
+         30: "JAPAN map, then a night map", 31: "JAPAN map, then woman in red at a tower",
+         32: "国会議事堂, then 覚醒の章第五話 天地覚醒", 33: "妃龍鬼殿 Tokyo Bay, then 第六話 突入!妃龍鬼殿",
+         34: "妃龍鬼殿, then 第七話 決戦!四門将", 35: "妃龍鬼殿, then 第八話 出現!合体守護獣ぬえ",
+         36: "妃龍鬼殿 (sky) 22:24", 37: "妃龍鬼殿跡 22:35, dragon", 38: "妃龍鬼殿 (sky) 22:45, map",
+         39: "妃龍鬼殿跡 23:06", 40: "妃龍鬼殿 (sky) 23:13", 41: "妃龍鬼殿 (sky) 23:26", 42: "妃龍鬼殿 (sky) 23:49",
+         43: "unit status list", 44: "field, wooden floor", 45: "green-lit cage room",
+         46: "night horizon, then 地の章第六話 card", 47: "天の章第壱話 守護獣召喚 card", 49: "tactics map Turn 01",
+         **{n: "tactics tutorial (ステップ lessons, 守護獣戦術指南)" for n in range(51, 66)},
+         66: "control room dialog", 67: "control room dialog", 68: "control room dialog", 69: "night street field",
          48: "DISC 1を入れてください (same screen when warped on disc 1: a swap point, not a disc-1 event)", 50: "disc 1 (the starter special-cases it)",
          70: "tactics map, Turn 01 (units, HP/AP bars) after its intro"}
 for n in range(1, 71):
@@ -80,6 +92,11 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
 TURN = "8 circle;30 -" + ";8 down;20 -" * 4 + ";8 circle;30 -;8 circle;60 -;8 cross;20 -;8 cross;20 -;8 l2;40 -"
 rows.append(("battle", "1", "idle", "", "60 -;6 circle;90 -;6 circle;90 -;6 circle;" + ";".join([TURN] * 220)
              + ";stop:15+500", "90000", "first battle (BATTLE overlay 0x15), event 1 Turn 3-4, from a new game"))
+# game over: same new game, 美由紀 (USD unit 0, HP at 0x800C3060) clamped to 1 HP; event 1's defeat condition is
+# 美由紀の戦闘不能, so the first enemy hit on her ends the map. Stops 300 frames after her HP hits 0, on GameOver.
+rows.append(("gameover", "1", "idle", "0x800C3060<0x1", "60 -;6 circle;90 -;6 circle;90 -;6 circle;"
+             + ";".join([TURN] * 400) + ";stopeq:0x800C3060=0x0+300", "130000",
+             "GameOver (event 1 lost: 美由紀 down) + defeat dialog, from a new game"))
 # the run ends WARP_BOOT (2800) + frames after power-on but the warp lands ~150 frames later: give routes headroom
 rows = [r[:5] + (str(int(r[5]) + 400),) + r[6:] if r[0].startswith("tac_") else r for r in rows]
 with open("tools/debug/scenes.tsv", "w", encoding="utf-8", newline="\n") as f:

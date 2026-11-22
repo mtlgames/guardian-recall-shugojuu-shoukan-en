@@ -74,18 +74,35 @@ local function apply_writes(spec)
     end
   end
 end
--- route steps: "FRAMES BUTTONS"; "stop:X+N" ends the run (final shot, --state-out) N frames after overlay X loads
+-- "0xADDR<0xVAL": clamp, every frame from the warp on, the u16 at ADDR to at most VAL (unit HP: a master at 1 HP
+-- dies in her next battle, while BATTLE's write-back of 0 is left alone)
+local clamps = {}
+for a, v in scene.writes:gmatch("(0x%x+)<(0x%x+)") do clamps[#clamps + 1] = { tonumber(a), tonumber(v) } end
+local function apply_clamps()
+  for _, c in ipairs(clamps) do if r16(c[1]) > c[2] then w16(c[1], c[2]) end end
+end
+-- route steps: "FRAMES BUTTONS"; "stop:X+N" ends the run (final shot, --state-out) N frames after overlay X loads;
+-- "stopeq:0xADDR=0xVAL+N" N frames after the u16 at ADDR becomes VAL (having been something else first)
 local function queue_route()
   for step in scene.route:gmatch("[^;]+") do
     local fr, keys = step:match("^%s*(%d+)%s+(%S+)")
     if fr then L.press(keys, tonumber(fr)) end
     local so, sn = step:match("^%s*stop:(%x+)%+(%d+)")
     if so then scene.stop_ovl, scene.stop_after = tonumber(so, 16), tonumber(sn) end
+    local ma, mv, mn = step:match("^%s*stopeq:(0x%x+)=(0x%x+)%+(%d+)")
+    if ma then scene.stop_mem, scene.stop_val, scene.stop_after = tonumber(ma), tonumber(mv), tonumber(mn) end
   end
 end
-local stop_seen
+local stop_seen, stop_armed
 local function check_stop(o, n)
-  if not scene.stop_ovl or (o ~= scene.stop_ovl and not stop_seen) then return end
+  if scene.stop_mem and not stop_seen then
+    local v = r16(scene.stop_mem)
+    if v ~= scene.stop_val then stop_armed = true; return end
+    if not stop_armed then return end
+    stop_seen = n; L.log(string.format("stop: %08X = %X at %d", scene.stop_mem, v, n))
+  end
+  if not scene.stop_ovl and not stop_seen then return end
+  if not stop_seen and o ~= scene.stop_ovl then return end
   if not stop_seen then stop_seen = n; L.log(string.format("stop overlay %X at %d", o, n)) end
   if n - stop_seen >= scene.stop_after then
     L.shot("final.png"); L.log("final frame " .. n)
@@ -167,4 +184,5 @@ L.on_frame(function(n)
   elseif (stage == "running" or stage == "done") and ADVANCE and L.route_done() and n % ADVANCE == 0 then
     L.press(ADVANCE_KEY or "circle", 6)
   end
+  if stage == "warped" or stage == "running" then apply_clamps() end
 end)
