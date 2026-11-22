@@ -60,10 +60,15 @@ if SCENE then
   assert(scene, "scene not in scenes.tsv: " .. SCENE)
 end
 
+-- writes: "0xADDR=0xVAL[:1|2|4]" (default u16) or "0xADDR=0xVAL*N" (N bytes of VAL), ";"-separated
 local function apply_writes(spec)
-  for a, v, w in spec:gmatch("(0x%x+)=(0x%x+):?(%d*)") do
-    local W = ({ ["1"] = w8, ["4"] = w32 })[w] or w16
-    W(tonumber(a), tonumber(v))
+  for a, v, w, n in spec:gmatch("(0x%x+)=(0x%x+):?(%d*)%*?(%w*)") do
+    if n ~= "" then
+      for i = 0, tonumber(n) - 1 do w8(tonumber(a) + i, tonumber(v)) end
+    else
+      local W = ({ ["1"] = w8, ["4"] = w32 })[w] or w16
+      W(tonumber(a), tonumber(v))
+    end
   end
 end
 local function queue_route()
@@ -95,7 +100,8 @@ L.on_frame(function(n)
 
   if stage == "boot" and scene.ovl then
     if o == scene.ovl then
-      stage = "running"; queue_route(); L.log(string.format("overlay scene %X reached at %d", o, n))
+      stage = "running"; apply_writes(scene.writes); queue_route()
+      L.log(string.format("overlay scene %X reached at %d", o, n))
     elseif n % 40 == 0 then L.press("start", 6) end
   elseif stage == "boot" then
     if ready then

@@ -5,10 +5,15 @@ title_load	1	ovl:16		520 -;8 start;150 -;8 up;60 -;8 start;600 -	1500	title > LO
 route_choice	1	idle		60 -	600	天/地 route choice (RSEL), where new games start
 option	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -	1800	OPTION menu: 守護獣戦術指南 守護獣図鑑 イベント再現 用語辞典 キャラファイル EXIT
 opt_tactics	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 circle;400 -	1800	OPTION > 守護獣戦術指南 (tutorial list, tu.txd)
+opt_tactics_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 circle;400 -	1800	OPTION > 守護獣戦術指南 (tutorial list, tu.txd), all entries (unlock.mcd)	unlock.mcd
 opt_guardians	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 right;40 -;8 circle;400 -	1800	OPTION > 守護獣図鑑 (gd.txd)
+opt_guardians_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 right;40 -;8 circle;400 -	1800	OPTION > 守護獣図鑑 (gd.txd), all entries (unlock.mcd)	unlock.mcd
 opt_replay	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 circle;400 -	1800	OPTION > イベント再現 (rep.txd)
+opt_replay_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 circle;400 -	1800	OPTION > イベント再現 (rep.txd), all entries (unlock.mcd)	unlock.mcd
 opt_dictionary	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 right;40 -;8 circle;400 -	1800	OPTION > 用語辞典 (dic.txd)
+opt_dictionary_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 right;40 -;8 circle;400 -	1800	OPTION > 用語辞典 (dic.txd), all entries (unlock.mcd)	unlock.mcd
 opt_charfile	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 down;40 -;8 circle;400 -	1800	OPTION > キャラファイル (cf.txd)
+opt_charfile_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 down;40 -;8 circle;400 -	1800	OPTION > キャラファイル (cf.txd), all entries (unlock.mcd)	unlock.mcd
 disc_swap	1	7>2	0x8013DE46=0x1		1500	DAY disc check: DISC 1を入れてください (disc id faked as 2)
 disc_swap2	1	7>call:0x8004C900	0x8013CEE4=0x2		1500	DAY disc check: DISC 2を入れてください
 ev01	1	1			1800	天の章 opening (city at night)
@@ -90,5 +95,9 @@ tac_wait	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 down;1
 tac_ring	2	70		1750 -;6 triangle;80 -	2300	field ring menu (triangle), on UNIT
 tac_config	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;90 -	2700	ring > CONFIG
 tac_mission	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 circle;90 -	2500	ring > MISSION
+tac_unit	2	70		1750 -;6 triangle;60 -;6 circle;120 -	2600	ring > UNIT
+tac_map	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 circle;120 -	2600	ring > MAP
+tac_diagram	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;120 -	2600	ring > DIAGRAM
+tac_search	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;120 -	2600	ring > SEARCH
 tac_break	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;60 -	2700	ring > BREAK: マップセーブを行いますか？
 tac_saved	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;60 -;6 up;20 -;6 circle;1100 -	3800	BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)

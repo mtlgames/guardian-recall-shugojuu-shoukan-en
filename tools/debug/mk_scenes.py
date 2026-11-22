@@ -2,7 +2,8 @@
 
     python -X utf8 tools/debug/mk_scenes.py
 
-Columns: name, disc, target, writes, route, frames (after the warp), note. Targets and route syntax: warp.lua header.
+Columns: name, disc, target, writes, route, frames (after the warp), note[, card in tools/debug/cards/].
+Targets and route syntax: warp.lua header.
 Event labels come from the regen sweep's location cards (tools/debug/overview.py); blank = not yet looked at.
 """
 rows = [("# name", "disc", "target", "writes", "route", "frames", "note")]
@@ -19,6 +20,9 @@ for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守�
                          ("opt_dictionary", "8 down;40 -;8 right;40 -;8 circle", "OPTION > 用語辞典 (dic.txd)"),
                          ("opt_charfile", "8 down;40 -;8 down;40 -;8 circle", "OPTION > キャラファイル (cf.txd)")]:
     rows.append((name, "1", "ovl:16", "", OPT + (";" + keys + ";400 -" if keys else ""), "1800", note))
+    if keys:  # same screen with every entry unlocked: card made by tools/debug/save.py --unlock-all
+        rows.append((name + "_all", "1", "ovl:16", "", rows[-1][4], "1800", note + ", all entries (unlock.mcd)",
+                     "unlock.mcd"))
 rows += [
     ("disc_swap", "1", "7>2", "0x8013DE46=0x1", "", "1500", "DAY disc check: DISC 1を入れてください (disc id faked as 2)"),
     ("disc_swap2", "1", "7>call:0x8004C900", "0x8013CEE4=0x2", "", "1500", "DAY disc check: DISC 2を入れてください")]
@@ -50,6 +54,8 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
          ("tac_config", "2", "70", "", RING.rsplit(";6 down;40 -", 1)[0] + ";6 circle;90 -", "2300", "ring > CONFIG"),
          ("tac_mission", "2", "70", "", MAP + ";6 triangle;60 -;6 down;40 -;6 down;40 -;6 circle;90 -", "2100",
           "ring > MISSION"),
+         *[(f"tac_{k}", "2", "70", "", MAP + ";6 triangle;60 -" + ";6 down;40 -" * d + ";6 circle;120 -", "2200",
+            f"ring > {k.upper()}") for k, d in [("unit", 0), ("map", 1), ("diagram", 3), ("search", 4)]],
          ("tac_break", "2", "70", "", RING + ";6 circle;60 -", "2300", "ring > BREAK: マップセーブを行いますか？"),
          ("tac_saved", "2", "70", "", RING + ";6 circle;60 -;6 up;20 -;6 circle;1100 -", "3400",
           "BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)")]
@@ -57,5 +63,5 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
 rows = [r[:5] + (str(int(r[5]) + 400),) + r[6:] if r[0].startswith("tac_") else r for r in rows]
 with open("tools/debug/scenes.tsv", "w", encoding="utf-8", newline="\n") as f:
     for r in rows:
-        assert len(r) == 7, r
+        assert len(r) in (7, 8), r
         f.write("\t".join(r) + "\n")

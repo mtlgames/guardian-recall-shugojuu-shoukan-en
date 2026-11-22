@@ -56,8 +56,21 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   warp_entry_count +0x130, xa_entcnt +0x1FC. How si maps into the card file: open (guess: the 0x180 block).
 - GRD load 0x8003BC4C: card buffer (u32 at 0x800B5F04) +0x214 (0x26) -> 0x80136BD0, +0x23A (0x3C) -> 0x80141398,
   +0x276 (0x230) -> 0x800C4A20 (first u16 = event number -> 0x8013CEE4; 25 x 4-byte unit stats), 0x800C4B50
-  (0x100) -> 0x80140550. Saving happens inside ACTION (fn 0x8003B1E8 called 11x from ACTION; ACTION has
+  (= card +0x3A6, 0x100) -> 0x8013E550 (event flag array). Saving happens inside ACTION (fn 0x8003B1E8 called 11x from ACTION; ACTION has
   SAVE_EXTRA/SAVE_ARRAY debug dumps: turn-based map state) - not yet triggered.
+
+## Save editor and OPTION unlocks (verified: scenes opt_*_all show every entry)
+- `tools/debug/save.py CARD` lists the GRS/GRD fields; `--out NEW --unlock-all` (or `--poke OFF=HEX`, `--fill
+  OFF:LEN=V`, `--event N`) edits a game-written card and fixes the +0x1FFE checksum. Fixture
+  `tools/debug/cards/unlock.mcd` = sys.mcd + `--unlock-all`; boots with no card error.
+- The OPTION encyclopedias don't keep their own flags: BRAIN.BIN (0x80163030, 0x80163140, 0x80163298, loaded at
+  0x80162F88) rebuilds the si struct (0x80152258) on entry from the story blocks the card load fills:
+  0x80141398 (card +0x23A; +0xA = 50 per-entry bytes), 0x8013E550 (card +0x3A6, 0x100-byte event-flag array),
+  0x80136BD0 (card +0x214). Writing si or 0x80157A90 in RAM does nothing (rebuilt). --unlock-all sets
+  +0x244..+0x275 = 1 and +0x3A6..+0x4A5 = 0xFF.
+- The map save (BREAK) does not write si. Overlay ids: HEN.BIN 0x0B (編成 formation/equipment screen before a
+  tactics map: × twice -> 編成を終了します。 はい), CALL02 9, MAP02 6, MENU 0x0A, DIC 0x0F, CF 0x10, GD 0x11, REP 0x13,
+  TU 0x14.
 
 ## Tactics map (verified on ev70 by play.py session work/play/t70 and the tac_* scenes)
 - Overlay id reads 0 on the tactics map. ○ on a master: 移動 情報 行動 思考 待機; 行動 -> 超力 アイテム 話す 送還;
@@ -73,10 +86,14 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   (>6500 frames, cold boot too): the story-state blocks it restores (+0x214 -> 0x80136BD0, +0x23A -> 0x80141398,
   0x800C4A20.., 0x80140550) are all zero after a warp, unlike a played game. Open: fill them, or make the save
   from a played route.
-- Not yet reached: a BATTLE (overlay 0x15). Loader fn 0x8002B054 (loads BATTLE.BIN, string 0x80010B18), used as
-  a fn pointer at 0x8002CEA4. Playing ev70 Turn 01 (master 待機 決定, 命令実行) leaves the cursor on the guardian
-  天龍 forever (only 情報; no button tried - ○×△□ START SELECT L1 R1 - starts the guardian/enemy phase).
-  Guardians act after their master's action ends (web guide); enemies on ev70 are far from the master.
+- **Turn flow** (verified on ev01, natural new game): after a master's action the cursor jumps to its guardian
+  (only 情報); the turn does not pass until **every master** has acted: **L2** (R2 likely the other way) cycles to
+  the next unit. After the last master: enemy phase (red M/G UNIT panels), then scripted dialog. The ev70 / warped
+  ev02 "stall" was this, not missing state. Warped events give Lv 65 masters; a natural new game Lv 3-6.
+- Natural new game: `route_choice` + ○ (天) starts event 1 (JAPAN map, story, then tactics map ~20000 frames of ○
+  mashing). States: work/states/rc_ten.sstate (just after the choice), work/qa/nat1/s*.sstate.
+- Battle: BATTLE.BIN (0x15) plays attack animations (G<guardian>_B<anim>, M<master>_B<anim> from BTL.PAK). Loader fn 0x8002B054 (loads BATTLE.BIN, string 0x80010B18), used as
+  a fn pointer at 0x8002CEA4.
 - GRD filename "BISLPS-01297GRD" at 0x8009B4D8, used in 0x8005DF34 / 0x8005E034 / 0x8005F02C (card lib wrappers;
   callers not found by direct jal: probably via a pointer).
 - Probes: `tools/lua/exec_log.lua` (log hits on addresses, --debugger), `tools/lua/watch_u32.lua` (log u32 or

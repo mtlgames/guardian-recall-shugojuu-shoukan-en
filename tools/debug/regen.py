@@ -5,6 +5,7 @@
 Each scene boots its disc (build/disc<N>/*.cue, or rom/ with --orig or when there is no build). Per scene:
 work/qa/warp/<name>/ (shots every 150 frames, sheet.png, log.txt) and work/states/<name>.sstate. A scene passes
 when warp.lua logged "<event|call> N started". --events A-B warps raw event numbers (names ev<N>) to map new ones.
+An optional 8th scenes.tsv column names the scene's memory card in tools/debug/cards/ (default sys.mcd).
 Exit 1 if any scene failed.
 """
 import argparse, concurrent.futures as cf, glob, os, re, subprocess, sys
@@ -23,8 +24,9 @@ def scenes():
             if line.startswith('#') or not line.strip():
                 continue
             c = line.rstrip('\n').split('\t')
-            assert len(c) == 7, f'scenes.tsv row needs 7 columns: {line!r}'
-            rows.append({'name': c[0], 'disc': int(c[1]), 'target': c[2], 'frames': int(c[5] or 1800)})
+            assert len(c) in (7, 8), f'scenes.tsv row needs 7 columns (+ optional card): {line!r}'
+            card = os.path.join(REPO, 'tools/debug/cards', c[7]) if len(c) == 8 and c[7] else None
+            rows.append({'name': c[0], 'disc': int(c[1]), 'target': c[2], 'frames': int(c[5] or 1800), 'card': card})
     return rows
 
 
@@ -39,7 +41,7 @@ def run(sc, args):
            '--out', out, '--script', os.path.join(REPO, 'tools/debug/warp.lua'),
            '--frames', str(WARP_BOOT + (args.frames or sc['frames'])), '--shot-every', '150', '--sheet',
            '--timeout', str(args.timeout), '--state-out', os.path.join(REPO, 'work/states', sc['name'] + '.sstate'),
-           '--sav', args.card]  # own copy per run: the shared portable card would race between parallel runs
+           '--sav', sc.get('card') or args.card]  # own copy per run: the shared portable card would race between parallel runs
     cmd += ['--var', f"EVENT={sc['target']}"] if sc.get('raw') else ['--var', f"SCENE='{sc['name']}'"]
     for v in args.var or []:
         cmd += ['--var', v]
