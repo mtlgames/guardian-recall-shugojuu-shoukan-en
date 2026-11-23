@@ -32,84 +32,91 @@
   {
    "id": "day.001b8",
    "jp": "いいえ",
-   "en": "",
+   "en": "No",
    "off": 440,
    "room": 8,
    "refs": [
     "w8016C0A8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "day.001c0",
    "jp": "はい",
-   "en": "",
+   "en": "Yes",
    "off": 448,
    "room": 8,
    "refs": [
     "w8016C0A4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "day.001c8",
    "jp": "ロード",
-   "en": "",
+   "en": "load",
    "off": 456,
    "room": 8,
    "refs": [
     "w8016C0B0"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "day.001d0",
    "jp": "セーブ",
-   "en": "",
+   "en": "save",
    "off": 464,
    "room": 8,
    "refs": [
     "w8016C0AC"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "day.0020c",
    "jp": "ＮＯ　ＤＡＴＡ",
-   "en": "",
+   "en": "NO DATA",
    "off": 524,
    "room": 16,
    "refs": [
     "p80169D84"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "day.00250",
    "jp": "ＧＲ－００　ガーディアンリコール　システムファイル",
-   "en": "",
+   "en": "ＧＲ－００　Ｇｕａｒｄｉａｎ　Ｒｅｃａｌｌ",
    "off": 592,
    "room": 52,
    "refs": [
     "p8016B07C"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "day.0029c",
    "jp": "／",
-   "en": "",
+   "en": "/",
    "off": 668,
    "room": 4,
    "refs": [
     "p8016AB3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "day.002a0",

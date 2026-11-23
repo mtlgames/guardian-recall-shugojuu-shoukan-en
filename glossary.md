@@ -135,6 +135,12 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 瀬戸大橋 | Seto Ohashi Bridge | | | |
 | 大鳴門橋 | Onaruto Bridge | | | |
 | 妃龍鬼殿 | Hiryuki Palace | | | |
+| 猪苗代湖 | Lake Inawashiro | | | |
+| 七ヶ宿ダム | Shichikashuku Dam | | Operation Dam-Dam site | |
+| 石神井公園 | Shakujii Park | | | |
+| 国会前庭洋式庭園 | Diet Front Garden | | diary place field (108 px) | |
+| 名古屋地下街 | Nagoya Underground | | diary place field (108 px) | |
+| 大湯環状列石 | Oyu Stone Circles | | | |
 
 ## Items / skills / terms
 | JP | EN | max | notes | Avoid |

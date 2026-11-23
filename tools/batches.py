@@ -168,8 +168,11 @@ def width_problems(entry, en):
     return windows.lint(s, v, GLYPHS)
 
 
-def encodable(char):
-    return " " <= char <= "~"
+CARD_TITLES = {"day.00250", "exe.01580", "exe.021d0", "action.006b4"}  # memory-card system file title: BIOS shows SJIS
+
+
+def encodable(char, eid=""):
+    return " " <= char <= "~" or (eid in CARD_TITLES and ("！" <= char <= "～" or char == "　"))
 # ---- end of ADAPTER ----
 
 
@@ -223,14 +226,15 @@ def problems(entry, en, terms, stored=False):
         return ["empty English"]
     out = []
     plain = TOKEN.sub("", en)
-    if bad := sorted({c for c in plain if not encodable(c) and c != "\n"}):
+    if bad := sorted({c for c in plain if not encodable(c, entry["id"]) and c != "\n"}):
         out.append(f"unencodable characters {bad}")
     if re.search(r"\\u[0-9a-fA-F]{4}", en) or "\t" in en:
         out.append("escape sequence or tab in the English")
     if entry["id"].split(".")[0] in ("cf", "gd", "rep", "tu", "day", "save", "op", "dic") and "&" in MARKUP_FREE(en):
         out.append("bare & in txd text (markup only)")
-    want = Counter(t for t in TOKEN.findall(jp) if t not in FREE)
-    have = Counter(t for t in TOKEN.findall(en) if t not in FREE)
+    free = lambda t: t in FREE or t.startswith("&g(")  # noqa: E731  &g = glyph pitch: English may tighten it to fit
+    want = Counter(t for t in TOKEN.findall(jp) if not free(t))
+    have = Counter(t for t in TOKEN.findall(en) if not free(t))
     if want != have:
         out.append(f"control codes differ: JP {dict(want)} EN {dict(have)}")
     name, body_jp = speaker_of(entry)

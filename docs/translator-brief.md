@@ -14,6 +14,9 @@ translate in their own context, story order, b003 on). Read with offset/limit: f
 - Scenario lines (limit `scenario:224pxx3`): the body only. The speaker column is added by the tool; do not write
   the name. Pages: `{wait}` between them (keep the JP page breaks where they carry a beat; the tool adds more pages
   when a page is long). No `\n` except a forced break (choices: `"Option A"\n"Option B"`).
+- txd markup stays as in JP (same `&c`, `&s`... counts); `&n()` and `&g(pitch,h)` are free (charfile header names
+  use `&g(13,0)`; the lint measures at the pitch). Card titles (day.00250, exe.01580, exe.021d0, action.006b4) stay
+  full-width SJIS.
 - Plain printable ASCII only: no curly quotes, no …, no ～ (write "~" or letters), no full-width characters.
 - Dry run: `python -X utf8 tools/batches.py fit '<english>' --id <id>` prints the stored, wrapped form and its lint.
 

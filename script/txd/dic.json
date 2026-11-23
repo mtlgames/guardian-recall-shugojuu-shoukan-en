@@ -7,855 +7,944 @@
   {
    "id": "dic.0000",
    "jp": "阿蘇山",
-   "en": "",
+   "en": "Aso",
    "slots": [
     0
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0001",
    "jp": "阿蘇山&n()&n()あそさん　九州本&n()島の中央にある火&n()山群の総称。多く&n()の温泉があり観光&n()地として有名。&c(2)龍&n()脈&c(0)の１つでもあり&n()&c(4)炎龍&c(0)が眠っていた&n()場所。&n()",
-   "en": "",
+   "en": "Aso&n()&n()A group of&n()volcanoes in central&n()Kyushu, famed for&n()its hot springs. One&n()of the &c(2)dragon veins&c(0),&n()where the &c(4)Flame&n()Dragon&c(0) slept.",
    "slots": [
     1
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0003",
    "jp": "阿那律",
-   "en": "",
+   "en": "Anaritsu",
    "slots": [
     3
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0004",
    "jp": "阿那律&n()&n()あなりつ　北海道&n()方面の監視をまか&n()されていた&c(2)闘士&c(0)。&n()&c(2)守護獣&c(0)は&c(4)長射双砲&n()蟹&c(0)。&c(2)大雪山&c(0)の&c(2)龍脈&c(0)&n()を解放した&c(1)裕子&c(0)ら&n()を&c(2)青函トンネル&c(0)で&n()迎え討つが、あえ&n()なく敗れた。&n()",
-   "en": "",
+   "en": "Anaritsu&n()&n()A &c(2)Warrior&c(0) watching&n()Hokkaido. &c(2)Guardian&c(0): &c(4)&n()Long Gun Crab&c(0).&n()Ambushed &c(1)Yuko&c(0)'s&n()group in the &c(2)Seikan&n()Tunnel&c(0) after they&n()freed the &c(2)dragon&n()vein&c(0) of &c(2)Mt. Taisetsu&c(0).&n()Lost fast.",
    "slots": [
     4
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0006",
    "jp": "阿難",
-   "en": "",
+   "en": "Anan",
    "slots": [
     6
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0007",
    "jp": "阿難&n()&n()あなん　&c(1)鏡涼子&c(0)の&n()側近。&c(2)守護獣&c(0)は&c(4)強&n()襲型爆竜&c(0)。&c(2)制御ピ&n()アス&c(0)を施されてる&n()割には元の性格が&n()かなり残っている&n()らしく、上司であ&n()る&c(1)涼子&c(0)の命令に不&n()平不満をこぼす。&n()",
-   "en": "",
+   "en": "Anan&n()&n()Right hand of &c(1)Ryoko&n()Kagami&c(0). &c(2)Guardian&c(0): &c(4)&n()Assault Drake&c(0).&n()Despite the &c(2)control&n()piercing&c(0), still&n()grumbles at every&n()order from the&n()boss, &c(1)Ryoko&c(0).",
    "slots": [
     7
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0009",
    "jp": "猪苗代湖",
-   "en": "",
+   "en": "Lake Inawashiro",
    "slots": [
     9
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0010",
    "jp": "猪苗代湖&n()&n()いなわしろこ　福&n()島県中央部にある&n()カルデラ湖。透明&n()度が高い。湖面の&n()一部に浮かぶ草が&n()苗代田のように見&n()えることからこの&n()名がついたとされ&n()る。&n()",
-   "en": "",
+   "en": "Lake Inawashiro&n()&n()A clear caldera lake&n()in central&n()Fukushima. Named,&n()it's said, for grass&n()on its surface that&n()looks like rice&n()seedling beds.",
    "slots": [
     10
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0012",
    "jp": "猪苗代レイクホテル",
-   "en": "",
+   "en": "Inawashiro Lake&n()Hotel",
    "slots": [
     12
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0013",
    "jp": "猪苗代&n()　　レイクホテル&n()&n()いなわしろれいく&n()ほてる　猪苗代湖&n()湖岸にある観光ホ&n()テル。猪苗代天満&n()宮や、湖に飛来す&n()るハクチョウ目当&n()ての観光客に人気&n()のホテル。&n()",
-   "en": "",
+   "en": "Inawashiro&n()Lake Hotel&n()&n()A tourist hotel on&n()the shore of Lake&n()Inawashiro, popular&n()with visitors to&n()Inawashiro&n()Tenmangu Shrine&n()and with swan&n()watchers.",
    "slots": [
     13
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0015",
    "jp": "岩見沢家",
-   "en": "",
+   "en": "Iwamizawa Family",
    "slots": [
     15
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0016",
    "jp": "岩見沢家&n()&n()いわみざわけ　代&n()々&c(2)大雪山&c(0)の&c(2)龍脈&c(0)を&n()守っていた一族。&n()&c(2)大雪山&c(0)の&c(2)龍脈&c(0)だけ&n()が&c(2)荏狗覇菟&c(0)に奪わ&n()れてなかったのは&n()この一族の力によ&n()る。現時点では生&n()き残りは&c(1)唯&c(0)のみ。&n()",
-   "en": "",
+   "en": "Iwamizawa Family&n()&n()Guarded the &c(2)dragon&n()vein&c(0) of &c(2)Mt. Taisetsu&c(0)&n()for generations;&n()thanks to them, &c(2)&n()Egubado&c(0) never took&n()that &c(2)dragon vein&c(0) of &c(2)&n()Mt. Taisetsu&c(0). &c(1)Yui&c(0) is&n()the last survivor.",
    "slots": [
     16
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0018",
    "jp": "優婆離",
-   "en": "",
+   "en": "Ubari",
    "slots": [
     18
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0019",
    "jp": "優婆離&n()&n()うばり　&c(1)南城知美&c(0)&n()の部下。&c(2)守護獣&c(0)は&n()&c(4)機忍・上&c(0)。&c(1)半澤由&n()美&c(0)を敬愛しており&n()&c(2)桜井海岸&c(0)で援軍を&n()引き連れ現れる。&n()その後、&c(2)二条城&c(0)で&n()も&c(1)由美&c(0)の仇とばか&n()りに襲ってきた。&n()",
-   "en": "",
+   "en": "Ubari&n()&n()&c(1)Tomomi Nanjo&c(0)'s aide. &c(2)&n()Guardian&c(0): &c(4)&n()Mechaninja Hi&c(0).&n()Adored &c(1)Yumi&n()Hanzawa&c(0). Brought&n()backup to &c(2)Sakurai&n()Beach&c(0), then struck&n()at &c(2)Nijo Castle&c(0) to&n()avenge &c(1)Yumi&c(0).",
    "slots": [
     19
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0021",
    "jp": "荏狗覇菟",
-   "en": "",
+   "en": "Egubado",
    "slots": [
     21
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0022",
    "jp": "荏狗覇菟&n()&n()えぐばど　&c(2)列島大&n()地震&c(0)の際に東京を&n()占拠した謎の破壊&n()集団。だが、その&n()後は東京に&c(2)結界&c(0)を&n()張り、大きな行動&n()も起こす様子がな&n()いので黙認されて&n()いる。&n()",
-   "en": "",
+   "en": "Egubado&n()&n()Mysterious&n()destroyers who&n()seized Tokyo in the &c(2)&n()Great Archipelago&n()Earthquake&c(0). They&n()sealed it with a &c(2)&n()barrier&c(0) and have&n()lain low since, so&n()they are tolerated.",
    "slots": [
     22
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0024",
    "jp": "荏狗覇菟基地",
-   "en": "",
+   "en": "Egubado Base",
    "slots": [
     24
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0025",
    "jp": "荏狗覇菟基地&n()&n()えぐばどきち　メ&n()ンバー全員が&c(2)守護&n()獣使い&c(0)のため、一&n()般人では近づくこ&n()とすらできない場&n()所。日本各地で支&n()部が確認されてい&n()るが、本部の所在&n()位置は未だ不明。&n()",
-   "en": "",
+   "en": "Egubado Base&n()&n()All its members are &c(2)&n()Guardian users&c(0);&n()ordinary people&n()can't get near.&n()Branches dot&n()Japan, but the&n()headquarters is yet&n()unfound.",
    "slots": [
     25
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0027",
    "jp": "海老の天ぷら",
-   "en": "",
+   "en": "Shrimp Tempura",
    "slots": [
     27
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0028",
    "jp": "海老の天ぷら&n()&n()えびのてんぷら　&n()&c(4)天ちゃん&c(0)の名前の&n()由来である。&c(1)美由&n()紀&c(0)の天ぷら好きが&n()&c(2)守護獣&c(0)の姿に影響&n()したのかもしれな&n()い。&n()",
-   "en": "",
+   "en": "Shrimp Tempura&n()&n()Where &c(4)Ten-chan&c(0) got&n()its name. Maybe &c(1)&n()Miyuki&c(0)'s love of&n()tempura shaped the &c(2)&n()Guardian&c(0)'s looks.",
    "slots": [
     28
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0030",
    "jp": "大鳴門橋",
-   "en": "",
+   "en": "Onaruto Bridge",
    "slots": [
     30
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0031",
    "jp": "大鳴門橋&n()&n()おおなるときょう&n()　鳴門海峡をはさ&n()んで徳島県鳴門市&n()と淡路島を結ぶつ&n()り橋。１６２９ｍ&n()ある。四国から本&n()州へ渡ろうとした&n()&c(1)美由紀&c(0)たちが襲撃&n()を受けた。&n()",
-   "en": "",
+   "en": "Onaruto Bridge&n()&n()A 1,629 m&n()suspension bridge&n()over the Naruto&n()Strait, from Naruto,&n()Tokushima to Awaji&n()Island. &c(1)Miyuki&c(0)'s&n()group was attacked&n()here.",
    "slots": [
     31
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0033",
    "jp": "恐山",
-   "en": "",
+   "en": "Mt. Osore",
    "slots": [
     33
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0034",
    "jp": "恐山&n()&n()おそれざん　青森&n()県下北半島を占め&n()る休火山で一種異&n()様な感じのある秘&n()境。日本三大霊場&n()の１つであり、こ&n()こで行われるイタ&n()コの口寄せは有名&n()である。&n()",
-   "en": "",
+   "en": "Mt. Osore&n()&n()A dormant volcano&n()on Aomori's&n()Shimokita Peninsula&n()with an eerie air.&n()One of Japan's&n()three great sacred&n()sites, famed for its&n()itako mediums.",
    "slots": [
     34
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0036",
    "jp": "男ギライ",
-   "en": "",
+   "en": "Man-hater",
    "slots": [
     36
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0037",
    "jp": "男ギライ&n()&n()おとこぎらい　男&n()という言葉に過敏&n()に反応した&c(1)ゆかり&c(0)&n()に対して、&c(1)裕子&c(0)が&n()つぶやいた言葉。&n()おそらく&c(1)ゆかり&c(0)の&n()性格からして、い&n()ろいろと苦労があ&n()ったのだろう。&n()",
-   "en": "",
+   "en": "Man-hater&n()&n()What &c(1)Yuko&c(0)&n()muttered when &c(1)&n()Yukari&c(0) bristled at&n()the word \"man\".&n()Knowing &c(1)Yukari&c(0), she&n()has surely had her&n()share of troubles.",
    "slots": [
     37
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0039",
    "jp": "温泉たまご",
-   "en": "",
+   "en": "Hot-spring egg",
    "slots": [
     39
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0040",
    "jp": "温泉たまご&n()&n()おんせんたまご　&n()温泉の湯でゆであ&n()げた玉子。&c(1)美由紀&c(0)&n()の好物。&n()",
-   "en": "",
+   "en": "Hot-spring egg&n()&n()An egg boiled in&n()hot-spring water. &c(1)&n()Miyuki&c(0)'s favorite&n()food.",
    "slots": [
     40
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0042",
    "jp": "温泉たまごの歌",
-   "en": "",
+   "en": "Hot-spring egg song",
    "slots": [
     42
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0043",
    "jp": "温泉たまごの歌&n()&n()たまごたまご　　&n()温泉たまご　　　&n()あたしはきみが　&n()好きなのよ　　　&n()　（※セリフ）　&n()「&c(1)真由&c(0)ちゃん、　&n()　食べる？」&n()",
-   "en": "",
+   "en": "Hot-spring egg song&n()&n()Eggies, eggies,&n()hot-spring eggies~&n()Oh, how I love&n()you so~&n()(Spoken)&n()\"&c(1)Mayu-chan&c(0),&n()want one?\"",
    "slots": [
     43
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0045",
    "jp": "海原望",
-   "en": "",
+   "en": "Nozomu Kaibara",
    "slots": [
     45
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0046",
    "jp": "海原望&n()&n()かいばらのぞむ　&n()&c(1)海原美里&c(0)の父で海&n()洋学者。&c(2)荏狗覇菟&c(0)&n()への協力を断った&n()ため、命を落とす&n()ことになる。が、&n()その死には意外な&n()秘密があった。&n()",
-   "en": "",
+   "en": "Nozomu Kaibara&n()&n()&c(1)Misato Kaibara&c(0)'s&n()father, an&n()oceanographer. He&n()refused to help &c(2)&n()Egubado&c(0) and paid&n()with his life. But his&n()death hid a&n()surprising secret.",
    "slots": [
     46
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0048",
    "jp": "迦葉",
-   "en": "",
+   "en": "Kasho",
    "slots": [
     48
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0049",
    "jp": "迦葉&n()&n()かしょう　&c(2)天神高&n()校&c(0)を襲撃した部隊&n()のリーダーで、&c(2)守&n()護獣&c(0)は&c(4)翔妖・紫翼&n()種&c(0)。&c(2)守護獣使い&c(0)が&n()３人もいたために&n()敗退。続いて&c(2)阿蘇&n()山&c(0)の防衛にあたる&n()が、結局負けた。&n()",
-   "en": "",
+   "en": "Kasho&n()&n()Led the raid on &c(2)&n()Tenjin High&c(0). &c(2)&n()Guardian&c(0): &c(4)Violet&n()Wraith&c(0). Fled from&n()three &c(2)Guardian&n()users&c(0), then lost&n()again defending &c(2)Aso&c(0).",
    "slots": [
     49
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0051",
    "jp": "迦旃",
-   "en": "",
+   "en": "Kasen",
    "slots": [
     51
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0052",
    "jp": "迦旃&n()&n()かせん　&c(2)雪花旅館&c(0)&n()を襲撃した部隊の&n()リーダー。&c(2)守護獣&c(0)&n()は&c(4)炎式陸鮫&c(0)。&c(1)裕子&c(0)&n()＆&c(1)ゆかり&c(0)の前にあ&n()っさり負ける。&n()",
-   "en": "",
+   "en": "Kasen&n()&n()Leader of the&n()squad that raided&n()the &c(2)Yukibana Inn&c(0). &c(2)&n()Guardian&c(0): &c(4)Flame&n()Landshark&c(0). Easily&n()beaten by &c(1)Yuko&c(0) and &c(1)&n()Yukari&c(0).",
    "slots": [
     52
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0054",
    "jp": "合体守護獣ぬえ",
-   "en": "",
+   "en": "Combined Guardian&n()Nue",
    "slots": [
     54
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0055",
    "jp": "合体守護獣ぬえ&n()&n()がったいしゅごじ&n()ゅうぬえ　&c(2)四門将&c(0)&n()それぞれの&c(2)守護獣&c(0)&n()が一体化し巨大な&n()１つの&c(2)守護獣&c(0)とな&n()ったもの。&c(1)龍鬼妃&c(0)&n()から特別な力を授&n()かっていたものと&n()思われる。&n()",
-   "en": "",
+   "en": "Combined Guardian&n()Nue&n()&n()The &c(2)Guardians&c(0) of all&n()the &c(2)Four Gate&n()Generals&c(0) merged&n()into one giant &c(2)&n()Guardian&c(0). It seems&n()to have been&n()granted special&n()power by &c(1)Ryukihi&c(0).",
    "slots": [
     55
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0057",
    "jp": "神門一門",
-   "en": "",
+   "en": "Kamikado Clan",
    "slots": [
     57
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0058",
    "jp": "神門一門&n()&n()かみかどいちもん&n()　古くから&c(2)阿蘇山&n()&c(0)の&c(2)龍脈&c(0)を護って来&n()た一族。だが、&c(2)荏&n()狗覇菟&c(0)との度重な&n()る戦いでほぼ壊滅&n()状態。今や&c(1)ちかな&n()&c(0)を含む数人しか生&n()き残っていない。&n()",
-   "en": "",
+   "en": "Kamikado Clan&n()&n()A clan that has&n()guarded the &c(2)dragon&n()vein&c(0) of &c(2)Aso&c(0) since&n()ancient times.&n()Repeated battles&n()with &c(2)Egubado&c(0) all but&n()wiped it out; only a&n()few, &c(1)Chikana&c(0) among&n()them, survive.",
    "slots": [
     58
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0060",
    "jp": "ガリガリ鳥ガラ",
-   "en": "",
+   "en": "Scrawny Chicken&n()Bones",
    "slots": [
     60
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0061",
    "jp": "ガリガリ鳥ガラ&n()&n()がりがりとりがら&n()　&c(2)朱雀&c(0)こと&c(1)南城知&n()美&c(0)のこと。&c(2)四門将&n()&c(0)は本来同等な立場&n()のハズだが&c(2)白虎&c(0)こ&n()と&c(1)西苑寺麗子&c(0)はど&n()うも彼女に頭が上&n()がらないようであ&n()る。&n()",
-   "en": "",
+   "en": "Scrawny Chicken&n()Bones&n()&n()&c(1)Tomomi Nanjo&c(0), aka &c(2)&n()Suzaku&c(0). The &c(2)Four&n()Gate Generals&c(0) are&n()supposed to be&n()equals, but &c(1)Reiko&n()Saionji&c(0), aka &c(2)Byakko&c(0),&n()just can't stand up&n()to her.",
    "slots": [
     61
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0063",
    "jp": "休学",
-   "en": "",
+   "en": "Leave of Absence",
    "slots": [
     63
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0064",
    "jp": "休学&n()&n()きゅうがく　学生&n()が病気などを理由&n()に長期間学校を休&n()むこと。&c(1)美由紀&c(0)と&n()&c(1)真由&c(0)は休学手続き&n()をしてこの旅に参&n()加しているようで&n()ある。受験生なん&n()だがな・・・。&n()",
-   "en": "",
+   "en": "Leave of Absence&n()&n()When a student&n()stays out of school&n()for a long time, for&n()illness or the like. &c(1)&n()Miyuki&c(0) and &c(1)Mayu&c(0)&n()seem to have taken&n()leave to join this&n()journey. In their&n()exam year, too...",
    "slots": [
     64
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0066",
    "jp": "京の宿",
-   "en": "",
+   "en": "Kyo no Yado",
    "slots": [
     66
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0067",
    "jp": "京の宿&n()&n()きょうのやど　&c(2)二&n()条城&c(0)を目指す&c(1)美由&n()紀&c(0)たちが利用した&n()京都にある旅館。&n()“京都の宿”と　&n()“今日の宿”をか&n()けたネーミングら&n()しい。&n()",
-   "en": "",
+   "en": "Kyo no Yado&n()&n()The inn in Kyoto&n()where &c(1)Miyuki&c(0) and&n()the others stayed&n()on the way to &c(2)Nijo&n()Castle&c(0). The name&n()puns on \"Kyoto inn\"&n()and \"tonight's inn\",&n()both read \"kyo no&n()yado\".",
    "slots": [
     67
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0069",
    "jp": "結界",
-   "en": "",
+   "en": "Barrier",
    "slots": [
     69
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0070",
    "jp": "結界&n()&n()けっかい　本来は&n()宗教用語で聖なる&n()儀式の場所のこと&n()で、邪悪なものが&n()入り込まないよう&n()にすることを結界&n()を張るという。本&n()編では東京の空間&n()に張られていた。&n()",
-   "en": "",
+   "en": "Barrier&n()&n()Originally a religious&n()term for a sacred&n()ritual space; to \"set&n()a barrier\" is to keep&n()evil out. In this&n()story, a barrier was&n()set over the space&n()of Tokyo.",
    "slots": [
     70
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0072",
    "jp": "玄武",
-   "en": "",
+   "en": "Genbu",
    "slots": [
     72
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0073",
    "jp": "玄武&n()&n()げんぶ　&c(2)四聖獣&c(0)の&n()１つで北を守護す&n()る役目を持つ神。&n()本編では&c(2)四門将&c(0)の&n()１人、&c(1)北斗めぐみ&c(0)&n()とその&c(2)守護獣&c(0)がこ&n()の名で呼ばれてい&n()る。&n()",
-   "en": "",
+   "en": "Genbu&n()&n()One of the &c(2)Four&n()Holy Beasts&c(0), the god&n()who guards the&n()north. In this story,&n()the name refers to &c(1)&n()Megumi Hokuto&c(0), one&n()of the &c(2)Four Gate&n()Generals&c(0), and her &c(2)&n()Guardian&c(0).",
    "slots": [
     73
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0075",
    "jp": "公園めぐり",
-   "en": "",
+   "en": "Park Tour",
    "slots": [
     75
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0076",
    "jp": "公園めぐり&n()&n()こうえんめぐり　&n()&c(1)裕子&c(0)が&c(2)東京タワー&c(0)&n()から&c(2)日比谷公園&c(0)を&n()目指して歩いた結&n()果こうなった。ど&n()のくらい間違って&n()るかは東京の地図&n()で見て欲しい。か&n()なりヒドい。&n()",
-   "en": "",
+   "en": "Park Tour&n()&n()What happened&n()when &c(1)Yuko&c(0) walked&n()from &c(2)Tokyo Tower&c(0)&n()toward &c(2)Hibiya Park&c(0).&n()Check a map of&n()Tokyo to see how&n()far off she went.&n()It's pretty bad.",
    "slots": [
     76
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0078",
    "jp": "皇龍",
-   "en": "",
+   "en": "Emperor Dragon",
    "slots": [
     78
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0079",
    "jp": "皇龍&n()&n()こうりゅう　&c(2)七龍&c(0)&n()の化身と伝えられ&n()る龍の名。&c(1)ゆかり&c(0)&n()によると「&c(2)龍脈&c(0)か&n()ら放たれた&c(2)七龍&c(0)は&n()化身皇龍となって&n()日本を救う」とい&n()う言い伝えがある&n()らしい。&n()",
-   "en": "",
+   "en": "Emperor Dragon&n()&n()The &c(2)Seven Dragons&c(0)&n()incarnate. Legend,&n()says &c(1)Yukari&c(0): \"Freed&n()from the &c(2)dragon&n()veins&c(0), the &c(2)Seven&n()Dragons&c(0) shall&n()become the&n()Emperor Dragon&n()and save Japan.\"",
    "slots": [
     79
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0081",
    "jp": "国会議事堂",
-   "en": "",
+   "en": "National Diet Building",
    "slots": [
     81
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0082",
    "jp": "国会議事堂&n()&n()こっかいぎじどう&n()　東京都千代田区&n()にある文字通り国&n()会を開会する建物&n()である。&c(4)天龍&c(0)と&c(4)地&n()龍&c(0)の眠る地。&n()",
-   "en": "",
+   "en": "National Diet Building&n()&n()The building in&n()Chiyoda, Tokyo,&n()where, as the name&n()says, the Diet&n()convenes. Resting&n()place of the &c(4)Sky&n()Dragon&c(0) and the &c(4)&n()Earth Dragon&c(0).",
    "slots": [
     82
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0084",
    "jp": "国会前庭洋式庭園",
-   "en": "",
+   "en": "Diet Front Garden",
    "slots": [
     84
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0085",
    "jp": "国会前庭洋式庭園&n()&n()こっかいぜんてい&n()ようしきていえん&n()　&c(2)国会議事堂&c(0)の正&n()門前にある庭園。&n()洋式なのは北庭の&n()方で、南庭は和式&n()庭園である。日本&n()の水準原点を納め&n()た建物のある所。&n()",
-   "en": "",
+   "en": "Diet Front Garden&n()&n()Before the &c(2)National&n()Diet Building&c(0)'s main&n()gate. The north&n()garden is Western,&n()the south Japanese.&n()Japan's leveling&n()datum is kept here.",
    "slots": [
     85
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0087",
    "jp": "桜井海岸",
-   "en": "",
+   "en": "Sakurai Beach",
    "slots": [
     87
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0088",
    "jp": "桜井海岸&n()&n()さくらいかいがん&n()　愛媛県今治市に&n()あり海水浴場とし&n()て有名。ちなみに&n()桜井は漆器の名産&n()地でもある。本編&n()では悲しい出来事&n()が起きてしまった&n()場所となった。&n()",
-   "en": "",
+   "en": "Sakurai Beach&n()&n()A beach in Imabari,&n()Ehime Prefecture,&n()famous for&n()swimming. Sakurai is&n()also known for its&n()lacquerware. In this&n()story, it became the&n()scene of a sad&n()event.",
    "slots": [
     88
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0090",
    "jp": "さすらいのヒーロー",
-   "en": "",
+   "en": "Wandering Hero",
    "slots": [
     90
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0091",
    "jp": "さすらいの&n()　　　　ヒーロー&n()&n()さすらいのひーろ&n()ー　&c(1)雷晶&c(0)のこと。&n()しかも自称。どこ&n()をどう育てればこ&n()うなるのか、&c(1)晶&c(0)の&n()両親ってやつを見&n()てみたいものであ&n()る。&n()",
-   "en": "",
+   "en": "Wandering Hero&n()&n()&c(1)Akira Ikazuchi&c(0).&n()Self-proclaimed, at&n()that. How on earth&n()was she raised to&n()turn out like this?&n()We'd love to meet &c(1)&n()Akira&c(0)'s parents.",
    "slots": [
     91
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0093",
    "jp": "佐渡島",
-   "en": "",
+   "en": "Sado Island",
    "slots": [
     93
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0094",
    "jp": "佐渡島&n()&n()さどがしま　日本&n()海沖に浮かぶ島。&n()江戸時代には金の&n()島として栄えた歴&n()史がある。&c(2)荏狗覇&n()菟&c(0)の基地があった&n()のはそれと関係し&n()てるかどうかは定&n()かでない。&n()",
-   "en": "",
+   "en": "Sado Island&n()&n()An island in the Sea&n()of Japan that&n()prospered as the&n()island of gold in the&n()Edo period. Whether&n()that has anything&n()to do with the &c(2)&n()Egubado&c(0) base there&n()is unclear.",
    "slots": [
     94
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0096",
    "jp": "自衛隊",
-   "en": "",
+   "en": "Self-Defense Forces",
    "slots": [
     96
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0097",
    "jp": "自衛隊&n()&n()じえいたい　日本&n()を直接あるいは間&n()接的な侵略から護&n()るための防衛組織&n()・・・だが、当然&n()というか、通常兵&n()器では&c(2)守護獣&c(0)の前&n()に無力だった。&n()",
-   "en": "",
+   "en": "Self-Defense Forces&n()&n()The defense force&n()that protects&n()Japan from direct&n()or indirect invasion...&n()but, naturally,&n()conventional&n()weapons were&n()powerless against &c(2)&n()Guardians&c(0).",
    "slots": [
     97
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0099",
    "jp": "四聖獣",
-   "en": "",
+   "en": "Four Holy Beasts",
    "slots": [
     99
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0100",
    "jp": "四聖獣&n()&n()しせいじゅう　四&n()神とも言い文字通&n()り東西南北の四方&n()の守護神のこと。&n()それぞれ北の神は&n()&c(2)玄武&c(0)、東は&c(2)青龍&c(0)、&n()西は&c(2)白虎&c(0)、南は&c(2)朱&n()雀&c(0)と呼ばれる。&n()",
-   "en": "",
+   "en": "Four Holy Beasts&n()&n()Also called the Four&n()Gods: guardian gods&n()of the four&n()directions. The god&n()of the north is &c(2)&n()Genbu&c(0), the east &c(2)&n()Seiryu&c(0), the west &c(2)&n()Byakko&c(0), and the&n()south &c(2)Suzaku&c(0).",
    "slots": [
     100
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0102",
    "jp": "七ヶ宿ダム",
-   "en": "",
+   "en": "Shichikashuku Dam",
    "slots": [
     102
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0103",
    "jp": "七ヶ宿ダム&n()&n()しちかしゅくだむ&n()　宮城県白石川中&n()流に１９９１年に&n()完成したダム。&c(1)鏡&n()涼子&c(0)がここで&c(2)ダム&n()ダム作戦&c(0)を企んだ&n()が、大方の予想通&n()り失敗に終わる。&n()",
-   "en": "",
+   "en": "Shichikashuku Dam&n()&n()A dam on the middle&n()Shiroishi River in&n()Miyagi Prefecture,&n()completed in 1991. &c(1)&n()Ryoko Kagami&c(0)&n()hatched &c(2)Operation&n()Dam-Dam&c(0) here; as&n()most expected, it&n()failed.",
    "slots": [
     103
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0105",
    "jp": "七龍",
-   "en": "",
+   "en": "Seven Dragons",
    "slots": [
     105
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0106",
    "jp": "七龍&n()&n()しちりゅう　日本&n()を守護するもの。&n()&c(2)龍脈&c(0)のエネルギー&n()をむやみに放出さ&n()せない役目もして&n()いる。&c(2)龍脈&c(0)に龍が&n()眠る事で日本の地&n()脈はバランスが保&n()たれるのである。&n()",
-   "en": "",
+   "en": "Seven Dragons&n()&n()Protectors of&n()Japan, who keep&n()the energy of the &c(2)&n()dragon veins&c(0) in&n()check. Dragons&n()asleep in the &c(2)dragon&n()veins&c(0) keep Japan's&n()earth in balance.",
    "slots": [
     106
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0108",
    "jp": "四門将",
-   "en": "",
+   "en": "Four Gate Generals",
    "slots": [
     108
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0109",
    "jp": "四門将&n()&n()しもんしょう　&c(2)四&n()聖獣&c(0)の名を持つ&c(2)守&n()護獣&c(0)を持ち、東京&n()の四方を護る&c(2)荏狗&n()覇菟&c(0)の幹部。&n()",
-   "en": "",
+   "en": "Four Gate Generals&n()&n()&c(2)Egubado&c(0) officers&n()who guard the four&n()sides of Tokyo, each&n()with a &c(2)Guardian&c(0)&n()named after one of&n()the &c(2)Four Holy&n()Beasts&c(0).",
    "slots": [
     109
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0111",
    "jp": "石神井公園",
-   "en": "",
+   "en": "Shakujii Park",
    "slots": [
     111
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0112",
    "jp": "石神井公園&n()&n()しゃくじいこうえ&n()ん　２つの広い池&n()からなる公園で、&n()東京都練馬区にあ&n()る。近くの人は行&n()ってみよう。&c(1)武神&n()&c(0)と会えるかもしれ&n()ないぞ！？&n()",
-   "en": "",
+   "en": "Shakujii Park&n()&n()A park in Nerima,&n()Tokyo, with two&n()large ponds. If you&n()live nearby, pay a&n()visit. You might&n()meet &c(1)Takegami&c(0)!?",
    "slots": [
     112
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0114",
    "jp": "舎利弗",
-   "en": "",
+   "en": "Sharihotsu",
    "slots": [
     114
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0115",
    "jp": "舎利弗&n()&n()しゃりほつ　&c(1)西苑&n()寺麗子&c(0)の部下の&c(2)闘&n()士&c(0)。&c(2)守護獣&c(0)は&c(4)拳闘&n()骸骨&c(0)。四国から本&n()州へ渡ろうとする&n()&c(1)美由紀&c(0)たちを待ち&n()構えるが、あえな&n()く突破された。&n()",
-   "en": "",
+   "en": "Sharihotsu&n()&n()A &c(2)Warrior&c(0) under &c(1)&n()Reiko Saionji&c(0). &c(2)&n()Guardian&c(0): &c(4)Bone&n()Boxer&c(0). Lay in wait&n()for &c(1)Miyuki&c(0) and the&n()others crossing&n()from Shikoku to&n()Honshu, but they&n()broke right through.",
    "slots": [
     115
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0117",
    "jp": "守護獣",
-   "en": "",
+   "en": "Guardian",
    "slots": [
     117
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0118",
    "jp": "守護獣&n()&n()しゅごじゅう　実&n()体化した守護霊の&n()ようなもの。人間&n()なら誰にでもある&n()力だが自在に呼び&n()出せる者はまれ。&n()呼び出す力がなけ&n()れば姿を見る事も&n()できない。&n()",
-   "en": "",
+   "en": "Guardian&n()&n()Something like a&n()guardian spirit given&n()form. Every human&n()has the power, but&n()few can call one at&n()will. Without the&n()power to call one,&n()you cannot even&n()see them.",
    "slots": [
     118
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0120",
    "jp": "守護獣使い",
-   "en": "",
+   "en": "Guardian user",
    "slots": [
     120
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0121",
    "jp": "守護獣使い&n()&n()しゅごじゅうつか&n()い　自力で&c(2)守護獣&c(0)&n()を&c(2)召喚&c(0)する能力を&n()持つ、あるいはそ&n()の素質のある人の&n()こと。女性の方が&n()この素質にめぐま&n()れていることが多&n()いようだ。&n()",
-   "en": "",
+   "en": "Guardian user&n()&n()A person able to &c(2)&n()summon&c(0) a &c(2)Guardian&c(0)&n()unaided, or with the&n()talent to. Women&n()seem more often&n()blessed with this&n()talent.",
    "slots": [
     121
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0123",
    "jp": "召喚",
-   "en": "",
+   "en": "Summon",
    "slots": [
     123
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0124",
    "jp": "召喚&n()&n()しょうかん　人の&n()防衛本能ともいえ&n()る精神的かつ霊的&n()な存在の&c(2)守護獣&c(0)を&n()半実体化させた姿&n()にして呼び出すこ&n()と。誰しもができ&n()ることではない。&n()",
-   "en": "",
+   "en": "Summon&n()&n()To summon is to call&n()forth a &c(2)Guardian&c(0), a&n()mental and spiritual&n()being akin to a&n()person's instinct for&n()self-defense, in&n()half-material form.&n()Not everyone can&n()do it.",
    "slots": [
     124
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0126",
    "jp": "真言",
-   "en": "",
+   "en": "Mantra",
    "slots": [
     126
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0127",
    "jp": "真言&n()&n()しんごん　密教の&n()呪文。ほとけの言&n()葉・説法の類で、&n()言霊を持つ言葉。&n()マントラとも呼ば&n()れる。多くは呪術&n()などで法師が用い&n()る。&n()",
-   "en": "",
+   "en": "Mantra&n()&n()An esoteric Buddhist&n()incantation: words&n()of the Buddha with&n()spirit power in them.&n()Also called shingon.&n()Used by priests in&n()rites.",
    "slots": [
     127
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0129",
    "jp": "新宿中央公園",
-   "en": "",
+   "en": "Shinjuku Central&n()Park",
    "slots": [
     129
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0130",
    "jp": "新宿中央公園&n()&n()しんじゅくちゅう&n()おうこうえん　新&n()宿都庁の横に広が&n()る公園。ちなみに&n()その都庁の方は&c(2)列&n()島大地震&c(0)でブッ壊&n()れたようで登場し&n()ない。&n()",
-   "en": "",
+   "en": "Shinjuku Central&n()Park&n()&n()A park beside the&n()Tokyo Metropolitan&n()Government&n()Building, which&n()seems to have been&n()wrecked in the &c(2)&n()Great Archipelago&n()Earthquake&c(0).",
    "slots": [
     130
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0132",
    "jp": "朱雀",
-   "en": "",
+   "en": "Suzaku",
    "slots": [
     132
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0133",

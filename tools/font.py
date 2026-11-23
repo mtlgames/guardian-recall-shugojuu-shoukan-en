@@ -134,9 +134,9 @@ def patch_unn(exe, unn):
 
 
 def width(text, glyphs=None):
-    """Pixel width of one line of ASCII text."""
+    """Pixel width of one line of ASCII text (a full-width SJIS character, e.g. a card title, counts 13)."""
     glyphs = glyphs or load_glyphs()
-    return sum(glyphs[ch][0] for ch in text)
+    return sum(glyphs[ch][0] if ch in glyphs or ord(ch) < 0x80 else 13 for ch in text)
 
 
 def preview(a, cells, out):

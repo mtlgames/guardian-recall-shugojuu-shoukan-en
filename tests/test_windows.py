@@ -17,6 +17,16 @@ def test_wrap_breaks_at_spaces_and_keeps_markup():
         assert font.width(line, G) <= 100
 
 
+def test_pitch_and_narrow_first_lines():
+    jp = "&g(14,0)&s(200,20)&c(7)名&s(230,206)&c(7)&g(14,0)声&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&h()"
+    v = windows.variant({"id": "cf.0040", "jp": jp})
+    name = "Chinami Nishimura"  # 85 px at pitch 13: one px less per glyph at pitch 12
+    en = "&g(13,0)&s(200,20)&c(7)Miyuki&s(230,206)&c(7)&g({p},0)" + name + "&s(165,40)&g(16,8)&h()NATIVE&h()"
+    assert windows.lint({"id": "cf.0040", "jp": jp, "en": en.format(p=12)}, v, G) == []
+    assert windows.lint({"id": "cf.0040", "jp": jp, "en": en.format(p=13)}, v, G) == [f"85 px > 69: '{name}'"]
+    assert windows.wrap("aaa bbb ccc", 1000, G, first=(font.width("aaa", G),)) == "aaa&n()bbb ccc"
+
+
 def test_scenario_lint_counts_lines_after_the_name():
     v = windows.VARIANTS[0]
     s = {"id": "g23.00.000", "jp": "名\n「あ\n　い」\n{wait}", "en": "Name\n\"One\ntwo\nthree\"{wait}"}
@@ -31,7 +41,8 @@ def test_in_place_records_get_a_byte_budget():
     assert windows.lint(s, v, G) == []
     s["en"] = "Filename"
     assert windows.lint(s, v, G) == ["8 bytes > 7 in place"]
-    assert windows.variant({"id": "day.0600", "jp": "あ"})["name"] == "txd"  # 4-digit txd ids, not DAY.BIN strings
+    assert windows.variant({"id": "day.0200", "jp": "あ"})["name"] == "txd"  # 4-digit txd ids, not DAY.BIN strings
+    assert windows.variant({"id": "day.0600", "jp": "あ"})["name"] == "day chapter label"
 
 
 def test_exe_floor_is_the_japanese_width():
@@ -46,7 +57,7 @@ def test_txd_segments_get_right_minus_x():
     v = windows.variant({"id": "day.0000", "jp": jp})
     assert v["name"] == "diary page"
     segs = windows.segments(v, "&f(32,32)&s(116,26)Ch. 1&s(0,43)&e()Title&d()&s(165,65)Miyuki&s(40,120)Body")
-    assert [px for _, px in segs] == [233, 157, 233, 108, 233]
+    assert [px for _, px in segs] == [233, [157], [233], [108], [194, 194, 233]]  # body: LOAD button on lines 1-2
     s = {"id": "day.0000", "jp": jp, "en": "&s(165,65)" + "M" * 40}
     assert windows.lint(s, v, G)[0].endswith("px > 108: '" + "M" * 40 + "'")
 

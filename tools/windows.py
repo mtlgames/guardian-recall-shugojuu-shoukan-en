@@ -36,9 +36,16 @@ VARIANTS = [
     # 07 trait / 10 Tactic help: one box per group, so its widest JP line (17 chars, 221 px) is every record's floor
     dict(name="trait help", ids=r"g13\.(07|10)\.", kind="lines", px=221, lines=3, status="jp width (group max)"),
     dict(name="battle help", ids=r"g13\.", kind="lines", px="jp", lines=3, status="jp width"),
-    dict(name="charfile profile", ids=r"cf\.", jp=r"^&s\(165,87\)", kind="txd", px=129, lines=5, status="measured"),
+    dict(name="charfile profile", ids=r"cf\.", jp=r"^&s\(165,87\)", kind="txd", px=129, lines=6, status="measured"),
+    # page header: name &s(200,20), voice actor &s(230,206) (box right 299, CV icon ends x 225), stats in the &h()
+    # small font (not measured). `pitch`: ASCII advance = width + (&g pitch - 13) per glyph; long names use &g(13,0)
+    dict(name="charfile header", ids=r"cf\.", jp=r"^&g\(14,0\)&s\(200,20\)", kind="txd", right=299, left=165, lines=1,
+         pitch=True, status="measured"),
+    # list of names (opt_charfile_all): centred row, highlight bar x 20-300, numbers end x 45
+    dict(name="charfile list", ids=r"cf\.", jp=r"^[^&]", kind="txd", px=180, lines=1, status="measured"),
     # DIC.BIN wraps by itself once a glyph would start at col >= 100 (asm/hooks.asm): English is pre-wrapped at 100
-    dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, wrap=100, lines=99, status="measured"),
+    # one entry per book page, 16 px rows from y 35: row 12 falls off the page (opt_dictionary_page; JP max 11)
+    dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, wrap=100, lines=11, status="measured"),
     # guardian page body `&g(14,24)&f(14,10)`: the JP auto-wraps at 14 chars x pitch 14 = 196 px; ASCII advance at
     # pitch 14 = width + 1, so English wraps at 180. Lines: 3 header (name, reading) + 10 body
     dict(name="guardian page", ids=r"gd\.", jp=r"^&s\(64,20\)", kind="txd", px=180, lines=13,
@@ -46,14 +53,18 @@ VARIANTS = [
     # centred by byte count (start x = 159.5 - 3.25 * bytes), so bytes also keep it clear of the number column
     dict(name="replay list", ids=r"rep\.", kind="txd", px=223, lines=1, bytes=34, status="measured"),
     # one record = the whole diary page; each &s(x,y) segment gets right - x px (x 0 = &e() centred: right - left)
+    # narrow: body lines 1-2 stop before the LOAD button (x 236; the JP runs under it, English words got hidden)
     dict(name="diary page", ids=r"day\.", jp=r"^&f\(32,32\)&s\(116,26\)", kind="txd", right=273, left=40, lines=5,
-         status="measured"),
+         narrow={"&s(40,120)": (194, 194)}, status="measured"),
     dict(name="guardian list", ids=r"gd\.", jp=r"^[^&]", kind="txd", px=180, lines=1, status="measured"),
     dict(name="tutorial title", ids=r"tu\.", kind="txd", px=280, lines=1, status="measured"),
     # DAY SAVE/LOAD list row label (day_save): pen x 30, time at x 215 -> 180 px. Stages < 20 draw two labels on one
     # row ("%-6s %-6s ": Sky + Earth), so those two chapters keep the pair inside 180 (tests/test_batches.py)
     dict(name="save chapter label", ids=r"save\.(05(1[2-9]|[2-9]\d)|06\d\d|070[048])$", kind="txd", px=180, lines=1,
          status="measured"),
+    # day.txd keeps a second copy of the save labels (slots 512-708, same layout); no reader found yet: same budget
+    dict(name="day chapter label", ids=r"day\.(05(1[2-9]|[2-9]\d)|06\d\d|070[048])$", kind="txd", px=180, lines=1,
+         status="guess (copy of save labels)"),
     dict(name="txd", ids=r"(cf|gd|rep|tu|day|save|op)\.[0-9a-f]{4}$", kind="txd", px="jp", lines=99,
          status="jp width"),
     # unit command menu (tac_unit_menu): fixed box, pen x 193, right border x 225 -> 30 px
@@ -71,16 +82,18 @@ VARIANTS = [
 ]
 
 
-def wrap(text, px, glyphs, nl="&n()"):
-    """Break English text at spaces so no line is wider than px: the txd renderers never auto-wrap ASCII
-    (docs/re/text.md). Markup is zero width; an existing `nl` starts a new line."""
-    out, w = [], 0
+def wrap(text, px, glyphs, nl="&n()", first=()):
+    """Break English text at spaces so no line is wider than px (`first`: narrower widths for the first lines):
+    the txd renderers never auto-wrap ASCII (docs/re/text.md). Markup is zero width; an existing `nl` starts a
+    new line."""
+    out, w, n = [], 0, 0
+    lim = lambda: first[n] if n < len(first) else px  # noqa: E731
     for tok in re.split(r"(&[a-z]\([^)]*\)| )", text):
         if not tok:
             continue
         if tok == nl:
             out.append(tok)
-            w = 0
+            w, n = 0, n + 1
         elif MARKUP.fullmatch(tok):
             out.append(tok)
         elif tok == " ":
@@ -88,12 +101,12 @@ def wrap(text, px, glyphs, nl="&n()"):
             w += font.width(" ", glyphs)
         else:
             tw = font.width(tok, glyphs)
-            if w and w + tw > px:
+            if w and w + tw > lim():
                 while out and out[-1] == " ":  # the break replaces the space(s) before the word
                     out.pop()
                     w -= font.width(" ", glyphs)
                 out.append(nl)
-                w = 0
+                w, n = 0, n + 1
             out.append(tok)
             w += tw
     return "".join(out)
@@ -130,15 +143,20 @@ def lint(s, v, glyphs):
         if b > n:
             errs.append(f"{b} bytes > {n} in place")
     named = v["kind"] == "scenario" and named_jp(s["jp"])
+    pitch = 13
     for text, px in segments(v, s["en"], s["jp"]):
+        if v.get("pitch"):
+            text = re.sub(r"&h\(\).*?&h\(\)", "", text)  # small ASCII font (cf stats), not the VWF
+            pitch = int((re.findall(r"&g\((\d+),", text) or [pitch])[-1])
         for i, p in enumerate(pages(v, text)):
             body = p[1:] if named and i == 0 else p
             if len(body) > v["lines"]:
                 errs.append(f"{len(body)} lines > {v['lines']}")
-            for line in p:
-                w = font.width(line, glyphs)
-                if w > px:
-                    errs.append(f"{w} px > {px}: {line!r}")
+            for j, line in enumerate(p):
+                w = font.width(line, glyphs) + (pitch - 13) * len(line)
+                lim = px[min(j, len(px) - 1)] if isinstance(px, list) else px
+                if w > lim:
+                    errs.append(f"{w} px > {lim}: {line!r}")
     return errs
 
 
@@ -163,22 +181,26 @@ def segments(v, text, jp=""):
     """[(text, px)]: the whole text at the variant's px, or (variants with `right`) one entry per &s(x,y) segment."""
     if "right" not in v:
         return [(text, jp_px(jp) if v["px"] == "jp" else v["px"])]
-    parts = re.split(r"&s\((-?\d+),-?\d+\)", text)
+    parts = re.split(r"(&s\((-?\d+),-?\d+\))", text)
     out = [(parts[0], v["right"] - v["left"])]
-    for x, seg in zip(parts[1::2], parts[2::2]):
-        out.append((seg, v["right"] - (int(x) if int(x) > 0 else v["left"])))
+    for mark, x, seg in zip(parts[1::3], parts[2::3], parts[3::3]):
+        px = v["right"] - (int(x) if int(x) > 0 else v["left"])
+        out.append((seg, [*v.get("narrow", {}).get(mark, ()), px]))  # px per line, the last one repeats
     return out
 
 
 def wrap_txd(v, text, glyphs):
     """Word-wrap txd English to its variant: per &s(x,y) segment (`right` variants) or at `wrap` / `px`. Lines the
     translator broke with &n() stay; a "jp" floor (unmeasured) leaves the text as written."""
+    if v.get("pitch"):  # one-line labels at a set &g pitch: never wrapped, the lint checks them
+        return text
     if "right" in v:
         parts = re.split(r"(&s\(-?\d+,-?\d+\))", text)
         out = [wrap(parts[0], v["right"] - v["left"], glyphs)]
         for mark, seg in zip(parts[1::2], parts[2::2]):
             x = int(re.match(r"&s\((-?\d+)", mark).group(1))
-            out += [mark, wrap(seg, v["right"] - (x if x > 0 else v["left"]), glyphs)]
+            out += [mark, wrap(seg, v["right"] - (x if x > 0 else v["left"]), glyphs,
+                               first=v.get("narrow", {}).get(mark, ()))]
         return "".join(out)
     px = v.get("wrap", v["px"])
     return text if px == "jp" else wrap(text, px, glyphs)

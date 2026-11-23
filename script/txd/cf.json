@@ -16,11 +16,12 @@
   {
    "id": "cf.0024",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     24
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0025",
@@ -43,11 +44,12 @@
   {
    "id": "cf.0027",
    "jp": "天城美由紀",
-   "en": "",
+   "en": "Miyuki Amagi",
    "slots": [
     27
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0028",
@@ -88,41 +90,45 @@
   {
    "id": "cf.0040",
    "jp": "&g(14,0)&s(200,20)&c(7)天城美由紀&s(230,206)&c(7)&g(14,0)かないみか&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOKYO&n()BIRTH &p(31,-1)JULY 7 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)160&n()SIZE  &p(31,-1)B78 W58 H80&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Miyuki Amagi&s(230,206)&c(7)&g(13,0)Mika Kanai&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOKYO&n()BIRTH &p(31,-1)JULY 7 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)160&n()SIZE  &p(31,-1)B78 W58 H80&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
    "slots": [
     40
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0041",
    "jp": "&s(165,87)&c(7)&g(13,16)明るくいつも元気、好奇心盛んで、かつ天然ボケな女の子。人とすぐ友達になれるのが特技。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A cheerful,&n()ever-energetic girl,&n()curious about everything&n()and a born airhead. Her&n()gift: making friends with&n()anyone in no time.",
    "slots": [
     41
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0042",
    "jp": "&s(165,87)&c(7)&g(13,16)明るくいつも元気、好奇心盛んで、かつ天然ボケな女の子。国会議事堂で天龍の魂を持つ者として覚醒した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A cheerful,&n()ever-energetic girl and a&n()born airhead. Awakened&n()to the Sky Dragon's soul&n()at the National Diet&n()Building.",
    "slots": [
     42
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0048",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     48
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0049",
@@ -145,11 +151,12 @@
   {
    "id": "cf.0051",
    "jp": "大地　裕子",
-   "en": "",
+   "en": "Yuko Daichi",
    "slots": [
     51
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0052",
@@ -190,41 +197,45 @@
   {
    "id": "cf.0064",
    "jp": "&g(14,0)&s(200,20)&c(7)大地　裕子&s(230,206)&c(7)&g(14,0)渕崎ゆり子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOKYO&n()BIRTH &p(31,-1)JULY 7 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)168&n()SIZE  &p(31,-1)B90 W61 H88&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Yuko Daichi&s(230,206)&c(7)&g(12,0)Yuriko&g(13,0) &g(12,0)Fuchizaki&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOKYO&n()BIRTH &p(31,-1)JULY 7 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)168&n()SIZE  &p(31,-1)B90 W61 H88&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
    "slots": [
     64
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0065",
    "jp": "&s(165,87)&c(7)&g(13,16)探求心盛んな行動派で一所にとどまることをしない。短気なところもあるが、普段はさっぱりとくだけた性格。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A curious go-getter who&n()never stays put. She has&n()a short fuse, but she's&n()usually easygoing and&n()frank.",
    "slots": [
     65
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0066",
    "jp": "&s(165,87)&c(7)&g(13,16)探求心盛んな行動派で短気なところもあるが普段はさっぱりとくだけた性格。国会議事堂で地龍の魂を持つ者として覚醒した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A curious go-getter with&n()a short fuse, but&n()easygoing and frank at&n()heart. Awakened to the&n()Earth Dragon's soul at the&n()National Diet Building.",
    "slots": [
     66
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0072",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     72
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0073",
@@ -247,11 +258,12 @@
   {
    "id": "cf.0075",
    "jp": "炎　真由",
-   "en": "",
+   "en": "Mayu Homura",
    "slots": [
     75
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0076",
@@ -292,50 +304,55 @@
   {
    "id": "cf.0088",
    "jp": "&g(14,0)&s(200,20)&c(7)炎　真由&s(230,206)&c(7)&g(14,0)富沢美智恵&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)FUKUOKA&n()BIRTH &p(31,-1)AUG. 8 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)163&n()SIZE  &p(31,-1)B80 W58 H83&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Mayu Homura&s(230,206)&c(7)&g(12,0)Michie&g(13,0) &g(12,0)Tomizawa&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)FUKUOKA&n()BIRTH &p(31,-1)AUG. 8 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)163&n()SIZE  &p(31,-1)B80 W58 H83&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     88
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0089",
    "jp": "&s(165,87)&c(7)&g(13,16)言動はきついが、人を思いやる優しい娘。親友の美由紀が心配で世話をやきすぎる面もある。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Sharp-tongued, but kind&n()and caring. She worries so&n()much about her best&n()friend Miyuki that she&n()fusses over her.",
    "slots": [
     89
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0090",
    "jp": "&s(165,87)&c(7)&g(13,16)言動はきついが、人を思いやる優しい娘。親友の美由紀が心配で世話をやきすぎる面もある。阿蘇で炎龍の声を聞いた。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Sharp-tongued, but kind&n()and caring. She worries&n()about her best friend&n()Miyuki and fusses over&n()her. Heard the Flame&n()Dragon's voice at Aso.",
    "slots": [
     90
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0091",
    "jp": "&s(165,87)&c(7)&g(13,16)美由紀の親友で、言動はきついが、人を思いやる優しい娘。国会議事堂で炎龍の魂を持つ者として覚醒した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Miyuki's best friend.&n()Sharp-tongued, but kind&n()and caring. Awakened to&n()the Flame Dragon's soul at&n()the National Diet Building.",
    "slots": [
     91
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0096",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     96
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0097",
@@ -358,12 +375,13 @@
   {
    "id": "cf.0099",
    "jp": "聖　ゆかり",
-   "en": "",
+   "en": "Yukari Hijiri",
    "slots": [
     99
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0100",
@@ -404,61 +422,67 @@
   {
    "id": "cf.0112",
    "jp": "&g(14,0)&s(200,20)&c(7)聖　ゆかり&s(230,206)&c(7)&g(14,0)本間ゆかり&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HOKKAIDO&n()BIRTH &p(31,-1)NOV. 11 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)167&n()SIZE  &p(31,-1)B90 W60 H86&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Yukari Hijiri&s(230,206)&c(7)&g(13,0)Yukari Honma&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HOKKAIDO&n()BIRTH &p(31,-1)NOV. 11 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)167&n()SIZE  &p(31,-1)B90 W60 H86&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     112
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0113",
    "jp": "&s(165,87)&c(7)&g(13,16)常に沈着冷静だが、自分の能力に絶対の自信を持っており、それ以外の事は認めないワガママな一面もある。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Always calm and collected,&n()but so sure of her own&n()abilities that she can be&n()selfish and dismiss&n()everything else.",
    "slots": [
     113
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0114",
    "jp": "&s(165,87)&c(7)&g(13,16)常に沈着冷静で、自分の能力に自信を持っている。大雪で聖龍の声を聞いた。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Always calm and collected,&n()and sure of her own&n()abilities. Heard the Holy&n()Dragon's voice at Mt.&n()Taisetsu.",
    "slots": [
     114
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0115",
    "jp": "&s(165,87)&c(7)&g(13,16)巴澄救出の問題で裕子と意見が対立し、心ならずも別れる事になった。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Clashed with Yuko over&n()how to rescue Hasumi and&n()reluctantly parted ways&n()with her.",
    "slots": [
     115
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0116",
    "jp": "&s(165,87)&c(7)&g(13,16)常に沈着冷静で一行のブレイン役。大雪で聖龍の声を聞き、国会議事堂で聖龍の魂を持つ者として覚醒した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Always calm and collected:&n()the group's brains. Heard&n()the Holy Dragon at Mt.&n()Taisetsu; awakened to its&n()soul at the National Diet&n()Building.",
    "slots": [
     116
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0120",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     120
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0121",
@@ -481,11 +505,12 @@
   {
    "id": "cf.0123",
    "jp": "海原　美里",
-   "en": "",
+   "en": "Misato Kaibara",
    "slots": [
     123
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0124",
@@ -526,60 +551,66 @@
   {
    "id": "cf.0136",
    "jp": "&g(14,0)&s(200,20)&c(7)海原　美里&s(230,206)&c(7)&g(14,0)篠原　恵美&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)EHIME&n()BIRTH &p(31,-1)SEP. 9 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)166&n()SIZE  &p(31,-1)B84 W62 H82&n()BLOOD &p(31,-1)B&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Misato Kaibara&s(230,206)&c(7)&g(13,0)Emi Shinohara&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)EHIME&n()BIRTH &p(31,-1)SEP. 9 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)166&n()SIZE  &p(31,-1)B84 W62 H82&n()BLOOD &p(31,-1)B&n()&h()&f(10,6)",
    "slots": [
     136
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0137",
    "jp": "&s(165,87)&c(7)&g(13,16)考えるより先に身体が動くタイプ。海洋学者である父を殺された事で、荏狗覇菟への復讐に燃えている。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Acts first, thinks later.&n()Egubado killed her father,&n()an oceanographer, and&n()she burns for revenge.",
    "slots": [
     137
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0138",
    "jp": "&s(165,87)&c(7)&g(13,16)父の仇である荏狗覇菟への復讐に燃えていたが、親友・由美の死にうちのめされ、美由紀たちの前から姿を消した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)She burned for revenge&n()on Egubado for her&n()father, but her best&n()friend Yumi's death&n()crushed her, and she left&n()Miyuki and the others.",
    "slots": [
     138
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0139",
    "jp": "&s(165,87)&c(7)&g(13,16)親友の死を乗り越え、再び荏狗覇菟への復讐に闘志を燃やす。考えるより先に身体が動くタイプ。愛媛で海龍の声を聞いた。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Past her friend's death,&n()she fights for revenge on&n()Egubado again. Acts first,&n()thinks later. Heard the&n()Sea Dragon's voice in&n()Ehime.",
    "slots": [
     139
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0140",
    "jp": "&s(165,87)&c(7)&g(13,16)荏狗覇菟への復讐に闘志を燃やす少女。考えるより先に身体が動くタイプ。国会議事堂で海龍の魂を持つ者として覚醒した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A girl burning for revenge&n()on Egubado. Acts first,&n()thinks later. Awakened to&n()the Sea Dragon's soul at&n()the National Diet Building.",
    "slots": [
     140
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0144",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     144
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0145",
@@ -602,11 +633,12 @@
   {
    "id": "cf.0147",
    "jp": "雷　晶",
-   "en": "",
+   "en": "Akira Ikazuchi",
    "slots": [
     147
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0148",
@@ -629,70 +661,77 @@
   {
    "id": "cf.0152",
    "jp": "&g(14,0)&s(200,20)&c(7)雷　晶",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Akira Ikazuchi",
    "slots": [
     152
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0153",
    "jp": "&s(165,87)&c(7)&g(13,16)疾風のように現れて疾風のように去っていく謎のヒーローもどき少女。高いところが好きらしい。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A mysterious would-be&n()hero who comes and goes&n()like the wind. Seems to&n()love high places.",
    "slots": [
     153
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0160",
    "jp": "&g(14,0)&s(200,20)&c(7)雷　晶&s(230,206)&c(7)&g(14,0)西村ちなみ&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOCHIGI&n()BIRTH &p(31,-1)OCT. 10 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)161&n()SIZE  &p(31,-1)B80 W58 H80&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Akira Ikazuchi&s(230,206)&c(7)&g(12,0)Chinami&g(13,0) &g(12,0)Nishimura&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOCHIGI&n()BIRTH &p(31,-1)OCT. 10 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)161&n()SIZE  &p(31,-1)B80 W58 H80&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
    "slots": [
     160
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0161",
    "jp": "&s(165,87)&c(7)&g(13,16)熱く燃える心で悪を許さない、ヒーローおたくの正義のロッカー。会話に四字熟語を連発するクセがある。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A hero-obsessed rocker&n()of justice with a heart&n()that burns against evil.&n()Can't stop spouting grand&n()old idioms.",
    "slots": [
     161
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0162",
    "jp": "&s(165,87)&c(7)&g(13,16)ヒーローおたくの正義のロッカー。会話中に四字熟語を連発するクセがある。日光東照宮で雷龍の声を聞いた。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A hero-obsessed rocker&n()of justice who can't stop&n()spouting grand old idioms.&n()Heard the Thunder&n()Dragon's voice at Nikko&n()Toshogu.",
    "slots": [
     162
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0163",
    "jp": "&s(165,87)&c(7)&g(13,16)ヒーローおたくの正義のロッカー。会話中に四字熟語を連発するクセがある。国会議事堂で雷龍の魂を持つ者として覚醒した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A hero-obsessed rocker&n()of justice who can't stop&n()spouting grand old idioms.&n()Awakened to the Thunder&n()Dragon's soul at the&n()National Diet Building.",
    "slots": [
     163
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0168",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     168
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0169",
@@ -715,11 +754,12 @@
   {
    "id": "cf.0171",
    "jp": "飛知和景子",
-   "en": "",
+   "en": "Keiko Hichiwa",
    "slots": [
     171
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0172",
@@ -760,80 +800,88 @@
   {
    "id": "cf.0184",
    "jp": "&g(14,0)&s(200,20)&c(7)飛知和景子&s(230,206)&c(7)&g(14,0)浅田　葉子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KYOTO&n()BIRTH &p(31,-1)DEC. 12 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)161&n()SIZE  &p(31,-1)B75 W59 H82&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Keiko Hichiwa&s(230,206)&c(7)&g(13,0)Yoko Asada&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KYOTO&n()BIRTH &p(31,-1)DEC. 12 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)161&n()SIZE  &p(31,-1)B75 W59 H82&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     184
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0185",
    "jp": "&s(165,87)&c(7)&g(13,16)接触テレパス。悲しみと憎しみの感情に支配されている美里の心を癒やそうとする、心優しい少女。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath. A gentle&n()girl who wants to heal&n()Misato's heart, ruled as it&n()is by grief and hatred.",
    "slots": [
     185
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0186",
    "jp": "&s(165,87)&c(7)&g(13,16)接触テレパス。由美の死により一行の前から姿を消した美里の身を案じ、自らも彼女を追って姿を消した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath. Worried&n()about Misato, who&n()vanished after Yumi's&n()death, she went after&n()her and vanished too.",
    "slots": [
     186
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0187",
    "jp": "&s(165,87)&c(7)&g(13,16)接触テレパス。由美の死により一行の前から姿を消した美里の身を案じている。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath. Worried&n()about Misato, who left&n()the group after Yumi's&n()death.",
    "slots": [
     187
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0188",
    "jp": "&s(165,87)&c(7)&g(13,16)接触テレパス。大地震で両親を失い、また、テレパシー能力を持つことで周囲にうとまれて育ったため、少々内向的になっている。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath. She lost&n()her parents in the great&n()quake and grew up&n()shunned for her&n()telepathy, so she is a little&n()withdrawn.",
    "slots": [
     188
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0189",
    "jp": "&s(165,87)&c(7)&g(13,16)接触テレパス。大地震で両親を失い、また、テレパシー能力のせいで少々内向的な性格になっている。二条城で飛龍の声を聞いた。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath.&n()Orphaned by the great&n()quake, her telepathy&n()made her a bit withdrawn.&n()Heard the Wind Dragon's&n()voice at Nijo Castle.",
    "slots": [
     189
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0190",
    "jp": "&s(165,87)&c(7)&g(13,16)接触テレパス。内向的な性格だったが、美里とのふれあいにより変わりつつある。国会議事堂で飛龍の魂を持つ者として覚醒した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath. Once&n()withdrawn, she is opening&n()up thanks to Misato.&n()Awakened to the Wind&n()Dragon's soul at the&n()National Diet Building.",
    "slots": [
     190
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0192",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     192
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0193",
@@ -856,11 +904,12 @@
   {
    "id": "cf.0195",
    "jp": "岩見沢　唯",
-   "en": "",
+   "en": "Yui Iwamizawa",
    "slots": [
     195
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0196",
@@ -901,51 +950,56 @@
   {
    "id": "cf.0208",
    "jp": "&g(14,0)&s(200,20)&c(7)岩見沢　唯&s(230,206)&c(7)&g(14,0)熊谷ニーナ&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HOKKAIDO&n()BIRTH &p(31,-1)AUG. 15 1995&n()AGE   &p(31,-1)22&n()HEIGHT&p(31,-1)160&n()SIZE  &p(31,-1)B88 W63 H89&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Yui Iwamizawa&s(230,206)&c(7)&g(13,0)Nina Kumagai&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HOKKAIDO&n()BIRTH &p(31,-1)AUG. 15 1995&n()AGE   &p(31,-1)22&n()HEIGHT&p(31,-1)160&n()SIZE  &p(31,-1)B88 W63 H89&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
    "slots": [
     208
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "cf.0209",
    "jp": "&s(165,87)&c(7)&g(13,16)代々、大雪の龍脈を守護してきた家系に生まれ、自分もその運命を受け入れて生きていた物静かな女性。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A quiet woman from a&n()family that has guarded&n()the dragon vein of Mt.&n()Taisetsu for generations.&n()She accepted that fate&n()as her own.",
    "slots": [
     209
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0210",
    "jp": "&s(165,87)&c(7)&g(13,16)自分の身代わりとなって敵の手に落ちた巴澄を助け出すべく、龍脈調査を優先に行動するという裕子たちと別れた。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)To rescue Hasumi,&n()captured by the enemy in&n()her place, she split from&n()Yuko and the others, who&n()put the dragon vein&n()survey first.",
    "slots": [
     210
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0211",
    "jp": "&s(165,87)&c(7)&g(13,16)良妻賢母型の女性。裕子たちとの出会いにより、運命を受け入れるだけの生き方を見つめ直すようになった。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)The devoted \"good wife,&n()wise mother\" type.&n()Meeting Yuko and the&n()others made her rethink a&n()life of simply accepting&n()fate.",
    "slots": [
     211
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0216",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     216
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0217",
@@ -968,12 +1022,13 @@
   {
    "id": "cf.0219",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "slots": [
     219
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0220",
@@ -1014,31 +1069,34 @@
   {
    "id": "cf.0232",
    "jp": "&g(14,0)&s(200,20)&c(7)周防ちかな&s(230,206)&c(7)&g(14,0)安達　忍&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KUMAMOTO&n()BIRTH &p(31,-1)DEC. 19 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)170&n()SIZE  &p(31,-1)B82 W60 H82&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Chikana Suo&s(230,206)&c(7)&g(12,0)Shinobu&g(13,0) &g(12,0)Adachi&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KUMAMOTO&n()BIRTH &p(31,-1)DEC. 19 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)170&n()SIZE  &p(31,-1)B82 W60 H82&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     232
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0233",
    "jp": "&s(165,87)&c(7)&g(13,16)阿蘇の龍脈を護る神門一門の末裔。面倒見のいいアネゴはだの少女で、強い使命感を持って行動している。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Heir of the Kamikado clan,&n()who guard the dragon&n()vein of Aso. A caring&n()big-sister type with a&n()strong sense of duty.",
    "slots": [
     233
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0240",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     240
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0241",
@@ -1061,12 +1119,13 @@
   {
    "id": "cf.0243",
    "jp": "静内さやか",
-   "en": "",
+   "en": "Sayaka Shizunai",
    "slots": [
     243
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0244",
@@ -1089,61 +1148,67 @@
   {
    "id": "cf.0248",
    "jp": "&g(14,0)&s(200,20)&c(7)静内さやか",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Sayaka Shizunai",
    "slots": [
     248
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0249",
    "jp": "&s(165,87)&c(7)&g(13,16)自称ごく一般的な明るい女子大生。一応、守護獣使いらしく荏狗覇菟にスカウトされていた。・・・が、やる気なしなし。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A \"perfectly ordinary,&n()cheery college girl\", or so&n()she says. A Guardian user,&n()so Egubado scouted her...&n()but she can't be&n()bothered.",
    "slots": [
     249
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0256",
    "jp": "&g(14,0)&s(200,20)&c(7)静内さやか&s(230,206)&c(7)&g(14,0)篠原　恵美&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)AOMORI&n()BIRTH &p(31,-1)JULY 6 1997&n()AGE   &p(31,-1)20&n()HEIGHT&p(31,-1)163&n()SIZE  &p(31,-1)B83 W60 H87&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Sayaka Shizunai&s(230,206)&c(7)&g(13,0)Emi Shinohara&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)AOMORI&n()BIRTH &p(31,-1)JULY 6 1997&n()AGE   &p(31,-1)20&n()HEIGHT&p(31,-1)163&n()SIZE  &p(31,-1)B83 W60 H87&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
    "slots": [
     256
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0257",
    "jp": "&s(165,87)&c(7)&g(13,16)自称ごく一般的な明るい女子大生。気の抜ける喋り方をするクセがあり、自分本意で何事もいいかげんな困った娘。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A \"perfectly ordinary,&n()cheery college girl\", or so&n()she says. Talks in a limp&n()drawl. Self-centered and&n()sloppy about everything.",
    "slots": [
     257
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0258",
    "jp": "&s(165,87)&c(7)&g(13,16)自称ごく一般的な明るい女子大生。気の抜ける喋り方をする。特に深い理由も無く、なんとなぁ～くってかんじぃ～で別行動中。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A \"perfectly ordinary,&n()cheery college girl\", or so&n()she says. Off on her own&n()for no real reason, just,&n()li-ike, 'cause.",
    "slots": [
     258
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0264",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     264
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0265",
@@ -1166,12 +1231,13 @@
   {
    "id": "cf.0267",
    "jp": "一の宮鈴音",
-   "en": "",
+   "en": "Suzune Ichinomiya",
    "slots": [
     267
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0268",
@@ -1194,51 +1260,56 @@
   {
    "id": "cf.0272",
    "jp": "&g(14,0)&s(200,20)&c(7)一の宮鈴音",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Suzune Ichinomiya",
    "slots": [
     272
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0273",
    "jp": "&s(165,87)&c(7)&g(13,16)明るく社交的な性格。阿蘇で美由紀たちに助けられた。姉が現在、荏狗覇菟に捕まっているらしい。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Bright and outgoing.&n()Miyuki and the others&n()rescued her at Aso.&n()Egubado seems to be&n()holding her older sister.",
    "slots": [
     273
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0280",
    "jp": "&g(14,0)&s(200,20)&c(7)一の宮鈴音&s(230,206)&c(7)&g(14,0)皆口　裕子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KUMAMOTO&n()BIRTH &p(31,-1)OCT. 10 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)158&n()SIZE  &p(31,-1)B82 W60 H85&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Suzune Ichinomiya&s(230,206)&c(7)&g(12,0)Yuko&g(13,0) &g(12,0)Minaguchi&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KUMAMOTO&n()BIRTH &p(31,-1)OCT. 10 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)158&n()SIZE  &p(31,-1)B82 W60 H85&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
    "slots": [
     280
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0281",
    "jp": "&s(165,87)&c(7)&g(13,16)一の宮琴音の妹。双子である。明るく社交的な性格で内気な姉をうまくサポートする。２人そろうことで守護獣が召喚できる。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Kotone Ichinomiya's&n()younger twin. Bright and&n()outgoing, she supports&n()her shy sister. Together,&n()the two can summon a&n()Guardian.",
    "slots": [
     281
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0288",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     288
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0289",
@@ -1261,12 +1332,13 @@
   {
    "id": "cf.0291",
    "jp": "小泊かおる",
-   "en": "",
+   "en": "Kaoru Kodomari",
    "slots": [
     291
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0292",
@@ -1307,51 +1379,56 @@
   {
    "id": "cf.0304",
    "jp": "&g(14,0)&s(200,20)&c(7)小泊かおる&s(230,206)&c(7)&g(14,0)岩坪　理恵&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)AOMORI&n()BIRTH &p(31,-1)NOV. 1 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)156&n()SIZE  &p(31,-1)B75 W56 H76&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Kaoru Kodomari&s(230,206)&c(7)&g(13,0)Rie Iwatsubo&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)AOMORI&n()BIRTH &p(31,-1)NOV. 1 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)156&n()SIZE  &p(31,-1)B75 W56 H76&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     304
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0305",
    "jp": "&s(165,87)&c(7)&g(13,16)少年っぽい外見の女の子。裕子にさそわれ仲間になったばかりだが突然の一行の意見対立に巻き込まれた。現在別行動中。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A boyish-looking girl. Yuko&n()had just recruited her&n()when the group suddenly&n()split. Now traveling&n()separately.",
    "slots": [
     305
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0306",
    "jp": "&s(165,87)&c(7)&g(13,16)少年っぽい外見通りの細かい事は気にしないさっぱりした性格の女の子。蘭という名の友だちを捜しているらしい。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A girl as boyish as she&n()looks: easygoing, never&n()sweats the small stuff.&n()Seems to be looking for a&n()friend named Ran.",
    "slots": [
     306
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0307",
    "jp": "&s(165,87)&c(7)&g(13,16)少年っぽい外見通りの細かい事は気にしないさっぱりした性格の女の子。同じ孤児院で育った蘭とはお互い姉妹のように思っている。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A girl as boyish as she&n()looks: easygoing, never&n()sweats the small stuff.&n()She and Ran grew up in&n()the same orphanage, like&n()sisters.",
    "slots": [
     307
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0312",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     312
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0313",
@@ -1374,12 +1451,13 @@
   {
    "id": "cf.0315",
    "jp": "一の宮琴音",
-   "en": "",
+   "en": "Kotone Ichinomiya",
    "slots": [
     315
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0316",
@@ -1420,31 +1498,34 @@
   {
    "id": "cf.0328",
    "jp": "&g(14,0)&s(200,20)&c(7)一の宮琴音&s(230,206)&c(7)&g(14,0)皆口　裕子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KUMAMOTO&n()BIRTH &p(31,-1)OCT. 10 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)158&n()SIZE  &p(31,-1)B80 W58 H82&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Kotone Ichinomiya&s(230,206)&c(7)&g(12,0)Yuko&g(13,0) &g(12,0)Minaguchi&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KUMAMOTO&n()BIRTH &p(31,-1)OCT. 10 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)158&n()SIZE  &p(31,-1)B80 W58 H82&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
    "slots": [
     328
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0329",
    "jp": "&s(165,87)&c(7)&g(13,16)一の宮鈴音の姉。双子の妹とは逆に、人見知りが激しくおとなしい性格。２人そろうことで守護獣が召喚できるようになる。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Suzune Ichinomiya's elder&n()twin. Unlike her sister,&n()very shy and quiet.&n()Together, the two can&n()summon a Guardian.",
    "slots": [
     329
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0336",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     336
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0337",
@@ -1467,12 +1548,13 @@
   {
    "id": "cf.0339",
    "jp": "平泉　るり",
-   "en": "",
+   "en": "Ruri Hiraizumi",
    "slots": [
     339
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0340",
@@ -1495,51 +1577,56 @@
   {
    "id": "cf.0344",
    "jp": "&g(14,0)&s(200,20)&c(7)平泉　るり",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ruri Hiraizumi",
    "slots": [
     344
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0345",
    "jp": "&s(165,87)&c(7)&g(13,16)デート中に荏狗覇菟に捕まったのだが、彼氏はとっととトンズラ。男運の無さをなげきつつ、何とか自力で脱出した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Egubado caught her on a&n()date and her boyfriend&n()ran for it. Cursing her luck&n()with men, she escaped on&n()her own.",
    "slots": [
     345
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0352",
    "jp": "&g(14,0)&s(200,20)&c(7)平泉　るり&s(230,206)&c(7)&g(14,0)浅田　葉子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)IWATE&n()BIRTH &p(31,-1)AUG. 3 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)169&n()SIZE  &p(31,-1)B90 W64 H88&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ruri Hiraizumi&s(230,206)&c(7)&g(13,0)Yoko Asada&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)IWATE&n()BIRTH &p(31,-1)AUG. 3 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)169&n()SIZE  &p(31,-1)B90 W64 H88&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     352
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0353",
    "jp": "&s(165,87)&c(7)&g(13,16)性格的に問題は無いし恋愛経験も十分なのだがいつも男に逃げられる。本人は荏狗覇菟のせいにしているが、単に男運が悪いようだ。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Nothing wrong with her&n()personality, plenty of&n()dating experience, yet&n()men always run off. She&n()blames Egubado. It's just&n()bad luck.",
    "slots": [
     353
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0360",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     360
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0361",
@@ -1562,11 +1649,12 @@
   {
    "id": "cf.0363",
    "jp": "日之影　蘭",
-   "en": "",
+   "en": "Ran Hinokage",
    "slots": [
     363
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0364",
@@ -1589,69 +1677,76 @@
   {
    "id": "cf.0368",
    "jp": "&g(14,0)&s(200,20)&c(7)日之影　蘭",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ran Hinokage",
    "slots": [
     368
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0369",
    "jp": "&s(165,87)&c(7)&g(13,16)無邪気な感じのする少女。荏狗覇菟に追われていたが、美由紀たちが介入したことで無事に逃げていった。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)An innocent-seeming girl.&n()Egubado was chasing her,&n()but Miyuki and the others&n()stepped in and she got&n()away.",
    "slots": [
     369
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0370",
    "jp": "&s(165,87)&c(7)&g(13,16)無邪気な感じのする少女。荏狗覇菟にとらわれていたが、巴澄の捨て身の行動により無事に脱走した。現在も逃走中。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)An innocent-seeming girl.&n()Held by Egubado, she&n()escaped thanks to&n()Hasumi's selfless act. Still&n()on the run.",
    "slots": [
     370
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0376",
    "jp": "&g(14,0)&s(200,20)&c(7)日之影　蘭&s(230,206)&c(7)&g(14,0)高田　由美&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)MIYAZAKI&n()BIRTH &p(31,-1)FEB. 14 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)155&n()SIZE  &p(31,-1)B81 W56 H84&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ran Hinokage&s(230,206)&c(7)&g(13,0)Yumi Takada&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)MIYAZAKI&n()BIRTH &p(31,-1)FEB. 14 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)155&n()SIZE  &p(31,-1)B81 W56 H84&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
    "slots": [
     376
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0377",
    "jp": "&s(165,87)&c(7)&g(13,16)無邪気な感じのする少女。荏狗覇菟に追われているところを美由紀たちに助けられた。友だちを捜して旅をしているらしい。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)An innocent-seeming girl.&n()Miyuki and the others&n()saved her from Egubado's&n()pursuers. She seems to be&n()traveling in search of a&n()friend.",
    "slots": [
     377
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0378",
    "jp": "&s(165,87)&c(7)&g(13,16)無邪気な感じのする少女。列島大地震で家族をなくし孤児院で育った。同じ境遇のかおるとは姉妹のような関係である。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)An innocent-seeming girl.&n()Orphaned by the Great&n()Archipelago Earthquake,&n()she grew up with Kaoru in&n()an orphanage. The two&n()are like sisters.",
    "slots": [
     378
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0384",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     384
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0385",
@@ -1674,11 +1769,12 @@
   {
    "id": "cf.0387",
    "jp": "直江　巴澄",
-   "en": "",
+   "en": "Hasumi Naoe",
    "slots": [
     387
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0388",
@@ -1701,69 +1797,76 @@
   {
    "id": "cf.0392",
    "jp": "&g(14,0)&s(200,20)&c(7)直江　巴澄",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Hasumi Naoe",
    "slots": [
     392
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0393",
    "jp": "&s(165,87)&c(7)&g(13,16)聖ゆかりの同志。大雪の龍脈を調査中、荏狗覇菟と遭遇。唯を逃がしたものの、自分は捕まってしまう。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Yukari Hijiri's comrade. She&n()ran into Egubado while&n()surveying the dragon vein&n()of Mt. Taisetsu. She let Yui&n()escape, but was captured&n()herself.",
    "slots": [
     393
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0394",
    "jp": "&s(165,87)&c(7)&g(13,16)聖ゆかりの同志。捕虜になってもその行動力は変わらず、蘭を人質にして一行を捕らえようとする涼子に体当たりして蘭を逃がした。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Yukari Hijiri's comrade.&n()Bold even as a prisoner:&n()when Ryoko held Ran&n()hostage to trap the&n()group, she rammed Ryoko&n()and let Ran escape.",
    "slots": [
     394
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0395",
    "jp": "&s(165,87)&c(7)&g(13,16)聖ゆかりの同志。荏狗覇菟の捕虜になっていたが、佐渡の基地で、瞳の手によって釈放された。瞳が何を意図したのかは不明。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Yukari Hijiri's comrade.&n()Held prisoner by Egubado,&n()she was set free at the&n()Sado base by Hitomi. What&n()Hitomi intended is&n()unknown.",
    "slots": [
     395
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0400",
    "jp": "&g(14,0)&s(200,20)&c(7)直江　巴澄&s(230,206)&c(7)&g(14,0)佐久間レイ&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)NIIGATA&n()BIRTH &p(31,-1)MAY 4 1996&n()AGE   &p(31,-1)21&n()HEIGHT&p(31,-1)173&n()SIZE  &p(31,-1)B92 W62 H88&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Hasumi Naoe&s(230,206)&c(7)&g(13,0)Rei Sakuma&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)NIIGATA&n()BIRTH &p(31,-1)MAY 4 1996&n()AGE   &p(31,-1)21&n()HEIGHT&p(31,-1)173&n()SIZE  &p(31,-1)B92 W62 H88&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     400
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0401",
    "jp": "&s(165,87)&c(7)&g(13,16)聖ゆかりの同志。無口で無愛想な印象を与えるが、仁義にあつい。ゆかりの志に共感して行動を共にしている。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Yukari Hijiri's comrade. She&n()seems taciturn and curt,&n()but is deeply loyal. She&n()shares Yukari's ideals and&n()travels with her.",
    "slots": [
     401
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0408",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     408
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0409",
@@ -1786,11 +1889,12 @@
   {
    "id": "cf.0411",
    "jp": "武神",
-   "en": "",
+   "en": "Takegami",
    "slots": [
     411
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0412",
@@ -1831,30 +1935,33 @@
   {
    "id": "cf.0424",
    "jp": "&g(14,0)&s(200,20)&c(7)武神&s(230,206)&c(7)&g(14,0)梁田　清之&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)--------&n()BIRTH &p(31,-1)---- -- ----&n()AGE   &p(31,-1)--&n()HEIGHT&p(31,-1)---&n()SIZE  &p(31,-1)B-- W-- H--&n()BLOOD &p(31,-1)--&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Takegami&s(230,206)&c(7)&g(12,0)Kiyoyuki&g(13,0) &g(12,0)Yanada&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)--------&n()BIRTH &p(31,-1)---- -- ----&n()AGE   &p(31,-1)--&n()HEIGHT&p(31,-1)---&n()SIZE  &p(31,-1)B-- W-- H--&n()BLOOD &p(31,-1)--&n()&h()&f(10,6)",
    "slots": [
     424
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0425",
    "jp": "&s(165,87)&c(7)&g(13,16)自分の力を活かせる場を求め、日夜修行をかかさぬ謎の格闘家。九州出身といううわさ。オレより強いヤツに会いに行く！",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A mysterious fighter who&n()trains day and night.&n()Rumored to hail from&n()Kyushu. \"I'm off to find&n()someone stronger than&n()me!\"",
    "slots": [
     425
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0432",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     432
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0433",
@@ -1877,11 +1984,12 @@
   {
    "id": "cf.0435",
    "jp": "仁　瞳",
-   "en": "",
+   "en": "Hitomi Jin",
    "slots": [
     435
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0436",
@@ -1904,59 +2012,65 @@
   {
    "id": "cf.0440",
    "jp": "&g(14,0)&s(200,20)&c(7)仁　瞳",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Hitomi Jin",
    "slots": [
     440
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0441",
    "jp": "&s(165,87)&c(7)&g(13,16)美由紀を救った謎の人物。荏狗覇菟の闘士のようだが・・・。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A mysterious figure who&n()saved Miyuki. Seems to be&n()an Egubado Warrior, but...",
    "slots": [
     441
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0442",
    "jp": "&s(165,87)&c(7)&g(13,16)めぐみの部下で、荏狗覇菟の有能な闘士。だが、時おり謎に包まれた行動をする。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Megumi's subordinate and&n()a capable Egubado&n()Warrior. Yet at times she&n()acts in mysterious ways.",
    "slots": [
     442
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0448",
    "jp": "&g(14,0)&s(200,20)&c(7)仁　瞳&s(230,206)&c(7)&g(14,0)勝生真沙子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KYOTO&n()BIRTH &p(31,-1)OCT. 15 1997&n()AGE   &p(31,-1)20&n()HEIGHT&p(31,-1)170&n()SIZE  &p(31,-1)B83 W53 H85&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Hitomi Jin&s(230,206)&c(7)&g(12,0)Masako&g(13,0) &g(12,0)Katsuki&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)KYOTO&n()BIRTH &p(31,-1)OCT. 15 1997&n()AGE   &p(31,-1)20&n()HEIGHT&p(31,-1)170&n()SIZE  &p(31,-1)B83 W53 H85&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     448
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0449",
    "jp": "&s(165,87)&c(7)&g(13,16)元はめぐみの部下だったが、美由紀たちと出会ったことで日本の未来に新たな可能性があると確信し、荏狗覇菟を抜け同志となった。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Once Megumi's&n()subordinate. Miyuki and&n()the others convinced her&n()Japan's future holds new&n()hope; she left Egubado&n()and joined them.",
    "slots": [
     449
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0456",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     456
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0457",
@@ -1979,11 +2093,12 @@
   {
    "id": "cf.0459",
    "jp": "半澤　由美",
-   "en": "",
+   "en": "Yumi Hanzawa",
    "slots": [
     459
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0460",
@@ -2006,59 +2121,65 @@
   {
    "id": "cf.0464",
    "jp": "&g(14,0)&s(200,20)&c(7)半澤　由美",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Yumi Hanzawa",
    "slots": [
     464
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0465",
    "jp": "&s(165,87)&c(7)&g(13,16)知美直属の闘士。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A Warrior serving directly&n()under Tomomi.",
    "slots": [
     465
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0472",
    "jp": "&g(14,0)&s(200,20)&c(7)半澤　由美&s(230,206)&c(7)&g(14,0)皆口　裕子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)EHIME&n()BIRTH &p(31,-1)FEB 21 2000&n()AGE   &p(31,-1)17&n()HEIGHT&p(31,-1)161&n()SIZE  &p(31,-1)B84 W52 H83&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Yumi Hanzawa&s(230,206)&c(7)&g(12,0)Yuko&g(13,0) &g(12,0)Minaguchi&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)EHIME&n()BIRTH &p(31,-1)FEB 21 2000&n()AGE   &p(31,-1)17&n()HEIGHT&p(31,-1)161&n()SIZE  &p(31,-1)B84 W52 H83&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     472
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0473",
    "jp": "&s(165,87)&c(7)&g(13,16)知美直属の闘士。海原美里の幼なじみらしいが、なぜ荏狗覇菟に所属しているかは不明。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A Warrior serving directly&n()under Tomomi. Said to be&n()Misato Kaibara's childhood&n()friend, but why she is&n()with Egubado is unknown.",
    "slots": [
     473
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0474",
    "jp": "&s(165,87)&c(7)&g(13,16)守護獣の暴走という過去により、人生のすべてが変わってしまった不幸な少女。最後は幼なじみの美里にみとられ息を引き取った。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A tragic girl whose whole&n()life changed when her&n()Guardian went berserk.&n()She passed away in the&n()arms of her childhood&n()friend Misato.",
    "slots": [
     474
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0480",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     480
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0481",
@@ -2081,11 +2202,12 @@
   {
    "id": "cf.0483",
    "jp": "鏡　涼子",
-   "en": "",
+   "en": "Ryoko Kagami",
    "slots": [
     483
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0484",
@@ -2108,59 +2230,65 @@
   {
    "id": "cf.0488",
    "jp": "&g(14,0)&s(200,20)&c(7)鏡　涼子",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ryoko Kagami",
    "slots": [
     488
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0489",
    "jp": "&s(165,87)&c(7)&g(13,16)ガキっぽい外見の、どっか抜けてる荏狗覇菟の闘士。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A childish-looking,&n()somewhat dim Egubado&n()Warrior.",
    "slots": [
     489
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0496",
    "jp": "&g(14,0)&s(200,20)&c(7)鏡　涼子&s(230,206)&c(7)&g(14,0)大谷　育江&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HYOGO&n()BIRTH &p(31,-1)NOV. 27 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)163&n()SIZE  &p(31,-1)B76 W54 H83&n()BLOOD &p(31,-1)B&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ryoko Kagami&s(230,206)&c(7)&g(13,0)Ikue Otani&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HYOGO&n()BIRTH &p(31,-1)NOV. 27 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)163&n()SIZE  &p(31,-1)B76 W54 H83&n()BLOOD &p(31,-1)B&n()&h()&f(10,6)",
    "slots": [
     496
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0497",
    "jp": "&s(165,87)&c(7)&g(13,16)闘士。ヘンな作戦ばかり思いつき勢いで実行するものの、根が単純なだけにいつも失敗に終わる。身長のことを言われるのがキラい。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A Warrior. Dreams up&n()weird schemes and&n()charges right in, but she&n()is so simple-minded they&n()always fail. Hates any talk&n()about her height.",
    "slots": [
     497
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0498",
    "jp": "&s(165,87)&c(7)&g(13,16)さすがに後が無く猪苗代湖で総力戦をいどむも、やはり今一歩およばず。最後は独りどこへともなく去っていった。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)With her back to the wall,&n()she bet everything on a&n()battle at Lake&n()Inawashiro, but fell just&n()short again. In the end&n()she wandered off alone.",
    "slots": [
     498
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0504",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     504
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0505",
@@ -2183,11 +2311,12 @@
   {
    "id": "cf.0507",
    "jp": "南城　知美",
-   "en": "",
+   "en": "Tomomi Nanjo",
    "slots": [
     507
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0508",
@@ -2210,59 +2339,65 @@
   {
    "id": "cf.0512",
    "jp": "&g(14,0)&s(200,20)&c(7)南城　知美",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Tomomi Nanjo",
    "slots": [
     512
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0513",
    "jp": "&s(165,87)&c(7)&g(13,16)朱雀という通り名で呼ばれる謎の女性。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A mysterious woman who&n()goes by the name Suzaku.",
    "slots": [
     513
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0514",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で通り名は朱雀。独占欲が強く残忍な性格で、か弱く美しいものをいたぶるのが大好き。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as&n()Suzaku. Possessive and&n()cruel, she loves&n()tormenting things frail&n()and beautiful.",
    "slots": [
     514
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0520",
    "jp": "&g(14,0)&s(200,20)&c(7)南城　知美&s(230,206)&c(7)&g(14,0)佐久間レイ&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)NAGASAKI&n()BIRTH &p(31,-1)MAR. 19 1996&n()AGE   &p(31,-1)21&n()HEIGHT&p(31,-1)165&n()SIZE  &p(31,-1)B83 W52 H85&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Tomomi Nanjo&s(230,206)&c(7)&g(13,0)Rei Sakuma&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)NAGASAKI&n()BIRTH &p(31,-1)MAR. 19 1996&n()AGE   &p(31,-1)21&n()HEIGHT&p(31,-1)165&n()SIZE  &p(31,-1)B83 W52 H85&n()BLOOD &p(31,-1)AB&n()&h()&f(10,6)",
    "slots": [
     520
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0521",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で通り名は朱雀。独占欲が強く残忍な性格で、か弱く美しいものをいたぶるのが大好き。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as&n()Suzaku. Possessive and&n()cruel, she loves&n()tormenting things frail&n()and beautiful.",
    "slots": [
     521
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0528",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     528
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0529",
@@ -2285,11 +2420,12 @@
   {
    "id": "cf.0531",
    "jp": "東　聡美",
-   "en": "",
+   "en": "Satomi Azuma",
    "slots": [
     531
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0532",
@@ -2312,59 +2448,65 @@
   {
    "id": "cf.0536",
    "jp": "&g(14,0)&s(200,20)&c(7)東　聡美",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Satomi Azuma",
    "slots": [
     536
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0537",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で通り名は青龍。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as Seiryu.",
    "slots": [
     537
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0538",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で、通り名は青龍。めぐみに深い信頼を置いているが彼女が瞳を高く買っていることに不満を抱いている。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as Seiryu.&n()She trusts Megumi deeply,&n()but resents how highly&n()Megumi rates Hitomi.",
    "slots": [
     538
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0544",
    "jp": "&g(14,0)&s(200,20)&c(7)東　聡美&s(230,206)&c(7)&g(14,0)高田　由美&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOKYO&n()BIRTH &p(31,-1)JAN. 25 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)167&n()SIZE  &p(31,-1)B82 W55 H84&n()BLOOD &p(31,-1)B&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Satomi Azuma&s(230,206)&c(7)&g(13,0)Yumi Takada&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)TOKYO&n()BIRTH &p(31,-1)JAN. 25 1998&n()AGE   &p(31,-1)19&n()HEIGHT&p(31,-1)167&n()SIZE  &p(31,-1)B82 W55 H84&n()BLOOD &p(31,-1)B&n()&h()&f(10,6)",
    "slots": [
     544
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0545",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で、通り名は青龍。めぐみに深い信頼を置いているが彼女が瞳を高く買っていることに不満を抱いている。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as Seiryu.&n()She trusts Megumi deeply,&n()but resents how highly&n()Megumi rates Hitomi.",
    "slots": [
     545
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0552",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     552
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0553",
@@ -2387,11 +2529,12 @@
   {
    "id": "cf.0555",
    "jp": "西苑寺麗子",
-   "en": "",
+   "en": "Reiko Saionji",
    "slots": [
     555
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0556",
@@ -2414,59 +2557,65 @@
   {
    "id": "cf.0560",
    "jp": "&g(14,0)&s(200,20)&c(7)西苑寺麗子",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Reiko Saionji",
    "slots": [
     560
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0561",
    "jp": "&s(165,87)&c(7)&g(13,16)白虎という通り名で呼ばれる謎の女性。爪の手入れが好きらしい。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A mysterious woman who&n()goes by the name Byakko.&n()Apparently fond of doing&n()her nails.",
    "slots": [
     561
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0562",
    "jp": "&s(165,87)&c(7)&g(13,16)通り名は白虎。四門将の１人だが、おフロに入るのと爪の手入れが好きで、自分以外の事には関心が無い。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Known as Byakko. One of&n()the Four Gate Generals,&n()but she loves her baths&n()and doing her nails, and&n()cares about nothing but&n()herself.",
    "slots": [
     562
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0568",
    "jp": "&g(14,0)&s(200,20)&c(7)西苑寺麗子&s(230,206)&c(7)&g(14,0)大谷　育江&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)OSAKA&n()BIRTH &p(31,-1)MAY 29 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)168&n()SIZE  &p(31,-1)B86 W52 H83&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Reiko Saionji&s(230,206)&c(7)&g(13,0)Ikue Otani&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)OSAKA&n()BIRTH &p(31,-1)MAY 29 1999&n()AGE   &p(31,-1)18&n()HEIGHT&p(31,-1)168&n()SIZE  &p(31,-1)B86 W52 H83&n()BLOOD &p(31,-1)O&n()&h()&f(10,6)",
    "slots": [
     568
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0569",
    "jp": "&s(165,87)&c(7)&g(13,16)通り名は白虎。四門将の１人だが、おフロに入るのと爪の手入れが好きで、自分以外の事には関心が無い。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Known as Byakko. One of&n()the Four Gate Generals,&n()but she loves her baths&n()and doing her nails, and&n()cares about nothing but&n()herself.",
    "slots": [
     569
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0576",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     576
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0577",
@@ -2489,12 +2638,13 @@
   {
    "id": "cf.0579",
    "jp": "北斗めぐみ",
-   "en": "",
+   "en": "Megumi Hokuto",
    "slots": [
     579
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0580",
@@ -2517,71 +2667,78 @@
   {
    "id": "cf.0584",
    "jp": "&g(14,0)&s(200,20)&c(7)北斗めぐみ",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Megumi Hokuto",
    "slots": [
     584
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0585",
    "jp": "&s(165,87)&c(7)&g(13,16)玄武という通り名で呼ばれる謎の女性。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A mysterious woman who&n()goes by the name Genbu.",
    "slots": [
     585
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0586",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で、通り名は玄武。冷酷で残忍な性格で荏狗覇菟内でも恐れられている。だが、瞳には一目おいているようだ。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as Genbu.&n()Cold and cruel, feared&n()even within Egubado. Yet&n()she seems to respect&n()Hitomi.",
    "slots": [
     586
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0587",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で、通り名は玄武。冷酷で残忍な性格で荏狗覇菟内でも恐れられている。裏切った瞳に異様なほどの憎悪を燃やす。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as Genbu.&n()Cold and cruel, feared&n()even in Egubado. Burns&n()with uncanny hatred for&n()Hitomi, who betrayed her.",
    "slots": [
     587
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0592",
    "jp": "&g(14,0)&s(200,20)&c(7)北斗めぐみ&s(230,206)&c(7)&g(14,0)岩坪　理恵&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HOKKAIDO&n()BIRTH &p(31,-1)JULY 26 1997&n()AGE   &p(31,-1)20&n()HEIGHT&p(31,-1)168&n()SIZE  &p(31,-1)B84 W53 H80&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Megumi Hokuto&s(230,206)&c(7)&g(13,0)Rie Iwatsubo&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)HOKKAIDO&n()BIRTH &p(31,-1)JULY 26 1997&n()AGE   &p(31,-1)20&n()HEIGHT&p(31,-1)168&n()SIZE  &p(31,-1)B84 W53 H80&n()BLOOD &p(31,-1)A&n()&h()&f(10,6)",
    "slots": [
     592
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0593",
    "jp": "&s(165,87)&c(7)&g(13,16)四門将の１人で、通り名は玄武。冷酷で残忍な性格で荏狗覇菟内でも恐れられている。裏切った瞳に異様なほど憎悪を燃やす。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)One of the Four Gate&n()Generals, known as Genbu.&n()Cold and cruel, feared&n()even in Egubado. Burns&n()with uncanny hatred for&n()Hitomi, who betrayed her.",
    "slots": [
     593
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0600",
    "jp": "&g(14,0)&s(200,20)&c(7)？？？？？",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)?????",
    "slots": [
     600
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0601",
@@ -2604,11 +2761,12 @@
   {
    "id": "cf.0603",
    "jp": "龍鬼妃",
-   "en": "",
+   "en": "Ryukihi",
    "slots": [
     603
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0604",
@@ -2631,50 +2789,55 @@
   {
    "id": "cf.0608",
    "jp": "&g(14,0)&s(200,20)&c(7)龍鬼妃",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ryukihi",
    "slots": [
     608
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0609",
    "jp": "&s(165,87)&c(7)&g(13,16)龍の使い手の出現を予言した謎の人物。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)A mysterious figure who&n()foretold the coming of&n()the Dragon Wielder.",
    "slots": [
     609
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0610",
    "jp": "&s(165,87)&c(7)&g(13,16)荏狗覇菟の首領。その素性は全て謎に包まれている。荏狗覇菟の障害となる龍の使い手の出現を予言した。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Leader of Egubado.&n()Everything about her is a&n()mystery. She foretold the&n()coming of the Dragon&n()Wielder, who stands in&n()Egubado's way.",
    "slots": [
     610
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "cf.0616",
    "jp": "&g(14,0)&s(200,20)&c(7)龍鬼妃&s(230,206)&c(7)&g(14,0)井上喜久子&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)--------&n()BIRTH &p(31,-1)---- -- ----&n()AGE   &p(31,-1)--&n()HEIGHT&p(31,-1)---&n()SIZE  &p(31,-1)B-- W-- H--&n()BLOOD &p(31,-1)--&n()&h()&f(10,6)",
-   "en": "",
+   "en": "&g(13,0)&s(200,20)&c(7)Ryukihi&s(230,206)&c(7)&g(13,0)Kikuko Inoue&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&p(31,-1)--------&n()BIRTH &p(31,-1)---- -- ----&n()AGE   &p(31,-1)--&n()HEIGHT&p(31,-1)---&n()SIZE  &p(31,-1)B-- W-- H--&n()BLOOD &p(31,-1)--&n()&h()&f(10,6)",
    "slots": [
     616
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "cf.0617",
    "jp": "&s(165,87)&c(7)&g(13,16)荏狗覇菟の首領。人間に失望し日本全土を破壊し、浄化を行おうとたくらむ。外見は若く美しい女性だが、その素性は全く謎。",
-   "en": "",
+   "en": "&s(165,87)&c(7)&g(13,16)Leader of Egubado.&n()Disillusioned with&n()humanity, she plots to&n()destroy and purify Japan.&n()Young and lovely, but a&n()total mystery.",
    "slots": [
     617
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   }
  ]
 }

@@ -2,9 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (b001-b065 merged = unit names, all scenario, all g13, txd rep/save/tu;
-  b066-b072 (txd cf/day/dic/gd + day overlay strings) split, not started; then exe/overlays, then review).
-  Last build: 2026-11-23 `build.py` (English through b065): day_save list "Sky, Episode 1", card title full-width.
+- **Phase:** 6. Translate in progress (b001-b069 merged = unit names, all scenario, all g13, txd rep/save/tu/cf/day,
+  dic entries 0000-0132; b070-b072 (rest of dic + gd) not started; then exe/overlays, then review).
+  Last build: 2026-11-23 `build.py` (English through b069): charfile, diary, dictionary pages checked in game.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -133,14 +133,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
     docs/re/text.md "DAY save list + card title". txd auto-wrap: batches.prepare -> windows.wrap_txd (per &s segment
     for diary pages, `wrap` 100 for dic (engine wraps at col 100), new row "guardian page" gd 180 px x 13 (derived from
     &f(14,10) x &g pitch 14, not yet measured)). tools/dis_ovl.py (overlay disassembly).
-- **Next:** (a) translate b066-b072 (work/tl, gitignored; `split` already made them): b066-b067 cf (charfile name
-  lines, profile `&s(165,87)..` auto-wrapped at 129 px; NATIVE/BIRTH.. stats are already English) + day.001b8-0029c
-  overlay strings (はい Yes, いいえ No, ロード/セーブ = lowercase "load"/"save": save.txd uses them as `<a>`
-  mid-sentence; ＮＯ　ＤＡＴＡ = NO DATA; day.00250 system-file title must stay **full-width** text <= 48 bytes, e.g.
-  "ＧＲ－００　Ｇｕａｒｄｉａｎ　Ｒｅｃａｌｌ" (BIOS; block copy of 0x31 bytes); ／ = "/"); b068-b069 day diary pages
-  (keep the markup, write plain English per segment: the tool wraps; keep place names short: the place field
-  wraps at 108 px into the body); b069-b070 dic; b070-b072 gd. Write the header part of each record as in JP (markup
-  identical), English text only. The same system title sits in exe.01580, exe.021d0, action.006b4 (full-width too).
+  - 2026-11-23 (19): b066-b069 merged (charfile names/headers/profiles, day overlay strings, all diary pages, day
+    chapter labels, dic 0000-0132). Engine-side widths found and fixed in tools/windows.py (tests/test_windows.py):
+    charfile profile holds **6** lines (JP draws 6), new rows charfile header (pitch-aware lint: ASCII advance = width
+    + &g pitch - 13; long voice-actor names use `&g(12,0)` letters + `&g(13,0)` space) and charfile list (180),
+    dictionary entry **11 lines** (row 12 falls off the page: seen in game), diary body lines 1-2 wrap at 194 px
+    (`narrow`: the LOAD button hid words), day.0512-0708 = copy of the save labels (180, reader not found).
+    batches.py: `&g(..)` free in the markup check; card titles may use full-width SJIS (CARD_TITLES); font.width
+    counts a full-width char as 13. Scratch generator for cf headers not kept (one-off).
+- **Next:** (a) translate b070-b072 (work/tl, gitignored): b070 = dic 0133-0270ish (dic.0132 heading "Suzaku" done in
+  b069; write `Heading&n()&n()body` with the JP's `&c(n)..&c(0)` counts kept, no reading line, <= 11 lines incl.
+  heading + blank: about 150 chars of body) + gd 4 rows; b071-b072 gd (guardian list names 180 px; guardian page
+  `&s(64,20)..` 180 px x 13 lines, derived not measured: check opt_guardians_page after merging). Dictionary entries
+  stay in JP gojuon order (no re-sort). The same system title as day.00250 sits in exe.01580, exe.021d0,
+  action.006b4 (full-width, already allowed by the check).
   op.* is ASCII music titles (no JP: records() skips it, no batch needed). Then exe/overlays (byte/room budgets; 守護○獣 Form names,
   Psi names, item names, trait names 復讐者..蛮族 at exe.a68e4-a69c4 must match glossary). Then the review pass.
   (a0) Old note: Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
