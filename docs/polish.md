@@ -15,4 +15,7 @@ or `waived: reason`).
 - [ ] g23.17.064 - 言う言う: "She said it, she said it." -> "Listen to her!"
 - [ ] g23.17.204 - 反省してるわ: "I've been reflecting on it..." -> "I know. I overdid it..."
 - [ ] g23.21.019 - "yes indeed" on a question reads odd: drop it
+- [ ] g23.23.037 - "Why not starting today instead of someday?" -> "Why wait? How about starting today?"
+- [ ] g23.24.018 - まだかな: "Are they back yet..." -> "I wonder when they'll be back..."
+- [ ] g23.25.037 - "yes indeed!?" on a question: drop it
 - [ ] g23.06.002 - 舎利ちゃん is Reiko's cute clipping: "Shari-chan" (glossary allows 舎利 = Sharihotsu; consider a nickname note)

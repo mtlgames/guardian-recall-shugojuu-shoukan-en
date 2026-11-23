@@ -160,9 +160,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     earlier); `pairs.py --drift` = out.tsv vs script/ (empty = fixes via out.tsv + `merge --overwrite` are safe).
     b001-b010 reviewed: all approved, 1 Important fixed (g23.06.000). One worker covers ~10 scenario batches
     (~15 KB pairs each, read in two 100-line halves) before its context limit.
-  - 2026-11-24 (4): b011-b025 reviewed: all approved, 3 Important fixed (g23.08.213, g23.18.017, Akira's roll call
-    unified in 20.203 + 26.222); Minors to docs/polish.md.
-- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important): continue at **b026** (docs/review.md).
+  - 2026-11-24 (4): b011-b030 reviewed: all approved, 3 Important fixed (g23.08.213, g23.18.017, Akira's roll call
+    unified in 20.203 + 26.222); Minors to docs/polish.md. One worker covered 20 batches (~130k context).
+- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important): continue at **b031** (docs/review.md).
   No reviewer subagent available (Orca worker; codex limit until 2026-11-26): fresh read-only pass per pairs file.
   b041-b044 are all `==` copies (nothing to read); after 2026-11-26 14:14 `codex exec` can take batches.
   (a2) EXE widths: 246 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md

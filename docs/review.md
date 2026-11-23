@@ -34,3 +34,8 @@ pairs file. Critical/Important get fixed in `work/tl/bNNN.out.tsv` + `batches.py
 | b023 | Approved after fix | g23.18.017 (Important: 私の仲間 = her Dragon Wielder companions; was "My friend... meet her") | |
 | b024 | Approved | | Rairyu / Thunder Dragon gag inverted for English |
 | b025 | Approved after fix | g23.20.203 (Important: Akira's roll call now matches 15.035/17.038; same fix in b030 g23.26.222) | |
+| b026 | Approved | | |
+| b027 | Approved | | |
+| b028 | Approved | | つきあって pun (date / spar) carried by "partner" |
+| b029 | Approved | | |
+| b030 | Approved after fix | g23.26.222 (roll call, see b025) | |
