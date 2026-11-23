@@ -18,4 +18,10 @@ or `waived: reason`).
 - [ ] g23.23.037 - "Why not starting today instead of someday?" -> "Why wait? How about starting today?"
 - [ ] g23.24.018 - まだかな: "Are they back yet..." -> "I wonder when they'll be back..."
 - [ ] g23.25.037 - "yes indeed!?" on a question: drop it
+- [ ] g23.29.016 - あんたなんて！: "I never liked you from the very start. Not you!" -> "...right from the start. Not someone like you!"
+- [ ] g23.32.210 - 余裕やね: "Ain't you relaxed." -> "Got room to spare, have ya?"
+- [ ] g23.36.016 - 往生際の悪い = won't give up (cf. 27.022): "such sore losers" -> "you just don't know when to quit"
+- [ ] g23.44.001 - same as g23.00.001 ("Since recently.")
+- [ ] g23.44.078 - 訳がよ: "Why Tokyo's still under their control." -> "No wonder Tokyo's still under their control."
+- [ ] g23.49.336 - そうだな: "...I see." -> "...I suppose so." (Miyuki answers "...Right!?")
 - [ ] g23.06.002 - 舎利ちゃん is Reiko's cute clipping: "Shari-chan" (glossary allows 舎利 = Sharihotsu; consider a nickname note)

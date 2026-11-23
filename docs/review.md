@@ -39,3 +39,20 @@ pairs file. Critical/Important get fixed in `work/tl/bNNN.out.tsv` + `batches.py
 | b028 | Approved | | つきあって pun (date / spar) carried by "partner" |
 | b029 | Approved | | |
 | b030 | Approved after fix | g23.26.222 (roll call, see b025) | |
+| b031 | Approved | | Megumi/Jin confrontation reads well |
+| b032 | Approved | | |
+| b033 | Approved | | Akira's four-character idiom gag carried ("another idiom!") |
+| b034 | Approved | | Ruri's misread of Takegami ("I am trembling") lands |
+| b035 | Approved | | |
+| b036 | Approved | | |
+| b037 | Approved | | |
+| b038 | Approved | | finale roll call: Seven Dragon names match the glossary |
+| b039 | Approved | | |
+| b040 | Approved | | ch. 44 = draft copy of ch. 00 |
+| b041-b044 | Approved | | all `==` copies of ch. 00 |
+| b045 | Approved | | ch. 49 (Miyuki meets Jin) |
+| b046 | Approved | | tutorials start: UI terms match the glossary |
+| b047 | Approved | | pairs speaker column on 51.014 / 56.007 is a heuristic artefact (first JP line), English has no name line |
+| b048 | Approved | | |
+| b049 | Approved | | |
+| b050 | Approved | | |

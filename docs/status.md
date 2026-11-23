@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (b001-b076 merged: every string translated; left: the review pass).
+- **Phase:** 6. Translate in progress (b001-b076 merged: every string translated; review pass at b051 of b076).
   Last build: 2026-11-24 `build.py` (all English, b076), smoke ok, disc 1 .bin sha1 6f0f5cccc4fb.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -162,7 +162,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (~15 KB pairs each, read in two 100-line halves) before its context limit.
   - 2026-11-24 (4): b011-b030 reviewed: all approved, 3 Important fixed (g23.08.213, g23.18.017, Akira's roll call
     unified in 20.203 + 26.222); Minors to docs/polish.md. One worker covered 20 batches (~130k context).
-- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important): continue at **b031** (docs/review.md).
+  - 2026-11-24 (5): b031-b050 reviewed: all approved, no Critical/Important; 6 Minors to docs/polish.md. Pairs files
+    from b046 on are tutorials (long lines: read ~25-30 lines per Read); b051+ are 13-36 KB each.
+- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important): continue at **b051** (docs/review.md).
   No reviewer subagent available (Orca worker; codex limit until 2026-11-26): fresh read-only pass per pairs file.
   b041-b044 are all `==` copies (nothing to read); after 2026-11-26 14:14 `codex exec` can take batches.
   (a2) EXE widths: 246 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
