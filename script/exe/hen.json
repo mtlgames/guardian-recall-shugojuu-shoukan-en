@@ -4,436 +4,474 @@
   {
    "id": "hen.00004",
    "jp": "武神",
-   "en": "",
+   "en": "Takegami",
    "off": 4,
    "room": 8,
    "refs": [
     "w8016ABD8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0000c",
    "jp": "仁瞳",
-   "en": "",
+   "en": "Hitomi Jin",
    "off": 12,
    "room": 8,
    "refs": [
     "w8016ABD4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00014",
    "jp": "鏡涼子",
-   "en": "",
+   "en": "Ryoko Kagami",
    "off": 20,
    "room": 8,
    "refs": [
     "w8016ABD0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0001c",
    "jp": "北斗めぐみ",
-   "en": "",
+   "en": "Megumi Hokuto",
    "off": 28,
    "room": 12,
    "refs": [
     "w8016ABCC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00028",
    "jp": "東聡美",
-   "en": "",
+   "en": "Satomi Azuma",
    "off": 40,
    "room": 8,
    "refs": [
     "w8016ABC8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00030",
    "jp": "直江巴澄",
-   "en": "",
+   "en": "Hasumi Naoe",
    "off": 48,
    "room": 12,
    "refs": [
     "w8016ABC4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0003c",
    "jp": "平泉るり",
-   "en": "",
+   "en": "Ruri Hiraizumi",
    "off": 60,
    "room": 12,
    "refs": [
     "w8016ABC0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00048",
    "jp": "小泊かおる",
-   "en": "",
+   "en": "Kaoru Kodomari",
    "off": 72,
    "room": 12,
    "refs": [
     "w8016ABBC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00054",
    "jp": "静内さやか",
-   "en": "",
+   "en": "Sayaka Shizunai",
    "off": 84,
    "room": 12,
    "refs": [
     "w8016ABB8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00060",
    "jp": "岩見沢唯",
-   "en": "",
+   "en": "Yui Iwamizawa",
    "off": 96,
    "room": 12,
    "refs": [
     "w8016ABB4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0006c",
    "jp": "雷晶",
-   "en": "",
+   "en": "Akira Ikazuchi",
    "off": 108,
    "room": 8,
    "refs": [
     "w8016ABB0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00074",
    "jp": "聖ゆかり",
-   "en": "",
+   "en": "Yukari Hijiri",
    "off": 116,
    "room": 12,
    "refs": [
     "w8016ABAC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00080",
    "jp": "大地裕子",
-   "en": "",
+   "en": "Yuko Daichi",
    "off": 128,
    "room": 12,
    "refs": [
     "w8016ABA8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0008c",
    "jp": "龍鬼妃",
-   "en": "",
+   "en": "Ryukihi",
    "off": 140,
    "room": 8,
    "refs": [
     "w8016ABA4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00094",
    "jp": "半澤由美",
-   "en": "",
+   "en": "Yumi Hanzawa",
    "off": 148,
    "room": 12,
    "refs": [
     "w8016ABA0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.000a0",
    "jp": "西苑寺麗子",
-   "en": "",
+   "en": "Reiko Saionji",
    "off": 160,
    "room": 12,
    "refs": [
     "w8016AB9C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.000ac",
    "jp": "南条知美",
-   "en": "",
+   "en": "Tomomi Nanjo",
    "off": 172,
    "room": 12,
    "refs": [
     "w8016AB98"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.000b8",
    "jp": "日之影蘭",
-   "en": "",
+   "en": "Ran Hinokage",
    "off": 184,
    "room": 12,
    "refs": [
     "w8016AB94"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.000c4",
    "jp": "一の宮琴音",
-   "en": "",
+   "en": "Kotone Ichinomiya",
    "off": 196,
    "room": 12,
    "refs": [
     "w8016AB90"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.000d0",
    "jp": "一の宮鈴音",
-   "en": "",
+   "en": "Suzune Ichinomiya",
    "off": 208,
    "room": 12,
    "refs": [
     "w8016AB8C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.000dc",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 220,
    "room": 12,
    "refs": [
     "w8016AB88"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.000e8",
    "jp": "飛知和景子",
-   "en": "",
+   "en": "Keiko Hichiwa",
    "off": 232,
    "room": 12,
    "refs": [
     "w8016AB84"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.000f4",
    "jp": "海原美里",
-   "en": "",
+   "en": "Misato Kaibara",
    "off": 244,
    "room": 12,
    "refs": [
     "w8016AB80"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00100",
    "jp": "炎真由",
-   "en": "",
+   "en": "Mayu Homura",
    "off": 256,
    "room": 8,
    "refs": [
     "w8016AB7C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00108",
    "jp": "天城美由紀",
-   "en": "",
+   "en": "Miyuki Amagi",
    "off": 264,
    "room": 12,
    "refs": [
     "w8016AB78"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00114",
    "jp": "９",
-   "en": "",
+   "en": "9",
    "off": 276,
    "room": 4,
    "refs": [
     "w8016AF44"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00118",
    "jp": "８",
-   "en": "",
+   "en": "8",
    "off": 280,
    "room": 4,
    "refs": [
     "w8016AF40"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0011c",
    "jp": "７",
-   "en": "",
+   "en": "7",
    "off": 284,
    "room": 4,
    "refs": [
     "w8016AF3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00120",
    "jp": "６",
-   "en": "",
+   "en": "6",
    "off": 288,
    "room": 4,
    "refs": [
     "w8016AF38"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00124",
    "jp": "５",
-   "en": "",
+   "en": "5",
    "off": 292,
    "room": 4,
    "refs": [
     "w8016AF34"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00128",
    "jp": "４",
-   "en": "",
+   "en": "4",
    "off": 296,
    "room": 4,
    "refs": [
     "w8016AF30"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0012c",
    "jp": "３",
-   "en": "",
+   "en": "3",
    "off": 300,
    "room": 4,
    "refs": [
     "w8016AF2C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00130",
    "jp": "２",
-   "en": "",
+   "en": "2",
    "off": 304,
    "room": 4,
    "refs": [
     "w8016AF28"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00134",
    "jp": "１",
-   "en": "",
+   "en": "1",
    "off": 308,
    "room": 4,
    "refs": [
     "w8016AF24"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.00138",
    "jp": "０",
-   "en": "",
+   "en": "0",
    "off": 312,
    "room": 4,
    "refs": [
     "w8016AF20"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "hen.0013c",
    "jp": "あと%s人",
-   "en": "",
+   "en": "%s more",
    "off": 316,
    "room": 12,
    "refs": [
     "p80169C18"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00148",
    "jp": "装備はずす",
-   "en": "",
+   "en": "Unequip",
    "off": 328,
    "room": 12,
    "refs": [
     "p801678B0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.001c8",
    "jp": "編成を終了します。",
-   "en": "",
+   "en": "Finish team setup?",
    "off": 456,
    "room": 20,
    "refs": [
     "p80169048"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.001dc",
    "jp": "はい",
-   "en": "",
+   "en": "Yes",
    "off": 476,
    "room": 8,
    "refs": [
@@ -441,12 +479,13 @@
     "p8016A2FC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.001e4",
    "jp": "いいえ",
-   "en": "",
+   "en": "No",
    "off": 484,
    "room": 8,
    "refs": [
@@ -454,115 +493,125 @@
     "p8016A310"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.001ec",
    "jp": "交代するチームを決めます。",
-   "en": "",
+   "en": "Pick the team to swap in.",
    "off": 492,
    "room": 28,
    "refs": [
     "w8016AFD8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00208",
    "jp": "先に戦うチームを決めます。",
-   "en": "",
+   "en": "Pick the team that fights first.",
    "off": 520,
    "room": 28,
    "refs": [
     "w8016AFD4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00224",
    "jp": "東京第二国際空港に向かうチームを決めます。",
-   "en": "",
+   "en": "Pick the team for Tokyo Second International Airport.",
    "off": 548,
    "room": 44,
    "refs": [
     "w8016AFD0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00250",
    "jp": "浅草浅草寺に向かうチームを決めます。",
-   "en": "",
+   "en": "Pick the team for Sensoji in Asakusa.",
    "off": 592,
    "room": 40,
    "refs": [
     "w8016AFCC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00278",
    "jp": "トンダーエッグに向かうチームを決めます。",
-   "en": "",
+   "en": "Pick the team for the Tonder Egg.",
    "off": 632,
    "room": 44,
    "refs": [
     "w8016AFC8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.002a4",
    "jp": "新宿中央公園に向かうチームを決めます。",
-   "en": "",
+   "en": "Pick the team for Shinjuku Central Park.",
    "off": 676,
    "room": 40,
    "refs": [
     "w8016AFC4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.002cc",
    "jp": "出撃ユニットを選んでください",
-   "en": "",
+   "en": "Choose the units to deploy",
    "off": 716,
    "room": 32,
    "refs": [
     "p80169BBC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.002ec",
    "jp": "待機チームを決めます",
-   "en": "",
+   "en": "Choose the reserve team",
    "off": 748,
    "room": 24,
    "refs": [
     "p8016A1F8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "hen.00304",
    "jp": "リーダーを選んでください",
-   "en": "",
+   "en": "Choose a leader",
    "off": 772,
    "room": 28,
    "refs": [
     "p8016A20C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   }
  ]
 }

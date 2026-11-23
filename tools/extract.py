@@ -38,6 +38,8 @@ def is_data(img, s):
     jp = s["jp"]
     if jp.endswith("\n"):
         return "printf"
+    if not jp.strip("　 "):
+        return "blank"  # exe.a69c4: the empty slot after the trait names; nothing to translate
     if not s["refs"] and (len(re.findall(r"[^\x00-\x7f]", jp)) < 2 or "{wait}" in jp or "[" in jp):
         return "noise"
     return None

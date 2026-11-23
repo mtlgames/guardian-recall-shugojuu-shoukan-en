@@ -274,6 +274,11 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 守護精獣 | Spirit Guardian | | Form, healing line (entry 67 variant of the tutorial) | |
 | 属性相性表 | element chart | | ring menu DIAGRAM | |
 | 主 | Master | | (no lint): element of Masters; elements 地 Earth 炎 Flame 聖 Holy 雷 Thunder 海 Sea 飛 Wind 天 Sky; rare 冥 Nether, 皇 Emperor (Ryuki) | |
+| 守護超獣 / 守護魔獣 / 守護神獣 / 守護瞑獣 / 守護騎獣 / 守護霊獣 | Super Guardian / Demon Guardian / Divine Guardian / Zen Guardian / Knight Guardian / Soul Guardian | | (no lint): Forms (EXE list, b075); also 爆 Blast, 覇 Overlord, 羅 Asura, 幻 Phantom, 猟 Hunter, 牙 Fang, 隆 Titan, 砲 Cannon, 甲 Armor, 舞 Dancer, 翔 Wing Guardian | |
+| 復讐者 / 屍人 / 夢魔 / 蛇女 / 不死鳥 / 美姫 / 吸血鬼 | Avenger / Undead / Succubus / Lamia / Phoenix / Princess / Vampire | | (no lint): Trait names (EXE list exe.a68e0.., battle.0004c..); also 神 God, 侍 Samurai, 昇龍 Rising Dragon, 軍師 Strategist, 仔猫 Kitten, 忍者 Ninja, 毒蜂 Hornet, 狂戦士 Berserker, 女神 Goddess, 幽鬼 Specter, 戦乙女 Valkyrie, 半獣人 Beastman, 多頭竜 Hydra, 賢者 Sage, 死神 Reaper, 達人 Expert, 騎士 Knight, 鬼 Oni, 七龍 Seven Dragons, 闘牛 Fighting Bull, 人魚 Mermaid, 大蛇 Serpent, 蛮族 Barbarian | |
+| 武神靴 / 武神黒帯 / 武神手甲 / 武神笠 | Takegami Shoes / Takegami Sash / Takegami Gauntlets / Takegami Hat | | the jet-black equipment set (武神 = Takegami) | |
+| 撤退 | Retreat | | (no lint) TURN END / retreat prompt | |
+| 決定 | OK | | (no lint): confirm button label (tutorial 57: 'OK' / 'Cancel') | |
 | ＴＵＲＮＥＮＤ | TURN END | | △ sub-command | |
 | サブコマンド | sub-command | | the △ ring menu | |
 | 現在の思考のまま命令実行 | Execute Order with current Tactic | | TURN END prompt option (EXE) | |

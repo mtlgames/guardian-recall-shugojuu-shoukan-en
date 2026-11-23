@@ -1,59 +1,77 @@
 {
- "src": "DATA/BRAIN.BIN (RAM base 0x80166218)",
+ "src": "DATA/BRAIN.BIN (RAM base 0x80162f88)",
  "strings": [
   {
    "id": "brain.00004",
    "jp": "ＥＸＩＴ",
-   "en": "",
+   "en": "EXIT",
    "off": 4,
    "room": 12,
-   "refs": [],
-   "inner": []
+   "refs": [
+    "w80165AE0"
+   ],
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "brain.00010",
    "jp": "用語辞典",
-   "en": "",
+   "en": "Dictionary",
    "off": 16,
    "room": 12,
-   "refs": [],
-   "inner": []
+   "refs": [
+    "w80165ACC"
+   ],
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "brain.0001c",
    "jp": "守護獣図鑑",
-   "en": "",
+   "en": "Guardian Guide",
    "off": 28,
    "room": 12,
-   "refs": [],
-   "inner": []
+   "refs": [
+    "w80165AB8"
+   ],
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "brain.00028",
    "jp": "キャラファイル",
-   "en": "",
+   "en": "Character Files",
    "off": 40,
    "room": 16,
-   "refs": [],
-   "inner": []
+   "refs": [
+    "w80165AA4"
+   ],
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "brain.00038",
    "jp": "イベント再現",
-   "en": "",
+   "en": "Event Replay",
    "off": 56,
    "room": 16,
-   "refs": [],
-   "inner": []
+   "refs": [
+    "w80165A90"
+   ],
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "brain.00048",
    "jp": "守護獣戦術指南",
-   "en": "",
+   "en": "Guardian Tactics",
    "off": 72,
    "room": 16,
-   "refs": [],
-   "inner": []
+   "refs": [
+    "w80165A7C"
+   ],
+   "inner": [],
+   "status": "done"
   }
  ]
 }

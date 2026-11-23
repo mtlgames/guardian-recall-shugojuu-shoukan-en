@@ -19,6 +19,8 @@ import script_io
 
 ROOT = Path(__file__).resolve().parents[1]
 MARKUP = re.compile(r"&[a-z]\([^)]*\)")
+_pending = (ROOT / "tools" / "exe_pending.txt").read_text(encoding="utf8").split()
+PENDING = r"(" + "|".join(re.escape(i) for i in _pending) + r")$" if _pending else r"(?!)"
 
 # kind: scenario = "Name\nline\nline{wait}..." (first line of a page may be the speaker name);
 #       lines = text split on \n and {wait};  txd = markup, lines split on &n() (English must carry its own &n()).
@@ -76,6 +78,31 @@ VARIANTS = [
          bytes="room", status="measured"),
     # floor: the Japanese's own ink width (13 px per full-width char), which its window holds by construction;
     # raise per screen with a measured row above when the English needs more
+    # 2026-11-24 English build (b073-b076), shots vs work/qa/warp_orig (docs/windows.md "EXE screens")
+    # tac_think list: pen x 175, cost numbers from x 293 (JP 8 chars to x 277); SEARCH list columns are as wide
+    dict(name="tactic list", ids=r"exe\.02[45]", jp=r"(せよ|するな！|癒せ)$", kind="lines", px=115, lines=1,
+         status="measured"),
+    # tac_think: "Current Tactic:" box, pen x 26, border x 137
+    dict(name="current tactic", ids=r"exe\.0137c$", kind="lines", px=107, lines=1, status="measured"),
+    # tac_action: 行動 submenu, fixed box, pen x 240, border x 312
+    dict(name="action submenu", ids=r"exe\.(a62b0|a62d0|a62d8|a62e0|a62e8|014a4)$", kind="lines", px=69, lines=1,
+         status="measured"),
+    # option: BRAIN menu labels, left column pen x 66 runs into the centre art past ~x 160, right column x 218
+    dict(name="BRAIN menu", ids=r"brain\.", kind="lines", px=90, lines=1, status="measured"),
+    # ev43 HEN roster: names centred under 4 portraits, 78 px pitch -> 74 px each
+    dict(name="HEN roster name", ids=r"hen\.00(0[0-9a-f]{2}|10[0-8])$", jp=r"^(?!一の宮|小泊|静内)", kind="lines",
+         px=74, lines=1,
+         status="measured"),
+    # HEN team prompts share one line; floor = the group's widest JP line (21 chars)
+    dict(name="HEN team prompt", ids=r"hen\.00(1ec|208|224|250|278|2a4)$", kind="lines", px=273, lines=1,
+         status="jp width (group max)"),
+    # tac_break / tac_saved: message box x 54-249, pen x 68
+    dict(name="map message box", ids=r"action\.00(c[c-f]|d[0-9a-f]|e[0-9a-f]|f[01])", kind="lines", px=176,
+         lines=1, status="measured"),
+    # widths the English needs beyond what the screen holds or was measured (tools/exe_pending.txt, one id per
+    # line): phase 7 widens the box/column or condenses (D4, D13); a shot must replace each with a measured row
+    dict(name="EXE engine pending", ids=PENDING, kind="lines", px=170, lines=1, bytes="room",
+         status="engine pending / unmeasured"),
     dict(name="EXE/overlay string", ids=r"(exe|action|battle|hen|day|brain)\.[0-9a-f]{5}$", kind="lines", px="jp",
          lines=99, bytes="room", status="jp width"),
     # evd names go through the evd_name hook (any length); narrowest view = ring > UNIT list name column (x 25, Ali

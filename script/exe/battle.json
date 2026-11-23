@@ -4,350 +4,381 @@
   {
    "id": "battle.00004",
    "jp": "誘眠",
-   "en": "",
+   "en": "Sleep",
    "off": 4,
    "room": 8,
    "refs": [
     "w80171540"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0000c",
    "jp": "加護",
-   "en": "",
+   "en": "Blessing",
    "off": 12,
    "room": 8,
    "refs": [
     "w80171534"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00014",
    "jp": "隠影",
-   "en": "",
+   "en": "Shadow",
    "off": 20,
    "room": 8,
    "refs": [
     "w80171528"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0001c",
    "jp": "分身",
-   "en": "",
+   "en": "Clone",
    "off": 28,
    "room": 8,
    "refs": [
     "w8017151C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00024",
    "jp": "軽撃",
-   "en": "",
+   "en": "Light Blow",
    "off": 36,
    "room": 8,
    "refs": [
     "w80171510"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0002c",
    "jp": "闘神",
-   "en": "",
+   "en": "War God",
    "off": 44,
    "room": 8,
    "refs": [
     "w80171504"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00034",
    "jp": "会心",
-   "en": "",
+   "en": "Critical",
    "off": 52,
    "room": 8,
    "refs": [
     "w801714F8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0003c",
    "jp": "心眼",
-   "en": "",
+   "en": "Mind's Eye",
    "off": 60,
    "room": 8,
    "refs": [
     "w801714EC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00044",
    "jp": "直撃",
-   "en": "",
+   "en": "Sure Hit",
    "off": 68,
    "room": 8,
    "refs": [
     "w801714E0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0004c",
    "jp": "神",
-   "en": "",
+   "en": "God",
    "off": 76,
    "room": 4,
    "refs": [
     "w801714D4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00050",
    "jp": "復讐者",
-   "en": "",
+   "en": "Avenger",
    "off": 80,
    "room": 8,
    "refs": [
     "w801714C8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00058",
    "jp": "夢魔",
-   "en": "",
+   "en": "Succubus",
    "off": 88,
    "room": 8,
    "refs": [
     "w801714BC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00060",
    "jp": "蛇女",
-   "en": "",
+   "en": "Lamia",
    "off": 96,
    "room": 8,
    "refs": [
     "w801714B0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00068",
    "jp": "美姫",
-   "en": "",
+   "en": "Princess",
    "off": 104,
    "room": 8,
    "refs": [
     "w801714A4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00070",
    "jp": "侍",
-   "en": "",
+   "en": "Samurai",
    "off": 112,
    "room": 4,
    "refs": [
     "w80171498"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00074",
    "jp": "吸血鬼",
-   "en": "",
+   "en": "Vampire",
    "off": 116,
    "room": 8,
    "refs": [
     "w8017148C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0007c",
    "jp": "昇龍",
-   "en": "",
+   "en": "Rising Dragon",
    "off": 124,
    "room": 8,
    "refs": [
     "w80171480"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00084",
    "jp": "軍師",
-   "en": "",
+   "en": "Strategist",
    "off": 132,
    "room": 8,
    "refs": [
     "w80171474"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0008c",
    "jp": "仔猫",
-   "en": "",
+   "en": "Kitten",
    "off": 140,
    "room": 8,
    "refs": [
     "w80171468"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00094",
    "jp": "忍者",
-   "en": "",
+   "en": "Ninja",
    "off": 148,
    "room": 8,
    "refs": [
     "w8017145C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0009c",
    "jp": "毒蜂",
-   "en": "",
+   "en": "Hornet",
    "off": 156,
    "room": 8,
    "refs": [
     "w80171450"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000a4",
    "jp": "狂戦士",
-   "en": "",
+   "en": "Berserker",
    "off": 164,
    "room": 8,
    "refs": [
     "w80171444"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000ac",
    "jp": "半獣人",
-   "en": "",
+   "en": "Beastman",
    "off": 172,
    "room": 8,
    "refs": [
     "w80171438"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000b4",
    "jp": "多頭竜",
-   "en": "",
+   "en": "Hydra",
    "off": 180,
    "room": 8,
    "refs": [
     "w8017142C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000bc",
    "jp": "死神",
-   "en": "",
+   "en": "Reaper",
    "off": 188,
    "room": 8,
    "refs": [
     "w80171420"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000c4",
    "jp": "達人",
-   "en": "",
+   "en": "Expert",
    "off": 196,
    "room": 8,
    "refs": [
     "w80171414"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000cc",
    "jp": "騎士",
-   "en": "",
+   "en": "Knight",
    "off": 204,
    "room": 8,
    "refs": [
     "w80171408"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000d4",
    "jp": "鬼",
-   "en": "",
+   "en": "Oni",
    "off": 212,
    "room": 4,
    "refs": [
     "w801713FC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000d8",
    "jp": "蛮族",
-   "en": "",
+   "en": "Barbarian",
    "off": 216,
    "room": 8,
    "refs": [
     "w801713F0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.000e0",
    "jp": "防御側：特性：蛇女のチェック",
-   "en": "",
+   "en": "Defender: Trait: Lamia check",
    "off": 224,
    "room": 32,
    "refs": [
     "w80171B20"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00100",
    "jp": "防御側：特性：吸血○による気力の修正",
-   "en": "",
+   "en": "Defender: Trait: Vampire Spirit adjust",
    "off": 256,
    "room": 40,
    "refs": [
     "w80171B00"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00128",
    "jp": "防御側：超力：軽撃によるダメージの修正",
-   "en": "",
+   "en": "Defender: Psi: Light Blow damage adjust",
    "off": 296,
    "room": 40,
    "refs": [
@@ -355,216 +386,234 @@
     "w80171AE0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00150",
    "jp": "攻撃側：超力：分身によるダメージの修正",
-   "en": "",
+   "en": "Attacker: Psi: Clone damage adjust",
    "off": 336,
    "room": 40,
    "refs": [
     "w80171AA0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00178",
    "jp": "攻撃側：特性：蛮族によるダメージの修正",
-   "en": "",
+   "en": "Attacker: Trait: Barbarian damage adjust",
    "off": 376,
    "room": 40,
    "refs": [
     "w80171A80"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.001a0",
    "jp": "防御側：特性：鬼によるダメージの修正",
-   "en": "",
+   "en": "Defender: Trait: Oni damage adjust",
    "off": 416,
    "room": 40,
    "refs": [
     "w80171A60"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.001c8",
    "jp": "防御側：特性：死神によるダメージの修正",
-   "en": "",
+   "en": "Defender: Trait: Reaper damage adjust",
    "off": 456,
    "room": 40,
    "refs": [
     "w80171A40"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.001f0",
    "jp": "防御側：特性：復讐者によるダメージの修正",
-   "en": "",
+   "en": "Defender: Trait: Avenger damage adjust",
    "off": 496,
    "room": 44,
    "refs": [
     "w80171A20"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.0021c",
    "jp": "攻撃側：特性：達人AND?によるダメージの修正",
-   "en": "",
+   "en": "Attacker: Trait: Expert AND? damage adjust",
    "off": 540,
    "room": 44,
    "refs": [
     "w80171A00"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00248",
    "jp": "防御側：特性：騎士AND?によるクリティカル率の変更",
-   "en": "",
+   "en": "Defender: Trait: Knight AND? critical rate change",
    "off": 584,
    "room": 52,
    "refs": [
     "w801719E0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.0027c",
    "jp": "防御側：特性：昇龍によるクリティカル率の変更",
-   "en": "",
+   "en": "Defender: Trait: Rising Dragon critical rate change",
    "off": 636,
    "room": 48,
    "refs": [
     "w801719C0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.002ac",
    "jp": "防御側：特性：侍AND?によるクリティカル率の変更",
-   "en": "",
+   "en": "Defender: Trait: Samurai AND? critical rate change",
    "off": 684,
    "room": 48,
    "refs": [
     "w801719A0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.002dc",
    "jp": "防御側：特性：狂戦士によるクリティカル率の変更",
-   "en": "",
+   "en": "Defender: Trait: Berserker critical rate change",
    "off": 732,
    "room": 48,
    "refs": [
     "w80171980"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.0030c",
    "jp": "防御側：超力：会心AND?によるクリティカル率の変更",
-   "en": "",
+   "en": "Defender: Psi: Critical AND? critical rate change",
    "off": 780,
    "room": 52,
    "refs": [
     "w80171960"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00340",
    "jp": "攻撃側：超力：加護によるクリティカル率の変更",
-   "en": "",
+   "en": "Attacker: Psi: Blessing critical rate change",
    "off": 832,
    "room": 48,
    "refs": [
     "w80171940"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00370",
    "jp": "防御側：特性：復讐者による命中率の修正",
-   "en": "",
+   "en": "Defender: Trait: Avenger hit rate adjust",
    "off": 880,
    "room": 40,
    "refs": [
     "w801718E0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00398",
    "jp": "防御側：超力：直撃AND?による命中率の修正",
-   "en": "",
+   "en": "Defender: Psi: Sure Hit AND? hit rate adjust",
    "off": 920,
    "room": 44,
    "refs": [
     "w801718C0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.003c4",
    "jp": "攻撃側：超力：心眼AND?による命中率の修正",
-   "en": "",
+   "en": "Attacker: Psi: Mind's Eye AND? hit rate adjust",
    "off": 964,
    "room": 44,
    "refs": [
     "w801718A0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.003f0",
    "jp": "攻撃側：特性：毒蜂AND?による反撃の無効化",
-   "en": "",
+   "en": "Attacker: Trait: Hornet AND? counter cancel",
    "off": 1008,
    "room": 44,
    "refs": [
     "w80171880"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.0041c",
    "jp": "攻撃側：特性：忍者による反撃の無効化",
-   "en": "",
+   "en": "Attacker: Trait: Ninja counter cancel",
    "off": 1052,
    "room": 40,
    "refs": [
     "w80171860"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00444",
    "jp": "攻撃側：特性：蛇女による誘眠チェック",
-   "en": "",
+   "en": "Attacker: Trait: Lamia Sleep check",
    "off": 1092,
    "room": 40,
    "refs": [
@@ -572,168 +621,182 @@
     "w80171840"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.0046c",
    "jp": "攻撃側：特性：夢魔による思考点AND超力の修正",
-   "en": "",
+   "en": "Attacker: Trait: Succubus Tactic AND Psi Points adjust",
    "off": 1132,
    "room": 44,
    "refs": [
     "w80171800"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00498",
    "jp": "攻撃側：特性：吸血○による気力の修正",
-   "en": "",
+   "en": "Attacker: Trait: Vampire Spirit adjust",
    "off": 1176,
    "room": 40,
    "refs": [
     "w801717E0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.004c0",
    "jp": "攻撃側：超力：軽撃によるダメージの修正",
-   "en": "",
+   "en": "Attacker: Psi: Light Blow damage adjust",
    "off": 1216,
    "room": 40,
    "refs": [
     "w801717C0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.004e8",
    "jp": "防御側：超力：分身によるダメージの修正",
-   "en": "",
+   "en": "Defender: Psi: Clone damage adjust",
    "off": 1256,
    "room": 40,
    "refs": [
     "w801717A0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00510",
    "jp": "防御側：特性：蛮族によるダメージの修正",
-   "en": "",
+   "en": "Defender: Trait: Barbarian damage adjust",
    "off": 1296,
    "room": 40,
    "refs": [
     "w80171780"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00538",
    "jp": "攻撃側：特性：鬼によるダメージの修正",
-   "en": "",
+   "en": "Attacker: Trait: Oni damage adjust",
    "off": 1336,
    "room": 40,
    "refs": [
     "w80171760"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00560",
    "jp": "攻撃側：特性：死神によるダメージの修正",
-   "en": "",
+   "en": "Attacker: Trait: Reaper damage adjust",
    "off": 1376,
    "room": 40,
    "refs": [
     "w80171740"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00588",
    "jp": "防御側：特性：達人AND?によるダメージの修正",
-   "en": "",
+   "en": "Defender: Trait: Expert AND? damage adjust",
    "off": 1416,
    "room": 44,
    "refs": [
     "w80171720"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.005b4",
    "jp": "攻撃側：特性：昇龍によるクリティカル率の変更",
-   "en": "",
+   "en": "Attacker: Trait: Rising Dragon critical rate change",
    "off": 1460,
    "room": 48,
    "refs": [
     "w80171700"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.005e4",
    "jp": "攻撃側：特性：侍AND?によるクリティカル率の変更",
-   "en": "",
+   "en": "Attacker: Trait: Samurai AND? critical rate change",
    "off": 1508,
    "room": 48,
    "refs": [
     "w801716E0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00614",
    "jp": "攻撃側：特性：狂戦士によるクリティカル率の変更",
-   "en": "",
+   "en": "Attacker: Trait: Berserker critical rate change",
    "off": 1556,
    "room": 48,
    "refs": [
     "w801716C0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00644",
    "jp": "攻撃側：超力：会心?によるクリティカル率の変更",
-   "en": "",
+   "en": "Attacker: Psi: Critical? critical rate change",
    "off": 1604,
    "room": 48,
    "refs": [
     "w801716A0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00674",
    "jp": "防御側：超力：加護によるクリティカル率の変更",
-   "en": "",
+   "en": "Defender: Psi: Blessing critical rate change",
    "off": 1652,
    "room": 48,
    "refs": [
     "w80171680"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.006a4",
    "jp": "防御側：特性：仔猫による命中率の修正",
-   "en": "",
+   "en": "Defender: Trait: Kitten hit rate adjust",
    "off": 1700,
    "room": 40,
    "refs": [
@@ -741,12 +804,13 @@
     "w80171900"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.006cc",
    "jp": "攻撃側：特性：仔猫による命中率の修正",
-   "en": "",
+   "en": "Attacker: Trait: Kitten hit rate adjust",
    "off": 1740,
    "room": 40,
    "refs": [
@@ -754,213 +818,232 @@
     "w80171920"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.006f4",
    "jp": "攻撃側：超力：直撃AND?による命中率の変更",
-   "en": "",
+   "en": "Attacker: Psi: Sure Hit AND? hit rate change",
    "off": 1780,
    "room": 44,
    "refs": [
     "w80171620"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00720",
    "jp": "防御側：超力：心眼AND?による命中率の変更",
-   "en": "",
+   "en": "Defender: Psi: Mind's Eye AND? hit rate change",
    "off": 1824,
    "room": 44,
    "refs": [
     "w80171600"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.0074c",
    "jp": "防御側：超力：誘眠による命中率の変更",
-   "en": "",
+   "en": "Defender: Psi: Sleep hit rate change",
    "off": 1868,
    "room": 40,
    "refs": [
     "w801715E0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00774",
    "jp": "防御側：特性：軍師による先制攻撃",
-   "en": "",
+   "en": "Defender: Trait: Strategist first strike",
    "off": 1908,
    "room": 36,
    "refs": [
     "w801715C0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00798",
    "jp": "防御側：特性：美姫による攻撃の無効化",
-   "en": "",
+   "en": "Defender: Trait: Princess attack cancel",
    "off": 1944,
    "room": 40,
    "refs": [
     "w801715A0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.007c0",
    "jp": "防御側：特性：半獣人による属性変化",
-   "en": "",
+   "en": "Defender: Trait: Beastman element change",
    "off": 1984,
    "room": 36,
    "refs": [
     "w80171580"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.007e4",
    "jp": "攻撃側：特性：半獣人による属性変化",
-   "en": "",
+   "en": "Attacker: Trait: Beastman element change",
    "off": 2020,
    "room": 36,
    "refs": [
     "w80171560"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00808",
    "jp": "真竜樹",
-   "en": "",
+   "en": "True Ryuju",
    "off": 2056,
    "room": 8,
    "refs": [
     "w80171C74"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00828",
    "jp": "ぬえ",
-   "en": "",
+   "en": "Nue",
    "off": 2088,
    "room": 8,
    "refs": [
     "w80171C64"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "battle.00848",
    "jp": "皇",
-   "en": "",
+   "en": "Emperor",
    "off": 2120,
    "room": 4,
    "refs": [
     "w80171C54"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00864",
    "jp": "聖",
-   "en": "",
+   "en": "Holy",
    "off": 2148,
    "room": 4,
    "refs": [
     "w80171C44"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00880",
    "jp": "宴",
-   "en": "",
+   "en": "Nether",
    "off": 2176,
    "room": 4,
    "refs": [
     "w80171C34"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0089c",
    "jp": "飛",
-   "en": "",
+   "en": "Wind",
    "off": 2204,
    "room": 4,
    "refs": [
     "w80171C24"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.008b8",
    "jp": "炎",
-   "en": "",
+   "en": "Flame",
    "off": 2232,
    "room": 4,
    "refs": [
     "w80171C14"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.008d4",
    "jp": "海",
-   "en": "",
+   "en": "Sea",
    "off": 2260,
    "room": 4,
    "refs": [
     "w80171C04"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.008f0",
    "jp": "雷",
-   "en": "",
+   "en": "Thunder",
    "off": 2288,
    "room": 4,
    "refs": [
     "w80171BF4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.0090c",
    "jp": "地",
-   "en": "",
+   "en": "Earth",
    "off": 2316,
    "room": 4,
    "refs": [
     "w80171BE4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "battle.00928",
    "jp": "天",
-   "en": "",
+   "en": "Sky",
    "off": 2344,
    "room": 4,
    "refs": [
     "w80171BD4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   }
  ]
 }

@@ -4,231 +4,251 @@
   {
    "id": "action.000ec",
    "jp": "リトライ",
-   "en": "",
+   "en": "Retry",
    "off": 236,
    "room": 12,
    "refs": [
     "p801688A4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.000f8",
    "jp": "タイトルに戻る",
-   "en": "",
+   "en": "Back to Title",
    "off": 248,
    "room": 15,
    "refs": [
     "p801688B8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00108",
    "jp": "Ｓ",
-   "en": "",
+   "en": "S",
    "off": 264,
    "room": 4,
    "refs": [
     "w80178DE8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.0010c",
    "jp": "Ａ",
-   "en": "",
+   "en": "A",
    "off": 268,
    "room": 4,
    "refs": [
     "w80178DE4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00110",
    "jp": "Ｂ",
-   "en": "",
+   "en": "B",
    "off": 272,
    "room": 4,
    "refs": [
     "w80178DE0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00114",
    "jp": "Ｃ",
-   "en": "",
+   "en": "C",
    "off": 276,
    "room": 4,
    "refs": [
     "w80178DDC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00118",
    "jp": "Ｄ",
-   "en": "",
+   "en": "D",
    "off": 280,
    "room": 4,
    "refs": [
     "w80178DD8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00144",
    "jp": "？",
-   "en": "",
+   "en": "?",
    "off": 324,
    "room": 4,
    "refs": [
     "w80178E28"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00148",
    "jp": "主",
-   "en": "",
+   "en": "Master",
    "off": 328,
    "room": 4,
    "refs": [
     "w80178E24",
     "p8017155C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.0014c",
    "jp": "皇",
-   "en": "",
+   "en": "Emperor",
    "off": 332,
    "room": 4,
    "refs": [
     "w80178E20"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00150",
    "jp": "聖",
-   "en": "",
+   "en": "Holy",
    "off": 336,
    "room": 4,
    "refs": [
     "w80178E1C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00154",
    "jp": "冥",
-   "en": "",
+   "en": "Nether",
    "off": 340,
    "room": 4,
    "refs": [
     "w80178E18"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00158",
    "jp": "飛",
-   "en": "",
+   "en": "Wind",
    "off": 344,
    "room": 4,
    "refs": [
     "w80178E14"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.0015c",
    "jp": "炎",
-   "en": "",
+   "en": "Flame",
    "off": 348,
    "room": 4,
    "refs": [
     "w80178E10"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00160",
    "jp": "海",
-   "en": "",
+   "en": "Sea",
    "off": 352,
    "room": 4,
    "refs": [
     "w80178E0C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00164",
    "jp": "雷",
-   "en": "",
+   "en": "Thunder",
    "off": 356,
    "room": 4,
    "refs": [
     "w80178E08"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.00168",
    "jp": "地",
-   "en": "",
+   "en": "Earth",
    "off": 360,
    "room": 4,
    "refs": [
     "w80178E04"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.0016c",
    "jp": "天",
-   "en": "",
+   "en": "Sky",
    "off": 364,
    "room": 4,
    "refs": [
     "w80178E00"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.006b4",
    "jp": "ＧＲ－００　ガーディアンリコール　システムファイル",
-   "en": "",
+   "en": "ＧＲ－００　Ｇｕａｒｄｉａｎ　Ｒｅｃａｌｌ",
    "off": 1716,
    "room": 52,
    "refs": [
     "p8016A544"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "action.006e8",
    "jp": "システムファイルをチェック中です．．．",
-   "en": "",
+   "en": "Checking the system file...",
    "off": 1768,
    "room": 40,
    "refs": [
     "p8016ABAC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00710",
    "jp": "○ボタンを押して下さい",
-   "en": "",
+   "en": "Press the Circle button",
    "off": 1808,
    "room": 24,
    "refs": [
@@ -254,12 +274,13 @@
     "p8016FCA0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00728",
    "jp": "メモリーカードが差されていません",
-   "en": "",
+   "en": "No Memory Card is inserted",
    "off": 1832,
    "room": 36,
    "refs": [
@@ -271,12 +292,13 @@
     "p80170074"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.0074c",
    "jp": "メモリーカードが初期化されていません",
-   "en": "",
+   "en": "The Memory Card is not formatted",
    "off": 1868,
    "room": 40,
    "refs": [
@@ -285,24 +307,26 @@
     "p801702E0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00774",
    "jp": "メモリーカードを初期化しますか？",
-   "en": "",
+   "en": "Format the Memory Card?",
    "off": 1908,
    "room": 36,
    "refs": [
     "p8016AE08"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00798",
    "jp": "はい",
-   "en": "",
+   "en": "Yes",
    "off": 1944,
    "room": 8,
    "refs": [
@@ -320,12 +344,13 @@
     "p80176E38"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.007a0",
    "jp": "いいえ",
-   "en": "",
+   "en": "No",
    "off": 1952,
    "room": 8,
    "refs": [
@@ -343,24 +368,26 @@
     "p80176E4C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.007a8",
    "jp": "　メモリーカードを初期化中です",
-   "en": "",
+   "en": "Formatting the Memory Card",
    "off": 1960,
    "room": 32,
    "refs": [
     "p8016AF10"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.007c8",
    "jp": "メモリーカードを抜かないで下さい",
-   "en": "",
+   "en": "Do not remove the Memory Card",
    "off": 1992,
    "room": 36,
    "refs": [
@@ -374,12 +401,13 @@
     "p80170E48"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.007ec",
    "jp": "メモリーカードが差し変わりました",
-   "en": "",
+   "en": "The Memory Card was changed",
    "off": 2028,
    "room": 36,
    "refs": [
@@ -387,12 +415,13 @@
     "p8016B93C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00810",
    "jp": "メモリーカードの空きブロックが足りません",
-   "en": "",
+   "en": "Not enough free blocks on the Memory Card",
    "off": 2064,
    "room": 44,
    "refs": [
@@ -400,12 +429,13 @@
     "p8016F2E8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.0083c",
    "jp": "システムファイルが存在しません",
-   "en": "",
+   "en": "No system file was found",
    "off": 2108,
    "room": 32,
    "refs": [
@@ -413,12 +443,13 @@
     "p8016F8C0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.0085c",
    "jp": "システムファイルを作成しますか？",
-   "en": "",
+   "en": "Create a system file?",
    "off": 2140,
    "room": 36,
    "refs": [
@@ -426,12 +457,13 @@
     "p8016F950"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00880",
    "jp": "（システムファイルを作成しないと",
-   "en": "",
+   "en": "(Without a system file, you",
    "off": 2176,
    "room": 36,
    "refs": [
@@ -439,12 +471,13 @@
     "p8016F964"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.008a4",
    "jp": "ゲーム中のセーブができません）",
-   "en": "",
+   "en": "can't save during the game.)",
    "off": 2212,
    "room": 32,
    "refs": [
@@ -452,12 +485,13 @@
     "p8016F978"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.008c4",
    "jp": "　システムファイルを作成中です",
-   "en": "",
+   "en": "Creating the system file",
    "off": 2244,
    "room": 32,
    "refs": [
@@ -465,36 +499,39 @@
     "p8016FBB4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.008e4",
    "jp": "システムファイルの作成に失敗しました",
-   "en": "",
+   "en": "Could not create the system file",
    "off": 2276,
    "room": 40,
    "refs": [
     "p8016B638"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.0090c",
    "jp": "メモリーカードの空きが無くなりました",
-   "en": "",
+   "en": "The Memory Card is out of space",
    "off": 2316,
    "room": 40,
    "refs": [
     "p8016B70C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00934",
    "jp": "　注意：ゲーム中のセーブをするには",
-   "en": "",
+   "en": "Note: Saving during the game",
    "off": 2356,
    "room": 36,
    "refs": [
@@ -503,12 +540,13 @@
     "p8016F384"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00958",
    "jp": "　システムファイル（１ブロック）と",
-   "en": "",
+   "en": "needs a system file (1 block)",
    "off": 2392,
    "room": 36,
    "refs": [
@@ -517,12 +555,13 @@
     "p8016F398"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.0097c",
    "jp": "セーブデータ（１ブロック）を作成する為",
-   "en": "",
+   "en": "and save data (1 block), so a",
    "off": 2428,
    "room": 40,
    "refs": [
@@ -531,12 +570,13 @@
     "p8016F3AC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.009a4",
    "jp": "　　　２ブロック以上の空きのある",
-   "en": "",
+   "en": "Memory Card with 2 or more",
    "off": 2468,
    "room": 36,
    "refs": [
@@ -545,12 +585,13 @@
     "p8016F3C0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.009c8",
    "jp": "　　　　メモリーカードが必要です",
-   "en": "",
+   "en": "free blocks is required.",
    "off": 2504,
    "room": 36,
    "refs": [
@@ -559,60 +600,65 @@
     "p8016F3D4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.009ec",
    "jp": "システムファイルの作成を終了しますか？",
-   "en": "",
+   "en": "Stop creating the system file?",
    "off": 2540,
    "room": 40,
    "refs": [
     "p8016BBD8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00a14",
    "jp": "ゲームを開始します",
-   "en": "",
+   "en": "Starting the game",
    "off": 2580,
    "room": 20,
    "refs": [
     "p8016BD90"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00a28",
    "jp": "　ロードしました",
-   "en": "",
+   "en": "Loaded",
    "off": 2600,
    "room": 20,
    "refs": [
     "p8016BE68"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00af4",
    "jp": "　　マップデータを読み込み中です　　",
-   "en": "",
+   "en": "Loading map data",
    "off": 2804,
    "room": 40,
    "refs": [
     "w80178E54"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00b1c",
    "jp": "　　　　　ロード中です　　　　　　",
-   "en": "",
+   "en": "Loading",
    "off": 2844,
    "room": 36,
    "refs": [
@@ -620,333 +666,361 @@
     "w80178E58"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00b40",
    "jp": "　　データをチェック中です　　　　",
-   "en": "",
+   "en": "Checking data",
    "off": 2880,
    "room": 36,
    "refs": [
     "w80178E4C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00b64",
    "jp": "メモリーカードが差されていません　",
-   "en": "",
+   "en": "No Memory Card is inserted",
    "off": 2916,
    "room": 36,
    "refs": [
     "w80166E0C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00b88",
    "jp": "システムファイルが存在しません　",
-   "en": "",
+   "en": "No system file was found",
    "off": 2952,
    "room": 36,
    "refs": [
     "w80166E14"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00bac",
    "jp": "戦闘中のセーブデータは存在しません",
-   "en": "",
+   "en": "There is no mid-battle save data",
    "off": 2988,
    "room": 36,
    "refs": [
     "w80166E18"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00bd0",
    "jp": "　システムファイルが壊れています　",
-   "en": "",
+   "en": "The system file is corrupted",
    "off": 3024,
    "room": 36,
    "refs": [
     "w80166E1C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00c08",
    "jp": "システムファイルのあるメモリーカード",
-   "en": "",
+   "en": "Please insert a Memory Card",
    "off": 3080,
    "room": 40,
    "refs": [
     "p8016D158"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00c30",
    "jp": "を差し込んでください",
-   "en": "",
+   "en": "with a system file",
    "off": 3120,
    "room": 24,
    "refs": [
     "p8016D16C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00cc8",
    "jp": "このマップでＢＲＥＡＫは使えません",
-   "en": "",
+   "en": "BREAK can't be used on this map",
    "off": 3272,
    "room": 36,
    "refs": [
     "p8017855C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00d20",
    "jp": "　　タイトルへ戻ります",
-   "en": "",
+   "en": "Returning to the title",
    "off": 3360,
    "room": 24,
    "refs": [
     "p8016EECC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00d38",
    "jp": "　　ゲームを終了しますか？",
-   "en": "",
+   "en": "Quit the game?",
    "off": 3384,
    "room": 28,
    "refs": [
     "p8016F110"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00d54",
    "jp": "　　セーブしました",
-   "en": "",
+   "en": "Saved",
    "off": 3412,
    "room": 20,
    "refs": [
     "p8016F13C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00d68",
    "jp": "ゲームを続ける",
-   "en": "",
+   "en": "Keep Playing",
    "off": 3432,
    "room": 16,
    "refs": [
     "p8016F170"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00d78",
    "jp": "タイトルに戻る",
-   "en": "",
+   "en": "Back to Title",
    "off": 3448,
    "room": 16,
    "refs": [
     "p8016F184"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00d88",
    "jp": "初期化が完了しました",
-   "en": "",
+   "en": "Formatting complete",
    "off": 3464,
    "room": 24,
    "refs": [
     "p8016F23C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00da0",
    "jp": "メモリーカードが差し替わりました",
-   "en": "",
+   "en": "The Memory Card was changed",
    "off": 3488,
    "room": 36,
    "refs": [
     "p8016F2B0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00dc4",
    "jp": "セーブに失敗しました",
-   "en": "",
+   "en": "Save failed",
    "off": 3524,
    "room": 24,
    "refs": [
     "p8016F478"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00e00",
    "jp": "システムファイルを作成中です",
-   "en": "",
+   "en": "Creating the system file",
    "off": 3584,
    "room": 32,
    "refs": [
     "p8016FAF0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00e20",
    "jp": "システムファイルが壊れています",
-   "en": "",
+   "en": "The system file is corrupted",
    "off": 3616,
    "room": 32,
    "refs": [
     "p8016FC8C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00e40",
    "jp": "　データをセーブします",
-   "en": "",
+   "en": "Saving the data",
    "off": 3648,
    "room": 24,
    "refs": [
     "p8016FD14"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00e70",
    "jp": "　　データをチェック中です　　",
-   "en": "",
+   "en": "Checking data",
    "off": 3696,
    "room": 32,
    "refs": [
     "p8016FF84"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00e90",
    "jp": "　メモリーカードを初期化しますか？　",
-   "en": "",
+   "en": "Format the Memory Card?",
    "off": 3728,
    "room": 40,
    "refs": [
     "p801702F4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00eb8",
    "jp": "　以前のデータが存在します",
-   "en": "",
+   "en": "Earlier data already exists",
    "off": 3768,
    "room": 28,
    "refs": [
     "p8017067C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00ed4",
    "jp": "　　　上書きしますか？　　",
-   "en": "",
+   "en": "Overwrite it?",
    "off": 3796,
    "room": 28,
    "refs": [
     "p80170690"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00ef0",
    "jp": "　　　　　セーブ中です　　　　　",
-   "en": "",
+   "en": "Saving",
    "off": 3824,
    "room": 36,
    "refs": [
     "p80170E34"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00f14",
    "jp": "マップセーブを行いますか？",
-   "en": "",
+   "en": "Make a map save?",
    "off": 3860,
    "room": 28,
    "refs": [
     "p80171000"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.00f30",
    "jp": "？？？？",
-   "en": "",
+   "en": "????",
    "off": 3888,
    "room": 12,
    "refs": [],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.01028",
    "jp": "？？？？？",
-   "en": "",
+   "en": "?????",
    "off": 4136,
    "room": 12,
    "refs": [
     "p80173B1C",
     "p80173C3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.01034",
    "jp": "思考",
-   "en": "",
+   "en": "Tactic",
    "off": 4148,
    "room": 8,
    "refs": [
@@ -954,12 +1028,13 @@
     "p8017433C",
     "p801743B8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.0103c",
    "jp": "特性",
-   "en": "",
+   "en": "Trait",
    "off": 4156,
    "room": 8,
    "refs": [
@@ -967,12 +1042,13 @@
     "p80174318",
     "p801743D8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.01044",
    "jp": "超力",
-   "en": "",
+   "en": "Psi",
    "off": 4164,
    "room": 8,
    "refs": [
@@ -980,12 +1056,13 @@
     "p8017435C",
     "p80174394"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.0104c",
    "jp": "？？",
-   "en": "",
+   "en": "??",
    "off": 4172,
    "room": 8,
    "refs": [
@@ -998,59 +1075,64 @@
     "p80175128",
     "p80175200"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.01054",
    "jp": "撤退します．．．",
-   "en": "",
+   "en": "Retreating...",
    "off": 4180,
    "room": 20,
    "refs": [
     "p80176370"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.01068",
    "jp": "撤退提案",
-   "en": "",
+   "en": "Retreat Proposal",
    "off": 4200,
    "room": 12,
    "refs": [
     "p80176480"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "action.01074",
    "jp": "未行動の守護獣が",
-   "en": "",
+   "en": "Guardians yet to act:",
    "off": 4212,
    "room": 20,
    "refs": [
     "p8017690C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.01088",
    "jp": "体います",
-   "en": "",
+   "en": "left",
    "off": 4232,
    "room": 12,
    "refs": [
     "p801769B8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.01094",
    "jp": "現在の思考のまま命令実行",
-   "en": "",
+   "en": "Execute Order with current Tactic",
    "off": 4244,
    "room": 28,
    "refs": [
@@ -1058,12 +1140,13 @@
     "p80176A50"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.010b0",
    "jp": "「何もするな！」に変更",
-   "en": "",
+   "en": "Change to \"Do nothing!\"",
    "off": 4272,
    "room": 24,
    "refs": [
@@ -1071,12 +1154,13 @@
     "p80176A64"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.010c8",
    "jp": "撤退する",
-   "en": "",
+   "en": "Retreat",
    "off": 4296,
    "room": 12,
    "refs": [
@@ -1084,12 +1168,13 @@
     "p80176D5C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "action.010d4",
    "jp": "ターンを終了しますか？",
-   "en": "",
+   "en": "End the turn?",
    "off": 4308,
    "room": 24,
    "refs": [
@@ -1097,7 +1182,8 @@
     "p80176E08"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   }
  ]
 }

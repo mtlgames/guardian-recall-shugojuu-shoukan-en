@@ -229,7 +229,8 @@ IMAGES = {
     "battle": ("DATA/BATTLE.BIN", 0x80166218, [(0x4, 0x2E28)]),
     "hen": ("DATA/HEN.BIN", 0x80166218, [(0x4, 0x320)]),
     "day": ("DATA/DAY.BIN", 0x80166218, [(0x64, 0x2C0)]),
-    "brain": ("DATA/BRAIN.BIN", 0x80166218, [(0x4, 0x60)]),
+    # BRAIN loads at the TITLE base (docs/re/debug.md); menu label pointers at file 0x2AF4.. (stride 20)
+    "brain": ("DATA/BRAIN.BIN", 0x80162F88, [(0x4, 0x60)]),
 }
 TEXT_RUN = re.compile(rb"(?:[\x81-\x9f\xe0-\xef][\x40-\x7e\x80-\xfc]|[\xa1-\xdf]|[\x0a\x01\x20-\x7e])+")
 HAS_JP = re.compile(rb"[\x81-\x9f\xe0-\xef\xa1-\xdf]")

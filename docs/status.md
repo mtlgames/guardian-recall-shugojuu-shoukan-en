@@ -2,9 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (b001-b072 merged = unit names, all scenario, all g13, all txd; EXE/overlay
-  batches b073-b076 split, not started; then the review pass).
-  Last build: 2026-11-24 `build.py` (English through b072): dictionary list/pages and guardian pages checked in game.
+- **Phase:** 6. Translate in progress (b001-b076 merged: every string translated; left: the review pass).
+  Last build: 2026-11-24 `build.py` (all English, b076), smoke ok, disc 1 .bin sha1 6f0f5cccc4fb.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -149,21 +148,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Glossary: 冥 Nether, 皇 Emperor (elements), unit names strike/raider/defense/air force, navy, Royal Guard, True
     Ryuki, Earth Centipede; 思考 also "thought" in prose. Remaining txd records without English are ASCII-only.
     Scratch tools for gd (expander from `id<TAB>Name|Body`) not kept (one-off).
-- **Next:** (a) EXE/overlay batches b073-b076 (work/tl, gitignored; 594 ids: action 86, battle 83, brain 6, day 8,
-  exe 370, hen 49). Budgets are "jp width" floors; strings with refs relocate to STR_POOL (bytes free), the rest are
-  byte-capped by room. Before translating: (a1) below, and the single-kanji element icons (action.00148-0016c and
-  copies, 13 px: 主皇聖冥飛炎海雷地天) need their screen found and measured (tactics element orbs G17? 情報 panel?):
-  English needs more than 13 px; widen/engine (D4), don't abbreviate unless flagged. Rank letters Ｓ..Ｄ -> ASCII.
-  The same system title as day.00250 sits in exe.01580, exe.021d0, action.006b4 (full-width, already allowed).
-  守護○獣 Form names, Psi names, item names, trait names 復讐者..蛮族 at exe.a68e4-a69c4 must match glossary.
-  Then the review pass (phase 6 done-when: reviewer finds no Critical/Important).
-  (a0) Old note: Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
-  width" floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of
-  abbreviating. Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
-  (a1) EXE labels must use the glossary "UI commands" names; their budgets are JP-width floors that the English
-  overruns (Dismiss 33 > 26 px, Summon 40 > 26, Change Tactic 68 > 52, Check Target 65 > 52, Execute Order 71 > 52;
-  unit menu 30 px measured: Move/Info/Action/Tactic/Wait fit): measure the 行動 and 思考 submenus (tac_* scenes) and
-  add windows rows before translating the EXE batch, rather than abbreviating.
+  - 2026-11-24 (2): b073-b076 merged (all EXE/overlay strings: system file + map messages, Psi/trait/item/species/
+    Form lists, tactic orders, HEN roster + team prompts, BRAIN menu). **BRAIN base fixed** (0x80162F88, script_io;
+    pointer table at file 0x2AF4) so its labels relocate (option shot: "Guardian Tactics" etc. drawn whole).
+    extract.is_data: blank-only string = data (exe.a69c4). Measured windows rows (tools/windows.py, docs/windows.md):
+    tactic list 115, current tactic 107, 行動 submenu 69, BRAIN menu 90, HEN roster 74, HEN team prompt 273, map
+    message box 176. D13 (engine pending list). Glossary: Forms, traits, Takegami equipment set, Retreat, OK.
+    Skill rank labels a6520-30 = Heal / Ranged / Melee (glossary lint); glossary 行動能力ランク says the status shows Short / Long / Heal: reconcile in the review.
+- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important). No reviewer subagent available (Orca
+  worker; codex limit until 2026-11-26): do it as a fresh read-only pass per chapter/pairs file and write verdicts.
+  (a2) EXE widths: 246 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
+  "EXE engine pending"). Measured narrow: Psi name slot 32 px (tac_power + 情報 Aura), SEARCH tabs (Tactic hides the
+  T of Trait), HEN roster for Kaoru/Sayaka/Ichinomiya twins (74 px). Not shot yet: species/guardian/item/trait/Form
+  lists (guardian 情報, SEARCH Trait/Psi tabs, HEN equip), battle Psi/trait labels, 思考 submenu (Change Tactic...),
+  TURN END prompt (action.01094 168 px), boot system-file messages, element icons (action.00148.., battle.00848..;
+  主 orb in 情報 is graphics G17). Phase 7 widens each screen and replaces ids in the pending file with measured rows.
+  Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
   (b) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.
   (c) Heap margin: HEN leaves 0x7F88 free at the arena top; if English grows the 2D pool more, consider a smaller
   pool_grow rounding (asm/hooks.asm) before cutting more RAM.

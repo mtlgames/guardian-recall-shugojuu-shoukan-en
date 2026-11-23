@@ -123,55 +123,59 @@
   {
    "id": "exe.0112c",
    "jp": " このマップではマップの回転",
-   "en": "",
+   "en": "Map rotation (L1, R1 buttons)",
    "off": 4396,
    "room": 28,
    "refs": [
     "p800277D4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01148",
    "jp": "（Ｌ１、Ｒ１ボタン）はできません",
-   "en": "",
+   "en": "can't be used on this map.",
    "off": 4424,
    "room": 36,
    "refs": [
     "p800277E8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0116c",
    "jp": "このマップでは見下ろし角度の変更",
-   "en": "",
+   "en": "Changing the view angle (Square+L1,",
    "off": 4460,
    "room": 36,
    "refs": [
     "p80027828"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01190",
    "jp": "（□＋Ｌ１、Ｌ２ボタン）はできません",
-   "en": "",
+   "en": "L2 buttons) can't be used on this map.",
    "off": 4496,
    "room": 40,
    "refs": [
     "p8002783C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01324",
    "jp": "？？？？",
-   "en": "",
+   "en": "????",
    "off": 4900,
    "room": 12,
    "refs": [
@@ -179,139 +183,151 @@
     "p8002C9D8",
     "p8002CA3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01330",
    "jp": "暴走警告",
-   "en": "",
+   "en": "Berserk Alert",
    "off": 4912,
    "room": 12,
    "refs": [
     "p8002DD9C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01348",
    "jp": "移動先を指定して下さい",
-   "en": "",
+   "en": "Choose where to move",
    "off": 4936,
    "room": 24,
    "refs": [
     "p80030578"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01360",
    "jp": "治癒対象を指定して下さい",
-   "en": "",
+   "en": "Choose who to heal",
    "off": 4960,
    "room": 28,
    "refs": [
     "p800305A4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0137c",
    "jp": "現在の思考：",
-   "en": "",
+   "en": "Current Tactic:",
    "off": 4988,
    "room": 16,
    "refs": [
     "p800309D4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0138c",
    "jp": "思考変更",
-   "en": "",
+   "en": "Change Tactic",
    "off": 5004,
    "room": 12,
    "refs": [
     "p80030B78"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01398",
    "jp": "対象確認",
-   "en": "",
+   "en": "Check Target",
    "off": 5016,
    "room": 12,
    "refs": [
     "p80030B8C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.013a4",
    "jp": "命令実行",
-   "en": "",
+   "en": "Execute Order",
    "off": 5028,
    "room": 12,
    "refs": [
     "p80030BB4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.013b0",
    "jp": "発見できません",
-   "en": "",
+   "en": "Not found",
    "off": 5040,
    "room": 16,
    "refs": [
     "p80031D38"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.013c0",
    "jp": "同系統の超力「%s」が発動中です",
-   "en": "",
+   "en": "'%s', a Psi of the same type, is active.",
    "off": 5056,
    "room": 32,
    "refs": [
     "p80031E24"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.013e0",
    "jp": "　「%s」をかけますか？",
-   "en": "",
+   "en": "Use '%s' instead?",
    "off": 5088,
    "room": 24,
    "refs": [
     "p80031E5C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.013f8",
    "jp": "消費Ａｐ",
-   "en": "",
+   "en": "Ap Cost",
    "off": 5112,
    "room": 12,
    "refs": [
     "p80032110"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01404",
    "jp": "誰を復帰させますか",
-   "en": "",
+   "en": "Who will you revive?",
    "off": 5124,
    "room": 20,
    "refs": [
@@ -319,24 +335,26 @@
     "p800355AC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01418",
    "jp": "キャンセル",
-   "en": "",
+   "en": "Cancel",
    "off": 5144,
    "room": 12,
    "refs": [
     "p80032F58",
     "p80035A68"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01424",
    "jp": "復帰先を指定してください",
-   "en": "",
+   "en": "Choose where to revive them",
    "off": 5156,
    "room": 28,
    "refs": [
@@ -344,12 +362,13 @@
     "p80035CF8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01440",
    "jp": "戦闘不能者が存在しません",
-   "en": "",
+   "en": "No one is knocked out",
    "off": 5184,
    "room": 28,
    "refs": [
@@ -357,66 +376,72 @@
     "p8003552C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0145c",
    "jp": "%s：対象を指定して下さい",
-   "en": "",
+   "en": "%s: Choose a target",
    "off": 5212,
    "room": 28,
    "refs": [
     "p800338BC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01484",
    "jp": "誰に使用しますか",
-   "en": "",
+   "en": "Use it on whom?",
    "off": 5252,
    "room": 20,
    "refs": [
     "p80034E20"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.014a4",
    "jp": "アイテム",
-   "en": "",
+   "en": "Item",
    "off": 5284,
    "room": 12,
    "refs": [
     "p800364FC",
     "p80036AEC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.014b0",
    "jp": "範囲を超えています",
-   "en": "",
+   "en": "Out of range",
    "off": 5296,
    "room": 20,
    "refs": [
     "p8003714C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01534",
    "jp": "キャンセル",
-   "en": "",
+   "en": "Cancel",
    "off": 5428,
    "room": 12,
    "refs": [
     "p80039AF0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01560",
@@ -434,867 +459,944 @@
   {
    "id": "exe.01580",
    "jp": "ＧＲ－００　ガーディアンリコール　システムファイル",
-   "en": "",
+   "en": "ＧＲ－００　Ｇｕａｒｄｉａｎ　Ｒｅｃａｌｌ",
    "off": 5504,
    "room": 52,
    "refs": [
     "p8003B91C"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.015b4",
    "jp": "支援甲殻機",
-   "en": "",
+   "en": "Support Shellmech",
    "off": 5556,
    "room": 12,
    "refs": [
     "w80095FAC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.015c0",
    "jp": "遠隔射甲殻機",
-   "en": "",
+   "en": "Gunner Shellmech",
    "off": 5568,
    "room": 16,
    "refs": [
     "w80095FA4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.015d0",
    "jp": "戯画骸零式",
-   "en": "",
+   "en": "Husk Zero",
    "off": 5584,
    "room": 12,
    "refs": [
     "w80095F94"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.015dc",
    "jp": "戯画骸・下位属",
-   "en": "",
+   "en": "Lesser Husk",
    "off": 5596,
    "room": 16,
    "refs": [
     "w80095F8C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.015ec",
    "jp": "強襲型爆竜",
-   "en": "",
+   "en": "Assault Drake",
    "off": 5612,
    "room": 12,
    "refs": [
     "w80095F7C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.015f8",
    "jp": "軽機動爆竜",
-   "en": "",
+   "en": "Light Bomb Drake",
    "off": 5624,
    "room": 12,
    "refs": [
     "w80095F74"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01604",
    "jp": "土百足蛇",
-   "en": "",
+   "en": "Earth Centipede",
    "off": 5636,
    "room": 12,
    "refs": [
     "w80095F64"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01610",
    "jp": "飛式百足蛇",
-   "en": "",
+   "en": "Flying Centipede",
    "off": 5648,
    "room": 12,
    "refs": [
     "w80095F5C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0161c",
    "jp": "海百足蛇",
-   "en": "",
+   "en": "Sea Centipede",
    "off": 5660,
    "room": 12,
    "refs": [
     "w80095F54"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01628",
    "jp": "哨戒用一角砕",
-   "en": "",
+   "en": "Scout Hornram",
    "off": 5672,
    "room": 16,
    "refs": [
     "w80095F4C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01638",
    "jp": "重装甲一角砕",
-   "en": "",
+   "en": "Heavy Hornram",
    "off": 5688,
    "room": 16,
    "refs": [
     "w80095F44"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01648",
    "jp": "呪殺影鬼",
-   "en": "",
+   "en": "Hex Shadow",
    "off": 5704,
    "room": 12,
    "refs": [
     "w80095F34"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01654",
    "jp": "影鬼・変異型",
-   "en": "",
+   "en": "Mutant Shadow",
    "off": 5716,
    "room": 16,
    "refs": [
     "w80095F2C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01664",
    "jp": "天尊・亜成獣",
-   "en": "",
+   "en": "Amazon Youth",
    "off": 5732,
    "room": 16,
    "refs": [
     "w80095F1C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01674",
    "jp": "天尊・幼獣",
-   "en": "",
+   "en": "Amazon Cub",
    "off": 5748,
    "room": 12,
    "refs": [
     "w80095F14"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01680",
    "jp": "天尊・成獣",
-   "en": "",
+   "en": "Amazon Adult",
    "off": 5760,
    "room": 12,
    "refs": [
     "w80095F0C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0168c",
    "jp": "龍殺鬼・死鬼",
-   "en": "",
+   "en": "Deathbane",
    "off": 5772,
    "room": 16,
    "refs": [
     "w80095F04"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0169c",
    "jp": "龍殺鬼・改",
-   "en": "",
+   "en": "Dragonbane+",
    "off": 5788,
    "room": 12,
    "refs": [
     "w80095EFC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016a8",
    "jp": "水上双砲蟹",
-   "en": "",
+   "en": "Sea Gun Crab",
    "off": 5800,
    "room": 12,
    "refs": [
     "w80095EEC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016b4",
    "jp": "長射双砲蟹",
-   "en": "",
+   "en": "Long Gun Crab",
    "off": 5812,
    "room": 12,
    "refs": [
     "w80095EE4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016c0",
    "jp": "炎式陸鮫",
-   "en": "",
+   "en": "Flame Landshark",
    "off": 5824,
    "room": 12,
    "refs": [
     "w80095ED4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016cc",
    "jp": "雷式陸鮫",
-   "en": "",
+   "en": "Volt Landshark",
    "off": 5836,
    "room": 12,
    "refs": [
     "w80095ECC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016d8",
    "jp": "水式陸鮫",
-   "en": "",
+   "en": "Aqua Landshark",
    "off": 5848,
    "room": 12,
    "refs": [
     "w80095EC4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016e4",
    "jp": "機忍・上",
-   "en": "",
+   "en": "Mechaninja Hi",
    "off": 5860,
    "room": 12,
    "refs": [
     "w80095EBC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016f0",
    "jp": "機忍・下",
-   "en": "",
+   "en": "Mechaninja Lo",
    "off": 5872,
    "room": 12,
    "refs": [
     "w80095EB4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.016fc",
    "jp": "黒色拳闘骸骨",
-   "en": "",
+   "en": "Black Bone Boxer",
    "off": 5884,
    "room": 16,
    "refs": [
     "w80095EA4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0170c",
    "jp": "軽機動拳闘骸骨",
-   "en": "",
+   "en": "Swift Bone Boxer",
    "off": 5900,
    "room": 16,
    "refs": [
     "w80095E9C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0171c",
    "jp": "拳闘骸骨",
-   "en": "",
+   "en": "Bone Boxer",
    "off": 5916,
    "room": 12,
    "refs": [
     "w80095E94"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01728",
    "jp": "陸手那賀",
-   "en": "",
+   "en": "Land Tenaga",
    "off": 5928,
    "room": 12,
    "refs": [
     "w80095E8C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01734",
    "jp": "手那賀・長肢型",
-   "en": "",
+   "en": "Long Tenaga",
    "off": 5940,
    "room": 16,
    "refs": [
     "w80095E84"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01744",
    "jp": "二刀陽炎剣士",
-   "en": "",
+   "en": "Twin Haze Blade",
    "off": 5956,
    "room": 16,
    "refs": [
     "w80095E74"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01754",
    "jp": "褐装陽炎剣士",
-   "en": "",
+   "en": "Brown Haze Blade",
    "off": 5972,
    "room": 16,
    "refs": [
     "w80095E6C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01764",
    "jp": "陽炎剣士",
-   "en": "",
+   "en": "Haze Blade",
    "off": 5988,
    "room": 12,
    "refs": [
     "w80095E64"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01770",
    "jp": "斬鬼・弐式改",
-   "en": "",
+   "en": "Slash Oni II+",
    "off": 6000,
    "room": 16,
    "refs": [
     "w80095E5C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01780",
    "jp": "斬鬼・改",
-   "en": "",
+   "en": "Slash Oni+",
    "off": 6016,
    "room": 12,
    "refs": [
     "w80095E54"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0178c",
    "jp": "化石竜・弐型",
-   "en": "",
+   "en": "Fossil Dragon II",
    "off": 6028,
    "room": 16,
    "refs": [
     "w80095E44"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0179c",
    "jp": "水式化石竜",
-   "en": "",
+   "en": "Aqua Fossil",
    "off": 6044,
    "room": 12,
    "refs": [
     "w80095E3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.017a8",
    "jp": "使・死人守",
-   "en": "",
+   "en": "Grave Envoy",
    "off": 6056,
    "room": 12,
    "refs": [
     "w80095E2C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.017b4",
    "jp": "長・死人守",
-   "en": "",
+   "en": "Grave Chief",
    "off": 6068,
    "room": 12,
    "refs": [
     "w80095E24"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.017c0",
    "jp": "翔妖・緑翼種",
-   "en": "",
+   "en": "Green Wraith",
    "off": 6080,
    "room": 16,
    "refs": [
     "w80095E14"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.017d0",
    "jp": "翔妖・紫翼種",
-   "en": "",
+   "en": "Violet Wraith",
    "off": 6096,
    "room": 16,
    "refs": [
     "w80095E0C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.017e0",
    "jp": "弓男・雷撃手",
-   "en": "",
+   "en": "Volt Bowman",
    "off": 6112,
    "room": 16,
    "refs": [
     "w80095DFC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.017f0",
    "jp": "弓男・狙撃手",
-   "en": "",
+   "en": "Sniper Bowman",
    "off": 6128,
    "room": 16,
    "refs": [
     "w80095DF4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01800",
    "jp": "炎熱鎌蜥蜴",
-   "en": "",
+   "en": "Blaze Lizard",
    "off": 6144,
    "room": 12,
    "refs": [
     "w80095DE4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0180c",
    "jp": "鎌蜥蜴・改",
-   "en": "",
+   "en": "Scythe Lizard+",
    "off": 6156,
    "room": 12,
    "refs": [
     "w80095DDC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01818",
    "jp": "護法童子",
-   "en": "",
+   "en": "Goho Doji",
    "off": 6168,
    "room": 12,
    "refs": [
     "w80095DCC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01824",
    "jp": "ドナルド",
-   "en": "",
+   "en": "Donald",
    "off": 6180,
    "room": 12,
    "refs": [
     "w80095DBC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01830",
    "jp": "北斗めぐみ",
-   "en": "",
+   "en": "Megumi Hokuto",
    "off": 6192,
    "room": 12,
    "refs": [
     "w80095DB0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0183c",
    "jp": "カネツグ",
-   "en": "",
+   "en": "Kanetsugu",
    "off": 6204,
    "room": 12,
    "refs": [
     "w80095DA4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01848",
    "jp": "直江巴澄",
-   "en": "",
+   "en": "Hasumi Naoe",
    "off": 6216,
    "room": 12,
    "refs": [
     "w80095DA0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01854",
    "jp": "平泉るり",
-   "en": "",
+   "en": "Ruri Hiraizumi",
    "off": 6228,
    "room": 12,
    "refs": [
     "w80095D98"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01860",
    "jp": "小泊かおる",
-   "en": "",
+   "en": "Kaoru Kodomari",
    "off": 6240,
    "room": 12,
    "refs": [
     "w80095D90"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0186c",
    "jp": "アーチー",
-   "en": "",
+   "en": "Archie",
    "off": 6252,
    "room": 12,
    "refs": [
     "w80095D8C"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.01878",
    "jp": "静内さやか",
-   "en": "",
+   "en": "Sayaka Shizunai",
    "off": 6264,
    "room": 12,
    "refs": [
     "w80095D88"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01884",
    "jp": "岩見沢唯",
-   "en": "",
+   "en": "Yui Iwamizawa",
    "off": 6276,
    "room": 12,
    "refs": [
     "w80095D80"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01890",
    "jp": "ザビたん",
-   "en": "",
+   "en": "Zabi-tan",
    "off": 6288,
    "room": 12,
    "refs": [
     "w80095D7C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0189c",
    "jp": "聖ゆかり",
-   "en": "",
+   "en": "Yukari Hijiri",
    "off": 6300,
    "room": 12,
    "refs": [
     "w80095D70"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.018a8",
    "jp": "大地裕子",
-   "en": "",
+   "en": "Yuko Daichi",
    "off": 6312,
    "room": 12,
    "refs": [
     "w80095D68"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.018b4",
    "jp": "半澤由美",
-   "en": "",
+   "en": "Yumi Hanzawa",
    "off": 6324,
    "room": 12,
    "refs": [
     "w80095D58"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.018c0",
    "jp": "西苑寺麗子",
-   "en": "",
+   "en": "Reiko Saionji",
    "off": 6336,
    "room": 12,
    "refs": [
     "w80095D50"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.018cc",
    "jp": "南条知美",
-   "en": "",
+   "en": "Tomomi Nanjo",
    "off": 6348,
    "room": 12,
    "refs": [
     "w80095D48"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.018d8",
    "jp": "日之影蘭",
-   "en": "",
+   "en": "Ran Hinokage",
    "off": 6360,
    "room": 12,
    "refs": [
     "w80095D40"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.018e4",
    "jp": "ガーラー",
-   "en": "",
+   "en": "Gara",
    "off": 6372,
    "room": 12,
    "refs": [
     "w80095D3C"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.018f0",
    "jp": "一の宮琴音",
-   "en": "",
+   "en": "Kotone Ichinomiya",
    "off": 6384,
    "room": 12,
    "refs": [
     "w80095D38"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.018fc",
    "jp": "ドーガー",
-   "en": "",
+   "en": "Doga",
    "off": 6396,
    "room": 12,
    "refs": [
     "w80095D34"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.01908",
    "jp": "一の宮鈴音",
-   "en": "",
+   "en": "Suzune Ichinomiya",
    "off": 6408,
    "room": 12,
    "refs": [
     "w80095D30"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01914",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 6420,
    "room": 12,
    "refs": [
     "w80095D28"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01920",
    "jp": "飛知和景子",
-   "en": "",
+   "en": "Keiko Hichiwa",
    "off": 6432,
    "room": 12,
    "refs": [
     "w80095D20"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0192c",
    "jp": "海原美里",
-   "en": "",
+   "en": "Misato Kaibara",
    "off": 6444,
    "room": 12,
    "refs": [
     "w80095D18"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01938",
    "jp": "コウエン",
-   "en": "",
+   "en": "Koen",
    "off": 6456,
    "room": 12,
    "refs": [
     "w80095D14"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01944",
    "jp": "天ちゃん",
-   "en": "",
+   "en": "Ten-chan",
    "off": 6468,
    "room": 12,
    "refs": [
     "w80095D0C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01950",
    "jp": "天城美由紀",
-   "en": "",
+   "en": "Miyuki Amagi",
    "off": 6480,
    "room": 12,
    "refs": [
     "w80095D08"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.01968",
    "jp": "%sランクが%sになった",
-   "en": "",
+   "en": "%s rank is now %s",
    "off": 6504,
    "room": 24,
    "refs": [
     "p8003DC3C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0198c",
    "jp": "超力「%s」を修得した",
-   "en": "",
+   "en": "Learned the Psi '%s'",
    "off": 6540,
    "room": 24,
    "refs": [
     "p8003E11C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.019a4",
    "jp": "思考「%s」を修得した",
-   "en": "",
+   "en": "Learned the Tactic '%s'",
    "off": 6564,
    "room": 24,
    "refs": [
     "p8003E2A4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.019bc",
    "jp": "%sは「%s」に進化した",
-   "en": "",
+   "en": "%s evolved into '%s'",
    "off": 6588,
    "room": 24,
    "refs": [
     "p8003E4D0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.01ed0",
@@ -1378,471 +1480,511 @@
   {
    "id": "exe.021d0",
    "jp": "ＧＲ－００　ガーディアンリコール　システムファイル",
-   "en": "",
+   "en": "ＧＲ－００　Ｇｕａｒｄｉａｎ　Ｒｅｃａｌｌ",
    "off": 8656,
    "room": 52,
    "refs": [
     "p8005E374"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02204",
    "jp": "賢者の石",
-   "en": "",
+   "en": "Sage's Stone",
    "off": 8708,
    "room": 12,
    "refs": [
     "w8009B5E4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02210",
    "jp": "当たりくじ",
-   "en": "",
+   "en": "Prize Ticket",
    "off": 8720,
    "room": 12,
    "refs": [
     "w8009B5E0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0221c",
    "jp": "封印のお札",
-   "en": "",
+   "en": "Sealing Tag",
    "off": 8732,
    "room": 12,
    "refs": [
     "w8009B5DC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02228",
    "jp": "忍法伝授書",
-   "en": "",
+   "en": "Ninja Scroll",
    "off": 8744,
    "room": 12,
    "refs": [
     "w8009B5D8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02234",
    "jp": "破魔の矢",
-   "en": "",
+   "en": "Demon-Bane Arrow",
    "off": 8756,
    "room": 12,
    "refs": [
     "w8009B5CC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02240",
    "jp": "大吉みくじ",
-   "en": "",
+   "en": "Lucky Fortune",
    "off": 8768,
    "room": 12,
    "refs": [
     "w8009B5C8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0224c",
    "jp": "けむり玉",
-   "en": "",
+   "en": "Smoke Bomb",
    "off": 8780,
    "room": 12,
    "refs": [
     "w8009B5C4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02258",
    "jp": "ポシェット",
-   "en": "",
+   "en": "Pochette",
    "off": 8792,
    "room": 12,
    "refs": [
     "w8009B594"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02264",
    "jp": "イヤリング",
-   "en": "",
+   "en": "Earrings",
    "off": 8804,
    "room": 12,
    "refs": [
     "w8009B590"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02270",
    "jp": "リボンタイ",
-   "en": "",
+   "en": "Ribbon Tie",
    "off": 8816,
    "room": 12,
    "refs": [
     "w8009B58C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0227c",
    "jp": "ネックレス",
-   "en": "",
+   "en": "Necklace",
    "off": 8828,
    "room": 12,
    "refs": [
     "w8009B588"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02288",
    "jp": "ペンダント",
-   "en": "",
+   "en": "Pendant",
    "off": 8840,
    "room": 12,
    "refs": [
     "w8009B584"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02294",
    "jp": "スカーフ",
-   "en": "",
+   "en": "Scarf",
    "off": 8852,
    "room": 12,
    "refs": [
     "w8009B580"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.022a0",
    "jp": "ぬいぐるみ",
-   "en": "",
+   "en": "Plush Toy",
    "off": 8864,
    "room": 12,
    "refs": [
     "w8009B57C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.022ac",
    "jp": "龍の額冠",
-   "en": "",
+   "en": "Dragon Circlet",
    "off": 8876,
    "room": 12,
    "refs": [
     "w8009B578"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.022b8",
    "jp": "黒曜石の指輪",
-   "en": "",
+   "en": "Obsidian Ring",
    "off": 8888,
    "room": 16,
    "refs": [
     "w8009B570"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.022c8",
    "jp": "朱翼の首飾り",
-   "en": "",
+   "en": "Vermilion Wing Necklace",
    "off": 8904,
    "room": 16,
    "refs": [
     "w8009B56C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.022d8",
    "jp": "白牙のピアス",
-   "en": "",
+   "en": "White Fang Earring",
    "off": 8920,
    "room": 16,
    "refs": [
     "w8009B568"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.022e8",
    "jp": "制御ピアス",
-   "en": "",
+   "en": "Control Piercing",
    "off": 8936,
    "room": 12,
    "refs": [
     "w8009B564"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.022f4",
    "jp": "サングラス",
-   "en": "",
+   "en": "Sunglasses",
    "off": 8948,
    "room": 12,
    "refs": [
     "w8009B55C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02300",
    "jp": "紅玉のブローチ",
-   "en": "",
+   "en": "Ruby Brooch",
    "off": 8960,
    "room": 16,
    "refs": [
     "w8009B558"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02310",
    "jp": "地下足袋",
-   "en": "",
+   "en": "Work Tabi",
    "off": 8976,
    "room": 12,
    "refs": [
     "w8009B550"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0231c",
    "jp": "スパイク",
-   "en": "",
+   "en": "Spikes",
    "off": 8988,
    "room": 12,
    "refs": [
     "w8009B54C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02328",
    "jp": "ハイヒール",
-   "en": "",
+   "en": "High Heels",
    "off": 9000,
    "room": 12,
    "refs": [
     "w8009B548"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02334",
    "jp": "スニーカー",
-   "en": "",
+   "en": "Sneakers",
    "off": 9012,
    "room": 12,
    "refs": [
     "w8009B544"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02340",
    "jp": "ロングブーツ",
-   "en": "",
+   "en": "Long Boots",
    "off": 9024,
    "room": 16,
    "refs": [
     "w8009B540"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02350",
    "jp": "武神黒帯",
-   "en": "",
+   "en": "Takegami Sash",
    "off": 9040,
    "room": 12,
    "refs": [
     "w8009B53C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0235c",
    "jp": "変身ベルト",
-   "en": "",
+   "en": "Hero Belt",
    "off": 9052,
    "room": 12,
    "refs": [
     "w8009B534"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02368",
    "jp": "サスペンダー",
-   "en": "",
+   "en": "Suspenders",
    "off": 9064,
    "room": 16,
    "refs": [
     "w8009B530"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02378",
    "jp": "コルセット",
-   "en": "",
+   "en": "Corset",
    "off": 9080,
    "room": 12,
    "refs": [
     "w8009B52C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02384",
    "jp": "チェーンベルト",
-   "en": "",
+   "en": "Chain Belt",
    "off": 9092,
    "room": 16,
    "refs": [
     "w8009B528"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02394",
    "jp": "武神手甲",
-   "en": "",
+   "en": "Takegami Gauntlets",
    "off": 9108,
    "room": 12,
    "refs": [
     "w8009B524"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.023a0",
    "jp": "防弾アーマー",
-   "en": "",
+   "en": "Bulletproof Armor",
    "off": 9120,
    "room": 16,
    "refs": [
     "w8009B51C"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.023b0",
    "jp": "ボクシンググラブ",
-   "en": "",
+   "en": "Boxing Gloves",
    "off": 9136,
    "room": 20,
    "refs": [
     "w8009B518"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.023c4",
    "jp": "レーサーグラブ",
-   "en": "",
+   "en": "Racer Gloves",
    "off": 9156,
    "room": 16,
    "refs": [
     "w8009B514"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.023d4",
    "jp": "麦わら帽子",
-   "en": "",
+   "en": "Straw Hat",
    "off": 9172,
    "room": 12,
    "refs": [
     "w8009B508"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.023e0",
    "jp": "バンダナ",
-   "en": "",
+   "en": "Bandana",
    "off": 9184,
    "room": 12,
    "refs": [
     "w8009B504"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.023ec",
    "jp": "アーミーキャップ",
-   "en": "",
+   "en": "Army Cap",
    "off": 9196,
    "room": 20,
    "refs": [
     "w8009B500"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02400",
    "jp": "カチューシャ",
-   "en": "",
+   "en": "Hairband",
    "off": 9216,
    "room": 16,
    "refs": [
     "w8009B4FC"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.02410",
    "jp": "「%s」を手に入れた",
-   "en": "",
+   "en": "Obtained '%s'",
    "off": 9232,
    "room": 20,
    "refs": [
@@ -1851,566 +1993,616 @@
     "p80060978"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02474",
    "jp": "移動力を高めよ",
-   "en": "",
+   "en": "Boost Movement!",
    "off": 9332,
    "room": 16,
    "refs": [
     "w8009BC2C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02484",
    "jp": "回避速度を高めよ",
-   "en": "",
+   "en": "Boost Evasion!",
    "off": 9348,
    "room": 20,
    "refs": [
     "w8009BC28"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02498",
    "jp": "命中速度を高めよ",
-   "en": "",
+   "en": "Boost Accuracy!",
    "off": 9368,
    "room": 20,
    "refs": [
     "w8009BC24"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.024ac",
    "jp": "防御力を高めよ",
-   "en": "",
+   "en": "Boost Defense!",
    "off": 9388,
    "room": 16,
    "refs": [
     "w8009BC20"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.024bc",
    "jp": "治癒力を高めよ",
-   "en": "",
+   "en": "Boost Healing!",
    "off": 9404,
    "room": 16,
    "refs": [
     "w8009BC1C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.024cc",
    "jp": "投射戦力を高めよ",
-   "en": "",
+   "en": "Boost Ranged!",
    "off": 9420,
    "room": 20,
    "refs": [
     "w8009BC18"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.024e0",
    "jp": "接近戦力を高めよ",
-   "en": "",
+   "en": "Boost Melee!",
    "off": 9440,
    "room": 20,
    "refs": [
     "w8009BC14"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.024f4",
    "jp": "何もするな！",
-   "en": "",
+   "en": "Do nothing!",
    "off": 9460,
    "room": 16,
    "refs": [
     "w8009BC10"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02504",
    "jp": "移動せよ",
-   "en": "",
+   "en": "Move!",
    "off": 9476,
    "room": 12,
    "refs": [
     "w8009BC0C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02510",
    "jp": "気力を癒せ",
-   "en": "",
+   "en": "Heal Spirit!",
    "off": 9488,
    "room": 12,
    "refs": [
     "w8009BC08"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0251c",
    "jp": "突撃せよ",
-   "en": "",
+   "en": "Charge!",
    "off": 9500,
    "room": 12,
    "refs": [
     "w8009BC04"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02528",
    "jp": "遠くから攻撃せよ",
-   "en": "",
+   "en": "Attack from afar!",
    "off": 9512,
    "room": 20,
    "refs": [
     "w8009BC00"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0253c",
    "jp": "接近して攻撃せよ",
-   "en": "",
+   "en": "Close in and attack!",
    "off": 9532,
    "room": 20,
    "refs": [
     "w8009BBFC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02550",
    "jp": "攻撃せよ",
-   "en": "",
+   "en": "Attack!",
    "off": 9552,
    "room": 12,
    "refs": [
     "w8009BBF8"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0255c",
    "jp": "私を守護せよ",
-   "en": "",
+   "en": "Guard me!",
    "off": 9564,
    "room": 16,
    "refs": [
     "w8009BBF4"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0256c",
    "jp": "守護超獣",
-   "en": "",
+   "en": "Super Guardian",
    "off": 9580,
    "room": 12,
    "refs": [
     "w8009BC9C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02578",
    "jp": "守護魔獣",
-   "en": "",
+   "en": "Demon Guardian",
    "off": 9592,
    "room": 12,
    "refs": [
     "w8009BC98"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02584",
    "jp": "守護神獣",
-   "en": "",
+   "en": "Divine Guardian",
    "off": 9604,
    "room": 12,
    "refs": [
     "w8009BC80"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02590",
    "jp": "守護瞑獣",
-   "en": "",
+   "en": "Zen Guardian",
    "off": 9616,
    "room": 12,
    "refs": [
     "w8009BC7C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0259c",
    "jp": "守護騎獣",
-   "en": "",
+   "en": "Knight Guardian",
    "off": 9628,
    "room": 12,
    "refs": [
     "w8009BC78"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025a8",
    "jp": "守護霊獣",
-   "en": "",
+   "en": "Soul Guardian",
    "off": 9640,
    "room": 12,
    "refs": [
     "w8009BC74"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025b4",
    "jp": "守護爆獣",
-   "en": "",
+   "en": "Blast Guardian",
    "off": 9652,
    "room": 12,
    "refs": [
     "w8009BC70"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025c0",
    "jp": "守護覇獣",
-   "en": "",
+   "en": "Overlord Guardian",
    "off": 9664,
    "room": 12,
    "refs": [
     "w8009BC6C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025cc",
    "jp": "守護羅獣",
-   "en": "",
+   "en": "Asura Guardian",
    "off": 9676,
    "room": 12,
    "refs": [
     "w8009BC68"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025d8",
    "jp": "守護幻獣",
-   "en": "",
+   "en": "Phantom Guardian",
    "off": 9688,
    "room": 12,
    "refs": [
     "w8009BC64"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025e4",
    "jp": "守護猟獣",
-   "en": "",
+   "en": "Hunter Guardian",
    "off": 9700,
    "room": 12,
    "refs": [
     "w8009BC60"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025f0",
    "jp": "守護牙獣",
-   "en": "",
+   "en": "Fang Guardian",
    "off": 9712,
    "room": 12,
    "refs": [
     "w8009BC5C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.025fc",
    "jp": "守護隆獣",
-   "en": "",
+   "en": "Titan Guardian",
    "off": 9724,
    "room": 12,
    "refs": [
     "w8009BC58"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02608",
    "jp": "守護精獣",
-   "en": "",
+   "en": "Spirit Guardian",
    "off": 9736,
    "room": 12,
    "refs": [
     "w8009BC54"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02614",
    "jp": "守護砲獣",
-   "en": "",
+   "en": "Cannon Guardian",
    "off": 9748,
    "room": 12,
    "refs": [
     "w8009BC50"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02620",
    "jp": "守護甲獣",
-   "en": "",
+   "en": "Armor Guardian",
    "off": 9760,
    "room": 12,
    "refs": [
     "w8009BC4C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0262c",
    "jp": "守護舞獣",
-   "en": "",
+   "en": "Dancer Guardian",
    "off": 9772,
    "room": 12,
    "refs": [
     "w8009BC48"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02638",
    "jp": "守護翔獣",
-   "en": "",
+   "en": "Wing Guardian",
    "off": 9784,
    "room": 12,
    "refs": [
     "w8009BC44"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02644",
    "jp": "守護珠獣",
-   "en": "",
+   "en": "Orb Guardian",
    "off": 9796,
    "room": 12,
    "refs": [
     "w8009BC40"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02650",
    "jp": "守護撃獣",
-   "en": "",
+   "en": "Shooter Guardian",
    "off": 9808,
    "room": 12,
    "refs": [
     "w8009BC3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0265c",
    "jp": "守護闘獣",
-   "en": "",
+   "en": "Battle Guardian",
    "off": 9820,
    "room": 12,
    "refs": [
     "w8009BC38"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02668",
    "jp": "？？？？",
-   "en": "",
+   "en": "????",
    "off": 9832,
    "room": 12,
    "refs": [
     "p8006216C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02674",
    "jp": "？？？？？",
-   "en": "",
+   "en": "?????",
    "off": 9844,
    "room": 12,
    "refs": [
     "p800621D4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02680",
    "jp": "？？？？？？",
-   "en": "",
+   "en": "??????",
    "off": 9856,
    "room": 16,
    "refs": [
     "p800621E8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.026a0",
    "jp": "ぬえ－頭部",
-   "en": "",
+   "en": "Nue (Head)",
    "off": 9888,
    "room": 12,
    "refs": [
     "p80064F8C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.026ac",
    "jp": "ぬえ－右腕",
-   "en": "",
+   "en": "Nue (Right Arm)",
    "off": 9900,
    "room": 12,
    "refs": [
     "p80064FCC"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.026b8",
    "jp": "ぬえ－左腕",
-   "en": "",
+   "en": "Nue (Left Arm)",
    "off": 9912,
    "room": 12,
    "refs": [
     "p80065008"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.026c4",
    "jp": "ぬえ－蛇頭",
-   "en": "",
+   "en": "Nue (Snake Head)",
    "off": 9924,
    "room": 12,
    "refs": [
     "p8006503C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.026d0",
    "jp": "ぬえ－核",
-   "en": "",
+   "en": "Nue (Core)",
    "off": 9936,
    "room": 12,
    "refs": [
     "p8006508C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.026dc",
    "jp": "真・龍鬼－右腕",
-   "en": "",
+   "en": "True Ryuki (Right Arm)",
    "off": 9948,
    "room": 16,
    "refs": [
     "p8006541C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.026ec",
    "jp": "真・龍鬼－左腕",
-   "en": "",
+   "en": "True Ryuki (Left Arm)",
    "off": 9964,
    "room": 16,
    "refs": [
     "p80065450"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.026fc",
    "jp": "真・龍鬼－右肩",
-   "en": "",
+   "en": "True Ryuki (Right Shoulder)",
    "off": 9980,
    "room": 16,
    "refs": [
     "p80065488"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0270c",
    "jp": "真・龍鬼－左肩",
-   "en": "",
+   "en": "True Ryuki (Left Shoulder)",
    "off": 9996,
    "room": 16,
    "refs": [
     "p800654C0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.0271c",
    "jp": "真・龍鬼－頭部",
-   "en": "",
+   "en": "True Ryuki (Head)",
    "off": 10012,
    "room": 16,
    "refs": [
     "p800654F8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.027d4",
@@ -2431,37 +2623,40 @@
   {
    "id": "exe.02870",
    "jp": "吉田さん用",
-   "en": "",
+   "en": "For Yoshida-san",
    "off": 10352,
    "room": 12,
    "refs": [
     "w8009CB4C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.0287c",
    "jp": "常に非登録",
-   "en": "",
+   "en": "Never Registered",
    "off": 10364,
    "room": 12,
    "refs": [
     "w8009CB48"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.02888",
    "jp": "システム",
-   "en": "",
+   "en": "System",
    "off": 10376,
    "room": 12,
    "refs": [
     "w8009CB38"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.02894",
@@ -2888,74 +3083,80 @@
   {
    "id": "exe.a6118",
    "jp": "%2d　",
-   "en": "",
+   "en": "%2d",
    "off": 680216,
    "room": 8,
    "refs": [
     "p80017438"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6200",
    "jp": "注意：",
-   "en": "",
+   "en": "Note:",
    "off": 680448,
    "room": 8,
    "refs": [
     "p800277C0",
     "p80027814"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a624c",
    "jp": "出口",
-   "en": "",
+   "en": "Exit",
    "off": 680524,
    "room": 8,
    "refs": [
     "p8002EDD4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6254",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 680532,
    "room": 8,
    "refs": [
     "p8002EDE0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6260",
    "jp": "ＭＰ",
-   "en": "",
+   "en": "MP",
    "off": 680544,
    "room": 8,
    "refs": [
     "p80030A28"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6288",
    "jp": "回復",
-   "en": "",
+   "en": "Restore",
    "off": 680584,
    "room": 8,
    "refs": [
     "p80032124"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6290",
    "jp": "Ａｐ",
-   "en": "",
+   "en": "Ap",
    "off": 680592,
    "room": 8,
    "refs": [
@@ -2964,12 +3165,13 @@
     "p800341B4",
     "p8003484C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6298",
    "jp": "Ｓｐ",
-   "en": "",
+   "en": "Sp",
    "off": 680600,
    "room": 8,
    "refs": [
@@ -2979,23 +3181,25 @@
     "p800327D8",
     "p80034824"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62a0",
    "jp": "Ｍｐ",
-   "en": "",
+   "en": "Mp",
    "off": 680608,
    "room": 8,
    "refs": [
     "p80034838"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62a8",
    "jp": "情報",
-   "en": "",
+   "en": "Info",
    "off": 680616,
    "room": 8,
    "refs": [
@@ -3004,35 +3208,38 @@
     "p80035A40",
     "p800374A4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62b0",
    "jp": "復帰",
-   "en": "",
+   "en": "Revive",
    "off": 680624,
    "room": 8,
    "refs": [
     "p80032F44",
     "p80035A54"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62d0",
    "jp": "召喚",
-   "en": "",
+   "en": "Summon",
    "off": 680656,
    "room": 8,
    "refs": [
     "p800364DC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62d8",
    "jp": "話す",
-   "en": "",
+   "en": "Talk",
    "off": 680664,
    "room": 8,
    "refs": [
@@ -3040,89 +3247,97 @@
     "p80036B14"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.a62e0",
    "jp": "超力",
-   "en": "",
+   "en": "Psi",
    "off": 680672,
    "room": 8,
    "refs": [
     "p80036ACC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62e8",
    "jp": "送還",
-   "en": "",
+   "en": "Dismiss",
    "off": 680680,
    "room": 8,
    "refs": [
     "p80036B4C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62f0",
    "jp": "待機",
-   "en": "",
+   "en": "Wait",
    "off": 680688,
    "room": 8,
    "refs": [
     "w80094908"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a62f8",
    "jp": "思考",
-   "en": "",
+   "en": "Tactic",
    "off": 680696,
    "room": 8,
    "refs": [
     "w80094904"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6300",
    "jp": "行動",
-   "en": "",
+   "en": "Action",
    "off": 680704,
    "room": 8,
    "refs": [
     "w80094900"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6308",
    "jp": "移動",
-   "en": "",
+   "en": "Move",
    "off": 680712,
    "room": 8,
    "refs": [
     "w800948F8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6318",
    "jp": "決定",
-   "en": "",
+   "en": "OK",
    "off": 680728,
    "room": 8,
    "refs": [
     "p80039ADC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6354",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 680788,
    "room": 8,
    "refs": [
@@ -3177,1617 +3392,1764 @@
     "w80095FA0",
     "w80095FA8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a635c",
    "jp": "甲殻機",
-   "en": "",
+   "en": "Shellmech",
    "off": 680796,
    "room": 8,
    "refs": [
     "w80095F9C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6364",
    "jp": "羅侯羅",
-   "en": "",
+   "en": "Ragora",
    "off": 680804,
    "room": 8,
    "refs": [
     "w80095F90"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a636c",
    "jp": "戯画骸",
-   "en": "",
+   "en": "Toon Husk",
    "off": 680812,
    "room": 8,
    "refs": [
     "w80095F84"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6374",
    "jp": "阿難",
-   "en": "",
+   "en": "Anan",
    "off": 680820,
    "room": 8,
    "refs": [
     "w80095F78"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a637c",
    "jp": "爆竜",
-   "en": "",
+   "en": "Bomb Drake",
    "off": 680828,
    "room": 8,
    "refs": [
     "w80095F6C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6384",
    "jp": "一角砕",
-   "en": "",
+   "en": "Hornram",
    "off": 680836,
    "room": 8,
    "refs": [
     "w80095F3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a638c",
    "jp": "影鬼",
-   "en": "",
+   "en": "Shadow Oni",
    "off": 680844,
    "room": 8,
    "refs": [
     "w80095F24"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6394",
    "jp": "須菩提",
-   "en": "",
+   "en": "Subodai",
    "off": 680852,
    "room": 8,
    "refs": [
     "w80095F18"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a639c",
    "jp": "龍殺鬼",
-   "en": "",
+   "en": "Dragonbane",
    "off": 680860,
    "room": 8,
    "refs": [
     "w80095EF4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63a4",
    "jp": "阿那律",
-   "en": "",
+   "en": "Anaritsu",
    "off": 680868,
    "room": 8,
    "refs": [
     "w80095EE0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63ac",
    "jp": "双砲蟹",
-   "en": "",
+   "en": "Twin-Gun Crab",
    "off": 680876,
    "room": 8,
    "refs": [
     "w80095EDC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63b4",
    "jp": "迦旃",
-   "en": "",
+   "en": "Kasen",
    "off": 680884,
    "room": 8,
    "refs": [
     "w80095ED0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63bc",
    "jp": "優婆離",
-   "en": "",
+   "en": "Ubari",
    "off": 680892,
    "room": 8,
    "refs": [
     "w80095EB8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63c4",
    "jp": "機忍",
-   "en": "",
+   "en": "Mechaninja",
    "off": 680900,
    "room": 8,
    "refs": [
     "w80095EAC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63cc",
    "jp": "舎利弗",
-   "en": "",
+   "en": "Sharihotsu",
    "off": 680908,
    "room": 8,
    "refs": [
     "w80095E90"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63d4",
    "jp": "手那賀",
-   "en": "",
+   "en": "Tenaga",
    "off": 680916,
    "room": 8,
    "refs": [
     "w80095E7C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63dc",
    "jp": "目連",
-   "en": "",
+   "en": "Mokuren",
    "off": 680924,
    "room": 8,
    "refs": [
     "w80095E68"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63e4",
    "jp": "斬鬼",
-   "en": "",
+   "en": "Slash Oni",
    "off": 680932,
    "room": 8,
    "refs": [
     "w80095E4C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63ec",
    "jp": "化石竜",
-   "en": "",
+   "en": "Fossil Dragon",
    "off": 680940,
    "room": 8,
    "refs": [
     "w80095E34"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63f4",
    "jp": "富楼那",
-   "en": "",
+   "en": "Furuna",
    "off": 680948,
    "room": 8,
    "refs": [
     "w80095E20"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a63fc",
    "jp": "死人守",
-   "en": "",
+   "en": "Gravekeeper",
    "off": 680956,
    "room": 8,
    "refs": [
     "w80095E1C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6404",
    "jp": "迦葉",
-   "en": "",
+   "en": "Kasho",
    "off": 680964,
    "room": 8,
    "refs": [
     "w80095E08"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a640c",
    "jp": "翔妖",
-   "en": "",
+   "en": "Wing Wraith",
    "off": 680972,
    "room": 8,
    "refs": [
     "w80095E04"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6414",
    "jp": "弓男",
-   "en": "",
+   "en": "Bowman",
    "off": 680980,
    "room": 8,
    "refs": [
     "w80095DEC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a641c",
    "jp": "鎌蜥蜴",
-   "en": "",
+   "en": "Scythe Lizard",
    "off": 680988,
    "room": 8,
    "refs": [
     "w80095DD4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6424",
    "jp": "武神",
-   "en": "",
+   "en": "Takegami",
    "off": 680996,
    "room": 8,
    "refs": [
     "w80095DC8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a642c",
    "jp": "黒龍",
-   "en": "",
+   "en": "Black Dragon",
    "off": 681004,
    "room": 8,
    "refs": [
     "w80095DC4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6434",
    "jp": "仁瞳",
-   "en": "",
+   "en": "Hitomi Jin",
    "off": 681012,
    "room": 8,
    "refs": [
     "w80095DC0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a643c",
    "jp": "鏡涼子",
-   "en": "",
+   "en": "Ryoko Kagami",
    "off": 681020,
    "room": 8,
    "refs": [
     "w80095DB8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6444",
    "jp": "玄武",
-   "en": "",
+   "en": "Genbu",
    "off": 681028,
    "room": 8,
    "refs": [
     "w80095DB4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a644c",
    "jp": "青龍",
-   "en": "",
+   "en": "Seiryu",
    "off": 681036,
    "room": 8,
    "refs": [
     "w80095DAC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6454",
    "jp": "東聡美",
-   "en": "",
+   "en": "Satomi Azuma",
    "off": 681044,
    "room": 8,
    "refs": [
     "w80095DA8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a645c",
    "jp": "きらら",
-   "en": "",
+   "en": "Kirara",
    "off": 681052,
    "room": 8,
    "refs": [
     "w80095D9C"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.a6464",
    "jp": "不動",
-   "en": "",
+   "en": "Fudo",
    "off": 681060,
    "room": 8,
    "refs": [
     "w80095D94"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a646c",
    "jp": "斎姫",
-   "en": "",
+   "en": "Saiki",
    "off": 681068,
    "room": 8,
    "refs": [
     "w80095D84"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6474",
    "jp": "雷晶",
-   "en": "",
+   "en": "Akira Ikazuchi",
    "off": 681076,
    "room": 8,
    "refs": [
     "w80095D78"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a647c",
    "jp": "ノルト",
-   "en": "",
+   "en": "Nord",
    "off": 681084,
    "room": 8,
    "refs": [
     "w80095D74"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6484",
    "jp": "ポチ",
-   "en": "",
+   "en": "Pochi",
    "off": 681092,
    "room": 8,
    "refs": [
     "w80095D6C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a648c",
    "jp": "龍鬼",
-   "en": "",
+   "en": "Ryuki",
    "off": 681100,
    "room": 8,
    "refs": [
     "w80095D64"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6494",
    "jp": "龍鬼妃",
-   "en": "",
+   "en": "Ryukihi",
    "off": 681108,
    "room": 8,
    "refs": [
     "w80095D60"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a649c",
    "jp": "ウール",
-   "en": "",
+   "en": "Ur",
    "off": 681116,
    "room": 8,
    "refs": [
     "w80095D5C"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.a64a4",
    "jp": "白虎",
-   "en": "",
+   "en": "Byakko",
    "off": 681124,
    "room": 8,
    "refs": [
     "w80095D54"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64ac",
    "jp": "朱雀",
-   "en": "",
+   "en": "Suzaku",
    "off": 681132,
    "room": 8,
    "refs": [
     "w80095D4C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64b4",
    "jp": "是空",
-   "en": "",
+   "en": "Zeku",
    "off": 681140,
    "room": 8,
    "refs": [
     "w80095D44"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64bc",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 681148,
    "room": 8,
    "refs": [
     "w80095D2C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64c4",
    "jp": "凪",
-   "en": "",
+   "en": "Nagi",
    "off": 681156,
    "room": 4,
    "refs": [
     "w80095D24"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64c8",
    "jp": "メール",
-   "en": "",
+   "en": "Mer",
    "off": 681160,
    "room": 8,
    "refs": [
     "w80095D1C"
    ],
    "inner": [],
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "exe.a64d0",
    "jp": "炎真由",
-   "en": "",
+   "en": "Mayu Homura",
    "off": 681168,
    "room": 8,
    "refs": [
     "w80095D10"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64d8",
    "jp": "雷龍",
-   "en": "",
+   "en": "Thunder Dragon",
    "off": 681176,
    "room": 8,
    "refs": [
     "w80095FC8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64e0",
    "jp": "聖龍",
-   "en": "",
+   "en": "Holy Dragon",
    "off": 681184,
    "room": 8,
    "refs": [
     "w80095FC4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64e8",
    "jp": "地龍",
-   "en": "",
+   "en": "Earth Dragon",
    "off": 681192,
    "room": 8,
    "refs": [
     "w80095FC0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64f0",
    "jp": "飛龍",
-   "en": "",
+   "en": "Wind Dragon",
    "off": 681200,
    "room": 8,
    "refs": [
     "w80095FBC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a64f8",
    "jp": "海龍",
-   "en": "",
+   "en": "Sea Dragon",
    "off": 681208,
    "room": 8,
    "refs": [
     "w80095FB8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6500",
    "jp": "炎龍",
-   "en": "",
+   "en": "Flame Dragon",
    "off": 681216,
    "room": 8,
    "refs": [
     "w80095FB4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6508",
    "jp": "天龍",
-   "en": "",
+   "en": "Sky Dragon",
    "off": 681224,
    "room": 8,
    "refs": [
     "w80095FB0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6520",
    "jp": "治癒",
-   "en": "",
+   "en": "Heal",
    "off": 681248,
    "room": 8,
    "refs": [
     "w8009630C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6528",
    "jp": "投射戦",
-   "en": "",
+   "en": "Ranged",
    "off": 681256,
    "room": 8,
    "refs": [
     "w80096308"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6530",
    "jp": "接近戦",
-   "en": "",
+   "en": "Melee",
    "off": 681264,
    "room": 8,
    "refs": [
     "w80096304"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6538",
    "jp": "Ｓ",
-   "en": "",
+   "en": "S",
    "off": 681272,
    "room": 4,
    "refs": [
     "w80096320"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a653c",
    "jp": "Ａ",
-   "en": "",
+   "en": "A",
    "off": 681276,
    "room": 4,
    "refs": [
     "w8009631C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6540",
    "jp": "Ｂ",
-   "en": "",
+   "en": "B",
    "off": 681280,
    "room": 4,
    "refs": [
     "w80096318"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6544",
    "jp": "Ｃ",
-   "en": "",
+   "en": "C",
    "off": 681284,
    "room": 4,
    "refs": [
     "w80096314"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6548",
    "jp": "Ｄ",
-   "en": "",
+   "en": "D",
    "off": 681288,
    "room": 4,
    "refs": [
     "w80096310"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a672c",
    "jp": "感応石",
-   "en": "",
+   "en": "Bond Stone",
    "off": 681772,
    "room": 8,
    "refs": [
     "w8009B5D4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6734",
    "jp": "お守り",
-   "en": "",
+   "en": "Charm",
    "off": 681780,
    "room": 8,
    "refs": [
     "w8009B5D0"
    ],
    "inner": [],
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "exe.a673c",
    "jp": "力液",
-   "en": "",
+   "en": "Power Drink",
    "off": 681788,
    "room": 8,
    "refs": [
     "w8009B5C0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6744",
    "jp": "龍玉",
-   "en": "",
+   "en": "Dragon Jewel",
    "off": 681796,
    "room": 8,
    "refs": [
     "w8009B5BC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a674c",
    "jp": "蛍之雫",
-   "en": "",
+   "en": "Firefly Drop",
    "off": 681804,
    "room": 8,
    "refs": [
     "w8009B5B8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6754",
    "jp": "神泉水",
-   "en": "",
+   "en": "Divine Water",
    "off": 681812,
    "room": 8,
    "refs": [
     "w8009B5B4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a675c",
    "jp": "霊泉水",
-   "en": "",
+   "en": "Spirit Water",
    "off": 681820,
    "room": 8,
    "refs": [
     "w8009B5B0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6764",
    "jp": "夢魂丹",
-   "en": "",
+   "en": "Dream Pill",
    "off": 681828,
    "room": 8,
    "refs": [
     "w8009B5AC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a676c",
    "jp": "幻魂丹",
-   "en": "",
+   "en": "Phantom Pill",
    "off": 681836,
    "room": 8,
    "refs": [
     "w8009B5A8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6774",
    "jp": "月香湯",
-   "en": "",
+   "en": "Moonlight Tonic",
    "off": 681844,
    "room": 8,
    "refs": [
     "w8009B5A4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a677c",
    "jp": "風香湯",
-   "en": "",
+   "en": "Breeze Tonic",
    "off": 681852,
    "room": 8,
    "refs": [
     "w8009B5A0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6784",
    "jp": "鳥香湯",
-   "en": "",
+   "en": "Birdsong Tonic",
    "off": 681860,
    "room": 8,
    "refs": [
     "w8009B59C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a678c",
    "jp": "花香湯",
-   "en": "",
+   "en": "Floral Tonic",
    "off": 681868,
    "room": 8,
    "refs": [
     "w8009B598"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6794",
    "jp": "青炎扇",
-   "en": "",
+   "en": "Blue Flame Fan",
    "off": 681876,
    "room": 8,
    "refs": [
     "w8009B574"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a679c",
    "jp": "赤真珠",
-   "en": "",
+   "en": "Red Pearl",
    "off": 681884,
    "room": 8,
    "refs": [
     "w8009B560"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67a4",
    "jp": "武神靴",
-   "en": "",
+   "en": "Takegami Shoes",
    "off": 681892,
    "room": 8,
    "refs": [
     "w8009B554"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67ac",
    "jp": "腹巻",
-   "en": "",
+   "en": "Belly Warmer",
    "off": 681900,
    "room": 8,
    "refs": [
     "w8009B538"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67b4",
    "jp": "軍手",
-   "en": "",
+   "en": "Work Gloves",
    "off": 681908,
    "room": 8,
    "refs": [
     "w8009B520"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67bc",
    "jp": "ミトン",
-   "en": "",
+   "en": "Mittens",
    "off": 681916,
    "room": 8,
    "refs": [
     "w8009B510"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67c4",
    "jp": "武神笠",
-   "en": "",
+   "en": "Takegami Hat",
    "off": 681924,
    "room": 8,
    "refs": [
     "w8009B50C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67cc",
    "jp": "野球帽",
-   "en": "",
+   "en": "Baseball Cap",
    "off": 681932,
    "room": 8,
    "refs": [
     "w8009B4F8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67d4",
    "jp": "感応",
-   "en": "",
+   "en": "Telepathy",
    "off": 681940,
    "room": 8,
    "refs": [
     "w8009BA04"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67dc",
    "jp": "浮遊",
-   "en": "",
+   "en": "Levitate",
    "off": 681948,
    "room": 8,
    "refs": [
     "w8009BA00"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67e4",
    "jp": "再動",
-   "en": "",
+   "en": "Refresh",
    "off": 681956,
    "room": 8,
    "refs": [
     "w8009B9FC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67ec",
    "jp": "探査",
-   "en": "",
+   "en": "Detect",
    "off": 681964,
    "room": 8,
    "refs": [
     "w8009B9F8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67f4",
    "jp": "確認",
-   "en": "",
+   "en": "Scan",
    "off": 681972,
    "room": 8,
    "refs": [
     "w8009B9F4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a67fc",
    "jp": "封除",
-   "en": "",
+   "en": "Seal",
    "off": 681980,
    "room": 8,
    "refs": [
     "w8009B9F0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6804",
    "jp": "誘眠",
-   "en": "",
+   "en": "Sleep",
    "off": 681988,
    "room": 8,
    "refs": [
     "w8009B9EC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a680c",
    "jp": "重荷",
-   "en": "",
+   "en": "Burden",
    "off": 681996,
    "room": 8,
    "refs": [
     "w8009B9E8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6814",
    "jp": "薄皮",
-   "en": "",
+   "en": "Thin Skin",
    "off": 682004,
    "room": 8,
    "refs": [
     "w8009B9E4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a681c",
    "jp": "非力",
-   "en": "",
+   "en": "Weaken",
    "off": 682012,
    "room": 8,
    "refs": [
     "w8009B9E0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6824",
    "jp": "波陣",
-   "en": "",
+   "en": "Wave Field",
    "off": 682020,
    "room": 8,
    "refs": [
     "w8009B9DC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a682c",
    "jp": "加護",
-   "en": "",
+   "en": "Blessing",
    "off": 682028,
    "room": 8,
    "refs": [
     "w8009B9D8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6834",
    "jp": "隠影",
-   "en": "",
+   "en": "Shadow",
    "off": 682036,
    "room": 8,
    "refs": [
     "w8009B9D4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a683c",
    "jp": "分身",
-   "en": "",
+   "en": "Clone",
    "off": 682044,
    "room": 8,
    "refs": [
     "w8009B9D0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6844",
    "jp": "軽撃",
-   "en": "",
+   "en": "Light Blow",
    "off": 682052,
    "room": 8,
    "refs": [
     "w8009B9CC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a684c",
    "jp": "鬼神",
-   "en": "",
+   "en": "Demon Might",
    "off": 682060,
    "room": 8,
    "refs": [
     "w8009B9C8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6854",
    "jp": "神脚",
-   "en": "",
+   "en": "Swift Foot",
    "off": 682068,
    "room": 8,
    "refs": [
     "w8009B9C4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a685c",
    "jp": "風技",
-   "en": "",
+   "en": "Wind Art",
    "off": 682076,
    "room": 8,
    "refs": [
     "w8009B9C0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6864",
    "jp": "岩楯",
-   "en": "",
+   "en": "Rock Shield",
    "off": 682084,
    "room": 8,
    "refs": [
     "w8009B9BC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a686c",
    "jp": "気合",
-   "en": "",
+   "en": "Focus",
    "off": 682092,
    "room": 8,
    "refs": [
     "w8009B9B8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6874",
    "jp": "闘神",
-   "en": "",
+   "en": "War God",
    "off": 682100,
    "room": 8,
    "refs": [
     "w8009B9B4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a687c",
    "jp": "幸運",
-   "en": "",
+   "en": "Luck",
    "off": 682108,
    "room": 8,
    "refs": [
     "w8009B9B0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6884",
    "jp": "会心",
-   "en": "",
+   "en": "Critical",
    "off": 682116,
    "room": 8,
    "refs": [
     "w8009B9AC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a688c",
    "jp": "心眼",
-   "en": "",
+   "en": "Mind's Eye",
    "off": 682124,
    "room": 8,
    "refs": [
     "w8009B9A8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6894",
    "jp": "直撃",
-   "en": "",
+   "en": "Sure Hit",
    "off": 682132,
    "room": 8,
    "refs": [
     "w8009B9A4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a689c",
    "jp": "復帰",
-   "en": "",
+   "en": "Revive",
    "off": 682140,
    "room": 8,
    "refs": [
     "w8009B9A0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68a4",
    "jp": "勇気",
-   "en": "",
+   "en": "Courage",
    "off": 682148,
    "room": 8,
    "refs": [
     "w8009B99C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68ac",
    "jp": "全癒",
-   "en": "",
+   "en": "Cure All",
    "off": 682156,
    "room": 8,
    "refs": [
     "w8009B998"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68b4",
    "jp": "入魂",
-   "en": "",
+   "en": "Inspire",
    "off": 682164,
    "room": 8,
    "refs": [
     "w8009B994"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68bc",
    "jp": "治癒",
-   "en": "",
+   "en": "Cure",
    "off": 682172,
    "room": 8,
    "refs": [
     "w8009B990"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68cc",
    "jp": "暴走",
-   "en": "",
+   "en": "Berserk",
    "off": 682188,
    "room": 8,
    "refs": [
     "w8009BC30"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68d8",
    "jp": "守護獣",
-   "en": "",
+   "en": "Guardian",
    "off": 682200,
    "room": 8,
    "refs": [
     "w8009BC34"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68e0",
    "jp": "神",
-   "en": "",
+   "en": "God",
    "off": 682208,
    "room": 4,
    "refs": [
     "w8009BD18"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68e4",
    "jp": "復讐者",
-   "en": "",
+   "en": "Avenger",
    "off": 682212,
    "room": 8,
    "refs": [
     "w8009BD14"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68ec",
    "jp": "屍人",
-   "en": "",
+   "en": "Undead",
    "off": 682220,
    "room": 8,
    "refs": [
     "w8009BD10"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68f4",
    "jp": "夢魔",
-   "en": "",
+   "en": "Succubus",
    "off": 682228,
    "room": 8,
    "refs": [
     "w8009BD0C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a68fc",
    "jp": "蛇女",
-   "en": "",
+   "en": "Lamia",
    "off": 682236,
    "room": 8,
    "refs": [
     "w8009BD08"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6904",
    "jp": "不死鳥",
-   "en": "",
+   "en": "Phoenix",
    "off": 682244,
    "room": 8,
    "refs": [
     "w8009BD04"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a690c",
    "jp": "美姫",
-   "en": "",
+   "en": "Princess",
    "off": 682252,
    "room": 8,
    "refs": [
     "w8009BD00"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6914",
    "jp": "侍",
-   "en": "",
+   "en": "Samurai",
    "off": 682260,
    "room": 4,
    "refs": [
     "w8009BCFC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6918",
    "jp": "吸血鬼",
-   "en": "",
+   "en": "Vampire",
    "off": 682264,
    "room": 8,
    "refs": [
     "w8009BCF8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6920",
    "jp": "昇龍",
-   "en": "",
+   "en": "Rising Dragon",
    "off": 682272,
    "room": 8,
    "refs": [
     "w8009BCF4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6928",
    "jp": "軍師",
-   "en": "",
+   "en": "Strategist",
    "off": 682280,
    "room": 8,
    "refs": [
     "w8009BCF0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6930",
    "jp": "仔猫",
-   "en": "",
+   "en": "Kitten",
    "off": 682288,
    "room": 8,
    "refs": [
     "w8009BCEC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6938",
    "jp": "忍者",
-   "en": "",
+   "en": "Ninja",
    "off": 682296,
    "room": 8,
    "refs": [
     "w8009BCE8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6940",
    "jp": "毒蜂",
-   "en": "",
+   "en": "Hornet",
    "off": 682304,
    "room": 8,
    "refs": [
     "w8009BCE4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6948",
    "jp": "狂戦士",
-   "en": "",
+   "en": "Berserker",
    "off": 682312,
    "room": 8,
    "refs": [
     "w8009BCE0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6950",
    "jp": "女神",
-   "en": "",
+   "en": "Goddess",
    "off": 682320,
    "room": 8,
    "refs": [
     "w8009BCDC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6958",
    "jp": "幽鬼",
-   "en": "",
+   "en": "Specter",
    "off": 682328,
    "room": 8,
    "refs": [
     "w8009BCD8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6960",
    "jp": "戦乙女",
-   "en": "",
+   "en": "Valkyrie",
    "off": 682336,
    "room": 8,
    "refs": [
     "w8009BCD4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6968",
    "jp": "半獣人",
-   "en": "",
+   "en": "Beastman",
    "off": 682344,
    "room": 8,
    "refs": [
     "w8009BCD0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6970",
    "jp": "多頭竜",
-   "en": "",
+   "en": "Hydra",
    "off": 682352,
    "room": 8,
    "refs": [
     "w8009BCCC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6978",
    "jp": "賢者",
-   "en": "",
+   "en": "Sage",
    "off": 682360,
    "room": 8,
    "refs": [
     "w8009BCC8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6980",
    "jp": "死神",
-   "en": "",
+   "en": "Reaper",
    "off": 682368,
    "room": 8,
    "refs": [
     "w8009BCC4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6988",
    "jp": "達人",
-   "en": "",
+   "en": "Expert",
    "off": 682376,
    "room": 8,
    "refs": [
     "w8009BCC0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6990",
    "jp": "騎士",
-   "en": "",
+   "en": "Knight",
    "off": 682384,
    "room": 8,
    "refs": [
     "w8009BCBC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6998",
    "jp": "鬼",
-   "en": "",
+   "en": "Oni",
    "off": 682392,
    "room": 4,
    "refs": [
     "w8009BCB8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a699c",
    "jp": "七龍",
-   "en": "",
+   "en": "Seven Dragons",
    "off": 682396,
    "room": 8,
    "refs": [
     "w8009BCB4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a69a4",
    "jp": "闘牛",
-   "en": "",
+   "en": "Fighting Bull",
    "off": 682404,
    "room": 8,
    "refs": [
     "w8009BCB0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a69ac",
    "jp": "人魚",
-   "en": "",
+   "en": "Mermaid",
    "off": 682412,
    "room": 8,
    "refs": [
     "w8009BCAC"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a69b4",
    "jp": "大蛇",
-   "en": "",
+   "en": "Serpent",
    "off": 682420,
    "room": 8,
    "refs": [
     "w8009BCA8"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a69bc",
    "jp": "蛮族",
-   "en": "",
+   "en": "Barbarian",
    "off": 682428,
    "room": 8,
    "refs": [
     "w8009BCA4"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a69c4",
@@ -4798,84 +5160,93 @@
    "refs": [
     "w8009BCA0"
    ],
-   "inner": []
+   "inner": [],
+   "status": "data",
+   "notes": "blank"
   },
   {
    "id": "exe.a6bc8",
    "jp": "予備D",
-   "en": "",
+   "en": "Spare D",
    "off": 682952,
    "room": 8,
    "refs": [
     "w8009CB5C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6bd0",
    "jp": "予備C",
-   "en": "",
+   "en": "Spare C",
    "off": 682960,
    "room": 8,
    "refs": [
     "w8009CB58"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6bd8",
    "jp": "予備B",
-   "en": "",
+   "en": "Spare B",
    "off": 682968,
    "room": 8,
    "refs": [
     "w8009CB54"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6be0",
    "jp": "予備A",
-   "en": "",
+   "en": "Spare A",
    "off": 682976,
    "room": 8,
    "refs": [
     "w8009CB50"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6be8",
    "jp": "日記",
-   "en": "",
+   "en": "Diary",
    "off": 682984,
    "room": 8,
    "refs": [
     "w8009CB44"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6bf0",
    "jp": "バトル",
-   "en": "",
+   "en": "Battle",
    "off": 682992,
    "room": 8,
    "refs": [
     "w8009CB40"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   },
   {
    "id": "exe.a6bf8",
    "jp": "通常",
-   "en": "",
+   "en": "Normal",
    "off": 683000,
    "room": 8,
    "refs": [
     "w8009CB3C"
    ],
-   "inner": []
+   "inner": [],
+   "status": "done"
   }
  ]
 }
