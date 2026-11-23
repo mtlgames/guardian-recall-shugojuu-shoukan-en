@@ -66,8 +66,8 @@ lookup_hook:                    ; a2 = code (set in the patched delay slot)
   la    t1, adv_tab
   addu  t1, t1, t0
   lbu   t1, 0(t1)
+  sll   t0, t0, 1                 ; load delay slot: t1 not ready yet on R3000
   sh    t1, lo(last_adv)(t2)
-  sll   t0, t0, 1
   la    t1, cell_tab
   addu  t1, t1, t0
   lhu   a2, 0(t1)

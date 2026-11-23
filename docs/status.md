@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 7. Insert, fit, check (phase 6 closed 2026-11-24: all 76 batches translated, merged and reviewed).
-  Last build: 2026-11-24 `build.py` (all English, b076), smoke ok, disc 1 .bin sha1 6f0f5cccc4fb.
+  Last build: 2026-11-24 `build.py` (all English, re-review fixes + load-delay fix), smoke ok, disc 1 .bin sha1 058ade1f5330.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -180,6 +180,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     quote voices (Mayu, Tomomi, Akira x3, Takegami x2, Reiko, Yuko), day.0008 garbled line, dic disciples given
     he/him (gender unstated: now neutral), dic.0175 height joke. docs/review.md table sorted; Minors in polish.md.
     Tip: `sed -E 's/&[a-z]\([^)]*\)//g'` on a txd pairs file halves it for reading.
+  - 2026-11-24 (9): phase 7 (a) partly: full build of the all-English script ok, `windows.py` fit lint 0, check.py
+    green, smoke ok. **asm/hooks.asm load-delay bug fixed** (lbu t1 -> sh t1 in the ASCII advance path; armips had
+    warned on every build; now 0 warnings). ev02 + opt_dictionary_page re-shot: VWF spacing correct.
 - **Next (phase 7: insert, fit, check; done-when = build green: width/overflow lint clean, control codes matched,
   `romdiff.py` no writes outside allowed ranges):**
   (a0) romdiff design (not started): build.py has no write check. Plan: in insert.patch_tree save pre-armips copies of
