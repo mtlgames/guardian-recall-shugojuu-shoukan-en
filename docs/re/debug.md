@@ -127,10 +127,20 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   待機 loop (4 of 5 enemies die attacking, work/qa/win01/s040000), then the leader (unit 26, never moves) teleported
   next to the party by poking its sprite objects (0x8013E980/2/4 = 600,-100,300; 0x8013E9FC/E/A00 = 600,-100,200),
   enemy phase kills it, victory dialog, ○ mash: DAY overlay 0x12 at +3509 frames -> DIARY page (天の章第一話
-  守護獣召喚, NAME 天城美由紀, PLACE 福岡 天神高校, 4-line entry). State: `work/states/diary.sstate`. The page then
-  ignores every button for 16000+ frames (CEEE = 0x24; clearing it does nothing). DAY task 0x80166508(a0 =
-  0x8017C27C), per-frame 0x801681D0 -> 0x801670B0 (page draw; reads event no. 0x8013CEE4). Zeroing every enemy's HP
-  on the map does not win: the leader must die in a battle.
+  守護獣召喚, NAME 天城美由紀, PLACE 福岡 天神高校, 4-line entry). State: `work/states/diary.sstate`. Zeroing every
+  enemy's HP on the map does not win: the leader must die in a battle.
+- **DAY menu (no stall)**: Up/Down pick the tab (task +0x1A0, 0..5 = DIARY ROUTE SAVE LOAD CONFIG NEXT, label on
+  the right edge), ○ opens it, × closes; ○ on DIARY does nothing visible (earlier "stall" = only ○ was tried).
+  ROUTE = 地の章をプレイしますか？ (はい switches route), SAVE/LOAD = block list (save prompt defaults to いいえ),
+  NEXT = 次のマップへ進みます. Tasks: DAY 0x80166508 (a0 0x8017C27C), menu subtask 0x8016681C (state +4: 0 idle,
+  1/3 open/close), page handlers table 0x8016C058. Pad edge flags: u32 per button at 0x80152588 + 8*i (up
+  0x80152598, down 0x801525A0, × 0x801525D0, ○ 0x801525D8); the page is drawn once, poking 0x8013CEE4 later
+  changes nothing.
+- **DAY save** (DAY > SAVE): file BISLPS-01297GRDA (block 2 on `tools/debug/cards/day01.mcd`, saved from
+  diary.sstate). Title > LOAD of it opens the DAY menu on the DIARY page (tab cursor on LOAD) from a cold boot:
+  scenes `day_*`. Loader 0x8005D9C4: +0x200 (0x34) -> 0x8013DE00, +0x234 (0x180) -> 0x80157A90, whose +4 u16 is the
+  event -> 0x8013CEE4, so **GRDA +0x238 = episode** (`save.py --file GRDA --event N`; scenes.tsv card `day01.mcd@N`).
+  Diary text = day.txd slot 4*(N-1) (event 5 = 天の章第五話, 12 = 地の章第一話); slots 512-708 not yet tied to events.
 - **DAY menu via op warp** (older notes): the op runs and DAY.BIN loads, but from ev20 (ACTION) the task crashes ~8 frames
   later (returns to 0x8013DE00 with sp 0x801FFFD0: a clobbered stack ra); from ev7 (JAPAN map) the console resets
   during a CD read. Likely missing story state (the case also reads 0x80141398[event], card +0x23A, zero after a

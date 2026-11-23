@@ -2,9 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 2. Debug tool in progress (warp, scene list, tactics menus, battle, save editor, ending/credits,
-  music mode, disc_swap3, game over done; DAY diary reached from a state, not yet a cold-boot scene; the diary page
-  stalls). Last build: none yet.
+- **Phase:** 3. Identity build next (phase 2 debug tool done 2026-11-23: every scenes.tsv entry reached from a
+  cold boot). Last build: none yet.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -40,17 +39,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     opening, distinct later). **DIARY reached** naturally (docs/re/debug.md "DIARY reached"; state
     work/states/diary.sstate). Emulator stall after an ally master's retire line found and worked around
     (tools/lua/unstick.lua). New probes units.lua, clamp_hp.lua.
-- **Next (phase 2):**
-  1. `gameover` regen ran ok from a cold boot (her HP hit 0 at frame 111630) but +300 was still the map; stop moved
-     to +900 (GameOver graphic from ~+500, checked by continuing from work/states/gameover.sstate: work/qa/gover_tail).
-     Re-run `regen.py --orig --only gameover --timeout 3600` (~1 h, background) to confirm the final shot.
-  2. **DIARY as a cold-boot scene**: chain battle route + enemy HP clamps (`0x800C3050+i*0x64+0x10<0x1`, i=25..30)
-     + leader teleport (sprite pokes, once the map is up: needs a timed/pinned write in warp.lua) + 待機 cycles + ○
-     mash; or find why the op-0x23 warp crashes by diffing story state against work/ram_day.bin (natural, at the
-     diary). Then: the diary page ignores input (stall; maybe XA again, maybe it waits on something else): find
-     what advances it (DAY task 0x80166508 state machine, a0 0x8017C27C) to reach the save menu after it.
-  3. Low priority: CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks). GOD mode not needed so
-     far (clamp_hp.lua covers forced wins/losses).
+  - 2026-11-23 (5): **phase 2 done.** `gameover` regen from a cold boot: final shot = GameOver graphic + defeat
+    dialog. The diary "stall" was not one: Up/Down pick the DAY tabs (DIARY ROUTE SAVE LOAD CONFIG NEXT). Saved a
+    DAY save from it: fixture `tools/debug/cards/day01.mcd` (GRDA, block 2); title > LOAD of it = DAY menu from a
+    cold boot. Scenes day_diary, day_route, day_route_yes, day_save, day_load, day_config, day_next, day_diary_05/12/33
+    (all regen ok, final shots checked). save.py knows the GRDA layout (event +0x238; test); scenes.tsv card
+    `day01.mcd@N` = DAY menu / diary of episode N (regen.py makes the card). 122 scene rows.
+- **Next (phase 3, identity build):** dumpsxiso both discs -> mkpsxiso rebuild with no edits -> byte-identical
+  .bin as a test (references/pipeline.md §Identity, platform-ps1.md). Then phase 4 (extract: scenario g23, g13,
+  txd, EXE/overlay strings; roundtrip tests).
+- **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
+  Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
+  slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).
 - **Open bugs:** none.
 - **Waiting on the user:** (non-blocking) FMVs are voiced Japanese with no subtitles; default = no FMV subtitles,
   only the STAFF.STR credits get English (D3). Ask if subtitles are wanted.

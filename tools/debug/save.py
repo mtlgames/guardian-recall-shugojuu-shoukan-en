@@ -21,6 +21,13 @@ FIELDS = {                       # card offset: (length, RAM it loads into, mean
     0x3A6: (0x100, 0x8013E550, 'event flag array (BRAIN copies it into si)'),
     0x4DE: (0x180, 0x80157A90, 'system data (u32 time, u32 event, flags)'),
 }
+# DAY-menu save (GRDA..., written by DAY > SAVE; loader 0x8005D9C4): its own layout. Event u16 at +0x238 picks the
+# episode the DAY menu (and its DIARY page) opens on after title > LOAD.
+GRD_EVENT = 0x238
+GRD_FIELDS = {
+    0x200: (0x34, 0x8013DE00, 'options area'),
+    0x234: (0x180, 0x80157A90, 'system data (u32, u16 event at +4 -> 0x8013CEE4, flags)'),
+}
 # block A (all 0xFF) unlocks the epilogue replays; BRAIN also copies its +6..+0x26 to 0x8013DE14 (options area)
 UNLOCK = [(0x214, 0x26, 0xFF), (0x23A + 0xA, 50, 0x01), (0x3A6, 0x100, 0xFF)]
 
@@ -43,7 +50,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument('card')
     ap.add_argument('--out')
-    ap.add_argument('--file', default='GRS', help='file name suffix: GRS (system file + map save) or GRD')
+    ap.add_argument('--file', default='GRS', help='file name suffix: GRS (system file + map save) or GRDA (DAY-menu save, day01.mcd)')
     ap.add_argument('--event', type=int)
     ap.add_argument('--poke', nargs='*', default=[], help='OFF=HEXBYTES, e.g. 0x276=4600')
     ap.add_argument('--fill', nargs='*', default=[], help='OFF:LEN=BYTE, e.g. 0x3A6:0x100=0xFF')
@@ -58,12 +65,15 @@ def main():
     at = fs[name] * BLOCK
     blk = card[at:at + BLOCK]
     ok = checksum(blk) == blk[SUM]
-    print(f'{name}: block {fs[name]}, checksum {"ok" if ok else "BAD"}, event {int.from_bytes(blk[EVENT:EVENT + 2], "little")}')
-    for off, (n, ram, what) in FIELDS.items():
+    grs = name.endswith('GRS')
+    ev, fields = (EVENT, FIELDS) if grs else (GRD_EVENT, GRD_FIELDS)
+    print(f'{name}: block {fs[name]}, checksum {"ok" if ok else "BAD"}, event {int.from_bytes(blk[ev:ev + 2], "little")}')
+    for off, (n, ram, what) in fields.items():
         print(f'  +0x{off:03X} {n:#6x} -> {ram:08X} {sum(1 for x in blk[off:off + n] if x):4d} non-zero  {what}')
     if not a.out:
         return 0
     assert ok, 'base save has a bad checksum: start from a game-written card'
+    assert grs or not a.unlock_all, '--unlock-all edits the GRS system file'
     edits = list(UNLOCK) if a.unlock_all else []
     for f in a.fill:
         o, rest = f.split(':')
@@ -78,7 +88,7 @@ def main():
         assert 0x200 <= int(o, 0) and int(o, 0) + len(b) <= SUM, f'poke outside the data area: {p}'
         blk[int(o, 0):int(o, 0) + len(b)] = b
     if a.event is not None:
-        blk[EVENT:EVENT + 2] = a.event.to_bytes(2, 'little')
+        blk[ev:ev + 2] = a.event.to_bytes(2, 'little')
     blk[SUM] = checksum(blk)
     card[at:at + BLOCK] = blk
     open(a.out, 'wb').write(card)

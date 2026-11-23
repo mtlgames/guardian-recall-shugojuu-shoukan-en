@@ -35,6 +35,22 @@ for name, n, frames, note in [("replay_d2", 0, "2000", "disc 2 イベント再�
                               ("epilogue_yuko", 40, "12000", "イベント再現 > エピローグ（裕子バージョン）")]:
     rows.append((name, "2", "ovl:16", "", REP2 + ";6 down;30 -" * n + (";60 -;8 circle;400 -" if n else ""), frames,
                  note, "unlock.mcd"))
+# DAY menu (between episodes): title > LOAD of a DAY save (day01.mcd = saved from the diary after ev01, block 2
+# GRDA) lands on the DIARY page. Up/Down = tab (DIARY ROUTE SAVE LOAD CONFIG NEXT), ○ opens it, × closes.
+DAY = "520 -;8 start;150 -;8 up;60 -;8 start;1400 -;8 circle;150 -;8 up;30 -;8 circle;400 -;8 circle;1500 -"
+rows.append(("day_diary", "1", "ovl:16", "", DAY, "4300", "DAY menu: DIARY page after event 1 (title LOAD)", "day01.mcd"))
+# the load lands on the LOAD tab (index 3)
+for name, keys, note in [("day_route", "8 up;60 -;8 up;60 -", "ROUTE: 地の章をプレイしますか？"), ("day_save", "8 up;60 -", "SAVE (block list)"),
+                         ("day_load", "", "LOAD (block list)"), ("day_config", "8 down;60 -", "CONFIG"),
+                         ("day_next", "8 down;60 -;8 down;60 -", "NEXT (go on to the next episode)")]:
+    rows.append((name, "1", "ovl:16", "", DAY + (";" + keys if keys else "") + ";8 circle;600 -", "5200",
+                 "DAY menu > " + note, "day01.mcd"))
+rows.append(("day_route_yes", "1", "ovl:16", "", DAY + ";8 up;60 -;8 up;60 -;8 circle;300 -;8 up;30 -;8 circle;900 -",
+             "5800", "DAY menu > ROUTE > はい: switches to 地の章 (its first field scene)", "day01.mcd"))
+# the DIARY of any episode: day.txd slot 4*(N-1) for event N (work/day_eps.txt); CARD@N = day01.mcd set to event N
+for n, disc, note in [(5, "1", "天の章第五話"), (12, "1", "地の章第一話"), (33, "2", "disc 2 episode")]:
+    rows.append((f"day_diary_{n:02d}", disc, "ovl:16", "", DAY, "4300", f"DAY menu DIARY, event {n} ({note})",
+                 f"day01.mcd@{n}"))
 rows += [
     ("disc_swap", "1", "7>2", "0x8013DE46=0x1", "", "1500", "DAY disc check: DISC 1を入れてください (disc id faked as 2)"),
     ("disc_swap2", "1", "7>call:0x8004C900", "0x8013CEE4=0x2", "", "1500", "DAY disc check: DISC 2を入れてください"),

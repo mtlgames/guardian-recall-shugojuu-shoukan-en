@@ -5,7 +5,8 @@
 Each scene boots its disc (build/disc<N>/*.cue, or rom/ with --orig or when there is no build). Per scene:
 work/qa/warp/<name>/ (shots every 150 frames, sheet.png, log.txt) and work/states/<name>.sstate. A scene passes
 when warp.lua logged "<event|call> N started". --events A-B warps raw event numbers (names ev<N>) to map new ones.
-An optional 8th scenes.tsv column names the scene's memory card in tools/debug/cards/ (default sys.mcd).
+An optional 8th scenes.tsv column names the scene's memory card in tools/debug/cards/ (default sys.mcd);
+CARD@N = that card with its DAY save set to event N (save.py --file GRDA --event N, written to work/cards/).
 Exit 1 if any scene failed.
 """
 import argparse, concurrent.futures as cf, glob, os, re, subprocess, sys
@@ -37,11 +38,17 @@ def cue_for(disc, orig):
 
 def run(sc, args):
     out = os.path.join(REPO, 'work/qa/warp', sc['name'])
+    sav, _, ev = (sc.get('card') or args.card).partition('@')
+    if ev:  # CARD@N: the card's DAY save (GRDA) set to event N, so the DAY menu opens on episode N
+        base, sav = sav, os.path.join(REPO, 'work/cards', sc['name'] + '.mcd')
+        os.makedirs(os.path.dirname(sav), exist_ok=True)
+        subprocess.run([sys.executable, os.path.join(REPO, 'tools/debug/save.py'), base, '--file', 'GRDA',
+                        '--event', ev, '--out', sav], check=True, capture_output=True)
     cmd = [sys.executable, '-X', 'utf8', os.path.join(SKILL, 'scripts/emu.py'), cue_for(sc['disc'], args.orig),
            '--out', out, '--script', os.path.join(REPO, 'tools/debug/warp.lua'),
            '--frames', str(WARP_BOOT + (args.frames or sc['frames'])), '--shot-every', '150', '--sheet',
            '--timeout', str(args.timeout), '--state-out', os.path.join(REPO, 'work/states', sc['name'] + '.sstate'),
-           '--sav', sc.get('card') or args.card]  # own copy per run: the shared portable card would race between parallel runs
+           '--sav', sav]  # own copy per run: the shared portable card would race between parallel runs
     cmd += ['--var', f"EVENT={sc['target']}"] if sc.get('raw') else ['--var', f"SCENE='{sc['name']}'"]
     for v in args.var or []:
         cmd += ['--var', v]
