@@ -38,9 +38,9 @@ VARIANTS = [
     dict(name="txd", ids=r"(cf|gd|rep|tu|day|save|op)\.[0-9a-f]{4}$", kind="txd", px=200, lines=99, status="guess"),
     dict(name="EXE/overlay string", ids=r"(exe|action|battle|hen|day|brain)\.[0-9a-f]{5}$", kind="lines", px=200, lines=99,
          bytes="room", status="guess"),
-    # evd names go through the evd_name hook (any length), but ring > UNIT crashes on 20-byte names: cap at the
-    # longest Japanese name (10 bytes) until that copy is traced (docs/windows.md)
-    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=108, lines=1, bytes=10, status="guess"),
+    # evd names go through the evd_name hook (any length); narrowest view = ring > UNIT list name column (x 25, Ali
+    # values from x 103): 75 px. The 20-byte crash there was the 2D pool (asm/hooks.asm pool_grow), not the name.
+    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=75, lines=1, status="measured"),
 ]
 
 

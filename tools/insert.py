@@ -192,7 +192,6 @@ def gretc_files(rlz, mode):
         for s in doc["strings"]:
             tag(s, "u" + b36(k))
             k += 1
-            # marker = JP byte length: 20-byte names crash the ring > UNIT list (ACTION, see docs/status.md)
             t = record_bytes(s, mode, marker_lines)
             if t is None:
                 continue
@@ -294,5 +293,6 @@ def patch_tree(tree, mode="en"):
     (work / "font_tables.bin").write_bytes(tables)
     subprocess.run([ARMIPS, ROOT / "asm/hooks.asm", "-strequ", "EXE", exe_path, "-strequ", "TABLES",
                     work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN",
-                    "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin"],
+                    "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin",
+                    "-sym", work / "hooks.sym"],
                    check=True)

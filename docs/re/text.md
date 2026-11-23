@@ -91,8 +91,21 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
   35 maps have them. Handler 0x8001E214 (EXE): script base 0x800B68F0, pc u16 at gp+0xC6; stores a pointer to the text
   (no copy) at unit +0x10, units at 0x8013E650 + idx * 0x7C. **Hooked** (evd_name_hook, asm/hooks.asm): insert.py writes
   key `7F hi lo` in place of the text and the hook points the unit at the English in a payload table, so the evd never
-  grows. The ring > UNIT list (ACTION) crashed on 20-byte names (exception pc 0x641C ra 0xD00 at the list draw):
-  a fixed buffer somewhere in that draw, not yet traced.
+  grows. The ring > UNIT list (ACTION) crashed on 20-byte names: not a name buffer (only the generic draw reads the
+  name) but the 2D primitive pool below.
+
+## 2D primitive pool (verified 2026-11-23, fixed by pool_grow in asm/hooks.asm)
+- Allocator 0x8004F664(size): struct at *0x8015238C (0x8017C210 on maps): +4/+8 slots (two heap buffers), +0xC
+  current buffer, +0x10 frame base (= +0xC + cap * frame parity), +0x14 k (slot index), +0x18 cap, +0x1C minimum
+  (0x2800), +0x20 failed bytes, +0x24 used, +0x30 demand, +0x34 failed calls. Generic draw = 0x20 bytes per glyph.
+- Per frame 0x8004F2DC: demand = used + failed; if it exceeds the cap, 0x8004F43C reallocs slot[k&1] to 2 x demand
+  (malloc 0x8006996C, or 0x800699BC = free + malloc), frees the other slot a frame later. **The game never checks
+  the malloc result**: on failure base = 0 and glyph packets overwrite the kernel at 0x0 (exception, pc 0x641C ra
+  0xD00, or pc 0x80000080 ra 0x80079C28 in the 3D dispatch). Our 0x10000 arena cut fragments the heap enough for
+  20-byte names (demand 0x49E0 -> 0x93C0 bytes, no block that big). tac_search does it on the original too.
+- Fix: pool_grow rounds demand above the minimum up to 0x2000 (one realloc to 0x6000 on the UNIT list) and on a
+  failed malloc keeps the current buffer and cap (requests over the cap are skipped), zeroing the freed slot.
+  Probe tools/lua/pool2d.lua (struct, peak use, `DUMP=frame` dumps it per frame).
 
 ## Extraction (phase 4, verified by tests/test_script.py)
 - `tools/extract.py` -> `script/{scenario,battle,txd,evd,exe}/*.json` (7751 strings), library `tools/script_io.py`

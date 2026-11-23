@@ -214,6 +214,46 @@ evd_name_hook:                  ; v1 = name in the evd buffer, v0 = unit record 
 @@store:
   jr    ra
   sw    v1, 0x10(v0)            ; the overwritten instruction
+
+; ---- 2D primitive pool growth (0x8004F43C; pool struct *0x8015238C, docs/re/text.md "2D primitive pool"). The game
+; grows the pool to exactly the frame's demand and ignores a failed malloc: base 0 -> glyph packets overwrite the
+; kernel (crash, ra 0xD00). Our RAM cut shrank the heap, so English text hit it (ring > UNIT, long names); the
+; original's tac_search stall is the same failure. Grow in 0x2000 steps above the minimum, and on failure keep
+; the current buffer (+0xC) and cap: requests over the cap fail and those primitives are skipped ----
+pool_grow:                      ; a0 = slot[k&1] (the buffer not in use), s0 = pool struct
+  lw    v0, 0x30(s0)            ; demand
+  lw    v1, 0x1C(s0)            ; minimum (0x2800)
+  nop
+  slt   t0, v1, v0
+  beqz  t0, @@size
+  nop
+  addiu v0, v0, 0x1FFF
+  srl   v0, v0, 13
+  sll   v0, v0, 13
+  sw    v0, 0x30(s0)            ; becomes the cap (+0x18) at 0x8004F528
+@@size:
+  bnez  a0, @@realloc
+  sll   a1, v0, 1               ; two frame halves
+  jal   0x8006996C              ; malloc(a0 = size)
+  move  a0, a1
+  b     @@got
+  nop
+@@realloc:
+  jal   0x800699BC              ; free(a0) then malloc(a1)
+  nop
+@@got:
+  beqz  v0, @@fail
+  nop
+  j     0x8004F4E8
+  sw    v0, 0xC(s0)
+@@fail:
+  lw    v0, 0x14(s0)            ; k
+  nop
+  andi  v0, v0, 1
+  sll   v0, v0, 2
+  addu  v0, s0, v0
+  j     0x8004F530              ; return: cap, +0xC and k unchanged
+  sw    zero, 4(v0)             ; slot[k&1] was freed (or never allocated)
 .align 4
 evd_names:
   .incbin EVDNAMES
@@ -234,6 +274,10 @@ payload_end:
 .if payload_end > 0x801F7FF8
   .error "payload runs into the stack"
 .endif
+
+.org 0x8004F4B8                 ; 2D pool growth: was lw v0, 0x30(s0) / nop (a0 = slot load above, delay done here)
+  j     pool_grow
+  nop
 
 .org 0x8001E278                 ; evd op 0x34: was sw v1, 0x10(v0) (the next op, sh a1, 0xC6(gp), is the delay slot)
   j     evd_name_hook
