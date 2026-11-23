@@ -7,354 +7,393 @@
   {
    "id": "g23.35.000",
    "jp": "裕子\n「と、止まった・・・？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I-it stopped...?\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.35.001",
    "jp": "真由\n「・・・まだ動いとる。たぶん、\n　あたしたち今は、空の上やね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...It's still movin'. I reckon we're up in the sky\nright now.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.002",
    "jp": "美里\n「空の上・・・\n　この要塞、ホントに飛んでるの？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Up in the sky... This fortress really flies?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.003",
    "jp": "晶\n「龍脈に向かっているです。\n　日本最大の龍脈に」\n{wait}「日本を海に沈めるために・・・！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"It's heading for the dragon vein, yes indeed.\nThe greatest dragon vein in Japan.\"\n{wait}\"To sink Japan into the sea...!\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.004",
    "jp": "ゆかり\n「早く止めなければ・・・のんびり話を\n　している余裕は、ないわよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"We have to stop it fast... We don't have time\nto stand around chatting.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.005",
    "jp": "美由紀\n「だけどみんながいないよ」\n{wait}「ちかちゃんも、仁も・・・\n　鈴ちゃんも琴ちゃんも！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"But everybody's not here.\"\n{wait}\"Not Chika-chan, not Jin... not Suzu-chan or\nKoto-chan either!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.006",
    "jp": "真由\n「なんか、急に心細うなったね・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Feels kinda lonely all of a sudden...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.007",
    "jp": "景子\n「・・・仁さんは妃龍鬼殿の事も、\n　四門将の事だって、知ってた」\n{wait}「こうなる事、分かってたんですね。\n　きっと・・・最初からオトリになる\n　つもりで・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...Jin-san knew about Hiryuki Palace, and\nabout the Four Gate Generals too.\"\n{wait}\"She knew this would happen. Surely... she\nmeant to be the decoy from the very start...\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.008",
    "jp": "\n「・・・・・・・・・・・・」\n{wait}",
-   "en": "",
+   "en": "\"............\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.35.009",
    "jp": "晶\n「みんな、しっかりするです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Everyone, pull yourselves together,\nyes indeed!\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.35.010",
    "jp": "美里\n「・・・そうね。ここまで来て、\n　メソメソしてなんか、いられない」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...Right. We've come this far. We can't afford\nto sit around moping.\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.35.011",
    "jp": "ゆかり\n「その通りよ。急ぎましょう。\n　グズグズしている時間はないわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Exactly. Let's hurry. There's no time to\ndawdle.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.35.012",
    "jp": "美由紀\n「だって・・・冷たいよ、そんなの！\n　みんな心配じゃないの！？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"But... that's so cold! Aren't any of you\nworried about them!?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.013",
    "jp": "裕子\n「そんなわけないだろっ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Of course we are!\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.014",
    "jp": "美由紀\n「だって・・・だって・・・！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"But... but...!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.35.015",
    "jp": "真由\n「美由紀、みんなの言葉ば・・・\n　思い出してんね」\n{wait}「私たちん為に残ってくれたみんなの\n　気持ち・・・無駄にするわけには、\n　いかんとやけん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Miyuki, remember... what everyone said.\"\n{wait}\"They stayed behind for us... We can't let\ntheir feelings go to waste.\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.016",
    "jp": "美里\n「龍鬼妃は・・・上、ね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Ryukihi is... up there.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.35.017",
    "jp": "ゆかり\n「急ぎましょう」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Let's hurry.\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.018",
    "jp": "美由紀\n「みんな・・・がんばって」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Everyone... good luck.\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.35.199",
    "jp": "美由紀\n「真由ちゃん、みんな・・・\n　みんな、いまごろ・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan, everyone... right now,\neveryone's...\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.35.200",
    "jp": "真由\n「美由紀、あんた、みんなんこつ\n　信用できんと？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Miyuki, don't you trust 'em?\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.201",
    "jp": "美由紀\n「信じてるよ。でも・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I do trust them. But...\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.202",
    "jp": "真由\n「しつこかよ！」\n{wait}「いつまっでんメソメソメソメソ！\n　ここへ来っ時、みんなば励ました\n　あんたは、どこ行ったとね！？」\n{wait}「ちょっとは強くなったと思っとった\n　とに・・・とんだ見込み違いやった\n　ごたる」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Give it a rest!\"\n{wait}\"Mopin' and mopin' forever! Where'd the girl\nwho cheered everybody up on the way\nhere go!?\"\n{wait}\"I thought you'd gotten a little tougher...\nSeems I misjudged you big time.\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.203",
    "jp": "美由紀\n「真由ちゃん・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan...\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.204",
    "jp": "真由\n「・・・みんなはあたしたちが龍鬼妃ば\n　倒すと信じて残ったとよ」\n{wait}「こがんとこで、いつまでも泣いとる\n　場合じゃなかやろ？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Everyone stayed behind 'cause they\nbelieve we'll beat Ryukihi.\"\n{wait}\"This ain't the time to sit here cryin'\nforever, is it?\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.205",
    "jp": "美由紀\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"......\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.206",
    "jp": "真由\n「・・・こんくらいで、負けて\n　しまわんでよ・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Don't you go losin' heart over somethin'\nlike this...\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.207",
    "jp": "ゆかり\n「裕子・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Yuko...\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.35.208",
    "jp": "裕子\n「わかってるよ。\n　怒鳴ったりして悪かった」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I know. Sorry for yelling.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.209",
    "jp": "ゆかり\n「裕子が言わなきゃ、私が言ってたわ」\n{wait}「裕子、今は戦う事だけを考えるのよ。\n　残ってくれた人たちのためにも」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"If you hadn't said it, I would have.\"\n{wait}\"Yuko, right now think only about fighting.\nFor the sake of the ones who stayed\nbehind, too.\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.210",
    "jp": "裕子\n「・・・無事でいてよ・・・みんな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Stay safe... everyone.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.211",
    "jp": "晶\n「ホントは、ちょっと自信喪失です」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Truth is, I've lost a little confidence,\nyes indeed.\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.35.212",
    "jp": "景子\n「晶さん・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Akira-san...\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.213",
    "jp": "晶\n「みんな・・・残してくるなんて・・・\n　ヒーロー失格です・・・」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Leaving everyone behind like that... I'm a\nfailure as a hero, yes indeed...\"\n{wait}",
    "slots": [
     213
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.35.214",
    "jp": "景子\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"......\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.215",
    "jp": "晶\n「だからもう、勝って戻るしか・・・\n　みんなにあわせる顔がないです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"So now all I can do is win and go back...\nOtherwise I can't face them, yes indeed!\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.216",
    "jp": "景子\n「・・・はい！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...Yes!\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.35.221",
    "jp": "美由紀\n「もうっ、急いでるのに！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Geez, we're in a hurry here!\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.35.222",
    "jp": "裕子\n「くそっ、新手かっ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Damn it, more of them!?\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   }
  ]
 }

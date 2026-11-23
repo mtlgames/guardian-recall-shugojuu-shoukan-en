@@ -7,476 +7,528 @@
   {
    "id": "g23.38.000",
    "jp": "麗子\n「ねぇ、もうあきちゃったわよ。\n　そろそろ終わりにしない？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Hey, I'm already bored. Shall we wrap\nthis up?\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.38.001",
    "jp": "聡美\n「まだ足りないくらいよ。もっともっと\n　いたぶってやったって」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"It's not nearly enough. We should torment\nthem much, much more.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.38.002",
    "jp": "知美\n「やっぱり血が欲しいわね・・・」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"I do want blood after all...\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.38.003",
    "jp": "るり\n「う～、ぼちぼち限界・・・でも私は\n　死んだって生き残ってヤルのよ～」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Ugh, I'm about at my limit... but even if it kills\nme, I'm gonna survive~\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.38.004",
    "jp": "鈴音\n「ははは・・・笑えないわよ、それ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hahaha... That's not funny.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.005",
    "jp": "かおる\n「泣きゴト言いたくないけどさ、\n　ホント・・・も、ダメかも」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"I don't wanna whine, but seriously... I might\nbe done for.\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.38.006",
    "jp": "蘭\n「かおる・・・がんばって、\n　がんばってよ！」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Kaoru... hang in there, hang in there!\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.007",
    "jp": "かおる\n「蘭ちゃん・・・」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Ran-chan...\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.008",
    "jp": "唯\n「もうみんな、逃げる体力も残って\n　いないわね」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"No one has the strength left to even\nrun away.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.38.009",
    "jp": "ちかな\n「だめだって！　なんだよ、みんな\n　どうしちゃったんだい」\n{wait}「あいつらが帰って来るまで、\n　アタシらなんとしても、\n　持ちこたえてみせなきゃさ！」\n{wait}「だろ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Don't say that! What's wrong with you all?\"\n{wait}\"Until they come back, we've gotta hold out\nno matter what!\"\n{wait}\"Right?\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.010",
    "jp": "\n「・・・・・・・・・・・」\n{wait}",
-   "en": "",
+   "en": "\"...........\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.38.011",
    "jp": "巴澄\n「奴らだって不死身じゃない。\n　なにか方法があるはずだ」\n{wait}「・・・マスターが見えていれば、\n　話は簡単なんだが・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"They're not immortal either. There has to be\nsome way.\"\n{wait}\"...If we could just see the Master, it'd\nbe simple...\"\n{wait}",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.38.016",
    "jp": "瞳\n「マスター・・・守護獣ならではの\n　弱点だな。悪くない考えだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"The Master... A weakness unique to\nGuardians. Not a bad idea.\"\n{wait}",
    "slots": [
     16
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.38.017",
    "jp": "鈴音\n「どういうコト？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"What do you mean?\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.020",
    "jp": "瞳\n「一体の守護獣に一体のマスター、\n　その基本は変わらないだろう」\n{wait}「ヤツにもマスターとなるべきものが\n　あるのかも知れん・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"One Guardian, one Master. That basic rule\nshouldn't change.\"\n{wait}\"That thing may also have something serving\nas its Master...\"\n{wait}",
    "slots": [
     20
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.38.021",
    "jp": "巴澄\n「四門将４人で、同時に操っている\n　わけじゃないのか？」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Aren't all four of the Four Gate Generals\ncontrolling it together?\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.022",
    "jp": "瞳\n「だとしても、４人の精神力を統一\n　させるダミーのマスター・・・」\n{wait}「おそらく、そんなものを形成して\n　ヤツを操っている・・・・という\n　仮説は成り立つ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Even so, a dummy Master that unifies the\nfour's strength of will...\"\n{wait}\"It's a reasonable hypothesis that they\nformed something like that and control it\nthrough it.\"\n{wait}",
    "slots": [
     22
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.38.023",
    "jp": "ちかな\n「・・・可能性があるなら、なんだって\n　やるよ。で、どうすればいい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...If there's a chance, I'll do anything. So,\nwhat do we do?\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.024",
    "jp": "かおる\n「ためしに、カラダの真ん中でも\n　狙ってみるってゆーのは？」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"How about we try aiming for the middle of\nits body?\"\n{wait}",
    "slots": [
     24
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.38.025",
    "jp": "さやか\n「ためしにぃ？　アっバウトぉ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Try~? That's so va-ague~\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.026",
    "jp": "ちかな\n「身体の中心か・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"The center of its body, huh...\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.028",
    "jp": "武神\n「ふうむ、面白い！」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Hmm, interesting!\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.38.029",
    "jp": "ちかな\n「あの大きさだ。接近戦じゃ、とても\n　とどかないね・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"It's that big. Up close, we'll never reach it...\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.030",
    "jp": "瞳\n「いいか、全員、投射戦でヤツの身体の\n　中心を狙う！」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Listen, everyone! Ranged attacks, aim for\nthe center of its body!\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.031",
    "jp": "るり\n「キビシ～」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Tou-ough~\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.032",
    "jp": "巴澄\n「うまくいけばいいが・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I hope this works...\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.033",
    "jp": "蘭\n「ほかに方法、ないんだよね」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"There's no other way, is there?\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.034",
    "jp": "鈴音\n「やるしかないか」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Guess we have to do it.\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.035",
    "jp": "琴音\n「うん・・・！」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Yeah...!\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.036",
    "jp": "唯\n「みんな、なんとか\n　持ちこたえるのよ！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Everyone, hold out somehow!\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.037",
    "jp": "瞳\n「投射戦の得意なやつは前に出ろ！\n　残りはサポートにまわれ！」\n{wait}「行くぞ！」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Those good at ranged combat, move up! The\nrest of you, provide support!\"\n{wait}\"Let's go!\"\n{wait}",
    "slots": [
     37
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.38.038",
    "jp": "知美\n「やつら“核”の存在に気づいた！？」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"They've noticed the 'core'!?\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.38.039",
    "jp": "麗子\n「しぶとい連中ね・・・！」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Stubborn bunch...!\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.040",
    "jp": "聡美\n「玄武、仁ばっかり気にしてないで！」\n{wait}「気が乱れるじゃないの、\n　集中してよ！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Genbu, stop worrying about Jin all the time!\"\n{wait}\"You're throwing off our ki. Focus!\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.041",
    "jp": "めぐみ\n「ばかを言うな、私は冷静だ」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Don't be absurd. I'm perfectly calm.\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.042",
    "jp": "聡美\n「・・・どうだか」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"...If you say so.\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.043",
    "jp": "めぐみ\n「そんな事より龍鬼妃様の心配でも\n　したらどうだ」\n{wait}「相手は七龍、万一と言う事も・・・」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"More importantly, why not worry about\nRyukihi-sama?\"\n{wait}\"She's facing the Seven Dragons. If, by some\nchance...\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.044",
    "jp": "知美\n「あら、心配なんて・・・\n　それこそ、くだらなくてよ」\n{wait}「あんな小娘どもにやられるようなら、\n　龍鬼妃様も、しょせんはその程度の\n　お方。興ざめもいいところだわ」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"Oh, worry? That's what's truly absurd.\"\n{wait}\"If those little girls can beat her, then\nRyukihi-sama is no more than that. How\nterribly disappointing that would be.\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.045",
    "jp": "めぐみ\n「なんだと！？」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"What did you say!?\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.046",
    "jp": "知美\n「まあ、なんて顔するのよ」\n{wait}「私は龍鬼妃様が気高く美しく、そし\n　て何より絶対的な強さを備えたお方\n　と信じたからお仕えしてきたのよ」\n{wait}「それがいけないとでも言うの？」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"My, what a face.\"\n{wait}\"I've served Ryukihi-sama because I believed\nshe was noble, beautiful, and above all,\nabsolutely strong.\"\n{wait}\"Is there something wrong with that?\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.047",
    "jp": "めぐみ\n「朱雀、貴様・・・！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Suzaku, you...!\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.048",
    "jp": "ちかな\n「やっぱりダメか・・・\n　アタシじゃ役不足、か」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"No good after all... I'm not up to it, huh.\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.38.049",
    "jp": "鈴音\n「大丈夫、きっとみんな勝って・・・」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"It's okay, I'm sure everyone will win...\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.050",
    "jp": "琴音\n「みんな・・・私たちの分まで・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Everyone... for our sake too...\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.051",
    "jp": "蘭\n「かおる、私たちずっと一緒よ・・・」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Kaoru, we'll always be together...\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.052",
    "jp": "巴澄\n「ゆかり・・・勝てよ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Yukari... win.\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.053",
    "jp": "唯\n「やれる事はやったわ・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"We did what we could...\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.054",
    "jp": "さやか\n「いやぁぁ！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Nooooo!\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.055",
    "jp": "かおる\n「蘭ちゃん、\n　護ってやれなくて、ごめん・・・」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Ran-chan, sorry I couldn't protect you...\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.056",
    "jp": "るり\n「これで終わりなんて・・・\n　終わりなんて！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"It can't end like this... It can't!\"\n{wait}",
    "slots": [
     56
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.057",
    "jp": "瞳\n「七龍・・・なにもかも・・・\n　おまえたちに、託す」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Seven Dragons... everything... I leave\nit to you.\"\n{wait}",
    "slots": [
     57
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.38.058",
    "jp": "武神\n「不覚・・・！」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Careless of me...!\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

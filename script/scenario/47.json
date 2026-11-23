@@ -7,991 +7,1099 @@
   {
    "id": "g23.47.000",
    "jp": "ちかな\n「驚いたね・・・\n　あんたも守護獣使いかい・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Well, I'll be... So you're a Guardian user too...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.001",
    "jp": "真由\n「最近ね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Since recently.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.002",
    "jp": "美由紀\n「ず、ずるい・・・\n　真由ちゃんずるい！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Th-that's not fair... Mayu-chan, that's so\nnot fair!\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.003",
    "jp": "真由\n「ずるいってあんた・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What d'you mean, not fair...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.004",
    "jp": "美由紀\n「だってそんな事できるなんて・・・\n　聞いた事ないよ！？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"But I've never heard of anybody doing\nsomething like that!?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.005",
    "jp": "真由\n「だから」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"That's why...\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.006",
    "jp": "「相談しようと思っとったとよ・・・」\n{wait}",
-   "en": "",
+   "en": "\"...I was fixin' to talk to you about it...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.007",
    "jp": "ちかな\n「ふぅん・・・その子はダメらしいね」\n{wait}「ちょっと、あんたは出て来ちゃダメ\n　だよ。守護獣ナシじゃとてもかなう\n　相手じゃないからね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Hmm... Looks like that one can't do it.\"\n{wait}\"Hey, you. You stay back. Without a Guardian,\nyou don't stand a chance against them.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.008",
    "jp": "美由紀\n「そんなぁ・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Aww, come on...\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.009",
    "jp": "美由紀\n「いいな、いいなー！」\n{wait}「あたしも、あたしもそれやりたい、\n　ねー真由ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I want one, I want one!\"\n{wait}\"I wanna do that too, I wanna do that too!\nC'mon, Mayu-chan!\"\n{wait}",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.010",
    "jp": "真由\n「そがんこつ言うたっちゃ・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Sayin' that won't get you one...\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.011",
    "jp": "我王\n「ちかな」\n{wait}",
-   "en": "",
+   "en": "Gao\n\"Chikana.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.012",
    "jp": "我王\n「あの少女には私が見えている」\n{wait}「守護獣を見る精神力があるのなら、\n　呼び出すこともできるはずだ」\n{wait}",
-   "en": "",
+   "en": "Gao\n\"That girl can see me.\"\n{wait}\"If she has the strength of spirit to see a\nGuardian, she should be able to summon\none too.\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.013",
    "jp": "真由\n「そうなん？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"That so?\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.014",
    "jp": "ちかな\n「そりゃ、理屈じゃそうだけど」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Well, in theory, sure, but...\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.015",
    "jp": "コウエン\n「試してみるといい」\n{wait}",
-   "en": "",
+   "en": "Koen\n\"Let her try.\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.016",
    "jp": "真由\n「美由紀！　ためしに呼んでみてんね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Miyuki! Go on, try callin' one.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.017",
    "jp": "美由紀\n「え、どーやって・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? How do I...\"\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.018",
    "jp": "真由\n「さっきんあたしんマネでよかけん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Just copy what I did a minute ago.\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.019",
    "jp": "美由紀\n「マネってあの呪文みたいの？\n　えっと、なんだっけ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Copy? That magic-spell thingy? Umm, how did\nit go again?\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.020",
    "jp": "真由\n「オンマリシエイソワカ\n　アニチヤマリシソワカ！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"On marishiei sowaka, anichiya marishi\nsowaka!\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.021",
    "jp": "美由紀\n「そんな早口で・・・\n　わっかんないよー」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Not so fast... I can't follow that!\"\n{wait}",
    "slots": [
     21
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.022",
    "jp": "真由\n「こんっくらい覚えられんとかっ！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Can't you even remember that much!?\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.023",
    "jp": "美由紀\n「だあってー・・・うー・・・あーん、\n　お願い、出てきて守護獣さんっ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Buuut... Uuu... Waaah, please, come out,\nMister Guardian!\"\n{wait}",
    "slots": [
     23
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.024",
    "jp": "ちかな\n「・・うそ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...No way.\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.025",
    "jp": "真由\n「やった！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"She did it!\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.026",
    "jp": "美由紀\n「あは・・・あはは、やったぁ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Aha... Ahaha, I did it!\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.027",
    "jp": "「くぅ～、\n　あたしってばカーッコいい～！」\n{wait}",
-   "en": "",
+   "en": "\"Wooow, I'm sooo cool!\"\n{wait}",
    "slots": [
     27
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.028",
    "jp": "真由\n「意外とカンタンやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Easier than I figured.\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.029",
    "jp": "ちかな\n「ま、まあ・・・\n　要は精神集中出来ればいいのさ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"W-well... All you really need is to focus\nyour mind.\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.030",
    "jp": "ちかな\n「あんたたち、名前は？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"So what are your names?\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.031",
    "jp": "美由紀\n「天城美由紀（あまぎみゆき）！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Miyuki Amagi!\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.032",
    "jp": "真由\n「炎真由（ほむらまゆ）」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Mayu Homura.\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.033",
    "jp": "ちかな\n「アタシは・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"I'm...\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.034",
    "jp": "美由紀\n「ちかちゃん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Chika-chan!\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.035",
    "jp": "ちかな\n「えー・・・っと、こんな事初めて\n　だろうから説明しておくけど」\n{wait}「奴らとマトモにやり合おうっても\n　ダメだ。歯が立たないよ」\n{wait}「守護獣に命令して、守護獣に戦って\n　もらう、これがアタシらの戦い方だ。\n　わかるね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Uhh... This is probably all new to you, so let\nme explain.\"\n{wait}\"Taking those guys on head-to-head is no\ngood. You won't stand a chance.\"\n{wait}\"You give your Guardian orders, and your\nGuardian does the fighting. That's how we\nfight. Got it?\"\n{wait}",
    "slots": [
     35
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.036",
    "jp": "美由紀\n「うんっ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Uh-huh!\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.037",
    "jp": "ちかな\n「人と守護獣は気力でつながってる」\n{wait}「どっちがダメージを受けても、気力が\n　減って行く」\n{wait}「だから気力がなくなるとアウト、\n　守護獣は消えちまうしアタシらも\n　動けなくなる。いいかい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"People and Guardians are linked by Spirit.\"\n{wait}\"Whichever one of you takes damage, your\nSpirit goes down.\"\n{wait}\"So if you run out of Spirit, it's over. Your\nGuardian vanishes and you can't move\neither. Okay?\"\n{wait}",
    "slots": [
     37
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.038",
    "jp": "真由\n「分かった」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Got it.\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.039",
    "jp": "ちかな\n「よろしくおふたりさん！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Nice to have you aboard, you two!\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.040",
    "jp": "ちかな\n「あんたたち、初めてにしては\n　よくやったよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Not bad at all for your first time.\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.041",
    "jp": "美由紀\n「えへへっ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ehehe.\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.042",
    "jp": "「この子たちの・・・おかげだね」\n{wait}",
-   "en": "",
+   "en": "\"It's all thanks to... these little guys.\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.043",
    "jp": "守護獣\n「キィィ」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"Kreee...\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.044",
    "jp": "美由紀\n「くふふ、カワイイ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hehehe, so cute.\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.045",
    "jp": "真由\n「・・・こげん変な力、\n　私だけやろと思っとったわ」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...I figured I was the only one with a weird\npower like this.\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.046",
    "jp": "ちかな\n「誰でも持ってるチカラだよ。\n　人間なら誰でも」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Everybody has this power. Every human\nbeing does.\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.047",
    "jp": "ちかな\n「何か目に見えないモノに護られてる\n　ような気がしたり」\n{wait}「間一髪危ない所を助かったりするのは\n　守護獣のおかげだったりするんだ。\n　気づかないだけでね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"You know when you feel like something\ninvisible is watching over you?\"\n{wait}\"Or when you escape danger by a hair?\nThat might be a Guardian's doing. You just\nnever notice.\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.048",
    "jp": "美由紀\n「ふうん・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh...\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.049",
    "jp": "ちかな\n「ただ実際に呼び出す為にはそれ相応の\n　精神力、それに集中力がいるのさ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"But to actually summon one, you need the\nstrength of spirit to match, and focus.\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.050",
    "jp": "真由\n「それ、なんとなく分かる」\n{wait}「あたしコウエンば呼ぶ時、\n　集中でくるように真言ば唱ゆるように\n　なったもん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I kinda get that.\"\n{wait}\"When I call Koen, I've taken to chantin' a\nmantra so I can focus.\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.051",
    "jp": "ちかな\n「難しいもん知ってるね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"You know some tricky stuff.\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.052",
    "jp": "美由紀\n「真由ちゃんちねー、お寺さんなの」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan's family runs a temple, see!\"\n{wait}",
    "slots": [
     52
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.053",
    "jp": "真由\n「あんた、すおう、さん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Say, you... Suo-san...\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.054",
    "jp": "ちかな\n「やめてよ、くすぐったい。\n　ちかなでいいって」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Cut it out, that tickles. Just call me Chikana.\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.055",
    "jp": "真由\n「捕まった子たち、うちの生徒・・・\n　どこさん連れて行かれたと？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"The kids they took, the ones from our\nschool... Where'd they take 'em?\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.056",
    "jp": "美由紀\n「あ、そーだ！\n　どーなっちゃったの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Oh yeah! What happened to them?\"\n{wait}",
    "slots": [
     56
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.057",
    "jp": "ちかな\n「・・・聞いてどうするのさ。\n　助けに行くとでも言うのかい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...What good would knowing do? You planning\nto go save them?\"\n{wait}",
    "slots": [
     57
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.058",
    "jp": "美由紀\n「警察に・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We could tell the police...\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.059",
    "jp": "ちかな\n「守護獣が見えない人に、\n　どう分かってもらうつもりさ」\n{wait}「よしんば分かってもらえたとしたっ\n　て・・・守護獣が呼べない人間が、\n　奴らにかなうわきゃないだろ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"How are you gonna explain it to people who\ncan't see Guardians?\"\n{wait}\"And even if they believed you... people who\ncan't summon a Guardian don't stand a\nchance against them.\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.060",
    "jp": "美由紀\n「呼べるかも！　あたし出来たし。\n　わりとカンタンだったよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Maybe they can! I did it. It was pretty easy.\"\n{wait}",
    "slots": [
     60
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.061",
    "jp": "ちかな\n「あ～の～ね～、あんた今まで一度でも\n　守護獣見かけた事あったのかい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Lis-ten-to-me. Before today, had you ever\nseen a Guardian even once?\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.062",
    "jp": "美由紀\n「・・・ない」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...No.\"\n{wait}",
    "slots": [
     62
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.063",
    "jp": "ちかな\n「だろ？　存在すら知らなかったんだ」\n{wait}「そのくらい、守護獣を呼び出すのは\n　難しいって事なんだよ。誰にでもある\n　チカラだとは言ったけど」\n{wait}「精神力が伴わなきゃ守護獣を呼び出す\n　事は出来ないの。わかった？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Right? You didn't even know they existed.\"\n{wait}\"That's how hard it is to summon a Guardian. I\nsaid everyone has the power,\"\n{wait}\"but without the strength of spirit to go with\nit, you can't call one out. Got it?\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.064",
    "jp": "真由\n「つまり・・・あたしたちが行くしか\n　なか・・・ってこつやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"So what you're sayin' is... we're the only ones\nwho can go, huh.\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.065",
    "jp": "ちかな\n「ちょ、ちょっと・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"H-hold on...\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.066",
    "jp": "真由\n「警察とか大人とかに言うたっちゃ\n　ムダなんやろ？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Tellin' the police or any grown-ups won't do\na lick of good, right?\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.067",
    "jp": "ちかな\n「ちょっと待てって。\n　相手は荏狗覇菟だよ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Hold it right there. We're talking about the\nEgubado here, you know?\"\n{wait}",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.068",
    "jp": "真由\n「さっきん黒ずくめの連中・・・\n　あいつら荏狗覇菟やったとやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Those creeps in black just now... So they\nwere Egubado...\"\n{wait}",
    "slots": [
     68
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.069",
    "jp": "美由紀\n「へーえ。あたし本物って初めて見た」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Wooow. That's the first time I've seen the\nreal thing.\"\n{wait}",
    "slots": [
     69
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.070",
    "jp": "ちかな\n「だろうね。フツー知らないよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"I'll bet. Normal people don't know\nabout them.\"\n{wait}",
    "slots": [
     70
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.071",
    "jp": "真由\n「荏狗覇菟にも\n　守護獣使いがおるとやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"So the Egubado have Guardian users too.\"\n{wait}",
    "slots": [
     71
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.072",
    "jp": "ちかな\n「・・・守護獣使いしかいないんだよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...They're nothing BUT Guardian users.\"\n{wait}",
    "slots": [
     72
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.073",
    "jp": "真由\n「え・・・？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Huh...?\"\n{wait}",
    "slots": [
     73
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.074",
    "jp": "美由紀\n「しか？　でもさっきは守護獣呼び出す\n　のはすごい難しいって・・・」\n{wait}「荏狗覇菟の人って何人いんの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Nothing but? But you just said summoning a\nGuardian is super hard...\"\n{wait}\"How many Egubado people are there?\"\n{wait}",
    "slots": [
     74
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.075",
    "jp": "ちかな\n「いっぱい」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Lots.\"\n{wait}",
    "slots": [
     75
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.076",
    "jp": "真由\n「そっか・・・ようやっと分かった」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I see... Now I finally get it.\"\n{wait}",
    "slots": [
     76
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.077",
    "jp": "美由紀\n「なにが」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Get what?\"\n{wait}",
    "slots": [
     77
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.078",
    "jp": "真由\n「東京が占拠されたままんなっとる\n　訳がよ」\n{wait}「普通ん人に守護獣は見えんとやもん\n　・・・勝てる訳なかよ」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Why Tokyo's still under their control.\"\n{wait}\"Normal folks can't see Guardians... There's no\nway they could win.\"\n{wait}",
    "slots": [
     78
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.079",
    "jp": "ちかな\n「ご名答～」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Bingo~\"\n{wait}",
    "slots": [
     79
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.080",
    "jp": "真由\n「あんた、えらい詳しかね。\n　やっぱ居場所知っとるとね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You sure know a whole lot. I bet you know\nwhere they are, too.\"\n{wait}",
    "slots": [
     80
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.081",
    "jp": "ちかな\n「・・・いいさ。案内するよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Fine. I'll take you there.\"\n{wait}",
    "slots": [
     81
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.082",
    "jp": "美由紀\n「どこ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Where?\"\n{wait}",
    "slots": [
     82
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.083",
    "jp": "ちかな\n「熊本、阿蘇山」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Kumamoto. Mt. Aso.\"\n{wait}",
    "slots": [
     83
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.084",
    "jp": "美由紀\n「阿蘇？\n　行く行く、温泉たまごー！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Aso? I'm in, I'm in! Hot-spring eggs!\"\n{wait}",
    "slots": [
     84
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.085",
    "jp": "真由\n「もう！　なんばしに行くかわかっと\n　るとやろか。美由紀ー！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Oh, come on! Do you even know what we're\ngoin' there for? Miyukiii!\"\n{wait}",
    "slots": [
     85
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.086",
    "jp": "ちかな\n「やれやれ・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Good grief...\"\n{wait}",
    "slots": [
     86
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.199",
    "jp": "ちかな\n「あーあ、見てらんないね。\n　これ使いなよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Ugh, I can't stand to watch. Here, use this.\"\n{wait}",
    "slots": [
     199
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.200",
    "jp": "美由紀\n「これは・・・？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"What's this...?\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.201",
    "jp": "ちかな\n「いいから」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Just drink it.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.202",
    "jp": "美由紀\n「うにぃ～。まず～い」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Bleh... Yuuucky...\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.47.203",
    "jp": "ちかな\n「はは。ま、薬ってのは苦いもんさ。\n　どうだい楽になったろ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Haha. Well, medicine's supposed to taste\nbitter. Feeling better now?\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.204",
    "jp": "美由紀\n「あれ？　ホントだ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? You're right!\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.205",
    "jp": "ちかな\n「『花香湯』っていう気力回復の薬さ」\n{wait}「危なくなったら使うんだよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"It's a Spirit-restoring medicine called\n'Floral Tonic'.\"\n{wait}\"Use it when things get dicey.\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.206",
    "jp": "ちかな\n「おいおい、大丈夫かい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Whoa, whoa, you okay?\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.47.207",
    "jp": "真由\n「こがんこつ初めてやもん。\n　うまくできるわけなか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"It's my first time doin' this. How'm I s'posed\nto be any good at it?\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.208",
    "jp": "ちかな\n「そりゃそうだ。ま、これでも飲んで\n　がんばってくれよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Fair enough. Well, drink this and hang\nin there.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.209",
    "jp": "真由\n「なん？　薬？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What's this? Medicine?\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.210",
    "jp": "真由\n「うげ・・・。にが～・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Ugh... So bitter...\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.47.211",
    "jp": "ちかな\n「良薬口に苦しってやつだよ。\n　少しは楽になったろ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Good medicine tastes bitter, like they say.\nFeeling a little better?\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.212",
    "jp": "真由\n「うん。言われてむっと・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah. Now that you mention it...\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.213",
    "jp": "ちかな\n「『花香湯』っていう気力回復の薬さ」\n{wait}「危なくなったら使うんだよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"It's a Spirit-restoring medicine called\n'Floral Tonic'.\"\n{wait}\"Use it when things get dicey.\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.218",
    "jp": "美由紀\n「ねーねー真由ちゃん！」\n{wait}「見て見て、あたしの守護獣！\n　スベスベのしゅるしゅるで、\n　すっごくいーよね！」\n{wait}「それにほら、シッポ見てシッポ。\n　むちゃくちゃカワイイ～！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hey, hey, Mayu-chan!\"\n{wait}\"Look, look, my Guardian! All smooth and\nslinky, isn't it super great!?\"\n{wait}\"And look, look at the tail! It's soooo cute!\"\n{wait}",
    "slots": [
     218
    ],
    "pre": 6,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.219",
    "jp": "真由\n「はしゃいどる場合じゃなか。\n　今は戦ってる最中なんよ！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"This ain't the time to get all giddy. We're in\nthe middle of a fight!\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.220",
    "jp": "美由紀\n「わかってるよ。まーかしてよ」\n{wait}「天神高校３年１組、天城美由紀\n　サマさ！　なーんちゃって」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I know, I know. Leave it to me!\"\n{wait}\"Tenjin High, Class 3-1, the great Miyuki Amagi!\n...Just kidding.\"\n{wait}",
    "slots": [
     220
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.221",
    "jp": "真由\n「・・・美由紀はお気楽でよかね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Must be nice, bein' so carefree, Miyuki.\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.47.222",
    "jp": "美由紀\n「そーだ、名前つけてあげなきゃ・・・\n　ねー、どんなのがいいかな」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Oh yeah, I have to give it a name... Hey, what\ndo you think would be good?\"\n{wait}",
    "slots": [
     222
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.47.223",
    "jp": "真由\n（・・・やっぱ、あたしがしっかり\n　せんといかんね・・・）\n{wait}",
-   "en": "",
+   "en": "Mayu\n(...Guess I'm gonna have to be the sensible\none after all...)\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

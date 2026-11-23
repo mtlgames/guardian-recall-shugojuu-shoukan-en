@@ -7,110 +7,122 @@
   {
    "id": "g23.42.000",
    "jp": "景子\n「うそ・・・！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"No way...!\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.42.001",
    "jp": "真由\n「まさか・・・こがんこつ・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"No... somethin' like this...\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.42.002",
    "jp": "ゆかり\n「ばかな！\n　守護獣と一体化したというの！？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Impossible! She's become one with her\nGuardian!?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.42.003",
    "jp": "美由紀\n「身体が・・・熱いよ、\n　どうしちゃったの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"My body... feels so hot. What's\nhappening to me?\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.42.004",
    "jp": "裕子\n「なんか、力がみなぎってくる感じ\n　・・・七龍の、力なのか？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"It's like power's surging through me... Is this\nthe Seven Dragons' power?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.42.005",
    "jp": "龍鬼妃\n「小賢しいわっ！」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Insolence!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.42.006",
    "jp": "龍鬼妃\n「愚か者めが・・・」\n{wait}「お前たちは、自分の国が、\n　くさりきるのを見たいのか・・・\n　日本に未来はないのだ」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Fools...\"\n{wait}\"Do you wish to watch your own country rot\naway completely? Japan has no future.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.42.007",
    "jp": "美由紀\n「あるよ、未来はちゃんとある！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"It does! It does have a future!\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.42.008",
    "jp": "裕子\n「そうさ。たとえ今は、あんたの言う\n　通りだとしても」\n{wait}「これからは・・・あたしたちが\n　変えていく。変えてみせる！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"That's right. Even if right now it's like\nyou say,\"\n{wait}\"from now on... we'll change it. We'll show you\nwe can!\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.42.009",
    "jp": "龍鬼妃\n「無駄だ・・・」\n{wait}「・・・お前たちにも、\n　いつかきっと・・・\n　分かる・・・時が・・・」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Futile...\"\n{wait}\"...Someday, you too... will surely...\nunderstand... the time...\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.42.010",
    "jp": "ゆかり\n「妃龍鬼殿が・・・！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Hiryuki Palace...!\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.42.011",
    "jp": "真由\n「崩るる・・・！？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"It's crumblin'...!?\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

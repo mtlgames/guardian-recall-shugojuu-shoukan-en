@@ -169,6 +169,7 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 新宿中央公園 | Shinjuku Central Park | | north gate | |
 | 世田谷トンダーエッグ | Setagaya Tonder Egg | | west gate (Tokyo Dome parody) | |
 | 東京第二国際空港 | Tokyo Second International Airport | | south gate | |
+| 龍鬼 | Ryuki | | Ryukihi's Guardian (ch. 41) | |
 
 ## Guardian species and named guardians (evd unit names, b001; 改 = "+", 弐 = "II")
 | JP | EN | max | notes | Avoid |

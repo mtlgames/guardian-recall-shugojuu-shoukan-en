@@ -7,209 +7,232 @@
   {
    "id": "g23.41.000",
    "jp": "龍鬼妃\n「龍鬼、あの者どもに死という名の浄\n　化を授けよ」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Ryuki, grant them the purification\ncalled death.\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.41.001",
    "jp": "美由紀\n「ぜんぜん効いてない・・・！？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"It's not working at all...!?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.41.002",
    "jp": "裕子\n「当たってるのか！？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Are we even hitting it!?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.003",
    "jp": "裕子\n「やっぱり・・・\n　あたしたちだけじゃ・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I knew it... just the two of us can't...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.004",
    "jp": "美由紀\n「このままじゃ・・・\n　どうしたらいいの」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"At this rate... what do we do?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.41.005",
    "jp": "龍鬼妃\n「天龍よ、地龍よ・・・」\n{wait}「再び我の元に来て、共に日本浄化の\n　瞬間を見とどけるのだ」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Sky Dragon, Earth Dragon...\"\n{wait}\"Return to me once more, and together we\nshall witness the moment of Japan's\npurification.\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.41.006",
    "jp": "裕子\n「・・・イヤだ・・・\n　あきらめるなんて、絶対イヤだ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...No... Giving up? No way, never!\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.41.007",
    "jp": "美由紀\n「うん。がんばんなきゃ・・・\n　みんな来るから、絶対来るから！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah. We've gotta hang in there... Everyone's\ncoming. They'll come for sure!\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.41.008",
    "jp": "龍鬼妃\n「我を受け入れよ・・・！」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Accept me...!\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.41.009",
    "jp": "美由紀\n「天龍！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Sky Dragon!\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 6
+   "pre": 6,
+   "status": "done"
   },
   {
    "id": "g23.41.010",
    "jp": "裕子\n「地龍！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Earth Dragon!\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.011",
    "jp": "真由\n「炎龍！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Flame Dragon!\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.012",
    "jp": "美里\n「海龍！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Sea Dragon!\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.013",
    "jp": "晶\n「雷龍！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Thunder Dragon!\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.014",
    "jp": "景子\n「飛龍！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Wind Dragon!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.015",
    "jp": "ゆかり\n「聖龍！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Holy Dragon!\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.016",
    "jp": "晶\n「やったです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"We did it, yes indeed!\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 6
+   "pre": 6,
+   "status": "done"
   },
   {
    "id": "g23.41.017",
    "jp": "美里\n「なにっ！？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"What!?\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.41.018",
    "jp": "龍鬼妃\n「ぬうう・・・七龍、かつては\n　ひとつであったものがぁ！」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Nnngh... The Seven Dragons, which were\nonce one...!\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.41.199",
    "jp": "裕子\n「ははっ、来てくれた、みんな・・・\n　来てくれたよ、美由紀ちゃん！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Haha, they came, everyone... They came,\nMiyuki-chan!\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.41.200",
    "jp": "美由紀\n「うん、うん！\n　みんな・・・みんな・・・！！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah, yeah! Everyone... everyone...!!\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.41.201",
    "jp": "裕子\n「これで怖いモン無しだ。\n　いくよ、美由紀ちゃん！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Now we've got nothing to be scared of. Let's\ngo, Miyuki-chan!\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.41.202",
    "jp": "美由紀\n「うんっ！\n　あたしたち、負けない！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah! We won't lose!\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

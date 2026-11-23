@@ -7,218 +7,242 @@
   {
    "id": "g23.39.000",
    "jp": "美由紀\n「真由ちゃん、晶ちゃん・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan, Akira-chan...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.39.001",
    "jp": "裕子\n「美由紀ちゃん・・・大丈夫だよ、\n　すぐ追っかけて来るって」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Miyuki-chan... It's okay. They'll catch up soon.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.002",
    "jp": "ゆかり\n「そうよ。しっかりなさい！　今から\n　そんなで、どうするの！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"That's right. Pull yourself together! What\ngood are you like this already?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.39.003",
    "jp": "景子\n「ゆかりさん、\n　なにもそんな言い方・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Yukari-san, there's no need to put it\nlike that...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.004",
    "jp": "ゆかり\n「ダメよ！\n　龍鬼妃はもう目の前なのよ」\n{wait}「いつまでも感情に左右されて・・・\n　甘えてちゃダメなのよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"No! Ryukihi is right in front of us.\"\n{wait}\"We can't keep getting swayed by our\nfeelings... We can't be soft.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.005",
    "jp": "景子\n「でも・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"But...\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.006",
    "jp": "美里\n「景子、いいのよ。あの人は自分に\n　言い聞かせてるんだから」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Keiko, it's fine. She's telling it to herself.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.007",
    "jp": "美里\n「ゆかり、\n　もう体の震えは止まったの？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukari, has your body stopped shaking yet?\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.39.008",
    "jp": "ゆかり\n「・・・まだよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...Not yet.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.009",
    "jp": "美由紀\n「そんな・・・っ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"No way...!\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.39.010",
    "jp": "裕子\n「またかっ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Again!?\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.011",
    "jp": "美由紀\n「なんで・・・！\n　なんで出てくるのっ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Why...! Why do they keep showing up!?\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.39.012",
    "jp": "裕子\n「マジかよ・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"You've gotta be kidding...\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.199",
    "jp": "景子\n「美由紀さん・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Miyuki-san...\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.39.200",
    "jp": "美由紀\n「心配しないで。大丈夫だよ、あたし」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Don't worry. I'm okay.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.201",
    "jp": "景子\n（未来が・・・\n　分かるならよかったのに）\n{wait}",
-   "en": "",
+   "en": "Keiko\n(If only... I could see the future.)\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.208",
    "jp": "美里\n「ソンな役まわりね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"You always get the thankless role,\ndon't you?\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.39.209",
    "jp": "ゆかり\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"......\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.210",
    "jp": "美里\n「泣きたい？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Want to cry?\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.211",
    "jp": "ゆかり\n「そんなヒマないわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I don't have time for that.\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.212",
    "jp": "美里\n「フフッ・・・あなたらしいわね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Hehe... That's so like you.\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.216",
    "jp": "裕子\n「龍鬼妃はどこだろう・・・\n　いったい、何階まであるんだろう」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Where's Ryukihi... Just how many floors does\nthis place have?\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.39.217",
    "jp": "景子\n「上を・・・目指すしかありませんね」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"All we can do is... keep heading up.\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.39.218",
    "jp": "裕子\n「・・・うん」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Yeah.\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

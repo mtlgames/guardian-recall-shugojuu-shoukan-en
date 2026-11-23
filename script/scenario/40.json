@@ -7,147 +7,163 @@
   {
    "id": "g23.40.000",
    "jp": "裕子\n「こんな事に、なるなんて・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I can't believe it came to this...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.40.001",
    "jp": "ゆかり\n「しっかりして裕子。大丈夫よ・・・\n　敵の数も、確実に減ってる」\n{wait}「必ず、龍鬼妃のところに\n　たどりつけるわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Pull yourself together, Yuko. It'll be all right...\nThere are definitely fewer enemies now.\"\n{wait}\"We'll reach Ryukihi, I promise.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.002",
    "jp": "美由紀\n「みんな・・・早く来て・・・！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Everyone... hurry up and come...!\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.40.003",
    "jp": "美由紀\n「あ・・・！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ah...!\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.40.004",
    "jp": "裕子\n「な・・・っ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Wh...!\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.199",
    "jp": "ゆかり\n「天龍と地龍は、七龍のリーダーなの。\n　分かる？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"The Sky Dragon and the Earth Dragon are\nthe leaders of the Seven Dragons. Do you\nunderstand?\"\n{wait}",
    "slots": [
     199
    ],
    "pre": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.40.200",
    "jp": "美由紀\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"......\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.201",
    "jp": "ゆかり\n「そんな顔しないで」\n{wait}「私たちのために、ふたりには特別、\n　がんばって欲しいって事よ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Don't make that face.\"\n{wait}\"It means we need you two to try especially\nhard, for our sake.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.202",
    "jp": "美由紀\n「・・・みんなのため？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...For everyone's sake?\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.203",
    "jp": "ゆかり\n「そうよ。ふたりが特別がんばれば、\n　私たちも特別がんばれる」\n{wait}「そういう事よ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"That's right. If you two try especially hard,\nwe can try especially hard too.\"\n{wait}\"That's all it means.\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.204",
    "jp": "裕子\n「むずかしく考えた事なんて・・・\n　なかったんだ」\n{wait}「気楽に行こうって・・・\n　でも、やっとハラがすわったよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I never thought too hard about anything...\"\n{wait}\"Just take it easy, I figured... But now I've\nfinally made up my mind.\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.40.205",
    "jp": "美由紀\n「裕子ちゃん・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yuko-chan...\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.206",
    "jp": "裕子\n「あたし今、すっごい怒ってる」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Right now, I'm really, really angry.\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.207",
    "jp": "美由紀\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"......\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.208",
    "jp": "裕子\n「いいわけないんだ、こんなのが」\n{wait}「あたしたち、こんな思いしなきゃ\n　ならない理由なんて、ないんだ」\n{wait}「美由紀ちゃん、がんばろう！\n　絶対、絶対、龍鬼妃を倒そう！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"There's no way this is okay.\"\n{wait}\"There's no reason we should have to feel\nlike this.\"\n{wait}\"Miyuki-chan, let's give it our all! We're gonna\nbeat Ryukihi, no matter what!\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.40.209",
    "jp": "美由紀\n「うん・・・！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah...!\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

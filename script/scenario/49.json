@@ -7,792 +7,879 @@
   {
    "id": "g23.49.299",
    "jp": "美由紀\n「て、天ちゃん・・・」\n{wait}「ここ、どこ・・・？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"T-Ten-chan...\"\n{wait}\"Where are we...?\"\n{wait}",
    "slots": [
     299
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.49.300",
    "jp": "天ちゃん\n「キキィ」\n{wait}",
-   "en": "",
+   "en": "Ten-chan\n\"Kiii!\"\n{wait}",
    "slots": [
     300
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.301",
    "jp": "美由紀\n「あたし、\n　ひょっとして・・・」\n{wait}「迷子・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Could it be that I'm...\"\n{wait}\"lost...\"\n{wait}",
    "slots": [
     301
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.302",
    "jp": "天ちゃん\n「キキ・・・」\n{wait}",
-   "en": "",
+   "en": "Ten-chan\n\"Kiki...\"\n{wait}",
    "slots": [
     302
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.303",
    "jp": "美由紀\n「真由ちゃーん！　ちかちゃーん！\n　鈴ちゃーん！　琴ちゃーん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chaaan! Chika-chaaan! Suzu-chaaan!\nKoto-chaaan!\"\n{wait}",
    "slots": [
     303
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.49.304",
    "jp": "美由紀\n「あーん、人探してて自分が\n　迷子なんて～・・・」\n{wait}「ウソでしょ～！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Waaah, I was looking for someone and now\nI'm the one who's lost~...\"\n{wait}\"You've gotta be kidding~!\"\n{wait}",
    "slots": [
     304
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.49.305",
    "jp": "美由紀\n「・・・天ちゃん？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Ten-chan?\"\n{wait}",
    "slots": [
     305
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.306",
    "jp": "闘士\n「守護獣使いだね・・・」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"A Guardian user, huh...\"\n{wait}",
    "slots": [
     306
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.49.307",
    "jp": "闘士\n「お前、こっちへ来い。\n　抵抗すると痛い目に合うよ」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"You, come over here. Resist and you'll\nget hurt.\"\n{wait}",
    "slots": [
     307
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.308",
    "jp": "美由紀\n「て、天ちゃん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"T-Ten-chan!\"\n{wait}",
    "slots": [
     308
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.49.309",
    "jp": "闘士\n「・・・ゴフッ」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"...Gwuh.\"\n{wait}",
    "slots": [
     309
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.49.310",
    "jp": "闘士\n「なんだ、お前は・・・！」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"What... who are you...!\"\n{wait}",
    "slots": [
     310
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.311",
    "jp": "謎の女性\n「・・・ケガはないか」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"...Are you hurt?\"\n{wait}",
    "slots": [
     311
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.49.312",
    "jp": "美由紀\n「ありがとう。あたし美由紀、\n　天城美由紀っていうの」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Thank you. I'm Miyuki. Miyuki Amagi.\"\n{wait}",
    "slots": [
     312
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.313",
    "jp": "謎の女性\n「美由紀・・・」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"Miyuki...\"\n{wait}",
    "slots": [
     313
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.314",
    "jp": "美由紀\n「うん。あなたは？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yep. What about you?\"\n{wait}",
    "slots": [
     314
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.315",
    "jp": "謎の女性\n「・・・ここは、お前のような子供が\n　ウロチョロする場所じゃない」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"...This is no place for a child like you to be\nwandering around.\"\n{wait}",
    "slots": [
     315
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.316",
    "jp": "美由紀\n「あたし子供じゃないよ、\n　１８才だよ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I'm not a child, I'm eighteen!\"\n{wait}",
    "slots": [
     316
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.317",
    "jp": "謎の女性\n「フフッ、そうか・・・\n　それは失礼したな」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"Heh, I see... My apologies, then.\"\n{wait}",
    "slots": [
     317
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.318",
    "jp": "美由紀\n「ここ、なんかあるの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Is something going on here?\"\n{wait}",
    "slots": [
     318
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.319",
    "jp": "謎の女性\n「少しばかりおだやかでない連中の\n　監視区域だ。ついさっきからな」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"It's a zone being watched by some\nrather unfriendly people. As of just a little\nwhile ago.\"\n{wait}",
    "slots": [
     319
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.320",
    "jp": "美由紀\n「それって・・・荏狗覇菟・・・？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"You mean... the Egubado...?\"\n{wait}",
    "slots": [
     320
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.321",
    "jp": "謎の女性\n「そうだ。\n　分かったらさっさと立ち去れ」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"That's right. Now that you know, leave.\"\n{wait}",
    "slots": [
     321
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.322",
    "jp": "美由紀\n「あなたは・・・あなたも荏狗覇菟と\n　戦ってる人なの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Are you... Are you fighting the\nEgubado too?\"\n{wait}",
    "slots": [
     322
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.323",
    "jp": "謎の女性\n「なんだと・・・？」\n{wait}「ハッハッハッハッ」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"What...?\"\n{wait}\"Hahahaha.\"\n{wait}",
    "slots": [
     323
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.324",
    "jp": "美由紀\n「え、えへへ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Eh, ehehe?\"\n{wait}",
    "slots": [
     324
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.325",
    "jp": "謎の女性\n「・・・早く帰れ」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"...Go home.\"\n{wait}",
    "slots": [
     325
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.326",
    "jp": "美由紀\n「え？　ちょ、ちょっと待って！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? W-wait a sec!\"\n{wait}",
    "slots": [
     326
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.327",
    "jp": "美由紀\n「あのね、あたし、あたしも荏狗覇菟と\n　戦ってるんだ。だから」\n{wait}「もしよかったら一緒に・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"See, I'm... I'm fighting the Egubado too. So...\"\n{wait}\"If you want, we could...\"\n{wait}",
    "slots": [
     327
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.328",
    "jp": "謎の女性\n「お前は・・・命が惜しくないのか」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"Do you... not value your life?\"\n{wait}",
    "slots": [
     328
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.329",
    "jp": "美由紀\n「え・・・？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh...?\"\n{wait}",
    "slots": [
     329
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.330",
    "jp": "謎の女性\n「本気で荏狗覇菟に、勝てると思って\n　いるのか？」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"Do you honestly think you can beat the\nEgubado?\"\n{wait}",
    "slots": [
     330
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.331",
    "jp": "美由紀\n「でも、だって・・・やるしかないよ」\n{wait}「そりゃ、最初はただ、\n　なんかカッコイイって思って・・・」\n{wait}「でもホントは、そんなにカッコよく\n　なくて・・・」\n{wait}「人が死んだりとか・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"But, I mean... we have to.\"\n{wait}\"Sure, at first I just thought it'd be\nkinda cool...\"\n{wait}\"But really, it's not that cool...\"\n{wait}\"People die and stuff...\"\n{wait}",
    "slots": [
     331
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.332",
    "jp": "謎の女性\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"......\"\n{wait}",
    "slots": [
     332
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.333",
    "jp": "美由紀\n「なんかね、カン違いしてたかも」\n{wait}「荏狗覇菟と戦うって決めたから、\n　すぐにでもみんなが助けられるような\n　・・・そんな気でいたの」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I guess I kinda had the wrong idea.\"\n{wait}\"Since I'd decided to fight the Egubado, I\nsorta felt like I could save everyone\nright away...\"\n{wait}",
    "slots": [
     333
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.334",
    "jp": "謎の女性\n「やめたいのなら、やめればいい」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"If you want to quit, then quit.\"\n{wait}",
    "slots": [
     334
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.335",
    "jp": "美由紀\n「違うよ、ただ・・・\n　ちょっと悲しかったんだよ」\n{wait}「その死んじゃった人みたいに、\n　どこかでツライ思いしてる人が\n　いるなら・・・」\n{wait}「その人がツラくなくなるように\n　したいって、やっぱり思うから、\n　だから・・・やめられないよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"That's not it, it's just... it made me a\nlittle sad.\"\n{wait}\"If there are people somewhere having a\nhard time, like that person who died...\"\n{wait}\"I still want to make it so they don't have to\nsuffer. So... I can't quit.\"\n{wait}",
    "slots": [
     335
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.336",
    "jp": "謎の女性\n「・・・そうだな」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"...I see.\"\n{wait}",
    "slots": [
     336
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.337",
    "jp": "美由紀\n「・・・だよね！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Right!?\"\n{wait}",
    "slots": [
     337
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.338",
    "jp": "謎の女性\n「とにかく、\n　ここからは離れた方がいい」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"Anyway, you'd better get away from here.\"\n{wait}",
    "slots": [
     338
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.339",
    "jp": "美由紀\n「うん。\n　それでね、えーと・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Okay. And, um, so...\"\n{wait}",
    "slots": [
     339
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.49.340",
    "jp": "謎の女性\n「・・・なんだ？」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"...What?\"\n{wait}",
    "slots": [
     340
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.341",
    "jp": "美由紀\n「・・・ここって・・・どこ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Where... are we?\"\n{wait}",
    "slots": [
     341
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.342",
    "jp": "琴音\n「あ、こんなところに・・・！」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Ah, there you are...!\"\n{wait}",
    "slots": [
     342
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.343",
    "jp": "鈴音\n「美由紀ッ！\n　もうっ、何してんのよ！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Miyuki! Geez, what are you doing!?\"\n{wait}",
    "slots": [
     343
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.344",
    "jp": "美由紀\n「鈴ちゃん、琴ちゃん！」\n{wait}「美里ちゃんは？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Suzu-chan, Koto-chan!\"\n{wait}\"What about Misato-chan?\"\n{wait}",
    "slots": [
     344
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.345",
    "jp": "鈴音\n「大丈夫。\n　真由たちと後から来るわよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"It's fine. She's coming later with Mayu and\nthe others.\"\n{wait}",
    "slots": [
     345
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.346",
    "jp": "美由紀\n「そっかぁ、よかったー。美里ちゃん、\n　見つかったんだ・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Really? Phew. So you found Misato-chan...\"\n{wait}",
    "slots": [
     346
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.49.347",
    "jp": "謎の女性\n「クッ・・・ハハハッ」\n{wait}「人を探していて、当人が迷子に\n　なった訳だ」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"Kh... hahaha.\"\n{wait}\"So you were out looking for someone and\ngot lost yourself.\"\n{wait}",
    "slots": [
     347
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.348",
    "jp": "美由紀\n「めんぼくないです・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I'm so embarrassed...\"\n{wait}",
    "slots": [
     348
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.349",
    "jp": "女の子\n「きゃー、来ないでーっ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Kyaaa, stay awaaay!\"\n{wait}",
    "slots": [
     349
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.49.350",
    "jp": "美由紀\n「あっ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ah!\"\n{wait}",
    "slots": [
     350
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.351",
    "jp": "目連\n「まんまと網にひっかかるとは、\n　バカな奴らね・・・」\n{wait}「あっ、あれは・・・」\n{wait}",
-   "en": "",
+   "en": "Mokuren\n\"Walking right into our net. What fools...\"\n{wait}\"Ah, that's...\"\n{wait}",
    "slots": [
     351
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.352",
    "jp": "謎の女性\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Mysterious Woman\n\"......\"\n{wait}",
    "slots": [
     352
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.353",
    "jp": "目連\n「仁（じん）様！」\n{wait}",
-   "en": "",
+   "en": "Mokuren\n\"Jin-sama!\"\n{wait}",
    "slots": [
     353
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.354",
    "jp": "美由紀\n「・・・？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...?\"\n{wait}",
    "slots": [
     354
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.355",
    "jp": "瞳\n「こんな子供のひとりやふたりに、\n　ものものしい事だな」\n{wait}「どうだ、今回は私の顔をたてて、\n　見逃してやるというのは」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Such a fuss over a child or two.\"\n{wait}\"What do you say? This once, as a favor to\nme, you let them go.\"\n{wait}",
    "slots": [
     355
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.356",
    "jp": "目連\n「そいつらは、白虎様じきじきの命で、\n　手配のあった連中です！」\n{wait}",
-   "en": "",
+   "en": "Mokuren\n\"Those are the ones Byakko-sama personally\nordered us to hunt down!\"\n{wait}",
    "slots": [
     356
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.357",
    "jp": "瞳\n「なに？」\n{wait}「では、この娘たちが・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"What?\"\n{wait}\"Then these girls are...\"\n{wait}",
    "slots": [
     357
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.358",
    "jp": "目連\n「とにかくこちらへ、お早く！」\n{wait}",
-   "en": "",
+   "en": "Mokuren\n\"Anyway, over here, quickly!\"\n{wait}",
    "slots": [
     358
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.359",
    "jp": "瞳\n「・・・なるほど、そうか・・・」\n{wait}「それはますます譲れんな。\n　お前たちが引かぬと言うなら、\n　迎え撃つまでだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...I see. So that's how it is...\"\n{wait}\"Then all the more reason I can't hand them\nover. If you won't back down, I'll meet you\nhead-on.\"\n{wait}",
    "slots": [
     359
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.360",
    "jp": "目連\n「裏切るのか！？」\n{wait}",
-   "en": "",
+   "en": "Mokuren\n\"You're betraying us!?\"\n{wait}",
    "slots": [
     360
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.361",
    "jp": "瞳\n「成り行きだ。悪く思うな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"It's how things turned out. Don't take it\npersonally.\"\n{wait}",
    "slots": [
     361
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.362",
    "jp": "美由紀\n「あなたは・・・\n　荏狗覇菟の人だったんだね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"So you... were one of the Egubado.\"\n{wait}",
    "slots": [
     362
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.49.363",
    "jp": "瞳\n「だましたつもりはないが・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"I didn't mean to deceive you...\"\n{wait}",
    "slots": [
     363
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.364",
    "jp": "美由紀\n「ううん・・・裏切っちゃったよね、\n　大丈夫なの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"No... But you just betrayed them, right? Are\nyou gonna be okay?\"\n{wait}",
    "slots": [
     364
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.365",
    "jp": "瞳\n「なに。これも親孝行だ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Don't worry. Think of it as honoring my\nmother.\"\n{wait}",
    "slots": [
     365
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.366",
    "jp": "美由紀\n「え？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"What?\"\n{wait}",
    "slots": [
     366
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.367",
    "jp": "瞳\n「私の母の名・・・\n　美由紀というんだよ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"My mother's name... was Miyuki.\"\n{wait}",
    "slots": [
     367
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.368",
    "jp": "真由\n「美由紀！」\n{wait}「ほんなこつもう、世話ばっか\n　やかすっとやから」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Miyuki!\"\n{wait}\"Honestly, you're always makin' me look\nafter you.\"\n{wait}",
    "slots": [
     368
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.369",
    "jp": "美由紀\n「真由ちゃん、みんな・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan, everyone...\"\n{wait}",
    "slots": [
     369
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.370",
    "jp": "瞳\n「お前たちが、龍の使い手とはな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"So you're the Dragon Wielders.\"\n{wait}",
    "slots": [
     370
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.371",
    "jp": "美由紀\n「え、何？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh, what?\"\n{wait}",
    "slots": [
     371
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.372",
    "jp": "瞳\n「・・・仲間に伝えておけ」\n{wait}「四門将がお前たちをねらっている。\n　龍の使い手である、お前たちを」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...Tell your friends.\"\n{wait}\"The Four Gate Generals are after you. After\nyou, the Dragon Wielders.\"\n{wait}",
    "slots": [
     372
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.373",
    "jp": "美由紀\n「・・・しもんしょー？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Four Gate Gen-er-als?\"\n{wait}",
    "slots": [
     373
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.49.374",
    "jp": "瞳\n「荏狗覇菟の最高幹部、４人の事だ。\n　捕まればすぐに殺されるぞ」\n{wait}「日本が壊滅する前に・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"The four highest officers of the Egubado. If\nthey catch you, they'll kill you on the spot.\"\n{wait}\"Before Japan is destroyed...\"\n{wait}",
    "slots": [
     374
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.375",
    "jp": "美由紀\n「に、日本は・・・\n　日本は壊滅なんかしないよ！」\n{wait}「だってあたしたち、そのために戦っ\n　てるんだもん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"J-Japan... Japan won't be destroyed!\"\n{wait}\"'Cause that's what we're fighting for!\"\n{wait}",
    "slots": [
     375
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.376",
    "jp": "瞳\n「・・・どちらにしろ、今のお前たち\n　では勝てまいよ」\n{wait}「天龍と地龍が目覚めぬ限り・・・\n　お前たちにできるかな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...Either way, as you are now, you can't win.\"\n{wait}\"Unless the Sky Dragon and the Earth Dragon\nawaken... Can you do it, I wonder?\"\n{wait}",
    "slots": [
     376
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.377",
    "jp": "美由紀\n「できるよ！」\n{wait}「・・・たぶん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We can!\"\n{wait}\"...Probably.\"\n{wait}",
    "slots": [
     377
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.378",
    "jp": "瞳\n「フフ・・・面白くなってきたな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Heh... Things are getting interesting.\"\n{wait}",
    "slots": [
     378
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.379",
    "jp": "美由紀\n「え、行っちゃうの？　待って！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh, you're leaving? Wait!\"\n{wait}",
    "slots": [
     379
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.380",
    "jp": "美由紀\n「じん・・・って呼ばれてた」\n{wait}「荏狗覇菟なのに・・・\n　なんか悪い人っぽく、なかったな」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"They called her... Jin.\"\n{wait}\"She's Egubado, but... she didn't seem like a\nbad person.\"\n{wait}",
    "slots": [
     380
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.381",
    "jp": "麗子\n「ま、また！？\n　またヤラレたってゆーの！？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"A-again!? You're telling me they beat you\nAGAIN!?\"\n{wait}",
    "slots": [
     381
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.49.382",
    "jp": "闘士\n「それから・・・」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Also...\"\n{wait}",
    "slots": [
     382
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.383",
    "jp": "麗子\n「なんなのよ」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"What is it?\"\n{wait}",
    "slots": [
     383
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.384",
    "jp": "闘士\n「その・・・朱雀様がお呼びです」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Um... Suzaku-sama is calling for you.\"\n{wait}",
    "slots": [
     384
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.49.385",
    "jp": "麗子\n「う～・・・」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Ugh~...\"\n{wait}",
    "slots": [
     385
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.49.386",
