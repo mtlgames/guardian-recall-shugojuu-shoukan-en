@@ -27,7 +27,7 @@
   {
    "id": "g13.08.001",
    "jp": "真由\n「お疲れさんやったね」\n{wait}",
-   "en": "Mayu\n\"Good work out there.\"\n{wait}",
+   "en": "Mayu\n\"Ya did good out there, y'know.\"\n{wait}",
    "slots": [
     1
    ],
@@ -109,7 +109,7 @@
   {
    "id": "g13.08.008",
    "jp": "朱雀\n「おさがり！」\n{wait}",
-   "en": "Suzaku\n\"Back off!\"\n{wait}",
+   "en": "Suzaku\n\"You may withdraw!\"\n{wait}",
    "slots": [
     8
    ],
@@ -170,7 +170,7 @@
   {
    "id": "g13.08.014",
    "jp": "晶\n「帰還するです！」\n{wait}",
-   "en": "Akira\n\"Returning to base!\"\n{wait}",
+   "en": "Akira\n\"Returning to base, yes indeed!\"\n{wait}",
    "slots": [
     14
    ],

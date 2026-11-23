@@ -128,7 +128,7 @@
   {
    "id": "g13.16.014",
    "jp": "晶\n「うう・・・青息吐息ですぅ・・・」\n{wait}",
-   "en": "Akira\n\"Ugh... I'm at my last gasp...\"\n{wait}",
+   "en": "Akira\n\"Ugh... At my last gasp, yes indeed...\"\n{wait}",
    "slots": [
     14
    ],
@@ -198,7 +198,7 @@
   {
    "id": "g13.16.024",
    "jp": "武神\n「しまった、調子に乗りすぎたか」\n{wait}",
-   "en": "Takegami\n\"Blast, I got carried away.\"\n{wait}",
+   "en": "Takegami\n\"Blast, I have grown too bold.\"\n{wait}",
    "slots": [
     24
    ],

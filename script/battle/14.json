@@ -98,7 +98,7 @@
   {
    "id": "g13.14.009",
    "jp": "あーら、まだやる気？\n死んじゃっても知らないわよ？\n{wait}",
-   "en": "My, my, still want more? Don't blame me if\nyou end up dead.\n{wait}",
+   "en": "Oh my~, still wanna play? Don't blame me if\nyou end up dead~\n{wait}",
    "slots": [
     9
    ],
@@ -129,7 +129,7 @@
   {
    "id": "g13.14.012",
    "jp": "まいったまいった。\nやっぱ、ただ突っ込むだけじゃダメ\nだよね。反省反省。\n{wait}",
-   "en": "Well, that's that. Just charging in won't cut it,\nhuh? Lesson learned, lesson learned.\n{wait}",
+   "en": "Man, they got us good. Just charging in won't\ncut it, huh? Lesson learned, lesson learned.\n{wait}",
    "slots": [
     12
    ],

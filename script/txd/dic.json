@@ -992,7 +992,7 @@
   {
    "id": "dic.0139",
    "jp": "須菩提&n()&n()すぼだい　&c(2)阿那律&c(0)&n()の部下。&c(2)守護獣&c(0)は&n()&c(4)天尊・亜成獣&c(0)。&c(2)大&n()雪山&c(0)で&c(1)裕子&c(0)たちに&n()捕まり&c(1)巴澄&c(0)の連行&n()先をバラしてしま&n()う。&c(2)青函トンネル&c(0)&n()で再登場するもや&n()っぱり頼りない。&n()",
-   "en": "Subodai&n()&n()&c(2)Anaritsu&c(0)'s man. &c(2)&n()Guardian&c(0): &c(4)Amazon&n()Youth&c(0). Caught by &c(1)&n()Yuko&c(0) and co. on &c(2)Mt.&n()Taisetsu&c(0), he blabbed&n()where &c(1)Hasumi&c(0) was&n()taken. Back in the &c(2)&n()Seikan Tunnel&c(0), still&n()useless.",
+   "en": "Subodai&n()&n()&c(2)Anaritsu&c(0)'s aide. &c(2)&n()Guardian&c(0): &c(4)Amazon&n()Youth&c(0). Caught by &c(1)&n()Yuko&c(0) and co. on &c(2)Mt.&n()Taisetsu&c(0), blabbed&n()where &c(1)Hasumi&c(0) was&n()taken. Back in the &c(2)&n()Seikan Tunnel&c(0), still&n()useless.",
    "slots": [
     139
    ],
@@ -1244,7 +1244,7 @@
   {
    "id": "dic.0175",
    "jp": "チビ&n()&n()ちび　&c(1)鏡涼子&c(0)のこ&n()と。&c(2)荏狗覇菟&c(0)本部&n()内データを見ると&n()身長１６３センチ&n()とあるが、これは&n()&c(1)涼子&c(0)がいじったも&n()のだったりする。&n()本当は１４・・・&n()ぐはぁっ。&n()",
-   "en": "Shorty&n()&n()&c(1)Ryoko Kagami&c(0). &c(2)&n()Egubado&c(0) HQ files list&n()her at 163 cm, but &c(1)&n()Ryoko&c(0) doctored&n()that. She's really&n()14... GAHH!",
+   "en": "Shorty&n()&n()&c(1)Ryoko Kagami&c(0). &c(2)&n()Egubado&c(0) HQ files list&n()her at 163 cm, but &c(1)&n()Ryoko&c(0) doctored&n()that. Her real height&n()is 14... GAHH!",
    "slots": [
     175
    ],
@@ -1712,7 +1712,7 @@
   {
    "id": "dic.0241",
    "jp": "富楼那&n()&n()ふるな　&c(1)半澤由美&n()&c(0)直属の部下。&c(2)守護&n()獣&c(0)は&c(4)長・死人守&c(0)。&n()&c(1)由美&c(0)の留守中、&c(2)阿&n()蘇山&c(0)をまかされた&n()が&c(1)美由紀&c(0)たちの前&n()に敗北。宮崎で再&n()戦するも勝つこと&n()はできなかった。&n()",
-   "en": "Furuna&n()&n()&c(1)Yumi Hanzawa&c(0)'s&n()man. &c(2)Guardian&c(0): &c(4)&n()Grave Chief&c(0). Held &c(2)&n()Aso&c(0) for the absent &c(1)&n()Yumi&c(0), but lost to &c(1)&n()Miyuki&c(0) and co. Lost&n()the rematch in&n()Miyazaki too.",
+   "en": "Furuna&n()&n()&c(1)Yumi Hanzawa&c(0)'s&n()aide. &c(2)Guardian&c(0): &c(4)&n()Grave Chief&c(0). Held &c(2)&n()Aso&c(0) for the absent &c(1)&n()Yumi&c(0), but lost to &c(1)&n()Miyuki&c(0) and co. Lost&n()the rematch in&n()Miyazaki too.",
    "slots": [
     241
    ],
@@ -1733,7 +1733,7 @@
   {
    "id": "dic.0244",
    "jp": "目連&n()&n()もくれん　&c(2)名古屋&n()地下街&c(0)の監視役の&n()&c(2)闘士&c(0)。&c(2)守護獣&c(0)は&c(4)褐&n()装陽炎剣士&c(0)。迷い&n()込んできた&c(1)美由紀&n()&c(0)たちの捕獲を試み&n()るが、&c(1)仁瞳&c(0)の裏切&n()りという予想外の&n()事態に直面する。&n()",
-   "en": "Mokuren&n()&n()&c(2)Warrior&c(0) on watch in&n()the &c(2)Nagoya&n()Underground&c(0). &c(2)&n()Guardian&c(0): &c(4)Brown&n()Haze Blade&c(0). Tried to&n()catch &c(1)Miyuki&c(0) and co.,&n()but &c(1)Hitomi Jin&c(0)&n()betrayed him.",
+   "en": "Mokuren&n()&n()&c(2)Warrior&c(0) on watch in&n()the &c(2)Nagoya&n()Underground&c(0). &c(2)&n()Guardian&c(0): &c(4)Brown&n()Haze Blade&c(0). Tried to&n()catch &c(1)Miyuki&c(0) and co.,&n()but &c(1)Hitomi Jin&c(0)&n()turned traitor.",
    "slots": [
     244
    ],
@@ -1818,7 +1818,7 @@
   {
    "id": "dic.0256",
    "jp": "羅侯羅&n()&n()らごら　&c(1)仁瞳&c(0)直属&n()の部下。&c(2)守護獣&c(0)は&n()&c(4)戯画骸零式&c(0)。&c(2)制御&n()ピアス&c(0)との相性か&n()はたまた&c(1)瞳&c(0)という&n()人物のなしえるわ&n()ざなのか、死さえ&n()もいとわない忠実&n()な&c(2)闘士&c(0)である。&n()",
-   "en": "Ragora&n()&n()&c(1)Hitomi Jin&c(0)'s man. &c(2)&n()Guardian&c(0): &c(4)Husk Zero&c(0).&n()His &c(2)control piercing&c(0),&n()or &c(1)Hitomi&c(0) herself,&n()makes him a loyal &c(2)&n()Warrior&c(0) unafraid&n()even of death.",
+   "en": "Ragora&n()&n()&c(1)Hitomi Jin&c(0)'s aide. &c(2)&n()Guardian&c(0): &c(4)Husk Zero&c(0).&n()The &c(2)control piercing&c(0),&n()or &c(1)Hitomi&c(0) herself,&n()makes Ragora a&n()loyal &c(2)Warrior&c(0)&n()unafraid even of&n()death.",
    "slots": [
     256
    ],

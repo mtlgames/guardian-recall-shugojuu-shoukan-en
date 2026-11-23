@@ -179,7 +179,7 @@
   {
    "id": "g13.11.024",
    "jp": "武神\n「引き際を心得ることも名将の要素。\n　ここは一時、退くべきだろう」\n{wait}",
-   "en": "Takegami\n\"Knowing when to withdraw is the mark of a\ngreat general. We should fall back for now.\"\n{wait}",
+   "en": "Takegami\n\"Knowing when to withdraw is the mark of a\ngreat general. Let us withdraw for the\nmoment.\"\n{wait}",
    "slots": [
     24
    ],

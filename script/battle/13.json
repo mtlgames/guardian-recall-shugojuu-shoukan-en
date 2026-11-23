@@ -161,7 +161,7 @@
   {
    "id": "g13.13.019",
    "jp": "お疲れさん。\nまた会う機会があるといいが・・・\nその時はよろしくな。\n{wait}",
-   "en": "Good work. I hope we have the chance to\nmeet again... Take care of me when we do.\n{wait}",
+   "en": "Good work. I hope we have the chance to\nmeet again... I'll be counting on you then.\n{wait}",
    "slots": [
     19
    ],

@@ -109,3 +109,7 @@ or `waived: reason`).
 - [ ] orphan pages - the scenario fitter runs 1-3 words of a sentence onto their own {wait} page ("...against 'Sea'" / "and 'Wind'."):
   g23.59.007, 64.007, 01.036, 10.081, 12.095, 24.010, 31.199, 51.019, 53.006, 54.017, 54.022, 56.008, 66.017, 66.022
   (62.012 "...like so." is the JP's own page). Rephrase a few words shorter, or make the fitter balance the last pages.
+- [ ] cf.0042 - Miyuki profile drops 好奇心盛んで ("curious about everything") if the 6 lines allow it
+- [ ] cf.0617 - "Young and lovely, but a total mystery" -> "She looks young and lovely, but..." (外見は)
+- [ ] dic.0004 - "Lost fast." -> "...but was easily beaten."; dic.0130 - add "so it doesn't appear in the game"
+- [ ] gd.0139 - "A Bone Boxer with more mobility, its weak point." -> "A Bone Boxer with better mobility, its old weak point."

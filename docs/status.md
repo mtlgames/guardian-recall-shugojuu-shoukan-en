@@ -175,12 +175,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     subagents (one per pairs file, read-only): b031-b060 done, all approved after ~30 Important fixes (mostly
     flattened voices: Mayu dialect, Takegami register, Reiko/Tomomi; plus 30.001 addition, 34.218 reversed-reading,
     49.355 grammar, g13.03.004 glossary). docs/review.md table + Minors in docs/polish.md.
-- **Next (phase 6 review, finish first):** re-review b061, b062-b063, b064-b065, b066, b067, b068, b069, b070, b071,
-  b072-b073, b074-b076 the same way (pairs files already regenerated; prompt: "Read docs/reviewer-brief.md first and
-  follow it exactly... Pairs file: work/qa/review/pairs/bNNN.txt"). Rate voice flattening Important; fix via
-  work/tl/bNNN.out.tsv + `batches.py merge bNNN --overwrite`, grep out.tsv for copies of a fixed line; record rows
-  in docs/review.md "Independent re-review" (table rows are out of order: sort when finishing); Minors to polish.md.
-  Each report costs ~1k tokens of the main context; launch 8 at a time in the background.
+  - 2026-11-24 (8): **independent re-review finished** (b061-b076, worker's own read-only pass: Orca allows no nested
+    workers). 1 Critical fixed: g13.09.017 Kaoru's battle summon lost its 3rd mantra page. Important fixed: battle
+    quote voices (Mayu, Tomomi, Akira x3, Takegami x2, Reiko, Yuko), day.0008 garbled line, dic disciples given
+    he/him (gender unstated: now neutral), dic.0175 height joke. docs/review.md table sorted; Minors in polish.md.
+    Tip: `sed -E 's/&[a-z]\([^)]*\)//g'` on a txd pairs file halves it for reading.
 - **Next (phase 7: insert, fit, check; done-when = build green: width/overflow lint clean, control codes matched,
   `romdiff.py` no writes outside allowed ranges):**
   (a0) romdiff design (not started): build.py has no write check. Plan: in insert.patch_tree save pre-armips copies of

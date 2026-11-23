@@ -47,7 +47,7 @@
   {
    "id": "day.0008",
    "jp": "&f(32,32)&s(116,26)&c(0)天の章第三話&f(32,32)&s(0,43)&c(0)&e()鈴音と琴音&d()&s(165,65)&c(7)周防ちかな&s(165,82)&c(7)宮崎&s(165,99)&c(7)はにわ園&f(18,12)&s(40,120)&c(0)力強い協力者、美由紀と真由、双子の一の宮姉妹。阿蘇の龍脈は取り戻せた。だけど・・・嬉しいのに、何かひっかかってる。もう神門の、アタシだけの問題では、なくなっている気がする。",
-   "en": "&f(32,32)&s(116,26)&c(0)Sky, Episode 3&f(32,32)&s(0,43)&c(0)&e()Suzune and Kotone&d()&s(165,65)&c(7)Chikana Suo&s(165,82)&c(7)Miyazaki&s(165,99)&c(7)Haniwa Garden&f(18,12)&s(40,120)&c(0)Strong allies: Miyuki and Mayu, and the&n()Ichinomiya twins. We got Aso's dragon&n()vein back. But... I'm glad, yet something's&n()nagging me. Feels like this isn't just the&n()Kamikado's problem, just mine, anymore.",
+   "en": "&f(32,32)&s(116,26)&c(0)Sky, Episode 3&f(32,32)&s(0,43)&c(0)&e()Suzune and Kotone&d()&s(165,65)&c(7)Chikana Suo&s(165,82)&c(7)Miyazaki&s(165,99)&c(7)Haniwa Garden&f(18,12)&s(40,120)&c(0)Strong allies: Miyuki and Mayu, and the&n()Ichinomiya twins. We got Aso's dragon&n()vein back. But... I'm glad, yet something's&n()nagging me. Feels like this isn't only the&n()Kamikado's problem anymore. Not just mine.",
    "slots": [
     8
    ],
@@ -427,7 +427,7 @@
   {
    "id": "day.0084",
    "jp": "&f(32,32)&s(116,26)&c(0)地の章第七話&f(32,32)&s(0,43)&c(0)&e()正義のロッカー晶参上！&d()&s(165,65)&c(7)雷晶&s(165,82)&c(7)新潟&s(165,99)&c(7)佐渡島&f(18,12)&s(40,120)&c(0)やはり私の他にも悪を憎む人々がいたです。悪を滅ぼし再び平和を取り戻すその日まで、みんなで力を合わせてがんばるです。ところで登場のタイミング、バッチリだったですよね？",
-   "en": "&f(32,32)&s(116,26)&c(0)Earth, Episode 7&f(32,32)&s(0,43)&c(0)&e()Akira, Rocker of Justice!&d()&s(165,65)&c(7)Akira Ikazuchi&s(165,82)&c(7)Niigata&s(165,99)&c(7)Sado Island&f(18,12)&s(40,120)&c(0)Just as I thought, there are others&n()who hate evil too! Until the day we&n()destroy evil and restore peace, we shall join&n()forces and give it our all! By the way, my&n()entrance had perfect timing, did it not?",
+   "en": "&f(32,32)&s(116,26)&c(0)Earth, Episode 7&f(32,32)&s(0,43)&c(0)&e()Akira, Rocker of Justice!&d()&s(165,65)&c(7)Akira Ikazuchi&s(165,82)&c(7)Niigata&s(165,99)&c(7)Sado Island&f(18,12)&s(40,120)&c(0)Just as I thought, there are others&n()who hate evil too, yes indeed! Until the&n()day we destroy evil and restore peace, we&n()shall join forces and give it our all! By the way,&n()my entrance had perfect timing, did it not?",
    "slots": [
     84
    ],

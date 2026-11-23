@@ -101,6 +101,7 @@ Fixes via out.tsv + `merge --overwrite`; copies of a fixed line (same JP) fixed 
 | b034 | Approved | | 31.250, 31.253, 31.243, 31.227, 31.029, 31.027 |
 | b035 | Approved after fix | 32.212 Mayu voice, 33.021 "it" -> "Japan" | 32.211, 34.002, 33.027 |
 | b036 | Approved after fix | 34.218 "More than a Guardian" read as the opposite, 35.015 Mayu dialect, 34.236 Takegami register, 34.046 Reiko voice | 34.051, 34.201, 35.005, 35.002, 34.208 |
+| b037 | Approved after fix | 37.200/202 Mayu dialect, 36.027 Takegami (+ copy 38.058), 38.000 Reiko voice, 36.013 sarcastic reading | 36.006, 36.205, 36.211, 38.022, 37.205 |
 | b038 | Approved after fix | 38.028 Takegami, 38.039 Reiko, 38.044 Tomomi (voice) | 38.042, 41.016 |
 | b039 | Approved | | 43.022, 43.007, 43.025, 43.089 |
 | b040-b045 | Approved after fix | 49.355 broken grammar ("you let them go") | 44.001, 43.094, 49.319, 49.336, 49.346, 49.301 (b041-b044 all `==`) |
@@ -117,4 +118,16 @@ Fixes via out.tsv + `merge --overwrite`; copies of a fixed line (same JP) fixed 
 | b058 | Approved after fix | 13.01.009 Chikana ふざけやがって, 13.00.014 Akira です tic (+ copy 13.15.014), 13.01.016 Tomomi, 13.01.019 Reiko, 13.01.048 Takegami, 13.00.001 Mayu, 13.01.008 "ain't" off-voice. Consumable help keeps "Name:" without 消費 by design (status.md 2026-11-23 (17)) | 13.00.023, 13.02.003, 13.02.032, 13.02.065 |
 | b059 | Approved after fix | g13.03.004 "fallen" -> glossary "knocked-out" | 13.03.017, 13.04.004, Melee/Ranged/Healing capitalisation, 13.05.012, 13.05.007 |
 | b060 | Approved | | |
-| b037 | Approved after fix | 37.200/202 Mayu dialect, 36.027 Takegami (+ copy 38.058), 38.000 Reiko voice, 36.013 sarcastic reading | 36.006, 36.205, 36.211, 38.022, 37.205 |
+| b061 | Approved after fix | **Critical** g13.09.017 Kaoru's summon mantra lost its 3rd page (Namaku... Ashuranata!; copied from scenario 12), g13.08.001 Mayu voice, g13.08.008 Tomomi おさがり to her own Guardian ("Back off!" -> "You may withdraw!"), g13.08.014 Akira です tic | |
+| b062-b063 | Approved after fix | g13.11.024 + 16.024 Takegami register, g13.14.009 Reiko voice, g13.14.012 まいったまいった, g13.16.014 Akira tic, g13.13.019 よろしくな literal | |
+| b064-b065 | Approved | | `<a>` = day.001c8/d0 lowercase "load"/"save" |
+| b066 | Approved | | cf.0042 drops 好奇心盛ん |
+| b067 | Approved after fix | day.0008 Chikana "isn't just the Kamikado's problem, just mine" (garbled) | cf.0617 "Young and lovely" (外見は: looks) |
+| b068 | Approved after fix | day.0084 Akira tic | |
+| b069 | Approved | | dic.0004 "Lost fast." (あえなく), dic.0130 drops "so it doesn't appear" |
+| b070 | Approved after fix | dic.0139/0241/0244/0256 "he/him/man" for disciples whose gender is unstated (synopsis: keep neutral), dic.0175 "She's really 14..." read as age (-> "Her real height is 14...") | |
+| b071-b072 | Approved | | gd.0139 "more mobility, its weak point" |
+| b073-b076 | Approved | | |
+
+b061-b076: re-reviewed by the phase-7 worker itself in a separate read-only pass over the pairs files (Orca allows no
+nested workers or subagents), same brief.
