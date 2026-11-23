@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
+import insert  # noqa: E402
 
 MKPSXISO = ROOT / "tools/mkpsxiso/mkpsxiso-2.30-win64"
 DISCS = (1, 2)
@@ -31,18 +32,25 @@ def dump(n):
     return d
 
 
-def patch(n, tree):
-    """Write the translation into disc n's file tree. Nothing yet: phase 7 inserts text here."""
+def patch(n, tree, mode="en"):
+    """Write font, hooks and text into disc n's file tree (tools/insert.py; both discs share every DATA file)."""
+    insert.patch_tree(tree, mode)
 
 
-def build_disc(n, out_dir, patched=True):
+def build_disc(n, out_dir, patched=True, mode="en"):
     src = dump(n)
     work = ROOT / f"work/build/d{n}"
     shutil.rmtree(work, ignore_errors=True)
     # shortcut: full 0.7 GB copy per disc per build, fine at a few seconds; overlay only patched files if it drags
     shutil.copytree(src, work)
+    # dumpsxiso writes the tree's absolute path into layout.xml: point the copy at the patched tree
+    lay = work / "layout.xml"
+    old = f'source="{(src / "tree").as_posix()}"'
+    xml = lay.read_text(encoding="utf-8")
+    assert xml.count(old) == 1, "layout.xml: tree source not found"
+    lay.write_text(xml.replace(old, f'source="{(work / "tree").as_posix()}"'), encoding="utf-8")
     if patched:
-        patch(n, work / "tree")
+        patch(n, work / "tree", mode)
     out_dir = Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
     stem = f"Guardian Recall - Shugojuu Shoukan (English) (Disc {n})"
@@ -59,7 +67,8 @@ def build_disc(n, out_dir, patched=True):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--identity", action="store_true", help="skip patching (output must equal the dump)")
+    ap.add_argument("--marker", action="store_true", help="marker build: every string = its id + filler")
     a = ap.parse_args()
     check_rom.check()
     for n in DISCS:
-        print(build_disc(n, ROOT / f"build/disc{n}", patched=not a.identity))
+        print(build_disc(n, ROOT / f"build/disc{n}", patched=not a.identity, mode="marker" if a.marker else "en"))

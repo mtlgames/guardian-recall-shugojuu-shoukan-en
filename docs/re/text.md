@@ -27,6 +27,28 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
   (from `data\gretc.rlz` group loader 0x80014CCC, max 0x30D40 bytes) and copies it to 0x800C4E78. The font texture
   presumably comes from the same set (guess; find in phase 5).
 
+## English font and hooks (phase 5, verified in game: ev01-03 marker text drawn, `asm/hooks.asm`, `tools/font.py`)
+- The glyph map is **global**, not per scene: UNN g9 sub-entry 0 is an archive (u32 offsets); item 10 = the map
+  (TX03, 11966 entries, 1459 used), item 7 = the font TIM (4bpp, raw, VRAM 896,256, 64x256; CLUTs 896-959,511, one
+  per plane: entries 0x800B6500 = 0x7FF8..0x7FFB), item 9 = a CLUT TIM. Loaded at boot by 0x8001A980.
+  The 21x18x4 = 1512 cells hold 1459 glyphs; 52 cells are free (cell 0,0,0 can't be named: entry 0 = none).
+- Renderers calling the lookup 0x80044C48: scenario box 0x80043DA4 (3 callers), generic string draw 0x80043A64
+  (~200 callers: EXE menus, ACTION, HEN), 0x80044624, 0x80017F10, DIC.BIN 0xD04. Each sprite = glyph (rgb from a
+  table) + black shadow at +1,+1, 12x14, tpage gp+0xC14 (0x1E). Scenario pen: x s3 (+13 per glyph, +13 for 8140),
+  y s7 (+17 per 0A), origin x = box +0x20; fp = glyphs shown (typewriter).
+- English: bytes 0x20-0x7E go through `cell_tab` (hook at 0x80044C48) to cells drawn from `fonts/vwf12.txt`:
+  letters/digits replace the full-width Ａ-Ｚ ａ-ｚ ０-９ glyphs (now left-aligned), punctuation uses free cells. Every
+  lookup stores the advance in `last_adv` (ASCII: width + 1; else 13); the scenario renderer adds it (0x80044480).
+  Other renderers still advance 13 per byte (monospace English) until hooked.
+- RAM for new code/data: the malloc arena (descriptor 0x8015B608, init 0x8006A2C4(base [0x800120DC]+0x800, size
+  0x801F7700 - [0x800120DC]) set in main 0x8001A6FC) is cut to end 0x801E7F00; ours = 0x801E8000-0x801F7FFF
+  (highest arena block end seen in 11 scene dumps: 0x801D1284). Payload at 0x801F0000, copied there by a boot stub
+  (new EXE entry, stored in the zero BSS at 0x800CAC00; startup clears BSS 0x800B6408-0x80162F88 afterwards).
+- Scenario buffer: 0x800D16F8 was 0x2800 bytes (next symbol 0x800D3EF8, refs: 5 lui/addiu pairs 0x80044B4C-0x80044FEC)
+  -> moved to 0x801E8000, 0x8000 bytes. Battle quotes (g13): loader 0x80044BB4 mallocs 0x2800 -> 0x4000.
+- Scenario box (measured, ev02/ev03 marker shots): pen x = 70 (top and bottom box), name line + up to 3 text lines,
+  17 px apart; page cursor at x 296-301 between lines 2 and 3. JP lines end at 70 + 17 x 13. Budget: 224 px/line.
+
 ## Scenario script: UNN.PAK group 23 (verified: decoded, RAM match)
 - Group 23 = UNN.PAK 0x1B87000, 0x60000 bytes. Sub-table (69 entries) at EXE RAM 0x80092734 (see containers.md).
 - Each block: `u32 count, u32 0, count x u32 offset` (from block start; 0 = unused slot), then strings. Offsets point

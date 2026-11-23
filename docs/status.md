@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-23). Last build: 2026-11-23,
-  unpatched = byte-identical to the dump (disc 1 sha1 3ae2071d..., disc 2 d45a833f...), smoke ok.
+- **Phase:** 5. Engine spike and marker build in progress (scenario VWF works in game). Last build: 2026-11-23
+  `build.py --marker` (scenario + battle-quote markers), smoke ok, ev01-03 show markers.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -56,11 +56,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     coverage, script/ == fresh extraction. New finds (docs/re/text.md): evd op 0x34 unit names; g23 entry 43 is
     text (count 0, 254 slots); g13 entry 2 = item help; staging notes between strings; per-record kana table
     variant (`tbl`).
-- **Next (phase 5, engine spike + marker build):** English font/renderer for scenario (no ASCII in that path; txd
-  renderer already draws ASCII), VWF decision; insertion in `build.patch()` via script_io builders (+ EXE string
-  relocation into free RAM, evd name growth = check bytecode jumps); marker build `[id]` per string; find non-text
-  strings; measure every box variant (width gate). Scenario buffer limit 0x2800 still a guess (largest block
-  0x2422 = g23 entry 24, then 0x23B0 entry 12).
+  - 2026-11-23 (8): **phase 5 engine spike.** English VWF font `fonts/vwf12.txt` (drawn, MIT) drawn by `tools/font.py`
+    into the game's one font TIM (UNN g9 sub 0 item 7); `asm/hooks.asm` (armips): boot stub -> payload at 0x801F0000,
+    ASCII bytes via cell table in the glyph lookup, scenario pen += per-glyph advance, scenario buffer moved to
+    0x801E8000 (0x8000), g13 malloc 0x4000, malloc arena cut to end 0x801E7F00 (docs/re/text.md "English font").
+    `tools/insert.py` + `build.py [--marker]` rebuild g23/g13 blocks (UNN repack moves groups: works in game).
+    **Fixed build bug:** layout.xml pointed at the pristine tree (no patch ever reached the disc). Scenario box
+    measured: 224 px/line, 3 lines/page + name. tests/test_font.py. `tools/re.py` (fn/dis/jal xref helper).
+- **Next (phase 5 rest):** (1) marker tour of g13 battle quotes + item help (where drawn, which renderer, box
+  width); (2) VWF for the other renderers (0x80043A64 generic UI ~200 callers, 0x80044624, 0x80017F10, DIC.BIN) and
+  the txd markup renderer (not yet traced: does it use the same lookup? `&g(w,h)` spacing); (3) marker insertion
+  for txd (GRETC repack), evd names (bytecode growth: check jump offsets), EXE/overlay strings (in-place `room`,
+  else relocate into the payload area and repoint refs); (4) tour every box variant with markers, record budgets in
+  a window-data file (e.g. `docs/windows.md` + lint), glyph torture line; non-text strings found -> status `data`.
 - **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).
