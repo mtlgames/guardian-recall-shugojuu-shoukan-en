@@ -27,7 +27,7 @@
   {
    "id": "g23.01.002",
    "jp": "由美\n「迦葉のやつ、油断したわね」\n{wait}「でも神門にまだ、\n　そんな連中がいたなんて」\n{wait}",
-   "en": "Yumi\n\"Kasho let his guard down.\"\n{wait}\"But to think the Kamikado still had people\nlike that...\"\n{wait}",
+   "en": "Yumi\n\"Kasho got careless.\"\n{wait}\"But to think the Kamikado still had people\nlike that...\"\n{wait}",
    "slots": [
     2
    ],
@@ -1105,256 +1105,284 @@
   {
    "id": "g23.01.201",
    "jp": "美由紀\n「他の人たち知んない？\n　他に捕まってる人たち」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Do you know where the others are? The\nother people they caught?\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.202",
    "jp": "女の子\n「みんな収容所に・・・\n　助けに来たの？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Everyone's in the holding facility... Did you\ncome to rescue them?\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.203",
    "jp": "美由紀\n「うん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yep!\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.204",
    "jp": "女の子\n「・・・じゃ私、収容所に戻って\n　みんなを逃がしてくる！」\n{wait}「たぶん今なら・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"...Then I'll go back to the facility and get\neveryone out!\"\n{wait}\"Right now, I bet I can...\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.205",
    "jp": "美由紀\n「え、でも・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? But...\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.206",
    "jp": "女の子\n「大丈夫よ、まかせて」\n{wait}「あ、そうそう、これ。\n　役に立つか分かんないけど」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Don't worry, leave it to me.\"\n{wait}\"Oh, right, here. Not sure if it'll help, but...\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.207",
    "jp": "美由紀\n「これ・・・もらっていーの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"This... I can really have it?\"\n{wait}",
    "slots": [
     207
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.208",
    "jp": "女の子\n「いーのいーの」\n{wait}「えへへっ、実はアイツらから\n　ちょろまかしてやったのよ」\n{wait}「だから気にしないで、\n　パーッと使っちゃって」\n{wait}「じゃ、あたし行くね」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Sure, sure.\"\n{wait}\"Ehehe, actually, I swiped it from\nthose creeps.\"\n{wait}\"So don't worry about it. Use it up, go wild.\"\n{wait}\"Okay, I'm off!\"\n{wait}",
    "slots": [
     208
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.209",
    "jp": "真由\n「大丈夫？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You all right?\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.01.210",
    "jp": "女の子\n「ええ！　ありがとう！\n　助かっちゃった」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Yes! Thank you! You really saved me.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.211",
    "jp": "真由\n「他ん人たちんこつ知らんと？\n　他に捕まっとる人たち」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You know anythin' about the others? The\nother folks they caught?\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.212",
    "jp": "女の子\n「みんな収容所に・・・\n　助けに来たの？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Everyone's in the holding facility... Did you\ncome to rescue them?\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.213",
    "jp": "真由\n「うん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah.\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.214",
    "jp": "女の子\n「・・・じゃ私、収容所に戻って\n　みんなを逃がしてくる！」\n{wait}「たぶん今なら・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"...Then I'll go back to the facility and get\neveryone out!\"\n{wait}\"Right now, I bet I can...\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.215",
    "jp": "真由\n「わかった。あとはまかせんね」\n{wait}「あいつらは、こっちに引き付けて\n　おくけん。お願い」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Got it. I'll leave the rest to you.\"\n{wait}\"We'll keep those creeps busy over\nhere. Please.\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.216",
    "jp": "女の子\n「ＯＫ」\n{wait}「あ、そうそう、これ。\n　役に立つか分かんないけど」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"OK!\"\n{wait}\"Oh, right, here. Not sure if it'll help, but...\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.217",
    "jp": "真由\n「どがんしたと、これ？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Where'd you get this?\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.01.218",
    "jp": "女の子\n「まあまあ、細かいコト気にしないで。\n　じゃ、あたし行くね」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Now, now, don't sweat the details.\nOkay, I'm off!\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.219",
    "jp": "ちかな\n「大丈夫かい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"You okay?\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.01.220",
    "jp": "女の子\n「ええ！　ありがとう！\n　助かっちゃった」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Yes! Thank you! You really saved me.\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.221",
    "jp": "ちかな\n「他の人たち知らないかい？\n　他に捕まってる人たち」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Know anything about the others? The other\npeople they caught?\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.222",
    "jp": "女の子\n「みんな収容所に・・・\n　助けに来たの？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Everyone's in the holding facility... Did you\ncome to rescue them?\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.223",
    "jp": "ちかな\n「まあね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Something like that.\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.224",
    "jp": "女の子\n「・・・じゃ私、収容所に戻って\n　みんなを逃がしてくる！」\n{wait}「たぶん今なら・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"...Then I'll go back to the facility and get\neveryone out!\"\n{wait}\"Right now, I bet I can...\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.225",
    "jp": "ちかな\n「わかった」\n{wait}「連中はこっちに引き付けておくから、\n　頼むよ！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Got it.\"\n{wait}\"We'll keep them busy over here, so I'm\ncounting on you!\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.226",
    "jp": "女の子\n「まかせて」\n{wait}「あ、そうそう、これ。\n　役に立つか分かんないけど」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Leave it to me.\"\n{wait}\"Oh, right, here. Not sure if it'll help, but...\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.227",
    "jp": "ちかな\n「どうしたんだい、これ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Where'd you get this?\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.01.228",
    "jp": "女の子\n「えへへ。あいつらのフトコロから、\n　チョチョイってね」\n{wait}「じゃ、あたし行くね」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Ehehe. Pinched it right out of their pockets.\nEasy-peasy.\"\n{wait}\"Okay, I'm off!\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

@@ -30,3 +30,18 @@ the Flame Dragon sleeps under Aso. The girls fight Furuna's forces; the escaped 
 prisoners. They win back the Aso dragon vein. Suzune asks them to rescue her twin sister (Kotone), held in Miyazaki.
 Mayu collapses and the Flame Dragon speaks to her: it dwells within her; she must reclaim every dragon vein, find
 others with a dragon's soul, and awaken the Sky and Earth Dragons. They set off for Miyazaki.
+
+## 02 (Tokyo HQ; Miyazaki, haniwa park)
+Suzaku (Tomomi) chides a trembling Yumi for losing Aso ("You're my favorite, Yumi... there will be no second chance")
+and allows her to kill the girls. In Miyazaki the group finds Suzune's older twin Kotone (painfully shy; Suzune is the
+outgoing younger twin, laughs "nyahaha"). The twins can only summon their Guardians (Doga = Suzune, Gara = Kotone)
+together. Furuna chases them again and loses again. Chikana explains feng shui: seven dragon veins, a dragon asleep in
+each; the Kamikado guard them. Miyuki (and the twins) offer to help her take them all back; Chikana is touched.
+Furuna's and Kasho's gender is not stated so far: keep their lines gender-neutral until the script settles it.
+
+## 03 (ferry to Ehime / Seto Inland Sea)
+On the sea, Chikana admits she thought she'd fight alone. Mayu half-confides the Flame Dragon's warning; Miyuki has
+recurring dreams of Japan being crushed. They take leave from school. Yumi attacks; passenger Misato Kaibara
+recognises her as her childhood friend and neighbour "Yukko", thought dead. Yumi denies knowing her. Misato summons
+Mer ("Come forth from the noble azure abyss"), silent Keiko Hichiwa summons Nagi; Yumi summons Ur ("In the names of
+Metran and Sabaoth") and retreats. Suzune explains control piercings.

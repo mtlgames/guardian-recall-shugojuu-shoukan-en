@@ -156,6 +156,10 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 合体守護獣ぬえ | Combined Guardian Nue | | | |
 | 花香湯 | Floral Tonic | | Spirit-restoring medicine | |
 | 温泉たまご | hot-spring egg | | Miyuki's obsession | |
+| ゆっこ | Yukko | | Misato's childhood nickname for Yumi Hanzawa | |
+| メトラン / サバオト | Metran / Sabaoth | | Yumi's summoning words ("In the names of Metran and Sabaoth") | |
+| 瀬戸内海 | Seto Inland Sea | | | |
+| 風水 | feng shui | | | |
 
 ## Guardian species and named guardians (evd unit names, b001; 改 = "+", 弐 = "II")
 | JP | EN | max | notes | Avoid |

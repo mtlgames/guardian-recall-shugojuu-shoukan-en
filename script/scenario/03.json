@@ -7,560 +7,621 @@
   {
    "id": "g23.03.000",
    "jp": "美由紀\n「うーん、気持ちいい～！\n　海っていいねぇ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mmm, this feels sooo good! The sea is\nthe best!\"\n{wait}",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.001",
    "jp": "鈴音\n「ね、後でちょっと泳がない？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hey, want to go for a little swim later?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.002",
    "jp": "琴音\n「え？　私、泳げない・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Huh? But I can't swim...\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.003",
    "jp": "鈴音\n「だいじょーぶ！\n　バッチシ教えるから」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"No problem! I'll teach you, easy!\"\n{wait}",
    "slots": [
     3
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.004",
    "jp": "琴音\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"......\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.005",
    "jp": "美由紀\n「わーい！\n　あ、でも水着持ってないよ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yaaay! Oh, but I don't have a swimsuit?\"\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.006",
    "jp": "鈴音\n「いーじゃん。どうせ誰も見てないよ。\n　ここはハダカでばーんと！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Who cares? Nobody's looking anyway. Just\nstrip down and go for it!\"\n{wait}",
    "slots": [
     6
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.007",
    "jp": "美由紀\n「ばーんと・・・って、\n　う、うきゃーっ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Go for it... Wh-whaaa!\"\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.008",
    "jp": "真由\n「サルかあんたは」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What are you, a monkey?\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.009",
    "jp": "美由紀\n「ひっどーい！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"That's so mean!\"\n{wait}",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.010",
    "jp": "真由\n「今目指しとるとが瀬戸内海やろ？\n　それって海ん中なわけ？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Where we're headed is the Seto Inland Sea,\nright? Is the dragon vein out in the water?\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.011",
    "jp": "ちかな\n「正確に言えばね」\n{wait}「でも、そこを押さえてる荏狗覇菟を\n　倒しちまえばいいワケだから」\n{wait}「・・・不思議だよ。今、あんたたちと\n　こんな話、してるなんてさ」\n{wait}「神門一門なんて、エラそうな組織に\n　聞こえるけど、今じゃボロボロでさ」\n{wait}「荏狗覇菟と戦っていくのは、アタシ\n　ひとりなんだって思ってきたからね、\n　ずっと・・・」\n{wait}「それが、龍脈も龍も知らないっていう\n　あんたたちと一緒にやってこうなんて\n　コトになってるんだから」\n{wait}「ヘンな気分だよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Technically, yeah.\"\n{wait}\"But all we have to do is beat the Egubado\nholding it.\"\n{wait}\"...It's funny. Me, talking about this stuff with\nyou guys.\"\n{wait}\"The Kamikado clan sounds like some grand\norganization, but these days it's in tatters.\"\n{wait}\"I always figured I'd be fighting the Egubado\non my own... all this time...\"\n{wait}\"And now here I am, teaming up with you\nguys, who'd never even heard of dragon\nveins or dragons.\"\n{wait}\"It's a weird feeling.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.012",
    "jp": "真由\n「・・・ちかなは龍んこつば・・・\n　龍がおるって、信じとると？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Chikana, about the dragons... Do you believe\nthey're real?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.013",
    "jp": "ちかな\n「え・・・いや、神様みたいになら\n　信じてるけど。どうして？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Huh... Well, I believe in them the way you\nbelieve in gods. Why?\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.014",
    "jp": "真由\n「あたし、龍ん声ば・・・ううん、\n　その・・・」\n{wait}「日本が崩壊するとか言うたら、\n　信じる？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I heard a dragon's... No, I mean...\"\n{wait}\"If I told you Japan's gonna fall apart, would\nyou believe me?\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.015",
    "jp": "ちかな\n「・・・なんなのさ、\n　何が言いたいんだい」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...What's this about? What are you trying\nto say?\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.016",
    "jp": "美由紀\n「それって、んと・・・地震とか、\n　噴火とか、津波とか？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"You mean, like... earthquakes, or volcanoes,\nor tidal waves?\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.017",
    "jp": "真由\n「・・・なんよそれ」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...What're you on about?\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.018",
    "jp": "美由紀\n「日本がね、グシャグシャになる夢を\n　見るの。最近しょっちゅうなの」\n{wait}「こないだガッコで居眠りした時も\n　見たよ。すっごい恐いの」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I have dreams where Japan gets all smashed\nup. Lately I have them all the time.\"\n{wait}\"I had one the other day when I dozed off in\nclass, too. It was super scary.\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.019",
    "jp": "真由\n「・・・夢の話じゃなかよ」\n{wait}「それがほんなごつ、\n　なるとやったら・・・」\n{wait}「ごめん、よかと。こげん話、\n　信じられんわねフツー」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...This ain't about dreams.\"\n{wait}\"If that really happens...\"\n{wait}\"Sorry, forget it. Nobody'd normally believe\nsomethin' like this.\"\n{wait}",
    "slots": [
     19
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.020",
    "jp": "ちかな\n「真由・・・？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Mayu...?\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.021",
    "jp": "鈴音\n「あ、ねえ！　愛媛に着いたら、\n　次はどこに行くの？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Oh, hey! Once we get to Ehime, where do we\ngo next?\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.022",
    "jp": "ちかな\n「・・・ああ、龍脈は日本各地に\n　散らばってるんだよ」\n{wait}「京都とか、北海道とか・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Well, the dragon veins are scattered all\nover Japan.\"\n{wait}\"Kyoto, Hokkaido...\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.023",
    "jp": "真由\n「ほっ、北海道～！？　日本の端から\n　端まで歩くこつになっとか・・・」\n{wait}「じゃ、学校は当分休みって\n　こつになんね・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"H-Hokkaido!? So we're walkin' from one end\nof Japan to the other...\"\n{wait}\"Guess that means no school for a\ngood while...\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.024",
    "jp": "美由紀\n「えっ？　休み？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? No school?\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.025",
    "jp": "真由\n「あったりまえたい、休学くさ」\n{wait}「それに、家にもしばらく\n　帰れんごつなるけん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Well, obviously. We're takin' a leave of\nabsence.\"\n{wait}\"Plus, we won't be able to go home for a\nwhile either.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.026",
    "jp": "由美\n「しばらくですって？\n　アハハッ、二度と帰れないわよ！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"A while, you say? Ahaha, you'll never go\nhome again!\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.027",
    "jp": "鈴音\n「みんな、荏狗覇菟よ！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Everyone, it's the Egubado!\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.028",
    "jp": "美里\n「荏狗覇菟！？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"The Egubado!?\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.029",
    "jp": "景子\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"......\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.030",
    "jp": "由美\n「今度は阿蘇のようにはいかないわ！」\n{wait}「ザコ相手にちょっと勝ったからって、\n　調子に乗らないで！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"This time won't be like Aso!\"\n{wait}\"Don't get carried away just because you\nbeat a few small fry!\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.031",
    "jp": "美里\n「ゆ・・・ゆっこ！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Y... Yukko!\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.032",
    "jp": "由美\n「・・・！？」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"...!?\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.033",
    "jp": "美里\n「ゆっこ！　やっぱり・・・\n　やっぱり生きてたのね！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukko! I knew it... I knew you were alive!\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.034",
    "jp": "由美\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"......\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.035",
    "jp": "美里\n「ゆっこったら！　あたし！　美里よ！\n　海原美里！」\n{wait}「どうして・・・生きてるんなら\n　どうして連絡くれないのよ・・・\n　心配したんだよ・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukko, come on! It's me! Misato! Misato\nKaibara!\"\n{wait}\"Why... If you were alive, why didn't you get in\ntouch... I was so worried about you...\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.036",
    "jp": "由美\n「・・・うるさい・・・」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"...Shut up...\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.037",
    "jp": "美里\n「ゆっこ？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukko?\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.038",
    "jp": "由美\n「うるさいハエね。\n　少しは黙ったらどう？」\n{wait}「私は荏狗覇菟の闘士。お前のような\n　下衆に知り合いはいないわ」\n{wait}「さあ、おとなしく捕まるか\n　この場で死ぬか、\n　好きな方を選びなさい！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"What an annoying fly. Why don't you hold\nyour tongue?\"\n{wait}\"I am a Warrior of the Egubado. I have no\nacquaintances among filth like you.\"\n{wait}\"Now, surrender quietly or die right here.\nTake your pick!\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.039",
    "jp": "美里\n「人違い・・・？\n　ううん、あれはゆっこだ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"The wrong person...? No, that's Yukko.\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.03.040",
    "jp": "真由\n「ちょっと！\n　あんたの相手は、あたしらやろ！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Hey! You're fightin' us, remember!\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.041",
    "jp": "ちかな\n「しょうがないな・・・」\n{wait}「鈴音、琴音！\n　あの子たち守ってやって」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Can't be helped...\"\n{wait}\"Suzune, Kotone! Protect those two.\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.042",
    "jp": "美里\n「・・・蒼く気高き深淵より来たりて、\n　我を守護せよ！　メール！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...Come forth from the noble azure abyss\nand protect me! Mer!\"\n{wait}",
    "slots": [
     42
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.043",
    "jp": "美由紀\n「え！？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh!?\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.044",
    "jp": "由美\n「・・・！！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"...!!\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.045",
    "jp": "景子\n「凪・・・みんなを守って・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Nagi... Protect everyone...\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.046",
    "jp": "真由\n「ど・・・どうなっとると」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Wh... What's goin' on...\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.047",
    "jp": "鈴音\n「守る必要、ないみたいよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Looks like they don't need protecting.\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.048",
    "jp": "美里\n「ゆっこ・・・荏狗覇菟だなんて、\n　うそだ・・・！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukko... with the Egubado? It can't be...!\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.049",
    "jp": "由美\n「・・・メトランとサバオトの\n　名にかけて・・・」\n{wait}「ウール・・・ウール、ウール！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"...In the names of Metran and Sabaoth...\"\n{wait}\"Ur... Ur, Ur!\"\n{wait}",
    "slots": [
     49
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.050",
    "jp": "美里\n「ゆっこ！\n　いったいどうしちゃったの！？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukko! What on earth happened to you!?\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.051",
    "jp": "由美\n「知らないって言うのに！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"I told you, I don't know you!\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.052",
    "jp": "由美\n「クッ・・・今回は退いてやるわ！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Tch... I'll withdraw this time!\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.053",
    "jp": "美里\n「ゆっこ！！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukko!!\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.054",
    "jp": "美里\n「ゆっこ・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yukko...\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.055",
    "jp": "ちかな\n「ふたりとも、ありがとう。\n　助かったよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Thanks, you two. You really helped us out.\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.056",
    "jp": "美里\n「・・・礼なんて」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...No need for thanks.\"\n{wait}",
    "slots": [
     56
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.057",
    "jp": "鈴音\n「ね、あなた・・・\n　あの人、お友達なんでしょう？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hey... That girl's your friend, isn't she?\"\n{wait}",
    "slots": [
     57
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.058",
    "jp": "美里\n「幼なじみよ」\n{wait}「家だって隣どうしで、\n　小さい頃からずっと一緒で・・・\n　人違いなんかじゃない」\n{wait}「なのに・・・」\n{wait}「なにがなんだか、訳が分からないわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"My childhood friend.\"\n{wait}\"We lived right next door to each other, we\nwere together ever since we were little... It's\nnot the wrong person.\"\n{wait}\"And yet...\"\n{wait}\"I don't understand any of this.\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.059",
    "jp": "鈴音\n「それ、当然よ。あの人きっと、\n　制御ピアスで操られているのよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Of course you don't. She's probably being\ncontrolled by a control piercing.\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.060",
    "jp": "美里\n「・・・制御ピアス？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...A control piercing?\"\n{wait}",
    "slots": [
     60
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.061",
