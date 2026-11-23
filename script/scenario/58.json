@@ -7,79 +7,87 @@
   {
    "id": "g23.58.000",
    "jp": "じゃあ、ここでは超力の種類を系統別に\n解説していこう。\n{wait}超力の系統は全部で６種類ある。\nまずは、回復系超力。\n{wait}",
-   "en": "",
+   "en": "All right, here I'll explain the kinds of Psi\nby type.\n{wait}There are six types of Psi in all. First,\nrecovery Psi.\n{wait}",
    "slots": [
     0
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.58.001",
    "jp": "このマークが回復系超力。\n{wait}この系統の超力は、文字通りに減少した\nＳＰやＭＰを回復させる効果がある。\n{wait}また、この系統の特徴として、消費する\nＡＰで回復量をコントロールできるって\nのもある。\n{wait}例えばこの『治癒』ってのを使ってみる\nと・・・\n{wait}",
-   "en": "",
+   "en": "This mark means recovery Psi.\n{wait}Psi of this type, as the name says, restores\nlost SP or MP.\n{wait}Another feature of this type is that you can\ncontrol how much it restores by how much AP\nyou spend.\n{wait}For example, if we use this one, 'Cure'...\n{wait}",
    "slots": [
     1
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.002",
    "jp": "このように消費ＡＰの量と回復ＳＰの量\nが連動している。\n{wait}かける相手の残りＳＰやＭＰの量、また\n自分の残りＡＰを考えて使いこなしてい\nこう。\n{wait}",
-   "en": "",
+   "en": "the AP spent and the SP restored are\nlinked, like this.\n{wait}Think about the target's remaining SP\nand MP, and your own remaining AP, and\nuse it well.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.58.003",
    "jp": "次は戦闘補助系の超力。\n{wait}",
-   "en": "",
+   "en": "Next is battle-support Psi.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.58.004",
    "jp": "このマークが戦闘補助系超力だ。\n{wait}この戦闘補助系の超力の特徴として、\n持続時間が１戦闘のみってのがある。\n{wait}そんなに短いの？　と思うかもしれない\nけど、一度かけると１回戦闘するまで何\nターンでも持続するんだ。\n{wait}ためしに『幸運』をかけてみよう。\n{wait}",
-   "en": "",
+   "en": "This mark means battle-support Psi.\n{wait}A feature of battle-support Psi is that it\nlasts for only one battle.\n{wait}That short? you might think, but once it's on,\nit lasts however many turns it takes until one\nbattle happens.\n{wait}Let's try using 'Luck'.\n{wait}",
    "slots": [
     4
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.005",
    "jp": "簡易ステータスを見ると、『幸運』がか\nかってるのがわかるね？\n{wait}この状態で、とりあえずこのターンを終\n了してみる。\n{wait}",
-   "en": "",
+   "en": "The short status shows 'Luck' is in\neffect, right?\n{wait}Let's just end this turn like this.\n{wait}",
    "slots": [
     5
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.006",
    "jp": "次のターンに進んだけど、見ての通り\n『幸運』はかかったままだ。\nさらに・・・\n{wait}",
-   "en": "",
+   "en": "We moved on to the next turn, but as you\ncan see, 'Luck' is still in effect. And then...\n{wait}",
    "slots": [
     6
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.007",
    "jp": "もう１ターン経過させた。\nやっぱり『幸運』はかかったままだね。\n{wait}ここで１回でも戦闘をすると・・・\n{wait}",
-   "en": "",
+   "en": "another turn has passed. 'Luck' is still in\neffect, sure enough.\n{wait}But once it fights even one battle...\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.008",

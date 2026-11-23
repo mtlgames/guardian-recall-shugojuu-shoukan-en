@@ -7,79 +7,87 @@
   {
    "id": "g23.53.000",
    "jp": "直接、こちらの思う通りに操作すること\nのできない守護獣だけど、\n{wait}ある程度、こんな感じで動いて欲しいと\n大まかな指示することは可能だ。\n{wait}この指示が『思考』と呼ばれるものだ。\n{wait}",
-   "en": "",
+   "en": "You can't control a Guardian directly the way\nyou'd like,\n{wait}but you can give it rough instructions about\nhow you'd like it to move.\n{wait}These instructions are called 'Tactics'.\n{wait}",
    "slots": [
     0
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.53.001",
    "jp": "下のステータス画面を見て欲しい。\nユニットの名前の下に『私を守護せよ』\nって表示してあるよね？\n{wait}これが現在セットしてある思考の名前。\nつまり、この場合は『私を守護せよ』\nってことだから、\n{wait}マスターが\n「自分を守るように行動しなさい」\nと守護獣に指示を送っているわけだ。\n{wait}ためしに、この状態で「命令実行」して\nみると、\n{wait}",
-   "en": "",
+   "en": "Take a look at the status screen below. Under\nthe unit's name, it says 'Guard me!', right?\n{wait}That's the name of the Tactic currently set.\nIn other words, in this case it's 'Guard me!',\n{wait}so the Master is instructing the Guardian,\n\"Act so as to protect me.\"\n{wait}Let's try 'Execute Order' like this, and...\n{wait}",
    "slots": [
     1
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.53.002",
    "jp": "目の前の敵を攻撃しにいったね。\nこれは守護獣が、\n{wait}「このユニットがマスターにとって危険\n　な存在だ」\nと判断したってわけ。\n{wait}『私を守護せよ』の名称通りの行動だと\n言えるよね。\n{wait}",
-   "en": "",
+   "en": "It went to attack the enemy right in front of\nit. That's because the Guardian\n{wait}judged that \"this unit is a danger to my\nMaster.\"\n{wait}You could say it acted just like the name\n'Guard me!' says.\n{wait}",
    "slots": [
     2
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.53.003",
    "jp": "それじゃ、今度は少し敵から離れたとこ\nろで、同じように『私を守護せよ』で\n「命令実行」してみよう。\n{wait}",
-   "en": "",
+   "en": "All right, now let's move a little away from\nthe enemy and 'Execute Order' with 'Guard\nme!' the same way.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.53.004",
    "jp": "今度は敵を攻撃しにいかずに、マスター\nのすぐ側にきた。\n{wait}これは、守護獣が「離れた敵を攻撃しに\n行くより、マスターの側についていた方\nがよい」と判断したってことだ。\n{wait}",
-   "en": "",
+   "en": "This time, instead of going to attack the\nenemy, it came right to its Master's side.\n{wait}That's because the Guardian judged \"it's\nbetter to stay by my Master than to go\nattack a distant enemy.\"\n{wait}",
    "slots": [
     4
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.53.005",
    "jp": "これで『私を守護せよ』という思考がど\nんなモノか見えてきたんじゃないかな？\n{wait}『私を守護せよ』と命令すると、守護獣\nはマスターの近くに敵がいればそいつを\n攻撃し、\n{wait}近くに敵がいなければ、マスターにぴっ\nたり寄りそうように近づくという行動を\nとるわけだ。\n{wait}",
-   "en": "",
+   "en": "Now you're starting to see what kind of\nTactic 'Guard me!' is, aren't you?\n{wait}When ordered to 'Guard me!', if there's an\nenemy near its Master, the Guardian\nattacks it,\n{wait}and if there's no enemy nearby, it moves in\nclose and sticks right by its Master.\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.53.006",
    "jp": "このように、『思考』は守護獣に直接こ\nと細かく「何々をしろ！」という命令を\nするものではない。\n{wait}ただ「こんな感じで行動してほしい」と\nいう方針を指示するものだということを\n理解してほしい。\n{wait}さて次のステップから『私を守護せよ』\n以外の別の思考の説明をしていくんだけ\nど、ここでちょっとアドバイス。\n{wait}慣れないうちは『私を守護せよ』だけ使\nっていけばいい。\n{wait}最初に説明したけど、この世界では敵守\n護獣に戦闘力の無いマスターを攻撃され\nるってのは、かなりマズい状態だ。\n{wait}その点、『私を守護せよ』ならば守護獣\nがマスターの壁になってくれるし、\n{wait}近くに敵がいればそいつを優先的に攻撃\nしてくれるため、非常に頼もしい思考な\nんだ。\n{wait}『私を守護せよ』に使い慣れてきたら、\n他の思考に手を出してみるって感覚でい\nいと思うよ。\n{wait}",
-   "en": "",
+   "en": "So, as you can see, a 'Tactic' isn't a detailed,\ndirect command telling your Guardian \"Do this!\nDo that!\"\n{wait}Please understand that it only sets a general\npolicy: \"I'd like you to act something like this.\"\n{wait}Now, starting with the next step I'll explain\nthe Tactics other than 'Guard me!', but first,\na little advice.\n{wait}Until you're used to things, you can get by\nwith just 'Guard me!'.\n{wait}As I explained at the start, in this world\nit's a pretty bad situation when an\nenemy Guardian attacks your Master,\n{wait}who can't fight.\n{wait}With 'Guard me!', on the other hand, your\nGuardian becomes a wall for its Master,\n{wait}and it attacks nearby enemies first, so it's a\nvery reliable Tactic.\n{wait}Once you're comfortable with 'Guard\nme!', I think it's fine to start dabbling in\nother Tactics.\n{wait}",
    "slots": [
     6
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.53.098",
    "jp": "ステップ０５\n　　　　『思考とは・・・』　　　　　\n{wait}",
-   "en": "",
+   "en": "Step 05\n'What Is a Tactic...'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

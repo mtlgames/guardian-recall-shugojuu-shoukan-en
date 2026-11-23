@@ -7,111 +7,122 @@
   {
    "id": "g23.50.000",
    "jp": "まずは『マスター』と『守護獣』という\n２種類のユニットの基本的な役割を説明\nしよう。\n{wait}",
-   "en": "",
+   "en": "First, let's explain the basic roles of the two\nkinds of unit: the 'Master' and the 'Guardian'.\n{wait}",
    "slots": [
     0
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.001",
    "jp": "『マスター』は自分で自分が思うように\n動ける。しかし、戦闘能力は無い。\n{wait}敵から攻撃されることはあっても、自分\nから攻撃をしかけることはできない。\n{wait}",
-   "en": "",
+   "en": "A 'Master' can move however they like.\nHowever, they have no fighting ability.\n{wait}They can be attacked by enemies, but they\ncan't launch an attack of their own.\n{wait}",
    "slots": [
     1
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.002",
    "jp": "逆に『守護獣』は戦闘能力を持つ。しか\nし、自分の思うようには動かせない。\n{wait}マスターが「思考」によって、ある程度\nの指針を決めることは可能だけど、\n{wait}最終的にどんな動きをするのかは、\n守護獣しだいだ。\n{wait}",
-   "en": "",
+   "en": "A 'Guardian', on the other hand, can fight.\nHowever, you can't move it however you like.\n{wait}With a 'Tactic', its Master can set some\ngeneral guidelines,\n{wait}but in the end, how it actually moves is up to\nthe Guardian.\n{wait}",
    "slots": [
     2
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.003",
    "jp": "で、一番重要なのが『マスター』とその\n『守護獣』は別物ではなく、\n２体で１セットであるということ。\n{wait}どちらかがダメージを受けると、\nもう一方も同じ数値分だけダメージを\n受けてしまう。\n{wait}ここで例を見てみよう。\n{wait}",
-   "en": "",
+   "en": "And the most important point: a 'Master' and\ntheir 'Guardian' are not separate. The two of\nthem make one set.\n{wait}When either one takes damage, the other\ntakes exactly the same amount of\ndamage too.\n{wait}Let's look at an example.\n{wait}",
    "slots": [
     3
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.004",
    "jp": "今の攻撃で敵の守護獣のＳＰ（気力ポ\nイント）に５０のダメージを与えてた\nね。\n{wait}ここで、敵のマスターの方を見てみる\nと・・・\n{wait}",
-   "en": "",
+   "en": "That attack just dealt 50 damage to the\nenemy Guardian's SP (Spirit Points).\n{wait}Now, if we look at the enemy's Master...\n{wait}",
    "slots": [
     4
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.005",
    "jp": "やっぱりＳＰが５０減ってるね。\n{wait}このマスターは直接に攻撃されていない\nけど同じだけのダメージを受けてしまっ\nた。\n{wait}同様にマスターが攻撃されてダメージを\n受けると・・・\n{wait}",
-   "en": "",
+   "en": "Sure enough, its SP dropped by 50 as well.\n{wait}This Master wasn't attacked directly, but it\ntook the same amount of damage.\n{wait}In the same way, when a Master is attacked\nand takes damage...\n{wait}",
    "slots": [
     5
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.006",
    "jp": "今、攻撃で受けた１５０のダメージが、\n{wait}",
-   "en": "",
+   "en": "The 150 damage just taken from\nthat attack...\n{wait}",
    "slots": [
     6
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.007",
    "jp": "そのまま守護獣のダメージにもなってい\nるね。\n{wait}さらにどちらかのＳＰが０になってしま\nうと・・・\n{wait}",
-   "en": "",
+   "en": "becomes the Guardian's damage too,\njust as it is.\n{wait}And if either one's SP drops to 0...\n{wait}",
    "slots": [
     7
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.008",
    "jp": "もう一方のユニットも戦闘不能になって\nしまう。\n{wait}この「ＳＰを２体で共有している」\nということは重要なので気をつけよう。\n{wait}",
-   "en": "",
+   "en": "the other unit is knocked out of the\nfight too.\n{wait}The two of them share their SP. That's\nimportant, so keep it in mind.\n{wait}",
    "slots": [
     8
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.50.009",
    "jp": "さて、戦術的には敵を攻撃する時は、\nマスターを狙った方がいい。\n{wait}マスターを攻撃すれば反撃は無いし、\n今の例でもわかるように守護獣を攻撃す\nるより大ダメージが期待できる。\n{wait}逆に、防御する時は、いかにマスターを\n攻撃されないようにするかというのが\nポイントだ。\n{wait}マスターはあくまで後方。前面で闘うの\nは守護獣という図式をしっかり頭にたた\nきこんでおこう。\n{wait}",
-   "en": "",
+   "en": "Now, tactically speaking, when you attack the\nenemy, it's better to aim for the Master.\n{wait}A Master can't counterattack, and as the\nexample just showed, you can expect more\ndamage than by attacking the Guardian.\n{wait}On the other hand, when you're defending,\nthe key is how to keep your Masters from\nbeing attacked.\n{wait}Masters stay in the rear. Guardians fight up\nfront. Drill that picture into your head.\n{wait}",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.50.098",
    "jp": "ステップ０１\n　　　　『マスターと守護獣』　　　　\n{wait}",
-   "en": "",
+   "en": "Step 01\n'Masters and Guardians'\n{wait}",
    "slots": [
     98
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

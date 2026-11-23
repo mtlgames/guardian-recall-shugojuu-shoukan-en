@@ -61,6 +61,20 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 謎の男 | Mysterious Man | | speaker label | |
 | 謎の守護獣 | Mysterious Guardian | | speaker label | |
 | 闘士 | Warrior | | Egubado rank-and-file; also generic noun | Fighter |
+| ステップ０１ | Step 01 | | tactics tutorial title cards (entries 50-65), 01-14 | |
+| ステップ０２ | Step 02 | | | |
+| ステップ０３ | Step 03 | | | |
+| ステップ０４ | Step 04 | | | |
+| ステップ０５ | Step 05 | | | |
+| ステップ０６ | Step 06 | | | |
+| ステップ０７ | Step 07 | | | |
+| ステップ０８ | Step 08 | | | |
+| ステップ０９ | Step 09 | | | |
+| ステップ１０ | Step 10 | | | |
+| ステップ１１ | Step 11 | | | |
+| ステップ１２ | Step 12 | | | |
+| ステップ１３ | Step 13 | | | |
+| ステップ１４ | Step 14 | | | |
 
 ## Characters (full names; Western order)
 | JP | EN | max | notes | Avoid |
@@ -170,6 +184,46 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 世田谷トンダーエッグ | Setagaya Tonder Egg | | west gate (Tokyo Dome parody) | |
 | 東京第二国際空港 | Tokyo Second International Airport | | south gate | |
 | 龍鬼 | Ryuki | | Ryukihi's Guardian (ch. 41) | |
+
+## UI commands (tactics map; EXE labels must match the tutorials, entries 50-65)
+| JP | EN | max | notes | Avoid |
+|---|---|---|---|---|
+| 移動 | Move | | (no lint): unit menu (30 px box) | |
+| 行動 | Action | | (no lint): unit menu; submenu 超力 アイテム 話す 送還/召喚 | |
+| 待機 | Wait | | (no lint): unit menu | |
+| 送還 | Dismiss | | send the Guardian back (行動 submenu) | |
+| 命令実行 | Execute Order | | 思考 submenu; also "execute" in prose | |
+| 思考変更 | Change Tactic | | 思考 submenu | |
+| 対象確認 | Check Target | | 思考 submenu | |
+| 私を守護せよ | Guard me | | Tactic orders: written with "!" (Guard me!, Attack!, Charge!...); lint checks the words only | |
+| 攻撃せよ | Attack | | | |
+| 突撃せよ | Charge | | | |
+| 遠くから攻撃せよ | Attack from afar | | | |
+| 接近して攻撃せよ | Close in and attack | | | |
+| 気力を癒せ | Heal Spirit | | | |
+| 移動せよ | Move | | | |
+| 何もするな | Do nothing | | | |
+| 接近戦 | melee | | 接近戦力 = Melee (parameter) | |
+| 投射戦 | ranged | | 投射戦力 = Ranged (parameter) | |
+| 防御力 | Defense | | parameter | |
+| 命中速度 | Accuracy | | parameter | |
+| 回避速度 | Evasion | | parameter | |
+| 治癒力 | Healing | | parameter | |
+| 移動力 | Movement | | parameter | |
+| を高めよ | Boost | | Tactics 〇〇を高めよ = "Boost Melee!", "Boost Ranged!", "Boost Defense!", "Boost Accuracy!", "Boost Evasion!", "Boost Healing!", "Boost Movement!" | |
+| 暴走 | Berserk | | (no lint): a Guardian out of MP; shown as its Tactic name | |
+| 超力ポイント | Psi Points | | AP | |
+| 思考ポイント | Tactic Points | | MP | |
+| 気力ポイント | Spirit Points | | SP | |
+| 治癒 | Cure | | (no lint, inside 治癒力): Psi | |
+| 岩楯 | Rock Shield | | Psi | |
+| 加護 | Blessing | | Psi | |
+| 気合 | Focus | | Psi | |
+| 幸運 | Luck | | Psi | |
+| ＴＵＲＮＥＮＤ | TURN END | | △ sub-command | |
+| サブコマンド | sub-command | | the △ ring menu | |
+| 現在の思考のまま命令実行 | Execute Order with current Tactic | | TURN END prompt option (EXE) | |
+| 「何もするな！」に変更 | Change to "Do nothing!" | | TURN END prompt option (EXE) | |
 
 ## Guardian species and named guardians (evd unit names, b001; 改 = "+", 弐 = "II")
 | JP | EN | max | notes | Avoid |

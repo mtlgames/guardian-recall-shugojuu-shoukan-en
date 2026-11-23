@@ -7,121 +7,133 @@
   {
    "id": "g23.55.000",
    "jp": "「思考」には守護獣の行動を決める以外\nにも重要な要素がある。それは守護獣の\n能力に直接影響するということだ。\n{wait}まず、ステータス画面のパラメータの見\n方を教えよう。\n{wait}ユニットコマンドの『情報』を実行して\nみる。\n{wait}",
-   "en": "",
+   "en": "Besides deciding a Guardian's actions, 'Tactics'\nhave another important element: they\ndirectly affect the Guardian's abilities.\n{wait}First, let me show you how to read the\nparameters on the status screen.\n{wait}Let's use the unit command 'Info'.\n{wait}",
    "slots": [
     0
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.001",
    "jp": "右の方にＡｔ、Ｉｎ、Ｄｆといった略称\nと○○○／□□□で示された数値が出て\nいるね。\n{wait}これがマスターのパラメータだ。守護獣\nもいくつか略称が異なるとは言え、同じ\n表記法になっている。\n{wait}で、この略称がそれぞれ何を意味してい\nるかってことだけど、ここで一度に説明\nを聞いても覚えきれないと思う。\n{wait}そんな時のために、ステータス画面には\nヘルプメッセージが用意してあるので、\nそちらを参照してもらいたい。\n{wait}ヘルプの起動はＳＥＬＥＣＴボタンだ。\nこれを押してみると、\n{wait}",
-   "en": "",
+   "en": "On the right are abbreviations like At, In and\nDf, with values shown as 000/000.\n{wait}These are the Master's parameters.\nGuardians use the same notation, though a\nfew of the abbreviations differ.\n{wait}As for what each abbreviation means, I don't\nthink you could remember them all if I\nexplained them here in one go.\n{wait}For times like that, the status screen has\nhelp messages, so please refer to those.\n{wait}Help opens with the SELECT button.\nPress it, and...\n{wait}",
    "slots": [
     1
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.002",
    "jp": "画面の左上にカーソルが出たね。これを\n知りたいパラメータのところへ持ってい\nき、○ボタンで決定してみれば、\n{wait}",
-   "en": "",
+   "en": "a cursor appears in the upper left of the\nscreen. Move it to the parameter you want\nto know about, press the Circle button,\n{wait}",
    "slots": [
     2
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.003",
    "jp": "このようなヘルプメッセージが表示され\nる。ゲームを進めながら、少しずつ覚え\nていくようにしよう。\n{wait}",
-   "en": "",
+   "en": "and a help message like this is shown. Learn\nthem little by little as you play.\n{wait}",
    "slots": [
     3
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.004",
    "jp": "さて、パラメータの見方の話に戻ろう。\n各数値の○○○／□□□という表記法だ\nけど、\n{wait}これは\n　（現在値）／（基本値）\nということを意味している。\n{wait}基本値ってのは、そのユニット固有の\n数値のこと。レベルアップ以外で変動\nすることはない。\n{wait}現在値ってのは、実際にゲームに反映さ\nれる数値のこと。基本値にさまざまな修\n正をくわえた値だ。\n{wait}そういうわけで重要なのは、\n　（現在値）／（基本値）\nの左側の現在値の方。\n{wait}基本値がいくら高くても、何らかの影響\nで現在値が低くなっていたら、そちらの\n低い数値が行動に影響するわけだ。\n{wait}マスターの場合、このパラメータの変動\nは装備アイテムによって発生する。\n{wait}もし、何かアイテムを装備していれば、\nそのアイテムのボーナス分、現在値が上\n昇して表示されることになる。\n{wait}",
-   "en": "",
+   "en": "Now, back to how to read the parameters.\nEach value is written as 000/000,\n{wait}which means (current value)/(base value).\n{wait}The base value is the unit's own value. It\ndoesn't change except when it levels up.\n{wait}The current value is the one actually used in\nthe game: the base value with all kinds of\nmodifiers added.\n{wait}So the one that matters is the current value,\non the left of (current value)/(base value).\n{wait}However high the base value is, if something\nhas lowered the current value, it's that lower\nvalue that affects its actions.\n{wait}For Masters, these parameters change\nbecause of equipped items.\n{wait}If a Master has an item equipped, the\ncurrent value is shown raised by that\nitem's bonus.\n{wait}",
    "slots": [
     4
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.005",
    "jp": "さて、次に守護獣のパラメータを見てみ\nよう。\n{wait}やり方はマスターと同じ。守護獣にカー\nソルをあわせて『情報』を実行する。\n{wait}",
-   "en": "",
+   "en": "Next, let's look at a Guardian's parameters.\n{wait}It works the same as for a Master: put the\ncursor on the Guardian and use 'Info'.\n{wait}",
    "slots": [
     5
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.006",
    "jp": "これが守護獣のステータス画面だ。いく\nつかマスターと異なる表示があるけど、\n詳しくはヘルプを参照してほしい。\n{wait}ただ、各パラメータはマスターと同じく\n　（現在値）／（基本値）\nの表記になっているのがわかるね。\n{wait}さて、ここで２つの数値を比べてみよ\nう。マスターと違って、すでにいろい\nろな修正が加わっている。\n{wait}実は、これが思考による影響なんだ。\n{wait}例えば今の思考は『攻撃せよ』・・・\n{wait}",
-   "en": "",
+   "en": "This is a Guardian's status screen. Some of\nwhat it shows differs from a Master's, so\nplease see the help for details.\n{wait}But you can see each parameter is written\nas (current value)/(base value), just like for\na Master.\n{wait}Now let's compare the two values. Unlike the\nMaster, various modifiers have already\nbeen added.\n{wait}In fact, this is the effect of its Tactic.\n{wait}For example, its current Tactic is 'Attack!'...\n{wait}",
    "slots": [
     6
    ],
    "pre": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.012",
    "jp": "この『攻撃せよ』の時、\nＡｌ（投射戦力）は２０３／１８５\nＨｌ（治癒力）　は０４８／０５９\n{wait}という数値が表示されている。\n{wait}ちょっとここで思考を『気力を癒せ』\nに変えてみよう。\n{wait}",
-   "en": "",
+   "en": "With 'Attack!', it shows Al (Ranged) 203/185\nand Hl (Healing) 048/059.\n{wait}Now let's change its Tactic to 'Heal Spirit!'.\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.55.009",
    "jp": "再びパラメータを見てみよう。\nすると、\n{wait}Ａｌ（投射戦力）は１３９／１８５\nＨｌ（治癒力）　は０８５／０５９\nとなっている。\n{wait}つまり、\nＡｌ（投射戦力）の現在値は\n２０３→１３９と６４減少して、\n{wait}Ｈｌ（治癒力）の現在値は、\n０４８→０８５と３７上昇した。\n{wait}これが思考を『気力を癒せ』にしたこと\nによる影響なんだ。\n{wait}『気力を癒せ』と命令されたことで、\nその守護獣は活動エネルギーの多くを\n治癒行動に使い、\n{wait}その分、攻撃力が低下したってわけだ。\n{wait}じゃ今度は『移動せよ』にしてみよう。\n{wait}今のＭｖ（移動力）は\n　００５／００５\nと現在値と基本値が変わらないけど\n{wait}",
-   "en": "",
+   "en": "Let's look at the parameters again.\n{wait}Now it shows Al (Ranged) 139/185 and Hl\n(Healing) 085/059.\n{wait}In other words, the current value of Al\n(Ranged) went from 203 to 139, down 64,\n{wait}and the current value of Hl (Healing) went\nfrom 048 to 085, up 37.\n{wait}That's the effect of switching its Tactic to\n'Heal Spirit!'.\n{wait}Because it was ordered to 'Heal Spirit!',\nthe Guardian is putting much of its energy\ninto healing,\n{wait}and its attack power dropped by that much.\n{wait}Now let's try 'Move!'.\n{wait}Right now, Mv (Movement) is 005/005: the\ncurrent and base values are the same.\n{wait}",
    "slots": [
     9
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.010",
    "jp": "『移動せよ』をセットすると\n{wait}Ｍｖ（移動力）は\n　００６／００５\nと現在値が１アップしている。\n{wait}だけど他のパラメータは、どれも低下\nしちゃってるね。\n{wait}これも守護獣が移動に多くのエネルギー\nを回した結果、こういう移動重視のパラ\nメータになったってわけだ。\n{wait}",
-   "en": "",
+   "en": "With 'Move!' set,\n{wait}Mv (Movement) is 006/005: the current value\nwent up by 1.\n{wait}But all the other parameters have dropped.\n{wait}Again, the Guardian put a lot of energy into\nmoving, which gave it these\nmovement-focused parameters.\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.011",
    "jp": "このように思考は、守護獣の行動だけで\nなく、能力自体にも影響を与えている。\n{wait}例えば『攻撃せよ』は攻撃に集中してる\n分、攻撃力は上がるけど、実は防御がお\nろそかになっている。\n{wait}敵に突っ込むのはいいが、反撃されると\nダメージも大きいってことだね。\n{wait}『何もするな！』は全く何もしない思考\nと紹介したけど、身動きしない分、防御\n力が少しだけ上昇してたりするんだ。\n{wait}細かい数値の話だけど、思考を使いこな\nせるようになってきたら、こういう点に\nも気を配るといいよ。\n{wait}本当に＋１の差が勝敗を分けることもあ\nるからね。\n{wait}",
-   "en": "",
+   "en": "Like this, Tactics affect not only a Guardian's\nactions but its abilities themselves.\n{wait}For example, 'Attack!' focuses on attacking,\nso its attack power goes up, but it actually\nneglects defense.\n{wait}Charging the enemy is fine, but the damage\nfrom a counterattack will be big.\n{wait}I introduced 'Do nothing!' as a Tactic that\ndoes nothing at all, but since it stays still, its\nDefense goes up a little.\n{wait}These are small numbers, but once you're\ngetting good with Tactics, keep an eye on\npoints like these.\n{wait}Sometimes a difference of just +1 really can\ndecide a battle.\n{wait}",
    "slots": [
     11
    ],
    "pre": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.55.098",
    "jp": "ステップ０８\n　　　　『思考とパラメータ』　　　　\n{wait}",
-   "en": "",
+   "en": "Step 08\n'Tactics and Parameters'\n{wait}",
    "slots": [
     98
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

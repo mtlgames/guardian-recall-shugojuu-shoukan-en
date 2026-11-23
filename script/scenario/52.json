@@ -7,106 +7,117 @@
   {
    "id": "g23.52.000",
    "jp": "敵と戦うには守護獣が必要だ。マスター\nだけでは敵を攻撃できないからね。\n{wait}マップによっては、戦闘開始時に守護獣\nが配置されていない場合もある。こうい\nう時はまず守護獣を『召喚』しよう。\n{wait}",
-   "en": "",
+   "en": "You need a Guardian to fight the enemy. A\nMaster alone can't attack.\n{wait}On some maps, no Guardians are placed when\nthe battle starts. In that case, first 'Summon'\nyour Guardian.\n{wait}",
    "slots": [
     0
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.52.001",
    "jp": "『召喚』は「行動」コマンドの中だ。\nこれを実行すると、\n{wait}",
-   "en": "",
+   "en": "'Summon' is in the 'Action' commands. When\nyou use it,\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.52.002",
    "jp": "このような『召喚』可能範囲が表示され\nるので、『召喚』させたい位置を決めて\n○ボタンを押してくれればいい。\n{wait}",
-   "en": "",
+   "en": "the area where you can 'Summon' is shown\nlike this, so just pick where you want to\n'Summon' and press the Circle button.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.52.003",
    "jp": "これで『召喚』完了。戦闘準備がととの\nったってわけだ。\n{wait}",
-   "en": "",
+   "en": "And with that, the 'Summon' is done. You're\nready for battle.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.52.004",
    "jp": "さて『召喚』の逆。つまり、守護獣を引\nっ込めるっていう行動は『送還』と呼ば\nれている。\n{wait}守護獣がマップ上にいるマスターは、\n『召喚』コマンドの代わりに『送還』\nというコマンドを持っている。\n{wait}ためしに、これを同じように実行してみ\nよう。\n{wait}",
-   "en": "",
+   "en": "Now, the opposite of 'Summon', putting a\nGuardian away, is called 'Dismiss'.\n{wait}A Master whose Guardian is on the map has a\n'Dismiss' command in place of the 'Summon'\ncommand.\n{wait}Let's try using it the same way.\n{wait}",
    "slots": [
     4
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.52.005",
    "jp": "『召喚』と違って、注意しなければなら\nないのが『送還』には有効範囲があると\nいうこと。\n{wait}守護獣がマスターから離れすぎていると\n『送還』することができないんだ。\n{wait}正確にはマスターから３マス以内。これ\n以上離れると守護獣が『送還』命令を聞\nいてくれないんだね。\n{wait}",
-   "en": "",
+   "en": "Unlike 'Summon', one thing you need to watch\nout for is that 'Dismiss' has a range.\n{wait}If the Guardian is too far from its Master,\nyou can't 'Dismiss' it.\n{wait}To be exact, it must be within 3 squares of\nthe Master. Any farther, and the Guardian\nwon't listen to the 'Dismiss' order.\n{wait}",
    "slots": [
     5
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.52.006",
    "jp": "これで『送還』完了。守護獣が戦闘から\n離脱した。\n{wait}",
-   "en": "",
+   "en": "And with that, the 'Dismiss' is done. The\nGuardian has left the battle.\n{wait}",
    "slots": [
     6
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.52.007",
    "jp": "さて、ここで\n　「なんで送還する必要があるの？」\nと疑問に思ったかもしれない。\n{wait}戦闘を続けるのに必要な守護獣を、\nなぜわざわざ引っ込めてしまうのか？\nということだね。\n{wait}実は後で説明するんだけど、守護獣を\nコントロールするっていう行為は、\n精神的疲労をともなうんだ。\n{wait}ゲーム的に言うと守護獣を出してる間中\nＭＰ（思考ポイント）が１ターンごとに\n消費されていく。\n{wait}ちょっとステータスを見てみようか。\n{wait}",
-   "en": "",
+   "en": "Now, you may be wondering, \"Why would I\never need to Dismiss it?\"\n{wait}Why go out of your way to put away the\nGuardian you need to keep fighting, right?\n{wait}I'll explain it later, but controlling a Guardian\nis actually mentally tiring.\n{wait}In game terms, the whole time your\nGuardian is out, MP (Tactic Points) are used\nup every turn.\n{wait}Let's take a look at the status.\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.52.008",
    "jp": "ＳＰの下のＭＰってゲージの値が減って\nいるのが、わかると思う。\n{wait}このＭＰの値が低くなると守護獣をコン\nトロールできなくなってしまうんだ。\n{wait}だから、守護獣をいったん引っ込めるこ\nとで、ＭＰの回復をはかるってわけ。\n{wait}",
-   "en": "",
+   "en": "You can see the gauge value called MP, under\nSP, has gone down.\n{wait}When this MP value gets low, you can no\nlonger control your Guardian.\n{wait}So by putting the Guardian away for a while,\nyou let its MP recover.\n{wait}",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.52.009",
    "jp": "このあたりのことは「ＭＰの消費」の\nところでもう一度詳しく説明するから、\n{wait}今回は守護獣の『召喚』『送還』という\n２つの基本行動を覚えておいてくれれば\nいい。\n{wait}じゃ、また、あとでね。\n{wait}",
-   "en": "",
+   "en": "I'll explain this in detail again in 'MP\nConsumption',\n{wait}so for now, just remember the Guardian's\ntwo basic actions: 'Summon' and 'Dismiss'.\n{wait}See you later, then.\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.52.098",
    "jp": "ステップ０４\n　　　　　『召喚と送還』　　　　　　\n{wait}",
-   "en": "",
+   "en": "Step 04\n'Summon and Dismiss'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

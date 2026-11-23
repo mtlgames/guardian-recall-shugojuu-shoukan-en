@@ -232,7 +232,7 @@
   {
    "id": "g23.38.029",
    "jp": "ちかな\n「あの大きさだ。接近戦じゃ、とても\n　とどかないね・・・」\n{wait}",
-   "en": "Chikana\n\"It's that big. Up close, we'll never reach it...\"\n{wait}",
+   "en": "Chikana\n\"It's that big. In melee, we'll never reach it...\"\n{wait}",
    "slots": [
     29
    ],

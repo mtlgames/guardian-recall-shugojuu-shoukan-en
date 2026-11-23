@@ -7,202 +7,223 @@
   {
    "id": "g23.51.000",
    "jp": "マスターのユニットコマンドについて\n解説しておこう。\n{wait}１人のマスターが１ターンにすることが\nできるのは\n{wait}『移動』\n『行動』\n『命令実行』の３つだ。\n{wait}この３つのコマンド全てを終了させると\nそのマスターは行動終了済みとなる。\n{wait}では、１つずつ順番に見ていこう。\n{wait}",
-   "en": "",
+   "en": "Let's go over the Master's unit commands.\n{wait}In one turn, a Master can do\n{wait}three things: 'Move', 'Action' and\n'Execute Order'.\n{wait}Once all three of these commands are done,\nthat Master has finished acting.\n{wait}Let's look at them one at a time.\n{wait}",
    "slots": [
     0
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.001",
    "jp": "まずは『移動』。\nこのコマンドでユニットを自分の望む\n地点に動かすわけだ。\n{wait}",
-   "en": "",
+   "en": "First, 'Move'. This command moves a unit to\nthe spot you choose.\n{wait}",
    "slots": [
     1
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.51.002",
    "jp": "『移動』を選択するとこのように移動可\n能な範囲が青く表示される。\n{wait}あとは移動させたい先を指定して\n○ボタンを押せばいい。\n{wait}",
-   "en": "",
+   "en": "Select 'Move', and the area the unit can move\nto is shown in blue, like this.\n{wait}Then just pick the destination and press the\nCircle button.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.51.003",
    "jp": "つぎに『行動』。ユニットにさまざまな\nアクションをとらせるコマンドだ。\n{wait}ま、一口にアクションと言ってもいろい\nろある。ためしに『行動』を選択してみ\nると・・・\n{wait}",
-   "en": "",
+   "en": "Next, 'Action'. This command has a unit take all\nsorts of actions.\n{wait}Well, there are many kinds of actions. If we\ntry selecting 'Action'...\n{wait}",
    "slots": [
     3
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.51.004",
    "jp": "このような一覧が出る。１つずつ解説し\nていこう。\n{wait}『超力』は守護獣をサポートするマスタ\nーの特殊能力だ。詳しくは、もう少し後\nで説明するね。\n{wait}",
-   "en": "",
+   "en": "a list like this appears. Let's go through them\none by one.\n{wait}'Psi' is a Master's special ability that\nsupports their Guardian. I'll explain it in\ndetail a bit later.\n{wait}",
    "slots": [
     4
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.005",
    "jp": "『アイテム』は現在ストックしている\n消費アイテムを使う行動。\n{wait}消費アイテムにもいろいろあるけど、\n一番お世話になるのは、やっぱり回復薬\nかな。\n{wait}",
-   "en": "",
+   "en": "'Item' uses one of the consumable items you\ncurrently have in stock.\n{wait}There are many kinds of consumables, but\nthe ones you'll rely on most are probably\nrecovery medicines.\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.51.006",
    "jp": "『話す』は隣りにいるユニットに話しか\nけるコマンドだけど、いつでも使えるわ\nけじゃない。\n{wait}特定条件を満たした時に特定の相手と隣\n接していると使えるようになるんだ。\n{wait}その条件はマップによって様々。また、\n効果もこれまた様々だ。\n{wait}とりあえず話せるときは話しといた方が\nいいかな。たいていは何かしらいいこと\nが起きるしね。\n{wait}まあ、何も起きなかったり、たまには悪\nいことも起きちゃったりする時もあるけ\nど、そんなに心配しなくてもいい。\n{wait}",
-   "en": "",
+   "en": "'Talk' is a command for talking to an adjacent\nunit, but you can't always use it.\n{wait}It becomes available when certain conditions\nare met and you're next to a certain unit.\n{wait}The conditions differ from map to map, and\nso do the effects.\n{wait}For now, it's best to talk whenever you can.\nUsually something good comes of it.\n{wait}Sometimes nothing happens, and once in a\nwhile something bad does, but you don't need\nto worry too much.\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.51.007",
    "jp": "『送還』は守護獣を引っ込めるコマンド\nだ。これも後で詳しく説明する。\n{wait}ちなみに『送還』の代わりに『召喚』と\nいうコマンドが表示される時もある。こ\nれも後でまとめて説明するね。\n{wait}",
-   "en": "",
+   "en": "'Dismiss' sends your Guardian back. I'll explain\nthis in detail later too.\n{wait}By the way, sometimes a 'Summon' command\nis shown instead of 'Dismiss'. I'll explain that\nlater as well.\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.51.008",
    "jp": "さて、『行動』のそれぞれのコマンドを\n解説してきたわけだけど、注意して欲し\nいのは、\n{wait}１ターンに実行できるものは、この中の\nどれか１つだけ、ってこと。\n{wait}どれか１つを実行すると、そのターンは\n他の『行動』コマンドはすべて使えなく\nなるので注意しよう。\n{wait}ここでは、ためしに『アイテム』を使っ\nておくね。\n{wait}",
-   "en": "",
+   "en": "So, we've covered each of the 'Action'\ncommands, but please note:\n{wait}you can only carry out one of them per turn.\n{wait}Once you carry out any one of them, none of\nthe other 'Action' commands can be used that\nturn, so be careful.\n{wait}Here, let's try using an 'Item'.\n{wait}",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.009",
    "jp": "３つ目は『命令実行』。自分の守護獣に\n「思考」を命令して、行動させるコマン\nドだ。\n{wait}まず『思考』を選ぶと、\n{wait}",
-   "en": "",
+   "en": "Third is 'Execute Order'. This command gives\nyour Guardian a 'Tactic' and has it act.\n{wait}First, select 'Tactic', and...\n{wait}",
    "slots": [
     9
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.51.010",
    "jp": "このような一覧が出る。それぞれの細か\nい説明は後にとっておくとして、\n{wait}このうち『思考変更』と『対象確認』は\n１ターン中に何回でも実行可能だけど、\n{wait}実際に守護獣を行動させる『命令実行』\nは１ターンに１回しかできない、という\nことを覚えておいてほしい。\n{wait}よく考えてから『命令実行』して、守護\n獣に行動させよう。\n{wait}ここでは現在の思考を変更せずに、その\nまま『命令実行』しておくよ。\n{wait}",
-   "en": "",
+   "en": "a list like this appears. We'll save the details\nof each for later,\n{wait}but please remember that 'Change Tactic'\nand 'Check Target' can be used any number\nof times in a turn,\n{wait}while 'Execute Order', which actually makes\nthe Guardian act, can only be used once\nper turn.\n{wait}Think it through before you 'Execute Order'\nand have your Guardian act.\n{wait}Here, we'll leave the current Tactic as it is\nand just 'Execute Order'.\n{wait}",
    "slots": [
     10
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.011",
    "jp": "これでこのユニットのこのターンの行動\nは全て終了だ。\n{wait}行動終了済みになったユニットは、この\nように暗くなってるのがわかると思う。\n{wait}ためしに、行動終了済みのユニットに\nカーソルをあわせて○ボタンを押してみ\nると、\n{wait}",
-   "en": "",
+   "en": "That ends all of this unit's actions for\nthis turn.\n{wait}You can see that a unit that has finished\nacting turns dark, like this.\n{wait}Try putting the cursor on a unit that\nhas finished acting and pressing the\nCircle button,\n{wait}",
    "slots": [
     11
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.012",
    "jp": "このように『情報』以外のコマンドが実\n行できなくなっている。\n{wait}",
-   "en": "",
+   "en": "and you'll see that no command except 'Info'\ncan be used.\n{wait}",
    "slots": [
     12
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.51.013",
    "jp": "さて、この３つのコマンドだが実行する\n順番は自由だ。\n{wait}今は『移動』→『行動』→『命令実行』\nの順だったけど、全く逆でもＯＫ。\n{wait}順番を変えてやってみるから、ちょっと\n見ててね。\n{wait}",
-   "en": "",
+   "en": "Now, you're free to choose the order of\nthese three commands.\n{wait}Just now we went 'Move' -> 'Action' ->\n'Execute Order', but the exact reverse\nis OK too.\n{wait}I'll switch the order around, so watch for a\nmoment.\n{wait}",
    "slots": [
     13
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.51.014",
    "jp": "今は先ほどの逆で\n『命令実行』→『行動』→『移動』\nの順に実行してみた。\n{wait}やっぱり最後の『移動』を実行した段階\nでユニットが暗くなったね。\n{wait}このように、どんな順番でも３つのコマ\nンド全てが実行されれば、そのユニット\nは行動終了済み状態になる。\n{wait}",
-   "en": "",
+   "en": "This time, the reverse of before: we did\n'Execute Order' -> 'Action' -> 'Move'.\n{wait}Sure enough, the unit turned dark once the\nlast command, 'Move', was done.\n{wait}Like this, in any order, once all three\ncommands are done, the unit has\nfinished acting.\n{wait}",
    "slots": [
     14
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.51.015",
    "jp": "さてここで、各マスターユニットすべて\nに３つの行動をさせるのは面倒くさいと\n思ったかもしれない。\n{wait}『移動』だけさせたい時や、『移動』せ\nずに『行動』と『命令実行』の２つだけ\nさせたい時ってのもあるからね。\n{wait}そんな時は思い切って『待機』のコマン\nドを実行してしまおう。\n{wait}『待機』は、『移動』と『行動』そして\n『命令実行』の３つのコマンドを全て実\n行済みにしてしまうコマンドだ。\n{wait}『移動』だけ実行した後で『待機』をす\nれば、自動的に『行動』と『命令実行』\nを実行済みにしてくれる。\n{wait}そのユニットが他にやるべきことの無い\n時はこれで済ませてしまうとラクだね。\n{wait}",
-   "en": "",
+   "en": "Now, you may be thinking it's a hassle to have\nevery single Master do all three actions.\n{wait}There are times you only want to 'Move', or\nwant to do just 'Action' and 'Execute Order'\nwithout moving.\n{wait}At times like that, go ahead and use the 'Wait'\ncommand.\n{wait}'Wait' marks all three commands, 'Move',\n'Action' and 'Execute Order', as done.\n{wait}If you use 'Wait' after only a 'Move', it\nautomatically marks 'Action' and 'Execute\nOrder' as done.\n{wait}When a unit has nothing else to do, this\nmakes life easy.\n{wait}",
    "slots": [
     15
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.016",
    "jp": "と、このように味方のマスター全員が行\n動終了済み状態になると、敵のターンに\n移る。\n{wait}同じように敵のマスターが全員行動終了\n済みになれば、こちらのターンってわけ\nだ。\n{wait}",
-   "en": "",
+   "en": "And so, once every one of your Masters has\nfinished acting, it becomes the enemy's turn.\n{wait}Likewise, once every enemy Master has\nfinished acting, it's your turn again.\n{wait}",
    "slots": [
     16
    ],
    "pre": 8,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.017",
    "jp": "さて、今は各マスター１人１人を行動終\n了済み状態にしてきたけど、\n{wait}△ボタンで表示される「サブコマンド」\nこれの「ＴＵＲＮＥＮＤ」を実行すれば\n全マスターを一度に終了済みにできる。\n{wait}",
-   "en": "",
+   "en": "Now, so far we've finished each Master's turn\none at a time,\n{wait}but if you use 'TURN END' from the\n'sub-command' menu shown with the Triangle\nbutton, every Master finishes at once.\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.018",
    "jp": "「ＴＵＲＮＥＮＤ」を実行した際に\n未行動の守護獣が残っていると、\nこのような選択肢が表示される。\n{wait}これにより未行動の守護獣の行動を\nどうするかを決めてから\nターン終了となるわけだ。\n{wait}『現在の思考のまま命令実行』の方は、\n{wait}未行動の守護獣を現在セットしてある\n思考でまとめて命令してから\nターン終了する方法だ。\n{wait}『「何もするな！」に変更』の方は、\n守護獣を現在位置から動かさずに\nターン終了する方法。\n{wait}どちらにするかはその時の戦局しだい。\n敵ユニットとの距離とかをよく考えて\n決定しよう。\n{wait}",
-   "en": "",
+   "en": "If you use 'TURN END' while some Guardians\nhaven't acted yet, a choice like this appears.\n{wait}It lets you decide what those Guardians will\ndo before the turn ends.\n{wait}'Execute Order with current Tactic'\n{wait}orders every Guardian that hasn't acted to\nact with the Tactic currently set, then ends\nthe turn.\n{wait}'Change to \"Do nothing!\"' ends the turn\nwithout moving the Guardians from where\nthey are.\n{wait}Which to choose depends on how the battle is\ngoing. Think carefully about things like the\ndistance to enemy units before you decide.\n{wait}",
    "slots": [
     18
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.019",
    "jp": "マスターのコマンドに関しては\nＯＫかな？\nもう一度、確認しておくと、\n{wait}マスターは１ターンに\n　『移動』『行動』『命令実行』\nの３つのコマンドが実行可能。\n{wait}この３つのコマンドはどういう順番に\n実行しても構わない。\n{wait}『待機』コマンドは、\n『移動』『行動』『命令実行』の３つの\nコマンド全てを実行済みにする。\n{wait}「サブコマンド」の「ＴＵＲＮＥＮＤ」\nを実行すれば全マスターを\n一度にまとめて行動終了済みにできる。\n{wait}・・・ということ。\n{wait}ま、ここで無理に覚えなくても、実際に\n戦いながら理解していけば大丈夫。\n肩ヒジはらずにラクにいこうね。\n{wait}",
-   "en": "",
+   "en": "Are you OK with the Master's commands?\nLet's go over them once more:\n{wait}In one turn, a Master can carry out\nthree commands: 'Move', 'Action' and\n'Execute Order'.\n{wait}These three commands can be carried out in\nany order.\n{wait}The 'Wait' command marks all three\ncommands, 'Move', 'Action' and 'Execute\nOrder', as done.\n{wait}Using 'TURN END' from the 'sub-command'\nmenu finishes every Master's turn all at once.\n{wait}...That's it.\n{wait}Well, you don't have to force yourself to\nmemorize it here. You'll understand as you\nactually fight. No need to be stiff about it,\n{wait}just take it easy.\n{wait}",
    "slots": [
     19
    ],
    "pre": 6,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.51.098",
    "jp": "ステップ０３\n　　　『マスターのコマンド』　　　　\n{wait}",
-   "en": "",
+   "en": "Step 03\n'Master Commands'\n{wait}",
    "slots": [
     98
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

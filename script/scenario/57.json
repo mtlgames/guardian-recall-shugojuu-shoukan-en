@@ -7,154 +7,170 @@
   {
    "id": "g23.57.000",
    "jp": "超力っていうのはマスターが守護獣の能\n力を一時的にパワーアップさせる魔法の\nような力のコト。\n{wait}ここでは、その超力の使い方を説明して\nいこう。\n{wait}",
-   "en": "",
+   "en": "Psi is a magic-like power that lets a\nMaster temporarily power up their\nGuardian's abilities.\n{wait}Here, I'll explain how to use Psi.\n{wait}",
    "slots": [
     0
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.001",
    "jp": "まず、「行動」コマンドで「超力」を選\n択する。\n{wait}",
-   "en": "",
+   "en": "First, choose 'Psi' from the 'Action' commands.\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.57.002",
    "jp": "これでそのマスターが修得している超力\n一覧が出る。あとは使いたい超力とそれ\nを使う相手を決めればＯＫだ。\n{wait}ためしに「治癒」ってのを使ってみよう\nか。\n{wait}",
-   "en": "",
+   "en": "This shows the list of Psi that Master has\nlearned. Then just choose the Psi you want\nand who to use it on, and you're set.\n{wait}Let's try using one called 'Cure'.\n{wait}",
    "slots": [
     2
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.003",
    "jp": "こんな感じに超力がかかる。\nわかったかな？\n{wait}",
-   "en": "",
+   "en": "The Psi takes effect like this. Got it?\n{wait}",
    "slots": [
     3
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.57.004",
    "jp": "次に、超力を使う上での４つの注意点を\nあげていこう。\n{wait}１．超力は守護獣を召喚していないと使\n　　えない。\n{wait}超力は守護獣を召喚することで使用可能\nになる。\n{wait}守護獣を召喚していないユニットの行動\nコマンドを見てみよう。\n{wait}",
-   "en": "",
+   "en": "Next, here are four points to keep in mind\nwhen using Psi.\n{wait}1. Psi can't be used unless your Guardian is\nsummoned.\n{wait}Psi becomes usable by summoning your\nGuardian.\n{wait}Let's look at the Action commands of a unit\nwith no Guardian summoned.\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.57.005",
    "jp": "「超力」というコマンドが無いね？\n{wait}超力は守護獣を召喚していてこそ使える\n能力なんだ。\n{wait}",
-   "en": "",
+   "en": "There's no 'Psi' command, right?\n{wait}Psi is a power you can only use while your\nGuardian is summoned.\n{wait}",
    "slots": [
     5
    ],
-   "pre": 7
+   "pre": 7,
+   "status": "done"
   },
   {
    "id": "g23.57.006",
    "jp": "２．超力はＡＰ（超力ポイント）を消費\n　　してかける。\n{wait}超力は無限に使えるワケじゃない。ＡＰ\n（超力ポイント）って数値を消費して使\nうことになる。\n{wait}",
-   "en": "",
+   "en": "2. Using Psi costs AP (Psi Points).\n{wait}You can't use Psi endlessly. It uses up a value\ncalled AP (Psi Points).\n{wait}",
    "slots": [
     6
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.57.007",
    "jp": "簡易ステータス画面の一番下のゲージ。\nＡＰってあるのがソレだ。\n{wait}ここのＡＰの残り数値分しか超力を使え\nないので注意しよう。\n{wait}ＡＰはＳＰやＭＰと違い、アイテム以外\nの回復方法は無い。ＡＰ回復アイテムが\n無ければそれまでだ。\n{wait}だから、マップの前半戦のうちから使い\nまくってると後半で足りなくなって苦労\nすることになる可能性がある。\n{wait}使うタイミングをしっかりと見極めるよ\nうにしよう。\n{wait}",
-   "en": "",
+   "en": "It's the gauge at the very bottom of the\nshort status screen, the one marked AP.\n{wait}You can only use Psi up to the AP you have\nleft here, so be careful.\n{wait}Unlike SP and MP, AP can't be recovered\nexcept with items. If you have no AP\nrecovery items, that's it.\n{wait}So if you use it like crazy in the first half of a\nmap, you may run short and struggle in the\nsecond half.\n{wait}Judge carefully when to use it.\n{wait}",
    "slots": [
     7
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.008",
    "jp": "３．超力には射程がある。\n{wait}超力はマップ上どこにでも使えるわけじ\nゃない。射程というものがしっかり存在\nする。\n{wait}ためしにマスターが離れてみると・・・\n{wait}",
-   "en": "",
+   "en": "3. Psi has a range.\n{wait}Psi can't be used just anywhere on the map.\nIt definitely has a range.\n{wait}If the Master moves away, for example...\n{wait}",
    "slots": [
     8
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.009",
    "jp": "こんなふうに超力がとどかなくなってし\nまう。これではせっかくの援護も無意味\nだ。\n{wait}マスターと守護獣が離れすぎると良くな\nいってことだね。\n{wait}ちなみにこの超力の射程はマスターによ\nって異なるんだけど、誰でもレベルアッ\nプすれば長くなっていく。\n{wait}自分の仲間が現在どのくらいの射程なの\nか必ずチェックしておくようにしよう。\n{wait}",
-   "en": "",
+   "en": "the Psi can no longer reach, like this. Then all\nthat support is meaningless.\n{wait}So a Master and Guardian shouldn't be too\nfar apart.\n{wait}By the way, this Psi range differs from\nMaster to Master, but everyone's grows\nlonger as they level up.\n{wait}Always check how much range each of your\nallies has right now.\n{wait}",
    "slots": [
     9
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.010",
    "jp": "４．同じ系統の超力は重ねがけすること\n　　ができない。\n{wait}超力の名前の前に、何かマークがついて\nいたのは覚えているかな？　このマーク\nは超力の系統を示しているんだ。\n{wait}系統については、次のステップで話すと\nして、２つ以上の超力を１つの守護獣に\n重ねがけした時の話をしておこう。\n{wait}ためしに我王に２つの超力をかけてみよ\nうか。\n{wait}",
-   "en": "",
+   "en": "4. Psi of the same type can't be stacked.\n{wait}Remember the mark in front of each Psi's\nname? That mark shows the Psi's type.\n{wait}I'll cover the types in the next step. For now,\nlet's talk about putting two or more Psi on\none Guardian.\n{wait}Let's try putting two Psi on Gao.\n{wait}",
    "slots": [
     10
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.011",
    "jp": "今かけたのは「岩楯」と「加護」。簡易\nステータスを見ると、この２つの超力が\n両方がかかっていることがわかるね。\n{wait}違う系統の超力ならば、２つでも３つで\nも重ねがけすることが可能なんだ。\n{wait}それじゃ、今度は同系統の超力を重ねが\nけしてみよう。\n{wait}",
-   "en": "",
+   "en": "The two we just used are 'Rock Shield' and\n'Blessing'. The short status shows both of\nthese Psi are in effect.\n{wait}Psi of different types can be stacked, two,\nthree, however many.\n{wait}Now let's try stacking Psi of the same type.\n{wait}",
    "slots": [
     11
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.012",
    "jp": "この「気合」って超力は、さっきかけた\n「岩楯」ってのと同じ系統だ。これを重\nねがけしようとすると・・・\n{wait}",
-   "en": "",
+   "en": "This Psi, 'Focus', is the same type as the 'Rock\nShield' we used before. If we try to stack it...\n{wait}",
    "slots": [
     12
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.57.013",
    "jp": "このようなメッセージが表示される。\n{wait}この場合、“決定”を選択すると、先に\nかかっていた「岩楯」が無効になり、新\nたに「気合」がかかることになる。\n{wait}逆に「岩楯」を残したければ、“キャン\nセル”して、「気合」をあきらめなくて\nはならない。\n{wait}同系統の超力は重ねがけはできないって\nことだ。\n{wait}",
-   "en": "",
+   "en": "a message like this is shown.\n{wait}In this case, if you choose 'OK', the 'Rock\nShield' already in effect is canceled, and\n'Focus' takes effect instead.\n{wait}On the other hand, if you want to keep\n'Rock Shield', you have to 'Cancel' and give\nup on 'Focus'.\n{wait}Psi of the same type can't be stacked.\n{wait}",
    "slots": [
     13
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.57.014",
    "jp": "じゃ、最後にもう一度、超力の使い方の\nポイントをまとめておくよ。\n{wait}１．超力は守護獣を召喚していないと使\n　　えない。\n{wait}２．超力はＡＰ（超力ポイント）を消費\n　　してかける。\n{wait}３．超力には射程がある。\n{wait}４．同じ系統の超力は重ねがけすること\n　　ができない。違う系統ならば可。\n{wait}・・・ということ。\n{wait}この超力の使い方しだいで、戦闘の難易\n度は大幅に変わってくる。がんばって使\nいこなそうね。\n{wait}",
-   "en": "",
+   "en": "Finally, let me sum up the points for using Psi\nonce more.\n{wait}1. Psi can't be used unless your Guardian is\nsummoned.\n{wait}2. Using Psi costs AP (Psi Points).\n{wait}3. Psi has a range.\n{wait}4. Psi of the same type can't be stacked.\nDifferent types can.\n{wait}...That's it.\n{wait}How you use Psi can change how hard a\nbattle is by a lot. Do your best to master it.\n{wait}",
    "slots": [
     14
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.57.098",
    "jp": "ステップ１２\n　　　　　『超力の使い方』　　　　　\n{wait}",
-   "en": "",
+   "en": "Step 12\n'How to Use Psi'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

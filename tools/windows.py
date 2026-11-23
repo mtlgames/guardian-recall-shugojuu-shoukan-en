@@ -135,7 +135,8 @@ def named_jp(jp):
     if "\n" not in jp:
         return False
     first = jp.split("\n", 1)[0]
-    return len(first) <= 8 and first[:1] not in "「（『　" and not re.search(r"[。、！？・：「」（）『』]", first)
+    return (len(first) <= 8 and first[:1] not in "「（『　" and not re.search(r"[。、！？・：「」（）『』]", first)
+            and first[-1:] not in "はでがをに")  # tutorial text broken after a particle (ＭＰは, 今は先ほどの逆で)
 
 
 def jp_px(jp):
