@@ -2,9 +2,10 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24: fit lint 0, control codes + printf matched, write
-  check ok on both discs, EXE pending widths 211 -> 34 battle-only ids).
-  Last build: 2026-11-24 `build.py` (write check ok), check.py 37 passed, smoke ok, disc 1 .bin sha1 2993940414e7.
+- **Phase:** 7. Insert, fit, check (reopened 2026-11-24 by the phase-7 review: D13 keeps phase 7 open until the 34
+  pending BATTLE.BIN widths are measured in a shot; see Next (0)).
+  Last build: 2026-11-24 `build.py` (write check + jp_refs ok both discs), fit lint 0, smoke ok, disc 1 .bin sha1
+  cd72f0d45b8d.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -208,11 +209,27 @@ Updated at the end of every session. Keep it to what the next session needs; his
     group; exe_pending.txt now 34 BATTLE.BIN ids. Card labels (Spare A-D...) = debug printf only. New: scenes
     tac_info_g, tac_search_trait/psi, tac_think_menu, tac_power_cost, hen_unit(2); tools/lua/unit_type.lua (force
     guardian Forms), tools/jal_xref.py (callers of a function), tools/pending.py (pending ids with JP/EN px).
-- **Next (phase 8: QA in the emulator; done-when in the skill table):** (0) Battle labels still pending (34 ids in
+  - 2026-11-24 (13): **phase-7 review fixes** (.harness/reviews/...-phase7.md). Critical 1: 4 referenced JP strings
+    sat just past their range end (ACTION 0x10EC ターンを終了 = "End Turn", HEN 0x320 = "Start the battle?", DAY 0x2C0
+    = "[Invalid stage]", BATTLE 0x2E28 待機中 = debug printf, data): ranges extended, extracted, translated. New
+    `tools/jp_refs.py` (every word/lui-pair ref onto kana/kanji outside the ranges; `--built`: any referenced JP but
+    `status: data`) in tests/test_script.py and in build.patch (build fails on leftover JP: Important 5). Important
+    3: windows.lint expands each printf `%s` to its longest English (`args`) and knows the byte-count-sized message
+    box (`px="bytes"`): "%s evolved into %s" (quotes dropped: 48-byte screen limit). Important 4: TURN END prompt
+    (ring item 7 = new scene tac_turnend), its End Turn/Retreat variant and Retreat Proposal (tac_retreat) shot via
+    new probe tools/lua/turnend.lua; Berserk Alert, Ap popup, HEN start prompt still code-only (below).
+- **Next (phase 7, then phase 8):** (0) Battle labels still pending (34 ids in
   tools/exe_pending.txt: Psi/trait effect labels, elements, 真竜樹): no standard text-draw call in BATTLE.BIN; the
   scene `battle` (first battle, ~40000 frames) shows only the VS banner. Find a battle where a passive Psi/trait
   fires (or exec_log on BATTLE.BIN draw code), shoot, replace with measured rows. VS banner: unit names right-aligned
   ending x ~120 (left) / from x ~205 (right): check a long enemy name (True Ryuki parts 108 px).
+  (0b) Still "measured (code)", shoot to close phase 7: Berserk Alert exe.01330 (0x8002DD70, state 0x800C3038 = 0xB,
+  +2 = 1; trigger unknown: poke it), Ap popup "Restore" exe.a6288 (needs a restore Psi, e.g. Cure), HEN start prompt
+  hen.00320 (HEN state 9; ev43 has no team select: a multi-team event, Four Gates ch. 33-34), obtained message
+  exe.02410 (box not traced). Review Minors 9, 12, 13 done (pre-commit skips only .md docs, decisions order, 宴 typo
+  note in glossary); still open: 6 blank-padding rule, 7 keep-list for empty en, 8 orphan-page lint, 10 check.py
+  158 s, 11 branch-target check in writecheck.
+  Phase 7 is done when (0) and (0b) are shot and measured; then phase 8.
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py), graphics-text survey
   G1-G18 redraws, inkbox on choice/centred boxes, stress saves, textcover.
   Earlier phase-7 notes kept for reference:

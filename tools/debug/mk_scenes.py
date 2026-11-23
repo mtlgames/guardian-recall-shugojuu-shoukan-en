@@ -125,6 +125,11 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
          ("hen_unit", "2", "43", "", "1700 -;6 circle;150 -", "2000", "HEN roster (ev43): ○ on the first unit"),
          ("hen_unit2", "2", "43", "", "1700 -;6 circle;150 -;6 circle;150 -", "2200", "HEN roster: ○ ○"),
          ("tac_break", "2", "70", "", RING + ";6 circle;60 -", "2300", "ring > BREAK: マップセーブを行いますか？"),
+         # ring item 7 (ACTION 0x8016E87C -> task 0x801768B8): "End the turn?" + End Turn / Retreat choice box
+         ("tac_turnend", "2", "70", "", RING + ";6 down;40 -;6 circle;60 -", "2300", "ring > TURN END prompt"),
+         # with tools/lua/turnend.lua RETREAT=1 AT=4000 (ev70 has no Retreat row): Retreat > Retreat Proposal
+         ("tac_retreat", "2", "70", "", RING + ";6 down;40 -;6 circle;60 -;6 down;20 -;6 down;20 -;6 circle;90 -",
+          "2500", "TURN END > Retreat (needs turnend.lua RETREAT=1)"),
          ("tac_saved", "2", "70", "", RING + ";6 circle;60 -;6 up;20 -;6 circle;1100 -", "3400",
           "BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)")]
 # first battle, played from a new game (天 route, event 1): one cycle = a master's 待機 決定 (or dialog ○), cancel,

@@ -1044,6 +1044,19 @@
    ],
    "inner": [],
    "status": "done"
+  },
+  {
+   "id": "battle.02e28",
+   "jp": "待機中\n",
+   "en": "",
+   "off": 11816,
+   "room": 8,
+   "refs": [
+    "p8016CA08"
+   ],
+   "inner": [],
+   "status": "data",
+   "notes": "printf"
   }
  ]
 }

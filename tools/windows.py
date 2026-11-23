@@ -24,6 +24,7 @@ PENDING = r"(" + "|".join(re.escape(i) for i in _pending) + r")$" if _pending el
 
 # kind: scenario = "Name\nline\nline{wait}..." (first line of a page may be the speaker name);
 #       lines = text split on \n and {wait};  txd = markup, lines split on &n() (English must carry its own &n()).
+SPECIES = r"exe\.(a63[5-9a-f]|a64[0-9a-f]|a650|015[b-f]|01[67][0-9a-f]|018[0-2])[0-9a-f]$"
 VARIANTS = [
     dict(name="scenario", ids=r"g23\.", kind="scenario", px=224, lines=3, status="measured"),
     dict(name="battle quote", ids=r"g13\.(00|01|08|09|11|12|15|16)\.", kind="scenario", px=224, lines=3,
@@ -120,8 +121,16 @@ VARIANTS = [
          bytes="room", status="not drawn (debug printf)"),
     # Ap-cost popup row "Restore Sp": label x 193, stat name moved to x 236 (asm/hooks.asm)
     dict(name="Ap popup Restore", ids=r"exe\.a6288$", kind="lines", px=41, lines=1, status="measured (code)"),
-    dict(name="Retreat title", ids=r"action\.01068$", kind="lines", px=88, lines=1, status="measured (code)"),
-    dict(name="TURN END prompt", ids=r"action\.01094$", kind="lines", px=170, lines=1, status="measured (code)"),
+    # tac_retreat + turnend.lua RETREAT=1: "Retreat Proposal" shot inside the widened box
+    dict(name="Retreat title", ids=r"action\.01068$", kind="lines", px=88, lines=1, status="measured"),
+    # tac_turnend (ring item 7): "Execute Order with current Tactic" shot whole inside the widened box
+    dict(name="TURN END prompt", ids=r"action\.01094$", kind="lines", px=170, lines=1, status="measured"),
+    # no guardian left to act (tac_turnend + tools/lua/turnend.lua LEFT=0 RETREAT=1): choice box x 181 w 95, text
+    # x 190 -> 77 px; "End Turn" / "Retreat" shot. Retreat is also row 3 of the prompt list above (events 5, 8...)
+    dict(name="TURN END choice", ids=r"action\.010(ec|c8)$", kind="lines", px=77, lines=1, status="measured"),
+    # HEN team start prompt (state 9, 0x8016A2C4): text x 100 y 100, Yes/No below at x 126, no box: 200 px to the
+    # screen edge (code only: needs a multi-team event, not shot yet)
+    dict(name="HEN start prompt", ids=r"hen\.00320$", kind="lines", px=200, lines=1, status="measured (code)"),
     # Forms (type table 0x8009BC34, 1-26): 情報 type row x 88 -> "Df." label x 186 (tac_info_g + unit_type.lua:
     # "Overlord Guardian" 88 shot); ring > UNIT Guardian tab Type column draws the short form (type_short, D14)
     dict(name="Form name", ids=r"exe\.02(5[6-9a-f]|6[0-5])[0-9a-f]$", kind="lines", px=96, lines=1, bytes="room",
@@ -140,6 +149,28 @@ VARIANTS = [
     # equipment: hen_unit + tools/lua/poke.lua, "Vermilion Wing Necklace" 112 hit Mv.: now Scarlet, 104)
     dict(name="item name", ids=r"exe\.(a67[2-9a-c][0-9a-f]|02[23][0-9a-f]{2})$", kind="lines", px=110, lines=1,
          bytes="room", status="measured"),
+    # printf messages: each %s is linted at its longest English value (`args`: one row name or id regex per %s)
+    # learned / evolved / rank-up messages (0x8003DC3C..0x8003E4D0): box sized by byte count (strlen 0x80049B74):
+    # text x = 160 - bytes * 13/4, box inner = bytes * 13/2 + 4 ("bytes" px); 48 bytes reach the screen edge
+    dict(name="rank-up message", ids=r"exe\.01968$", kind="lines", px="bytes", lines=1, maxbytes=48,
+         args=[r"exe\.a65(20|28|30)$", r"exe\.a65(3[8c]|4[048])$"], status="measured (code)"),
+    dict(name="learned Psi message", ids=r"exe\.0198c$", kind="lines", px="bytes", lines=1, maxbytes=48,
+         args=["Psi name"], status="measured (code)"),
+    dict(name="learned Tactic message", ids=r"exe\.019a4$", kind="lines", px="bytes", lines=1, maxbytes=48,
+         args=["tactic list"], status="measured (code)"),
+    # both %s: guardian species (unit type names without masters 01830-0192c and boss parts 026a0-0271c; a
+    # player guardian's name is its species), longest 17 bytes: 17 + " evolved into " 14 + 17 = 48
+    dict(name="evolved message", ids=r"exe\.019bc$", kind="lines", px="bytes", lines=1, maxbytes=48,
+         args=[(SPECIES,), (SPECIES,)], status="measured (code)"),
+    # Psi already active / use instead (0x80031E24): box x 48 w 255, text x 57 -> 241
+    dict(name="Psi active prompt", ids=r"exe\.013[ce]0$", kind="lines", px=241, lines=1, args=["Psi name"],
+         status="measured (code)"),
+    # "%s: Choose a target" (0x800338BC): box x 67 w 186, text x 76 -> 172
+    dict(name="target prompt", ids=r"exe\.0145c$", kind="lines", px=172, lines=1, args=["Psi name"],
+         status="measured (code)"),
+    # "Obtained '%s'" (0x8005F3BC, message task 0x80060908, box not traced): map message box width assumed
+    dict(name="obtained message", ids=r"exe\.02410$", kind="lines", px=176, lines=1, args=["item name"],
+         status="guess (map message box)"),
     # widths the English needs beyond what the screen holds or was measured (tools/exe_pending.txt, one id per
     # line): phase 7 widens the box/column or condenses (D4, D13); a shot must replace each with a measured row
     dict(name="EXE engine pending", ids=PENDING, kind="lines", px=170, lines=1, bytes="room",
@@ -218,7 +249,15 @@ def lint(s, v, glyphs):
             errs.append(f"{b} bytes > {n} in place")
     named = v["kind"] == "scenario" and named_jp(s["jp"])
     pitch = 13
-    for text, px in segments(v, s["en"], s["jp"]):
+    en = s["en"]
+    for spec in v.get("args", []):  # printf: each %s at its longest English value
+        en = en.replace("%s", longest(spec, glyphs), 1)
+    if v.get("px") == "bytes":  # box sized to the byte count, centred on x 160
+        n = len(script_io.enc(en))
+        if n > v["maxbytes"]:
+            errs.append(f"{n} bytes > {v['maxbytes']} (box past the screen edge): {en!r}")
+        v = dict(v, px=n * 13 // 2 + 4)
+    for text, px in segments(v, en, s["jp"]):
         if v.get("pitch"):
             text = re.sub(r"&h\(\).*?&h\(\)", "", text)  # small ASCII font (cf stats), not the VWF
             pitch = int((re.findall(r"&g\((\d+),", text) or [pitch])[-1])
@@ -232,6 +271,21 @@ def lint(s, v, glyphs):
                 if w > lim:
                     errs.append(f"{w} px > {lim}: {line!r}")
     return errs
+
+
+_LONGEST = {}
+
+
+def longest(spec, glyphs):
+    """Widest shipped English among records whose row name is (one of) spec, or whose id matches spec (regex)."""
+    names = spec if isinstance(spec, tuple) else (spec,)
+    if names not in _LONGEST:
+        rows = {v["name"] for v in VARIANTS}
+        vals = [s["en"] for s in records() if s.get("en") and any(
+            (variant(s) or {}).get("name") == n if n in rows else re.search(n, s["id"]) for n in names)]
+        assert vals, f"printf args: nothing matches {spec}"
+        _LONGEST[names] = max(vals, key=lambda t: font.width(t, glyphs))
+    return _LONGEST[names]
 
 
 def named_jp(jp):

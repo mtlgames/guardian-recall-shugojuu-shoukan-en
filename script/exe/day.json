@@ -128,6 +128,19 @@
     "p8016AB64"
    ],
    "inner": []
+  },
+  {
+   "id": "day.002c0",
+   "jp": "［ステージ番号無効］",
+   "en": "[Invalid stage]",
+   "off": 704,
+   "room": 21,
+   "refs": [
+    "p8016AC38"
+   ],
+   "inner": [],
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

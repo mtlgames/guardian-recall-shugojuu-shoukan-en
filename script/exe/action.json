@@ -1184,6 +1184,19 @@
    "inner": [],
    "tbl": "sjis",
    "status": "done"
+  },
+  {
+   "id": "action.010ec",
+   "jp": "ターンを終了",
+   "en": "End Turn",
+   "off": 4332,
+   "room": 16,
+   "refs": [
+    "p80176D48"
+   ],
+   "inner": [],
+   "tbl": "sjis",
+   "status": "done"
   }
  ]
 }

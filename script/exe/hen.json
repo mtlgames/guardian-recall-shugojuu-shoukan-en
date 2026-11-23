@@ -612,6 +612,19 @@
    "inner": [],
    "tbl": "sjis",
    "status": "done"
+  },
+  {
+   "id": "hen.00320",
+   "jp": "戦闘を開始します",
+   "en": "Start the battle?",
+   "off": 800,
+   "room": 20,
+   "refs": [
+    "p8016A2E8"
+   ],
+   "inner": [],
+   "tbl": "sjis",
+   "status": "done"
   }
  ]
 }

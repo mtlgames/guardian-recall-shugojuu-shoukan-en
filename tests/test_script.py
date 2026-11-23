@@ -116,6 +116,15 @@ def test_exe_strings_exact_and_ranges_covered():
 
 
 @need_dump
+def test_no_referenced_japanese_outside_ranges():
+    """A word or lui pair in the EXE or any code overlay pointing at a Japanese string no range holds (phase-7
+    review: ACTION/HEN/BATTLE/DAY strings sat just past their range end)."""
+    import jp_refs
+    new = [h[:3] for h in jp_refs.hits(TREE) if (h[0], h[1]) not in jp_refs.KNOWN]
+    assert not new, new
+
+
+@need_dump
 def test_script_matches_disc():
     """script/ jp text and layout equal a fresh extraction (catches hand edits of jp or layout fields)."""
     for rel, doc in extract.files(TREE):

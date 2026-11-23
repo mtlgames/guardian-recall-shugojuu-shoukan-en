@@ -1388,7 +1388,7 @@
   {
    "id": "exe.019bc",
    "jp": "%sは「%s」に進化した",
-   "en": "%s evolved into '%s'",
+   "en": "%s evolved into %s",
    "off": 6588,
    "room": 24,
    "refs": [

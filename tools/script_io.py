@@ -225,10 +225,11 @@ EXE_BASE = 0x8000F800
 # file, RAM base of file offset 0, text ranges (file offsets) - docs/re/text.md
 IMAGES = {
     "exe": ("SLPS_012.97", EXE_BASE, [(0x800, 0x2F60), (0xA4250, 0xA6C00)]),
-    "action": ("DATA/ACTION.BIN", 0x80166218, [(0xEC, 0x10EC)]),
-    "battle": ("DATA/BATTLE.BIN", 0x80166218, [(0x4, 0x2E28)]),
-    "hen": ("DATA/HEN.BIN", 0x80166218, [(0x4, 0x320)]),
-    "day": ("DATA/DAY.BIN", 0x80166218, [(0x64, 0x2C0)]),
+    # range ends past the last referenced string (tools/jp_refs.py finds any referenced JP outside a range)
+    "action": ("DATA/ACTION.BIN", 0x80166218, [(0xEC, 0x10F8)]),
+    "battle": ("DATA/BATTLE.BIN", 0x80166218, [(0x4, 0x2E30)]),
+    "hen": ("DATA/HEN.BIN", 0x80166218, [(0x4, 0x334)]),
+    "day": ("DATA/DAY.BIN", 0x80166218, [(0x64, 0x2D8)]),
     # BRAIN loads at the TITLE base (docs/re/debug.md); menu label pointers at file 0x2AF4.. (stride 20)
     "brain": ("DATA/BRAIN.BIN", 0x80162F88, [(0x4, 0x60)]),
 }

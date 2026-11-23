@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
 import insert  # noqa: E402
 import writecheck  # noqa: E402
+import jp_refs  # noqa: E402
 
 MKPSXISO = ROOT / "tools/mkpsxiso/mkpsxiso-2.30-win64"
 DISCS = (1, 2)
@@ -38,6 +39,8 @@ def patch(n, tree, mode="en"):
     check every changed byte against the pristine dump (tools/writecheck.py); any error stops the build."""
     errs = insert.patch_tree(tree, mode)
     errs += writecheck.verify(dump(n) / "tree", tree, insert.LOG, insert.GRETC_REBUILT)
+    # leftover Japanese a pointer still reaches (EXE + code overlays; `status: data` records excepted)
+    errs += [f"jp left: {k} {o:#x} {s!r} refs {' '.join(r[:3])}" for k, o, s, r in jp_refs.hits(tree, built=True)]
     if errs:
         sys.exit(f"disc {n}: write check failed\n" + "\n".join(errs[:60]))
     print(f"disc {n}: write check ok ({sum(map(len, insert.LOG.values()))} logged writes)")

@@ -17,6 +17,15 @@ def test_wrap_breaks_at_spaces_and_keeps_markup():
         assert font.width(line, G) <= 100
 
 
+def test_printf_args_linted_at_longest_value():
+    rows = {v["name"]: v for v in windows.VARIANTS}
+    s = {"id": "exe.019bc", "jp": "%sは「%s」に進化した", "en": "%s evolved into '%s'", "room": 99}
+    assert any("bytes > 48" in e for e in windows.lint(s, rows["evolved message"], G))  # 17 + 16 + 17
+    s = {"id": "exe.013c0", "jp": "x", "en": "%s " + "w" * 30, "room": 99}
+    errs = windows.lint(s, rows["Psi active prompt"], G)
+    assert errs and "Demon Might" in errs[-1]
+
+
 def test_pitch_and_narrow_first_lines():
     jp = "&g(14,0)&s(200,20)&c(7)名&s(230,206)&c(7)&g(14,0)声&s(165,40)&c(7)&g(16,8)&h()&f(32,6)NATIVE&h()"
     v = windows.variant({"id": "cf.0040", "jp": jp})
