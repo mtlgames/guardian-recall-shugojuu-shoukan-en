@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (b001-b076 merged: every string translated; review pass at b051 of b076).
+- **Phase:** 7. Insert, fit, check (phase 6 closed 2026-11-24: all 76 batches translated, merged and reviewed).
   Last build: 2026-11-24 `build.py` (all English, b076), smoke ok, disc 1 .bin sha1 6f0f5cccc4fb.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -164,9 +164,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     unified in 20.203 + 26.222); Minors to docs/polish.md. One worker covered 20 batches (~130k context).
   - 2026-11-24 (5): b031-b050 reviewed: all approved, no Critical/Important; 6 Minors to docs/polish.md. Pairs files
     from b046 on are tutorials (long lines: read ~25-30 lines per Read); b051+ are 13-36 KB each.
-- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important): continue at **b051** (docs/review.md).
-  No reviewer subagent available (Orca worker; codex limit until 2026-11-26): fresh read-only pass per pairs file.
-  b041-b044 are all `==` copies (nothing to read); after 2026-11-26 14:14 `codex exec` can take batches.
+  - 2026-11-24 (6): **phase 6 closed.** b051-b076 reviewed: all approved, 1 Important fixed (battle.00808 真竜樹 =
+    True Ryuki, boss-name table beside Nue). Skill-rank naming reconciled (prose Melee/Ranged/Healing, status
+    graphic Short/Long/Heal, EXE labels Heal/Ranged/Melee: consistent). New Minors in docs/polish.md incl. "orphan
+    pages" (fitter leaves 1-3 words alone on a {wait} page: 14 ids listed) and Memory Card capitalisation.
+- **Next (phase 7: insert, fit, check; done-when = build green: width/overflow lint clean, control codes matched,
+  `romdiff.py` no writes outside allowed ranges):**
+  (a) Confirm `build.py` + `tools/check.py` + `tools/windows.py` lint on the full English script; add the romdiff
+  check over the built files if build.py lacks one.
   (a2) EXE widths: 246 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
   "EXE engine pending"). Measured narrow: Psi name slot 32 px (tac_power + 情報 Aura), SEARCH tabs (Tactic hides the
   T of Trait), HEN roster for Kaoru/Sayaka/Ichinomiya twins (74 px). Not shot yet: species/guardian/item/trait/Form

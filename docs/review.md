@@ -56,3 +56,32 @@ pairs file. Critical/Important get fixed in `work/tl/bNNN.out.tsv` + `batches.py
 | b048 | Approved | | |
 | b049 | Approved | | |
 | b050 | Approved | | |
+| b051 | Approved | | Psi types + elements tutorial; element names match the glossary |
+| b052 | Approved | | |
+| b053 | Approved | | skill ranks: tutorial prose Melee/Ranged/Healing, status labels Short/Long/Heal (the original's English graphics), EXE labels a6520-30 Heal/Ranged/Melee: consistent, glossary 行動能力ランク already says so |
+| b054 | Approved | | 59.007/64.007 orphan page "and 'Wind'." (Minor, polish "orphan pages") |
+| b055 | Approved | | |
+| b056 | Approved | | |
+| b057 | Approved | | |
+| b058 | Approved | | battle quotes + item help; Psi names in item help match glossary |
+| b059 | Approved | | Psi help, Tactic help, status help |
+| b060 | Approved | | |
+| b061 | Approved | | traits, dismiss/summon calls, Tactic list names match glossary |
+| b062 | Approved | | 1 Minor (13.13.019) |
+| b063 | Approved | | |
+| b064 | Approved | | replay list, save/system messages (`<a>` = save/load verb reads both ways), chapter labels per D11 |
+| b065 | Approved | | |
+| b066 | Approved | | card titles + charfile profiles; 1 Minor (cf.0189) |
+| b067 | Approved | | diary pages: Hitomi is "Jin" to the cast (surname), matches JP; 1 Minor (day.0008) |
+| b068 | Approved | | |
+| b069 | Approved | | dictionary; 1 Minor (dic.0016) |
+| b070 | Approved | | 1 Minor (dic.0157) |
+| b071 | Approved | | guardian pages; 1 Minor (gd.0139) |
+| b072 | Approved | | |
+| b073 | Approved | | system/map messages, trait names, battle debug labels; "Memory Card" vs "memory card" (Minor) |
+| b074 | Approved after fix | battle.00808 (Important: 真竜樹 sits in the boss-name table beside Nue = True Ryuki (glossary 真・龍鬼); was "True Ryuju") | battle.00880 宴 = the JP's typo for 冥 (element slot), "Nether" right |
+| b075 | Approved | | Form names match the tutorials (精獣 Spirit, 珠獣 Orb) |
+| b076 | Approved | | |
+
+**Review pass complete (2026-11-24):** b001-b076 approved, every Critical/Important fixed; Minors in docs/polish.md
+(polish pass before release).

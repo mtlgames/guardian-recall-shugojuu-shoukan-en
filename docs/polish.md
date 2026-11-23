@@ -25,3 +25,13 @@ or `waived: reason`).
 - [ ] g23.44.078 - 訳がよ: "Why Tokyo's still under their control." -> "No wonder Tokyo's still under their control."
 - [ ] g23.49.336 - そうだな: "...I see." -> "...I suppose so." (Miyuki answers "...Right!?")
 - [ ] g23.06.002 - 舎利ちゃん is Reiko's cute clipping: "Shari-chan" (glossary allows 舎利 = Sharihotsu; consider a nickname note)
+- [ ] g13.13.019 - 巴澄 その時はよろしくな: "Take care of me when we do." -> "I'll be counting on you then."
+- [ ] cf.0189 - dangling modifier "Orphaned by the great quake, her telepathy made her..." -> "Orphaned by the great quake and made a bit withdrawn by her telepathy."
+- [ ] day.0008 - double "just": "isn't just the Kamikado's problem, just mine, anymore" -> "isn't just the Kamikado's problem, mine alone, anymore"
+- [ ] dic.0016 - repeats "dragon vein of Mt. Taisetsu": "thanks to them, it was the one vein Egubado never took."
+- [ ] dic.0157 - "The year all kinds of stories set things in." -> "The year so many stories pick for big events."
+- [ ] gd.0139 - "with more mobility, its weak point" reads as if mobility were still weak -> "with better mobility, once its weak point"
+- [ ] Memory Card - EXE/overlay messages (action.*) say "Memory Card", save.* txd says "memory card": pick one (Sony style = "MEMORY CARD"/"Memory Card")
+- [ ] orphan pages - the scenario fitter runs 1-3 words of a sentence onto their own {wait} page ("...against 'Sea'" / "and 'Wind'."):
+  g23.59.007, 64.007, 01.036, 10.081, 12.095, 24.010, 31.199, 51.019, 53.006, 54.017, 54.022, 56.008, 66.017, 66.022
+  (62.012 "...like so." is the JP's own page). Rephrase a few words shorter, or make the fitter balance the last pages.
