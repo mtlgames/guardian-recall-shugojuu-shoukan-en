@@ -37,7 +37,7 @@ def cue_for(disc, orig):
 
 
 def run(sc, args):
-    out = os.path.join(REPO, 'work/qa/warp', sc['name'])
+    out = os.path.join(REPO, args.outdir, sc['name'])
     sav, _, ev = (sc.get('card') or args.card).partition('@')
     if ev:  # CARD@N: the card's DAY save (GRDA) set to event N, so the DAY menu opens on episode N
         base, sav = sav, os.path.join(REPO, 'work/cards', sc['name'] + '.mcd')
@@ -47,7 +47,7 @@ def run(sc, args):
     cmd = [sys.executable, '-X', 'utf8', os.path.join(SKILL, 'scripts/emu.py'), cue_for(sc['disc'], args.orig),
            '--out', out, '--script', os.path.join(REPO, 'tools/debug/warp.lua'),
            '--frames', str(WARP_BOOT + (args.frames or sc['frames'])), '--shot-every', '150', '--sheet',
-           '--timeout', str(args.timeout), '--state-out', os.path.join(REPO, 'work/states', sc['name'] + '.sstate'),
+           '--timeout', str(args.timeout), '--state-out', os.path.join(REPO, 'work/states', sc['name'] + ('_orig' if args.orig else '') + '.sstate'),
            '--sav', sav]  # own copy per run: the shared portable card would race between parallel runs
     cmd += ['--var', f"EVENT={sc['target']}"] if sc.get('raw') else ['--var', f"SCENE='{sc['name']}'"]
     for v in args.var or []:
@@ -64,6 +64,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('--orig', action='store_true', help='boot rom/ even when build/ exists')
     ap.add_argument('--only', nargs='*')
+    ap.add_argument('--outdir', default='work/qa/warp', help='e.g. work/qa/warp_orig for --orig reference shots')
     ap.add_argument('--events')
     ap.add_argument('--disc', type=int, default=1, help='disc for --events')
     ap.add_argument('--jobs', type=int, default=4)

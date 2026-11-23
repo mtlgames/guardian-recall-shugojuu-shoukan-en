@@ -93,10 +93,14 @@ for name, keys, frames, note in [
         ("tac_think", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -", "2050",
          "思考 list (guardian orders) + help box"),
         ("tac_info", ";6 circle;40 -;6 down;15 -;6 circle;90 -", "1950", "情報 (unit info screen)"),
+        ("tac_info_help", ";6 circle;40 -;6 down;15 -;6 circle;90 -;6 circle;60 -", "2050", "情報 + ○"),
+        ("tac_info_help2", ";6 circle;40 -;6 down;15 -;6 circle;90 -;6 circle;60 -;6 down;30 -;6 down;30 -", "2150",
+         "情報 + ○, down x2"),
         ("tac_wait", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;60 -", "2000",
          "待機: 決定 / キャンセル")]:
     rows.append((name, "2", "70", "", MAP + keys, frames, note))
 rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ring menu (triangle), on UNIT"),
+         ("tac_ring_help", "2", "70", "", MAP + ";6 triangle;80 -;6 select;60 -", "2000", "ring + SELECT"),
          ("tac_config", "2", "70", "", RING.rsplit(";6 down;40 -", 1)[0] + ";6 circle;90 -", "2300", "ring > CONFIG"),
          ("tac_mission", "2", "70", "", MAP + ";6 triangle;60 -;6 down;40 -;6 down;40 -;6 circle;90 -", "2100",
           "ring > MISSION"),

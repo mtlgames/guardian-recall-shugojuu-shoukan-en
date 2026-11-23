@@ -9,6 +9,7 @@
 .open EXE, 0x8000F800
 
 PAYLOAD     equ (0x801F0000)    ; code + tables, up to 0x801F7FF8
+STR_POOL    equ (0x801F4000)    ; relocated strings, up to 0x801F7FF8 (tools/insert.py STR_POOL)
 SCEN_BUF    equ (0x801E8000)    ; scenario block buffer, 0x8000 bytes (was 0x2800 at 0x800D16F8)
 SCEN_MAX    equ (0x8000)
 
@@ -191,13 +192,51 @@ cell_tab:                       ; u16[96] glyph-map entries for bytes 0x20-0x7F,
   .incbin TABLES, 0, 192
 adv_tab:
   .incbin TABLES, 192, 96
+
+; ---- evd op 0x34 (unit name, handler 0x8001E214): unit+0x10 = pointer to the name in the evd buffer. tools/insert.py
+; replaces each translated name with key 7F hi lo; point the unit at evd_names[(hi-1)*255 + lo-1] instead ----
+evd_name_hook:                  ; v1 = name in the evd buffer, v0 = unit record (0x8013E650 + idx * 0x7C)
+  lbu   t0, 0(v1)
+  li    t1, 0x7F
+  bne   t0, t1, @@store
+  lbu   t0, 1(v1)
+  lbu   t1, 2(v1)
+  sll   t2, t0, 8
+  subu  t0, t2, t0              ; hi * 255
+  addu  t0, t0, t1
+  addiu t0, t0, -256            ; (hi-1)*255 + (lo-1)
+  sll   t0, t0, 1
+  la    t1, evd_names
+  addu  t2, t0, t1
+  lhu   t2, 0(t2)
+  nop
+  addu  v1, t1, t2
+@@store:
+  jr    ra
+  sw    v1, 0x10(v0)            ; the overwritten instruction
+.align 4
+evd_names:
+  .incbin EVDNAMES
+.if org() > STR_POOL
+  .error "payload code/tables run into STR_POOL"
+.endif
+.org STR_POOL                   ; EXE/overlay strings too long for their place (tools/insert.py STR_POOL, repointed refs)
+  .incbin STRPOOL
 .align 4
 payload_end:
 .headersize 0x8000F800
 
-.if orga() > (0x800D16F8 - 0x8000F800)
-  .error "payload source runs into the scenario buffer"
+; the source only has to stay inside the file's zero area (BSS 0x800B6408-0x80162F88): the stub copies it before
+; START zeroes that area, so nothing else is there yet
+.if orga() > (0x80162F88 - 0x8000F800)
+  .error "payload source runs past the EXE's zero area"
 .endif
+.if payload_end > 0x801F7FF8
+  .error "payload runs into the stack"
+.endif
+
+.org 0x8001E278                 ; evd op 0x34: was sw v1, 0x10(v0) (the next op, sh a1, 0xC6(gp), is the delay slot)
+  j     evd_name_hook
 
 ; ---- patches in place ----
 .org 0x80044C48                 ; was: move a2, a0 / addiu a0, a0, -0xA6

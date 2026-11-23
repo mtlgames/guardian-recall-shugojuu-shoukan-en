@@ -28,13 +28,19 @@ VARIANTS = [
          status="measured"),
     dict(name="battle comment", ids=r"g13\.1[34]\.", kind="lines", px=224, lines=3, status="measured"),
     dict(name="power help", ids=r"g13\.03\.", kind="lines", px=232, lines=3, status="measured"),
-    dict(name="battle help", ids=r"g13\.", kind="lines", px=232, lines=3, status="guess"),
+    dict(name="think help", ids=r"g13\.04\.", kind="lines", px=117, lines=4, status="measured"),
+    dict(name="field help", ids=r"g13\.(05|06|17|18)\.", kind="lines", px=220, lines=3, status="measured"),
+    dict(name="battle help", ids=r"g13\.", kind="lines", px=220, lines=3, status="guess"),
     dict(name="charfile profile", ids=r"cf\.", jp=r"^&s\(165,87\)", kind="txd", px=129, lines=5, status="measured"),
     dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, lines=99, status="measured"),
+    # centred by byte count (start x = 159.5 - 3.25 * bytes), so bytes also keep it clear of the number column
+    dict(name="replay list", ids=r"rep\.", kind="txd", px=223, lines=1, bytes=34, status="measured"),
     dict(name="txd", ids=r"(cf|gd|rep|tu|day|save|op)\.[0-9a-f]{4}$", kind="txd", px=200, lines=99, status="guess"),
     dict(name="EXE/overlay string", ids=r"(exe|action|battle|hen|day|brain)\.[0-9a-f]{5}$", kind="lines", px=200, lines=99,
          bytes="room", status="guess"),
-    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=80, lines=1, bytes="jp", status="guess"),
+    # evd names go through the evd_name hook (any length), but ring > UNIT crashes on 20-byte names: cap at the
+    # longest Japanese name (10 bytes) until that copy is traced (docs/windows.md)
+    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=108, lines=1, bytes=10, status="guess"),
 ]
 
 
@@ -91,8 +97,8 @@ def pages(v, text):
 def lint(s, v, glyphs):
     """Error strings for one record's `en` against its variant."""
     errs = []
-    if v.get("bytes"):  # in-place records: "room" (EXE/overlay slot, NUL included) or "jp" (evd names: JP length)
-        n = s["room"] - 1 if v["bytes"] == "room" else len(script_io.enc_jp(s))
+    if v.get("bytes") and not (v["bytes"] == "room" and s.get("refs")):  # strings with refs move to STR_POOL; "room" (EXE/overlay slot, NUL included), "jp" (Japanese length) or a fixed cap
+        n = {"room": lambda: s["room"] - 1, "jp": lambda: len(script_io.enc_jp(s))}.get(v["bytes"], lambda: v["bytes"])()
         b = len(script_io.enc(s["en"]))
         if b > n:
             errs.append(f"{b} bytes > {n} in place")

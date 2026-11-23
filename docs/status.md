@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Width gate in progress (VWF in every renderer, full marker build tours 125 scenes). Last build:
-  2026-11-23 `build.py --marker --qa g23.01.000=<torture line>`, ev02 shows it correctly.
+- **Phase:** 5. Width gate in progress (VWF in every renderer, evd name hook, EXE string relocation). Last build:
+  2026-11-23 `build.py --marker` (evd keys + relocated EXE labels).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -71,14 +71,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     battle quote/comment, power help, charfile profile, dictionary. `build.py --qa ID=TEXT` override; glyph torture
     line OK in the scenario box. Helpers: tools/find_ref.py, tools/boxedge.py, tools/debug/{one,keep_re}.py,
     tools/lua/regs_at.lua.
-- **Next (phase 5 rest, done-when = every variant measured + torture line):** `windows.py --cover` still lists
-  guess variants: (1) other g13 help (02 item, 04/10 think, 05 06 17 18 info/ring help, 07 traits): tour each help
-  box with markers (tac_think/tac_info help, ring help bar, item help) and split VARIANTS; (2) txd lists/pages (gd
-  rep tu day save op, cf headers): rows are centred, measure per screen from the opt_*/day_* marker shots;
-  (3) EXE/overlay strings: px per screen (unit menu, ring labels, tac_* windows, title/DAY menus) on top of the
-  enforced byte room; strings that need more room -> relocate into the payload area and repoint `refs`;
-  (4) evd unit names: bytes <= JP (朱雀 = 4 bytes) blocks most English names: grow the evd op (check jump offsets) or
-  a name table hook; (5) torture line through the txd, generic UI and DIC renderers (`--qa` on a cf/dic/exe id).
+  - 2026-11-23 (10): **evd unit names hooked** (evd_name_hook at 0x8001E278: evd keeps key `7F hi lo`, unit points at
+    a payload name table; 20-char names drawn whole in 情報). **EXE/overlay string relocation**: too-long strings go
+    to STR_POOL 0x801F4000 with every ref repointed (insert.repoint; tests/test_insert.py); marker build pads EXE
+    labels to 2.5 x JP chars (pool 6960 B). Payload source limit relaxed to the EXE zero area. Measured: think help
+    (g13.04, 117 px x 4), field help (g13.17 via ring + SELECT, 220 px x 3), replay list (centred by byte count, <= 34
+    bytes), evd name in 情報 panel (108 px). `regen.py --outdir work/qa/warp_orig --orig` keeps original reference
+    shots (51 menu scenes there now); `tools/inkrows.py` = ink segments per text row (measure from numbers, not by
+    eye). Scenes tac_ring_help, tac_info_help(2) (the latter show no help: trigger unknown).
+- **Next (phase 5 rest, done-when = every variant measured + torture line):** (0) check the marker tour of this build
+  (work/qa/regen_marker.out; relocated ACTION/EXE labels must show their tags, no Japanese); (1) **ring > UNIT crash**
+  with 20-byte evd names (exception pc 0x641C ra 0xD00 in ACTION): find the fixed buffer in the UNIT list draw
+  (`one.py tac_unit -- --script tools/lua/pc_log.lua`, MARKER evd length in insert.gretc_files), then lift the
+  10-byte cap in windows.py; measure the UNIT list name column (x 25 to Ali ~x 100); (2) g13 help: 02 item help
+  (needs a map with items), 05/06/07/10/18 trigger in 情報; (3) txd screens (gd tu day save op, cf headers) from
+  work/qa/warp_orig vs warp with inkrows.py; txd `&e()` centring: check whether it counts bytes like the replay list;
+  (4) EXE/overlay px per screen (unit menu, ring labels, tac_* windows, title/DAY menus); BRAIN menu strings have no
+  refs (base unknown) and must fit in place; (5) torture line through txd, generic UI and DIC renderers.
 - **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).

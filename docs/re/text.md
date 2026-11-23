@@ -88,7 +88,11 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
 
 ## Unit names in event scripts: GRETC.RLZ group evd (verified: every Japanese run in the 70 evd files is one)
 - Op `34 idx len text 00` (len = text + NUL) names the map's units (大地裕子, 闘士, 鎌蜥蜴...). 564 names, 159 distinct;
-  35 maps have them. Longer English names grow the script: check jump offsets in the evd bytecode (phase 5/7).
+  35 maps have them. Handler 0x8001E214 (EXE): script base 0x800B68F0, pc u16 at gp+0xC6; stores a pointer to the text
+  (no copy) at unit +0x10, units at 0x8013E650 + idx * 0x7C. **Hooked** (evd_name_hook, asm/hooks.asm): insert.py writes
+  key `7F hi lo` in place of the text and the hook points the unit at the English in a payload table, so the evd never
+  grows. The ring > UNIT list (ACTION) crashed on 20-byte names (exception pc 0x641C ra 0xD00 at the list draw):
+  a fixed buffer somewhere in that draw, not yet traced.
 
 ## Extraction (phase 4, verified by tests/test_script.py)
 - `tools/extract.py` -> `script/{scenario,battle,txd,evd,exe}/*.json` (7751 strings), library `tools/script_io.py`
@@ -113,6 +117,8 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
   list (252), tu = tutorial (28), save = memory-card messages (85, incl. boot "システムファイルが存在しません").
 
 ## EXE and overlay strings (verified: `tools/str_refs.py` finds a reference for each listed string)
+- Relocation (tools/insert.py patch_images): a string longer than its room moves to STR_POOL (payload 0x801F4000,
+  resident) and every ref is repointed (w: the word; p: lui + its first low op, each lui feeds one low op only).
 - Pointer format: absolute u32 RAM pointers (EXE RAM = file + 0x8000F800) in tables/records, and lui/addiu (or
   lui/load) pairs in code. One encoding everywhere (scenario codec above).
 - EXE text ranges: file 0x800-0x2F60 (RAM 0x80010000-0x80012760: file names, menus, system/debug messages,

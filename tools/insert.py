@@ -115,6 +115,16 @@ def marker_lines(s):
     return "\n".join(out)
 
 
+def marker_exe(s):
+    """marker_lines with each line padded to 2.5 x its Japanese characters (a likely English length): long labels
+    go through the string pool and show where their window clips."""
+    t = marker_lines(s)
+    if "%" in s["jp"]:
+        return t
+    return "\n".join(ascii_fill(short_id(s) if i == 0 else "", max(len(m), int(2.5 * len(j))))
+                     for i, (m, j) in enumerate(zip(t.split("\n"), s["jp"].split("\n"))))
+
+
 def encoder(mode, glyphs):
     def enc(s):
         if s["id"] in QA:
@@ -174,7 +184,7 @@ def gretc_files(rlz, mode):
             b = record_bytes(s, mode, marker_txd)
             return script_io.enc_jp(s) if b is None else b
         new[entry_index(doc)] = script_io.build_slots(doc, enc)
-    k = 0
+    k, names = 0, {}
     for f in sorted((ROOT / "script/evd").glob("*.json")):
         doc = json.loads(f.read_text(encoding="utf-8"))
         i = entry_index(doc)
@@ -182,32 +192,84 @@ def gretc_files(rlz, mode):
         for s in doc["strings"]:
             tag(s, "u" + b36(k))
             k += 1
+            # marker = JP byte length: 20-byte names crash the ring > UNIT list (ACTION, see docs/status.md)
             t = record_bytes(s, mode, marker_lines)
             if t is None:
                 continue
-            n = b[s["off"] - 1] - 1  # op 34 idx len text 00
-            # shortcut: names stay in place (len byte unchanged); growing them needs evd jump fix-ups (phase 7)
-            assert len(t) <= n, f"{s['id']}: {len(t)} > {n} bytes"
-            b[s["off"]:s["off"] + n] = t + bytes(n - len(t))
+            # op 34 idx len text 00: the text becomes key 7F hi lo (fits: every name is >= 2 bytes + NUL) and the
+            # evd_name hook (asm/hooks.asm) points the unit at the English in the payload table, so the evd keeps its size
+            n = b[s["off"] - 1]
+            j = names.setdefault(t, len(names))
+            b[s["off"]:s["off"] + n] = bytes([0x7F, 1 + j // 255, 1 + j % 255]) + bytes(n - 3)
         new[i] = bytes(b)
+    (ROOT / "work/asm").mkdir(parents=True, exist_ok=True)
+    (ROOT / "work/asm/evd_names.bin").write_bytes(name_table(list(names)))
     return new
 
 
+def name_table(names):
+    """u16 offsets (from the table start) per key index, then the NUL-terminated names (hook evd_name)."""
+    out = bytearray(2 * len(names))
+    for j, t in enumerate(names):
+        struct.pack_into("<H", out, 2 * j, len(out))
+        out += t + b"\0"
+    return bytes(out) or bytes(2)
+
+
+STR_POOL, STR_POOL_MAX = 0x801F4000, 0x3FF8  # asm/hooks.asm STR_POOL: relocated EXE/overlay strings (resident)
+LOW_OPS = (0x09, 0x0D, 0x20, 0x21, 0x23, 0x24, 0x25, 0x28, 0x29, 0x2B)  # str_refs.pairs: addiu ori lb lh lw lbu lhu sb sh sw
+
+
+def repoint(img, base, ref, old, new):
+    """Point one `refs` entry (w = u32 word, p = lui + its low op within 8 instructions, as str_refs.pairs finds it)
+    at new. Every p ref's lui feeds one low op only (checked over all 248 when this was written)."""
+    a = int(ref[1:], 16) - base
+    if ref[0] == "w":
+        assert struct.unpack_from("<I", img, a)[0] == old, ref
+        struct.pack_into("<I", img, a, new)
+        return
+    lui = struct.unpack_from("<I", img, a)[0]
+    rt = (lui >> 16) & 31
+    for j in range(a + 4, a + 36, 4):
+        y = struct.unpack_from("<I", img, j)[0]
+        if (y >> 21) & 31 == rt and y >> 26 in LOW_OPS:
+            break
+    else:
+        raise AssertionError(f"{ref}: no low op")
+    ori = y >> 26 == 0x0D
+    lo = y & 0xFFFF
+    got = ((lui & 0xFFFF) << 16) + (lo if ori or lo < 0x8000 else lo - 0x10000)
+    assert got == old, f"{ref}: pair builds {got:#x}, not {old:#x}"
+    hi = new >> 16 if ori else (new + 0x8000) >> 16
+    struct.pack_into("<I", img, a, (lui & 0xFFFF0000) | hi)
+    struct.pack_into("<I", img, j, (y & 0xFFFF0000) | (new & 0xFFFF))
+
+
 def patch_images(tree, exe_path, mode):
-    """EXE/overlay strings, in place (each record's `room` holds the text + NUL)."""
+    """EXE/overlay strings: in place when the text + NUL fits the record's `room`, else appended to the string pool
+    (work/asm/str_pool.bin, resident at STR_POOL) with every ref repointed. The moved record keeps its Japanese bytes
+    (unreached: a missed reference shows up as Japanese in QA shots)."""
+    pool = bytearray()
     for key, (f, base, _) in script_io.IMAGES.items():
         doc = json.loads((ROOT / f"script/exe/{key}.json").read_text(encoding="utf-8"))
         path = exe_path if key == "exe" else tree / f
         img = bytearray(path.read_bytes())
         for k, s in enumerate(doc["strings"]):
             tag(s, PREFIX[key] + b36(k))
-            t = record_bytes(s, mode, marker_lines)
+            t = record_bytes(s, mode, marker_exe if s.get("refs") else marker_lines)
             if t is None:
                 continue
-            # shortcut: in place only; longer text needs relocation + repointing `refs` (phase 7)
-            assert len(t) < s["room"], f"{s['id']}: {len(t)} bytes, room {s['room']}"
-            img[s["off"]:s["off"] + s["room"]] = t + bytes(s["room"] - len(t))
+            if len(t) < s["room"]:
+                img[s["off"]:s["off"] + s["room"]] = t + bytes(s["room"] - len(t))
+                continue
+            assert s.get("refs") and not s.get("inner"), f"{s['id']}: {len(t)} bytes > room {s['room']}, can't move"
+            new = STR_POOL + len(pool)
+            pool += t + bytes(4 - len(t) % 4)  # NUL + word alignment
+            for r in s["refs"]:
+                repoint(img, base, r, base + s["off"], new)
         path.write_bytes(img)
+    assert len(pool) <= STR_POOL_MAX, f"string pool {len(pool):#x} > {STR_POOL_MAX:#x}"
+    (ROOT / "work/asm/str_pool.bin").write_bytes(bytes(pool) or bytes(4))
 
 
 def patch_tree(tree, mode="en"):
@@ -231,4 +293,6 @@ def patch_tree(tree, mode="en"):
     work.mkdir(parents=True, exist_ok=True)
     (work / "font_tables.bin").write_bytes(tables)
     subprocess.run([ARMIPS, ROOT / "asm/hooks.asm", "-strequ", "EXE", exe_path, "-strequ", "TABLES",
-                    work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN"], check=True)
+                    work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN",
+                    "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin"],
+                   check=True)

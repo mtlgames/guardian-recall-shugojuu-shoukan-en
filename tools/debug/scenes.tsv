@@ -112,8 +112,11 @@ tac_action	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;60 -	2350
 tac_power	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -	2400	超力 list + help box
 tac_think	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -	2450	思考 list (guardian orders) + help box
 tac_info	2	70		1750 -;6 circle;40 -;6 down;15 -;6 circle;90 -	2350	情報 (unit info screen)
+tac_info_help	2	70		1750 -;6 circle;40 -;6 down;15 -;6 circle;90 -;6 circle;60 -	2450	情報 + ○
+tac_info_help2	2	70		1750 -;6 circle;40 -;6 down;15 -;6 circle;90 -;6 circle;60 -;6 down;30 -;6 down;30 -	2550	情報 + ○, down x2
 tac_wait	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;60 -	2400	待機: 決定 / キャンセル
 tac_ring	2	70		1750 -;6 triangle;80 -	2300	field ring menu (triangle), on UNIT
+tac_ring_help	2	70		1750 -;6 triangle;80 -;6 select;60 -	2400	ring + SELECT
 tac_config	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;90 -	2700	ring > CONFIG
 tac_mission	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 circle;90 -	2500	ring > MISSION
 tac_unit	2	70		1750 -;6 triangle;60 -;6 circle;120 -	2600	ring > UNIT
