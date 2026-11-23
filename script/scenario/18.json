@@ -177,7 +177,7 @@
   {
    "id": "g23.18.017",
    "jp": "ゆかり\n「私の仲間・・・\n　日光へ行けば、会えるかしら」\n{wait}",
-   "en": "Yukari\n\"My friend... I wonder if I'll meet her if I go\nto Nikko.\"\n{wait}",
+   "en": "Yukari\n\"My companions... I wonder if I'll meet them\nin Nikko.\"\n{wait}",
    "slots": [
     17
    ],

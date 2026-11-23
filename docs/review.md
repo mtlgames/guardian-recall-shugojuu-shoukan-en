@@ -19,3 +19,18 @@ pairs file. Critical/Important get fixed in `work/tl/bNNN.out.tsv` + `batches.py
 | b008 | Approved | | |
 | b009 | Approved after fix | g23.06.000 (Important: まだぁ～ = "are they here yet", Reiko waits in ambush; was "Are we there yet") | |
 | b010 | Approved | | |
+| b011 | Approved | | |
+| b012 | Approved after fix | g23.08.213 (Important: 美里のためにもね = "for Misato's sake too"; was "Not for Misato's sake, either!", reads as the opposite) | |
+| b013 | Approved | | Iwao pun -> "Boulder" |
+| b014 | Approved | | 10.149 choice pair fine |
+| b015 | Approved | | Sayaka's drawl consistent |
+| b016 | Approved | | "You dirty rat" / "Don't call me 'rat'" adaptation works |
+| b017 | Approved | | |
+| b018 | Approved | | |
+| b019 | Approved | | |
+| b020 | Approved | | |
+| b021 | Approved | | |
+| b022 | Approved | | |
+| b023 | Approved after fix | g23.18.017 (Important: 私の仲間 = her Dragon Wielder companions; was "My friend... meet her") | |
+| b024 | Approved | | Rairyu / Thunder Dragon gag inverted for English |
+| b025 | Approved after fix | g23.20.203 (Important: Akira's roll call now matches 15.035/17.038; same fix in b030 g23.26.222) | |

@@ -210,7 +210,7 @@
   {
    "id": "g23.20.203",
    "jp": "晶\n「百鬼夜行の世の中に、ひときわ輝く\n　星ひとーつ！」\n{wait}「人呼んでさすらいのヒーロー、雷晶、\n　ただいま参上！　です～」\n{wait}",
-   "en": "Akira\n\"In a world where a hundred demons roam\nthe night, one star shines brightest of all!\"\n{wait}\"They call me the wandering hero! Akira\nIkazuchi, here at your service! Yes indeed~\"\n{wait}",
+   "en": "Akira\n\"In a world where demons run rampant, one\nstar shines brighter than all!\"\n{wait}\"They call me the wandering hero! Akira\nIkazuchi, arriving on the scene! Yes indeed~\"\n{wait}",
    "slots": [
     203
    ],

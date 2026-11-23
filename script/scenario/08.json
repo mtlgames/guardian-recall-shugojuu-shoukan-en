@@ -408,7 +408,7 @@
   {
    "id": "g23.08.213",
    "jp": "ちかな\n「そうか！　愛媛にいたヤツか」\n{wait}「悪いけどあの一件じゃ、こっちも十分\n　不愉快な思いしてるんだ」\n{wait}「そんな理屈でやられるワケには\n　いかないね。美里のためにもね！」\n{wait}",
-   "en": "Chikana\n\"Right! You were the one in Ehime.\"\n{wait}\"Sorry, but that whole business left a pretty\nbad taste in our mouths too.\"\n{wait}\"We're not about to go down for a reason like\nthat. Not for Misato's sake, either!\"\n{wait}",
+   "en": "Chikana\n\"Right! You were the one in Ehime.\"\n{wait}\"Sorry, but that whole business left a pretty\nbad taste in our mouths too.\"\n{wait}\"We're not about to go down over a reason\nlike that. We owe Misato that much!\"\n{wait}",
    "slots": [
     213
    ],
