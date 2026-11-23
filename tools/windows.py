@@ -37,7 +37,12 @@ VARIANTS = [
     dict(name="trait help", ids=r"g13\.(07|10)\.", kind="lines", px=221, lines=3, status="jp width (group max)"),
     dict(name="battle help", ids=r"g13\.", kind="lines", px="jp", lines=3, status="jp width"),
     dict(name="charfile profile", ids=r"cf\.", jp=r"^&s\(165,87\)", kind="txd", px=129, lines=5, status="measured"),
-    dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, lines=99, status="measured"),
+    # DIC.BIN wraps by itself once a glyph would start at col >= 100 (asm/hooks.asm): English is pre-wrapped at 100
+    dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, wrap=100, lines=99, status="measured"),
+    # guardian page body `&g(14,24)&f(14,10)`: the JP auto-wraps at 14 chars x pitch 14 = 196 px; ASCII advance at
+    # pitch 14 = width + 1, so English wraps at 180. Lines: 3 header (name, reading) + 10 body
+    dict(name="guardian page", ids=r"gd\.", jp=r"^&s\(64,20\)", kind="txd", px=180, lines=13,
+         status="derived (&f chars x &g pitch)"),
     # centred by byte count (start x = 159.5 - 3.25 * bytes), so bytes also keep it clear of the number column
     dict(name="replay list", ids=r"rep\.", kind="txd", px=223, lines=1, bytes=34, status="measured"),
     # one record = the whole diary page; each &s(x,y) segment gets right - x px (x 0 = &e() centred: right - left)
@@ -163,6 +168,20 @@ def segments(v, text, jp=""):
     for x, seg in zip(parts[1::2], parts[2::2]):
         out.append((seg, v["right"] - (int(x) if int(x) > 0 else v["left"])))
     return out
+
+
+def wrap_txd(v, text, glyphs):
+    """Word-wrap txd English to its variant: per &s(x,y) segment (`right` variants) or at `wrap` / `px`. Lines the
+    translator broke with &n() stay; a "jp" floor (unmeasured) leaves the text as written."""
+    if "right" in v:
+        parts = re.split(r"(&s\(-?\d+,-?\d+\))", text)
+        out = [wrap(parts[0], v["right"] - v["left"], glyphs)]
+        for mark, seg in zip(parts[1::2], parts[2::2]):
+            x = int(re.match(r"&s\((-?\d+)", mark).group(1))
+            out += [mark, wrap(seg, v["right"] - (x if x > 0 else v["left"]), glyphs)]
+        return "".join(out)
+    px = v.get("wrap", v["px"])
+    return text if px == "jp" else wrap(text, px, glyphs)
 
 
 def records():

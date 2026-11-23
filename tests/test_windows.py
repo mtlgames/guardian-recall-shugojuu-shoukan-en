@@ -51,6 +51,17 @@ def test_txd_segments_get_right_minus_x():
     assert windows.lint(s, v, G)[0].endswith("px > 108: '" + "M" * 40 + "'")
 
 
+def test_wrap_txd_per_segment_and_px():
+    diary = windows.VARIANTS[[v["name"] for v in windows.VARIANTS].index("diary page")]
+    long = " ".join(["word"] * 30)
+    out = windows.wrap_txd(diary, "&s(165,65)&c(7)Name&s(40,120)&c(0)" + long, G)
+    head, body = out.split("&s(40,120)")
+    assert "&n()" not in head and body.count("&n()") >= 2
+    assert all(font.width(windows.MARKUP.sub("", x), G) <= 233 for x in body.split("&n()"))
+    dic = windows.variant({"id": "dic.0001", "jp": ""})
+    assert all(font.width(windows.MARKUP.sub("", x), G) <= 100 for x in windows.wrap_txd(dic, long, G).split("&n()"))
+
+
 def test_save_label_pair_fits():
     # DAY save list, stages < 20: "%-6s %-6s " = Sky label + Earth label on one 180 px row (docs/windows.md)
     en = {}

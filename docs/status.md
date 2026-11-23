@@ -2,9 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (b001-b063 merged = unit names, all scenario, all g13 battle text; b064-b065
-  (txd rep/save/tu) drafted, not merged; then txd cf/day/dic/gd/op, then exe/overlays, then review).
-  Last build: 2026-11-23 `build.py` (English, b001-b004): ev02 shows "Yumi / "It failed?"" in the scenario box.
+- **Phase:** 6. Translate in progress (b001-b065 merged = unit names, all scenario, all g13, txd rep/save/tu;
+  b066-b072 (txd cf/day/dic/gd + day overlay strings) split, not started; then exe/overlays, then review).
+  Last build: 2026-11-23 `build.py` (English through b065): day_save list "Sky, Episode 1", card title full-width.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -126,13 +126,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     help g13.07/10 = 221 px (group's widest JP line). Glossary: Forms (Battle/Shooter/Orb/Spirit Guardian), skill
     rank/EXP, all Psi names + categories, consumable item names (in g13.02 help line 1), Trait, Levitate (move
     type), Unleash your potential, Expert. Item help line 1 = item name for consumables (JP "(name) 消費：").
-- **Next:** (a) b064/b065 (work/tl, gitignored, drafts on disk): all rows done except the chapter labels
-  save.0512-0708 (天の章第一話 = "Sky Chapter, Episode 1", 地 Earth, 七龍 Seven Dragons, 覚醒 Awakening, 龍鬼 Ryuki;
-  ＴＥＳＴＭＡＰ = TESTMAP): their JP-width floor is 78-91 px, English needs ~170: measure where they show
-  (day_save / title LOAD list scenes) and add a windows row, then fill, check, merge. `<a>` in save.txd = the
-  day.001c8/001d0 EXE words ロード/セーブ: translate those as lowercase "load"/"save" (save.txd sentences use them
-  mid-sentence). (b) split + translate txd cf/day/dic/gd/op (`batches.py split --only '^(cf|day|dic|gd|op)\.'`;
-  op got no batch from the last split: check why), then exe/overlays (byte/room budgets; 守護○獣 Form names,
+  - 2026-11-23 (18): b064-b065 merged. Chapter labels "Sky, Episode 1" (D11; glossary 天の章/第一話), windows row
+    "save chapter label" 180 px (day_save measured; Sky+Earth pair test). **Card title**: DAY.BIN 0x8016ABB8 -> new
+    asm `title_wide` (ASCII -> full-width SJIS, cap 62 bytes; buffer 0x50); day.002a0 = "GR%d%d %s%s%s %d%d:%d%d";
+    verified with new scene `day_save_write` (block 3 title "ＧＲ０２　Ｓｋｙ，　Ｅｐｉｓｏｄｅ　１　００：２６").
+    docs/re/text.md "DAY save list + card title". txd auto-wrap: batches.prepare -> windows.wrap_txd (per &s segment
+    for diary pages, `wrap` 100 for dic (engine wraps at col 100), new row "guardian page" gd 180 px x 13 (derived from
+    &f(14,10) x &g pitch 14, not yet measured)). tools/dis_ovl.py (overlay disassembly).
+- **Next:** (a) translate b066-b072 (work/tl, gitignored; `split` already made them): b066-b067 cf (charfile name
+  lines, profile `&s(165,87)..` auto-wrapped at 129 px; NATIVE/BIRTH.. stats are already English) + day.001b8-0029c
+  overlay strings (はい Yes, いいえ No, ロード/セーブ = lowercase "load"/"save": save.txd uses them as `<a>`
+  mid-sentence; ＮＯ　ＤＡＴＡ = NO DATA; day.00250 system-file title must stay **full-width** text <= 48 bytes, e.g.
+  "ＧＲ－００　Ｇｕａｒｄｉａｎ　Ｒｅｃａｌｌ" (BIOS; block copy of 0x31 bytes); ／ = "/"); b068-b069 day diary pages
+  (keep the markup, write plain English per segment: the tool wraps; keep place names short: the place field
+  wraps at 108 px into the body); b069-b070 dic; b070-b072 gd. Write the header part of each record as in JP (markup
+  identical), English text only. The same system title sits in exe.01580, exe.021d0, action.006b4 (full-width too).
+  op.* is ASCII music titles (no JP: records() skips it, no batch needed). Then exe/overlays (byte/room budgets; 守護○獣 Form names,
   Psi names, item names, trait names 復讐者..蛮族 at exe.a68e4-a69c4 must match glossary). Then the review pass.
   (a0) Old note: Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
   width" floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of

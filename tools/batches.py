@@ -80,6 +80,8 @@ def limit_label(entry):
     v = windows.variant(entry)
     if not v:
         return "?"
+    if "right" in v:  # diary page: each &s(x,y) segment gets right - x px
+        return f"{v['name']}:right {v['right']}" + (f"x{v['lines']}" if v["lines"] < 99 else "")
     px = windows.jp_px(entry["jp"]) if v["px"] == "jp" else v.get("px", "")
     return f"{v['name']}:{px}px" + (f"x{v['lines']}" if v["lines"] < 99 else "")
 
@@ -134,7 +136,9 @@ def prepare(entry, en):
     en = en.replace("\\n", "\n").strip()
     v = windows.variant(entry)
     jp = entry["jp"]
-    if not v or v["kind"] == "txd" or (v["kind"] == "lines" and not entry["id"].startswith("g13")):
+    if v and v["kind"] == "txd":
+        return windows.wrap_txd(v, en, GLYPHS)
+    if not v or (v["kind"] == "lines" and not entry["id"].startswith("g13")):
         return en
     name, _ = speaker_of(entry)
     px = windows.jp_px(jp) if v["px"] == "jp" else v["px"]
