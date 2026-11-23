@@ -2,9 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (b001-b069 merged = unit names, all scenario, all g13, txd rep/save/tu/cf/day,
-  dic entries 0000-0132; b070-b072 (rest of dic + gd) not started; then exe/overlays, then review).
-  Last build: 2026-11-23 `build.py` (English through b069): charfile, diary, dictionary pages checked in game.
+- **Phase:** 6. Translate in progress (b001-b072 merged = unit names, all scenario, all g13, all txd; EXE/overlay
+  batches b073-b076 split, not started; then the review pass).
+  Last build: 2026-11-24 `build.py` (English through b072): dictionary list/pages and guardian pages checked in game.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -141,14 +141,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (`narrow`: the LOAD button hid words), day.0512-0708 = copy of the save labels (180, reader not found).
     batches.py: `&g(..)` free in the markup check; card titles may use full-width SJIS (CARD_TITLES); font.width
     counts a full-width char as 13. Scratch generator for cf headers not kept (one-off).
-- **Next:** (a) translate b070-b072 (work/tl, gitignored): b070 = dic 0133-0270ish (dic.0132 heading "Suzaku" done in
-  b069; write `Heading&n()&n()body` with the JP's `&c(n)..&c(0)` counts kept, no reading line, <= 11 lines incl.
-  heading + blank: about 150 chars of body) + gd 4 rows; b071-b072 gd (guardian list names 180 px; guardian page
-  `&s(64,20)..` 180 px x 13 lines, derived not measured: check opt_guardians_page after merging). Dictionary entries
-  stay in JP gojuon order (no re-sort). The same system title as day.00250 sits in exe.01580, exe.021d0,
-  action.006b4 (full-width, already allowed by the check).
-  op.* is ASCII music titles (no JP: records() skips it, no batch needed). Then exe/overlays (byte/room budgets; 守護○獣 Form names,
-  Psi names, item names, trait names 復讐者..蛮族 at exe.a68e4-a69c4 must match glossary). Then the review pass.
+  - 2026-11-24: b070-b072 merged (dic 0133-0268, every guardian list name + page). **Guardian page measured**
+    (opt_guardians_page now opens it: ○ held 30 frames = art page, △ = text): body x 64, ASCII +1 px/glyph at pitch 14
+    (new variant key `adv` in windows.wrap/lint), 192 px x 5 rows (6th row hits the bottom bar). **Bug fixed:**
+    dictionary list headings were wrapped like pages ("Inawashiro Lake Hotel" spilled "Hotel" to x 0): new row
+    "dictionary list" (223 px, 34 bytes, never wrapped). D12: kana reading lines dropped (gd reading row empty).
+    Glossary: 冥 Nether, 皇 Emperor (elements), unit names strike/raider/defense/air force, navy, Royal Guard, True
+    Ryuki, Earth Centipede; 思考 also "thought" in prose. Remaining txd records without English are ASCII-only.
+    Scratch tools for gd (expander from `id<TAB>Name|Body`) not kept (one-off).
+- **Next:** (a) EXE/overlay batches b073-b076 (work/tl, gitignored; 594 ids: action 86, battle 83, brain 6, day 8,
+  exe 370, hen 49). Budgets are "jp width" floors; strings with refs relocate to STR_POOL (bytes free), the rest are
+  byte-capped by room. Before translating: (a1) below, and the single-kanji element icons (action.00148-0016c and
+  copies, 13 px: 主皇聖冥飛炎海雷地天) need their screen found and measured (tactics element orbs G17? 情報 panel?):
+  English needs more than 13 px; widen/engine (D4), don't abbreviate unless flagged. Rank letters Ｓ..Ｄ -> ASCII.
+  The same system title as day.00250 sits in exe.01580, exe.021d0, action.006b4 (full-width, already allowed).
+  守護○獣 Form names, Psi names, item names, trait names 復讐者..蛮族 at exe.a68e4-a69c4 must match glossary.
+  Then the review pass (phase 6 done-when: reviewer finds no Critical/Important).
   (a0) Old note: Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
   width" floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of
   abbreviating. Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
