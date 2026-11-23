@@ -1026,101 +1026,112 @@
   {
    "id": "g23.11.208",
    "jp": "裕子\n「あんたと直江さんて、\n　どういう知り合いなの？」\n{wait}「やっぱ、自衛隊の時の？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"So how do you and Naoe-san know\neach other?\"\n{wait}\"From your Self-Defense Forces days?\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.11.209",
    "jp": "ゆかり\n「近所のお姉さん」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"She's the big sister from my neighborhood.\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.210",
    "jp": "裕子\n「へ？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh?\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.211",
    "jp": "ゆかり\n「はじめて守護獣と会った時、混乱した\n　私を、助けてくれた人でもあるわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"She's also the one who helped me when I\nfirst met a Guardian and was all confused.\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.212",
    "jp": "裕子\n「・・・あんたが、あたしに\n　してくれたように？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Like you did for me?\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.213",
    "jp": "ゆかり\n「フフッ・・・もっと優しかったわ」\n{wait}「それより裕子、あなたの戦い方・・・\n　まだなにか、ぎこちないのよね。\n　もう少し力をつけてもらわないと」\n{wait}「ほらこれ、使ってみて」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Hehe... She was much gentler.\"\n{wait}\"More importantly, Yuko, the way you fight...\nit's still kind of stiff.\"\n{wait}\"You need to get a bit stronger.\"\n{wait}\"Here, try using this.\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.214",
    "jp": "裕子\n「はいはい」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Yeah, yeah.\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.216",
    "jp": "唯\n「そこをどきなさい！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Get out of my way!\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 6
+   "pre": 6,
+   "status": "done"
   },
   {
    "id": "g23.11.217",
    "jp": "阿那律\n「ちっ！　どいつもこいつも\n　役立たずばかりだよ！」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Tch! Every last one of 'em is useless!\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.218",
    "jp": "唯\n「おとなしく通してくれたら、これ以上\n　危害を加えるような事はしないわ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"If you let us through quietly, we won't do\nyou any more harm.\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.219",
    "jp": "阿那律\n「やかましいよ小娘が！」\n{wait}「あたしを須菩提ごときと一緒にする\n　んじゃないよ！」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Shut your mouth, brat!\"\n{wait}\"Don't you dare lump me in with the likes of\nSubodai!\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

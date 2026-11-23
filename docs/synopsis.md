@@ -92,3 +92,19 @@ the Egubado destroying dragon veins; her SDF superiors wouldn't believe in Guard
 Anaritsu (female, あたし, short-tempered) and Subodai ambush them; their drafted Guardian user, Sayaka Shizunai
 (20, college girl, airhead drawl "li-ike", "nothing to do with i-it"; piercing didn't take), joins. Sayaka calls
 Yukari an "old lady"; Yukari is 18.
+
+## 12 (Mt. Osore: fake Naoe, Kaoru, the split)
+Ryoko Kagami (Genbu's officer; short, boastful, cowardly brat, ボク; "Call me Kagami-sama!"; hates being called
+"shorty") disguises herself as Hasumi; Yukari unmasks her ("she'd never call herself 'boku'"). Kaoru Kodomari
+(tomboy girl, mistaken for a boy: "little guy"; searching for her kidnapped friend Ran-chan) summons Fudo (lazy,
+crude: "Fudo Myoo, Ashuranata!" mantra) and joins. Saiki (Yui calls her "Hime-chan"; speaks of herself as "Saiki")
+can track Kagami's aura. Yukari reveals she heard the Holy Dragon and wants to free the dragon veins instead of
+chasing Kagami. Choice "I'll help you" / "I don't buy it" splits the party (Yuko follows Yukari or goes with Yui).
+
+## 13-14 (Kagami's traps; Ruri, Akira)
+Kagami's bomb trap (three bombs, robot countdown); Ruri Hiraizumi (boy-crazy, just dumped, "third one this year";
+Guardian Kirara; calls Yui "big sis") joins. Anan (Kagami's long-suffering subordinate) gets bullied by Ruri.
+Yuko theorises a Guardian reflects its master's wishes (Saiki's selfishness = Yui's wish to be free; Yui is the
+last of the Iwamizawa line). Operation Dam-Dam: Kagami's detonator has no batteries. Kagami reveals Jin (Hitomi Jin)
+took Naoe to Sado. Akira Ikazuchi ("wandering hero", earnest stiff hero speech: "Yes indeed!", "on behalf of the
+heavens!") helps and leaves.

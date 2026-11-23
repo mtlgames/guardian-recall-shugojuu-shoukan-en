@@ -7,795 +7,881 @@
   {
    "id": "g23.14.000",
    "jp": "涼子\n「くそ～・・・」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Daaamn it...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.001",
    "jp": "阿難\n「あの、鏡様・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"Um, Kagami-sama...\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.002",
    "jp": "涼子\n「なんだよ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"What!?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.003",
    "jp": "阿難\n「通信が入っております。\n　その・・・玄武様からで・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"There's a transmission coming in. It's... from\nGenbu-sama...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.004",
    "jp": "涼子\n「わ、バカ切れ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Whoa, idiot, hang up!\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.14.005",
    "jp": "阿難\n「あ・・・！」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"Ah...!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.006",
    "jp": "涼子\n「ふー・・・」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Phew...\"\n{wait}",
    "slots": [
     6
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.007",
    "jp": "阿難\n「ふーって・・・\n　マズイですよ今の」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"'Phew'...? That was bad, you know.\"\n{wait}",
    "slots": [
     7
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.008",
    "jp": "涼子\n「いいんだよ・・・」\n{wait}「それより奴らが生きてるって事の方が\n　モンダイなんだ」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"It's fine...\"\n{wait}\"The real problem is that they're still alive.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.009",
    "jp": "涼子\n「準備できたか？」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Are the preparations ready?\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.010",
    "jp": "闘士\n「今しばらく」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Just a moment longer.\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.011",
    "jp": "涼子\n「急げよ」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Hurry it up.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.012",
    "jp": "阿難\n「しかし鏡様、失敗続きに今のは、\n　ちょっと・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"But Kagami-sama, after all these failures,\ndoing that was a bit...\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.013",
    "jp": "涼子\n「いーっつってんだろ！」\n{wait}「あの玄武様が直々に連絡して\n　来たんだぞ、今のボクに！\n　どーせただじゃ済まないんだよ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"I said it's FINE!\"\n{wait}\"Genbu-sama called me personally, right now\nof all times! I'm in for it no matter what!\"\n{wait}",
    "slots": [
     13
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.014",
    "jp": "涼子\n「奴らをやっつけたっていう結果が\n　必要なんだ・・・」\n{wait}「見てろよ、今度こそやっつけてやる！\n　ボクの秘策中の秘策でな！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"I need results. I need to have\ncrushed them...\"\n{wait}\"Just watch, this time I'll get 'em! With my\nmost secret of secret plans!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.015",
    "jp": "涼子\n「来たな！　準備は！？」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"They're here! Is everything ready!?\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.016",
    "jp": "闘士\n「完了です」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Complete.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.017",
    "jp": "涼子\n「よっしゃあ！\n　ダムダム作戦始動！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"All riiight! Commence Operation Dam-Dam!\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.018",
    "jp": "裕子\n「ダムダム・・・？\n　なんだそりゃ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Dam-Dam...? What the heck is that?\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.019",
    "jp": "唯\n「また何か企んでるわね」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"She's scheming again.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.020",
    "jp": "涼子\n「へへん、まんまと罠にかかったな！\n　聞いて驚くなよ」\n{wait}「ボクがこのスイッチを押せば、\n　堤防に仕掛けた爆弾が・・・\n　ドッカーン！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Heh heh, you fell right into my trap! Brace\nyourselves.\"\n{wait}\"When I push this switch, the bombs I planted\non the embankment go... KABOOM!\"\n{wait}",
    "slots": [
     20
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.021",
    "jp": "裕子\n「な、なんだって・・・！？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Wh-what did you say...!?\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.022",
    "jp": "唯\n「堤防に爆弾なんて、\n　ダムが決壊するわ」\n{wait}「下流にいる人たちまで、\n　巻きぞえになる！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Bombs on the embankment? The dam\nwill burst!\"\n{wait}\"Everyone living downstream will be caught\nin it too!\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.023",
    "jp": "涼子\n「知らないね～だ」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Don't care~, nyeh!\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.024",
    "jp": "涼子\n「と・・・とにかく！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"A... anyway!\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.14.025",
    "jp": "涼子\n「起爆装置はボクの手の中だ。\n　取れるもんなら取ってみな！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"The detonator's in my hand. Take it from me\nif you can!\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.026",
    "jp": "涼子\n「お前は、ここを死守するんだ」\n{wait}「やつらを十分引き付けてから\n　爆発させる。いいな！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"You hold this spot no matter what.\"\n{wait}\"I'll set it off once I've lured them in\ngood. Got it!?\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.027",
    "jp": "阿難\n「ま・・・またですか・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"N... not again...\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.028",
    "jp": "裕子\n「鏡から、起爆装置を取り上げるんだ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"We've gotta take that detonator away from\nKagami.\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.029",
    "jp": "唯\n「鏡だって逃がすわけにはいかないわ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"And we can't let Kagami get away, either.\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.030",
    "jp": "るり\n「やれやれ、めんどーねぇ～」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Ugh, what a paaain~\"\n{wait}",
    "slots": [
     30
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.031",
    "jp": "裕子\n「これが爆弾・・・？\n　なんとか、なんないかな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"So this is a bomb...? Can't we do something\nabout it?\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.14.032",
    "jp": "唯\n「これ、取れないかしら・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"I wonder if I can get this off...\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.033",
    "jp": "るり\n「これ外しちゃえば・・・\n　いーんじゃないの？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"If I just pull this off... that'd work, right?\"\n{wait}",
    "slots": [
     33
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.034",
    "jp": "涼子\n「へーん。それは、この前のヤツとは\n　違う高性能爆弾だ」\n{wait}「お前ら素人に解除できるもんか」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Hmph. That's a high-performance bomb, not\nlike the last ones.\"\n{wait}\"Amateurs like you could never disarm it.\"\n{wait}",
    "slots": [
     34
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.035",
    "jp": "裕子\n「くそっ。どうにか・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Damn it. There's gotta be a way...\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.036",
    "jp": "唯\n「そ、そんな・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"N-no...\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.037",
    "jp": "るり\n「ふんっ。そんな、はったり・・・！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Hmph. That's just a bluff...!\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.038",
    "jp": "涼子\n「ああ、\n　やめといた方がいいと思うよお」\n{wait}「今度の爆弾はデリケートなんだ。\n　変なトコいじくると、すぐ\n　ドッカーーン、さ」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Ahh, I'd leave that alone if I were youuu.\"\n{wait}\"This bomb's delicate. Mess with the wrong\npart and it's straight to KABOOOOM.\"\n{wait}",
    "slots": [
     38
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.039",
    "jp": "裕子\n「だめだ・・・\n　やっぱり、鏡をとめるしか！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"No good... We've gotta stop Kagami after all!\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.040",
    "jp": "唯\n「だめ・・・\n　やっぱり、鏡をとめないと！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"It's no use... We have to stop Kagami!\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.041",
    "jp": "るり\n「もうっ！　やっぱりあのチビ、\n　とめるしかないわ！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Ugh! Guess we've gotta stop that shrimp\nafter all!\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.042",
    "jp": "涼子\n「さあて、\n　そろそろ押しちゃおうかな」\n{wait}「残念だったね、裕子ちゅわん」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Weeell, maybe I'll push it about now.\"\n{wait}\"Too bad, Yuko-chaaan.\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.043",
    "jp": "裕子\n「く、くそ・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"D-damn it...\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.044",
    "jp": "涼子\n「うりゃ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Hyaah!\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.045",
    "jp": "涼子\n「・・・あれ？」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"...Huh?\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.046",
    "jp": "涼子\n「なんだ？　なんで爆発しないんだ？」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"What? Why isn't it blowing up?\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.047",
    "jp": "裕子\n「・・ん？」\n{wait}「こんなトコに乾電池が・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Hm?\"\n{wait}\"There's a battery lying here...\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.048",
    "jp": "涼子\n「電池・・・？」\n{wait}「げっ！　電池が入ってないぃ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"A battery...?\"\n{wait}\"Gah! The batteries aren't in iiit!\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.049",
    "jp": "裕子\n「・・・あのね・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Seriously...\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.050",
    "jp": "涼子\n「くそぉ、\n　裕子！　その電池、よこせ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Damn it, Yuko! Hand over that battery!\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.051",
    "jp": "裕子\n「ばーか」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Dummy.\"\n{wait}",
    "slots": [
     51
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.052",
    "jp": "涼子\n「ち、ちくしょー。\n　ボクのダムダム作戦が～」\n{wait}「こうなったら、ボクが相手だ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"D-darn it! My Operation Dam-Dam~\"\n{wait}\"Fine, then I'll fight you myself!\"\n{wait}",
    "slots": [
     52
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.053",
    "jp": "裕子\n「ふひー。アブないアブない」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Phew. That was close, that was close.\"\n{wait}",
    "slots": [
     53
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.054",
    "jp": "涼子\n「こうなったら、ボク自ら相手してや\n　るっ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Fine, then I'll take you on personally!\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.059",
    "jp": "裕子\n「観念しろ。直江さんはどこにいる」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Give up. Where's Naoe-san?\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.14.060",
    "jp": "涼子\n「・・・仁が佐渡に連れてったよっ！\n　うっ・・・うわーんっ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"...Jin took her to Sado! Ugh... WAAAH!\"\n{wait}",
    "slots": [
     60
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.061",
    "jp": "るり\n「なんか、かわいそうみたい」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"I kinda feel sorry for her.\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.14.062",
    "jp": "裕子\n「ちょ～っと、かわいそーだったかな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Maybe that was a liiittle mean.\"\n{wait}",
    "slots": [
     62
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.063",
    "jp": "晶\n「天罰覿面です！\n　では、さらばです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Swift divine justice! And now, farewell!\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.064",
    "jp": "裕子\n「あ、行っちゃった」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Oh, she's gone.\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.065",
    "jp": "唯\n「直江さん・・・佐渡ですって」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Naoe-san... in Sado, she said.\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.066",
    "jp": "裕子\n「うん。とにかく、行ってみよう」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Yeah. Anyway, let's go check it out.\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.199",
    "jp": "裕子\n「あ、あのぉ～」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Uh, um, excuse me~\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.14.200",
    "jp": "晶\n「ハイですっ」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Yes indeed!\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.201",
    "jp": "裕子\n「ええーと、あなたはいったい・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"So, um, who exactly are you...\"\n{wait}",
    "slots": [
     201
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.202",
    "jp": "晶\n「ふっふっふ、\n　人呼んでさすらいのヒーロー」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Hehehe... They call me the wandering hero!\"\n{wait}",
    "slots": [
     202
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.203",
    "jp": "裕子\n「はぁ・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Uh-huh...\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.204",
    "jp": "晶\n「安心して任せるです！」\n{wait}「堤防爆破などという言語道断な\n　たくらみは、この雷晶が、\n　天に代わって成敗するですっ！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Fear not, leave it to me!\"\n{wait}\"A scheme as outrageous as blowing up an\nembankment shall be punished by I, Akira\nIkazuchi, on behalf of the heavens!\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.205",
    "jp": "裕子\n「えーと・・・じゃ、よろしく」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Umm... okay, then, thanks.\"\n{wait}",
    "slots": [
     205
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.206",
    "jp": "唯\n「いいかげんにしなさいっ」\n{wait}「こんなバカな事して・・・\n　いったいなんになるの！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"That's enough!\"\n{wait}\"Doing something so stupid... what good could\nit possibly do!?\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.14.207",
    "jp": "涼子\n「ボクのためだよ」\n{wait}「寝るところも、食べる心配なんかも\n　しないで、生きていくために！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"It's for ME!\"\n{wait}\"So I can live without ever worrying about\nwhere to sleep or what to eat!\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.208",
    "jp": "唯\n「そんな考え方が、自分をダメに\n　するのよ！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Thinking like that is what ruins you!\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.209",
    "jp": "涼子\n「うるさい！\n　ボクはダメなんかじゃない！」\n{wait}「おまえらなんか、虫けらだ！\n　虫けらがどーなろうと、\n　知ったこっちゃないんだよ！」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Shut up! I'm NOT ruined!\"\n{wait}\"You're all just bugs! I don't care one bit what\nhappens to bugs!\"\n{wait}",
    "slots": [
     209
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.210",
    "jp": "唯\n「ほんとに・・・ほんとに怒るわよ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"I'm really... really going to get angry.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.211",
    "jp": "涼子\n「げ・・・」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"Gulp...\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.212",
    "jp": "るり\n「でさ？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"So-o?\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.14.213",
    "jp": "阿難\n「は、はい？」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"Y-yes?\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.214",
    "jp": "るり\n「また爆弾を守って、あたしたちと\n　心中するワケ？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"You're gonna guard the bomb again and die\nwith us?\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.215",
    "jp": "阿難\n「そ、そうゆうことになりますね」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"Y-yes, I suppose that's how it'll go.\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.216",
    "jp": "るり\n「ふうん・・・\n　ね、なんか持ってない？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Hmm... Hey, got anything on you?\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.217",
    "jp": "阿難\n「え？　えーと・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"Huh? Umm...\"\n{wait}",
    "slots": [
     217
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.220",
    "jp": "るり\n「さんきゅー」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Thankyou~\"\n{wait}",
    "slots": [
     220
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.14.221",
    "jp": "阿難\n「？？？？」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"????\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.222",
    "jp": "るり\n「いいわよ。\n　あんたは手加減してあげる」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"All right. I'll go easy on you.\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.14.223",
    "jp": "阿難\n「お、お願いします・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"Th-thank you very much...\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

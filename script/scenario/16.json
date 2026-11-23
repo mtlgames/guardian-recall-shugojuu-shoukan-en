@@ -7,363 +7,403 @@
   {
    "id": "g23.16.000",
    "jp": "裕子\n「もう、何がなんだか・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Geez, I don't even know what's going on\nanymore...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.001",
    "jp": "さやか\n「うえ～、ぎぼぢ悪ぅ。もう死ぬ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ble-eh~, I feel si-ick. I'm gonna di-ie~\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.002",
    "jp": "ゆかり\n「ここは・・・」\n{wait}「荏狗覇菟の基地内・・・ってトコ\n　かしら」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"This is...\"\n{wait}\"Inside an Egubado base... I suppose.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.003",
    "jp": "闘士\n「侵入されました」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"They've broken in.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.16.004",
    "jp": "瞳\n「仕方ないな・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"It can't be helped...\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.005",
    "jp": "闘士\n「申し訳ありません」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"My deepest apologies.\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.006",
    "jp": "羅侯羅\n「Ｂブロック、準備出来ました」\n{wait}",
-   "en": "",
+   "en": "Ragora\n\"Block B is ready.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.007",
    "jp": "瞳\n「よし」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Good.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.008",
    "jp": "瞳\n「来い」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Come.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.009",
    "jp": "瞳\n「私の転移が完了したら、\n　転移室を爆破しろ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Once my transfer is complete, blow up the\nteleport room.\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.010",
    "jp": "羅侯羅\n「は、し、しかし・・・」\n{wait}",
-   "en": "",
+   "en": "Ragora\n\"Wh-what? B-but...\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.011",
    "jp": "瞳\n「万が一という事もある。\n　日光にまで入れる訳にはいくまい」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Just in case. We can't let them get as far\nas Nikko.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.012",
    "jp": "巴澄\n「日光か。龍脈だな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Nikko, huh. The dragon vein.\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.013",
    "jp": "瞳\n「そう期待するな。\n　連れていく訳じゃない」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Don't get your hopes up. I'm not taking\nyou there.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.015",
    "jp": "巴澄\n「うわっ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Whoa!\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.016",
    "jp": "瞳\n「日光で待ってるよ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"I'll be waiting in Nikko.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.046",
    "jp": "さやか\n「え～？　どれどれ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Huh~? Lemme see, lemme see~\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.047",
    "jp": "裕子\n「わ、さやか、ちょっと待って！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Whoa, Sayaka, hold on a sec!\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.048",
    "jp": "ゆかり\n「なによ、けっこう元気じゃない」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Well, aren't you lively all of a sudden.\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.049",
    "jp": "裕子\n「な、なんだ、この音？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Wh-what's that sound?\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.16.050",
    "jp": "さやか\n「警報でしょお？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"An alarm, ri-ight?\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.051",
    "jp": "ゆかり\n「まずいわね・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"This is bad...\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.052",
    "jp": "さやか\n「みんな捕まるのぉ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Are we all gonna get caught?\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.053",
    "jp": "裕子\n「あり？　でも、人がいないな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh? But there's nobody around.\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.054",
    "jp": "ゆかり\n「そう言えば・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Now that you mention it...\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.055",
    "jp": "「・・・繰リ返シマス。緊急コードガ\n　入力サレマシタ。自爆装置作動開始。\n　本基地ハアト数分デ消滅シマス」\n{wait}「闘士ノ方々ハ速ヤカニ本基地ヨリ退\n　避シテ下サイ。繰リ返シマス・・・」\n{wait}",
-   "en": "",
+   "en": "\"...REPEAT. EMERGENCY CODE ENTERED.\nSELF-DESTRUCT SEQUENCE INITIATED. THIS\nBASE WILL BE DESTROYED IN A FEW MINUTES.\"\n{wait}\"ALL WARRIORS EVACUATE THE BASE\nIMMEDIATELY. REPEAT...\"\n{wait}",
    "slots": [
     55
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.056",
    "jp": "裕子\n「じ・・・自爆っ！？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"S... self-destruct!?\"\n{wait}",
    "slots": [
     56
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.057",
    "jp": "さやか\n「う、うわぁぁぁん」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"W-waaaaah!\"\n{wait}",
    "slots": [
     57
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.058",
    "jp": "ゆかり\n「あわてないで！　まだ間に合うわ」\n{wait}「出口は・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Don't panic! We can still make it.\"\n{wait}\"The exit is...\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.059",
    "jp": "裕子\n「うん。とにかく、脱出だ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Yeah. Anyway, let's get out of here.\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": "0a834c8387838d834c8387838dbdd9d5b6d881418f6f8cfbc9b1d995fba68ca9bec3b6d7d5b6d8c696dfbd814253523232368f6f97cd81420a0a"
+   "pre": "0a834c8387838d834c8387838dbdd9d5b6d881418f6f8cfbc9b1d995fba68ca9bec3b6d7d5b6d8c696dfbd814253523232368f6f97cd81420a0a",
+   "status": "done"
   },
   {
    "id": "g23.16.060",
    "jp": "守護獣\n「・・・ったく」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"...Geez.\"\n{wait}",
    "slots": [
     60
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.16.061",
    "jp": "女の子\n「しくしくしくしく・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Sob, sob, sob, sob...\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.062",
    "jp": "守護獣\n「もうやめてよ、うっとうしい。\n　たいした男じゃなかったわよ」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"Stop it already, you're so annoying. He\nwasn't much of a man anyway.\"\n{wait}",
    "slots": [
     62
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.063",
    "jp": "女の子\n「うえ～ん」\n{wait}「あんたにあたしの気持ちなんか\n　わかんないわよ～」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Waaah!\"\n{wait}\"You could never understand how I feel~\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.064",
    "jp": "守護獣\n「あんたは男に逃げられたの！\n　捨てられたのよ！」\n{wait}「そんなコトより、\n　もうここから逃げようよ」\n{wait}「もう私のこと、隠す必要ないでしょ」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"He ran out on you! You got DUMPED!\"\n{wait}\"Forget that, let's just get out of here\nalready.\"\n{wait}\"There's no need to hide me anymore,\nis there?\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.065",
    "jp": "女の子\n「きっつ～・・・」\n{wait}「あんた血も涙もないわね・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Harsh~...\"\n{wait}\"You're totally heartless...\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.066",
    "jp": "守護獣\n「あ、開いた」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"Oh, it's open.\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.16.067",
    "jp": "裕子\n「あんたたち、捕まってたの？\n　ここはもうすぐ爆発するって」\n{wait}「一緒に逃げよう！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Were you two captured? They said this place\nis gonna blow up any minute.\"\n{wait}\"Let's get out together!\"\n{wait}",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.073",
    "jp": "守護獣\n「ほら、お迎え来たよ」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"See, your ride's here.\"\n{wait}",
    "slots": [
     73
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.074",
    "jp": "女の子\n「・・・荏狗覇菟よ～\n　荏狗覇菟のせいよ～」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"...It's the Egubado~ It's all the\nEgubado's fault~\"\n{wait}",
    "slots": [
     74
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.075",
