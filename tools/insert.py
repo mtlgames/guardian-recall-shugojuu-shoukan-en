@@ -316,11 +316,12 @@ def patch_tree(tree, mode="en"):
     work = ROOT / "work/asm"
     work.mkdir(parents=True, exist_ok=True)
     (work / "font_tables.bin").write_bytes(tables)
-    asm_files = {exe_path.name: exe_path, "DATA/DIC.BIN": tree / "DATA/DIC.BIN", "DATA/DAY.BIN": tree / "DATA/DAY.BIN"}
+    asm_files = {exe_path.name: exe_path, "DATA/DIC.BIN": tree / "DATA/DIC.BIN", "DATA/DAY.BIN": tree / "DATA/DAY.BIN",
+                 "DATA/ACTION.BIN": tree / "DATA/ACTION.BIN"}
     pre = {rel: p.read_bytes() for rel, p in asm_files.items()}
     subprocess.run([ARMIPS, ROOT / "asm/hooks.asm", "-strequ", "EXE", exe_path, "-strequ", "TABLES",
                     work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN", "-strequ", "DAY", tree / "DATA/DAY.BIN",
-                    "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin",
+                    "-strequ", "ACTION", tree / "DATA/ACTION.BIN", "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin",
                     "-sym", work / "hooks.sym", "-temp", work / "hooks.lst"],
                    check=True)
     blocks = writecheck.asm_blocks((work / "hooks.lst").read_text(encoding="utf-8-sig"))

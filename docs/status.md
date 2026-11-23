@@ -3,7 +3,8 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 7. Insert, fit, check (phase 6 closed 2026-11-24: all 76 batches translated, merged and reviewed).
-  Last build: 2026-11-24 `build.py` (write check ok, Psi slots widened), smoke ok, disc 1 .bin sha1 1221c8d22b09.
+  Last build: 2026-11-24 `build.py` (write check ok, UNIT list columns widened), check.py 37 passed, smoke ok,
+  disc 1 .bin sha1 4092e2141594.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -192,10 +193,23 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (batches.problems): JP format strings keep their conversions in order; g13 help is NOT printf'd ("100% of", "%d"
     drew literally in tac_power: shot). **Psi name slots widened** (asm/hooks.asm "Psi name slots"; windows row
     "Psi name" 64 px measured, 24 ids out of exe_pending.txt).
+  - 2026-11-24 (11): **ring > UNIT list widened** (asm/hooks.asm "ACTION.BIN"; insert.py now runs armips on
+    DATA/ACTION.BIN too; tests/test_font.py ACTION_ORIG/ACTION_DATA hold the original words). Master tab: element
+    (Ali) x 103 -> 121, Lv..Ap +30 (header table 0x80167180 = 7 x {x, y, ptr}); Guardian tab: Type +4, Ali -6, Lv
+    +10. Shots (QA build `--qa map70.0245=Suzune Ichinomiya --qa map70.025b=Kotone Ichinomiya`): 90 px names whole.
+    windows rows: "UNIT list element" 42 px (action.00148-0016c out of exe_pending.txt, now 211 ids), "evd unit
+    name" 94 measured (was 95 pending). New scenes tac_unit_g (R1 = Guardian tab), tac_unit_r (+ right = stat page
+    2: As Al Df Hi Es Hl; the name column stays).
 - **Next (phase 7: insert, fit, check; done-when = build green: width/overflow lint clean, control codes matched,
   `romdiff.py` no writes outside allowed ranges):** lint 0, control codes + printf matched, write check ok: the
   formal done-when holds. Left before closing: the EXE pending widths (D13).
-  (a2) EXE widths: 222 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
+  (a1) Unit-type name table = flat pointer list at EXE 0x80095D08 (index = unit type; short species names a63xx-a65xx
+  and long names 015b4-0270c mixed; master names 01830-0192c too); 3 code refs (EXE file +0x2cbd4/+0x2ce30/+0x2cea8).
+  Items 0x8009B51C-5CC, Forms 0x8009BC38-80, traits/types 0x8009BCA8-D14, card labels (Spare A-D, Normal, Never
+  Registered) 0x8009CB3C-58. UNIT list Guardian tab: Type column x 107-155 = 48 px; if its values are the type list
+  (a68cc-a69bc, up to "Seven Dragons" 73) they won't fit: page 1 has no spare x (Mp ends 303). Idea if several
+  screens stay short: a "tight" VWF mode (advance - 1 px per glyph, ~10%) or a condensed font; check legibility.
+  (a2) EXE widths: 211 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
   "EXE engine pending"). Method that worked for Psi: tools/debug/one.py SCENE -- --debugger --script
   tools/lua/exec_log.lua --var "ADDRS='0x80043A64,0x80044624'" --var FROM=<late frame> --var MAXHITS=5000, group the
   log by ra/a0 (x)/a1 (y): the caller's box/column widths are immediates (`re.py dis`), patch them in hooks.asm, shoot
@@ -203,7 +217,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   for Kaoru/Sayaka/Ichinomiya twins (74 px). Not shot yet: species/guardian/item/trait/Form lists (guardian 情報,
   SEARCH Trait/Psi tabs, HEN equip; equipment names in 情報 Head/Hand/Waist/Foot: check they clear the Aura column now
   at x 208), battle Psi/trait labels (battle.0000c-000d8), 思考 submenu (Change Tactic...), TURN END prompt
-  (action.01094 168 px), boot system-file messages, element icons (action.00148.., battle.00848..; 主 orb in 情報 is
+  (action.01094 168 px), boot system-file messages, element names in BATTLE (battle.00848..; the action ones = UNIT list Ali, done; 主 orb in 情報 is
   graphics G17). Replace ids in the pending file with measured rows as each screen is fixed.
   Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
   (b) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.

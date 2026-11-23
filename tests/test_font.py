@@ -59,6 +59,17 @@ DIC_ORIG = {0xC1C: "slti v0,s1,8", 0xC24: "addiu s1,s1,1", 0xCD0: "slti v0,s1,8"
             0x23E8: "lui v0,3", 0x1D20: "sw a0,0x50(sp)"}
 # DAY.BIN (same base): RAM address -> original word
 DAY_ORIG = {0x8016ABB8: "jal 0x80012ee0"}
+# ACTION.BIN (same base): ring > UNIT list column x immediates (RAM address -> original instruction)
+ACTION_ORIG = {0x80171558: "addiu s0,s7,0x96", 0x80171570: "addiu a0,t2,0x5d", 0x80171578: "addiu a1,s7,0x78",
+               0x801715EC: "addiu a3,s7,0xad", 0x80171614: "addiu a0,s7,0x9b", 0x8017163C: "ori s0,s7,0xb4",
+               0x8017165C: "addiu a3,s7,0xcb", 0x80171674: "addiu a0,s7,0xb9", 0x80171684: "addiu s0,s7,0xd2",
+               0x801716A4: "addiu a3,s7,0xe9", 0x801716BC: "addiu a0,s7,0xd7", 0x801716CC: "ori s0,s7,0xf0",
+               0x801716EC: "addiu a3,s7,0x107", 0x80171704: "ori a0,s7,0xf5", 0x80171E40: "addiu a0,s1,0x5a",
+               0x80171E58: "addiu a0,s1,0x96", 0x80171E70: "ori a0,s1,0xb4", 0x80171FEC: "addiu a0,t1,0x5d",
+               0x80172024: "addiu a0,t3,0x99", 0x8017202C: "ori a1,s7,0xb4"}
+# ACTION.BIN UNIT list header x (halfword at RAM address; Ali Lv Exp Sp Mp Ap)
+ACTION_DATA = {0x80167188: 0x5A, 0x80167190: 0x78, 0x80167198: 0x96, 0x801671A0: 0xB4, 0x801671A8: 0xD2,
+               0x801671B0: 0xF0}
 
 
 @need_dump
@@ -68,15 +79,18 @@ def test_hooked_words_are_original():
     exe = (TREE / "SLPS_012.97").read_bytes()
     dic = (TREE / "DATA/DIC.BIN").read_bytes()
     day = (TREE / "DATA/DAY.BIN").read_bytes()
+    act = (TREE / "DATA/ACTION.BIN").read_bytes()
+    for a, want in ACTION_DATA.items():
+        assert struct.unpack_from("<h", act, a - 0x80166218)[0] == want, hex(a)
     for img, base, orig in ((exe, BASE, ORIG), (dic, 0x80166218, {0x80166218 + o: w for o, w in DIC_ORIG.items()}),
-                            (day, 0x80166218, DAY_ORIG)):
+                            (day, 0x80166218, DAY_ORIG), (act, 0x80166218, ACTION_ORIG)):
         for a, want in orig.items():
             i = next(md.disasm(img[a - base:a - base + 4], a))
             assert f"{i.mnemonic} {i.op_str}".replace("$", "").replace(", ", ",") == want, hex(a)
     for a, want in DATA_ORIG.items():
         assert struct.unpack_from(f"<{len(want)}h", exe, a - BASE) == want, hex(a)
     asm = (ROOT / "asm/hooks.asm").read_text(encoding="utf-8")
-    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | set(DAY_ORIG) | set(DATA_ORIG) | {
+    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | set(DAY_ORIG) | set(DATA_ORIG) | set(ACTION_ORIG) | set(ACTION_DATA) | {
         int(re.search(r"STUB\s+equ \((0x[0-9A-F]+)", asm).group(1), 16)}
     assert set(int(x, 16) for x in re.findall(r"^\.org 0x80166218 \+ (0x[0-9A-F]+)", asm, re.M)) <= set(DIC_ORIG)
     assert struct.unpack_from("<I", exe, 0x10)[0] == 0x8006B1CC  # entry point the stub jumps to

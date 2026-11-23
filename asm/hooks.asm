@@ -479,3 +479,65 @@ PSI_W       equ 36             ; tac_power list: box, highlight bar and cost col
 .org 0x8016ABB8                 ; was: jal 0x80012EE0 (a0 = 0x80157E68 title, a1 = sp+0x30 sprintf result)
   jal   title_wide
 .close
+
+; ---- ACTION.BIN (overlay at 0x80166218): ring > UNIT list columns (D13; docs/windows.md "UNIT list") ----
+; x = s7 (10) + immediate. Master tab: names x 25 (now up to 90 px), Ali (element) moves +UL, Lv..Ap +UC (Ap line
+; ends x 303). Header row = 7 x {x, y, ptr} at 0x80167180 (Master Ali Lv Exp Sp Mp Ap), drawn at s7 + x.
+UL          equ 18
+UC          equ 30
+.open ACTION, 0x80166218
+.org 0x80167188                 ; header x: Ali, Lv, Exp, Sp, Mp, Ap
+  .halfword 0x5A + UL
+.org 0x80167190
+  .halfword 0x78 + UC
+.org 0x80167198
+  .halfword 0x96 + UC
+.org 0x801671A0
+  .halfword 0xB4 + UC
+.org 0x801671A8
+  .halfword 0xD2 + UC
+.org 0x801671B0
+  .halfword 0xF0 + UC
+.org 0x80171558
+  addiu s0, s7, 0x96 + UC       ; Exp
+.org 0x80171570
+  addiu a0, t2, 0x5D + UL       ; element (Ali)
+.org 0x80171578
+  addiu a1, s7, 0x78 + UC       ; Lv
+.org 0x801715EC
+  addiu a3, s7, 0xAD + UC
+.org 0x80171614
+  addiu a0, s7, 0x9B + UC
+.org 0x8017163C
+  addiu s0, s7, 0xB4 + UC       ; Sp (was ori: s7 = 10 has no common bits)
+.org 0x8017165C
+  addiu a3, s7, 0xCB + UC
+.org 0x80171674
+  addiu a0, s7, 0xB9 + UC
+.org 0x80171684
+  addiu s0, s7, 0xD2 + UC       ; Mp
+.org 0x801716A4
+  addiu a3, s7, 0xE9 + UC
+.org 0x801716BC
+  addiu a0, s7, 0xD7 + UC
+.org 0x801716CC
+  addiu s0, s7, 0xF0 + UC       ; Ap
+.org 0x801716EC
+  addiu a3, s7, 0x107 + UC
+.org 0x80171704
+  addiu a0, s7, 0xF5 + UC
+; Guardian tab (headers at s1 + x, Mp already ends x 303): Type +4 (x 107, guardian names up to 80 px), Ali -6
+; (x 157, Type values up to 48 px), Lv +10 (x 200: element names up to 42 px; Lv digits end before Exp at 220)
+.org 0x80171E40
+  addiu a0, s1, 0x5A + 4        ; Type header
+.org 0x80171E58
+  addiu a0, s1, 0x96 - 6        ; Ali header
+.org 0x80171E70
+  addiu a0, s1, 0xB4 + 10       ; Lv header (was ori)
+.org 0x80171FEC
+  addiu a0, t1, 0x5D + 4        ; Type
+.org 0x80172024
+  addiu a0, t3, 0x99 - 6        ; element
+.org 0x8017202C
+  addiu a1, s7, 0xB4 + 10       ; Lv (was ori)
+.close

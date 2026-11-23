@@ -110,6 +110,10 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
           "ring > MISSION"),
          *[(f"tac_{k}", "2", "70", "", MAP + ";6 triangle;60 -" + ";6 down;40 -" * d + ";6 circle;120 -", "2200",
             f"ring > {k.upper()}") for k, d in [("unit", 0), ("map", 1), ("diagram", 3), ("search", 4)]],
+         ("tac_unit_g", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 r1;90 -", "2300",
+          "ring > UNIT, R1 = Guardian tab"),
+         ("tac_unit_r", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 right;90 -", "2400",
+          "ring > UNIT, Guardian tab scrolled right"),
          ("tac_break", "2", "70", "", RING + ";6 circle;60 -", "2300", "ring > BREAK: マップセーブを行いますか？"),
          ("tac_saved", "2", "70", "", RING + ";6 circle;60 -;6 up;20 -;6 circle;1100 -", "3400",
           "BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)")]

@@ -103,17 +103,21 @@ VARIANTS = [
     # 情報 Aura now one column: name x 224, cost x 289. "Demon Might" (62) + "Rock Shield" shot in both (phase 7)
     dict(name="Psi name", ids=r"exe\.a6(7[d-f]|8[0-9ab])[0-9a-f]$", kind="lines", px=64, lines=1, bytes="room",
          status="measured"),
+    # ring > UNIT list element (Ali) column, widened in asm/hooks.asm "ACTION.BIN": Master tab x 121, Lv x 160;
+    # Guardian tab x 157, Lv x 200 -> 42 px ("Emperor"; "Thunder" shot in the Guardian tab, phase 7)
+    dict(name="UNIT list element", ids=r"action\.001[4-6][0-9a-f]$", kind="lines", px=42, lines=1, bytes="room",
+         status="measured"),
     # widths the English needs beyond what the screen holds or was measured (tools/exe_pending.txt, one id per
     # line): phase 7 widens the box/column or condenses (D4, D13); a shot must replace each with a measured row
     dict(name="EXE engine pending", ids=PENDING, kind="lines", px=170, lines=1, bytes="room",
          status="engine pending / unmeasured"),
     dict(name="EXE/overlay string", ids=r"(exe|action|battle|hen|day|brain)\.[0-9a-f]{5}$", kind="lines", px="jp",
          lines=99, bytes="room", status="jp width"),
-    # evd names go through the evd_name hook (any length); narrowest view = ring > UNIT list name column (x 25, Ali
-    # values from x 103): 75 px. The 20-byte crash there was the 2D pool (asm/hooks.asm pool_grow), not the name.
-    # 95 px = full English names ("Suzune Ichinomiya" 90 px, D4: no abbreviations). The ring > UNIT list holds 75 px
-    # before the Ali column (x 103): phase 7 must widen that column or draw it condensed (docs/windows.md).
-    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=95, lines=1, status="engine pending (75 measured)"),
+    # evd names go through the evd_name hook (any length); narrowest view = ring > UNIT list name column (x 25).
+    # The 20-byte crash there was the 2D pool (asm/hooks.asm pool_grow), not the name. Phase 7 moved the Ali column
+    # (asm/hooks.asm "ACTION.BIN"): Master tab Ali x 121 -> 94 px ("Suzune Ichinomiya" 90 shot whole); the Guardian
+    # tab's Type column is at x 107 -> guardian names 80 px ("Thunder Dragon" 79 shot)
+    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=94, lines=1, status="measured"),
 ]
 
 
