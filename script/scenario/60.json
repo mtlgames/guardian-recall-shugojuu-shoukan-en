@@ -89,96 +89,106 @@
   {
    "id": "g23.60.008",
    "jp": "このように見下ろし角度が上がり、障害\n物のかげにいるユニットが見えやすくな\nる。\n{wait}逆に角度を下げるには、\n□ボタンを押しながらＬ２ボタン\nを押せばいい。\n{wait}ためしにやってみてくれるかな？\n{wait}",
-   "en": "",
+   "en": "the viewing angle rises like this, and units\nbehind obstacles get easier to see.\n{wait}To lower the angle instead, hold the Square\nbutton and press the L2 button.\n{wait}Why don't you give it a try?\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.009",
    "jp": "トレーニング：\n『□＋Ｌ１、Ｌ２ボタンで角度を変更』\n（○ボタンを押すと次へ進みます）\n{wait}",
-   "en": "",
+   "en": "Training: 'Change the angle with Square + L1\nor L2' (press the Circle button to continue)\n{wait}",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.60.010",
    "jp": "この見下ろし角度変更と回転を合わせれ\nば、どんな位置にいるユニットでも見づ\nらいということは無くなるハズだ。\n{wait}さて３つ目は、もう少し遠くの範囲まで\n一度に画面内におさめたいという時。\n{wait}そういう時は視点の距離を変更してみよ\nう。\n{wait}□ボタンを押しながらＲ１ボタン\nを押してみると・・・\n{wait}",
-   "en": "",
+   "en": "Combine this angle change with rotation, and\nno unit should be hard to see, wherever it is.\n{wait}Now, the third one: for when you want to fit\na wider area on the screen at once.\n{wait}At times like that, try changing the camera\ndistance.\n{wait}Hold the Square button and press the R1\nbutton, and...\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.011",
    "jp": "このように視点が遠ざかって、より広い\n範囲が一度に画面内に入るようになる。\n{wait}もっともユニットも小さくなってしまう\nので、このままでゲームを進めるのは、\nちょっと大変だ。\n{wait}必要な時だけ変更するってのが、\nいいだろうね。\n{wait}□ボタン＋Ｒ２ボタン\nで視点を近づけて元にもどせる。\nこの操作もためしてみよう。\n{wait}",
-   "en": "",
+   "en": "the camera pulls back like this, and a wider\narea fits on the screen at once.\n{wait}Mind you, the units get smaller too, so playing\non like this is a bit of a strain.\n{wait}It's best to change it only when you need to.\n{wait}Square + R2 brings the camera back in to\nwhere it was. Try this one out too.\n{wait}",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.60.012",
    "jp": "トレーニング：\n『□＋Ｒ１、Ｒ２ボタンで距離を変更』\n（○ボタンを押すと次へ進みます）\n{wait}",
-   "en": "",
+   "en": "Training: 'Change the distance with Square +\nR1 or R2' (press the Circle button to continue)\n{wait}",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.60.013",
    "jp": "じゃ、最後にもう１つ。\nこれは今までのマップの操作っていうの\nとは少し違うんだけど、\n{wait}障害物のかげにいるユニットを見るのに\n役に立つ方法だ。\n{wait}",
-   "en": "",
+   "en": "All right, one last thing. It's a little different\nfrom the map controls so far,\n{wait}but it's a handy way to see units hidden\nbehind obstacles.\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.014",
    "jp": "例えばこんな時。このユニットを見るに\nは、マップを回転させるとか見下ろし角\n度を変えればいいって教えたよね。\n{wait}ところが、このままの状態でも\nＳＴＡＲＴボタン\nを押してみれば・・・\n{wait}",
-   "en": "",
+   "en": "Take a case like this. To see this unit, I told\nyou that you could rotate the map or change\nthe viewing angle, right?\n{wait}But even as things are now, if you just press\nthe START button...\n{wait}",
    "slots": [
     14
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.60.015",
    "jp": "このような感じの表示法になり、かげに\nいたユニットがハッキリわかるようにな\nる。\n{wait}このＳＴＡＲＴボタンの地形半透明化\nっていう機能も、\n覚えていて損の無い機能だよ。\n{wait}",
-   "en": "",
+   "en": "you get a view like this, and the unit that was\nhidden is clear as day.\n{wait}This START-button see-through terrain\nfeature is worth remembering, too.\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.016",
    "jp": "マップの操作法は以上だ。\nゲーム中、自分でいろいろ操作しながら\n身につけていこう。\n{wait}",
-   "en": "",
+   "en": "That's it for map controls. Get the hang\nof them by trying things out yourself as\nyou play.\n{wait}",
    "slots": [
     16
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.60.098",
    "jp": "ステップ０２\n　　　　　『マップの操作』　　　　　\n{wait}",
-   "en": "",
+   "en": "Step 02\n'Map Controls'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   }
  ]
 }

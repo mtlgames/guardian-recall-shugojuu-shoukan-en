@@ -7,95 +7,105 @@
   {
    "id": "g23.63.000",
    "jp": "思考によって接近戦や投射戦、治癒行動\nができる守護獣だけど、持って生まれた\n得意不得意な分野ってものもある。\n{wait}それを示しているのが、守護獣の\n「行動能力ランク」と呼ばれるものだ。\n{wait}まずは守護獣のステータス画面を開いて\nみようか。\n{wait}",
-   "en": "",
+   "en": "Through Tactics, a Guardian can fight in\nmelee, fight at range, or heal, but each one is\nborn with things it's good and bad at.\n{wait}That's shown by what's called the Guardian's\n'skill rank'.\n{wait}First, let's open a Guardian's status screen.\n{wait}",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.63.001",
    "jp": "左下の方に「Ｓｋｉｌｌ」って表示があ\nるね。これが、その守護獣がどんな行動\nが得意か不得意かを示しているんだ。\n{wait}上から順に、\n{wait}「Ｓｈｏｒｔ」は接近戦ランク\n「Ｌｏｎｇ」は投射戦ランク\n「Ｈｅａｌ」は治癒ランク\n{wait}を示している。\nランクはＳが一番高く、\n次いでＡ、Ｂ、Ｃ、一番下がＤだ。\n{wait}このユニットのランクは、\n接近戦Ｂ、投射戦Ｃ、治癒Ｃ\nというわけだね。\n{wait}",
-   "en": "",
+   "en": "At the lower left it says 'Skill'. That shows\nwhat kinds of actions the Guardian is good\nor bad at.\n{wait}From the top,\n{wait}'Short' is the melee rank,\n'Long' is the ranged rank,\n'Heal' is the healing rank.\n{wait}S is the highest rank, then A, B and C, with D\nat the bottom.\n{wait}So this unit's ranks are Melee B, Ranged C,\nHealing C.\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.63.002",
    "jp": "このユニットも同じ、\n接近戦Ｂ、投射戦Ｃ、治癒Ｃ\nだ。\n{wait}",
-   "en": "",
+   "en": "This unit is the same: Melee B, Ranged C,\nHealing C.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.63.003",
    "jp": "こちらは、ちょっと変わって\n接近戦Ｃ、投射戦Ｃ、治癒Ａ\nというランクづけだ。\n{wait}",
-   "en": "",
+   "en": "This one's a little different, ranked Melee C,\nRanged C, Healing A.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.63.004",
    "jp": "実はこのランクの値が守護獣の行動結果\nに大きな影響を与えていたりするんだ。\n{wait}例えば、接近戦攻撃力が同じ１００の\nユニットがいたとする。\n{wait}でも、ランクが片方がＡ、もう一方がＣ\nだったとすると、最終的に相手に与える\nダメージはランクＡの方が大きい。\n{wait}また、投射戦攻撃力が同じ１００のユニ\nットでも、ランクＡの方が遠くのブロッ\nクまで攻撃がとどくようになるんだ。\n{wait}ちなみにランクＤってのは、その行動が\n苦手などころか全くできないということ\nも示している。\n{wait}",
-   "en": "",
+   "en": "In fact, these ranks have a big effect on how\na Guardian's actions turn out.\n{wait}Say there are two units, both with a melee\nattack power of 100.\n{wait}If one is rank A and the other rank C, the\nrank A one deals more damage in the end.\n{wait}And of two units both at 100 ranged attack\npower, the rank A one's attacks reach blocks\nfarther away.\n{wait}By the way, rank D means the unit isn't just\nbad at that action: it can't do it at all.\n{wait}",
    "slots": [
     4
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.63.005",
    "jp": "このユニットのようにＳｈｏｒｔがラン\nクＤとなっている守護獣は接近戦能力が\nまったく無いってことだ。\n{wait}こういうユニットは投射戦でしか戦えな\nいわけで、敵から接近戦をしかけられる\nと反撃ができない。\n{wait}",
-   "en": "",
+   "en": "A Guardian like this one, with 'Short' at rank\nD, has no melee ability whatsoever.\n{wait}A unit like this can only fight at range, and\nit can't strike back when an enemy attacks\nit in melee.\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.63.006",
    "jp": "同じように、\nこちらはＬｏｎｇがランクＤ。\n{wait}このユニットは投射戦能力が無いため、\n離れた位置から攻撃されると一方的に攻\n撃を受けてしまうことになる。\n{wait}",
-   "en": "",
+   "en": "Likewise, this one has 'Long' at rank D.\n{wait}This unit has no ranged ability, so when it's\nattacked from a distance, it can only take\nthe hits.\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.63.007",
    "jp": "幸い味方のユニットの中には、何かの行\n動能力がランクＤとなっているという守\n護獣は存在しない。\n{wait}だからと言って、接近戦力Ｃのやつが\n接近戦力Ａの敵に接近戦をしかけると、\n反撃で痛い目にあうことになるよ。\n{wait}きちんと味方と敵のランクはチェック\nするようにしようね。\n{wait}もっとも実際のゲームの敵ユニットは\n一度でも戦闘をしないと、ステータスが\n確認できないようになっている。\n{wait}戦わずに相手のステータスを見るには\n超力の「確認」ってのを使えばいいんだ\nけど、敵全員に使うのも大変だ。\n{wait}だから、一度戦った敵は接近戦が得意な\nヤツだったのか、投射戦が得意なヤツだ\nったのか覚えておくようにしよう。\n{wait}そうすれば、そのユニットが再登場した\n時にラクに対処できるはずだ。\n{wait}ま、無理に覚えようとしなくても、しつ\nこく登場するユニットは自然に覚えちゃ\nうもんなんだけどね。\n{wait}",
-   "en": "",
+   "en": "Luckily, none of your allied Guardians has a\nskill at rank D.\n{wait}Even so, if a unit with Melee C picks a melee\nfight with an enemy that has Melee A, the\ncounterattack is going to hurt.\n{wait}Make sure to check the ranks of both allies\nand enemies.\n{wait}Mind you, in the actual game you can't check\nan enemy unit's status until you've fought it\nat least once.\n{wait}To see an enemy's status without fighting,\nyou can use the Psi 'Scan', but using it on\nevery enemy is a lot of work.\n{wait}So try to remember whether each enemy\nyou've fought was good at melee or at\nranged combat.\n{wait}That way, it'll be easy to deal with when it\nshows up again.\n{wait}Then again, even without trying, you'll\nnaturally remember the ones that keep\nshowing up.\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.63.008",
    "jp": "さて、最後にこのランクづけは、ずっと\n変わらないんだろうか？　という点。\n{wait}答えはズバリ“ＮＯ”だ。\n{wait}守護獣は成長すると『形態進化』という\nものを行う。\nこれによってランクは上昇する。\n{wait}元のランクがＣの行動能力も、これによ\nってＳまで高めることができるんだ。\n{wait}じゃ、\nその『形態進化』ってどうやんの？\nってことだけど・・・\n{wait}\nそれは次のステップのお楽しみ！\n{wait}",
-   "en": "",
+   "en": "Last of all: do these ranks stay the same\nforever?\n{wait}The answer, flat out, is \"NO\".\n{wait}As a Guardian grows, it goes through\nsomething called 'Form Evolution', and that\nraises its ranks.\n{wait}Even a skill that started at rank C can be\nraised all the way to S this way.\n{wait}So how does this 'Form Evolution' thing work,\nyou ask?\n{wait}That's for the next step!\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.63.098",
    "jp": "ステップ１０\n　　　『守護獣の行動能力ランク』　　\n{wait}",
-   "en": "",
+   "en": "Step 10\n'Guardian Skill Ranks'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   }
  ]
 }

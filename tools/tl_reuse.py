@@ -14,19 +14,25 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT / "tools"))
+import windows  # noqa: E402
+
+
+def has_speaker(jp: str) -> bool:
+    """First line is a name line (same test as batches.py / windows.py)."""
+    return bool(windows.named_jp(jp))
 
 
 def norm(jp: str) -> str:
     """JP body without the speaker line, line breaks or spaces."""
-    lines = jp.split("\n")
-    if lines and not lines[0].startswith(("「", "（", "　")) and len(lines) > 1:
-        lines = lines[1:]
-    return re.sub(r"[\s　]", "", "".join(lines))
+    if has_speaker(jp):
+        jp = jp.split("\n", 1)[1]
+    return re.sub(r"[\s　]", "", jp)
 
 
 def translator_form(entry: dict) -> str:
     en = entry["en"]
-    if not entry["jp"].startswith(("「", "（", "　")) and "\n" in en:
+    if has_speaker(entry["jp"]) and "\n" in en:
         en = en.split("\n", 1)[1]  # speaker line added by batches.prepare
     en = re.sub(r"\n?\{wait\}$", "", en)
     return en.replace("\n{wait}", "{wait}").replace("\n", " ")

@@ -204,7 +204,7 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 移動せよ | Move | | | |
 | 何もするな | Do nothing | | | |
 | 接近戦 | melee | | 接近戦力 = Melee (parameter) | |
-| 投射戦 | ranged | | 投射戦力 = Ranged (parameter) | |
+| 投射戦 | ranged / at range | | 投射戦力 = Ranged (parameter) | |
 | 防御力 | Defense | | parameter | |
 | 命中速度 | Accuracy | | parameter | |
 | 回避速度 | Evasion | | parameter | |
@@ -215,12 +215,20 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 超力ポイント | Psi Points | | AP | |
 | 思考ポイント | Tactic Points | | MP | |
 | 気力ポイント | Spirit Points | | SP | |
-| 治癒 | Cure | | (no lint, inside 治癒力): Psi | |
+| 治癒 | Cure / heal | | Psi "Cure"; the healing skill (Short/Long/Heal ranks) = "healing", 治癒行動経験値 = healing skill EXP | |
 | 岩楯 | Rock Shield | | Psi | |
 | 加護 | Blessing | | Psi | |
 | 気合 | Focus | | Psi | |
 | 幸運 | Luck | | Psi | |
 | 非力 | Weaken | | Psi (attack type) | |
+| 確認 | Scan | | (no lint): Psi that reveals an enemy's status; elsewhere 確認 = "check" | |
+| 形態 | Form | | a Guardian's class, shown under UnitType; 形態進化 = Form Evolution | |
+| 行動能力ランク | skill rank | | status "Skill": Short (melee) / Long (ranged) / Heal; ranks S A B C D | |
+| 行動経験値 | skill EXP | | 3-digit number right of "Rank" | |
+| 守護闘獣 | Battle Guardian | | Form, melee line (EXE status: width not measured yet) | |
+| 守護撃獣 | Shooter Guardian | | Form, ranged line | |
+| 守護珠獣 | Orb Guardian | | Form, healing line | |
+| 守護精獣 | Spirit Guardian | | Form, healing line (entry 67 variant of the tutorial) | |
 | 属性相性表 | element chart | | ring menu DIAGRAM | |
 | 主 | Master | | (no lint): element of Masters; elements 地 Earth 炎 Flame 聖 Holy 雷 Thunder 海 Sea 飛 Wind 天 Sky | |
 | ＴＵＲＮＥＮＤ | TURN END | | △ sub-command | |

@@ -7,132 +7,146 @@
   {
    "id": "g23.62.000",
    "jp": "守護獣は成長するにしたがって、守護獣\nの性格とも言うべきものが確立されてい\nく。\n{wait}それが『形態』と呼ばれるものだ。\n{wait}まずはステータス画面を見てみよう。\n{wait}",
-   "en": "",
+   "en": "As a Guardian grows, what you might call its\npersonality takes shape.\n{wait}That's what's called its 'Form'.\n{wait}First, let's look at the status screen.\n{wait}",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.62.001",
    "jp": "「ＵｎｉｔＴｙｐｅ」\n「Ｇｕａｒｄｉａｎ」\nの下に「守護獣」ってあるね。\n{wait}これが『形態』の名前。\n今、このユニットは「守護獣」という\n名前の形態なんだ。\n{wait}そしてユニットが成長・・・つまりレベ\nルアップしていくと別の名称に変化して\nいく。例えば、\n{wait}",
-   "en": "",
+   "en": "Under 'UnitType' and 'Guardian', it says\n'Guardian' again, right?\n{wait}That's the name of its 'Form'. Right now, this\nunit is in the Form called 'Guardian'.\n{wait}And as the unit grows... that is, as it levels up,\nthe name changes. For example,\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.002",
    "jp": "このユニットは「守護撃獣」という形態\n{wait}",
-   "en": "",
+   "en": "this unit is in the Form called 'Shooter\nGuardian'.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.003",
    "jp": "こちらのユニットは「守護珠獣」という\n名の形態だ。\n{wait}",
-   "en": "",
+   "en": "And this unit's Form is called 'Orb Guardian'.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.004",
    "jp": "この「守護獣」から別の「守護○獣」に\n『形態』が変化することを『形態進化』\nと呼ぶ。\n{wait}『形態進化』は、ある一定のレベルに達\nすると自動的に発生する。その一定のレ\nベルってのがいくつかというのは、\n{wait}　\n・・・悪いけど秘密！\n{wait}自分で守護獣を成長させていって、何\nレベルで『形態進化』するかは自分の\n目で確かめてほしい。\n{wait}で、先ほど見た中には「守護撃獣」と\nか「守護珠獣」とかいう形態があった\nよね。\n{wait}いざ『形態進化』のレベルに達した時\n何という名前の形態に進化するのか？\nってことだけど・・・\n{wait}各行動能力ランクの横に何か３ケタの\n数値が表示されていたのを覚えている\nかな？\n{wait}もう一度、ステータス画面を開いてみ\nようか。\n{wait}",
-   "en": "",
+   "en": "A change of 'Form' from 'Guardian' to some\nother '___ Guardian' is called 'Form Evolution'.\n{wait}'Form Evolution' happens automatically\nonce a certain level is reached. As for what\nthat level is...\n{wait}...sorry, it's a secret!\n{wait}Raise your Guardians yourself, and see with\nyour own eyes at what level they go through\n'Form Evolution'.\n{wait}Now, among the ones we just saw, there\nwere Forms like 'Shooter Guardian' and 'Orb\nGuardian', right?\n{wait}So when a Guardian reaches the level\nfor 'Form Evolution', what Form will it\nevolve into?\n{wait}Remember the three-digit numbers shown\nbeside each skill rank?\n{wait}Let's open the status screen once more.\n{wait}",
    "slots": [
     4
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.62.012",
    "jp": "Ｒａｎｋという文字の右にある数値が\nそれだ。\n{wait}これは行動経験値と言って、それぞれの\n行動能力がどれだけ活用されているかを\n示す値なんだ。\n{wait}このユニットの場合は、\n{wait}接近戦行動経験値：０８７\n投射戦行動経験値：０１４\n治癒行動経験値：０１５\n{wait}・・・ってことだね。\n{wait}名前の示すようにこの経験値は、その\n行動能力をどれだけ使ったかを示して\nいる。\n{wait}このユニットの場合は接近戦をメイン\nに、投射と治癒を少しだけ使ったこと\nがあるという感じなワケだ。\n{wait}そして、この３つの数値こそが\n『形態進化』に大きく影響してくる\nんだ。\n{wait}つまり、接近戦行動経験値が高ければ、\n接近戦が得意な形態である「守護闘獣」\nに進化していくし、\n{wait}投射戦経験値が高ければ\n投射戦が得意な形態「守護撃獣」に、\n{wait}治癒経験値が高ければ\n治癒行動が得意な形態「守護珠獣」に\n進化していくことになるわけだ。\n{wait}そして、さらに行動経験値をためること\nで、より上級の形態へと進化していく\nことになる。\n{wait}ま、その辺の形態の進化条件は悪いけど\n秘密にしておこう。\n{wait}実際に『形態進化』が発生してからの\nお楽しみだ。\n{wait}",
-   "en": "",
+   "en": "It's the number to the right of the\nword 'Rank'.\n{wait}This is called skill EXP, and it shows how much\neach skill has been put to use.\n{wait}For this unit, it's\n{wait}Melee skill EXP: 087\nRanged skill EXP: 014\nHealing skill EXP: 015\n{wait}...like so.\n{wait}As the name says, this EXP shows how much\neach skill has been used.\n{wait}So this unit has mostly fought in melee, and\nonly used ranged attacks and healing a little.\n{wait}And these three numbers have a big effect\non 'Form Evolution'.\n{wait}That is, with high melee EXP it evolves into\n'Battle Guardian', a Form good at melee;\n{wait}with high ranged EXP, into 'Shooter Guardian',\na Form good at ranged combat;\n{wait}and with high healing EXP, into 'Orb Guardian',\na Form good at healing.\n{wait}Then, by building up even more skill EXP, it\nevolves into higher Forms.\n{wait}Sorry, but I'll keep the conditions for those\nevolutions a secret.\n{wait}Look forward to it when 'Form Evolution'\nactually happens!\n{wait}",
    "slots": [
     12
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.62.005",
    "jp": "さてさて、この『形態進化』。\nこれによって守護獣の何が変化するんだ\nろうか？\n{wait}ハッキリ言ってしまえば、\n守護獣の基本パラメータ値が変化する。\n{wait}投射戦が得意な形態である「守護撃獣」\nに進化すれば、投射戦攻撃力（Ａｌ）の\n数値が上昇するし、\n{wait}治癒が得意な形態である「守護珠獣」に\n進化すれば、治癒力（Ｈｌ）の数値が上\n昇する。\n{wait}代わりに自分の利用しない基本パラメー\nタ値（「守護撃獣」ならば治癒力とか）\nは低下してしまうので気をつけよう。\n{wait}そして、この基本パラメータ値以外で変\n動するのが前のステップで紹介した行動\n能力のランクだ。\n{wait}基本パラメータ値が上昇するとともに、\n行動能力ランクの方も上昇するんだね。\n{wait}",
-   "en": "",
+   "en": "Now then, 'Form Evolution'. Just what does it\nchange about a Guardian?\n{wait}To put it plainly, it changes the Guardian's\nbase parameter values.\n{wait}Evolve into 'Shooter Guardian', a Form good\nat ranged combat, and its ranged attack\npower (Al) goes up;\n{wait}evolve into 'Orb Guardian', a Form good at\nhealing, and its Healing (Hl) goes up.\n{wait}In exchange, the base parameters it doesn't\nuse (Healing for a 'Shooter Guardian', say) go\ndown, so be careful.\n{wait}And besides the base parameters, the other\nthing that changes is the skill rank I showed\nyou in the previous step.\n{wait}As the base parameters rise, the skill ranks\nrise too.\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.62.006",
    "jp": "このユニットの前のステップでのランク\nづけは覚えているかな？\n{wait}たしか\n接近戦Ｂ、投射戦Ｃ、治癒Ｃ\nだった。それが・・・\n{wait}",
-   "en": "",
+   "en": "Remember how this unit was ranked in the\nprevious step?\n{wait}It was Melee B, Ranged C, Healing C. And now...\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.007",
    "jp": "接近戦Ｂ、投射戦Ｂ、治癒Ｃ\nに変わっている。\n{wait}「守護撃獣」になったことで投射戦の\nランクがＣからＢに上昇したんだ。\n{wait}",
-   "en": "",
+   "en": "it's changed to Melee B, Ranged B, Healing C.\n{wait}Becoming a 'Shooter Guardian' raised its\nranged rank from C to B.\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.008",
    "jp": "同じように、こちらも見てみよう。\n{wait}このユニットは前のステップでは\n接近戦Ｃ、投射戦Ｃ、治癒Ａ\nだったけど、\n{wait}",
-   "en": "",
+   "en": "Let's look at this one the same way.\n{wait}In the previous step, this unit was Melee C,\nRanged C, Healing A, but...\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.009",
    "jp": "接近戦Ｃ、投射戦Ｃ、治癒Ｓ\nに変わっている。\n{wait}「守護珠獣」になったことで治癒ランク\nがＡからＳに上昇したってわけだ。\n{wait}このように『形態進化』は行動能力の\nランクアップに関わってくるんだ。\n{wait}",
-   "en": "",
+   "en": "now it's Melee C, Ranged C, Healing S.\n{wait}Becoming an 'Orb Guardian' raised its healing\nrank from A to S.\n{wait}Like this, 'Form Evolution' is tied to ranking up\na Guardian's skills.\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.010",
    "jp": "多分、ふつうに守護獣を使っていると、\nそのユニットが得意とする行動のランク\nが上昇していく。\n{wait}これはこれでいい。元から得意な能力が\nさらに強化されるんだから、頼もしいこ\nとこの上ないね。\n{wait}ただ、わざと不得意な行動ばかりやって\n本来の能力とは違う方向へ進化するのも\n面白いかもしれないよ。\n{wait}うまく『形態進化』させれば、\n元がランクＣの行動能力もＳまで\n上昇させることができる。\n{wait}これはこれで自分独自の守護獣って感じ\nが出ていいかもね。\n{wait}あ、そうそう。味方ユニットには存在し\nないから関係ないんだけど・・・\n{wait}元がランクＤの行動能力だけは\n『形態進化』しても上昇することは無い\nんだ。\n{wait}ゲーム後半になれば、初めのころに出会\nった敵ユニットが違う『形態』で出てく\nることもあるけど、\n{wait}元が接近戦がＤのやつは『形態進化』し\nてもＤのままなので、安心して接近戦を\nしかけてＯＫだ。\n{wait}",
-   "en": "",
+   "en": "If you use your Guardians normally, the\nrank of whatever the unit is good at will\nprobably go up.\n{wait}That's fine. A strength it already had gets\neven stronger, so it couldn't be more reliable.\n{wait}But it might also be fun to deliberately do\nonly what it's bad at, and evolve it in a\ndirection different from its natural talent.\n{wait}Handle 'Form Evolution' well, and even a\nskill that started at rank C can rise all the\nway to S.\n{wait}That gives you a Guardian that's all your own,\nwhich is pretty nice too.\n{wait}Oh, right. This doesn't matter for your allies,\nsince none of them have one, but...\n{wait}a skill that started at rank D will never go up,\neven through 'Form Evolution'.\n{wait}Later in the game, enemy units you met early\non may show up again in a different 'Form',\n{wait}but one that started with melee at D stays\nat D even after 'Form Evolution', so go ahead\nand hit it in melee without worry.\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.62.011",
    "jp": "以上で『形態進化』の説明はおしまい。\n{wait}ところどころ秘密にしちゃったけど、\n自分で見つけるっていう楽しみもある\nからね。\n{wait}どんどん勝ち進んで自分なりの守護獣を\n成長させていこう。\n{wait}",
-   "en": "",
+   "en": "That wraps up 'Form Evolution'.\n{wait}I kept a few things secret here and\nthere, but finding them out yourself is\npart of the fun.\n{wait}Keep on winning, and raise Guardians that\nare all your own.\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.62.098",
    "jp": "ステップ１１\n　　　　『守護獣の形態進化』　　　　\n{wait}",
-   "en": "",
+   "en": "Step 11\n'Guardian Form Evolution'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   }
  ]
 }

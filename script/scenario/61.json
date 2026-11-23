@@ -7,98 +7,108 @@
   {
    "id": "g23.61.000",
    "jp": "前のステップで紹介した思考\n『私を守護せよ』のことは、\n覚えているかな？\n{wait}この『私を守護せよ』は\nマスターの近くに敵がいれば、攻撃を\nするという思考だったね。\n{wait}たしかに使いやすい思考だけど、\nこのように敵が遠く離れたところに\nいる場合・・・\n{wait}これでは戦闘させるのに時間がかかって\nしまう。\n{wait}敵が近づいてくるのを待つ、もしくは\nマスター自ら動いて敵に近づく、という\nことをしなくてはならないからね。\n{wait}では、ここは『私を守護せよ』から別の\n思考に変えてみよう。\n{wait}",
-   "en": "",
+   "en": "Do you remember the Tactic 'Guard me!' from\nthe previous step?\n{wait}'Guard me!' was a Tactic where the Guardian\nattacks if an enemy is near its Master.\n{wait}It's an easy Tactic to use, sure, but when the\nenemy is far away, like this...\n{wait}getting into battle takes a long time.\n{wait}You'd have to wait for the enemy to come\ncloser, or move the Master toward the\nenemy yourself.\n{wait}So here, let's change from 'Guard me!' to\nanother Tactic.\n{wait}",
    "slots": [
     0
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.61.001",
    "jp": "思考を変えるのにはユニットコマンドで\n　『思考』→『思考変更』\nと選択すればいい。\n{wait}",
-   "en": "",
+   "en": "To change a Tactic, pick 'Tactic' -> 'Change\nTactic' from the unit commands.\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.61.002",
    "jp": "このように選択できる思考の一覧が表示\nされる。変更したい思考名を選んで○ボ\nタンを押せば変更終了だ。\n{wait}ためしに『攻撃せよ』ってのに変えてみ\nようか。\n{wait}",
-   "en": "",
+   "en": "A list of the Tactics you can pick appears, like\nthis. Choose the Tactic you want and press\nthe Circle button, and the change is done.\n{wait}Let's try changing it to 'Attack!'.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.61.003",
    "jp": "下のステータスを見てほしい。現在の思\n考が『私を守護せよ』から『攻撃せよ』\nに変わっている。\n{wait}実際に守護獣の動きがどう変わるかも\n見てみよう。\n{wait}",
-   "en": "",
+   "en": "Take a look at the status below. The current\nTactic has changed from 'Guard me!' to\n'Attack!'.\n{wait}Let's see how the Guardian's movement\nactually changes, too.\n{wait}",
    "slots": [
     3
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.61.004",
    "jp": "前のステップでの『私を守護せよ』の時\nの守護獣の行動を思い出してほしい。\n{wait}『私を守護せよ』ではマスターと敵が離\nれている場合は、攻撃をしかけようとせ\nずにマスターの側に寄ってきたよね。\n{wait}今回の『攻撃せよ』はマスターを無視し\nて、敵の方へまっすぐ攻撃しにいった。\n{wait}つまりは『攻撃せよ』は\n敵の方へ敵の方へと進んで攻撃をしかけ\nる好戦的な思考ってわけだ。\n{wait}",
-   "en": "",
+   "en": "Think back to how the Guardian acted under\n'Guard me!' in the previous step.\n{wait}With 'Guard me!', when the Master and the\nenemy were apart, it didn't try to attack. It\nstayed by its Master's side, right?\n{wait}This time, with 'Attack!', it ignored its Master\nand went straight for the enemy.\n{wait}In other words, 'Attack!' is an aggressive\nTactic that keeps pushing toward the enemy\nto attack.\n{wait}",
    "slots": [
     4
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.61.005",
    "jp": "さて、この『思考変更』だけど、\n１ターン中に何度でも変更可能だ。\n{wait}この『思考変更』の時点ではマスターが\n頭の中で「どう動かそう？」とウンウン\nなやんでいるだけだからね。\n{wait}ただ、いったん「このように行動しろ」\nと守護獣に指示を出して、実際に行動さ\nせてしまう・・・\n{wait}つまり『命令実行』してしまうと、その\nターン中は変更できなくなるので気をつ\nけよう。\n{wait}その辺のシステムを、ちょっと見てみよ\nっか。\n{wait}",
-   "en": "",
+   "en": "Now, about 'Change Tactic': you can change it\nas many times as you like in one turn.\n{wait}At the 'Change Tactic' stage, the Master is\nonly mulling it over: \"Hmm, how should I\nmove it?\"\n{wait}But once you tell the Guardian \"act like this\"\nand actually let it act...\n{wait}in other words, once you 'Execute Order', you\ncan't change it for the rest of that turn, so\nbe careful.\n{wait}Let's take a quick look at how that works.\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.61.006",
    "jp": "今、一度『思考変更』にしてから移動\nしたけど、もう一度『思考変更』でき\nてたよね？\n{wait}こんな感じで『思考変更』は\n同じターン中に何度実行しても\n大丈夫だ。\n{wait}じゃ『命令実行』をしてみよう。\n{wait}",
-   "en": "",
+   "en": "Just now we used 'Change Tactic' and then\nmoved, but we could still 'Change Tactic'\nagain, right?\n{wait}Like this, you can use 'Change Tactic' as many\ntimes as you want in the same turn.\n{wait}Now let's 'Execute Order'.\n{wait}",
    "slots": [
     6
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.61.007",
    "jp": "『命令実行』どころかユニットコマンド\nの『思考』そのものが実行できなくなっ\nているのがわかるね。\n{wait}当然、『思考変更』もできなくなるって\nわけだ。\n{wait}だから『命令実行』は、この思考で本当\nに大丈夫か、というのをしっかり考えて\nから実行するようにしよう。\n{wait}",
-   "en": "",
+   "en": "See? Not just 'Execute Order': the unit\ncommand 'Tactic' itself can't be used\nanymore.\n{wait}So naturally, 'Change Tactic' is out too.\n{wait}That's why you should only 'Execute Order'\nafter thinking hard about whether this Tactic\nis really OK.\n{wait}",
    "slots": [
     7
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.61.008",
    "jp": "さて、一度セットした思考だけど、\n新たに『思考変更』をしない限り、\n次のターン以降も継続される。\n{wait}いったん『攻撃せよ』にしたら、\nそれこそマップクリアまでずっと\n敵を攻撃をし続けるし、\n{wait}『私を守護せよ』にすれば、ずっと\nマスターの周りをついてまわるって\nわけだ。\n{wait}戦局をみて、今の思考より別の思考が\nいいかな、と思った段階で『思考変更』\nするようにしていこう。\n{wait}",
-   "en": "",
+   "en": "Now, a Tactic you've set carries on into\nthe following turns unless you 'Change\nTactic' again.\n{wait}Once it's set to 'Attack!', it'll keep attacking\nenemies until the map is cleared,\n{wait}and if you set 'Guard me!', it'll keep tagging\nalong around its Master the whole time.\n{wait}Watch how the battle goes, and 'Change\nTactic' whenever you think another Tactic\nwould work better than the current one.\n{wait}",
    "slots": [
     8
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.61.098",
    "jp": "ステップ０６\n　　　　『思考を変更する』　　　　　\n{wait}",
-   "en": "",
+   "en": "Step 06\n'Changing Tactics'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   }
  ]
 }
