@@ -122,3 +122,22 @@ short-tempered"); Hasumi rescued. Akira (a rock musician, "rocker"; Guardian Zab
 joins. Yukari tells Hasumi she heard the Holy Dragon: her mission is to free the veins and awaken the Sky and Earth
 Dragons. Genbu orders Jin to settle it at Nikko. Kagami's last-chance attack fails; she quits the Egubado ("back to
 being a bum"). Next: Nikko dragon vein, then Tokyo (Egubado HQ).
+
+## 19 (Nikko Toshogu: all parties meet)
+Miyuki's (Kyushu) and Yukari's (Hokkaido) groups meet at Toshogu. Jin fights them, loses, and keeps her word: she
+will guide them to Tokyo; Miyuki trusts her, Misato refuses ("she's Egubado!"). Akira dreams of the Thunder Dragon
+(the fifth Dragon Wielder; she thinks it means a hero "transformation"). Five Dragon Wielders gathered: Mayu (Flame),
+Yukari (Holy), Misato (Sea), Keiko (Wind), Akira (Thunder); mission: free the veins, awaken the Sky and Earth Dragons.
+Misato: only five veins outside Tokyo, so where is the seventh? Miyuki and Yuko feel they've met before. Kaoru and
+Ran reunite. Yui (only child) envies the twins.
+
+## 20-21 (Tokyo Tower; toward the National Diet Building)
+Jin's route: a warp from Toshogu straight to Tokyo Tower. Two veins lie at the Diet Building ("where two energies
+collide"). Jin explains Ryukihi's creed (Japan will sink; her worshippers' souls go to bliss and are reborn).
+Chikana, Hasumi, Yui and Jin scout; the rest wait at Hibiya Park. Misato grudgingly "hires" Jin.
+
+## 22-23 (Diet scouting; Hibiya Park detour)
+The Four Gate Generals aren't at the Diet Building: suspicious. Chikana fears she isn't a Dragon Wielder and will
+be dead weight against Ryukihi (only the Seven Dragons can beat her). Yuko leads the others on a park tour of Tokyo
+(Shakujii Park...). An Egubado squad's hired "Master", Takegami (old warrior, ワシ/お主, lives to fight the strong),
+loses and joins to fight Ryukihi. Suzune finds a toy hero belt; Akira begs for it.

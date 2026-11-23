@@ -7,562 +7,624 @@
   {
    "id": "g23.22.000",
    "jp": "ちかな\n「龍脈の警備にしちゃ、やけに闘士が\n　少なくないかい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Don't you think there are awful few\nwarriors for guarding a dragon vein?\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.001",
    "jp": "巴澄\n「そうだな・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"You're right...\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.002",
    "jp": "ちかな\n「アタシらも、ナメられたもんだね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"They're sure underestimating us.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.003",
    "jp": "唯\n「しー、来るわよ、静かに」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Shh, they're coming. Quiet.\"\n{wait}",
    "slots": [
     3
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.22.004",
    "jp": "瞳\n「いくぞ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Let's go.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.005",
    "jp": "ちかな\n「・・・苦手なんだよな～、\n　こういうの」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...I'm no good at this sort of thing~\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.006",
    "jp": "ちかな\n「・・・四門将、いるかな。\n　いるんだろうな、たぶん」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Wonder if the Four Gate Generals are here.\nProbably are, huh.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.007",
    "jp": "唯\n「そうね、たぶん」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Yes, probably.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.008",
    "jp": "ちかな\n「でもさ、向こうも４人、\n　こっちも４人」\n{wait}「数じゃ対等だろ？　うちらだけで\n　なんとかイケるんじゃないかな」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"But hey, they're four, and we're four.\"\n{wait}\"We're even on numbers, right? Bet we could\nhandle it by ourselves.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.009",
    "jp": "瞳\n「バカを言うな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Don't be stupid.\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.010",
    "jp": "ちかな\n「ムリだっての？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"You saying we can't?\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.011",
    "jp": "巴澄\n「今回の目的は偵察だ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Our goal this time is reconnaissance.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.012",
    "jp": "ちかな\n「分かってるよ、そんなこと。\n　たとえばの話じゃないか」\n{wait}「それでもダメだっての？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"I know that. I'm just saying, hypothetically.\"\n{wait}\"Still no good?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.013",
    "jp": "瞳\n「・・・だめだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...No good.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.014",
    "jp": "唯\n「で、でも、みんながいれば・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"B-but if everyone were here...\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.015",
    "jp": "瞳\n「可能性はある」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Then there's a chance.\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.016",
    "jp": "唯\n「そ、そうよね」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"R-right.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.017",
    "jp": "ちかな\n「じゃあ・・・相手が龍鬼妃なら？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Then... what if it's Ryukihi?\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.018",
    "jp": "唯\n「・・・龍鬼妃って・・・\n　ちかなさん、今そんな話したって」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"...Ryukihi... Chikana-san, why bring that\nup now?\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.019",
    "jp": "ちかな\n「だっていつかは、やらなきゃなんない\n　相手じゃないか」\n{wait}「ぶっちゃけた話さ、たとえば今の\n　アタシらだったらどうだい？」\n{wait}「美由紀や真由や、アタシらみんなで\n　やってさ・・・・あんた、龍鬼妃に\n　勝てると思うかい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"'Cause she's someone we'll have to fight\nsomeday, right?\"\n{wait}\"Straight up, how about us as we are\nright now?\"\n{wait}\"Miyuki, Mayu, all of us together... Do you\nthink we could beat Ryukihi?\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.020",
    "jp": "唯\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"......\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.021",
    "jp": "巴澄\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"......\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.022",
    "jp": "瞳\n「龍鬼妃の守護獣は、常人のそれとは\n　別モノと聞いている」\n{wait}「もし龍鬼妃に勝てる者が\n　あるとすれば、それは・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"I hear Ryukihi's Guardian is nothing like an\nordinary person's.\"\n{wait}\"If anyone could defeat Ryukihi, it would be...\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.023",
    "jp": "巴澄\n「龍の使い手か」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"The Dragon Wielders.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.024",
    "jp": "瞳\n「そうだ。龍鬼妃に勝てる可能性の\n　ある者は、七龍以外にない」\n{wait}「天地の覚醒を待つ意味がそれだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Yes. No one but the Seven Dragons stands a\nchance against Ryukihi.\"\n{wait}\"That's why we wait for Heaven and Earth to\nawaken.\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.025",
    "jp": "ちかな\n「龍の使い手だけ・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Only the Dragon Wielders...\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.026",
    "jp": "唯\n「きゃっ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Eek!\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.027",
    "jp": "闘士\n「龍の使い手！」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Dragon Wielders!\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.028",
    "jp": "闘士\n「裏切り者め・・・！」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Traitor...!\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.22.029",
    "jp": "瞳\n「・・・玄武は議事堂の中か」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...Is Genbu inside the Diet Building?\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.030",
    "jp": "闘士\n「フッ・・・四門将は、ここには\n　いないよ。クククッ」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Heh... The Four Gate Generals aren't here.\nHehehe.\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.031",
    "jp": "唯\n「ご、ごめんなさい・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"I-I'm sorry...\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.032",
    "jp": "巴澄\n「気にするな。それより・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Don't worry about it. More importantly...\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.033",
    "jp": "巴澄\n「どう思う」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"What do you think?\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.034",
    "jp": "瞳\n「・・・妙だな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...Strange.\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.035",
    "jp": "瞳\n「四門将が議事堂に\n　いないというのは・・・」\n{wait}「どうもげせない」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"The Four Gate Generals not being at the Diet\nBuilding...\"\n{wait}\"It doesn't sit right.\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.036",
    "jp": "巴澄\n「罠か。しかし・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"A trap? But...\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.037",
    "jp": "ちかな\n「・・・あんたたちさ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Hey, you two.\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.038",
    "jp": "ちかな\n「自分が龍の使い手だって思うかい？」\n{wait}「あとふたり・・・自分が、\n　天龍か地龍の魂を持つ者だって」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Do you think you're Dragon Wielders?\"\n{wait}\"The two left... that you've got the soul of\nthe Sky Dragon or the Earth Dragon?\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.039",
    "jp": "巴澄\n「・・・いや」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"...No.\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.040",
    "jp": "唯\n「違うでしょうね・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"I doubt it...\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.041",
    "jp": "ちかな\n「あたしもさ」\n{wait}「悔しいんだけどさあ、なんとなく\n　分かるんだ、あたしは違うって」\n{wait}「だったらさ・・・」\n{wait}「龍鬼妃を目の前にして真由たちが、\n　あたしをかばって思うように\n　戦えない、なんてコト・・・」\n{wait}「あったら嫌じゃないか」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Me neither.\"\n{wait}\"It's frustrating, but somehow I just know.\nIt's not me.\"\n{wait}\"So then...\"\n{wait}\"If we're facing Ryukihi and Mayu and the\nothers can't fight their best because they're\ncovering for me...\"\n{wait}\"I'd hate that, you know?\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.042",
    "jp": "瞳\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"......\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.043",
    "jp": "唯\n「・・・やめたいの？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"...Do you want to quit?\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.044",
    "jp": "ちかな\n「違うって、そうじゃない、\n　ただ・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"No, that's not it. It's just...\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.045",
    "jp": "巴澄\n「・・・悔しいな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"...It's frustrating.\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.046",
    "jp": "ちかな\n「・・・うん・・・ここまで来て、\n　足手まといなんてさ・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Yeah... coming this far just to be dead\nweight...\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.199",
    "jp": "唯\n「龍の使い手・・・」\n{wait}「天龍と地龍の魂を持つ\n　最後のふたりは・・・本当に\n　わたしたちの中にいるのかしら」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"The Dragon Wielders...\"\n{wait}\"The last two, with the souls of the Sky\nDragon and the Earth Dragon... are they\nreally among us?\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.22.200",
    "jp": "巴澄\n「気にしても、はじまらないな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Worrying about it won't get us anywhere.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.201",
    "jp": "唯\n「わたしたちの中にいなかったら？」\n{wait}「仁さんの話が本当なら、天龍と地龍が\n　いなかったら、わたしたち・・・\n　龍鬼妃に負けてしまうの？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"And if they're not among us?\"\n{wait}\"If what Jin-san said is true, without the Sky\nDragon and the Earth Dragon... will we lose to\nRyukihi?\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.202",
    "jp": "巴澄\n「・・・だから、そんな事を今から\n　気にしても仕方ない」\n{wait}「ゆかりが言ったろう？\n　私たちは、やるしかないんだよ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"...Like I said, there's no point worrying about\nthat now.\"\n{wait}\"You heard Yukari, didn't you? We just have\nto do it.\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.203",
    "jp": "唯\n「・・・やるしかない、か」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"...We just have to do it, hm?\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.210",
    "jp": "ちかな\n「あのさー、マジな話」\n{wait}「龍の使い手かどうかを見極める、\n　簡単な方法って、ないものかな」\n{wait}「守護獣に特徴があるとか、なんかこう\n　区別するポイントとか」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Hey, seriously though.\"\n{wait}\"Isn't there some easy way to tell who's a\nDragon Wielder?\"\n{wait}\"Like something special about their Guardian,\nsome kind of telltale sign?\"\n{wait}",
    "slots": [
     210
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.22.211",
    "jp": "瞳\n「そんな方法があれば、荏狗覇菟の\n　調査部隊が実行してるだろう」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"If there were, the Egubado's survey units\nwould already be using it.\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.212",
    "jp": "ちかな\n「だな。そりゃそうだ・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Right. Figures...\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.222",
    "jp": "瞳\n「これを使え」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Use this.\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.22.223",
    "jp": "唯\n「ありがとう・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Thank you...\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.224",
    "jp": "瞳\n「・・・なんだ。\n　私の顔になにかついているか？」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...What? Is there something on my face?\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.22.225",
    "jp": "唯\n「・・・分からないわ、あなたが。\n　信じたいとは思うけど・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"...I don't understand you. I want to trust\nyou, but...\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.226",
    "jp": "瞳\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"......\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.227",
    "jp": "唯\n「あなた自分の事もう少し、いろいろ\n　話してみたらどうかしら」\n{wait}「その方がみんな、打ち解けやすいと\n　思うんだけれど」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Why don't you try telling us a little more\nabout yourself?\"\n{wait}\"I think it would make it easier for everyone\nto open up to you.\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.22.228",
    "jp": "瞳\n「そのうちにな・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"In time...\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

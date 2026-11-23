@@ -7,450 +7,499 @@
   {
    "id": "g23.20.000",
    "jp": "裕子\n「ひょえ～・・・\n　中がこんな風になってるとは」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Whoa... Who knew the inside looked like this.\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.001",
    "jp": "晶\n「荏狗覇菟、許すまじです！」\n{wait}「重要文化財に、\n　なんてコトするですか」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Egubado, you shall not be forgiven,\nyes indeed!\"\n{wait}\"What have you done to an Important\nCultural Property!?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.002",
    "jp": "瞳\n「そこに上がれ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Get up there.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.003",
    "jp": "裕子\n「ここは・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"This is...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 6
+   "pre": 6,
+   "status": "done"
   },
   {
    "id": "g23.20.004",
    "jp": "美由紀\n「え・・・なに？　どこ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh... what? Where are we?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.005",
    "jp": "美里\n「ちょっと！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Hey!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.006",
    "jp": "ゆかり\n「だましたのね！？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You tricked us!?\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.007",
    "jp": "瞳\n「心外だな。\n　お望み通り、東京へ来たんだよ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"How rude. You wanted Tokyo, and here\nyou are.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.008",
    "jp": "美由紀\n「えーっ？　うそ、もう？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Whaaat? No way, already?\"\n{wait}",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.20.009",
    "jp": "瞳\n「たったひとつの侵入経路だ。\n　闘士がいても不思議はあるまい」\n{wait}「さあ、行くぞ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"It's the only way in. No surprise there are\nwarriors here.\"\n{wait}\"Now, let's go.\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.010",
    "jp": "美里\n「なによ・・・一緒にやる気？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"What... You're fighting with us?\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.011",
    "jp": "裕子\n「ごちゃごちゃ言ってるヒマない！\n　行くよ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"No time to argue! Let's go!\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.012",
    "jp": "裕子\n「なんとか片付いたな・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Somehow we cleaned them up...\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.013",
    "jp": "美由紀\n「ねぇ、ここって・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hey, this place...\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.014",
    "jp": "「なんなの？」\n{wait}",
-   "en": "",
+   "en": "\"What is it?\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.015",
    "jp": "瞳\n「・・・東京タワーだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...Tokyo Tower.\"\n{wait}",
    "slots": [
     15
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.20.199",
    "jp": "るり\n「いきなりコレだもんね・・・\n　心の準備くらい、させて欲しいわ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Right off the bat, this... I'd like a chance to\nat least get ready.\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.20.200",
    "jp": "晶\n「ついに敵の本拠地に乗り込む一行、\n　それを待ち受ける敵の親衛隊！」\n{wait}「くーっ、\n　燃えるシチュエーションですう！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Our party storms the enemy's home base,\nwhere the enemy's elite guard lies in wait!\"\n{wait}\"Ooh, what a thrilling situation, yes indeed!\"\n{wait}",
    "slots": [
     200
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.20.201",
    "jp": "るり\n「・・・あんたね」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"...Seriously, you.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.202",
    "jp": "晶\n「時節到来っ！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"The hour has come!\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.203",
    "jp": "晶\n「百鬼夜行の世の中に、ひときわ輝く\n　星ひとーつ！」\n{wait}「人呼んでさすらいのヒーロー、雷晶、\n　ただいま参上！　です～」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"In a world where a hundred demons roam\nthe night, one star shines brightest of all!\"\n{wait}\"They call me the wandering hero! Akira\nIkazuchi, here at your service! Yes indeed~\"\n{wait}",
    "slots": [
     203
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.20.204",
    "jp": "るり\n「はいはい」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Yeah, yeah.\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.205",
    "jp": "美里\n「そろそろ、おうちに帰ったら？\n　荏狗覇菟さん」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Isn't it about time you went home, Miss\nEgubado?\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.20.206",
    "jp": "瞳\n「よそ見をするな。\n　そんな余裕はないだろう？」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Eyes forward. You can't afford to look\naway, can you?\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.207",
    "jp": "美里\n「あんたに背中を向けてる方が、\n　よっぽど危ないわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Turning my back on you would be a lot more\ndangerous.\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.208",
    "jp": "瞳\n「フフ・・・えらく嫌われたものだ」\n{wait}「美由紀の言う通りに・・・\n　私がおまえたちと共に戦うと\n　言ったら、どうする？」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Heh... I'm awfully unpopular.\"\n{wait}\"What if, just as Miyuki says... I told you I'd\nfight alongside you?\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.209",
    "jp": "美里\n「私は美由紀たちみたいに、\n　お人好しじゃない」\n{wait}「あんたが私たちの側についたとしても\n　今度はいつ、こっちが裏切られるか。\n　・・・知れたもんじゃないわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"I'm not a softie like Miyuki and the others.\"\n{wait}\"Even if you joined our side, who knows when\nyou'd turn on us next. ...You can't tell.\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.210",
    "jp": "瞳\n「もっともだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Fair enough.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.211",
    "jp": "美里\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"......\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.214",
    "jp": "ちかな\n「おいおい、\n　なにボーッとしてんのさ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Hey, hey, what are you spacing out for?\"\n{wait}",
    "slots": [
     214
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.20.215",
    "jp": "さやか\n「知らなかったぁ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"I didn't kno-ow~\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.216",
    "jp": "ちかな\n「なにが・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Know what...\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.217",
    "jp": "さやか\n「東京ってぇ、ずいぶん高いトコロに\n　あるんだぁ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Tokyo's, li-ike, way up in the sky, huh?\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.218",
    "jp": "ちかな\n「あのね・・・」\n{wait}「高層ビルの上かどっかに\n　決まってんだろ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Listen...\"\n{wait}\"We're obviously on top of some skyscraper\nor something, right?\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.219",
    "jp": "さやか\n「そぉなのぉ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Is tha-at so~?\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.220",
    "jp": "ちかな\n「周りの景色見りゃわかるだろーが。\n　ほら、そことか、そことか・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Just look at the scenery around us. See,\nthere, and there...\"\n{wait}",
    "slots": [
     220
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.20.221",
    "jp": "さやか\n「あ、なんか落ちてるぅ。ラッキー」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ooh, there's something on the ground.\nLu-ucky~\"\n{wait}",
    "slots": [
     221
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.20.222",
    "jp": "ちかな\n「人の話を聞けっ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Listen when people talk to you!\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.223",
    "jp": "さやか\n「よそ見してると危ないよぉ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"It's dangerous to look away, you kno-ow?\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.224",
    "jp": "ちかな\n「こ・・・こいつ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Wh... why you...\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.225",
    "jp": "巴澄\n「ついに東京だな・・・\n　大丈夫か？」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Tokyo at last... Are you all right?\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.20.226",
    "jp": "蘭\n「直江さんこそ」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"What about you, Naoe-san?\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.227",
    "jp": "巴澄\n「強くなったな。恐山の時とは別人の\n　ようだよ。たいしたものだ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"You've gotten strong. You're like a different\nperson from back at Mt. Osore. Impressive.\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.228",
    "jp": "蘭\n「かおると一緒だから」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"It's 'cause I'm with Kaoru.\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.229",
    "jp": "巴澄\n「そうか」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I see.\"\n{wait}",
    "slots": [
     229
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.230",
    "jp": "蘭\n「それにみんなに会うまでは・・・」\n{wait}「美由紀ちゃんたちと会ったのは\n　四国だったから・・・それまで\n　ずっと、ひとりだったし」\n{wait}「ひとりの時より、ぜんぜん平気」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"And before I met everyone...\"\n{wait}\"I met Miyuki-chan and the others in Shikoku...\nUntil then I was all by myself.\"\n{wait}\"This is nothing compared to being alone.\"\n{wait}",
    "slots": [
     230
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.231",
    "jp": "巴澄\n（恐山から四国・・・か。\n　別の意味でも大したものだな）\n{wait}",
-   "en": "",
+   "en": "Hasumi\n(From Mt. Osore to Shikoku... That's impressive\nin another sense too.)\n{wait}",
    "slots": [
     231
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.20.232",
    "jp": "蘭\n「それにみんなに会うまでは・・・」\n{wait}「美由紀ちゃんたちと会ったのは、\n　名古屋だったから・・・それまで\n　ずっと、ひとりだったし」\n{wait}「ひとりの時より、ぜんぜん平気」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"And before I met everyone...\"\n{wait}\"I met Miyuki-chan and the others in Nagoya...\nUntil then I was all by myself.\"\n{wait}\"This is nothing compared to being alone.\"\n{wait}",
    "slots": [
     232
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.20.233",
    "jp": "巴澄\n（恐山から名古屋・・・か。\n　別の意味でも大したものだな）\n{wait}",
-   "en": "",
+   "en": "Hasumi\n(From Mt. Osore to Nagoya... That's impressive\nin another sense too.)\n{wait}",
    "slots": [
     233
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

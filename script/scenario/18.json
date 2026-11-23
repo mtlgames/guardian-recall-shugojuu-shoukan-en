@@ -958,39 +958,43 @@
   {
    "id": "g23.18.246",
    "jp": "裕子\n「龍の使い手か・・・」\n{wait}「ゆかりの仲間なら、あたしたちの\n　仲間って思ってもいいよね」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"A Dragon Wielder, huh...\"\n{wait}\"If she's Yukari's friend, we can think of her\nas our friend too, right?\"\n{wait}",
    "slots": [
     246
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.18.247",
    "jp": "巴澄\n「だといいが」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I hope so.\"\n{wait}",
    "slots": [
     247
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.18.248",
    "jp": "唯\n「きっと一緒に戦ってくれる。\n　そう思っていましょうよ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"I'm sure she'll fight alongside us. Let's\nbelieve that.\"\n{wait}",
    "slots": [
     248
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.18.249",
    "jp": "かおる\n「さんせー」\n{wait}「だから早く行こうよ。\n　また荏狗覇菟にジャマされたら、\n　めんどーだよ」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Seconded!\"\n{wait}\"So let's get goin' already. If the Egubado get\nin our way again, it'll be a pain.\"\n{wait}",
    "slots": [
     249
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }
