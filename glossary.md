@@ -168,7 +168,7 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 結界 | barrier | | | |
 | 列島大地震 | Great Archipelago Earthquake | | | |
 | 超力 | Psi | | special power command | |
-| 思考 | Tactic | | a guardian's AI order (思考ポイント = Tactic Points) | |
+| 思考 | Tactic / thought | | "thought" only in prose (dic 接触テレパス); a guardian's AI order (思考ポイント = Tactic Points) | |
 | 気力 | Spirit | | SP | |
 | 属性 | element | | | |
 | 斎姫 | Saiki | | | |
@@ -193,6 +193,11 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 世田谷トンダーエッグ | Setagaya Tonder Egg | | west gate (Tokyo Dome parody) | |
 | 東京第二国際空港 | Tokyo Second International Airport | | south gate | |
 | 龍鬼 | Ryuki | | Ryukihi's Guardian (ch. 41) | |
+| 真・龍鬼 | True Ryuki | | Ryukihi fused with Ryuki (gd) | |
+| 攻撃部隊 | strike force | | Egubado unit (gd); 遊撃部隊 raider force, 防衛部隊 defense force, 空戦部隊 air force, 海戦部隊 navy | |
+| 親衛隊 | Royal Guard | | (no lint): Ryukihi's (gd 龍殺鬼); "elite guard" in scenario lines | |
+| 転移装置 | teleporter | | | |
+| 接触テレパス | touch telepath | | Keiko's power | |
 
 ## UI commands (tactics map; EXE labels must match the tutorials, entries 50-65)
 | JP | EN | max | notes | Avoid |
@@ -268,7 +273,7 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 守護珠獣 | Orb Guardian | | Form, healing line | |
 | 守護精獣 | Spirit Guardian | | Form, healing line (entry 67 variant of the tutorial) | |
 | 属性相性表 | element chart | | ring menu DIAGRAM | |
-| 主 | Master | | (no lint): element of Masters; elements 地 Earth 炎 Flame 聖 Holy 雷 Thunder 海 Sea 飛 Wind 天 Sky | |
+| 主 | Master | | (no lint): element of Masters; elements 地 Earth 炎 Flame 聖 Holy 雷 Thunder 海 Sea 飛 Wind 天 Sky; rare 冥 Nether, 皇 Emperor (Ryuki) | |
 | ＴＵＲＮＥＮＤ | TURN END | | △ sub-command | |
 | サブコマンド | sub-command | | the △ ring menu | |
 | 現在の思考のまま命令実行 | Execute Order with current Tactic | | TURN END prompt option (EXE) | |
@@ -296,7 +301,7 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 手那賀 | Tenaga | | 長肢型 Long Tenaga, 陸 Land Tenaga | |
 | 拳闘骸骨 | Bone Boxer | | 軽機動 Swift Bone Boxer, 黒色 Black Bone Boxer | |
 | 機忍 | Mechaninja | | 下 Mechaninja Lo, 上 Mechaninja Hi | |
-| 百足蛇 | Centipede | | 海 Sea Centipede, 飛式 Flying Centipede | |
+| 百足蛇 | Centipede | | 海 Sea Centipede, 飛式 Flying Centipede, 土 Earth Centipede | |
 | 護法童子 | Goho Doji | | | |
 | 天龍 | Sky Dragon | | 七龍: 天 Sky, 地 Earth, 炎 Flame, 聖 Holy, 海 Sea, 飛 Wind, 雷 Thunder; 黒龍 Black Dragon | |
 | 地龍 | Earth Dragon | | | |

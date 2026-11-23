@@ -27,6 +27,18 @@ def test_pitch_and_narrow_first_lines():
     assert windows.wrap("aaa bbb ccc", 1000, G, first=(font.width("aaa", G),)) == "aaa&n()bbb ccc"
 
 
+def test_adv_and_dictionary_list():
+    # guardian page: +1 px per glyph (pitch 14), so a line that fits by width alone can still break
+    px = font.width("aaa bbb", G)
+    assert windows.wrap("aaa bbb", px, G) == "aaa bbb"
+    assert windows.wrap("aaa bbb", px, G, adv=1) == "aaa&n()bbb"
+    gd = windows.variant({"id": "gd.0010", "jp": "&s(64,20)&g(14,32)x"})
+    assert gd["name"] == "guardian page" and gd["adv"] == 1
+    # dictionary headings in the list are one row (never wrapped); pages wrap at 100
+    assert windows.variant({"id": "dic.0186", "jp": "東京第二国際空港"})["name"] == "dictionary list"
+    assert windows.variant({"id": "dic.0187", "jp": "東京&n()&n()本文"})["name"] == "dictionary entry"
+
+
 def test_scenario_lint_counts_lines_after_the_name():
     v = windows.VARIANTS[0]
     s = {"id": "g23.00.000", "jp": "名\n「あ\n　い」\n{wait}", "en": "Name\n\"One\ntwo\nthree\"{wait}"}
@@ -69,7 +81,7 @@ def test_wrap_txd_per_segment_and_px():
     head, body = out.split("&s(40,120)")
     assert "&n()" not in head and body.count("&n()") >= 2
     assert all(font.width(windows.MARKUP.sub("", x), G) <= 233 for x in body.split("&n()"))
-    dic = windows.variant({"id": "dic.0001", "jp": ""})
+    dic = windows.variant({"id": "dic.0001", "jp": "x&n()"})
     assert all(font.width(windows.MARKUP.sub("", x), G) <= 100 for x in windows.wrap_txd(dic, long, G).split("&n()"))
 
 

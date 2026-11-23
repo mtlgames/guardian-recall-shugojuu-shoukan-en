@@ -45,11 +45,15 @@ VARIANTS = [
     dict(name="charfile list", ids=r"cf\.", jp=r"^[^&]", kind="txd", px=180, lines=1, status="measured"),
     # DIC.BIN wraps by itself once a glyph would start at col >= 100 (asm/hooks.asm): English is pre-wrapped at 100
     # one entry per book page, 16 px rows from y 35: row 12 falls off the page (opt_dictionary_page; JP max 11)
+    # list of headings (opt_dictionary_all): one row, same list renderer as the replay list (centred by byte count)
+    dict(name="dictionary list", ids=r"dic\.", jp=r"^(?!.*&n\(\))", kind="txd", px=223, lines=1, bytes=34,
+         status="measured"),
     dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, wrap=100, lines=11, status="measured"),
-    # guardian page body `&g(14,24)&f(14,10)`: the JP auto-wraps at 14 chars x pitch 14 = 196 px; ASCII advance at
-    # pitch 14 = width + 1, so English wraps at 180. Lines: 3 header (name, reading) + 10 body
-    dict(name="guardian page", ids=r"gd\.", jp=r"^&s\(64,20\)", kind="txd", px=180, lines=13,
-         status="derived (&f chars x &g pitch)"),
+    # guardian page body `&g(14,24)&f(14,10)` (opt_guardians_page): text from x 64, ASCII advance at pitch 14 = width
+    # + 1 (adv); 24 px rows from y 99: row 6 runs into the bottom bar, row 5 must end before the △ Push icon (x 263).
+    # JP: 14 chars (to x 259), max 4 rows. Lines: 3 header (name, gap, reading) + 5 body
+    dict(name="guardian page", ids=r"gd\.", jp=r"^&s\(64,20\)", kind="txd", px=192, adv=1, lines=8,
+         status="measured"),
     # centred by byte count (start x = 159.5 - 3.25 * bytes), so bytes also keep it clear of the number column
     dict(name="replay list", ids=r"rep\.", kind="txd", px=223, lines=1, bytes=34, status="measured"),
     # one record = the whole diary page; each &s(x,y) segment gets right - x px (x 0 = &e() centred: right - left)
@@ -82,12 +86,14 @@ VARIANTS = [
 ]
 
 
-def wrap(text, px, glyphs, nl="&n()", first=()):
+def wrap(text, px, glyphs, nl="&n()", first=(), adv=0):
     """Break English text at spaces so no line is wider than px (`first`: narrower widths for the first lines):
     the txd renderers never auto-wrap ASCII (docs/re/text.md). Markup is zero width; an existing `nl` starts a
-    new line."""
+    new line. `adv`: extra px per glyph (an &g pitch above 13)."""
     out, w, n = [], 0, 0
     lim = lambda: first[n] if n < len(first) else px  # noqa: E731
+    _w = font.width
+    font_width = lambda t, g: _w(t, g) + adv * len(t)  # noqa: E731
     for tok in re.split(r"(&[a-z]\([^)]*\)| )", text):
         if not tok:
             continue
@@ -98,13 +104,13 @@ def wrap(text, px, glyphs, nl="&n()", first=()):
             out.append(tok)
         elif tok == " ":
             out.append(tok)
-            w += font.width(" ", glyphs)
+            w += font_width(" ", glyphs)
         else:
-            tw = font.width(tok, glyphs)
+            tw = font_width(tok, glyphs)
             if w and w + tw > lim():
                 while out and out[-1] == " ":  # the break replaces the space(s) before the word
                     out.pop()
-                    w -= font.width(" ", glyphs)
+                    w -= font_width(" ", glyphs)
                 out.append(nl)
                 w, n = 0, n + 1
             out.append(tok)
@@ -153,7 +159,7 @@ def lint(s, v, glyphs):
             if len(body) > v["lines"]:
                 errs.append(f"{len(body)} lines > {v['lines']}")
             for j, line in enumerate(p):
-                w = font.width(line, glyphs) + (pitch - 13) * len(line)
+                w = font.width(line, glyphs) + (pitch - 13 + v.get("adv", 0)) * len(line)
                 lim = px[min(j, len(px) - 1)] if isinstance(px, list) else px
                 if w > lim:
                     errs.append(f"{w} px > {lim}: {line!r}")
@@ -203,7 +209,7 @@ def wrap_txd(v, text, glyphs):
                                first=v.get("narrow", {}).get(mark, ()))]
         return "".join(out)
     px = v.get("wrap", v["px"])
-    return text if px == "jp" else wrap(text, px, glyphs)
+    return text if px == "jp" else wrap(text, px, glyphs, adv=v.get("adv", 0))
 
 
 def records():

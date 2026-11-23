@@ -25,22 +25,24 @@
   {
    "id": "gd.0009",
    "jp": "アーチー",
-   "en": "",
+   "en": "Archie",
    "slots": [
     9
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "gd.0010",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()アーチー&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()あーちー&d()&c(2)&n()&g(14,24)&f(14,10)静内さやかの守護獣。属性は海。見た目通り弓術の達人。マスターに似ず、忠実に命令を守る無口な守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Archie&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Sayaka Shizunai's Guardian.&n()Element: Sea. A master archer,&n()as it looks. Unlike its Master, a&n()quiet Guardian that faithfully&n()obeys orders.",
    "slots": [
     10
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0016",
@@ -54,41 +56,45 @@
   {
    "id": "gd.0017",
    "jp": "天尊",
-   "en": "",
+   "en": "Amazon",
    "slots": [
     17
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0018",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()天尊・成獣&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()あまぞん・せいじゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。荏狗覇菟攻撃部隊の守護獣。ローラー状の後肢でかなりの走行速度を出す。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Amazon Adult&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. A Guardian of&n()the Egubado strike force. Its&n()roller-like hind legs give it real&n()running speed.",
    "slots": [
     18
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0019",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()天尊・幼獣&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()あまぞん・ようじゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。天尊・成獣の下位クラス。マスターの潜在力で上位下位が変わるらしい。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Amazon Cub&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. The lower class&n()of the Amazon Adult. Upper or&n()lower class seems to depend on&n()the Master's potential.",
    "slots": [
     19
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0020",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()天尊・亜成獣&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()あまぞん・あせいじゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。亜成獣とは成獣の一歩手前の段階のこと。当然、能力も両者の中間。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Amazon Youth&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. A Youth is one&n()step short of an Adult.&n()Naturally, its abilities fall&n()between the two.",
    "slots": [
     20
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0024",
@@ -102,41 +108,45 @@
   {
    "id": "gd.0025",
    "jp": "一角砕",
-   "en": "",
+   "en": "Hornram",
    "slots": [
     25
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0026",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()一角砕&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()いっかくさい&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。荏狗覇菟攻撃部隊の守護獣。体当たりが強力。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Hornram&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. A Guardian of&n()the Egubado strike force. Its&n()body slam packs a punch.",
    "slots": [
     26
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0027",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()重装甲一角砕&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()じゅうそうこういっかくさい&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。攻撃力、耐久力を伸ばした一角砕のバージョンアップタイプ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Heavy Hornram&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. An upgraded&n()Hornram with more attack&n()power and toughness.",
    "slots": [
     27
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0028",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()哨戒用一角砕&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()しょうかいよういっかくさい&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。哨戒任務用の一角砕。通常の一角砕より、やや足が速い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Scout Hornram&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. A Hornram for&n()patrol duty, a bit faster than&n()the regular kind.",
    "slots": [
     28
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0032",
@@ -150,22 +160,24 @@
   {
    "id": "gd.0033",
    "jp": "ウール",
-   "en": "",
+   "en": "Ur",
    "slots": [
     33
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "gd.0034",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ウール&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()うーる&d()&c(2)&n()&g(14,24)&f(14,10)半澤由美の守護獣。属性は海。メールと違い足を持つため陸上も苦にしない。好戦的な外観通り攻撃力が高い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Ur&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Yumi Hanzawa's Guardian.&n()Element: Sea. Unlike Mer it has&n()legs, so land is no trouble. As&n()warlike as it looks, with high&n()attack power.",
    "slots": [
     34
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0040",
@@ -179,41 +191,45 @@
   {
    "id": "gd.0041",
    "jp": "影鬼",
-   "en": "",
+   "en": "Shadow Oni",
    "slots": [
     41
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0042",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()影鬼&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()えいき&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。荏狗覇菟遊撃部隊の守護獣。機忍と並ぶ暗殺用守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Shadow Oni&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. A Guardian of&n()the Egubado raider force. An&n()assassin Guardian, like the&n()Mechaninja.",
    "slots": [
     42
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0043",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()影鬼・変異型&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()えいき・へんいがた&d()&c(2)&n()&g(14,24)&f(14,10)属性は聖。影鬼の属性違いタイプ。影鬼用の制御ピアスを施すと、まれに出現する。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Mutant Shadow&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Holy. A Shadow Oni of&n()another element. Now and then&n()it appears when a Shadow Oni&n()control piercing is used.",
    "slots": [
     43
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0044",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()呪殺影鬼&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()じゅさつえいき&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。暗殺能力を強化した影鬼。一撃で相手の息の根をとめてしまう能力を持つ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Hex Shadow&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. A Shadow Oni&n()with stronger assassin skills. It&n()can snuff out a foe in a single&n()blow.",
    "slots": [
     44
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0048",
@@ -227,21 +243,23 @@
   {
    "id": "gd.0049",
    "jp": "炎龍",
-   "en": "",
+   "en": "Flame Dragon",
    "slots": [
     49
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0050",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()炎龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()えんりゅう&d()&c(2)&n()&g(14,24)&f(14,10)炎真由の守護獣・コウエンの覚醒後の形態。属性は炎。全身を火炎で包み、高い防御力を誇る。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Flame Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Koen's awakened form: Mayu&n()Homura's Guardian. Element:&n()Flame. Wrapped all over in fire,&n()it boasts high defense.",
    "slots": [
     50
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0056",
@@ -255,22 +273,24 @@
   {
    "id": "gd.0057",
    "jp": "ガーラー",
-   "en": "",
+   "en": "Gara",
    "slots": [
     57
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "gd.0058",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ガーラー&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()がーらー&d()&c(2)&n()&g(14,24)&f(14,10)一の宮琴音の守護獣。属性は炎。マスターとは反対にイケイケの女性型守護獣。ドーガーとコンビで戦う。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Gara&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Kotone Ichinomiya's Guardian.&n()Element: Flame. Unlike her&n()Master, a gung-ho female&n()Guardian. Fights as a team with&n()Doga.",
    "slots": [
     58
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0064",
@@ -284,21 +304,23 @@
   {
    "id": "gd.0065",
    "jp": "海龍",
-   "en": "",
+   "en": "Sea Dragon",
    "slots": [
     65
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0066",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()海龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かいりゅう&d()&c(2)&n()&g(14,24)&f(14,10)海原美里の守護獣・メールの覚醒後の形態。属性は海。覚醒前と同じく水上戦を得意とする。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Sea Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Mer's awakened form: Misato&n()Kaibara's Guardian. Element: Sea.&n()As before its awakening, it&n()excels at fighting on water.",
    "slots": [
     66
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0072",
@@ -312,21 +334,23 @@
   {
    "id": "gd.0073",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "slots": [
     73
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0074",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()我王&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()がおう&d()&c(2)&n()&g(14,24)&f(14,10)周防ちかなの守護獣。属性は地。まさに由緒ある神門の血統の守り神。高い戦闘力を持つ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Gao&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Chikana Suo's Guardian. Element:&n()Earth. Truly the guardian god of&n()the noble Kamikado bloodline,&n()with great fighting power.",
    "slots": [
     74
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0080",
@@ -340,41 +364,45 @@
   {
    "id": "gd.0081",
    "jp": "陽炎剣士",
-   "en": "",
+   "en": "Haze Blade",
    "slots": [
     81
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0082",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()陽炎剣士&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かげろうけんし&d()&c(2)&n()&g(14,24)&f(14,10)属性は聖。防衛部隊の後方支援役。刀を持ってはいるが、味方部隊の治癒を行うのが主任務。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Haze Blade&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Holy. Rear support for&n()the defense force. It carries a&n()sword, but its main job is&n()healing its allies.",
    "slots": [
     82
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0083",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()褐装陽炎剣士&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かっしょうかげろうけんし&d()&c(2)&n()&g(14,24)&f(14,10)属性は聖。褐色の衣をまとった陽炎剣士。ノーマルタイプよりやや打たれ強い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Brown Haze Blade&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Holy. A Haze Blade clad&n()in brown, a bit tougher than the&n()normal type.",
    "slots": [
     83
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0084",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()二刀陽炎剣士&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()にとうかげろうけんし&d()&c(2)&n()&g(14,24)&f(14,10)属性は聖。二段斬りを得意とする戦闘力の高い陽炎剣士。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Twin Haze Blade&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Holy. A Haze Blade with&n()high fighting power and a&n()specialty: the double slash.",
    "slots": [
     84
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0088",
@@ -388,41 +416,45 @@
   {
    "id": "gd.0089",
    "jp": "化石竜",
-   "en": "",
+   "en": "Fossil Dragon",
    "slots": [
     89
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0090",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()化石竜&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かせきりゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。荏狗覇菟攻撃部隊で最も多く見かける守護獣。一般兵だが耐久性だけは高い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Fossil Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. The Guardian&n()seen most in the Egubado strike&n()force. A common soldier, but a&n()very durable one.",
    "slots": [
     90
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0091",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()水式化石竜&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()すいしきかせきりゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は海。属性が示す通り、海上戦用の化石竜。水上でも移動力を損なわず移動できる。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Aqua Fossil&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sea. As its element&n()says, a Fossil Dragon for sea&n()battles. It loses no movement on&n()water.",
    "slots": [
     91
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0092",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()化石竜・弐型&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かせきりゅう・にがた&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。通常の化石竜のバージョンアップタイプ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Fossil Dragon II&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. An upgraded&n()version of the regular Fossil&n()Dragon.",
    "slots": [
     92
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0096",
@@ -436,21 +468,23 @@
   {
    "id": "gd.0097",
    "jp": "カネツグ",
-   "en": "",
+   "en": "Kanetsugu",
    "slots": [
     97
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0098",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()カネツグ&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かねつぐ&d()&c(2)&n()&g(14,24)&f(14,10)直江巴澄の守護獣。属性は冥。その武者装束のイメージ通り戦闘能力は極めて高い。素早さのみやや低め。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Kanetsugu&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Hasumi Naoe's Guardian. Element:&n()Nether. As its warrior garb&n()suggests, a superb fighter. Only&n()its speed is a little low.",
    "slots": [
     98
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0104",
@@ -464,41 +498,45 @@
   {
    "id": "gd.0105",
    "jp": "鎌蜥蜴",
-   "en": "",
+   "en": "Scythe Lizard",
    "slots": [
     105
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0106",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()鎌蜥蜴&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かまとかげ&d()&c(2)&n()&g(14,24)&f(14,10)属性は天。荏狗覇菟空戦部隊の中で最もよく見かける守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Scythe Lizard&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sky. The Guardian seen&n()most in the Egubado air force.",
    "slots": [
     106
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0107",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()鎌蜥蜴・改&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()かまとかげ・かい&d()&c(2)&n()&g(14,24)&f(14,10)属性は天。鎌蜥蜴をわずかにパワーアップしたもの。あまり変わらない。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Scythe Lizard+&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sky. A slightly&n()powered-up Scythe Lizard. Not&n()much different.",
    "slots": [
     107
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0108",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()炎熱鎌蜥蜴&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()えんねつかまとかげ&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。ただの属性違いの鎌蜥蜴というわけではなく、朱雀直属のかなり高性能な守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Blaze Lizard&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. Not just a&n()Scythe Lizard of another&n()element: a high-grade Guardian&n()under Suzaku herself.",
    "slots": [
     108
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0112",
@@ -512,41 +550,45 @@
   {
    "id": "gd.0113",
    "jp": "戯画骸",
-   "en": "",
+   "en": "Toon Husk",
    "slots": [
     113
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0114",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()戯画骸&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ぎがむくろ&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。仁瞳の配下に見られるエリート兵集団の守護獣。戦闘能力はかなり高め。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Toon Husk&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. The Guardian&n()of the elite troops under Hitomi&n()Jin. Quite high fighting power.",
    "slots": [
     114
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0115",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()戯画骸・下位族&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ぎがむくろ・かいぞく&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。適性のため戯画骸本来のパワーが出し切れない闘士たちの守護獣。そこそこ強力。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Lesser Husk&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. The Guardian&n()of Warriors whose aptitude&n()can't draw out a Toon Husk's full&n()power. Still fairly strong.",
    "slots": [
     115
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0116",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()戯画骸零式&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ぎがむくろぜろしき&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。戯画骸のカスタムタイプ。ノーマルタイプより戦闘力が高い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Husk Zero&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. A custom Toon&n()Husk, with more fighting power&n()than the normal type.",
    "slots": [
     116
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0120",
@@ -560,41 +602,45 @@
   {
    "id": "gd.0121",
    "jp": "機忍",
-   "en": "",
+   "en": "Mechaninja",
    "slots": [
     121
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0122",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()機忍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()きにん&d()&c(2)&n()&g(14,24)&f(14,10)属性は飛。名前通り忍者のごとき素早さで敵に近づき死にいたらしめる。遊撃部隊の守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Mechaninja&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Wind. Like its name, it&n()closes in with ninja speed and&n()deals death. A Guardian of the&n()raider force.",
    "slots": [
     122
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0123",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()機忍・下&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()きにん・げ&d()&c(2)&n()&g(14,24)&f(14,10)属性は飛。機忍の下位クラス。とは言え並の守護獣よりは、はるかに強い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Mechaninja Lo&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Wind. The lower class of&n()Mechaninja. Even so, far&n()stronger than an average&n()Guardian.",
    "slots": [
     123
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0124",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()機忍・上&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()きにん・じょう&d()&c(2)&n()&g(14,24)&f(14,10)属性は飛。機忍の上位クラス。この上位下位は制御ピアスを施された者の適性で決められる。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Mechaninja Hi&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Wind. The upper class&n()of Mechaninja. Upper or lower&n()depends on the aptitude of the&n()one wearing the control&n()piercing.",
    "slots": [
     124
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0128",
@@ -608,22 +654,24 @@
   {
    "id": "gd.0129",
    "jp": "きらら",
-   "en": "",
+   "en": "Kirara",
    "slots": [
     129
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0130",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()きらら&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()きらら&d()&c(2)&n()&g(14,24)&f(14,10)平泉るりの守護獣。属性は雷。身体にまとう電気で常に防護フィールドを形成しているため、防御力が高い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Kirara&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Ruri Hiraizumi's Guardian.&n()Element: Thunder. The&n()electricity on its body keeps up&n()a constant force field, so its&n()defense is high.",
    "slots": [
     130
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0136",
@@ -637,41 +685,45 @@
   {
    "id": "gd.0137",
    "jp": "拳闘骸骨",
-   "en": "",
+   "en": "Bone Boxer",
    "slots": [
     137
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0138",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()拳闘骸骨&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()けんとうがいこつ&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。防衛部隊の隊長クラスが召喚することが多い。防御力、耐久力に優れる。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Bone Boxer&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. Often summoned&n()by defense force captains.&n()Excellent defense and&n()toughness.",
    "slots": [
     138
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0139",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()軽機動拳闘骸骨&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()けいきどうけんとうがいこつ&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。拳闘骸骨の弱点である機動性をアップさせたもの。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Swift Bone Boxer&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A Bone Boxer&n()with more mobility, its weak&n()point.",
    "slots": [
     139
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0140",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()黒色拳闘骸骨&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()こくしょくけんとうがいこつ&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。長距離戦闘力を強化した暗黒色の拳闘骸骨。浮遊砲台と化し、侵入者を撃退する。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Black Bone Boxer&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. A pitch-black&n()Bone Boxer built for long range.&n()It becomes a floating gun turret&n()that repels intruders.",
    "slots": [
     140
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0144",
@@ -685,21 +737,23 @@
   {
    "id": "gd.0145",
    "jp": "玄武",
-   "en": "",
+   "en": "Genbu",
    "slots": [
     145
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0146",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()玄武&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()げんぶ&d()&c(2)&n()&g(14,24)&f(14,10)北斗めぐみの守護獣。属性は地。まさに鉄壁とも言える防御力がウリ。並の攻撃では傷一つつかない。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Genbu&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Megumi Hokuto's Guardian.&n()Element: Earth. Its selling point:&n()an ironclad defense. Ordinary&n()attacks don't leave a scratch.",
    "slots": [
     146
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0152",
@@ -713,21 +767,23 @@
   {
    "id": "gd.0153",
    "jp": "コウエン",
-   "en": "",
+   "en": "Koen",
    "slots": [
     153
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0154",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()コウエン&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()こうえん&d()&c(2)&n()&g(14,24)&f(14,10)炎真由の守護獣。属性は炎。伝説の魔人イフリートをそのまま具現化したような姿をしている。防御力が高い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Koen&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Mayu Homura's Guardian.&n()Element: Flame. It looks like the&n()legendary djinn Ifrit made flesh.&n()High defense.",
    "slots": [
     154
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0160",
@@ -741,41 +797,45 @@
   {
    "id": "gd.0161",
    "jp": "甲殻機",
-   "en": "",
+   "en": "Shellmech",
    "slots": [
     161
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0162",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()甲殻機&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()こうかくき&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。荏狗覇菟攻撃部隊の投射戦専用守護獣。ロボットのような外観をしている。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Shellmech&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A&n()ranged-combat Guardian of the&n()Egubado strike force. It looks&n()like a robot.",
    "slots": [
     162
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0163",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()遠隔射甲殻機&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()えんかくしゃこうかくき&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。より遠距離戦用の甲殻機。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Gunner Shellmech&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A Shellmech for&n()even longer range.",
    "slots": [
     163
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0164",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()支援甲殻機&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()しえんこうかくき&d()&c(2)&n()&g(14,24)&f(14,10)属性は聖。投射戦とともに味方部隊の治癒役としての任務を持つ甲殻機。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Support Shellmech&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Holy. A Shellmech that&n()heals its allies as well as fighting&n()at range.",
    "slots": [
     164
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0168",
@@ -789,21 +849,23 @@
   {
    "id": "gd.0169",
    "jp": "黒龍",
-   "en": "",
+   "en": "Black Dragon",
    "slots": [
     169
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0170",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()黒龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()こくりゅう&d()&c(2)&n()&g(14,24)&f(14,10)仁瞳の守護獣。属性は冥。接近戦、投射戦どちらにも優れるオールマイティな守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Black Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Hitomi Jin's Guardian. Element:&n()Nether. An all-rounder that&n()excels at both melee and ranged&n()combat.",
    "slots": [
     170
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0176",
@@ -817,21 +879,23 @@
   {
    "id": "gd.0177",
    "jp": "護法童子",
-   "en": "",
+   "en": "Goho Doji",
    "slots": [
     177
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0178",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()護法童子&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ごほうどうじ&d()&c(2)&n()&g(14,24)&f(14,10)武神の守護獣。属性は天。性能はかなり高く、四門将守護獣と互角に渡り合えるほどのパワーを持つ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Goho Doji&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Takegami's Guardian. Element:&n()Sky. Very capable, with the&n()power to go toe to toe with the&n()Four Gate Generals' Guardians.",
    "slots": [
     178
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0184",
@@ -845,21 +909,23 @@
   {
    "id": "gd.0185",
    "jp": "斎姫",
-   "en": "",
+   "en": "Saiki",
    "slots": [
     185
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0186",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()斎姫&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()さいき&d()&c(2)&n()&g(14,24)&f(14,10)岩見沢唯の守護獣。属性は聖。妙に口数の多い守護獣。みんなから「姫ちゃん」としたわれている。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Saiki&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Yui Iwamizawa's Guardian.&n()Element: Holy. A strangely&n()chatty Guardian. Everyone&n()adores her as \"Hime-chan.\"",
    "slots": [
     186
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0192",
@@ -873,22 +939,24 @@
   {
    "id": "gd.0193",
    "jp": "ザビたん",
-   "en": "",
+   "en": "Zabi-tan",
    "slots": [
     193
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0194",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ザビたん&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ざびたん&d()&c(2)&n()&g(14,24)&f(14,10)雷晶の守護獣。属性は雷。非物質的な感じの肉体を持つため防御力に欠けるが、素早い動きでそれを補う。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Zabi-tan&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Akira Ikazuchi's Guardian.&n()Element: Thunder. Its ghostly&n()body lacks defense, but its quick&n()moves make up for it.",
    "slots": [
     194
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0200",
@@ -902,41 +970,45 @@
   {
    "id": "gd.0201",
    "jp": "斬鬼",
-   "en": "",
+   "en": "Slash Oni",
    "slots": [
     201
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0202",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()斬鬼&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ざんき&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。荏狗覇菟防衛部隊の守護獣。素早い動きで侵入者を切断する。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Slash Oni&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. A Guardian of&n()the Egubado defense force. It&n()cuts intruders down with quick&n()moves.",
    "slots": [
     202
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0203",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()斬鬼・改&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ざんき・かい&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。斬鬼のパワーアップタイプ。さらに素早い動きで敵を惑わす。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Slash Oni+&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. A powered-up&n()Slash Oni. Its even quicker&n()moves bewilder the enemy.",
    "slots": [
     203
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0204",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()斬鬼・弐式改&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ざんき・にしきかい&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。斬鬼の弱点である防御力を補ったもの。ただし、素早さがやや低下している。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Slash Oni II+&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. Shores up the&n()Slash Oni's weak point, defense,&n()but is a little slower.",
    "slots": [
     204
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0208",
@@ -950,41 +1022,45 @@
   {
    "id": "gd.0209",
    "jp": "死人守",
-   "en": "",
+   "en": "Gravekeeper",
    "slots": [
     209
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0210",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()死人守&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()しびともり&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。荏狗覇菟の中でも幹部クラスが召喚する拠点防衛用の守護獣。かなり強い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Gravekeeper&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. A base-defense&n()Guardian summoned by Egubado&n()officers. Quite strong.",
    "slots": [
     210
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0211",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()長・死人守&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()おさ・しびともり&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。ノーマルの死人守より好戦的。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Grave Chief&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. More warlike&n()than the normal Gravekeeper.",
    "slots": [
     211
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0212",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()使・死人守&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()つかい・しびともり&d()&c(2)&n()&g(14,24)&f(14,10)属性は冥。拠点防衛用の死人守の機動性を上げたもの。その分、耐久性にやや欠ける。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Grave Envoy&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Nether. A base-defense&n()Gravekeeper made more mobile.&n()It is a little less durable for it.",
    "slots": [
     212
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0216",
@@ -998,21 +1074,23 @@
   {
    "id": "gd.0217",
    "jp": "真・龍鬼",
-   "en": "",
+   "en": "True Ryuki",
    "slots": [
     217
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0218",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()真・龍鬼&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()しん・りゅうき&d()&c(2)&n()&g(14,24)&f(14,10)属性は皇。龍鬼妃がその守護獣龍鬼と一体化した姿。全てを破壊し浄化を行うべく出現した。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()True Ryuki&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Emperor. Ryukihi fused&n()with her Guardian, Ryuki. It&n()appeared to destroy all things&n()and purify them.",
    "slots": [
     218
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0224",
@@ -1026,21 +1104,23 @@
   {
    "id": "gd.0225",
    "jp": "朱雀",
-   "en": "",
+   "en": "Suzaku",
    "slots": [
     225
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0226",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()朱雀&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()すざく&d()&c(2)&n()&g(14,24)&f(14,10)南城知美の守護獣。属性は炎。素早さに優れ、四門将守護獣の中では唯一の空戦能力の持ち主。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Suzaku&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Tomomi Nanjo's Guardian.&n()Element: Flame. Very fast, and&n()the only one of the Four Gate&n()Generals' Guardians that fights&n()in the air.",
    "slots": [
     226
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0232",
@@ -1054,21 +1134,23 @@
   {
    "id": "gd.0233",
    "jp": "聖龍",
-   "en": "",
+   "en": "Holy Dragon",
    "slots": [
     233
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0234",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()聖龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()せいりゅう&d()&c(2)&n()&g(14,24)&f(14,10)聖ゆかりの守護獣・ノルトの覚醒後の形態。属性は聖。巨大な翼で戦場を飛び回り、傷ついた者を癒やしていく。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Holy Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Nord's awakened form: Yukari&n()Hijiri's Guardian. Element: Holy.&n()It flies over the battlefield on&n()huge wings, healing the&n()wounded.",
    "slots": [
     234
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0240",
@@ -1082,21 +1164,23 @@
   {
    "id": "gd.0241",
    "jp": "青龍",
-   "en": "",
+   "en": "Seiryu",
    "slots": [
     241
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0242",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()青龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()せいりゅう&d()&c(2)&n()&g(14,24)&f(14,10)東聡美の守護獣。属性は海。攻撃力に優れ、一撃で相手を消滅させるほどの破壊力を持つ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Seiryu&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Satomi Azuma's Guardian.&n()Element: Sea. Superb attack&n()power: it can wipe out a foe in&n()one blow.",
    "slots": [
     242
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0248",
@@ -1110,21 +1194,23 @@
   {
    "id": "gd.0249",
    "jp": "是空",
-   "en": "",
+   "en": "Zeku",
    "slots": [
     249
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0250",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()是空&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ぜくう&d()&c(2)&n()&g(14,24)&f(14,10)日之影蘭の守護獣。属性は雷。足が速く、身体さばきも軽やか。人型だが喋ることはできないようだ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Zeku&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Ran Hinokage's Guardian.&n()Element: Thunder. Fast on its&n()feet and light in its moves.&n()Humanoid, but it seems it can't&n()speak.",
    "slots": [
     250
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0256",
@@ -1138,41 +1224,45 @@
   {
    "id": "gd.0257",
    "jp": "双砲蟹",
-   "en": "",
+   "en": "Twin-Gun Crab",
    "slots": [
     257
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0258",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()双砲蟹&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()そうほうがに&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。見ての通りの砲台型守護獣。攻撃部隊の隊長クラスが召喚することが多い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Twin-Gun Crab&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A gun-turret&n()Guardian, as you can see. Often&n()summoned by strike force&n()captains.",
    "slots": [
     258
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0259",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()長射双砲蟹&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ちょうしゃそうほうがに&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。双砲蟹の限界射程を伸ばしたもの。それ以外の能力は、ほぼ変わらない。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Long Gun Crab&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A Twin-Gun Crab&n()with longer maximum range. Its&n()other abilities are about the&n()same.",
    "slots": [
     259
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0260",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()水上双砲蟹&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()すいじょうそうほうがに&d()&c(2)&n()&g(14,24)&f(14,10)属性は海。水上戦用の双砲蟹で、海戦部隊の隊長クラスが召喚することが多い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Sea Gun Crab&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sea. A Twin-Gun Crab&n()for water battles, often&n()summoned by navy captains.",
    "slots": [
     260
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0264",
@@ -1186,21 +1276,23 @@
   {
    "id": "gd.0265",
    "jp": "地龍",
-   "en": "",
+   "en": "Earth Dragon",
    "slots": [
     265
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0266",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()地龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ちりゅう&d()&c(2)&n()&g(14,24)&f(14,10)大地裕子の守護獣・ポチの覚醒後の形態。属性は地。その姿はまさに重量感あふれるドラゴンである。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Earth Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Pochi's awakened form: Yuko&n()Daichi's Guardian. Element:&n()Earth. Truly a dragon, brimming&n()with weight.",
    "slots": [
     266
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0272",
@@ -1214,41 +1306,45 @@
   {
    "id": "gd.0273",
    "jp": "手那賀",
-   "en": "",
+   "en": "Tenaga",
    "slots": [
     273
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0274",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()手那賀&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()てなが&d()&c(2)&n()&g(14,24)&f(14,10)属性は海。荏狗覇菟攻撃部隊の投射戦用守護獣。名前の通り前肢を伸ばして攻撃してくる。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Tenaga&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sea. A ranged-combat&n()Guardian of the Egubado strike&n()force. As its name says, it&n()attacks by stretching its arms.",
    "slots": [
     274
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0275",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()手那賀・長肢型&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()てなが・ちょうしけい&d()&c(2)&n()&g(14,24)&f(14,10)属性は海。ノーマルの手那賀よりさらに遠くまで前肢が伸ばせる遠距離戦用の守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Long Tenaga&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sea. A long-range&n()Guardian whose arms stretch&n()even farther than a normal&n()Tenaga's.",
    "slots": [
     275
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0276",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()陸手那賀&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()おかてなが&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。手那賀の陸戦タイプ。戦闘力はノーマルタイプとほぼ変わらない。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Land Tenaga&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. A Tenaga for&n()land battles. Its fighting power&n()is about the same as the normal&n()type.",
    "slots": [
     276
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0280",
@@ -1262,22 +1358,24 @@
   {
    "id": "gd.0281",
    "jp": "天ちゃん",
-   "en": "",
+   "en": "Ten-chan",
    "slots": [
     281
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0282",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()天ちゃん&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()てんちゃん&d()&c(2)&n()&g(14,24)&f(14,10)天城美由紀の守護獣で属性は天。シッポが海老の天ぷらに似ているところから命名された。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Ten-chan&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Miyuki Amagi's Guardian, element&n()Sky. Named for its tail, which&n()looks like shrimp tempura.",
    "slots": [
     282
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0288",
@@ -1291,21 +1389,23 @@
   {
    "id": "gd.0289",
    "jp": "天龍",
-   "en": "",
+   "en": "Sky Dragon",
    "slots": [
     289
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0290",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()天龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()てんりゅう&d()&c(2)&n()&g(14,24)&f(14,10)天城美由紀の守護獣・天ちゃんの覚醒後の形態。属性は天。　“龍”の名に相応しい外観に成長した。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Sky Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Ten-chan's awakened form:&n()Miyuki Amagi's Guardian. Element:&n()Sky. It has grown a look worthy&n()of the name \"dragon.\"",
    "slots": [
     290
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0296",
@@ -1319,22 +1419,24 @@
   {
    "id": "gd.0297",
    "jp": "ドーガー",
-   "en": "",
+   "en": "Doga",
    "slots": [
     297
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "gd.0298",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ドーガー&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()どーがー&d()&c(2)&n()&g(14,24)&f(14,10)一の宮鈴音の守護獣。属性は聖。マスターとは反対に物静かな性格の男性型守護獣。ガーラーとコンビで戦う。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Doga&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Suzune Ichinomiya's Guardian.&n()Element: Holy. Unlike his Master,&n()a quiet male Guardian. Fights as&n()a team with Gara.",
    "slots": [
     298
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0304",
@@ -1348,21 +1450,23 @@
   {
    "id": "gd.0305",
    "jp": "ドナルド",
-   "en": "",
+   "en": "Donald",
    "slots": [
     305
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0306",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ドナルド&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()どなるど&d()&c(2)&n()&g(14,24)&f(14,10)鏡涼子の守護獣。属性は天。普段は人形程度の大きさしかないが、変身の特殊能力で相手を幻惑する。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Donald&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Ryoko Kagami's Guardian.&n()Element: Sky. Usually only&n()doll-sized, but it bewilders foes&n()with its special power:&n()transformation.",
    "slots": [
     306
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0312",
@@ -1376,21 +1480,23 @@
   {
    "id": "gd.0313",
    "jp": "凪",
-   "en": "",
+   "en": "Nagi",
    "slots": [
     313
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0314",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()凪&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()なぎ&d()&c(2)&n()&g(14,24)&f(14,10)飛知和景子の守護獣。属性は飛。高速で空を飛ぶことができる。マスターの性格のためか、あまり戦闘向きでは無いようだ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Nagi&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Keiko Hichiwa's Guardian.&n()Element: Wind. It can fly at high&n()speed. Maybe due to its&n()Master's nature, it isn't much of&n()a fighter.",
    "slots": [
     314
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0320",
@@ -1404,22 +1510,24 @@
   {
    "id": "gd.0321",
    "jp": "ぬえ",
-   "en": "",
+   "en": "Nue",
    "slots": [
     321
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0322",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ぬえ&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ぬえ&d()&c(2)&n()&g(14,24)&f(14,10)四門将４体の守護獣が合体したすさまじい破壊力を持つ化物。その属性は身体の部位により四門将４種類の属性に分かれる。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Nue&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)A monster of terrible&n()destructive power, formed from&n()the Four Gate Generals' four&n()Guardians. Each body part has&n()one of their four elements.",
    "slots": [
     322
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0328",
@@ -1433,21 +1541,23 @@
   {
    "id": "gd.0329",
    "jp": "ノルト",
-   "en": "",
+   "en": "Nord",
    "slots": [
     329
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0330",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ノルト&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()のると&d()&c(2)&n()&g(14,24)&f(14,10)聖ゆかりの守護獣。属性は聖。天使を思わせるその容姿にたがわず治癒能力に優れる。戦闘力はやや低い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Nord&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Yukari Hijiri's Guardian. Element:&n()Holy. True to its angelic looks, it&n()excels at healing. Its fighting&n()power is a bit low.",
    "slots": [
     330
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0336",
@@ -1461,41 +1571,45 @@
   {
    "id": "gd.0337",
    "jp": "爆竜",
-   "en": "",
+   "en": "Bomb Drake",
    "slots": [
     337
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0338",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()爆竜&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ばくりゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。荏狗覇菟攻撃部隊の隊長クラスが召喚する守護獣。防御力、耐久力にぬきんでている上、巨体による突進も強力。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Bomb Drake&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. A Guardian&n()summoned by Egubado strike&n()force captains. Superb defense&n()and toughness, and a mighty&n()charge with its huge body.",
    "slots": [
     338
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0339",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()軽機動爆竜&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()けいきどうばくりゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。爆竜に若干のスピードアップを施したもの。その代わりに防御力と耐久力がやや低下している。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Light Bomb Drake&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. A Bomb Drake&n()made a little faster, at the cost&n()of some defense and toughness.",
    "slots": [
     339
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0340",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()強襲型爆竜&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()きょうしゅうがたばくりゅう&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。戦闘力強化の爆竜。強くてかたくて遅いと、三拍子そろった守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Assault Drake&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. A Bomb Drake&n()built for combat. Strong, hard&n()and slow: a Guardian with the&n()full set.",
    "slots": [
     340
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0344",
@@ -1509,41 +1623,45 @@
   {
    "id": "gd.0345",
    "jp": "翔妖",
-   "en": "",
+   "en": "Wing Wraith",
    "slots": [
     345
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0346",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()翔妖&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()はねあやかし&d()&c(2)&n()&g(14,24)&f(14,10)属性は飛。荏狗覇菟空戦部隊の隊長クラスが召喚することが多い。数少ない飛行型の守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Wing Wraith&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Wind. Often summoned&n()by Egubado air force captains.&n()One of the few flying Guardians.",
    "slots": [
     346
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0347",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()翔妖・紫翼種&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()はねあやかし・しよくしゅ&d()&c(2)&n()&g(14,24)&f(14,10)属性は飛。ノーマルな翔妖よりややタフな身体を持つ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Violet Wraith&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Wind. A slightly tougher&n()body than the normal Wing&n()Wraith.",
    "slots": [
     347
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0348",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()翔妖・緑翼種&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()はねあやかし・りょくよくしゅ&d()&c(2)&n()&g(14,24)&f(14,10)属性は飛。投射戦闘力を強化したタイプの翔妖。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Green Wraith&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Wind. A Wing Wraith&n()with stronger ranged combat.",
    "slots": [
     348
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0352",
@@ -1557,21 +1675,23 @@
   {
    "id": "gd.0353",
    "jp": "白虎",
-   "en": "",
+   "en": "Byakko",
    "slots": [
     353
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0354",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()白虎&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()びゃっこ&d()&c(2)&n()&g(14,24)&f(14,10)西苑寺麗子の守護獣。属性は雷。素早い動きと高い攻撃力をかね備える強力な守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Byakko&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Reiko Saionji's Guardian.&n()Element: Thunder. A mighty&n()Guardian with both quick moves&n()and high attack power.",
    "slots": [
     354
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0360",
@@ -1585,21 +1705,23 @@
   {
    "id": "gd.0361",
    "jp": "飛龍",
-   "en": "",
+   "en": "Wind Dragon",
    "slots": [
     361
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0362",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()飛龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ひりゅう&d()&c(2)&n()&g(14,24)&f(14,10)飛知和景子の守護獣・凪の覚醒後の形態。属性は飛。腕が生えたことで、戦闘的なフォルムとなった。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Wind Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Nagi's awakened form: Keiko&n()Hichiwa's Guardian. Element:&n()Wind. Now that it has grown&n()arms, its form is built for battle.",
    "slots": [
     362
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0368",
@@ -1613,21 +1735,23 @@
   {
    "id": "gd.0369",
    "jp": "不動",
-   "en": "",
+   "en": "Fudo",
    "slots": [
     369
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0370",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()不動&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ふどう&d()&c(2)&n()&g(14,24)&f(14,10)小泊かおるの守護獣。属性は飛。口数の多い守護獣その２。サーフボード代わりの刀で空を翔ける。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Fudo&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Kaoru Kodomari's Guardian.&n()Element: Wind. Chatty Guardian&n()No. 2. It soars through the sky&n()on its sword like a surfboard.",
    "slots": [
     370
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0376",
@@ -1641,21 +1765,23 @@
   {
    "id": "gd.0377",
    "jp": "ポチ",
-   "en": "",
+   "en": "Pochi",
    "slots": [
     377
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0378",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()ポチ&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ぽち&d()&c(2)&n()&g(14,24)&f(14,10)大地裕子の守護獣。属性は地。外見通りの高い攻撃力、防御力を誇る。やや素早さに難があるのが欠点。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Pochi&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Yuko Daichi's Guardian. Element:&n()Earth. High attack and defense,&n()just as it looks. Its flaw: it's a&n()little slow.",
    "slots": [
     378
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0384",
@@ -1669,41 +1795,45 @@
   {
    "id": "gd.0385",
    "jp": "百足蛇",
-   "en": "",
+   "en": "Centipede",
    "slots": [
     385
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0386",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()海百足蛇&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()うみむかでへび&d()&c(2)&n()&g(14,24)&f(14,10)属性は海。荏狗覇菟海戦部隊の守護獣。素早さに優れ、思わぬ距離から接近してくる。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Sea Centipede&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sea. A Guardian of the&n()Egubado navy. Very fast, it&n()closes in from surprising&n()distances.",
    "slots": [
     386
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0387",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()飛式百足蛇&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ひしきむかでへび&d()&c(2)&n()&g(14,24)&f(14,10)属性は飛。海百足蛇の属性違いタイプ。属性以外はほぼ同能力。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Flying Centipede&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Wind. A Sea Centipede&n()of another element. Apart from&n()that, its abilities are about the&n()same.",
    "slots": [
     387
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0388",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()土百足蛇&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()つちむかでへび&d()&c(2)&n()&g(14,24)&f(14,10)属性は地。海百足蛇の属性違いタイプ。属性以外はほぼ同能力。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Earth Centipede&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Earth. A Sea Centipede&n()of another element. Apart from&n()that, its abilities are about the&n()same.",
    "slots": [
     388
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0392",
@@ -1717,22 +1847,24 @@
   {
    "id": "gd.0393",
    "jp": "メール",
-   "en": "",
+   "en": "Mer",
    "slots": [
     393
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "gd.0394",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()メール&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()めーる&d()&c(2)&n()&g(14,24)&f(14,10)海原美里の守護獣。属性は海。いわゆる人魚形態で下半身が魚のようになってる。そのため、陸上ではやや動きがにぶい。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Mer&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Misato Kaibara's Guardian.&n()Element: Sea. A mermaid form:&n()its lower half is like a fish's, so&n()it is a bit sluggish on land.",
    "slots": [
     394
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0400",
@@ -1746,41 +1878,45 @@
   {
    "id": "gd.0401",
    "jp": "弓男",
-   "en": "",
+   "en": "Bowman",
    "slots": [
     401
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0402",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()弓男&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ゆみお&d()&c(2)&n()&g(14,24)&f(14,10)属性は聖。見ての通りの投射戦用守護獣。さらに治癒要員でもある。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Bowman&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Holy. A ranged-combat&n()Guardian, as you can see. It is&n()also a healer.",
    "slots": [
     402
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0403",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()弓男・狙撃手&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ゆみお・そげきしゅ&d()&c(2)&n()&g(14,24)&f(14,10)属性は聖。ノーマルの弓男より限界射程が長い。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Sniper Bowman&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Holy. Longer maximum&n()range than the normal Bowman.",
    "slots": [
     403
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0404",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()弓男・雷撃手&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()ゆみお・らいげきしゅ&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。弓男の投射戦専用タイプ。治癒能力を削り、攻撃力をアップさせた。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Volt Bowman&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. A Bowman&n()purely for ranged combat:&n()healing cut, attack power&n()raised.",
    "slots": [
     404
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0408",
@@ -1794,21 +1930,23 @@
   {
    "id": "gd.0409",
    "jp": "雷龍",
-   "en": "",
+   "en": "Thunder Dragon",
    "slots": [
     409
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0410",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()雷龍&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()らいりゅう&d()&c(2)&n()&g(14,24)&f(14,10)雷晶の守護獣・ザビたんの覚醒後の形態。属性は雷。以前の面影をまったく残さぬ完全な龍形態となった。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Thunder Dragon&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Zabi-tan's awakened form: Akira&n()Ikazuchi's Guardian. Element:&n()Thunder. Not a trace of its old&n()self: a perfect dragon form.",
    "slots": [
     410
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0416",
@@ -1822,41 +1960,45 @@
   {
    "id": "gd.0417",
    "jp": "陸鮫",
-   "en": "",
+   "en": "Landshark",
    "slots": [
     417
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0418",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()水式陸鮫&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()すいしきりくざめ&d()&c(2)&n()&g(14,24)&f(14,10)属性は海。水式化石竜と並ぶ荏狗覇菟海戦部隊の守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Aqua Landshark&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sea. A Guardian of the&n()Egubado navy, like the Aqua&n()Fossil.",
    "slots": [
     418
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0419",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()雷式陸鮫&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()らいしきりくざめ&d()&c(2)&n()&g(14,24)&f(14,10)属性は雷。荏狗覇菟攻撃部隊の守護獣。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Volt Landshark&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Thunder. A Guardian of&n()the Egubado strike force.",
    "slots": [
     419
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0420",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()炎式陸鮫&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()えんしきりくざめ&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。水式、雷式より若干タフな陸鮫。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Flame Landshark&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A Landshark a&n()bit tougher than the Aqua and&n()Volt types.",
    "slots": [
     420
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0424",
@@ -1870,21 +2012,23 @@
   {
    "id": "gd.0425",
    "jp": "龍鬼",
-   "en": "",
+   "en": "Ryuki",
    "slots": [
     425
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0426",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()龍鬼&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()りゅうき&d()&c(2)&n()&g(14,24)&f(14,10)龍鬼妃の守護獣。属性は皇。全ての能力がほぼ最高の最強守護獣。対抗できるのは七龍だけである。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Ryuki&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Ryukihi's Guardian. Element:&n()Emperor. The strongest&n()Guardian, nearly maxed in every&n()ability. Only the Seven Dragons&n()can stand against it.",
    "slots": [
     426
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0432",
@@ -1898,41 +2042,45 @@
   {
    "id": "gd.0433",
    "jp": "龍殺鬼",
-   "en": "",
+   "en": "Dragonbane",
    "slots": [
     433
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "gd.0434",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()龍殺鬼&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()りゅうさつき&d()&c(2)&n()&g(14,24)&f(14,10)属性は天。龍鬼妃親衛隊の守護獣。その名の通り、七龍を抹殺することを任務とする。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Dragonbane&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sky. A Guardian of&n()Ryukihi's Royal Guard. As its&n()name says, its mission is to&n()destroy the Seven Dragons.",
    "slots": [
     434
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0435",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()龍殺鬼・改&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()りゅうさつき・かい&d()&c(2)&n()&g(14,24)&f(14,10)属性は天。龍殺鬼の強化タイプ。その実力は四門将守護獣にも並ぶと言われる。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Dragonbane+&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sky. A stronger&n()Dragonbane, said to match even&n()the Four Gate Generals'&n()Guardians.",
    "slots": [
     435
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "gd.0436",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()龍殺鬼・死鬼&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()りゅうさつき・しき&d()&c(2)&n()&g(14,24)&f(14,10)属性は天。七龍抹殺を目的とし、いかなる守護獣といえども一撃でしとめる力を持つ。",
-   "en": "",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Deathbane&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Sky. Made to destroy&n()the Seven Dragons: it can finish&n()off any Guardian in one blow.",
    "slots": [
     436
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   }
  ]
 }

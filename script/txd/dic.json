@@ -91,7 +91,7 @@
   {
    "id": "dic.0012",
    "jp": "猪苗代レイクホテル",
-   "en": "Inawashiro Lake&n()Hotel",
+   "en": "Inawashiro Lake Hotel",
    "slots": [
     12
    ],
@@ -388,7 +388,7 @@
   {
    "id": "dic.0054",
    "jp": "合体守護獣ぬえ",
-   "en": "Combined Guardian&n()Nue",
+   "en": "Combined Guardian Nue",
    "slots": [
     54
    ],
@@ -431,7 +431,7 @@
   {
    "id": "dic.0060",
    "jp": "ガリガリ鳥ガラ",
-   "en": "Scrawny Chicken&n()Bones",
+   "en": "Scrawny Chicken Bones",
    "slots": [
     60
    ],
@@ -918,7 +918,7 @@
   {
    "id": "dic.0129",
    "jp": "新宿中央公園",
-   "en": "Shinjuku Central&n()Park",
+   "en": "Shinjuku Central Park",
    "slots": [
     129
    ],
@@ -949,876 +949,967 @@
   {
    "id": "dic.0133",
    "jp": "朱雀&n()&n()すざく　&c(2)四聖獣&c(0)の&n()１つで南を守護す&n()る役目を持つ。本&n()編では&c(2)四門将&c(0)の１&n()人、&c(1)南城知美&c(0)とそ&n()の&c(2)守護獣&c(0)がこの名&n()で呼ばれている。&n()",
-   "en": "",
+   "en": "Suzaku&n()&n()One of the &c(2)Four&n()Holy Beasts&c(0),&n()guardian of the&n()south. Here, the&n()name of &c(1)Tomomi&n()Nanjo&c(0) of the &c(2)Four&n()Gate Generals&c(0) and&n()her &c(2)Guardian&c(0).",
    "slots": [
     133
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0135",
    "jp": "ストーンサークル",
-   "en": "",
+   "en": "Stone Circle",
    "slots": [
     135
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "dic.0136",
    "jp": "ストーンサークル&n()&n()すとーんさーくる&n()　ＵＦＯの発着基&n()地とか古代人の儀&n()式の場とか言われ&n()る謎の遺跡。本編&n()では秋田県の大湯&n()環状列石が登場、&n()&c(2)荏狗覇菟&c(0)の中継基&n()地になっていた。&n()",
-   "en": "",
+   "en": "Stone Circle&n()&n()Mystery ruins said&n()to be a UFO base or&n()an ancient ritual&n()site. The story&n()features Akita's Oyu&n()Stone Circles, an &c(2)&n()Egubado&c(0) relay base.",
    "slots": [
     136
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0138",
    "jp": "須菩提",
-   "en": "",
+   "en": "Subodai",
    "slots": [
     138
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0139",
    "jp": "須菩提&n()&n()すぼだい　&c(2)阿那律&c(0)&n()の部下。&c(2)守護獣&c(0)は&n()&c(4)天尊・亜成獣&c(0)。&c(2)大&n()雪山&c(0)で&c(1)裕子&c(0)たちに&n()捕まり&c(1)巴澄&c(0)の連行&n()先をバラしてしま&n()う。&c(2)青函トンネル&c(0)&n()で再登場するもや&n()っぱり頼りない。&n()",
-   "en": "",
+   "en": "Subodai&n()&n()&c(2)Anaritsu&c(0)'s man. &c(2)&n()Guardian&c(0): &c(4)Amazon&n()Youth&c(0). Caught by &c(1)&n()Yuko&c(0) and co. on &c(2)Mt.&n()Taisetsu&c(0), he blabbed&n()where &c(1)Hasumi&c(0) was&n()taken. Back in the &c(2)&n()Seikan Tunnel&c(0), still&n()useless.",
    "slots": [
     139
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0141",
    "jp": "青函トンネル",
-   "en": "",
+   "en": "Seikan Tunnel",
    "slots": [
     141
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0142",
    "jp": "青函トンネル&n()&n()せいかんとんねる&n()　津軽海峡の海底&n()を通って、本州と&n()北海道を結ぶトン&n()ネル。全長５３８&n()５０ｍ。本編では&n()&c(2)列島大地震&c(0)の影響&n()により運行されて&n()いない。&n()",
-   "en": "",
+   "en": "Seikan Tunnel&n()&n()A tunnel under the&n()Tsugaru Strait&n()linking Honshu and&n()Hokkaido, 53,850 m&n()long. Here it is out&n()of service after the &c(2)&n()Great Archipelago&n()Earthquake&c(0).",
    "slots": [
     142
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0144",
    "jp": "制御ピアス",
-   "en": "",
+   "en": "Control Piercing",
    "slots": [
     144
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0145",
    "jp": "制御ピアス&n()&n()せいぎょぴあす　&n()&c(2)荏狗覇菟&c(0)が開発し&n()た洗脳道具。これ&n()により一般人でも&n()命令に忠実な戦闘&n()員になり、さらに&n()&c(2)守護獣&c(0)の&c(2)召喚&c(0)能力&n()も得ることができ&n()る。&n()",
-   "en": "",
+   "en": "Control Piercing&n()&n()A brainwashing tool&n()made by &c(2)Egubado&c(0). It&n()turns ordinary&n()people into loyal&n()soldiers and even&n()lets them &c(2)summon&c(0) &c(2)&n()Guardians&c(0).",
    "slots": [
     145
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0147",
    "jp": "青龍",
-   "en": "",
+   "en": "Seiryu",
    "slots": [
     147
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0148",
    "jp": "青龍&n()&n()せいりゅう　&c(2)四聖&n()獣&c(0)の１つで東を守&n()護する役目を持つ&n()神。本編では&c(2)四門&n()将&c(0)の１人、&c(1)東聡美&c(0)&n()とその&c(2)守護獣&c(0)がこ&n()の名で呼ばれてい&n()る。&n()",
-   "en": "",
+   "en": "Seiryu&n()&n()One of the &c(2)Four&n()Holy Beasts&c(0), the god&n()guarding the east.&n()Here, the name of &c(1)&n()Satomi Azuma&c(0) of&n()the &c(2)Four Gate&n()Generals&c(0) and her &c(2)&n()Guardian&c(0).",
    "slots": [
     148
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0150",
    "jp": "接触テレパス",
-   "en": "",
+   "en": "Touch Telepath",
    "slots": [
     150
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0151",
    "jp": "接触テレパス&n()&n()せっしょくてれぱ&n()す　相手に触れる&n()だけで、その人の&n()思考を読むことの&n()できる超能力の持&n()ち主のこと。&c(1)景子&n()&c(0)はこの能力のため&n()他人から疎んじら&n()れて育った。&n()",
-   "en": "",
+   "en": "Touch Telepath&n()&n()A psychic who can&n()read people's&n()thoughts just by&n()touching them.&n()Because of this&n()power, &c(1)Keiko&c(0) grew&n()up shunned by&n()others.",
    "slots": [
     151
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0153",
    "jp": "瀬戸大橋",
-   "en": "",
+   "en": "Seto Ohashi Bridge",
    "slots": [
     153
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0154",
    "jp": "瀬戸大橋&n()&n()せとおおはし　１&n()９８８年に完成し&n()た本州・四国間を&n()結ぶかけ橋。全長&n()９３６７ｍある。&n()四国から本州へ渡&n()ろうとした&c(1)美由紀&c(0)&n()たちが襲撃を受け&n()た。&n()",
-   "en": "",
+   "en": "Seto Ohashi Bridge&n()&n()The bridge between&n()Honshu and Shikoku,&n()opened in 1988;&n()9,367 m long. &c(1)Miyuki&c(0)&n()and co. were&n()attacked here&n()crossing over to&n()Honshu.",
    "slots": [
     154
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0156",
    "jp": "１９９９年",
-   "en": "",
+   "en": "1999",
    "slots": [
     156
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0157",
    "jp": "１９９９年&n()&n()１９９９ねん　二&n()十世紀最後の年。&n()・・・は２０００&n()年。正確には１年&n()前。いろんな作品&n()でいろんなことが&n()起きる予定の年。&n()本作品では&c(2)列島大&n()地震&c(0)が発生した。&n()",
-   "en": "",
+   "en": "1999&n()&n()The last year of the&n()20th century. ...No,&n()that's 2000; this is&n()the year before.&n()The year all kinds of&n()stories set things in.&n()Here, the &c(2)Great&n()Archipelago&n()Earthquake&c(0) struck.",
    "slots": [
     157
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0159",
    "jp": "浅草寺",
-   "en": "",
+   "en": "Sensoji",
    "slots": [
     159
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0160",
    "jp": "浅草寺&n()&n()せんそうじ　東京&n()都台東区浅草にあ&n()る聖観音宗の寺。&n()創建は七世紀にさ&n()かのぼるが、何度&n()となく焼失と再建&n()を繰り返している&n()お寺。雷門がある&n()ことで有名。&n()",
-   "en": "",
+   "en": "Sensoji&n()&n()A Sho-Kannon&n()temple in Asakusa,&n()Tokyo. Founded in&n()the 7th century, it&n()has burned down&n()and been rebuilt&n()time and again.&n()Famous for its&n()Kaminarimon gate.",
    "slots": [
     160
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0162",
    "jp": "送還",
-   "en": "",
+   "en": "Dismiss",
    "slots": [
     162
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0163",
    "jp": "送還&n()&n()そうかん　&c(2)守護獣&c(0)&n()を自分の精神世界&n()へ戻す行為。普通&n()は精神的疲労を防&n()ぐために行うのだ&n()が、&c(2)荏狗覇菟&c(0)兵は&n()&c(2)制御ピアス&c(0)により&n()その必要がない。&n()ズルいね。&n()",
-   "en": "",
+   "en": "Dismiss&n()&n()Sending a &c(2)Guardian&c(0)&n()back into your own&n()mind, usually to&n()avoid mental&n()fatigue. &c(2)Egubado&c(0)&n()soldiers needn't,&n()thanks to their &c(2)&n()control piercings&c(0). No&n()fair.",
    "slots": [
     163
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0165",
    "jp": "属性",
-   "en": "",
+   "en": "Element",
    "slots": [
     165
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0166",
    "jp": "属性&n()&n()ぞくせい　&c(2)召喚&c(0)者&n()の血筋・性格など&n()により決められる&n()&c(2)守護獣&c(0)の根本的性&n()質。天地炎聖海雷&n()飛の７つが基本だ&n()が、まれにしか出&n()現しない属性（冥&n()など）もある。&n()",
-   "en": "",
+   "en": "Element&n()&n()A &c(2)Guardian&c(0)'s basic&n()nature, set by its &c(2)&n()summoner&c(0)'s blood&n()and temper. The&n()basic 7: Sky, Earth,&n()Flame, Holy, Sea,&n()Thunder, Wind. Rare&n()ones (Nether...)&n()exist.",
    "slots": [
     166
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0168",
    "jp": "大雪山",
-   "en": "",
+   "en": "Mt. Taisetsu",
    "slots": [
     168
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0169",
    "jp": "大雪山&n()&n()たいせつざん　北&n()海道の中央高地の&n()北端に位置する火&n()山群。海抜２００&n()０ｍ前後の山が２&n()０近く集まってい&n()る。&c(4)聖龍&c(0)の眠る地&n()である。&n()",
-   "en": "",
+   "en": "Mt. Taisetsu&n()&n()Volcanoes at the&n()north end of&n()Hokkaido's central&n()highlands: nearly 20&n()peaks of about&n()2,000 m. Resting&n()place of the &c(4)Holy&n()Dragon&c(0).",
    "slots": [
     169
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0171",
    "jp": "ダムダム作戦",
-   "en": "",
+   "en": "Operation Dam-Dam",
    "slots": [
     171
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0172",
    "jp": "ダムダム作戦&n()&n()だむだむさくせん&n()　ダムを爆破し水&n()攻めという&c(1)鏡涼子&n()&c(0)立案のはた迷惑な&n()作戦。作戦と言う&n()ほどのものかとい&n()う気もするが、失&n()敗に終わって良か&n()った良かった。&n()",
-   "en": "",
+   "en": "Operation Dam-Dam&n()&n()&c(1)Ryoko Kagami&c(0)'s&n()nuisance of a plan:&n()blow up a dam and&n()flood the enemy.&n()Hardly an&n()\"operation,\" but&n()thank goodness it&n()failed.",
    "slots": [
     172
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0174",
    "jp": "チビ",
-   "en": "",
+   "en": "Shorty",
    "slots": [
     174
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0175",
    "jp": "チビ&n()&n()ちび　&c(1)鏡涼子&c(0)のこ&n()と。&c(2)荏狗覇菟&c(0)本部&n()内データを見ると&n()身長１６３センチ&n()とあるが、これは&n()&c(1)涼子&c(0)がいじったも&n()のだったりする。&n()本当は１４・・・&n()ぐはぁっ。&n()",
-   "en": "",
+   "en": "Shorty&n()&n()&c(1)Ryoko Kagami&c(0). &c(2)&n()Egubado&c(0) HQ files list&n()her at 163 cm, but &c(1)&n()Ryoko&c(0) doctored&n()that. She's really&n()14... GAHH!",
    "slots": [
     175
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0177",
    "jp": "超力",
-   "en": "",
+   "en": "Psi",
    "slots": [
     177
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0178",
    "jp": "超力&n()&n()ちょうりょく　&c(2)召&n()喚&c(0)をすることで&c(2)守&n()護獣&c(0)相手に効果の&n()出る限定的な超能&n()力が備わる。これ&n()を超力という。間&n()違っても超古代文&n()明の力のことでは&n()ない。&n()",
-   "en": "",
+   "en": "Psi&n()&n()Limited psychic&n()powers that act on &c(2)&n()Guardians&c(0), gained&n()by &c(2)summoning&c(0) one.&n()And no, nothing to&n()do with&n()super-ancient&n()civilizations.",
    "slots": [
     178
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0180",
    "jp": "転移装置",
-   "en": "",
+   "en": "Teleporter",
    "slots": [
     180
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0181",
    "jp": "転移装置&n()&n()てんいそうち　瞬&n()時にある物体を遠&n()く離れた別空間へ&n()運ぶ装置のこと。&n()知識のない者が適&n()当にいじったりし&n()てはいけない。&n()",
-   "en": "",
+   "en": "Teleporter&n()&n()A device that&n()instantly sends an&n()object to a&n()separate, faraway&n()space. Don't fiddle&n()with it if you don't&n()know what you're&n()doing.",
    "slots": [
     181
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0183",
    "jp": "天神高校",
-   "en": "",
+   "en": "Tenjin High",
    "slots": [
     183
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0184",
    "jp": "天神高校&n()&n()てんじんこうこう&n()　九州福岡県にあ&n()る私立高校。&c(1)美由&n()紀&c(0)と&c(1)真由&c(0)はここの&n()３年生である。特&n()に制服の規定は無&n()いらしい。&n()",
-   "en": "",
+   "en": "Tenjin High&n()&n()A private high&n()school in Fukuoka,&n()Kyushu. &c(1)Miyuki&c(0) and &c(1)&n()Mayu&c(0) are&n()third-years here.&n()There seems to be&n()no school uniform.",
    "slots": [
     184
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0186",
    "jp": "東京第二国際空港",
-   "en": "",
+   "en": "Tokyo Second International Airport",
    "slots": [
     186
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0187",
    "jp": "東京第二国際空港&n()&n()とうきょうだいに&n()こくさいくうこう&n()　東京湾に新たに&n()開かれた空港・・&n()のハズだが、本編&n()では&c(2)列島大地震&c(0)で&n()使いものにならな&n()くなってしまって&n()いる。&n()",
-   "en": "",
+   "en": "Tokyo Second&n()International&n()Airport&n()&n()A new airport on&n()Tokyo Bay... or so it&n()should be, but here&n()the &c(2)Great&n()Archipelago&n()Earthquake&c(0) left it&n()useless.",
    "slots": [
     187
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0189",
    "jp": "東京タワー",
-   "en": "",
+   "en": "Tokyo Tower",
    "slots": [
     189
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "dic.0190",
    "jp": "東京タワー&n()&n()とうきょうたわー&n()　１９５８年に建&n()てられた地上３３&n()３ｍの高さを持つ&n()鉄塔。２５０ｍの&n()高さに特別展望台&n()１５０ｍの高さに&n()大展望台がある。&n()",
-   "en": "",
+   "en": "Tokyo Tower&n()&n()A 333-meter steel&n()tower built in 1958,&n()with a Main&n()Observatory at 150&n()meters and a&n()Special Observatory&n()at 250.",
    "slots": [
     190
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0192",
    "jp": "東京湾",
-   "en": "",
+   "en": "Tokyo Bay",
    "slots": [
     192
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0193",
    "jp": "東京湾&n()&n()とうきょうわん　&n()言わずと知れた関&n()東南部の半島に囲&n()まれた水域。&c(2)荏狗&n()覇菟&c(0)は&c(2)列島大地震&c(0)&n()後、この海上に&c(2)妃&n()龍鬼殿&c(0)を完成させ&n()た。&n()",
-   "en": "",
+   "en": "Tokyo Bay&n()&n()The famous bay&n()ringed by peninsulas&n()in southern Kanto.&n()After the &c(2)Great&n()Archipelago&n()Earthquake&c(0), &c(2)&n()Egubado&c(0) built &c(2)&n()Hiryuki Palace&c(0) on it.",
    "slots": [
     193
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0195",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "slots": [
     195
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0196",
    "jp": "闘士&n()&n()とうし　&c(2)荏狗覇菟&c(0)&n()の兵士の呼称。元&n()は一般人だが、&c(2)制&n()御ピアス&c(0)で洗脳さ&n()れ、上司の命令に&n()絶対服従な部下と&n()なっている。が、&n()中には例外もいる&n()ようだ。&n()",
-   "en": "",
+   "en": "Warrior&n()&n()&c(2)Egubado&c(0)'s name for&n()its soldiers. Once&n()ordinary people,&n()brainwashed by &c(2)&n()control piercings&c(0)&n()into utterly&n()obedient troops. A&n()few seem to be&n()exceptions.",
    "slots": [
     196
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0198",
    "jp": "トンダーエッグ",
-   "en": "",
+   "en": "Tonder Egg",
    "slots": [
     198
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "dic.0199",
    "jp": "トンダーエッグ&n()&n()とんだーえっぐ　&n()東京都世田谷区に&n()ある（らしい）一&n()大都市型テーマパ&n()ーク（なのだろう&n()多分）。本編では&n()&c(2)列島大地震&c(0)で、訪&n()れる者もない廃墟&n()と化している。&n()",
-   "en": "",
+   "en": "Tonder Egg&n()&n()A big-city theme&n()park (probably) in&n()Setagaya, Tokyo&n()(supposedly). Here,&n()the &c(2)Great&n()Archipelago&n()Earthquake&c(0) left it a&n()ruin nobody visits.",
    "slots": [
     199
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0201",
    "jp": "名古屋地下街",
-   "en": "",
+   "en": "Nagoya Underground",
    "slots": [
     201
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0202",
    "jp": "名古屋地下街&n()&n()なごやちかがい　&n()名古屋のいわゆる&n()“もう一つの街”&n()規模が大きく入り&n()組んだ構成になっ&n()ており、地元の人&n()でも迷ってしまう&n()こともある迷路。&n()",
-   "en": "",
+   "en": "Nagoya&n()Underground&n()&n()Nagoya's \"other&n()city\": a huge&n()underground mall so&n()tangled that even&n()locals get lost in the&n()maze.",
    "slots": [
     202
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0204",
    "jp": "二条城",
-   "en": "",
+   "en": "Nijo Castle",
    "slots": [
     204
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0205",
    "jp": "二条城&n()&n()にじょうじょう　&n()京都市中京区にあ&n()る城。江戸時代に&n()将軍の儀式用、宿&n()館用として利用さ&n()れた。&n()",
-   "en": "",
+   "en": "Nijo Castle&n()&n()A castle in Nakagyo,&n()Kyoto. In the Edo&n()period, the shogun&n()used it for&n()ceremonies and as&n()lodgings.",
    "slots": [
     205
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0207",
    "jp": "日光東照宮",
-   "en": "",
+   "en": "Nikko Toshogu",
    "slots": [
     207
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0208",
    "jp": "日光東照宮&n()&n()にっこうとうしょ&n()うぐう　修学旅行&n()先として京都と並&n()ぶくらい有名な栃&n()木県日光市にある&n()神社。&n()",
-   "en": "",
+   "en": "Nikko Toshogu&n()&n()A shrine in Nikko,&n()Tochigi, about as&n()famous a&n()school-trip spot as&n()Kyoto.",
    "slots": [
     208
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0210",
    "jp": "脳みそサルで顔はブタ",
-   "en": "",
+   "en": "Monkey Brain, Pig Face",
    "slots": [
     210
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0211",
    "jp": "脳みそサルで&n()　　　　顔はブタ&n()&n()のうみそさるでか&n()おはぶた　&c(1)美由紀&c(0)&n()がいじけて言った&n()セリフ。別にそこ&n()まで言っちゃいな&n()いが・・・と思わ&n()ずフォローしてあ&n()げたくなる。&n()",
-   "en": "",
+   "en": "Monkey Brain, Pig&n()Face&n()&n()What &c(1)Miyuki&c(0) said&n()while sulking. Nobody&n()said anything THAT&n()bad... It makes you&n()want to cheer her&n()up.",
    "slots": [
     211
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0213",
    "jp": "はにわ園",
-   "en": "",
+   "en": "Haniwa Garden",
    "slots": [
     213
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0214",
    "jp": "はにわ園&n()&n()はにわえん　宮崎&n()県宮崎市平和台公&n()園の一部。園内に&n()は数百にもおよぶ&n()はにわが置かれて&n()いる。&n()",
-   "en": "",
+   "en": "Haniwa Garden&n()&n()Part of Heiwadai&n()Park in Miyazaki&n()City. Hundreds of&n()haniwa clay figures&n()stand in the garden.",
    "slots": [
     214
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0216",
    "jp": "はにわの歌",
-   "en": "",
+   "en": "The Haniwa Song",
    "slots": [
     216
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0217",
    "jp": "はにわの歌&n()&n()はにわ、にわにわ&n()はにわ、にわ～　&n()（※繰り返し）　&n()&n()&c(1)美由紀&c(0)の歌パート&n()２。ボツったんで&n()本編では登場しま&n()せん。　　　　　&n()あしからず。&n()",
-   "en": "",
+   "en": "The Haniwa Song&n()&n()Haniwa, niwa-niwa,&n()haniwa, niwa~&n()(repeat)&n()&n()&c(1)Miyuki&c(0)'s song, part&n()2. It got cut, so it's&n()not in the game.&n()Sorry!",
    "slots": [
     217
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0219",
    "jp": "瞳",
-   "en": "",
+   "en": "Hitomi",
    "slots": [
     219
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0220",
    "jp": "瞳&n()&n()ひとみ　&c(1)仁瞳&c(0)の名&n()前。さすがの&c(1)美由&n()紀&c(0)も彼女のことは&n()“瞳ちゃん”とは&n()呼ばなかった。ち&n()なみに&c(1)巴澄&c(0)も名前&n()で呼ばれない人。&n()“直江”は苗字で&n()“巴澄”が名前。&n()",
-   "en": "",
+   "en": "Hitomi&n()&n()&c(1)Hitomi Jin&c(0)'s given&n()name. Even &c(1)Miyuki&c(0)&n()never called her&n()\"Hitomi-chan.\"&n()Nobody calls &c(1)Hasumi&c(0)&n()by hers either: Naoe&n()is her family name.",
    "slots": [
     220
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0222",
    "jp": "日比谷公園",
-   "en": "",
+   "en": "Hibiya Park",
    "slots": [
     222
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0223",
    "jp": "日比谷公園&n()&n()ひびやこうえん　&n()日本初の洋式公園&n()としてデビューし&n()た由緒ある公園。&n()ビジネス街の真ん&n()中にあり、都会の&n()オアシス的な存在&n()である。でも、本&n()編では廃墟。&n()",
-   "en": "",
+   "en": "Hibiya Park&n()&n()A historic park,&n()Japan's first in&n()Western style. An&n()urban oasis right in&n()the business&n()district. Here,&n()though, it's in ruins.",
    "slots": [
     223
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0225",
    "jp": "白虎",
-   "en": "",
+   "en": "Byakko",
    "slots": [
     225
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0226",
    "jp": "白虎&n()&n()びゃっこ　&c(2)四聖獣&c(0)&n()の１つで西を守護&n()する役目を持つ。&n()本編では&c(2)四門将&c(0)の&n()１人、&c(1)西苑寺麗子&c(0)&n()とその&c(2)守護獣&c(0)がこ&n()の名で呼ばれてい&n()る。&n()",
-   "en": "",
+   "en": "Byakko&n()&n()One of the &c(2)Four&n()Holy Beasts&c(0),&n()guardian of the&n()west. Here, the&n()name of &c(1)Reiko&n()Saionji&c(0) of the &c(2)Four&n()Gate Generals&c(0) and&n()her &c(2)Guardian&c(0).",
    "slots": [
     226
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0228",
    "jp": "妃龍鬼殿",
-   "en": "",
+   "en": "Hiryuki Palace",
    "slots": [
     228
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0229",
    "jp": "妃龍鬼殿&n()&n()ひりゅうきでん　&n()&c(1)龍鬼妃&c(0)の住む城。&n()&c(2)列島大地震&c(0)後、&c(2)荏&n()狗覇菟&c(0)が総力をあ&n()げて建立した城で&n()空を飛ぶこともで&n()きる。その本来の&n()目的はわずかな人&n()間しか知らない。&n()",
-   "en": "",
+   "en": "Hiryuki Palace&n()&n()&c(1)Ryukihi&c(0)'s flying&n()castle, built by all of &c(2)&n()Egubado&c(0) after the &c(2)&n()Great Archipelago&n()Earthquake&c(0). Only a&n()few know its true&n()purpose.",
    "slots": [
     229
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0231",
    "jp": "風水",
-   "en": "",
+   "en": "Feng Shui",
    "slots": [
     231
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0232",
    "jp": "風水&n()&n()ふうすい　道教思&n()想に基づいた地理&n()呪術のこと。近年&n()でも実用的な地理&n()学として注目を集&n()めている。普段は&n()家相を見るくらい&n()にしか使わないが&n()かなり奥が深い。&n()",
-   "en": "",
+   "en": "Feng Shui&n()&n()Geomancy based on&n()Taoist thought,&n()lately noticed as&n()practical geography.&n()Mostly used to read&n()a house's luck, but it&n()runs very deep.",
    "slots": [
     232
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0234",
    "jp": "フェリー",
-   "en": "",
+   "en": "Ferry",
    "slots": [
     234
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "dic.0235",
    "jp": "フェリー&n()&n()ふぇりー　瀬戸内&n()海を縦横無尽に走&n()り回る交通機関。&n()本編では&c(1)美由紀&c(0)た&n()ちが九州から四国&n()へ渡る際に利用し&n()た。その同じ船上&n()で&c(1)美里&c(0)と&c(1)景子&c(0)が出&n()会うことになる。&n()",
-   "en": "",
+   "en": "Ferry&n()&n()Boats that&n()crisscross the Seto&n()Inland Sea. &c(1)Miyuki&c(0)&n()and co. took one&n()from Kyushu to&n()Shikoku. On that&n()same ship, &c(1)Misato&c(0)&n()met &c(1)Keiko&c(0).",
    "slots": [
     235
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0237",
    "jp": "双子",
-   "en": "",
+   "en": "Twins",
    "slots": [
     237
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0238",
    "jp": "双子&n()&n()ふたご　&c(1)一の宮琴&n()音&c(0)・&c(1)鈴音&c(0)姉妹のこ&n()と。双子がお互い&n()に個性を持とうと&n()反発することは世&n()間一般でもよくあ&n()ることで、この２&n()人もかなり性格が&n()異なる。&n()",
-   "en": "",
+   "en": "Twins&n()&n()The sisters &c(1)Kotone&n()Ichinomiya&c(0) and &c(1)&n()Suzune&c(0). Twins often&n()push to be&n()different, and&n()these two have&n()very different&n()personalities.",
    "slots": [
     238
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0240",
    "jp": "富楼那",
-   "en": "",
+   "en": "Furuna",
    "slots": [
     240
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0241",
    "jp": "富楼那&n()&n()ふるな　&c(1)半澤由美&n()&c(0)直属の部下。&c(2)守護&n()獣&c(0)は&c(4)長・死人守&c(0)。&n()&c(1)由美&c(0)の留守中、&c(2)阿&n()蘇山&c(0)をまかされた&n()が&c(1)美由紀&c(0)たちの前&n()に敗北。宮崎で再&n()戦するも勝つこと&n()はできなかった。&n()",
-   "en": "",
+   "en": "Furuna&n()&n()&c(1)Yumi Hanzawa&c(0)'s&n()man. &c(2)Guardian&c(0): &c(4)&n()Grave Chief&c(0). Held &c(2)&n()Aso&c(0) for the absent &c(1)&n()Yumi&c(0), but lost to &c(1)&n()Miyuki&c(0) and co. Lost&n()the rematch in&n()Miyazaki too.",
    "slots": [
     241
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0243",
    "jp": "目連",
-   "en": "",
+   "en": "Mokuren",
    "slots": [
     243
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0244",
    "jp": "目連&n()&n()もくれん　&c(2)名古屋&n()地下街&c(0)の監視役の&n()&c(2)闘士&c(0)。&c(2)守護獣&c(0)は&c(4)褐&n()装陽炎剣士&c(0)。迷い&n()込んできた&c(1)美由紀&n()&c(0)たちの捕獲を試み&n()るが、&c(1)仁瞳&c(0)の裏切&n()りという予想外の&n()事態に直面する。&n()",
-   "en": "",
+   "en": "Mokuren&n()&n()&c(2)Warrior&c(0) on watch in&n()the &c(2)Nagoya&n()Underground&c(0). &c(2)&n()Guardian&c(0): &c(4)Brown&n()Haze Blade&c(0). Tried to&n()catch &c(1)Miyuki&c(0) and co.,&n()but &c(1)Hitomi Jin&c(0)&n()betrayed him.",
    "slots": [
     244
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0246",
    "jp": "雪花旅館",
-   "en": "",
+   "en": "Yukibana Inn",
    "slots": [
     246
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0247",
    "jp": "雪花旅館&n()&n()ゆきばなりょかん&n()　北海道札幌市に&n()ある旅館。&c(1)裕子&c(0)が&n()&c(1)ゆかり&c(0)と出会い、&n()一連の事件に巻き&n()込まれる発端とな&n()った場所。&n()",
-   "en": "",
+   "en": "Yukibana Inn&n()&n()An inn in Sapporo,&n()Hokkaido, where &c(1)&n()Yuko&c(0) met &c(1)Yukari&c(0) and&n()got pulled into the&n()whole affair.",
    "slots": [
     247
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0249",
    "jp": "ゆっこ",
-   "en": "",
+   "en": "Yukko",
    "slots": [
     249
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0250",
    "jp": "ゆっこ&n()&n()ゆっこ　&c(1)半澤由美&n()&c(0)のあだ名で、幼な&n()じみである&c(1)美里&c(0)が&n()彼女を呼ぶときに&n()使う。フェリーの&n()上で何年かぶりに&n()こう呼ばれた&c(1)由美&n()&c(0)だったが、その反&n()応は・・・。&n()",
-   "en": "",
+   "en": "Yukko&n()&n()&c(1)Yumi Hanzawa&c(0)'s&n()nickname, used by&n()her childhood friend &c(1)&n()Misato&c(0). Called it for&n()the first time in&n()years on the ferry, &c(1)&n()Yumi&c(0) reacted with...",
    "slots": [
     250
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0252",
    "jp": "予言",
-   "en": "",
+   "en": "Prophecy",
    "slots": [
     252
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0253",
    "jp": "予言&n()&n()よげん　&c(1)龍鬼妃&c(0)が&n()&c(2)四門将&c(0)に告げた言&n()葉。内容は、我々&n()（&c(2)荏狗覇菟&c(0)）に敵&n()対し&c(2)七龍&c(0)の意志を&n()継ぎ、日本を護ろ&n()うとする者たちが&n()いずれ現れるであ&n()ろうということ。&n()",
-   "en": "",
+   "en": "Prophecy&n()&n()&c(1)Ryukihi&c(0)'s words to&n()the &c(2)Four Gate&n()Generals&c(0): those who&n()oppose us (&c(2)Egubado&c(0)&n()) and take up the &c(2)&n()Seven Dragons&c(0)' will&n()to protect Japan&n()shall appear.",
    "slots": [
     253
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0255",
    "jp": "羅侯羅",
-   "en": "",
+   "en": "Ragora",
    "slots": [
     255
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0256",
    "jp": "羅侯羅&n()&n()らごら　&c(1)仁瞳&c(0)直属&n()の部下。&c(2)守護獣&c(0)は&n()&c(4)戯画骸零式&c(0)。&c(2)制御&n()ピアス&c(0)との相性か&n()はたまた&c(1)瞳&c(0)という&n()人物のなしえるわ&n()ざなのか、死さえ&n()もいとわない忠実&n()な&c(2)闘士&c(0)である。&n()",
-   "en": "",
+   "en": "Ragora&n()&n()&c(1)Hitomi Jin&c(0)'s man. &c(2)&n()Guardian&c(0): &c(4)Husk Zero&c(0).&n()His &c(2)control piercing&c(0),&n()or &c(1)Hitomi&c(0) herself,&n()makes him a loyal &c(2)&n()Warrior&c(0) unafraid&n()even of death.",
    "slots": [
     256
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0258",
    "jp": "龍泉洞",
-   "en": "",
+   "en": "Ryusendo Cave",
    "slots": [
     258
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0259",
    "jp": "龍泉洞&n()&n()りゅうせんどう　&n()岩手県の北東部に&n()開口している鍾乳&n()洞。観光名所で&c(1)る&n()り&c(0)も彼氏と一緒に&n()来ていた。こんな&n()トコロを爆破した&n()りしてはいかん。&n()",
-   "en": "",
+   "en": "Ryusendo Cave&n()&n()A limestone cave in&n()northeast Iwate. A&n()tourist spot; &c(1)Ruri&c(0)&n()came here with her&n()boyfriend. Don't go&n()blowing up places&n()like this.",
    "slots": [
     259
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0261",
    "jp": "龍の使い手",
-   "en": "",
+   "en": "Dragon Wielder",
    "slots": [
     261
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0262",
    "jp": "龍の使い手&n()&n()りゅうのつかいて&n()　正確には&c(2)七龍&c(0)の&n()魂を持つ７人の者&n()のこと。だが、&c(2)荏&n()狗覇菟&c(0)内では&c(1)美由&n()紀&c(0)たちのグループ&n()全員を龍の使い手&n()と呼称してマーク&n()している。&n()",
-   "en": "",
+   "en": "Dragon Wielder&n()&n()Strictly, the seven&n()who hold the souls&n()of the &c(2)Seven&n()Dragons&c(0). But &c(2)&n()Egubado&c(0) marks &c(1)&n()Miyuki&c(0)'s whole group&n()as Dragon Wielders.",
    "slots": [
     262
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0264",
    "jp": "龍脈",
-   "en": "",
+   "en": "Dragon Vein",
    "slots": [
     264
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0265",
    "jp": "龍脈&n()&n()りゅうみゃく　大&n()地には絶えずエネ&n()ルギーが流れてお&n()り、基本的に龍脈&n()とはその流れを指&n()す。本編ではエネ&n()ルギーの流れの集&n()中する場所を龍脈&n()と呼んでいる。&n()",
-   "en": "",
+   "en": "Dragon Vein&n()&n()Energy flows&n()through the earth&n()endlessly; a dragon&n()vein is that flow.&n()Here, the name&n()means a place&n()where the flow&n()gathers.",
    "slots": [
     265
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "dic.0267",
    "jp": "列島大地震",
-   "en": "",
+   "en": "Great Archipelago Earthquake",
    "slots": [
     267
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "dic.0268",
    "jp": "列島大地震&n()&n()れっとうだいじし&n()ん　&c(2)１９９９年&c(0)に&n()日本全土を襲った&n()大地震のこと。こ&n()れにより首都東京&n()は壊滅、復興する&n()間もなく&c(2)荏狗覇菟&c(0)&n()なる謎の組織に占&n()拠されてしまう。&n()",
-   "en": "",
+   "en": "Great Archipelago&n()Earthquake&n()&n()The great quake&n()that hit all Japan in &c(2)&n()1999&c(0). It ruined&n()Tokyo, which was&n()seized before it&n()could rebuild by a&n()mystery group: &c(2)&n()Egubado&c(0).",
    "slots": [
     268
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   }
  ]
 }

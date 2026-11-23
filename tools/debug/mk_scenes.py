@@ -26,7 +26,9 @@ for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守�
         rows.append((name + "_all", "1", "ovl:16", "", rows[-1][4], "1800", note + ", all entries (unlock.mcd)",
                      "unlock.mcd"))
         if name != "opt_replay":  # ○ on the first entry opens its page (replay would start the event)
-            rows.append((name + "_page", "1", "ovl:16", "", rows[-1][4] + ";8 circle;600 -", "2400",
+            # guardians: a short ○ is ignored; a 30-frame ○ opens the art page, △ its text page (gd.txd)
+            page = ";400 -;30 circle;1500 -;30 triangle;800 -" if name == "opt_guardians" else ";8 circle;600 -"
+            rows.append((name + "_page", "1", "ovl:16", "", rows[-1][4] + page, "5200" if name == "opt_guardians" else "2400",
                          note + ", first entry's page (unlock.mcd)", "unlock.mcd"))
 # disc 2 OPTION > イベント再現 lists rep entries 44-84 (disc 1 shows 1-43); entry 39 = エンディング (staff credits,
 # STAFF.STR ~19000 frames), 40/41 = epilogues. Unlocked card; the list ignores presses closer than ~30 frames.
