@@ -16,7 +16,10 @@
   g17 0x800922E4(53) g18 0x800915CC(24) g19 0x80093694(184) g20 0x80093C64(60) g21 0x8009249C(5)
   g22 0x800926D4(10) g23 0x80092734(69) g24 0x80092D9C(83) g25 0x80093044(16) g26 0x800930D4(12)
   g27 0x80093144(23). Groups 1-8 have none matched yet (g3, g8 have candidate tables at 0x80095xxx; check).
-- So any group can grow or move: rewrite the TOC + its sub-table (phase 3 rebuild).
+- So any group can grow or move: rewrite the TOC + its sub-table. `script_io.unn_repack` does this (verified:
+  byte-identical repack, tests/test_script.py): sub-entries are contiguous from sector 0, nsec = ceil(bytes/0x800),
+  group nsec = span + 1 spare, group bytes = (nsec - 1) * 0x800; sector padding holds stale bytes (kept while an
+  entry fits). Untested on the console: whether other code caches group LBAs (check when a group first grows).
 - Group contents (first guess from sweep): 1/2 strips (504x12 etc.), 3 strips 1459x16, 10 55x 42x50 images,
   13 battle quotes, 17 = copy of SUBTI.PAK (title cards, +64), 18 24x 128x240 images, 23 scenario, 24 66x 160x240.
 
@@ -41,7 +44,10 @@ expands all 255 entries to their directory sizes, every .tim parses as a TIM, .t
   cf2/cf (character files), evd (70 event scripts map*.evd, 2 packed), dic, rsel (天/地 route select), opt, mus, day,
   brain, **txd** (8 text files, xor key 0x8F: see text.md).
 - Rebuild: entries are sector-aligned; a repack must rewrite the directory (re-XOR), sizes and sectors; the u16
-  checksum only feeds a debug printf (still worth matching: corrupt-and-boot test in phase 3).
+  checksum only feeds a debug printf (still worth matching: corrupt-and-boot test in phase 7).
+  `script_io.gretc_repack` (verified byte-identical with every txd/evd entry rebuilt): entries contiguous in
+  directory order from sector 7, stored = rlz.pack(xor(plain)) reproduces all 187 packed entries exactly, sector
+  padding after an entry holds stale bytes (kept while it fits); header +0x80/+0x84 = file size / sectors.
 
 ## Overlays
 `DATA/*.BIN`: u32 id then MIPS code (TITLE, TITLE2, ACTION, BATTLE, MENU, MAP02, CALL02, JAPAN, HEN, DAY, ...).

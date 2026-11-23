@@ -34,12 +34,34 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
 - Block for the first Earth-route scene (+0xF000) is loaded to RAM 0x800D16F8 (buffer ref'd at 0x80044B4C etc.,
   loader 0x80044B24(index) -> 0x8004B044(buf, filedesc 0x8009295C, index)). Buffer size: not yet known; reads
   past +0x2800 belong to other data (0x800D40C4), so assume <= 0x2800 until proven (phase 5).
-- +0x41000-0x44000 holds headerless text (starts mid-message at +0x4118B): probably dead; confirm with textcover.
+- Entry 43 (+0x41800) has count 0 and 254 slots (105 strings, SJIS kana, 白虎... lines); the text at +0x4118B is stale
+  sector padding of entry 42. Whether the game reaches entry 43: textcover (phase 8).
+- Layout (verified, tests/test_script.py rebuilds every block byte-exact): strings in order of first slot, each
+  `text 00`, separated by 0x0A filler (1-5 bytes); 3 blocks (16, 29, ...) also hold **unreferenced staging notes**
+  between strings ("キョロキョロするゆかり、... SR226出力。"), kept as hex `pre`. Block ends 0x0A + zero padding;
+  the sector padding after a sub-entry's `bytes` holds stale data (kept on repack).
 - `tools/gr_scan_blocks.py UNN.PAK 0x1B87000 0x60000` lists blocks.
 
 ## Battle / map quotes: UNN.PAK group 13 (verified: decoded)
 - Group 13 = 0x6DE000, 0xD800 bytes, 19 sub-entries (sub-table RAM 0x8009296C); same block format. Victory quotes per
   character etc. (`gr_scan_blocks.py UNN.PAK 0x6DE000 0xD800`).
+- Entry 2 = item help (帽子：... Ｄｆ＋２): `u32 80` then 81 offsets, no 0 word.
+
+## Unit names in event scripts: GRETC.RLZ group evd (verified: every Japanese run in the 70 evd files is one)
+- Op `34 idx len text 00` (len = text + NUL) names the map's units (大地裕子, 闘士, 鎌蜥蜴...). 564 names, 159 distinct;
+  35 maps have them. Longer English names grow the script: check jump offsets in the evd bytecode (phase 5/7).
+
+## Extraction (phase 4, verified by tests/test_script.py)
+- `tools/extract.py` -> `script/{scenario,battle,txd,evd,exe}/*.json` (7751 strings), library `tools/script_io.py`
+  (parsers + builders + UNN/GRETC repack), `tools/script_stats.py` (counts). Tests: every block/txd rebuilds
+  byte-exact, UNN.PAK + EXE TOC and GRETC.RLZ repack byte-identical, evd/EXE strings re-encode exactly, every
+  Japanese text run in the EXE/overlay ranges and evd files is a record, script/ equals a fresh extraction.
+- Two kana forms: scenario = single-byte hiragana (+ SJIS ー 815B in most lines, B0 in a few); EXE/overlays = SJIS
+  hiragana pairs. One tbl can't encode both, so each record names its table variant (`tbl`: jp / jp- / sjis,
+  script_io.TABLES); no text record keeps an [XX] escape.
+- EXE/overlay records carry `off`, `room` (bytes in place incl. NUL + padding to the next word), `refs` (w = u32
+  word, p = lui pair, RAM address of the reference), `inner` (refs landing inside). status `data` = printf debug
+  output or unreferenced noise (57). The 0x800-0x2F60 range also holds ASCII file names and labels: not extracted.
 
 ## Markup text: GRETC.RLZ group txd (verified: decoded, `tools/gretc.py extract`; renderer not yet traced)
 - 8 files (gd, cf, op, dic, day, rep, tu, save .txd), each RLE + XOR key 0x8F (containers.md). Layout: 0x1000-byte

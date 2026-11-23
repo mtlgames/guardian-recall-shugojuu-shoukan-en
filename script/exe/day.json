@@ -1,0 +1,126 @@
+{
+ "src": "DATA/DAY.BIN (RAM base 0x80166218)",
+ "strings": [
+  {
+   "id": "day.00064",
+   "jp": "ステージ %d は日記が無いステージか? (%d)\n",
+   "en": "",
+   "off": 100,
+   "room": 44,
+   "refs": [
+    "p80167D98",
+    "p80167DA0"
+   ],
+   "inner": [],
+   "tbl": "sjis",
+   "status": "data",
+   "notes": "printf"
+  },
+  {
+   "id": "day.00194",
+   "jp": "stage=%d 天=%d,%d 地=%d,%d take=%d\n",
+   "en": "",
+   "off": 404,
+   "room": 36,
+   "refs": [
+    "p80167B24"
+   ],
+   "inner": [],
+   "status": "data",
+   "notes": "printf"
+  },
+  {
+   "id": "day.001b8",
+   "jp": "いいえ",
+   "en": "",
+   "off": 440,
+   "room": 8,
+   "refs": [
+    "w8016C0A8"
+   ],
+   "inner": [],
+   "tbl": "sjis"
+  },
+  {
+   "id": "day.001c0",
+   "jp": "はい",
+   "en": "",
+   "off": 448,
+   "room": 8,
+   "refs": [
+    "w8016C0A4"
+   ],
+   "inner": [],
+   "tbl": "sjis"
+  },
+  {
+   "id": "day.001c8",
+   "jp": "ロード",
+   "en": "",
+   "off": 456,
+   "room": 8,
+   "refs": [
+    "w8016C0B0"
+   ],
+   "inner": [],
+   "tbl": "jp-"
+  },
+  {
+   "id": "day.001d0",
+   "jp": "セーブ",
+   "en": "",
+   "off": 464,
+   "room": 8,
+   "refs": [
+    "w8016C0AC"
+   ],
+   "inner": [],
+   "tbl": "jp-"
+  },
+  {
+   "id": "day.0020c",
+   "jp": "ＮＯ　ＤＡＴＡ",
+   "en": "",
+   "off": 524,
+   "room": 16,
+   "refs": [
+    "p80169D84"
+   ],
+   "inner": []
+  },
+  {
+   "id": "day.00250",
+   "jp": "ＧＲ－００　ガーディアンリコール　システムファイル",
+   "en": "",
+   "off": 592,
+   "room": 52,
+   "refs": [
+    "p8016B07C"
+   ],
+   "inner": [],
+   "tbl": "jp-"
+  },
+  {
+   "id": "day.0029c",
+   "jp": "／",
+   "en": "",
+   "off": 668,
+   "room": 4,
+   "refs": [
+    "p8016AB3C"
+   ],
+   "inner": []
+  },
+  {
+   "id": "day.002a0",
+   "jp": "GR－%d%d %-7s%1s%-7s %d%d:%d%d",
+   "en": "",
+   "off": 672,
+   "room": 32,
+   "refs": [
+    "p8016AB64"
+   ],
+   "inner": []
+  }
+ ]
+}

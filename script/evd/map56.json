@@ -1,0 +1,20 @@
+{
+ "src": "GRETC.RLZ entry 155 map56.evd",
+ "strings": [
+  {
+   "id": "map56.005f",
+   "jp": "周防ちかな",
+   "en": "",
+   "off": 95,
+   "idx": 0,
+   "tbl": "sjis"
+  },
+  {
+   "id": "map56.006d",
+   "jp": "我王",
+   "en": "",
+   "off": 109,
+   "idx": 1
+  }
+ ]
+}

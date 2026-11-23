@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 4. Extract next (phase 3 identity build done 2026-11-23). Last build: 2026-11-23, unpatched =
-  byte-identical to the dump (disc 1 sha1 3ae2071d..., disc 2 d45a833f...), smoke ok.
+- **Phase:** 5. Engine spike and marker build next (phase 4 extract done 2026-11-23). Last build: 2026-11-23,
+  unpatched = byte-identical to the dump (disc 1 sha1 3ae2071d..., disc 2 d45a833f...), smoke ok.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -49,9 +49,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     copies the tree to work/build/d<N>/, runs `patch(n, tree)` (empty for now), repacks with mkpsxiso into
     build/disc<N>/ (~10 s both discs). Slow test tests/test_identity.py: unpatched rebuild of both discs = rom.sha1
     (passes from a fresh dump). Built disc 1 smoke ok.
-- **Next (phase 4, extract):** scenario g23, battle quotes g13, txd (GRETC.RLZ), EXE/overlay strings into script/;
-  roundtrip tests (re-encode = original bytes) incl. any archive repack (UNN.PAK, RLZ) byte-identical; text range
-  coverage. Insertion hooks into `build.patch()`.
+  - 2026-11-23 (7): **phase 4 done.** `tools/extract.py` -> script/ (127 files, 7751 strings: scenario 4821, battle
+    465, txd 1242, evd unit names 564, exe/overlays 659 of which 57 status data). Library `tools/script_io.py`
+    (parse/build of slot blocks, evd names, EXE strings; `unn_repack`, `gretc_repack`). tests/test_script.py: blocks
+    and txd rebuild byte-exact, UNN.PAK+EXE and GRETC.RLZ repack byte-identical, EXE/evd strings exact, range
+    coverage, script/ == fresh extraction. New finds (docs/re/text.md): evd op 0x34 unit names; g23 entry 43 is
+    text (count 0, 254 slots); g13 entry 2 = item help; staging notes between strings; per-record kana table
+    variant (`tbl`).
+- **Next (phase 5, engine spike + marker build):** English font/renderer for scenario (no ASCII in that path; txd
+  renderer already draws ASCII), VWF decision; insertion in `build.patch()` via script_io builders (+ EXE string
+  relocation into free RAM, evd name growth = check bytecode jumps); marker build `[id]` per string; find non-text
+  strings; measure every box variant (width gate). Scenario buffer limit 0x2800 still a guess (largest block
+  0x2422 = g23 entry 24, then 0x23B0 entry 12).
 - **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).

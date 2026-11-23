@@ -1,0 +1,59 @@
+{
+ "src": "DATA/BRAIN.BIN (RAM base 0x80166218)",
+ "strings": [
+  {
+   "id": "brain.00004",
+   "jp": "ＥＸＩＴ",
+   "en": "",
+   "off": 4,
+   "room": 12,
+   "refs": [],
+   "inner": []
+  },
+  {
+   "id": "brain.00010",
+   "jp": "用語辞典",
+   "en": "",
+   "off": 16,
+   "room": 12,
+   "refs": [],
+   "inner": []
+  },
+  {
+   "id": "brain.0001c",
+   "jp": "守護獣図鑑",
+   "en": "",
+   "off": 28,
+   "room": 12,
+   "refs": [],
+   "inner": []
+  },
+  {
+   "id": "brain.00028",
+   "jp": "キャラファイル",
+   "en": "",
+   "off": 40,
+   "room": 16,
+   "refs": [],
+   "inner": []
+  },
+  {
+   "id": "brain.00038",
+   "jp": "イベント再現",
+   "en": "",
+   "off": 56,
+   "room": 16,
+   "refs": [],
+   "inner": []
+  },
+  {
+   "id": "brain.00048",
+   "jp": "守護獣戦術指南",
+   "en": "",
+   "off": 72,
+   "room": 16,
+   "refs": [],
+   "inner": []
+  }
+ ]
+}

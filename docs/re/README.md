@@ -12,7 +12,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 
 | File | Covers | State |
 |---|---|---|
-| text.md | encoding + jp.tbl, renderer + glyph map, scenario/battle blocks, txd markup text, EXE/overlay strings + pointers, free space | verified except buffer size, txd renderer, BRAIN base |
+| text.md | encoding + jp.tbl, renderer + glyph map, scenario/battle blocks, txd markup text, evd unit names, EXE/overlay strings + pointers, extraction (script/), free space | verified except buffer size, txd renderer, BRAIN base |
 | containers.md | disc layout, UNN.PAK TOC + sub-tables, TX03 codec, GRETC.RLZ (dir, RLE, XOR), overlays | verified; GRETC checksum algorithm open |
 | graphics.md | graphics-text survey | static sweep complete (G1-G16); tour rows in phase 5 |
 | debug.md | main loop task, event starter, overlay ids, mode setters, title/OPTION, memory card + checksum | warps verified (81/81 scenes); save layout partial |
