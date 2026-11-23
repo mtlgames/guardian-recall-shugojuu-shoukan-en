@@ -114,7 +114,7 @@
   {
    "id": "day.002a0",
    "jp": "GR－%d%d %-7s%1s%-7s %d%d:%d%d",
-   "en": "",
+   "en": "GR%d%d %s%s%s %d%d:%d%d",
    "off": 672,
    "room": 32,
    "refs": [

@@ -259,6 +259,60 @@ pool_grow:                      ; a0 = slot[k&1] (the buffer not in use), s0 = p
   addu  v0, s0, v0
   j     0x8004F530              ; return: cap, +0xC and k unchanged
   sw    zero, 4(v0)             ; slot[k&1] was freed (or never allocated)
+
+; ---- DAY save: memory-card title (sprintf of day.002a0 -> 0x80157E68, strcpy'd into the card header at 0x8005DEEC).
+; The BIOS card manager wants full-width Shift-JIS, so ASCII is widened here (the shared row converter 0x80012EE0
+; keeps ASCII for the VWF). Capped at 62 bytes + 00: the card title field is 64, the buffer 0x50 (next symbol
+; 0x80157EB8, tools/xref_range.py). A long label loses the time at the end (day.002a0 format). ----
+title_wide:                     ; a0 = dst, a1 = src (Shift-JIS pairs copied as is)
+  addiu t2, a0, 62
+@@loop:
+  lbu   t0, 0(a1)
+  nop
+  beqz  t0, @@end
+  addiu t1, a0, 2
+  sltu  t1, t2, t1              ; no room for one more pair
+  bnez  t1, @@end
+  sltiu t1, t0, 0x80
+  bnez  t1, @@ascii
+  lbu   t3, 1(a1)
+  sb    t0, 0(a0)
+  sb    t3, 1(a0)
+  addiu a1, a1, 2
+  b     @@loop
+  addiu a0, a0, 2
+@@ascii:
+  sltiu t1, t0, 0x20
+  bnez  t1, @@next              ; control byte: dropped
+  addiu t1, t0, -0x20
+  sll   t1, t1, 1
+  la    t3, wide_tab
+  addu  t3, t3, t1
+  lhu   t1, 0(t3)
+  nop
+  srl   t3, t1, 8
+  sb    t3, 0(a0)
+  sb    t1, 1(a0)
+  addiu a0, a0, 2
+@@next:
+  b     @@loop
+  addiu a1, a1, 1
+@@end:
+  jr    ra
+  sb    zero, 0(a0)
+wide_tab:                       ; ASCII 0x20-0x7F -> full-width Shift-JIS
+  .halfword 0x8140, 0x8149, 0x8168, 0x8194, 0x8190, 0x8193, 0x8195, 0x8166
+  .halfword 0x8169, 0x816A, 0x8196, 0x817B, 0x8143, 0x817C, 0x8144, 0x815E
+  .halfword 0x824F, 0x8250, 0x8251, 0x8252, 0x8253, 0x8254, 0x8255, 0x8256
+  .halfword 0x8257, 0x8258, 0x8146, 0x8147, 0x8183, 0x8181, 0x8184, 0x8148
+  .halfword 0x8197, 0x8260, 0x8261, 0x8262, 0x8263, 0x8264, 0x8265, 0x8266
+  .halfword 0x8267, 0x8268, 0x8269, 0x826A, 0x826B, 0x826C, 0x826D, 0x826E
+  .halfword 0x826F, 0x8270, 0x8271, 0x8272, 0x8273, 0x8274, 0x8275, 0x8276
+  .halfword 0x8277, 0x8278, 0x8279, 0x816D, 0x815F, 0x816E, 0x814F, 0x8151
+  .halfword 0x814D, 0x8281, 0x8282, 0x8283, 0x8284, 0x8285, 0x8286, 0x8287
+  .halfword 0x8288, 0x8289, 0x828A, 0x828B, 0x828C, 0x828D, 0x828E, 0x828F
+  .halfword 0x8290, 0x8291, 0x8292, 0x8293, 0x8294, 0x8295, 0x8296, 0x8297
+  .halfword 0x8298, 0x8299, 0x829A, 0x816F, 0x8162, 0x8170, 0x8160, 0x8140
 .align 4
 evd_names:
   .incbin EVDNAMES
@@ -403,4 +457,10 @@ payload_end:
   nop
 .org 0x80166218 + 0x1D20        ; glyph draw: was sw a0, 0x50(sp)
   jal   dic_expand
+.close
+
+; ---- DAY.BIN (overlay at 0x80166218): memory-card title in full-width Shift-JIS ----
+.open DAY, 0x80166218
+.org 0x8016ABB8                 ; was: jal 0x80012EE0 (a0 = 0x80157E68 title, a1 = sp+0x30 sprintf result)
+  jal   title_wide
 .close

@@ -7,12 +7,13 @@
   {
    "id": "tu.0000",
    "jp": "マスターと守護獣",
-   "en": "",
+   "en": "Masters and Guardians",
    "slots": [
     0
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0001",
@@ -26,12 +27,13 @@
   {
    "id": "tu.0004",
    "jp": "マップの操作",
-   "en": "",
+   "en": "Map Controls",
    "slots": [
     4
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0005",
@@ -45,12 +47,13 @@
   {
    "id": "tu.0008",
    "jp": "マスターのコマンド",
-   "en": "",
+   "en": "Master Commands",
    "slots": [
     8
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0009",
@@ -64,12 +67,13 @@
   {
    "id": "tu.0012",
    "jp": "召喚と送還",
-   "en": "",
+   "en": "Summon and Dismiss",
    "slots": [
     12
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0013",
@@ -83,12 +87,13 @@
   {
    "id": "tu.0016",
    "jp": "思考とは・・・",
-   "en": "",
+   "en": "What Is a Tactic...",
    "slots": [
     16
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0017",
@@ -102,12 +107,13 @@
   {
    "id": "tu.0020",
    "jp": "思考を変更する",
-   "en": "",
+   "en": "Changing Tactics",
    "slots": [
     20
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0021",
@@ -121,12 +127,13 @@
   {
    "id": "tu.0024",
    "jp": "思考の種類",
-   "en": "",
+   "en": "Kinds of Tactics",
    "slots": [
     24
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0025",
@@ -140,12 +147,13 @@
   {
    "id": "tu.0028",
    "jp": "思考とパラメータ",
-   "en": "",
+   "en": "Tactics and Parameters",
    "slots": [
     28
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0029",
@@ -159,12 +167,13 @@
   {
    "id": "tu.0032",
    "jp": "ＭＰの消費",
-   "en": "",
+   "en": "MP Consumption",
    "slots": [
     32
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0033",
@@ -178,12 +187,13 @@
   {
    "id": "tu.0036",
    "jp": "守護獣の行動能力ランク",
-   "en": "",
+   "en": "Guardian Skill Ranks",
    "slots": [
     36
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0037",
@@ -197,12 +207,13 @@
   {
    "id": "tu.0040",
    "jp": "守護獣の形態進化",
-   "en": "",
+   "en": "Guardian Form Evolution",
    "slots": [
     40
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0041",
@@ -216,12 +227,13 @@
   {
    "id": "tu.0044",
    "jp": "超力の使い方",
-   "en": "",
+   "en": "How to Use Psi",
    "slots": [
     44
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0045",
@@ -235,12 +247,13 @@
   {
    "id": "tu.0048",
    "jp": "超力の種類",
-   "en": "",
+   "en": "Kinds of Psi",
    "slots": [
     48
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0049",
@@ -254,12 +267,13 @@
   {
    "id": "tu.0052",
    "jp": "属性と相性",
-   "en": "",
+   "en": "Elements and Compatibility",
    "slots": [
     52
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "tu.0053",

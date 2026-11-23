@@ -25,12 +25,13 @@
   {
    "id": "rep.0002",
    "jp": "オープニング（Ａバージョン）",
-   "en": "",
+   "en": "Opening (Version A)",
    "slots": [
     2
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0004",
@@ -53,12 +54,13 @@
   {
    "id": "rep.0006",
    "jp": "プロローグ",
-   "en": "",
+   "en": "Prologue",
    "slots": [
     6
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0008",
@@ -81,11 +83,12 @@
   {
    "id": "rep.0010",
    "jp": "守護獣召喚",
-   "en": "",
+   "en": "Guardian Recall",
    "slots": [
     10
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0012",
@@ -108,12 +111,13 @@
   {
    "id": "rep.0014",
    "jp": "ムービー「学校襲撃～コウエン召喚」",
-   "en": "",
+   "en": "Movie: School Raid, Koen Summoned",
    "slots": [
     14
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0016",
@@ -136,11 +140,12 @@
   {
    "id": "rep.0018",
    "jp": "炎龍覚醒",
-   "en": "",
+   "en": "Flame Dragon Awakens",
    "slots": [
     18
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0020",
@@ -163,12 +168,13 @@
   {
    "id": "rep.0022",
    "jp": "ムービー「天ちゃん召喚」",
-   "en": "",
+   "en": "Movie: Ten-chan Summoned",
    "slots": [
     22
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0024",
@@ -191,12 +197,13 @@
   {
    "id": "rep.0026",
    "jp": "鈴音と琴音",
-   "en": "",
+   "en": "Suzune and Kotone",
    "slots": [
     26
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0028",
@@ -219,12 +226,13 @@
   {
    "id": "rep.0030",
    "jp": "運命の再会",
-   "en": "",
+   "en": "Fateful Reunion",
    "slots": [
     30
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0032",
@@ -247,12 +255,13 @@
   {
    "id": "rep.0034",
    "jp": "ムービー「美里と景子」",
-   "en": "",
+   "en": "Movie: Misato and Keiko",
    "slots": [
     34
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0036",
@@ -275,12 +284,13 @@
   {
    "id": "rep.0038",
    "jp": "ムービー「メール召喚」",
-   "en": "",
+   "en": "Movie: Mer Summoned",
    "slots": [
     38
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0040",
@@ -303,12 +313,13 @@
   {
    "id": "rep.0042",
    "jp": "ムービー「凪召喚」",
-   "en": "",
+   "en": "Movie: Nagi Summoned",
    "slots": [
     42
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0044",
@@ -331,12 +342,13 @@
   {
    "id": "rep.0046",
    "jp": "ムービー「ウール召喚」",
-   "en": "",
+   "en": "Movie: Ur Summoned",
    "slots": [
     46
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0048",
@@ -359,11 +371,12 @@
   {
    "id": "rep.0050",
    "jp": "海龍覚醒",
-   "en": "",
+   "en": "Sea Dragon Awakens",
    "slots": [
     50
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0052",
@@ -386,12 +399,13 @@
   {
    "id": "rep.0054",
    "jp": "ムービー「悲しい勝利」",
-   "en": "",
+   "en": "Movie: A Sad Victory",
    "slots": [
     54
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0056",
@@ -414,11 +428,12 @@
   {
    "id": "rep.0058",
    "jp": "四国脱出",
-   "en": "",
+   "en": "Escape from Shikoku",
    "slots": [
     58
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0060",
@@ -441,12 +456,13 @@
   {
    "id": "rep.0062",
    "jp": "大鳴門橋の罠",
-   "en": "",
+   "en": "Trap on Onaruto Bridge",
    "slots": [
     62
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0064",
@@ -469,12 +485,13 @@
   {
    "id": "rep.0066",
    "jp": "悲しみと怒りを胸に",
-   "en": "",
+   "en": "Sorrow and Anger in Our Hearts",
    "slots": [
     66
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0068",
@@ -497,11 +514,12 @@
   {
    "id": "rep.0070",
    "jp": "仁瞳",
-   "en": "",
+   "en": "Hitomi Jin",
    "slots": [
     70
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0072",
@@ -524,11 +542,12 @@
   {
    "id": "rep.0074",
    "jp": "飛龍覚醒",
-   "en": "",
+   "en": "Wind Dragon Awakens",
    "slots": [
     74
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0076",
@@ -551,12 +570,13 @@
   {
    "id": "rep.0078",
    "jp": "ムービー「安らぎの宿」",
-   "en": "",
+   "en": "Movie: A Restful Inn",
    "slots": [
     78
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0080",
@@ -579,12 +599,13 @@
   {
    "id": "rep.0082",
    "jp": "ムービー「白虎お怒り」",
-   "en": "",
+   "en": "Movie: Byakko's Fury",
    "slots": [
     82
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0084",
@@ -607,12 +628,13 @@
   {
    "id": "rep.0086",
    "jp": "襲撃！旅立ちの序曲",
-   "en": "",
+   "en": "Attack! Overture to a Journey",
    "slots": [
     86
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0088",
@@ -635,12 +657,13 @@
   {
    "id": "rep.0090",
    "jp": "ムービー「出会い～ノルト召喚」",
-   "en": "",
+   "en": "Movie: Meeting, Nord Summoned",
    "slots": [
     90
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0092",
@@ -663,11 +686,12 @@
   {
    "id": "rep.0094",
    "jp": "聖龍覚醒",
-   "en": "",
+   "en": "Holy Dragon Awakens",
    "slots": [
     94
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0096",
@@ -690,12 +714,13 @@
   {
    "id": "rep.0098",
    "jp": "ムービー「ポチ召喚」",
-   "en": "",
+   "en": "Movie: Pochi Summoned",
    "slots": [
     98
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0100",
@@ -718,11 +743,12 @@
   {
    "id": "rep.0102",
    "jp": "激突！青函トンネル",
-   "en": "",
+   "en": "Clash! Seikan Tunnel",
    "slots": [
     102
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0104",
@@ -745,12 +771,13 @@
   {
    "id": "rep.0106",
    "jp": "鏡登場！荏狗覇菟の罠",
-   "en": "",
+   "en": "Kagami Appears! Egubado's Trap",
    "slots": [
     106
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0108",
@@ -773,12 +800,13 @@
   {
    "id": "rep.0110",
    "jp": "ムービー「蘭、脱走！」",
-   "en": "",
+   "en": "Movie: Ran Escapes!",
    "slots": [
     110
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0112",
@@ -801,11 +829,12 @@
   {
    "id": "rep.0114",
    "jp": "龍泉洞大脱出！",
-   "en": "",
+   "en": "Great Escape from Ryusendo!",
    "slots": [
     114
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0116",
@@ -828,12 +857,13 @@
   {
    "id": "rep.0118",
    "jp": "ふせげ！恐怖のダムダム作戦",
-   "en": "",
+   "en": "Stop Operation Dam-Dam!",
    "slots": [
     118
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0120",
@@ -856,12 +886,13 @@
   {
    "id": "rep.0122",
    "jp": "ムービー「百鬼夜行の世の中に！」",
-   "en": "",
+   "en": "Movie: A World of Demons!",
    "slots": [
     122
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0124",
@@ -884,12 +915,13 @@
   {
    "id": "rep.0126",
    "jp": "ムービー「ザビたん召喚」",
-   "en": "",
+   "en": "Movie: Zabi-tan Summoned",
    "slots": [
     126
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0128",
@@ -912,12 +944,13 @@
   {
    "id": "rep.0130",
    "jp": "追跡！ストーンサークル",
-   "en": "",
+   "en": "Pursuit! The Stone Circle",
    "slots": [
     130
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0132",
@@ -940,12 +973,13 @@
   {
    "id": "rep.0134",
    "jp": "ムービー「雷晶ただいま参上です！」",
-   "en": "",
+   "en": "Movie: Akira Ikazuchi Is Here!",
    "slots": [
     134
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0136",
@@ -968,11 +1002,12 @@
   {
    "id": "rep.0138",
    "jp": "超破壊！荏狗覇菟基地",
-   "en": "",
+   "en": "Smash! Egubado's Base",
    "slots": [
     138
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0140",
@@ -995,12 +1030,13 @@
   {
    "id": "rep.0142",
    "jp": "正義のロッカー晶参上！",
-   "en": "",
+   "en": "Akira, Rocker of Justice!",
    "slots": [
     142
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0144",
@@ -1023,12 +1059,13 @@
   {
    "id": "rep.0146",
    "jp": "突破せよ！試練の防衛線",
-   "en": "",
+   "en": "Break the Line of Trials!",
    "slots": [
     146
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0148",
@@ -1051,12 +1088,13 @@
   {
    "id": "rep.0150",
    "jp": "ムービー「激闘！サウナ室」",
-   "en": "",
+   "en": "Movie: Sauna Showdown!",
    "slots": [
     150
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0152",
@@ -1079,11 +1117,12 @@
   {
    "id": "rep.0154",
    "jp": "雷龍覚醒",
-   "en": "",
+   "en": "Thunder Dragon Awakens",
    "slots": [
     154
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0156",
@@ -1106,12 +1145,13 @@
   {
    "id": "rep.0158",
    "jp": "ムービー「合流」",
-   "en": "",
+   "en": "Movie: Regrouping",
    "slots": [
     158
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0160",
@@ -1134,12 +1174,13 @@
   {
    "id": "rep.0162",
    "jp": "ムービー「再会、かおると蘭」",
-   "en": "",
+   "en": "Movie: Kaoru and Ran Reunite",
    "slots": [
     162
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0164",
@@ -1162,12 +1203,13 @@
   {
    "id": "rep.0166",
    "jp": "ムービー「仁、不敵な笑み」",
-   "en": "",
+   "en": "Movie: Jin's Bold Smile",
    "slots": [
     166
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0168",
@@ -1190,12 +1232,13 @@
   {
    "id": "rep.0170",
    "jp": "ムービー「黒龍召喚」",
-   "en": "",
+   "en": "Movie: Black Dragon Summoned",
    "slots": [
     170
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0512",
@@ -1218,12 +1261,13 @@
   {
    "id": "rep.0514",
    "jp": "オープニング（Ｂバージョン）",
-   "en": "",
+   "en": "Opening (Version B)",
    "slots": [
     514
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0516",
@@ -1246,11 +1290,12 @@
   {
    "id": "rep.0518",
    "jp": "東京突入",
-   "en": "",
+   "en": "Into Tokyo",
    "slots": [
     518
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0520",
@@ -1273,12 +1318,13 @@
   {
    "id": "rep.0522",
    "jp": "ムービー「動き出す四門将」",
-   "en": "",
+   "en": "Movie: Four Gate Generals Move",
    "slots": [
     522
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0524",
@@ -1301,12 +1347,13 @@
   {
    "id": "rep.0526",
    "jp": "地上１５０メートルの戦い",
-   "en": "",
+   "en": "Battle 150 Meters Up",
    "slots": [
     526
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0528",
@@ -1329,12 +1376,13 @@
   {
    "id": "rep.0530",
    "jp": "ムービー「決意、新たに・・・！」",
-   "en": "",
+   "en": "Movie: Resolve Renewed...!",
    "slots": [
     530
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0532",
@@ -1357,11 +1405,12 @@
   {
    "id": "rep.0534",
    "jp": "偵察",
-   "en": "",
+   "en": "Reconnaissance",
    "slots": [
     534
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0536",
@@ -1384,11 +1433,12 @@
   {
    "id": "rep.0538",
    "jp": "武神登場！",
-   "en": "",
+   "en": "Takegami Appears!",
    "slots": [
     538
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0540",
@@ -1411,11 +1461,12 @@
   {
    "id": "rep.0542",
    "jp": "日比谷包囲網",
-   "en": "",
+   "en": "The Hibiya Siege",
    "slots": [
     542
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0544",
@@ -1438,12 +1489,13 @@
   {
    "id": "rep.0546",
    "jp": "国会議事堂へ",
-   "en": "",
+   "en": "To the National Diet Building",
    "slots": [
     546
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0548",
@@ -1466,12 +1518,13 @@
   {
    "id": "rep.0550",
    "jp": "四門の結界",
-   "en": "",
+   "en": "Barrier of the Four Gates",
    "slots": [
     550
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0552",
@@ -1494,12 +1547,13 @@
   {
    "id": "rep.0554",
    "jp": "漆黒の玄武",
-   "en": "",
+   "en": "Jet-Black Genbu",
    "slots": [
     554
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0556",
@@ -1522,12 +1576,13 @@
   {
    "id": "rep.0558",
    "jp": "ムービー「玄武召喚」",
-   "en": "",
+   "en": "Movie: Genbu Summoned",
    "slots": [
     558
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0560",
@@ -1550,12 +1605,13 @@
   {
    "id": "rep.0562",
    "jp": "白銀の白虎",
-   "en": "",
+   "en": "Silver Byakko",
    "slots": [
     562
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0564",
@@ -1578,12 +1634,13 @@
   {
    "id": "rep.0566",
    "jp": "ムービー「白虎召喚」",
-   "en": "",
+   "en": "Movie: Byakko Summoned",
    "slots": [
     566
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0568",
@@ -1606,12 +1663,13 @@
   {
    "id": "rep.0570",
    "jp": "紺碧の青龍",
-   "en": "",
+   "en": "Azure Seiryu",
    "slots": [
     570
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0572",
@@ -1634,12 +1692,13 @@
   {
    "id": "rep.0574",
    "jp": "ムービー「青龍召喚」",
-   "en": "",
+   "en": "Movie: Seiryu Summoned",
    "slots": [
     574
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0576",
@@ -1662,12 +1721,13 @@
   {
    "id": "rep.0578",
    "jp": "紅蓮の朱雀",
-   "en": "",
+   "en": "Crimson Suzaku",
    "slots": [
     578
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0580",
@@ -1690,12 +1750,13 @@
   {
    "id": "rep.0582",
    "jp": "ムービー「朱雀召喚」",
-   "en": "",
+   "en": "Movie: Suzaku Summoned",
    "slots": [
     582
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0584",
@@ -1718,11 +1779,12 @@
   {
    "id": "rep.0586",
    "jp": "天地覚醒",
-   "en": "",
+   "en": "Heaven and Earth Awaken",
    "slots": [
     586
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0588",
@@ -1745,12 +1807,13 @@
   {
    "id": "rep.0590",
    "jp": "ムービー「七龍覚醒」",
-   "en": "",
+   "en": "Movie: Seven Dragons Awaken",
    "slots": [
     590
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0592",
@@ -1773,11 +1836,12 @@
   {
    "id": "rep.0594",
    "jp": "突入！妃龍鬼殿",
-   "en": "",
+   "en": "Storm Hiryuki Palace!",
    "slots": [
     594
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0596",
@@ -1800,11 +1864,12 @@
   {
    "id": "rep.0598",
    "jp": "決戦！四門将",
-   "en": "",
+   "en": "Showdown! Four Gate Generals",
    "slots": [
     598
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0600",
@@ -1827,12 +1892,13 @@
   {
    "id": "rep.0602",
    "jp": "出現！合体守護獣ぬえ",
-   "en": "",
+   "en": "The Combined Guardian Nue!",
    "slots": [
     602
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0604",
@@ -1855,11 +1921,12 @@
   {
    "id": "rep.0606",
    "jp": "龍鬼妃・１",
-   "en": "",
+   "en": "Ryukihi 1",
    "slots": [
     606
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0608",
@@ -1882,12 +1949,13 @@
   {
    "id": "rep.0610",
    "jp": "ムービー「妃龍鬼殿浮上！」",
-   "en": "",
+   "en": "Movie: Hiryuki Palace Rises!",
    "slots": [
     610
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0612",
@@ -1910,11 +1978,12 @@
   {
    "id": "rep.0614",
    "jp": "龍鬼妃・２",
-   "en": "",
+   "en": "Ryukihi 2",
    "slots": [
     614
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0616",
@@ -1937,11 +2006,12 @@
   {
    "id": "rep.0618",
    "jp": "龍鬼妃・３",
-   "en": "",
+   "en": "Ryukihi 3",
    "slots": [
     618
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0620",
@@ -1964,12 +2034,13 @@
   {
    "id": "rep.0622",
    "jp": "ムービー「別れ－真由・晶－」",
-   "en": "",
+   "en": "Movie: Farewell - Mayu, Akira",
    "slots": [
     622
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0624",
@@ -1992,11 +2063,12 @@
   {
    "id": "rep.0626",
    "jp": "龍鬼妃・４",
-   "en": "",
+   "en": "Ryukihi 4",
    "slots": [
     626
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0628",
@@ -2019,11 +2091,12 @@
   {
    "id": "rep.0630",
    "jp": "龍鬼妃・５",
-   "en": "",
+   "en": "Ryukihi 5",
    "slots": [
     630
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0632",
@@ -2046,12 +2119,13 @@
   {
    "id": "rep.0634",
    "jp": "ムービー「別れ－美里・景子－」",
-   "en": "",
+   "en": "Movie: Farewell - Misato, Keiko",
    "slots": [
     634
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0636",
@@ -2074,11 +2148,12 @@
   {
    "id": "rep.0638",
    "jp": "龍鬼妃・６",
-   "en": "",
+   "en": "Ryukihi 6",
    "slots": [
     638
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0640",
@@ -2101,12 +2176,13 @@
   {
    "id": "rep.0642",
    "jp": "ムービー「別れ－ゆかり－」",
-   "en": "",
+   "en": "Movie: Farewell - Yukari",
    "slots": [
     642
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0644",
@@ -2129,11 +2205,12 @@
   {
    "id": "rep.0646",
    "jp": "龍鬼妃・７",
-   "en": "",
+   "en": "Ryukihi 7",
    "slots": [
     646
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0648",
@@ -2156,12 +2233,13 @@
   {
    "id": "rep.0650",
    "jp": "ムービー「龍鬼妃、滅びの祈り」",
-   "en": "",
+   "en": "Movie: Ryukihi's Prayer of Ruin",
    "slots": [
     650
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0652",
@@ -2184,12 +2262,13 @@
   {
    "id": "rep.0654",
    "jp": "ムービー「七龍そろいし時」",
-   "en": "",
+   "en": "Movie: The Seven Dragons United",
    "slots": [
     654
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0656",
@@ -2212,11 +2291,12 @@
   {
    "id": "rep.0658",
    "jp": "龍鬼妃・８",
-   "en": "",
+   "en": "Ryukihi 8",
    "slots": [
     658
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0660",
@@ -2239,12 +2319,13 @@
   {
    "id": "rep.0662",
    "jp": "ムービー「沈む妃龍鬼殿」",
-   "en": "",
+   "en": "Movie: Hiryuki Palace Sinks",
    "slots": [
     662
    ],
    "pre": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "rep.0664",
@@ -2267,11 +2348,12 @@
   {
    "id": "rep.0666",
    "jp": "エンディング",
-   "en": "",
+   "en": "Ending",
    "slots": [
     666
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "rep.0668",
@@ -2294,12 +2376,13 @@
   {
    "id": "rep.0670",
    "jp": "エピローグ（美由紀バージョン）",
-   "en": "",
+   "en": "Epilogue (Miyuki Version)",
    "slots": [
     670
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "rep.0672",
@@ -2322,12 +2405,13 @@
   {
    "id": "rep.0674",
    "jp": "エピローグ（裕子バージョン）",
-   "en": "",
+   "en": "Epilogue (Yuko Version)",
    "slots": [
     674
    ],
    "pre": 0,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

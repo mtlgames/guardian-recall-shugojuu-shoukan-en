@@ -51,5 +51,15 @@ def test_txd_segments_get_right_minus_x():
     assert windows.lint(s, v, G)[0].endswith("px > 108: '" + "M" * 40 + "'")
 
 
+def test_save_label_pair_fits():
+    # DAY save list, stages < 20: "%-6s %-6s " = Sky label + Earth label on one 180 px row (docs/windows.md)
+    en = {}
+    for s in windows.records():
+        if s["id"].startswith("save.") and s.get("en") and s["jp"][:2] in ("天の", "地の"):
+            en.setdefault(s["jp"][:2], []).append(font.width(s["en"], G))
+    if en:
+        assert max(en["天の"]) + font.width(" ", G) + max(en["地の"]) <= 180
+
+
 def test_every_en_fits():
     assert windows.main([]) == 0

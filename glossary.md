@@ -141,6 +141,9 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 |---|---|---|---|---|
 | 守護獣 | Guardian | | 守護獣召喚 = the title, "Guardian Recall" | Guardian Beast |
 | 守護獣使い | Guardian user | | | |
+| 天の章 | Sky | | chapter label: 天の章第一話 = "Sky, Episode 1" (save list, D11); 地 Earth, 七龍 Seven Dragons, 覚醒 Awakening, 龍鬼 Ryuki | |
+| 第一話 | Episode 1 | | 話 = Episode N (digits) | |
+| ＴＥＳＴＭＡＰ | TESTMAP | | | |
 | マスター | Master | | a guardian's human partner | |
 | 召喚 | summon | | | |
 | 荏狗覇菟 | Egubado | | the enemy organisation (えぐばど) | |

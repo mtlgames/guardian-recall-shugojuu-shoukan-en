@@ -153,6 +153,12 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
   "？？？？？？？？" placeholder; TITLE/TITLE2/MAP02/MENU/JAPAN/CALL02/RSEL: no text.
 - UNN.PAK: real text only in groups 13 and 23 (strings scan of all 28 groups); g6/g7 hold "データに結合" leftovers
   inside model data (not shown).
+- **DAY save list + card title** (verified 2026-11-23, scenes day_save / day_save_write): each GRDA save holds two
+  episode stages (+0x324/+0x328; 0x8016B154). Label = txd save slot 4 * (stage + 0x80) (0x8016ABE8; 512 = 天の章第一話).
+  List row 0x80169AF0: sprintf `%-6s %-6s ` (two labels, stage < 20) or `%-14s%s` -> 0x80012EE0 -> txd renderer at x
+  0x1E; time `&y()%d%d:%d%d&y()` at x 0xD7. Card title 0x8016AB64: sprintf day.002a0 -> 0x80012EE0 (now
+  title_wide: ASCII -> full-width SJIS, cap 62 bytes) -> 0x80157E68 (0x50 bytes) -> strcpy into the card header
+  (0x8005DEEC). System-file title day.00250 is block-copied (0x31 bytes, 0x8016B074) and must stay full-width text.
 
 ## Free space (candidates; trap-fill and tour before use, phase 5)
 - Disc: ~63k sectors free on disc 1, ~50k on disc 2 (containers.md); new files can be added.

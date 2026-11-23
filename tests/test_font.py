@@ -54,6 +54,8 @@ DIC_ORIG = {0xC1C: "slti v0,s1,8", 0xC24: "addiu s1,s1,1", 0xCD0: "slti v0,s1,8"
             0xD58: "addiu s5,s5,0x1a", 0xD60: "addiu s2,s2,0x1a", 0xD6C: "addiu v0,v0,1", 0x227C: "sll v0,a0,3",
             0xB94: "sll v0,v1,1", 0xD5C: "sb v0,(s2)", 0x2564: "sll v0,v1,1", 0x25A4: "addiu s1,s1,0x1a",
             0x23E8: "lui v0,3", 0x1D20: "sw a0,0x50(sp)"}
+# DAY.BIN (same base): RAM address -> original word
+DAY_ORIG = {0x8016ABB8: "jal 0x80012ee0"}
 
 
 @need_dump
@@ -62,12 +64,14 @@ def test_hooked_words_are_original():
     md = Cs(CS_ARCH_MIPS, CS_MODE_32 + CS_MODE_LITTLE_ENDIAN)
     exe = (TREE / "SLPS_012.97").read_bytes()
     dic = (TREE / "DATA/DIC.BIN").read_bytes()
-    for img, base, orig in ((exe, BASE, ORIG), (dic, 0x80166218, {0x80166218 + o: w for o, w in DIC_ORIG.items()})):
+    day = (TREE / "DATA/DAY.BIN").read_bytes()
+    for img, base, orig in ((exe, BASE, ORIG), (dic, 0x80166218, {0x80166218 + o: w for o, w in DIC_ORIG.items()}),
+                            (day, 0x80166218, DAY_ORIG)):
         for a, want in orig.items():
             i = next(md.disasm(img[a - base:a - base + 4], a))
             assert f"{i.mnemonic} {i.op_str}".replace("$", "").replace(", ", ",") == want, hex(a)
     asm = (ROOT / "asm/hooks.asm").read_text(encoding="utf-8")
-    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | {
+    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | set(DAY_ORIG) | {
         int(re.search(r"STUB\s+equ \((0x[0-9A-F]+)", asm).group(1), 16)}
     assert set(int(x, 16) for x in re.findall(r"^\.org 0x80166218 \+ (0x[0-9A-F]+)", asm, re.M)) <= set(DIC_ORIG)
     assert struct.unpack_from("<I", exe, 0x10)[0] == 0x8006B1CC  # entry point the stub jumps to

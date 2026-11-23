@@ -48,6 +48,8 @@ for name, keys, note in [("day_route", "8 up;60 -;8 up;60 -", "ROUTE: 地の章�
                          ("day_next", "8 down;60 -;8 down;60 -", "NEXT (go on to the next episode)")]:
     rows.append((name, "1", "ovl:16", "", DAY + (";" + keys if keys else "") + ";8 circle;600 -", "5200",
                  "DAY menu > " + note, "day01.mcd"))
+rows.append(("day_save_write", "1", "ovl:16", "", DAY + ";8 up;60 -;8 circle;600 -;8 down;40 -;8 circle;300 -;8 up;30 -;8 circle;1500 -",
+             "6500", "DAY menu > SAVE to block row 2 (writes the run's card: GRDA title = full-width English)", "day01.mcd"))
 rows.append(("day_route_yes", "1", "ovl:16", "", DAY + ";8 up;60 -;8 up;60 -;8 circle;300 -;8 up;30 -;8 circle;900 -",
              "5800", "DAY menu > ROUTE > はい: switches to 地の章 (its first field scene)", "day01.mcd"))
 # the DIARY of any episode: day.txd slot 4*(N-1) for event N (work/day_eps.txt); CARD@N = day01.mcd set to event N

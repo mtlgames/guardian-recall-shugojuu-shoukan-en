@@ -292,7 +292,7 @@ def patch_tree(tree, mode="en"):
     work.mkdir(parents=True, exist_ok=True)
     (work / "font_tables.bin").write_bytes(tables)
     subprocess.run([ARMIPS, ROOT / "asm/hooks.asm", "-strequ", "EXE", exe_path, "-strequ", "TABLES",
-                    work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN",
+                    work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN", "-strequ", "DAY", tree / "DATA/DAY.BIN",
                     "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin",
                     "-sym", work / "hooks.sym"],
                    check=True)

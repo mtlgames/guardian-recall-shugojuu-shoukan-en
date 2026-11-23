@@ -45,6 +45,10 @@ VARIANTS = [
          status="measured"),
     dict(name="guardian list", ids=r"gd\.", jp=r"^[^&]", kind="txd", px=180, lines=1, status="measured"),
     dict(name="tutorial title", ids=r"tu\.", kind="txd", px=280, lines=1, status="measured"),
+    # DAY SAVE/LOAD list row label (day_save): pen x 30, time at x 215 -> 180 px. Stages < 20 draw two labels on one
+    # row ("%-6s %-6s ": Sky + Earth), so those two chapters keep the pair inside 180 (tests/test_batches.py)
+    dict(name="save chapter label", ids=r"save\.(05(1[2-9]|[2-9]\d)|06\d\d|070[048])$", kind="txd", px=180, lines=1,
+         status="measured"),
     dict(name="txd", ids=r"(cf|gd|rep|tu|day|save|op)\.[0-9a-f]{4}$", kind="txd", px="jp", lines=99,
          status="jp width"),
     # unit command menu (tac_unit_menu): fixed box, pen x 193, right border x 225 -> 30 px
