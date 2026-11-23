@@ -409,6 +409,21 @@ payload_end:
 .org 0x80044C24                 ; was: jal 0x80064390 (free)
   nop
 
+; ---- Psi name slots (D13): English names up to 62 px ("Demon Might") vs 2-kanji slots ----
+PSI_W       equ 36             ; tac_power list: box, highlight bar and cost column move right by this
+.org 0x80034228                 ; was: addiu a3, zero, 0x4A (highlight bar width)
+  addiu a3, zero, 0x4A + PSI_W
+.org 0x80034284                 ; was: addiu a3, zero, 0x54 (list box width; box x 0xB8)
+  addiu a3, zero, 0x54 + PSI_W
+.org 0x80034370                 ; was: addiu a1, a1, 0x33 (cost x = row x + 0x33; name at + 0x11)
+  addiu a1, a1, 0x33 + PSI_W
+; 情報 Aura panel (fn 0x80062AF0): slot (x, y) table, only read there; was a 2 x 2 grid (176,80) (240,80) (184,96)
+; (248,96) with the cost at slot x + 0x29: now one column of 4 rows, name at x 224, cost after the longest name
+.org 0x8009BEE4
+  .halfword 208, 80, 208, 96, 208, 112, 208, 128
+.org 0x800630E0                 ; was: addiu a0, a0, 0x29 (cost x)
+  addiu a0, a0, 0x51
+
 .close
 
 ; ---- DIC.BIN (overlay at 0x80166218): dictionary page text, VWF (docs/re/text.md "Dictionary pages") ----

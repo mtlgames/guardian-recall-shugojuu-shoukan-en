@@ -48,7 +48,10 @@ ORIG = {0x8001A6FC: "lui v0,0x801f", 0x80044C48: "move a2,a0", 0x80044480: "addi
         0x80043B60: "bnez v0,0x80043af4", 0x80043D6C: "j 0x80043ab0", 0x8004471C: "bnez v0,0x80044680",
         0x80044928: "j 0x80044680", 0x80017DC8: "lw v0,0x14(a0)", 0x80012F18: "andi v0,a2,4",
         0x80012F24: "andi v0,a2,3", 0x80012F5C: "addiu v0,zero,0x20", 0x80012F64: "addiu v0,zero,0x3a",
-        0x8001E278: "sw v1,0x10(v0)", 0x8004F4B8: "lw v0,0x30(s0)"}
+        0x8001E278: "sw v1,0x10(v0)", 0x8004F4B8: "lw v0,0x30(s0)",
+        0x80034228: "addiu a3,zero,0x4a", 0x80034284: "addiu a3,zero,0x54", 0x80034370: "addiu a1,a1,0x33",
+        0x800630E0: "addiu a0,a0,0x29"}
+DATA_ORIG = {0x8009BEE4: (176, 80, 240, 80, 184, 96, 248, 96)}  # 情報 Aura slot table (halfwords)
 # DIC.BIN (overlay base 0x80166218): file offset -> original first word
 DIC_ORIG = {0xC1C: "slti v0,s1,8", 0xC24: "addiu s1,s1,1", 0xCD0: "slti v0,s1,8", 0xD4C: "addiu s1,s1,1",
             0xD58: "addiu s5,s5,0x1a", 0xD60: "addiu s2,s2,0x1a", 0xD6C: "addiu v0,v0,1", 0x227C: "sll v0,a0,3",
@@ -70,8 +73,10 @@ def test_hooked_words_are_original():
         for a, want in orig.items():
             i = next(md.disasm(img[a - base:a - base + 4], a))
             assert f"{i.mnemonic} {i.op_str}".replace("$", "").replace(", ", ",") == want, hex(a)
+    for a, want in DATA_ORIG.items():
+        assert struct.unpack_from(f"<{len(want)}h", exe, a - BASE) == want, hex(a)
     asm = (ROOT / "asm/hooks.asm").read_text(encoding="utf-8")
-    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | set(DAY_ORIG) | {
+    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | set(DAY_ORIG) | set(DATA_ORIG) | {
         int(re.search(r"STUB\s+equ \((0x[0-9A-F]+)", asm).group(1), 16)}
     assert set(int(x, 16) for x in re.findall(r"^\.org 0x80166218 \+ (0x[0-9A-F]+)", asm, re.M)) <= set(DIC_ORIG)
     assert struct.unpack_from("<I", exe, 0x10)[0] == 0x8006B1CC  # entry point the stub jumps to

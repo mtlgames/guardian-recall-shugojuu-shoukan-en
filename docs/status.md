@@ -3,7 +3,7 @@
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
 - **Phase:** 7. Insert, fit, check (phase 6 closed 2026-11-24: all 76 batches translated, merged and reviewed).
-  Last build: 2026-11-24 `build.py` (all English, re-review fixes + load-delay fix), smoke ok, disc 1 .bin sha1 058ade1f5330.
+  Last build: 2026-11-24 `build.py` (write check ok, Psi slots widened), smoke ok, disc 1 .bin sha1 1221c8d22b09.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -183,21 +183,28 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - 2026-11-24 (9): phase 7 (a) partly: full build of the all-English script ok, `windows.py` fit lint 0, check.py
     green, smoke ok. **asm/hooks.asm load-delay bug fixed** (lbu t1 -> sh t1 in the ASCII advance path; armips had
     warned on every build; now 0 warnings). ev02 + opt_dictionary_page re-shot: VWF spacing correct.
+  - 2026-11-24 (10): **write check** (done-when item 3): `tools/writecheck.py`, run by build.patch on both discs
+    (build fails on any error). insert.LOG records every in-place string, repointed ref word, UNN index rewrite and
+    armips run (`-temp` listing work/asm/hooks.lst = emitted spans; runs > 0x40 bytes must be over dump zeros); romdiff
+    `--writes` rules per EXE/overlay; UNN.PAK non-text groups byte-equal (g9 only inside the font TIM pixels);
+    GRETC.RLZ non-rebuilt entries byte-equal; no other file changed. tests/test_writecheck.py (mini tree, 2 s, in the
+    commit gate) proves stray bytes in EXE/UNN/GRETC/other files and clobbered writes fail. **printf lint**
+    (batches.problems): JP format strings keep their conversions in order; g13 help is NOT printf'd ("100% of", "%d"
+    drew literally in tac_power: shot). **Psi name slots widened** (asm/hooks.asm "Psi name slots"; windows row
+    "Psi name" 64 px measured, 24 ids out of exe_pending.txt).
 - **Next (phase 7: insert, fit, check; done-when = build green: width/overflow lint clean, control codes matched,
-  `romdiff.py` no writes outside allowed ranges):**
-  (a0) romdiff design (not started): build.py has no write check. Plan: in insert.patch_tree save pre-armips copies of
-  EXE/DIC/DAY; check per disc that changed files (work/iso/dN/tree vs work/build/dN/tree) are only EXE, UNN.PAK,
-  GRETC.RLZ, ACTION/BATTLE/HEN/DAY/BRAIN/DIC.BIN; pre-asm image vs pristine within string records (off..off+room)
-  + repointed refs + UNN TOC/sub-tables (script_io.unn_repack); asm diff (post vs pre) only in pristine-zero areas or
-  within a few words of a `.org` in asm/hooks.asm (armips `-temp` gives a listing if needed). Use tools/romdiff.py.
-  (a) Confirm `build.py` + `tools/check.py` + `tools/windows.py` lint on the full English script; add the romdiff
-  check over the built files if build.py lacks one.
-  (a2) EXE widths: 246 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
-  "EXE engine pending"). Measured narrow: Psi name slot 32 px (tac_power + 情報 Aura), SEARCH tabs (Tactic hides the
-  T of Trait), HEN roster for Kaoru/Sayaka/Ichinomiya twins (74 px). Not shot yet: species/guardian/item/trait/Form
-  lists (guardian 情報, SEARCH Trait/Psi tabs, HEN equip), battle Psi/trait labels, 思考 submenu (Change Tactic...),
-  TURN END prompt (action.01094 168 px), boot system-file messages, element icons (action.00148.., battle.00848..;
-  主 orb in 情報 is graphics G17). Phase 7 widens each screen and replaces ids in the pending file with measured rows.
+  `romdiff.py` no writes outside allowed ranges):** lint 0, control codes + printf matched, write check ok: the
+  formal done-when holds. Left before closing: the EXE pending widths (D13).
+  (a2) EXE widths: 222 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
+  "EXE engine pending"). Method that worked for Psi: tools/debug/one.py SCENE -- --debugger --script
+  tools/lua/exec_log.lua --var "ADDRS='0x80043A64,0x80044624'" --var FROM=<late frame> --var MAXHITS=5000, group the
+  log by ra/a0 (x)/a1 (y): the caller's box/column widths are immediates (`re.py dis`), patch them in hooks.asm, shoot
+  with `build.py --qa ID=<longest English>`. Measured narrow: SEARCH tabs (Tactic hides the T of Trait), HEN roster
+  for Kaoru/Sayaka/Ichinomiya twins (74 px). Not shot yet: species/guardian/item/trait/Form lists (guardian 情報,
+  SEARCH Trait/Psi tabs, HEN equip; equipment names in 情報 Head/Hand/Waist/Foot: check they clear the Aura column now
+  at x 208), battle Psi/trait labels (battle.0000c-000d8), 思考 submenu (Change Tactic...), TURN END prompt
+  (action.01094 168 px), boot system-file messages, element icons (action.00148.., battle.00848..; 主 orb in 情報 is
+  graphics G17). Replace ids in the pending file with measured rows as each screen is fixed.
   Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
   (b) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.
   (c) Heap margin: HEN leaves 0x7F88 free at the arena top; if English grows the 2D pool more, consider a smaller

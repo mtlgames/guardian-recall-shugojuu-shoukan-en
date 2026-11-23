@@ -99,6 +99,10 @@ VARIANTS = [
     # tac_break / tac_saved: message box x 54-249, pen x 68
     dict(name="map message box", ids=r"action\.00(c[c-f]|d[0-9a-f]|e[0-9a-f]|f[01])", kind="lines", px=176,
          lines=1, status="measured"),
+    # Psi names (table 0x8009B990): tac_power list widened by PSI_W (asm/hooks.asm): name x 210, cost x 280;
+    # 情報 Aura now one column: name x 224, cost x 289. "Demon Might" (62) + "Rock Shield" shot in both (phase 7)
+    dict(name="Psi name", ids=r"exe\.a6(7[d-f]|8[0-9ab])[0-9a-f]$", kind="lines", px=64, lines=1, bytes="room",
+         status="measured"),
     # widths the English needs beyond what the screen holds or was measured (tools/exe_pending.txt, one id per
     # line): phase 7 widens the box/column or condenses (D4, D13); a shot must replace each with a measured row
     dict(name="EXE engine pending", ids=PENDING, kind="lines", px=170, lines=1, bytes="room",
