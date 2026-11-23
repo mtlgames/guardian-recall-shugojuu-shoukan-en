@@ -165,6 +165,10 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | ストーンサークル | stone circle | | teleporter site (ch. 15) | |
 | 皇龍 | Emperor Dragon | | legendary incarnation of the Seven Dragons (ch. 24) | |
 | 日比谷公園 | Hibiya Park | | waiting spot in Tokyo (ch. 21-24) | |
+| 四門 | Four Gates | | Tokyo's barrier generators around the Diet Building (ch. 25); marker = stone tower 石塔 | |
+| 新宿中央公園 | Shinjuku Central Park | | north gate | |
+| 世田谷トンダーエッグ | Setagaya Tonder Egg | | west gate (Tokyo Dome parody) | |
+| 東京第二国際空港 | Tokyo Second International Airport | | south gate | |
 
 ## Guardian species and named guardians (evd unit names, b001; 改 = "+", 弐 = "II")
 | JP | EN | max | notes | Avoid |

@@ -150,3 +150,10 @@ vignettes: Keiko's habitual polite speech, Miyuki and Keiko "super good friends"
 worries she seems bossy (Yuko: no regrets about following her); Suzune asks Keiko to mind-read the newcomers.
 Sayaka goes to Aomori Gakuin Women's College. At the Diet Building the scouts are spotted; the others arrive in time.
 A warrior: no one nears the Diet Building while the Four Gates are guarded.
+
+## 25-26 (the Four Gates plan)
+Jin: Tokyo's Four Gates (earth-vein energy generators: north Shinjuku Central Park, west Setagaya Tonder Egg, east
+Asakusa Sensoji, south Tokyo Second International Airport) now power a barrier around the Diet Building; they
+restore each other, so all four stone towers must be destroyed at the same moment: the party splits into four
+groups. The Four Gate Generals wait at the gates (Genbu still expects Jin to see through it; Reiko blames Genbu for
+Jin's betrayal). Akira drags shy Kotone into her hero roll call ("That was embarrassing...").

@@ -7,654 +7,725 @@
   {
    "id": "g23.26.000",
    "jp": "知美\n「奴ら、動き始めたわね」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"They've started moving.\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.26.001",
    "jp": "聡美\n「こっちのナワバリで、好き放題\n　やってくれるわ・・・」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Doing whatever they please on our turf...\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.002",
    "jp": "麗子\n「このままさー、東京中を延々、\n　グルグルしてもらってさー」\n{wait}「そのまま、のたれ死んで\n　くれたりとかしない？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Like, can't we just let 'em go round and\nround Tokyo forever?\"\n{wait}\"And maybe they'll just drop dead out there\nor something?\"\n{wait}",
    "slots": [
     2
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.003",
    "jp": "めぐみ\n「奴らは来る」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"They'll come.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.004",
    "jp": "めぐみ\n「この結界・・・」\n{wait}「あいつがバカでなければ、\n　気づくはずだ。奴らは必ず来る」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"This barrier...\"\n{wait}\"Unless she's a fool, she'll notice it. They\nwill come.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.26.005",
    "jp": "聡美\n「あいつは敵にまわったのよ、\n　それなのに・・・」\n{wait}「相変わらずなのね」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"She's gone over to the enemy, and\nstill you...\"\n{wait}\"Same as ever, aren't you.\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.006",
    "jp": "麗子\n「仁の裏切りは、玄武の責任よ。\n　・・・ねぇ？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Jin's betrayal is Genbu's responsibility.\n...Right?\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.007",
    "jp": "知美\n「今回は貸しにしておいてあげるわ」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"This time, I'll let you owe me one.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.008",
    "jp": "めぐみ\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"......\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.26.009",
    "jp": "晶\n「ま、まだ追ってくるですぅ～」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Th-they're still chasing us, yes indeed~\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.26.010",
    "jp": "美里\n「あーもう、しつこいっ！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Ugh, so persistent!\"\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.011",
    "jp": "瞳\n「しかし、大方は片づけたな。\n　ここで一気にケリをつけるぞ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"But we've dealt with most of them. Let's\nfinish this in one go.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.012",
    "jp": "美由紀\n「また来る？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Will more come?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.26.013",
    "jp": "裕子\n「かもね」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Maybe.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.014",
    "jp": "晶\n「早くここから逃げるです、\n　また来たら困るです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Let's get away from here quick, yes indeed.\nIt'll be bad if more come.\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.015",
    "jp": "唯\n「でもグループ分け、するんでしょ？\n　どうするの？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"But we're splitting into groups, aren't we?\nHow will we do it?\"\n{wait}",
    "slots": [
     15
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.016",
    "jp": "美由紀\n「あたし真由ちゃんと行く、\n　真由ちゃんと一緒がいい！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I'm going with Mayu-chan! I wanna be with\nMayu-chan!\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.017",
    "jp": "真由\n「まーた勝手なこつば言うて」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"There you go again, sayin' whatever\nyou like.\"\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.018",
    "jp": "裕子\n「問題はさ、ちゃんと同時に\n　出来るかってコトだよね」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"The problem is whether we can really do it all\nat the same time.\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.019",
    "jp": "美里\n「当然、妨害されるわね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Naturally, they'll get in our way.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.020",
    "jp": "瞳\n「四門将が待ち構えているからな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"The Four Gate Generals will be lying in wait.\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.021",
    "jp": "ゆかり\n「とにかく、グズグズしてられないわ、\n　急ぎましょう」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Anyway, we can't dawdle. Let's hurry.\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.022",
    "jp": "真由\n「誰が、どこさん行くと？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Who's goin' where?\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.023",
    "jp": "瞳\n「目印は石塔だ」\n{wait}「同時刻に石塔を壊す、わかったな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"The marker is a stone tower.\"\n{wait}\"Destroy the stone towers at the same time.\nUnderstood?\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.26.024",
    "jp": "美由紀\n「うん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah!\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.26.025",
    "jp": "真由\n「やってみる」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I'll give it a shot.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.026",
    "jp": "美里\n「わかったわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Got it.\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.027",
    "jp": "景子\n「やってみます」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I'll do my best.\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.028",
    "jp": "ちかな\n「心配しなさんな」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Don't you worry.\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.029",
    "jp": "鈴音\n「まーかして」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Leave it to me.\"\n{wait}",
    "slots": [
     29
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.030",
    "jp": "琴音\n「はい」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Okay.\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.031",
    "jp": "蘭\n「できるかな・・・」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Can I do it...\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.032",
    "jp": "裕子\n「ＯＫ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"OK.\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.033",
    "jp": "ゆかり\n「大丈夫よ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"It'll be fine.\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.034",
    "jp": "晶\n「任務了解です！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Mission acknowledged, yes indeed!\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.035",
    "jp": "唯\n「ちょっと不安・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"I'm a little nervous...\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.036",
    "jp": "さやか\n「へ～きへ～きぃ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"No pro-oblem, no pro-oblem~\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.037",
    "jp": "かおる\n「カンタン、カンタン」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Easy-peasy.\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.038",
    "jp": "るり\n「がんばるわ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"I'll do my best.\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.039",
    "jp": "巴澄\n「同時か・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"At the same time, huh...\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.040",
    "jp": "武神\n「承知！」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Understood!\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.199",
    "jp": "かおる\n「つっかれる～」\n{wait}「東京ってなんか、\n　イヤな思い出になりそー」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"I'm beat~\"\n{wait}\"Tokyo's gonna end up a lousy memory.\"\n{wait}",
    "slots": [
     199
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.200",
    "jp": "ちかな\n「仕方ないさ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Can't be helped.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.201",
    "jp": "かおる\n「おなか、へんない？」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Aren't you hungry?\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.202",
    "jp": "ちかな\n「死にそー」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Starving.\"\n{wait}",
    "slots": [
     202
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.203",
    "jp": "かおる\n「ここんとこ、口にするのは\n　変な回復薬ばっかでさ」\n{wait}「まいっちゃうよ」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Lately, all we've eaten is weird recovery\nmedicine.\"\n{wait}\"I'm sick of it.\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.204",
    "jp": "ちかな\n「まったく」\n{wait}「・・・って、あれ？\n　そんなに薬あったっけ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Tell me about it.\"\n{wait}\"...Wait, huh? Did we even have that much\nmedicine?\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.205",
    "jp": "かおる\n「もらったの」\n{wait}「闘士のみなさん、いただきまーす」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"I got it from 'em.\"\n{wait}\"Thanks for the grub, warriors!\"\n{wait}",
    "slots": [
     205
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.206",
    "jp": "ちかな\n「わはは、やるねー」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Hahaha, nice one.\"\n{wait}",
    "slots": [
     206
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.207",
    "jp": "ゆかり\n「うまくいくかしら・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Will this go well...\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.26.208",
    "jp": "巴澄\n「別れて行動するのが、心配か」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Worried about splitting up?\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.209",
    "jp": "ゆかり\n「まあね・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Well...\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.210",
    "jp": "巴澄\n「なんとかなるさ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"We'll manage.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.211",
    "jp": "ゆかり\n「楽観的ね、一度は四門将と顔合わせ\n　してる人が。不安じゃないの？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Optimistic, for someone who's already faced\nthe Four Gate Generals once. Aren't you\nworried?\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.212",
    "jp": "巴澄\n「他に選択の余地はない。\n　それに・・・」\n{wait}「みんな、着実に力をつけている。\n　・・・大丈夫、うまくいく」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"There's no other choice. Besides...\"\n{wait}\"Everyone's steadily getting stronger. ...It'll\nbe all right. It'll go well.\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.213",
    "jp": "ゆかり\n「そう願いたいわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I hope so.\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.214",
    "jp": "巴澄\n「信じる事も大切だよ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Believing matters too.\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.215",
    "jp": "晶\n「きっ・・・きましたきました、\n　きましたですー」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"H... here it comes, here it comes, here it\ncomes, yes indeed!\"\n{wait}",
    "slots": [
     215
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.216",
    "jp": "琴音\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"......\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.217",
    "jp": "晶\n「敵本部基地への突入作戦です！」\n{wait}「しかし、敵基地は無敵のバリアーに\n　よって守られていたっ！\n　これを破らぬ限り道は開けない！」\n{wait}「くーっ、燃える、燃えすぎる\n　シチュエーションですうっ！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"An assault on the enemy headquarters!\"\n{wait}\"But the enemy base was protected by an\ninvincible barrier! Until it is broken, there is no\nway forward!\"\n{wait}\"Ooh, it's thrilling, a much-too-thrilling\nsituation, yes indeed!\"\n{wait}",
    "slots": [
     217
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.218",
    "jp": "琴音\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"......\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.219",
    "jp": "晶\n「あーもー、琴音さんノリが悪いです」\n{wait}「ここはドババーーーーーーーンっと\n　完全燃焼！」\n{wait}「そして私たちの友情パワーで、\n　一気呵成に敵を打ち破るです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Aww, Kotone-san, you're no fun,\nyes indeed.\"\n{wait}\"This is where we go KABOOOOOOOM and burn\nit all up!\"\n{wait}\"And then, with the power of our\nfriendship, we smash the enemy in one fell\nswoop, yes indeed!\"\n{wait}",
    "slots": [
     219
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.220",
    "jp": "琴音\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"......\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.221",
    "jp": "晶\n「さあ、一緒にっ」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Now, together!\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.222",
    "jp": "晶\n「百鬼夜行の世の中に、ひときわ輝く\n　星ひとーつ！」\n{wait}「人呼んでさすらいのヒーロー、\n　雷晶ア～ンド・・・」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"In a world where a hundred demons roam\nthe night, one star shines brightest of all!\"\n{wait}\"They call me the wandering hero, Akira\nIkazuchi, aaand...\"\n{wait}",
    "slots": [
     222
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.223",
    "jp": "琴音\n「い、一の宮琴音・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"K-Kotone Ichinomiya...\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.224",
    "jp": "晶\n「ただいま参上！　ですぅ～。\n　く～、決まった～！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"...here at your service! Yes indeed~ Ooh,\nnailed it~!\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.225",
    "jp": "琴音\n「・・・あの・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"...Um...\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.226",
    "jp": "晶\n「はいです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Yes indeed!\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.227",
    "jp": "琴音\n「恥ずかしい・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"That was embarrassing...\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.228",
    "jp": "晶\n「なぜ・・・！？」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Why...!?\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.229",

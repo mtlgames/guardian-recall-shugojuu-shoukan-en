@@ -247,479 +247,531 @@
   {
    "id": "g23.25.024",
    "jp": "裕子\n「そーだそーだー」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Yeah, yeah, what she said!\"\n{wait}",
    "slots": [
     24
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.025",
    "jp": "ちかな\n「・・・ったく。\n　ま、済んじまったコトは仕方ない」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Good grief. Well, what's done is done.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.026",
    "jp": "ゆかり\n「それより、なにか分かったの？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"More importantly, did you find out\nanything?\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.027",
    "jp": "ちかな\n「いや、特には・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"No, not really...\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.028",
    "jp": "瞳\n「このままでは、\n　議事堂には近づけない」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"As things stand, we can't get near the Diet\nBuilding.\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.029",
    "jp": "ちかな\n「なんだい、イキナリ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"What's this all of a sudden?\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.030",
    "jp": "巴澄\n「どういう事だ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"What do you mean?\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.031",
    "jp": "瞳\n「間違いない」\n{wait}「私たちが東京に入り込んだ事で、\n　議事堂に結界が張られた」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"There's no doubt about it.\"\n{wait}\"Because we entered Tokyo, a barrier has\nbeen raised around the Diet Building.\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.032",
    "jp": "美里\n「結界？\n　東京に張られていたような？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"A barrier? Like the one that was\nover Tokyo?\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.033",
    "jp": "瞳\n「そうだ」\n{wait}「東京には、龍脈を中心にして、\n　四方に門が配されている」\n{wait}「門と呼んではいるが、これも地脈の\n　一種だ。簡単に言えばエネルギーの\n　発生装置のようなものだな」\n{wait}「これが東京全体に結界をつくり、\n　他者の侵入をはばんでいた。\n　今まではな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Yes.\"\n{wait}\"Tokyo has gates placed in the four\ndirections, with the dragon vein at\nthe center.\"\n{wait}\"We call them gates, but they're a kind of\nearth vein too. Simply put, they're something\nlike energy generators.\"\n{wait}\"They formed a barrier over all of Tokyo\nand kept outsiders from getting in. Until\nnow, that is.\"\n{wait}",
    "slots": [
     33
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.034",
    "jp": "裕子\n「じゃ、今は」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"And now?\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.035",
    "jp": "瞳\n「そのエネルギーを内側に向け、中心に\n　ある議事堂に結界をつくっている」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"They've turned that energy inward,\nforming a barrier around the Diet Building at\nthe center.\"\n{wait}",
    "slots": [
     35
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.036",
    "jp": "巴澄\n「なるほどな。ここに四門将がいない\n　わけだ。警備の甘さも納得がいく」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I see. So that's why the Four Gate Generals\naren't here. That explains the lax guard too.\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.037",
    "jp": "晶\n「じゃ、ここまで来て入れないですか！\n　そんな～」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"So we came all this way and can't get in, yes\nindeed!? Nooo~\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.038",
    "jp": "美由紀\n「どうしようもないの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Isn't there anything we can do?\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.039",
    "jp": "瞳\n「いや・・・方法はある」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"No... there is a way.\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.040",
    "jp": "巴澄\n「四門を壊すのか」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Destroy the Four Gates?\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.041",
    "jp": "瞳\n「その通り。\n　だがこれが、そう簡単じゃない」\n{wait}「四門はそれぞれ影響しあっている」\n{wait}「だから、どこか一ヶ所でも残せば、\n　そのエネルギーに影響されて、他も\n　簡単に修復されてしまう」\n{wait}「つまり・・・すべてを同時に壊す\n　必要があるんだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Exactly. But that's not so simple.\"\n{wait}\"The Four Gates all affect one another.\"\n{wait}\"So if even one is left standing, its energy will\neasily restore the others.\"\n{wait}\"In other words... they all have to be\ndestroyed at the same time.\"\n{wait}",
    "slots": [
     41
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.042",
    "jp": "裕子\n「そうすっと・・・」\n{wait}「四つのグループに別れて、別々に\n　動くしかないってことか」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"So that means...\"\n{wait}\"We've got no choice but to split into four\ngroups and move separately.\"\n{wait}",
    "slots": [
     42
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.043",
    "jp": "美由紀\n「四門って、どこにあるの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Where are the Four Gates?\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.044",
    "jp": "瞳\n「龍脈のある国会議事堂を中心に、\n　北は新宿中央公園」\n{wait}「西は世田谷トンダーエッグ、\n　東は浅草、浅草寺。そして・・・\n　南は東京第二国際空港」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"With the National Diet Building and its dragon\nvein at the center: to the north, Shinjuku\nCentral Park.\"\n{wait}\"To the west, the Setagaya Tonder Egg. To\nthe east, Asakusa, Sensoji. And... to the\nsouth, Tokyo Second International Airport.\"\n{wait}",
    "slots": [
     44
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.045",
    "jp": "真由\n「とにかく、\n　こっから脱出するのが先決やね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Anyway, first thing's gettin' outta here.\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.199",
    "jp": "瞳\n「なぜ来た」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Why did you come?\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.25.200",
    "jp": "美由紀\n「だって・・・心配だったの」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"'Cause... I was worried.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.201",
    "jp": "瞳\n「それでは私たちの偵察の意味が\n　ないだろう」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Then what was the point of us scouting?\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.202",
    "jp": "美由紀\n「ごめんなさい・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I'm sorry...\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.203",
    "jp": "瞳\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"......\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.204",
    "jp": "美由紀\n「・・・怒ってる？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Are you mad?\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.205",
    "jp": "瞳\n「・・・助かったよ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...You saved us.\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.206",
    "jp": "美由紀\n「えへへ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ehehe.\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.207",
    "jp": "鈴音\n「感謝しなさいよ。\n　い～いタイミングだったでしょ？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"You should be grateful. Pretty perfect\ntiming, wasn't it?\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.25.208",
    "jp": "ちかな\n「ちぇっ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Tch.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.209",
    "jp": "鈴音\n「なーによ、その態度」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"What's with that attitude?\"\n{wait}",
    "slots": [
     209
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.210",
    "jp": "ちかな\n「わかったよ、くそー・・・\n　ほらよっ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Fine, dang it... Here.\"\n{wait}",
    "slots": [
     210
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.211",
    "jp": "鈴音\n「へへっ、まいど」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hehe, much obliged.\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.212",
    "jp": "琴音\n「こわい顔・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Scary face...\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.25.213",
    "jp": "巴澄\n「あたりまえだ。\n　おまえたちときたら・・・」\n{wait}「あんたは・・・\n　話すのは、はじめてだね」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Of course it is. You lot are just...\"\n{wait}\"You... This is the first time we've talked,\nisn't it?\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.214",
    "jp": "琴音\n「私・・・暗いから」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"I'm... kind of gloomy.\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.215",
    "jp": "巴澄\n「そ・・・そうか」\n{wait}（あの、はねっかえりの片割れとは\n　思えないな・・・）\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I... I see.\"\n{wait}(Hard to believe she's the other half of that\ntomboy...)\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.216",
    "jp": "琴音\n「・・・美由紀ちゃんたち、\n　いい子だから」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"...Miyuki-chan and the others are good girls.\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.217",
    "jp": "巴澄\n「・・・？　ああ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"...? Ah.\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.218",
    "jp": "琴音\n「あんまり怒らないで」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"So please don't be too angry.\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.219",
    "jp": "巴澄\n「・・・わかったよ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"...All right.\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.220",
    "jp": "真由\n「大丈夫？　唯さん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You okay, Yui-san?\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.221",
    "jp": "唯\n「ええ、私は平気よ。\n　それにしても・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Yes, I'm fine. But still...\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.222",
    "jp": "真由\n「ん？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Hm?\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.223",
    "jp": "唯\n「結局、こうなるのね。\n　みんなまとめてゾロゾロと」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"It turned out like this after all. All of us\ntrooping along together.\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.224",
    "jp": "真由\n「唯さんたちが、とっとと\n　戻ってこんとが悪かよ」\n{wait}「それに・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"It's your fault for not comin' back quick,\nYui-san.\"\n{wait}\"Besides...\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.225",
    "jp": "唯\n「それに？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Besides?\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.226",
    "jp": "真由\n「考えてむっと、おとなしく人の帰りば\n　待てるメンバーじゃなか」\n{wait}「あたしも含めてやけど・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Come to think of it, this ain't a bunch that\ncan sit quiet and wait for folks to come back.\"\n{wait}\"Me included...\"\n{wait}",
    "slots": [
     226
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.25.227",
    "jp": "唯\n「ふふ、そうね、ほんと」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Hehe, that's true, really.\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.228",
    "jp": "真由\n「そういうこつやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"That's how it is.\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

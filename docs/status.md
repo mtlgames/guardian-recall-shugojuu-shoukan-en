@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (batches b001-b023 merged = unit names + scenario 00-18.234; next b024).
+- **Phase:** 6. Translate in progress (batches b001-b030 merged = unit names + scenario 00-26.228; next b031).
   Last build: 2026-11-23 `build.py` (English, b001-b004): ev02 shows "Yumi / "It failed?"" in the scenario box.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -107,7 +107,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Sayaka, Ruri; glossary Hime-chan, Operation Dam-Dam, stone circle. Robot announcements in CAPS; Sayaka's mangled
     proverb = "Every clown has a silver..."; ロッカー pun = rocker / rocking chair. g23.18.019 is an empty 「」 in JP
     (kept as "").
-- **Next:** (a) Phase 6: translate b024..b057 in order (a worker does ~8-9 batches per context: b016-b023 in one) (`docs/translator-brief.md`; after each block add its summary
+  - 2026-11-23 (15): b024-b030 merged (scenario 18.246-26.228), synopsis 19-26. Glossary: Emperor Dragon (皇龍),
+    Hibiya Park, Four Gates + the four gate sites. Takegami (old warrior, "have at thee") joins in ch. 23. Voice
+    check: Chikana never drops g's (0 of 139 lines); only Mayu (and Kaoru lightly) do.
+- **Next:** (a) Phase 6: translate b031..b057 in order (a worker does ~8-9 batches per context: b016-b023 in one) (`docs/translator-brief.md`; after each block add its summary
   to docs/synopsis.md, merge NEW TERMs into glossary.md), then split and translate g13 (battle), txd, exe/overlays
   (`batches.py split --only 'g13'` etc.; txd needs its own &n() via windows.wrap, EXE strings byte/room budgets).
   Then the review pass (fresh read-only pass per batch file or codex exec after 2026-11-26).
