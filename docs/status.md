@@ -2,8 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Width gate in progress (VWF in every renderer, evd name hook, EXE string relocation). Last build:
-  2026-11-23 `build.py --marker` (evd keys + relocated EXE labels).
+- **Phase:** 5. Width gate nearly done (every record has a budget, torture line passed in all renderers); left: a
+  full marker tour + Japanese-left check. Last build: 2026-11-23 `tools/torture.py` (marker + torture overrides):
+  rebuild with `build.py --marker` before the tour.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -81,15 +82,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     eye). Scenes tac_ring_help, tac_info_help(2) (the latter show no help: trigger unknown).
     Marker tour of this build: smoke ok, 53/54 menu/tac/opt/day scenes ok (tac_search = the original's own stall);
     tac_unit_menu shows relocated labels (E4t 15 chars) and keyed evd names.
-- **Next (phase 5 rest, done-when = every variant measured + torture line):** (0) look over the new marker shots for
-  any Japanese left by a missed ref (work/qa/warp/*/final.png); (1) **ring > UNIT crash**
-  with 20-byte evd names (exception pc 0x641C ra 0xD00 in ACTION): find the fixed buffer in the UNIT list draw
-  (`one.py tac_unit -- --script tools/lua/pc_log.lua`, MARKER evd length in insert.gretc_files), then lift the
-  10-byte cap in windows.py; measure the UNIT list name column (x 25 to Ali ~x 100); (2) g13 help: 02 item help
-  (needs a map with items), 05/06/07/10/18 trigger in 情報; (3) txd screens (gd tu day save op, cf headers) from
-  work/qa/warp_orig vs warp with inkrows.py; txd `&e()` centring: check whether it counts bytes like the replay list;
-  (4) EXE/overlay px per screen (unit menu, ring labels, tac_* windows, title/DAY menus); BRAIN menu strings have no
-  refs (base unknown) and must fit in place; (5) torture line through txd, generic UI and DIC renderers.
+  - 2026-11-23 (11): **2D primitive pool crash fixed** (asm/hooks.asm pool_grow; docs/re/text.md "2D primitive
+    pool"): the game never checked the pool's malloc; with our heap cut, long text made it fail and glyph packets
+    overwrote the kernel. Both ring > UNIT with 20-char names and the original's own tac_search stall now pass.
+    Budgets: evd names 75 px (UNIT list, measured; 10-byte cap gone), diary page per `&s()` segment (windows.segments,
+    right 273), guardian list 180, tutorial title 280, unit command menu 30; the rest (EXE/overlay, other txd, battle
+    help 02/07/10) get the Japanese line's own width as a floor (`px="jp"`, status "jp width"). Fit lint 0, no record
+    without a budget. Glyph torture (tools/torture.py) correct in generic, txd and DIC renderers. Probe
+    tools/lua/pool2d.lua.
+- **Next:** (a) `build.py --marker`, then the full marker tour `regen.py --timeout 2400` (all 122+ scenes, expect
+  tac_search ok now) and look over the menu/tac/opt/day finals for Japanese left by a missed ref; that closes phase 5.
+  (b) Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp width"
+  floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of abbreviating.
+  (c) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.
 - **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).

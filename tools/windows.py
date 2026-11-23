@@ -30,14 +30,26 @@ VARIANTS = [
     dict(name="power help", ids=r"g13\.03\.", kind="lines", px=232, lines=3, status="measured"),
     dict(name="think help", ids=r"g13\.04\.", kind="lines", px=117, lines=4, status="measured"),
     dict(name="field help", ids=r"g13\.(05|06|17|18)\.", kind="lines", px=220, lines=3, status="measured"),
-    dict(name="battle help", ids=r"g13\.", kind="lines", px=220, lines=3, status="guess"),
+    # 02 item help (10-char lines), 07 ability / 10 think + reading (17-char lines): trigger not yet found in game
+    dict(name="battle help", ids=r"g13\.", kind="lines", px="jp", lines=3, status="jp width"),
     dict(name="charfile profile", ids=r"cf\.", jp=r"^&s\(165,87\)", kind="txd", px=129, lines=5, status="measured"),
     dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, lines=99, status="measured"),
     # centred by byte count (start x = 159.5 - 3.25 * bytes), so bytes also keep it clear of the number column
     dict(name="replay list", ids=r"rep\.", kind="txd", px=223, lines=1, bytes=34, status="measured"),
-    dict(name="txd", ids=r"(cf|gd|rep|tu|day|save|op)\.[0-9a-f]{4}$", kind="txd", px=200, lines=99, status="guess"),
-    dict(name="EXE/overlay string", ids=r"(exe|action|battle|hen|day|brain)\.[0-9a-f]{5}$", kind="lines", px=200, lines=99,
-         bytes="room", status="guess"),
+    # one record = the whole diary page; each &s(x,y) segment gets right - x px (x 0 = &e() centred: right - left)
+    dict(name="diary page", ids=r"day\.", jp=r"^&f\(32,32\)&s\(116,26\)", kind="txd", right=273, left=40, lines=5,
+         status="measured"),
+    dict(name="guardian list", ids=r"gd\.", jp=r"^[^&]", kind="txd", px=180, lines=1, status="measured"),
+    dict(name="tutorial title", ids=r"tu\.", kind="txd", px=280, lines=1, status="measured"),
+    dict(name="txd", ids=r"(cf|gd|rep|tu|day|save|op)\.[0-9a-f]{4}$", kind="txd", px="jp", lines=99,
+         status="jp width"),
+    # unit command menu (tac_unit_menu): fixed box, pen x 193, right border x 225 -> 30 px
+    dict(name="unit command menu", ids=r"exe\.", jp=r"^(移動|情報|行動|思考|待機)$", kind="lines", px=30, lines=1,
+         bytes="room", status="measured"),
+    # floor: the Japanese's own ink width (13 px per full-width char), which its window holds by construction;
+    # raise per screen with a measured row above when the English needs more
+    dict(name="EXE/overlay string", ids=r"(exe|action|battle|hen|day|brain)\.[0-9a-f]{5}$", kind="lines", px="jp",
+         lines=99, bytes="room", status="jp width"),
     # evd names go through the evd_name hook (any length); narrowest view = ring > UNIT list name column (x 25, Ali
     # values from x 103): 75 px. The 20-byte crash there was the 2D pool (asm/hooks.asm pool_grow), not the name.
     dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=75, lines=1, status="measured"),
@@ -104,15 +116,34 @@ def lint(s, v, glyphs):
             errs.append(f"{b} bytes > {n} in place")
     # a scenario record opens with the speaker's name line when the Japanese does (not 「 （ 『 or an indent)
     named = v["kind"] == "scenario" and "\n" in s["jp"] and s["jp"][0] not in "「（『　"
-    for i, p in enumerate(pages(v, s["en"])):
-        body = p[1:] if named and i == 0 else p
-        if len(body) > v["lines"]:
-            errs.append(f"{len(body)} lines > {v['lines']}")
-        for line in p:
-            w = font.width(line, glyphs)
-            if w > v["px"]:
-                errs.append(f"{w} px > {v['px']}: {line!r}")
+    for text, px in segments(v, s["en"], s["jp"]):
+        for i, p in enumerate(pages(v, text)):
+            body = p[1:] if named and i == 0 else p
+            if len(body) > v["lines"]:
+                errs.append(f"{len(body)} lines > {v['lines']}")
+            for line in p:
+                w = font.width(line, glyphs)
+                if w > px:
+                    errs.append(f"{w} px > {px}: {line!r}")
     return errs
+
+
+def jp_px(jp):
+    """Widest Japanese line in px as the original draws it: 13 per full-width char, 6 per ASCII byte."""
+    text = re.sub(r"&[ns]\([^)]*\)|\{[^}]*\}", "\n", jp)  # new line / new position / control code
+    text = MARKUP.sub("", text)  # colour, font, centring: no ink
+    return max(sum(13 if ord(c) > 0x7F else 6 for c in line) for line in text.split("\n"))
+
+
+def segments(v, text, jp=""):
+    """[(text, px)]: the whole text at the variant's px, or (variants with `right`) one entry per &s(x,y) segment."""
+    if "right" not in v:
+        return [(text, jp_px(jp) if v["px"] == "jp" else v["px"])]
+    parts = re.split(r"&s\((-?\d+),-?\d+\)", text)
+    out = [(parts[0], v["right"] - v["left"])]
+    for x, seg in zip(parts[1::2], parts[2::2]):
+        out.append((seg, v["right"] - (int(x) if int(x) > 0 else v["left"])))
+    return out
 
 
 def records():

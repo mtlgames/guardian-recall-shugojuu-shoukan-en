@@ -31,7 +31,24 @@ def test_in_place_records_get_a_byte_budget():
     assert windows.lint(s, v, G) == []
     s["en"] = "Filename"
     assert windows.lint(s, v, G) == ["8 bytes > 7 in place"]
-    assert windows.variant({"id": "day.0000", "jp": "あ"})["name"] == "txd"  # 4-digit txd ids, not DAY.BIN strings
+    assert windows.variant({"id": "day.0600", "jp": "あ"})["name"] == "txd"  # 4-digit txd ids, not DAY.BIN strings
+
+
+def test_exe_floor_is_the_japanese_width():
+    s = {"id": "exe.00900", "jp": "暴走警告", "room": 99, "en": "Rampage alert!"}
+    v = windows.variant(s)
+    assert v["px"] == "jp" and windows.segments(v, s["en"], s["jp"]) == [(s["en"], 52)]
+    assert windows.lint(s, v, G) == [f"{font.width(s['en'], G)} px > 52: 'Rampage alert!'"]
+
+
+def test_txd_segments_get_right_minus_x():
+    jp = "&f(32,32)&s(116,26)&c(0)天"
+    v = windows.variant({"id": "day.0000", "jp": jp})
+    assert v["name"] == "diary page"
+    segs = windows.segments(v, "&f(32,32)&s(116,26)Ch. 1&s(0,43)&e()Title&d()&s(165,65)Miyuki&s(40,120)Body")
+    assert [px for _, px in segs] == [233, 157, 233, 108, 233]
+    s = {"id": "day.0000", "jp": jp, "en": "&s(165,65)" + "M" * 40}
+    assert windows.lint(s, v, G)[0].endswith("px > 108: '" + "M" * 40 + "'")
 
 
 def test_every_en_fits():
