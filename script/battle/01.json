@@ -87,7 +87,7 @@
   {
    "id": "g13.01.008",
    "jp": "ちかな\n「まいったね。\n　こんなとこでリタイアかい」\n{wait}",
-   "en": "Chikana\n\"Well, ain't that a pain. Retiring here, huh?\"\n{wait}",
+   "en": "Chikana\n\"Well, that's a pain. Retiring here, huh?\"\n{wait}",
    "slots": [
     8
    ],
@@ -97,7 +97,7 @@
   {
    "id": "g13.01.009",
    "jp": "ちかな\n「ふざけやがって・・・」\n{wait}",
-   "en": "Chikana\n\"You dirty...\"\n{wait}",
+   "en": "Chikana\n\"Quit messing with me...\"\n{wait}",
    "slots": [
     9
    ],
@@ -169,7 +169,7 @@
   {
    "id": "g13.01.016",
    "jp": "知美\n「なぜ・・・この私が倒れる・・・」\n{wait}",
-   "en": "Tomomi\n\"Why... why would I fall...?\"\n{wait}",
+   "en": "Tomomi\n\"Why... would someone like me fall...?\"\n{wait}",
    "slots": [
     16
    ],
@@ -199,7 +199,7 @@
   {
    "id": "g13.01.019",
    "jp": "麗子\n「うそでしょお！？」\n{wait}",
-   "en": "Reiko\n\"You've gotta be kidding me!?\"\n{wait}",
+   "en": "Reiko\n\"You've gotta be kidding me-e!?\"\n{wait}",
    "slots": [
     19
    ],
@@ -472,7 +472,7 @@
   {
    "id": "g13.01.048",
    "jp": "武神\n「無念」\n{wait}",
-   "en": "Takegami\n\"Alas.\"\n{wait}",
+   "en": "Takegami\n\"How mortifying.\"\n{wait}",
    "slots": [
     48
    ],

@@ -168,8 +168,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     True Ryuki, boss-name table beside Nue). Skill-rank naming reconciled (prose Melee/Ranged/Healing, status
     graphic Short/Long/Heal, EXE labels Heal/Ranged/Melee: consistent). New Minors in docs/polish.md incl. "orphan
     pages" (fitter leaves 1-3 words alone on a {wait} page: 14 ids listed) and Memory Card capitalisation.
+  - 2026-11-24 (7): **phase-6 review fixes** (.harness/reviews/...-phase6.md): 4 voice Minors re-rated Important and
+    fixed (01.016, 04.047, 29.016, 32.210); synopsis 35-42 written (story ends at 42; ending = FMV); style-reference
+    rows Takegami/Kaoru/Reiko/Satomi/Megumi; glossary "Decisions from earlier batches" filled; translator brief "Notes
+    from review"; new `docs/reviewer-brief.md`. **Independent re-review** with `translate-retro-game:reviewer`
+    subagents (one per pairs file, read-only): b031-b060 done, all approved after ~30 Important fixes (mostly
+    flattened voices: Mayu dialect, Takegami register, Reiko/Tomomi; plus 30.001 addition, 34.218 reversed-reading,
+    49.355 grammar, g13.03.004 glossary). docs/review.md table + Minors in docs/polish.md.
+- **Next (phase 6 review, finish first):** re-review b061, b062-b063, b064-b065, b066, b067, b068, b069, b070, b071,
+  b072-b073, b074-b076 the same way (pairs files already regenerated; prompt: "Read docs/reviewer-brief.md first and
+  follow it exactly... Pairs file: work/qa/review/pairs/bNNN.txt"). Rate voice flattening Important; fix via
+  work/tl/bNNN.out.tsv + `batches.py merge bNNN --overwrite`, grep out.tsv for copies of a fixed line; record rows
+  in docs/review.md "Independent re-review" (table rows are out of order: sort when finishing); Minors to polish.md.
+  Each report costs ~1k tokens of the main context; launch 8 at a time in the background.
 - **Next (phase 7: insert, fit, check; done-when = build green: width/overflow lint clean, control codes matched,
   `romdiff.py` no writes outside allowed ranges):**
+  (a0) romdiff design (not started): build.py has no write check. Plan: in insert.patch_tree save pre-armips copies of
+  EXE/DIC/DAY; check per disc that changed files (work/iso/dN/tree vs work/build/dN/tree) are only EXE, UNN.PAK,
+  GRETC.RLZ, ACTION/BATTLE/HEN/DAY/BRAIN/DIC.BIN; pre-asm image vs pristine within string records (off..off+room)
+  + repointed refs + UNN TOC/sub-tables (script_io.unn_repack); asm diff (post vs pre) only in pristine-zero areas or
+  within a few words of a `.org` in asm/hooks.asm (armips `-temp` gives a listing if needed). Use tools/romdiff.py.
   (a) Confirm `build.py` + `tools/check.py` + `tools/windows.py` lint on the full English script; add the romdiff
   check over the built files if build.py lacks one.
   (a2) EXE widths: 246 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md

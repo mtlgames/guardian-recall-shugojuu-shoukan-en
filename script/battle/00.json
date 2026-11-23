@@ -17,7 +17,7 @@
   {
    "id": "g13.00.001",
    "jp": "真由\n「なんとかなるもんやね」\n{wait}",
-   "en": "Mayu\n\"Guess it all worked out, huh.\"\n{wait}",
+   "en": "Mayu\n\"Guess things work out somehow, huh.\"\n{wait}",
    "slots": [
     1
    ],
@@ -109,7 +109,7 @@
   {
    "id": "g13.00.014",
    "jp": "晶\n「万事解決ですっ！」\n{wait}",
-   "en": "Akira\n\"All's well that ends well!\"\n{wait}",
+   "en": "Akira\n\"All settled, yes indeed!\"\n{wait}",
    "slots": [
     14
    ],

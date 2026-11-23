@@ -222,7 +222,7 @@
   {
    "id": "g23.38.028",
    "jp": "武神\n「ふうむ、面白い！」\n{wait}",
-   "en": "Takegami\n\"Hmm, interesting!\"\n{wait}",
+   "en": "Takegami\n\"Hmm, most intriguing!\"\n{wait}",
    "slots": [
     28
    ],
@@ -333,7 +333,7 @@
   {
    "id": "g23.38.039",
    "jp": "麗子\n「しぶとい連中ね・・・！」\n{wait}",
-   "en": "Reiko\n\"Stubborn bunch...!\"\n{wait}",
+   "en": "Reiko\n\"My, what a stubborn bunch~...!\"\n{wait}",
    "slots": [
     39
    ],
@@ -383,7 +383,7 @@
   {
    "id": "g23.38.044",
    "jp": "知美\n「あら、心配なんて・・・\n　それこそ、くだらなくてよ」\n{wait}「あんな小娘どもにやられるようなら、\n　龍鬼妃様も、しょせんはその程度の\n　お方。興ざめもいいところだわ」\n{wait}",
-   "en": "Tomomi\n\"Oh, worry? That's what's truly absurd.\"\n{wait}\"If those little girls can beat her, then\nRyukihi-sama is no more than that. How\nterribly disappointing that would be.\"\n{wait}",
+   "en": "Tomomi\n\"Oh, worry? Now that would be utterly\nsilly, dear.\"\n{wait}\"If those little girls can beat her, then\nRyukihi-sama is no more than that. How\nterribly disappointing that would be.\"\n{wait}",
    "slots": [
     44
    ],

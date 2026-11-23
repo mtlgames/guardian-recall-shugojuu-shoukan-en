@@ -101,4 +101,20 @@ Fixes via out.tsv + `merge --overwrite`; copies of a fixed line (same JP) fixed 
 | b034 | Approved | | 31.250, 31.253, 31.243, 31.227, 31.029, 31.027 |
 | b035 | Approved after fix | 32.212 Mayu voice, 33.021 "it" -> "Japan" | 32.211, 34.002, 33.027 |
 | b036 | Approved after fix | 34.218 "More than a Guardian" read as the opposite, 35.015 Mayu dialect, 34.236 Takegami register, 34.046 Reiko voice | 34.051, 34.201, 35.005, 35.002, 34.208 |
+| b038 | Approved after fix | 38.028 Takegami, 38.039 Reiko, 38.044 Tomomi (voice) | 38.042, 41.016 |
+| b039 | Approved | | 43.022, 43.007, 43.025, 43.089 |
+| b040-b045 | Approved after fix | 49.355 broken grammar ("you let them go") | 44.001, 43.094, 49.319, 49.336, 49.346, 49.301 (b041-b044 all `==`) |
+| b046 | Approved | | 49.390, 49.517, 49.524, 49.501 |
+| b047 | Approved | | 52.008, 52.007, 52.001, 51.098 (Step title emitted by the tool), 51.016 |
+| b048 | Approved | | 54.021, 54.012 |
+| b049 | Approved | | 56.001, 56.002, 55.011 |
+| b050 | Approved | | 58.004, 57.009, 56.014, glossary row 簡易ステータス |
+| b051 | Approved | | 59.008, 58.015 |
+| b052 | Approved | | 61.004, 61.008, 61.007 |
+| b053 | Approved | | 62.005, 62.010, 63.008 |
+| b054-b055 | Approved | | 64.008, 66.020 (page splits: see "orphan pages") |
+| b056-b057 | Approved | | 67.010, 67.005, 66.022 page split |
+| b058 | Approved after fix | 13.01.009 Chikana ふざけやがって, 13.00.014 Akira です tic (+ copy 13.15.014), 13.01.016 Tomomi, 13.01.019 Reiko, 13.01.048 Takegami, 13.00.001 Mayu, 13.01.008 "ain't" off-voice. Consumable help keeps "Name:" without 消費 by design (status.md 2026-11-23 (17)) | 13.00.023, 13.02.003, 13.02.032, 13.02.065 |
+| b059 | Approved after fix | g13.03.004 "fallen" -> glossary "knocked-out" | 13.03.017, 13.04.004, Melee/Ranged/Healing capitalisation, 13.05.012, 13.05.007 |
+| b060 | Approved | | |
 | b037 | Approved after fix | 37.200/202 Mayu dialect, 36.027 Takegami (+ copy 38.058), 38.000 Reiko voice, 36.013 sarcastic reading | 36.006, 36.205, 36.211, 38.022, 37.205 |

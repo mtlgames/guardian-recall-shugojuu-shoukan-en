@@ -47,7 +47,7 @@
   {
    "id": "g13.03.004",
    "jp": "（ふっき）回復系：\n戦闘不能になった味方１体を全快状態\nで復活させる。\n",
-   "en": "(Revive) Recovery:\nRevives one fallen ally at full strength.\n",
+   "en": "(Revive) Recovery:\nRevives one knocked-out ally, fully healed.\n",
    "slots": [
     4
    ],

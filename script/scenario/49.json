@@ -572,7 +572,7 @@
   {
    "id": "g23.49.355",
    "jp": "瞳\n「こんな子供のひとりやふたりに、\n　ものものしい事だな」\n{wait}「どうだ、今回は私の顔をたてて、\n　見逃してやるというのは」\n{wait}",
-   "en": "Hitomi\n\"Such a fuss over a child or two.\"\n{wait}\"What do you say? This once, as a favor to\nme, you let them go.\"\n{wait}",
+   "en": "Hitomi\n\"Such a fuss over a child or two.\"\n{wait}\"What do you say to letting them go this\nonce, as a favor to me?\"\n{wait}",
    "slots": [
     355
    ],

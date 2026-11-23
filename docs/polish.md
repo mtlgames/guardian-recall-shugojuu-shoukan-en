@@ -60,6 +60,52 @@ or `waived: reason`).
 - [ ] g23.36.211 - ちかな 出た出た: "Yeah, yeah." reads dismissive -> "Yep, totally back."
 - [ ] g23.38.022 - 瞳 "control it through it" clumsy
 - [ ] g23.37.205 - 美里 ばかね: "You idiot, stay back."
+- [ ] g23.38.042 - 聡美 どうだか: "If you say so" -> "...Is that so."
+- [ ] g23.41.016 - 晶 やったです: "We did it, yes indeed!" (optional lighter)
+- [ ] g23.43.022 - page split: "Yeah! She doesn't seem to be here, though..." / "This is the right way, isn't it?"
+- [ ] g23.43.007 - 可愛がってた: "little pet" adds a sneer -> "I know you doted on Yumi"
+- [ ] g23.43.025 - 真由 なんって: "What do you mean, 'what'..."
+- [ ] g23.43.089 - 真由 もー...信用せんけんねー: "No way. I ain't trustin' you anymore, hmph."
+- [ ] g23.43.094 - 白虎 やるわね: "Hmm... Not bad, I'll give you that."
+- [ ] g23.49.319 - 仁 ついさっきからな: "Since just a moment ago."
+- [ ] g23.49.346 - 美由紀 そっかぁ、よかったー: "I see! Phew."
+- [ ] g23.49.301 - 美由紀 ひょっとして: "Maybe I'm... lost...?"
+- [ ] g23.49.390 - 麗子 見間違いじゃないの: "Couldn't they have just seen wrong?"
+- [ ] g23.49.517 - 瞳 頼りなくてしょうがない: "Watching you, I can't help thinking you're unreliable."
+- [ ] g23.49.524 - 鈴音 バレバレだっつーの: "That's so obvious."
+- [ ] g23.49.501 - 美由紀 蘭ちゃんだね: "Ran-chan, huh? I'm Miyuki!"
+- [ ] g23.52.008 - MP is the Master's: "you let your MP recover"
+- [ ] g23.52.007 - "MP (Tactic Points) is used up"
+- [ ] g23.52.001 - "in the 'Action' command"
+- [ ] g23.51.016 - "again" added (harmless)
+- [ ] g23.56.001 - "I'll summon one now."
+- [ ] g23.56.002 - "just the Summon action alone uses up 20 MP"
+- [ ] g23.55.011 - "Charging" reads as the Charge Tactic -> "Rushing the enemy is fine, but..."
+- [ ] g23.59.008, 64.008 - "against 'Master', the Masters" -> "against 'Master' (that is, the Masters)"
+- [ ] g23.58.015 - "once you master it, it's useful in all sorts of ways"; "the effects are quite unusual too"
+- [ ] g23.61.004 - 寄ってきた: "It came back to its Master's side, right?"
+- [ ] g23.61.008 (+61.005/006) - menu name as verb: "unless you change the Tactic again"
+- [ ] g23.61.007 - "Not only can't you 'Execute Order' again, ..."
+- [ ] g23.62.005, 67.005 - "ranged attack power (Al)" vs "Healing (Hl)": one form, capitalised per glossary
+- [ ] g23.62.010, 67.010 - "since none of them have one" -> "since none of your allies has a rank-D skill"
+- [ ] g23.63.008 - "NO" in double quotes -> 'NO'
+- [ ] g23.66.020 - 自分の直線ライン: "in a straight line with the Guardian"
+- [ ] g23.66.022, 64.007, 66.017 - EN page split mid-sentence (see orphan pages)
+- [ ] g13.00.023 - 手応えのない: "Not a shred of a challenge in that lot."
+- [ ] g13.02.003 - 軍帽 = military cap, not beret
+- [ ] g13.02.032 - "The fan Satomi (a.k.a. Seiryu) carries." (match .029-.031)
+- [ ] g13.02.065 - 幻獣 = mythical beast, not "phantom"
+- [ ] g13.03.017 - "Enemies won't counterattack it either."
+- [ ] g13.04.004 - "Does nothing if there is no target."
+- [ ] g13.03.010/020, 04.008-010 - Melee/Ranged/Healing capitalised as in the glossary
+- [ ] g13.05.012 - "defense"/"Defense" in one entry: "Defense" both
+- [ ] g13.05.007 - "They start out as plain Guardians."
+- [ ] g23.54.021 - "block" vs "squares" in one tutorial: "at least 3 blocks away"
+- [ ] g23.54.012 - いい感じだよ: "Pretty nice, huh?"
+- [ ] g23.58.004 - "That short? you might think," -> "You might think, 'That short?' But..."
+- [ ] g23.57.009 - "Then all that support is meaningless" -> "All that support goes to waste."
+- [ ] g23.56.014 - "Bring its Master next to it and 'Dismiss' it quickly."
+- [ ] 簡易ステータス "short status" (56-58): add a glossary row
 - [ ] orphan pages - the scenario fitter runs 1-3 words of a sentence onto their own {wait} page ("...against 'Sea'" / "and 'Wind'."):
   g23.59.007, 64.007, 01.036, 10.081, 12.095, 24.010, 31.199, 51.019, 53.006, 54.017, 54.022, 56.008, 66.017, 66.022
   (62.012 "...like so." is the JP's own page). Rephrase a few words shorter, or make the fitter balance the last pages.
