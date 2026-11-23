@@ -7,794 +7,880 @@
   {
    "id": "g23.05.000",
    "jp": "麗子\n「この爪の輝き・・・\n　ん～、美しいわぁ」\n{wait}「ねぇ、そう思うでしょ？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"The shine on these nails... Mmm, gorgeous~\"\n{wait}\"Don't you think so?\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.05.001",
    "jp": "知美\n「うかれないでちょうだい。\n　私を怒らせたいの？」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"Don't get carried away. Are you trying to\nmake me angry?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.002",
    "jp": "麗子\n「いやぁね、そんなにピリピリしてると\n　シワが増えるわよ」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Ugh, please. If you stay that tense, you'll\nget more wrinkles.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.003",
    "jp": "知美\n「・・・ピリピリしてるのは、\n　誰のせいだと思って？」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"...And whose fault do you think it is that\nI'm tense?\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.004",
    "jp": "麗子\n「由美を殺した奴らのせい・・・」\n{wait}「かな？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"The people who killed Yumi...\"\n{wait}\"Maybe?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.005",
    "jp": "知美\n「・・・！」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"...!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.006",
    "jp": "知美\n「・・・あら、耳が早いわね」\n{wait}「爪みがきしか能がないと思って\n　いたけど」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"...My, word travels fast.\"\n{wait}\"I thought polishing your nails was all you\nwere good for.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.007",
    "jp": "麗子\n「あのねー・・・」\n{wait}「あなたが由美を可愛がってたのは\n　知ってるけどね。あたしにあたるのは\n　スジ違いよ」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Look...\"\n{wait}\"I know Yumi was your little pet. But taking it\nout on me is way out of line.\"\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.008",
    "jp": "知美\n「そんな事じゃないわ！」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"That's not what this is about!\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.009",
    "jp": "麗子\n「わーかってるって。龍の使い手が\n　現れたってんでしょ？」\n{wait}「我々荏狗覇菟に仇なす者たち。\n　七龍の意志を継ぎ、\n　日本を護る・・・」\n{wait}「龍鬼妃様の予言通りね。\n　由美がやられる程の相手だもの。\n　あたしにだって察しがつくわよ」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"I kno-ow. The Dragon Wielders have shown\nup, right?\"\n{wait}\"The ones who oppose us, the Egubado. Heirs\nto the will of the Seven Dragons, protectors\nof Japan...\"\n{wait}\"Just like Ryukihi-sama prophesied. If they\ncould take down Yumi, even I can figure that\nmuch out.\"\n{wait}",
    "slots": [
     9
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.010",
    "jp": "知美\n「神門も絡んでいるらしいわ」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"It seems the Kamikado are involved too.\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.011",
    "jp": "麗子\n「あ～らら。\n　もう絶滅したと思ってたのに」\n{wait}「ま、とにかく、いぶり出しの効果が\n　あったって事よね」\n{wait}「よかったじゃない」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Oh, my my. And here I thought they'd\ndied out.\"\n{wait}\"Well, anyway, that means smoking them out\nworked, right?\"\n{wait}\"Good for you.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.012",
    "jp": "知美\n「・・・玄武の話では、北海道や青森\n　でも別の動きがあるそうよ」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"...According to Genbu, there's other activity\nin Hokkaido and Aomori too.\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.013",
    "jp": "麗子\n「なに心配してんのよ」\n{wait}「龍の使い手って、七つの龍脈から力\n　を得るんでしょ？」\n{wait}「東京には入れるわけないんだから、\n　何の問題もないじゃないの」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"What are you so worried about?\"\n{wait}\"The Dragon Wielders draw their power from\nthe seven dragon veins, right?\"\n{wait}\"They can't possibly get into Tokyo, so\nwhere's the problem?\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.014",
    "jp": "知美\n「のんきなものね・・・\n　少しは真面目に考えなさいな」\n{wait}「龍の使い手にすべての龍脈を奪われ\n　たりしたら、その力は我々四門将に\n　並ぶとも言われるのよ？」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"How carefree of you... Do try to take this\nseriously.\"\n{wait}\"If the Dragon Wielders take every dragon\nvein, they say their power could rival even us\nFour Gate Generals.\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.015",
    "jp": "麗子\n「じゃ、それまであたしたちは\n　高みの見物と」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Then until that happens, we can just sit back\nand watch.\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.016",
    "jp": "知美\n「そうなってからでは、\n　遅いと言っているのよ」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"I'm saying that by then it will be too late.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.017",
    "jp": "麗子\n「・・・あーもう・・・」\n{wait}「わーかったわよ。\n　出るわよ、\n　出ればいいんでしょ～？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"...Ugh, fine...\"\n{wait}\"Fi-ine, I get it. I'll go out there. That's what\nyou want, right~?\"\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.018",
    "jp": "知美\n「あなたの為でもあるのよ」\n{wait}「少しは動いた方がいいのじゃなくて」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"It's for your own good too.\"\n{wait}\"Wouldn't you do well to move around\na little?\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.019",
    "jp": "麗子\n「イ～～～だ！\n　ガリガリ鳥ガラ！」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Nyeeeeh! Skinny bag of bones!\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.020",
    "jp": "美由紀\n「この橋渡ったら、\n　四国ともお別れだね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Once we cross this bridge, it's bye-bye,\nShikoku.\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.021",
    "jp": "真由\n「そやね。あたしたちも一応、\n　本州に入るとよね」\n{wait}「早よ美里ば見つけて、ちかなたちに\n　追いつかんと」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yep. Guess we're officially on Honshu, then.\"\n{wait}\"We gotta find Misato quick and catch up with\nChikana and the others.\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.022",
    "jp": "美由紀\n「うん！」\n{wait}「でもこの辺には、いないみたいだね。\n　こっちでいいのかな・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah!\"\n{wait}\"But she doesn't seem to be around here. Are\nwe going the right way...?\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.023",
    "jp": "真由\n「え・・・？」\n{wait}「ちょっとあんた・・・\n　まさか、分かっとらんとやなか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Huh...?\"\n{wait}\"Hold on... Don't tell me you don't know where\nwe're goin'.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.024",
    "jp": "美由紀\n「え？　なにが？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? Know what?\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.025",
    "jp": "真由\n「なんって・・・\n　美里の行方に決まっとるやろ？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What d'you mean, what... Where Misato went,\nobviously!\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.026",
    "jp": "美由紀\n「え？　真由ちゃん・・・\n　知ってるんじゃないの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? Mayu-chan... don't you know?\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.027",
    "jp": "真由\n「やだ、知っとる訳なかやんね！」\n{wait}「あんた自信たっぷりに歩いとるけん、\n　あたしはてっきり・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"No way, how would I know!\"\n{wait}\"You were walkin' along all confident, so I\nfigured...\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.028",
    "jp": "美由紀\n「だって真由ちゃん、なんにも\n　言わないから・・・」\n{wait}「こ、こっちで合ってるんだって\n　思って」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"But Mayu-chan, you didn't say anything...\"\n{wait}\"S-so I thought this way was right.\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.029",
    "jp": "真由\n「えー！？　う、ウソやろ～」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Whaaat!? Y-you're kiddin' me~\"\n{wait}",
    "slots": [
     29
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.030",
    "jp": "美由紀\n「ほんと」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Nope.\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.031",
    "jp": "真由\n「きっぱり言わんと！\n　あ～、どがんすっとよ、も～」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Don't say it so flat out! Aaagh, what're we\ns'posed to do now?\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.032",
    "jp": "美由紀\n「ん～・・・」\n{wait}「だいじょぶだいじょぶ。\n　あたし、天ちゃんについて来たんだ\n　もん。天ちゃん分かってるよ」\n{wait}「んねっ、天ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hmmm...\"\n{wait}\"It's fine, it's fine. I was following Ten-chan.\nTen-chan knows the way.\"\n{wait}\"Riiight, Ten-chan?\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.033",
    "jp": "天ちゃん\n「キキィ」\n{wait}",
-   "en": "",
+   "en": "Ten-chan\n\"Kiii!\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.034",
    "jp": "真由\n「・・・はいはい」\n{wait}「ちょっとでん、あんたに頼った\n　あたしがバカやったってこつやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Yeah, yeah.\"\n{wait}\"Guess I was the dummy for countin' on you\neven a little.\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.035",
    "jp": "美由紀\n「なにそれ～・・・ぶーぶー」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"What's that s'posed to mean~... Boo, boo.\"\n{wait}",
    "slots": [
     35
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.036",
    "jp": "真由\n「ブーブー鳴くな！\n　ブタやなかっちゃけん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Quit oinkin'! You ain't a pig.\"\n{wait}",
    "slots": [
     36
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.037",
    "jp": "美由紀\n「どーせっ！」\n{wait}「脳みそサルで顔はブタです～。\n　悪かったねーだ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Fine, whatever!\"\n{wait}\"I've got a monkey brain and a pig face~\nSooorry!\"\n{wait}",
    "slots": [
     37
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.038",
    "jp": "天ちゃん\n「キ、キキィ・・・」\n{wait}",
-   "en": "",
+   "en": "Ten-chan\n\"K-kiii...\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.039",
    "jp": "女の子\n「いやーっ、来ないでー！！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Nooo! Stay away!!\"\n{wait}",
    "slots": [
     39
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.040",
    "jp": "美由紀\n「あ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ah!\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.041",
    "jp": "真由\n「もめてる場合じゃなかね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"No time to be bickerin'.\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.042",
    "jp": "美由紀\n「真由ちゃん、あの子、助けなきゃ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan, we gotta save that girl!\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.043",
    "jp": "真由\n「分かっとる！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I know!\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.044",
    "jp": "真由\n「もう、ロクなこつなかね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Jeez, nothin' ever goes right.\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.05.045",
    "jp": "美由紀\n「いーじゃん。女の子助けたし」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Who cares? We saved a girl.\"\n{wait}",
    "slots": [
     45
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.046",
    "jp": "真由\n「ま、ね」\n{wait}「さー、早いとこ美里ば探さんと」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Well, yeah.\"\n{wait}\"Come on, we gotta find Misato quick.\"\n{wait}",
    "slots": [
     46
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.047",
    "jp": "蘭\n「あのう・・・\n　私も一緒に行っていい？」\n{wait}「あのね、友だちを探してるんだけど、\n　でもアテがある訳じゃなくて・・・\n　やっぱりひとりじゃ心細くて」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Um... Can I come with you?\"\n{wait}\"See, I'm looking for a friend, but I don't\nreally know where to look... and I'm kind of\nscared on my own.\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.048",
    "jp": "美由紀\n「いいよ、ねー、真由ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Sure! Right, Mayu-chan?\"\n{wait}",
    "slots": [
     48
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.049",
    "jp": "真由\n「かまわんよ。\n　かえって助かるくらい」\n{wait}「あんたよか頼りになりそうやけん、\n　ねー美由紀」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Don't mind at all. Might even be a help.\"\n{wait}\"She looks more dependable than you,\nhuh, Miyuki?\"\n{wait}",
    "slots": [
     49
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.050",
    "jp": "美由紀\n「ふーんだ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hmph!\"\n{wait}",
    "slots": [
     50
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.051",
    "jp": "美由紀\n「あの子、だいじょぶだったかな」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I wonder if that girl's okay.\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.052",
    "jp": "真由\n「無事に逃げてくれたごたる・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Looks like she got away safe...\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.053",
    "jp": "美由紀\n「さ、早く美里ちゃん見つけて、\n　みんなと合流しよー！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Okay, let's hurry and find Misato-chan and\nmeet up with everybody!\"\n{wait}",
    "slots": [
     53
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.054",
    "jp": "真由\n「その・・・美里やけど」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"About... Misato.\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.055",
    "jp": "美由紀\n「うん？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hm?\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.056",
    "jp": "真由\n「龍ん声ば、\n　聞いたとやなかかって・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I wonder if she heard a dragon's voice too...\"\n{wait}",
    "slots": [
     56
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.057",
    "jp": "美由紀\n「龍の声って・・・」\n{wait}「そう言えば真由ちゃん、\n　前にもそんなコト言ったよね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"A dragon's voice...\"\n{wait}\"Now that you mention it, Mayu-chan, you\nsaid something like that before.\"\n{wait}",
    "slots": [
     57
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.058",
    "jp": "真由\n「うん。あたし阿蘇で、\n　龍ん声ば聞いたと」\n{wait}「自分は炎龍だって言うとった」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah. Back at Aso, I heard a dragon's voice.\"\n{wait}\"Said it was the Flame Dragon.\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.059",
    "jp": "美由紀\n「炎龍・・・」\n{wait}「龍の話は・・・\n　だって、伝説だよ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"The Flame Dragon...\"\n{wait}\"But dragons are... just legends, right?\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.060",
    "jp": "真由\n「あたしも最初は、夢んごつ\n　思っとった。だけんど・・・」\n{wait}「そん声がね、日本が危なかげな、\n　あたしん仲間ば探し出して、\n　日本ば救えって言うと」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I thought it was a dream at first too. But...\"\n{wait}\"That voice says Japan's in danger, that I\ngotta find my companions and save Japan.\"\n{wait}",
    "slots": [
     60
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.061",
    "jp": "美由紀\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"......\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.062",
    "jp": "真由\n「よかよ。\n　信じられんともムリなかよ」\n{wait}「ばってん・・・龍でんなんでん、\n　こんあたしに助けば求めとる」\n{wait}「ちかなの話のせいもあっけど、\n　あたし、あん声ばもう、\n　夢とは思っとらんとよ」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"It's okay. Nobody'd blame you for not\nbelievin' it.\"\n{wait}\"But... dragon or whatever it is, it's askin' me\nfor help.\"\n{wait}\"Partly 'cause of what Chikana said, but I\ndon't think that voice is a dream anymore.\"\n{wait}",
    "slots": [
     62
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.063",
    "jp": "美由紀\n「・・・真由ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Mayu-chan.\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.064",
    "jp": "真由\n「美里はきっと、龍ん声ば聞いとる。\n　行こう。美里ば探さんと」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I bet Misato heard a dragon's voice too.\nLet's go. We gotta find her.\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.065",
    "jp": "美由紀\n「ねー真由ちゃん」\n{wait}「龍の声は知んないけど、あたし、\n　真由ちゃんの言うコトは信じてるよ。\n　いつも、どんなコトでも」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hey, Mayu-chan.\"\n{wait}\"I don't know about dragon voices, but I\nbelieve what you say, Mayu-chan. Always, no\nmatter what.\"\n{wait}",
    "slots": [
     65
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.066",
    "jp": "真由\n「美由紀・・・\n　うん。わかっとる」\n{wait}「あたしも、\n　美由紀の言うこつは信じとると。\n　いつでん、どがんこつでん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Miyuki... Yeah. I know.\"\n{wait}\"And I believe what you say too, Miyuki.\nAlways, no matter what.\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.067",
    "jp": "美由紀\n「うん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah!\"\n{wait}",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.068",
    "jp": "真由\n「さ、行こか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Come on, let's go.\"\n{wait}",
    "slots": [
     68
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.088",
    "jp": "美由紀\n「じゃー次は、あっち行こうあっち」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Okay, next let's go that way, that way!\"\n{wait}",
    "slots": [
     88
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.089",
    "jp": "真由\n「う・・・」\n{wait}「やーやね。\n　もーあんたんこつ信用せんけんね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Ugh...\"\n{wait}\"Nope. I ain't trustin' you anymore.\"\n{wait}",
    "slots": [
     89
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.090",
    "jp": "美由紀\n「あ・・・あれ？」\n{wait}「真由ちゃんたった今、\n　あたしのこと信じてるって・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh... wha?\"\n{wait}\"Mayu-chan, you JUST said you believe me...\"\n{wait}",
    "slots": [
     90
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.091",
    "jp": "真由\n「知らん。なんボケとるとか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Dunno what you're talkin' about. You\nlosin' it?\"\n{wait}",
    "slots": [
     91
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.092",
    "jp": "美由紀\n「えーっ？　ひっどーい！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Whaaat? That's sooo mean!\"\n{wait}",
    "slots": [
     92
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.05.093",
    "jp": "麗子\n「全滅・・・？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Wiped out...?\"\n{wait}",
    "slots": [
     93
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.094",
    "jp": "麗子\n「ふぅん・・・やるわね」\n{wait}「なかなか楽しませてくれるじゃ\n　ないの・・・クスクスッ」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Hmm... Not bad.\"\n{wait}\"They're turning out to be pretty fun...\nTee-hee.\"\n{wait}",
    "slots": [
     94
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.199",
    "jp": "美由紀\n「だいじょうぶ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Are you okay?\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.05.200",
    "jp": "女の子\n「う、うん、ありがとう！」\n{wait}「あたし日之影蘭（ひのかげらん）って\n　いうの」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Y-yeah, thank you!\"\n{wait}\"I'm Ran. Ran Hinokage.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.201",
    "jp": "美由紀\n「蘭ちゃんだね！　あたし美由紀」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ran-chan! I'm Miyuki.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.202",
    "jp": "真由\n「もう大丈夫やけんね！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You're safe now!\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.203",
    "jp": "女の子\n「ありがとう！」\n{wait}「あたし日之影蘭（ひのかげらん）って\n　いいます」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Thank you!\"\n{wait}\"My name is Ran Hinokage.\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.204",
    "jp": "蘭\n「あのね、守護獣使う人、\n　ほかにも知ってる？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Um, do you know any other people who use\nGuardians?\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.05.205",
    "jp": "美由紀\n「うん、知ってるよ。\n　いっぱい、いるよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yep, I do. Lots of 'em.\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.206",
    "jp": "蘭\n「ホント！？」\n{wait}「その中に・・・\n　小泊かおるって子、いない？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Really!?\"\n{wait}\"Is there... a girl named Kaoru Kodomari?\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.207",
    "jp": "美由紀\n「かおるちゃん？」\n{wait}「・・・知んない。ごめんね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Kaoru-chan?\"\n{wait}\"...Don't know her. Sorry.\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.05.208",
    "jp": "蘭\n「ううん・・・」\n{wait}「会えたらこれ、あげようと\n　思ってたんだけど・・・」\n{wait}「うん、あなたにあげる」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"No, it's okay...\"\n{wait}\"I was going to give her this when I found\nher, but...\"\n{wait}\"Here, you can have it.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

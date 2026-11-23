@@ -45,3 +45,23 @@ recurring dreams of Japan being crushed. They take leave from school. Yumi attac
 recognises her as her childhood friend and neighbour "Yukko", thought dead. Yumi denies knowing her. Misato summons
 Mer ("Come forth from the noble azure abyss"), silent Keiko Hichiwa summons Nagi; Yumi summons Ur ("In the names of
 Metran and Sabaoth") and retreats. Suzune explains control piercings.
+Misato and Keiko join (Keiko: quiet, polite, oddly perceptive; Misato curt, calls her weird).
+
+## 04 (Ehime / dragon vein; Yumi's death)
+Chikana explains dragon veins: break one and the earth's balance collapses into disaster; the Great Archipelago
+Earthquake followed the Egubado seizing the veins. Mayu reveals she heard the Flame Dragon; all resolve to fight.
+Yumi wears no control piercing: she fights of her own will, and admits her Guardian crushed Misato's father (Dr.
+Nozomu Kaibara). Yumi is defeated and dies (Ubari is her subordinate). The Sea Dragon speaks to Misato (she bears a
+dragon's soul); Misato, grief-stricken, rejects it and leaves alone for revenge in Tokyo. Chikana's group heads to
+Kyoto, Nijo Castle; Miyuki and Mayu go after Misato (choice). Tomomi learns Yumi is dead. Side lines: Suzune
+pilfers items from Warriors ("spoils of war"); Miyuki asks Misato to be kind to Keiko.
+
+## 05 (Tokyo HQ; Seto Ohashi bridge)
+Byakko (Reiko Saionji: vain, lazy, valley-girl drawl, polishes her nails) needles Tomomi ("skinny bag of bones");
+Genbu reports activity in Hokkaido and Aomori. Reiko reluctantly goes out. Miyuki and Mayu, lost, rescue Ran
+Hinokage, who is searching for her friend Kaoru Kodomari, and she joins. Mayu tells Miyuki about the Flame Dragon;
+they promise to always believe each other.
+
+## 06 (Kyoto ambush)
+Reiko leaves Sharihotsu (gender-neutral so far; Reiko calls them "Sharihotsu-chan") to ambush the girls and goes home.
+Chikana learns of the dragon voice. The Egubado know where Misato is. Keiko senses Misato's mind and leads them.

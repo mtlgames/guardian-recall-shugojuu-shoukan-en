@@ -7,828 +7,919 @@
   {
    "id": "g23.06.000",
    "jp": "麗子\n「ね～、まだぁ～？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Are we the-ere yet~?\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.06.001",
    "jp": "舎利弗\n「まだです！」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Not yet!\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.002",
    "jp": "麗子\n「ちょっと、舎利ちゃん・・・\n　ホントに来るんでしょうねぇ」\n{wait}「あたしもう、\n　待ちくたびれちゃったわ」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Hey, Sharihotsu-chan... They're really coming,\naren't they?\"\n{wait}\"I'm sooo tired of waiting.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.06.003",
    "jp": "舎利弗\n「し、しかし・・・確かにこちらに\n　向かっているという報告が・・・」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"B-but... we have a report that they're\ndefinitely headed this way...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.004",
    "jp": "麗子\n「アテになんのかしらね・・・」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Can we even trust that...?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.005",
    "jp": "麗子\n「だいいち～、単なる待ち伏せなんて\n　地味な事でさぁ」\n{wait}「ホントに大丈夫なのぉ？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"And besides~, a plain old ambush is\nso boring.\"\n{wait}\"Is this really gonna work?\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.006",
    "jp": "舎利弗\n「は・・・はぁ多分」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Y... yes, probably.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.007",
    "jp": "麗子\n「頼むわよ～？」\n{wait}「なにしろさぁ、由美が死んだんで、\n　朱雀がおかんむりなのよ」\n{wait}「どうしたって捕まえてくんないと、\n　困っちゃうのよ～」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"You'd better come through~\"\n{wait}\"I mean, since Yumi died, Suzaku's been in a\ntotal snit.\"\n{wait}\"If you don't catch them no matter what, I'll\nbe in trouble~\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.008",
    "jp": "舎利弗\n「は、はぁ」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Y-yes, ma'am.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.009",
    "jp": "麗子\n「あんた朱雀に絡まれた事ある～？」\n{wait}「あーの鳥ガラ、ねちねち始まると\n　長いんだから・・・」\n{wait}「そりゃねー、龍鬼妃様のおっしゃる\n　事に間違いはないからさぁ、\n　いつかは現れると思ってたけど」\n{wait}「まーさかイキナリ由美が、\n　やられちゃうとは思わない訳じゃん、\n　こっちは」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Has Suzaku ever laid into you~?\"\n{wait}\"Once that bag of bones starts nagging, she\ngoes on forever...\"\n{wait}\"I mean, sure, Ryukihi-sama is never wrong,\nso I figured they'd show up someday.\"\n{wait}\"But who'd have thought they'd take out\nYumi right off the bat, y'know?\"\n{wait}",
    "slots": [
     9
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.06.010",
    "jp": "舎利弗\n「えーと・・・」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Umm...\"\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.06.011",
    "jp": "麗子\n「あー、めんどくさー」\n{wait}「龍の使い手って、どんな奴なのか\n　見てやってもいーかなーって\n　思ってたけど、あきちゃった」\n{wait}「あたし帰る」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Ugh, what a pain~\"\n{wait}\"I thought maybe I'd take a look at what\nthese Dragon Wielders are like, but I'm\nbored now.\"\n{wait}\"I'm going home.\"\n{wait}",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.06.012",
    "jp": "舎利弗\n「え・・・いやあの・・・」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Wha... b-but, um...\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.013",
    "jp": "麗子\n「とにかく、\n　絶対捕まえて来てね」\n{wait}「言っとくけど、失敗したら二度と、\n　あたしの超美麗な姿は見られなくな\n　るわよ・・・」\n{wait}「そぉねぇ・・・\n　とりあえず、頭と胴体がお別れする\n　事になるかしらね・・」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Anyway, you make sure you catch them.\"\n{wait}\"And just so you know, if you fail, you'll never\nsee my ultra-gorgeous self again...\"\n{wait}\"Let's see... For starters, your head and your\nbody might have to part ways...\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.014",
    "jp": "舎利弗\n「うっ・・・」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Urk...\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.015",
    "jp": "麗子\n「んふ。じゃ、そゆことで～」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Mmhm. Okay then, toodles~\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.016",
    "jp": "舎利弗\n「・・・そ、総員配置っ！！」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"...A-all units, to your positions!!\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.017",
    "jp": "真由\n「ねえ、美由紀・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Hey, Miyuki...\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.018",
    "jp": "美由紀\n「うん？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hm?\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.019",
    "jp": "真由\n「美里んこつやけど」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"About Misato.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.020",
    "jp": "美由紀\n「・・・うん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Yeah.\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.021",
    "jp": "真由\n「あたし思うとやけど・・・美里さ、\n　龍ん声ば聞いたとやなかかって」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I was thinkin'... maybe Misato heard a\ndragon's voice too.\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.022",
    "jp": "美由紀\n「龍の声って・・・」\n{wait}「そう言えば真由ちゃん、\n　前にもそんなコト言ったよね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"A dragon's voice...\"\n{wait}\"Now that you mention it, Mayu-chan, you\nsaid something like that before.\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.023",
    "jp": "真由\n「うん。あたし阿蘇で、\n　龍ん声ば聞いたと」\n{wait}「自分は炎龍だって言うとった」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah. Back at Aso, I heard a dragon's voice.\"\n{wait}\"Said it was the Flame Dragon.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.024",
    "jp": "美由紀\n「炎龍・・・」\n{wait}「龍の話は・・・\n　だって、伝説だよ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"The Flame Dragon...\"\n{wait}\"But dragons are... just legends, right?\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.025",
    "jp": "真由\n「あたしも最初は、夢んごつ\n　思っとった。ばってん・・・」\n{wait}「そん声がね、日本が危なかげな、\n　あたしん仲間ば探し出して、\n　日本ば救えって言うと」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I thought it was a dream at first too. But...\"\n{wait}\"That voice says Japan's in danger, that I\ngotta find my companions and save Japan.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.026",
    "jp": "美由紀\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"......\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.027",
    "jp": "真由\n「よかよ。\n　信じられんともムリなかよ」\n{wait}「ばってん・・・龍でんなんでん、\n　こんあたしに助けば求めとる」\n{wait}「ちかなの話のせいもあっけど、\n　あたし、あん声ばもう、\n　夢とは思っとらんとよ」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"It's okay. Nobody'd blame you for not\nbelievin' it.\"\n{wait}\"But... dragon or whatever it is, it's askin' me\nfor help.\"\n{wait}\"Partly 'cause of what Chikana said, but I\ndon't think that voice is a dream anymore.\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.028",
    "jp": "美由紀\n「・・・真由ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Mayu-chan.\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.032",
    "jp": "ちかな\n「・・・で、なぜそれをアタシにも\n　聞かせないかな」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...So how come I don't get to hear\nabout this?\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.033",
    "jp": "真由\n「わっ！\n　ちかな、聞いちょったと」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Whoa! Chikana, you were listenin'?\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.034",
    "jp": "ちかな\n「龍脈に関る事で、\n　なぜアタシをのけものにする」\n{wait}「龍に関しちゃ、アタシが一番の\n　理解者だと思うけど？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"It's about the dragon veins. Why leave\nme out?\"\n{wait}\"When it comes to dragons, I'd say nobody\nunderstands better than me.\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.035",
    "jp": "真由\n「ちかなは・・・信じてくるっと？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Chikana... You believe me?\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.036",
    "jp": "ちかな\n「まーね。\n　あたしは神門の人間だからね」\n{wait}「美由紀は？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Pretty much. I'm Kamikado, after all.\"\n{wait}\"What about you, Miyuki?\"\n{wait}",
    "slots": [
     36
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.06.037",
    "jp": "美由紀\n「龍の声は知んないけど・・・」\n{wait}「あたし、\n　真由ちゃんの言うコトは信じてるよ。\n　いつも、どんなコトでも」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I don't know about dragon voices, but...\"\n{wait}\"I believe what Mayu-chan says. Always, no\nmatter what.\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.038",
    "jp": "真由\n「美由紀・・・」\n{wait}「あたしも、\n　美由紀の言うこつは信じとると。\n　いつでん、どがんこつでん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Miyuki...\"\n{wait}\"And I believe what you say too, Miyuki.\nAlways, no matter what.\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.039",
    "jp": "美由紀\n「うん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah!\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.052",
    "jp": "舎利弗\n「はーっはっは！　ノンキにムダ話な\n　ぞしてる場合かな！？」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Hahaha! Is this really the time for idle\nchitchat!?\"\n{wait}",
    "slots": [
     52
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.06.053",
    "jp": "真由\n「荏狗覇菟！？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Egubado!?\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.054",
    "jp": "ちかな\n「クソッ、待ち伏せか・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Damn, an ambush...\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.055",
    "jp": "舎利弗\n「お前たちの行動なんて\n　つつ抜けなんだよ！」\n{wait}「もちろん、仲間の居所もね！」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Every move you make gets back to us!\"\n{wait}\"And so does where your friend is, of course!\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.056",
    "jp": "真由\n「仲間・・・？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Our friend...?\"\n{wait}",
    "slots": [
     56
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.057",
    "jp": "ちかな\n「まさか・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Don't tell me...\"\n{wait}",
    "slots": [
     57
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.058",
    "jp": "美由紀\n「み、美里ちゃん！？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"M-Misato-chan!?\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.059",
    "jp": "舎利弗\n「分かったら観念して、おとなしく捕\n　まる事だね」\n{wait}「・・・と言っても、聞くはずもない\n　だろうけど？」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Now that you understand, give up and\ncome quietly.\"\n{wait}\"...Not that you'd ever listen, I suppose?\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.060",
    "jp": "美由紀\n「違うよ、\n　美里ちゃんは違うんだよ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"No, Misato-chan's got nothing to do\nwith this!\"\n{wait}",
    "slots": [
     60
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.061",
    "jp": "ちかな\n「・・・ムダだよ美由紀」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Save your breath, Miyuki.\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.062",
    "jp": "舎利弗\n「クククッ、仲間の事より、自分の心\n　配をした方が身の為だよ！」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Hehehe, you'd do better to worry about\nyourselves than your friend!\"\n{wait}",
    "slots": [
     62
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.063",
    "jp": "ちかな\n「しまった！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Damn it!\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.064",
    "jp": "真由\n「囲まれとる！？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"We're surrounded!?\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.065",
    "jp": "鈴音\n「美里が心配ね・・・」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"I'm worried about Misato...\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.06.066",
    "jp": "美由紀\n「美里ちゃん・・・\n　どこにいるんだろう」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Misato-chan... I wonder where she is.\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.067",
    "jp": "ちかな\n「荏狗覇菟に狙われてるって分かった\n　以上、このままってワケには、ね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Now that we know the Egubado are after\nher, we can't just leave things like this.\"\n{wait}",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.068",
    "jp": "美由紀\n「美里ちゃん、探すんだね！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We're gonna look for Misato-chan, right!\"\n{wait}",
    "slots": [
     68
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.069",
    "jp": "真由\n「美里・・・」\n{wait}「あたしたちん顔ば見たら・・・\n　どがんしたっちゃ由美んこつば、\n　思い出すやろうね」\n{wait}「ばってん・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Misato...\"\n{wait}\"Seein' our faces... she can't help but think\nof Yumi.\"\n{wait}\"But still...\"\n{wait}",
    "slots": [
     69
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.070",
    "jp": "琴音\n「つらくても、行かなくちゃ」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Even if it hurts, we have to go.\"\n{wait}",
    "slots": [
     70
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.071",
    "jp": "鈴音\n「そうよ。あたしたちが行かなきゃ、\n　誰が行くっていうのよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Right. If we don't go, who will?\"\n{wait}",
    "slots": [
     71
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.072",
    "jp": "美由紀\n「・・・うん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Yeah!\"\n{wait}",
    "slots": [
     72
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.084",
    "jp": "真由\n「みんなで手分けして探せば・・・\n　見つかるやろか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"If we all split up and look... think we'll\nfind her?\"\n{wait}",
    "slots": [
     84
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.085",
    "jp": "景子\n「私、美里さんの居場所、わかります。\n　たぶん・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I know where Misato-san is. I think...\"\n{wait}",
    "slots": [
     85
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.086",
    "jp": "ちかな\n「え？　なに、心あたりでも・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Huh? What, you've got some idea where...\"\n{wait}",
    "slots": [
     86
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.087",
    "jp": "景子\n「美由紀さん、\n　力を貸してくれますか？」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Miyuki-san, will you lend me your strength?\"\n{wait}",
    "slots": [
     87
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.088",
    "jp": "麗子\n「逃げられたぁ！？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"They got away!?\"\n{wait}",
    "slots": [
     88
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.06.089",
    "jp": "麗子\n「ふぅん・・・やるわね」\n{wait}「なかなか楽しませてくれるじゃ\n　ないの・・・クスクスッ」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"Hmm... Not bad.\"\n{wait}\"They're turning out to be pretty fun...\nTee-hee.\"\n{wait}",
    "slots": [
     89
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.149",
    "jp": "美由紀\n「やっぱ探そう」\n「そっとしとこう」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Let's look for her\"\n\"Leave her be\"\n{wait}",
    "slots": [
     149
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.199",
    "jp": "美由紀\n「ねぇ、ちょっと荏狗覇菟の人！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hey! You, the Egubado person!\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.06.200",
    "jp": "舎利弗\n「な、なんだ。お前は！？」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Wh-what? Who are you!?\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.201",
    "jp": "美由紀\n「美里ちゃんは関係ないんだからね！」\n{wait}「美里ちゃんは、たまたまあたしたち\n　につきあって、それで悲しい目にあ\n　っちゃったの！」\n{wait}「だから、美里ちゃんのことはそっと\n　しといてあげて！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Misato-chan's got nothing to do with this!\"\n{wait}\"She just happened to tag along with us, and\nsomething really sad happened to her\nbecause of it!\"\n{wait}\"So leave Misato-chan alone!\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.202",
    "jp": "舎利弗\n「知ったことか！」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Like I care!\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.203",
    "jp": "美由紀\n「あ、そういうこと言うんだね！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Oh, so that's how you're gonna be!\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.204",
    "jp": "舎利弗\n「やかましい！」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Shut up!\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.205",
    "jp": "美由紀\n「いたっ！」\n{wait}「・・・って、なにコレ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ow!\"\n{wait}\"...Wait, what's this?\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.206",
    "jp": "舎利弗\n「あ、しまった」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"Oh, crap.\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.207",
    "jp": "ちかな\n「ホントに美里も龍の声を聞いたのか\n　どうか、確かめなくちゃね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"We need to find out if Misato really heard a\ndragon's voice too.\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.06.208",
    "jp": "真由\n「ごめん、ちかな。\n　すぐ話すべきやったね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Sorry, Chikana. I shoulda told you\nright away.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.209",
    "jp": "ちかな\n「いいさ」\n{wait}「それより、龍の言う仲間ってのが\n　龍の声を聞いた人間ってコトなら、\n　見つけだすのは難しいよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"It's fine.\"\n{wait}\"More importantly, if the 'companions' the\ndragon means are people who've heard a\ndragon's voice, they'll be hard to find.\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.210",
    "jp": "真由\n「わかっとる・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I know...\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.211",
    "jp": "ちかな\n「ま、まずはこの包囲網を\n　突破するのが先だね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Well, first things first. We break through this\nblockade.\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.212",
    "jp": "真由\n「そやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah.\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.213",
    "jp": "琴音\n「鈴音、私・・・私たち・・・」\n{wait}「ガーラーに・・・ドーガーに、\n　こんな事させて、私たち・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Suzune, I... we...\"\n{wait}\"Making Gara... and Doga do things like\nthis... we...\"\n{wait}",
    "slots": [
     213
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.06.214",
    "jp": "鈴音\n「ひどいコトしてるんじゃ\n　ないかって？」\n{wait}「受け身ならいいってもんでも\n　ないと思うけど」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Are doing something awful?\"\n{wait}\"I don't think just sitting back and taking it is\nany better.\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.215",
    "jp": "琴音\n「・・・そう？」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"...You think so?\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.216",
    "jp": "鈴音\n「うん。だいいち今さら迷ったりしたら\n　ガーラーがこまるよ、琴音」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Yeah. Besides, if you start doubting now,\nGara's the one who'll be in trouble, Kotone.\"\n{wait}",
    "slots": [
     216
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.06.217",
    "jp": "琴音\n「・・・うん」\n\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"...Okay.\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.218",
    "jp": "鈴音\n「いつまでも続くコトじゃないわ。\n　それまでの辛抱じゃない」\n{wait}「しっかりしてよ、お姉さん。\n　あたしたち、ふたりでやっと\n　一人前なんだから」\n{wait}「ほら、これあげる」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"It won't go on forever. We just have to\nhang in there till then.\"\n{wait}\"Pull yourself together, big sis. It takes both\nof us to make one whole person, you know.\"\n{wait}\"Here, you can have this.\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.219",
    "jp": "琴音\n「鈴音、また・・・！」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Suzune, not again...!\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.220",
    "jp": "鈴音\n「あははははは」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Ahahahaha!\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.221",
    "jp": "景子\n「静かに・・・目を閉じて・・・\n　美里さんの事を考えて」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Quietly... close your eyes... and think of\nMisato-san.\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.06.222",
    "jp": "景子\n「美里さんの意識を、とらえました。\n　だいたいの居場所なら分かります」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I've caught Misato-san's mind. I know\nroughly where she is.\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.06.223",
    "jp": "ちかな\n「あんた・・・いったい・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"You... What on earth are you...\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.06.224",
    "jp": "景子\n「行きましょう。\n　お願い、今は・・・私を信じて」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Let's go. Please, for now... trust me.\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

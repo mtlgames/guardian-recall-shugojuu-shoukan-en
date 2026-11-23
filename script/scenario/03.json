@@ -626,483 +626,536 @@
   {
    "id": "g23.03.061",
    "jp": "鈴音\n「荏狗覇菟に捕まると、制御ピアスって\n　いうのをつけられるの」\n{wait}「これで無気力になって、\n　奴らの言いなりに動くように\n　なっちゃうのよ」\n{wait}「それに、普通の人って守護獣を\n　呼び出す事、できないでしょう？」\n{wait}「それがアレをつけると、\n　呼び出せるようになるのね」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Anyone the Egubado catch gets one of\nthose control piercings put on them.\"\n{wait}\"It drains your will, so you end up doing\nwhatever they tell you.\"\n{wait}\"And normal people can't summon\nGuardians, right?\"\n{wait}\"Well, with one of those on, they can.\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.062",
    "jp": "美由紀\n「へええ、鈴ちゃん、詳しいね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Wooow, Suzu-chan, you know so much!\"\n{wait}",
    "slots": [
     62
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.063",
    "jp": "鈴音\n「ヘッヘッヘ。\n　ダテに捕まってた訳じゃないのよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Heh heh heh. I didn't get myself captured\nfor nothing, you know.\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.064",
    "jp": "ちかな\n「そうか。どうりでさらった人間を\n　簡単に仲間にしちまうワケだ」\n{wait}「奴らの守護獣には個性がないのも\n　納得がいくよ。\n　みんな似たり寄ったりだもんな」\n{wait}「道具を使って、守護獣をムリヤリ、\n　カタチ作るってワケだ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"I see. No wonder they turn the people they\nkidnap into allies so easily.\"\n{wait}\"Explains why their Guardians have no\npersonality, too. They're all pretty much\nthe same.\"\n{wait}\"They use a gadget to force a Guardian into\nshape. That's the trick.\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.065",
    "jp": "真由\n「守護獣使いかどうかは、\n　問題じゃなかとやね」\n{wait}「無差別にさらったっちゃ、\n　のこらず闘士にできるとやもん」\n{wait}「あんた、よう逃げ出せたね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"So it don't matter whether you're a\nGuardian user or not.\"\n{wait}\"They can grab folks at random and turn\nevery last one into a Warrior.\"\n{wait}\"You did good gettin' away.\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.066",
    "jp": "鈴音\n「これがどうもね、\n　私には効かなかったみたい」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Thing is, it just didn't seem to work on me.\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.067",
    "jp": "琴音\n「私も・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Me neither...\"\n{wait}",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.068",
    "jp": "美由紀\n「ふーん、なんでかな？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hmm, how come?\"\n{wait}",
    "slots": [
     68
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.069",
    "jp": "鈴音\n「ま、とにかく大丈夫よ。ピアスさえ\n　外してしまえば、すぐ元に戻るわ」\n{wait}「あなたの事も、\n　すぐに思い出してくれるわよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Anyway, she'll be fine. Once that piercing\ncomes off, she'll be back to normal in no time.\"\n{wait}\"She'll remember you right away too.\"\n{wait}",
    "slots": [
     69
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.070",
    "jp": "美由紀\n「よかったね！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Isn't that great!\"\n{wait}",
    "slots": [
     70
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.071",
    "jp": "美里\n「うん・・・ありがと」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Yeah... Thanks.\"\n{wait}",
    "slots": [
     71
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.072",
    "jp": "真由\n「そうだ。あんたたちさえよかなら、\n　あたしたちと一緒に、こん？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Oh, I know. If you two are up for it, why not\ncome along with us?\"\n{wait}",
    "slots": [
     72
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.073",
    "jp": "美由紀\n「あ、それいい！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ooh, good idea!\"\n{wait}",
    "slots": [
     73
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.074",
    "jp": "ちかな\n「そうだな・・・」\n{wait}「どうせ相手は龍脈で待ってんだ。\n　ついでだし、手伝うよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Let's see...\"\n{wait}\"They'll be waiting for us at the dragon vein\nanyway. Might as well. I'll help.\"\n{wait}",
    "slots": [
     74
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.075",
    "jp": "美里\n「・・・いいわ」\n{wait}「私、海原美里（かいばらみさと）。\n　よろしく」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...Fine.\"\n{wait}\"I'm Misato Kaibara. Nice to meet you.\"\n{wait}",
    "slots": [
     75
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.076",
    "jp": "景子\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"......\"\n{wait}",
    "slots": [
     76
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.077",
    "jp": "真由\n「あんたは、どがんする？\n　名前は？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What about you? What's your name?\"\n{wait}",
    "slots": [
     77
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.078",
    "jp": "景子\n「飛知和、景子（ひちわけいこ）です」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Keiko... Keiko Hichiwa.\"\n{wait}",
    "slots": [
     78
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.079",
    "jp": "美里\n「待ってよ」\n{wait}「言っとくけど私、その子とは\n　無関係よ。それに・・・」\n{wait}「それにその子、ちょっとヘンよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Hold on.\"\n{wait}\"Just so you know, I've got nothing to do\nwith that girl. Besides...\"\n{wait}\"Besides, she's a little weird.\"\n{wait}",
    "slots": [
     79
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.080",
    "jp": "美由紀\n「ねーねー」\n{wait}「温泉たまご、好き？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hey, hey.\"\n{wait}\"Do you like hot-spring eggs?\"\n{wait}",
    "slots": [
     80
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.081",
    "jp": "景子\n「・・・は？」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...Huh?\"\n{wait}",
    "slots": [
     81
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.082",
    "jp": "ちかな\n「・・・てっきり\n　知り合いかと思ったよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...I just assumed you two knew each other.\"\n{wait}",
    "slots": [
     82
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.083",
    "jp": "美里\n「知り合いもなにも、さっき初めて\n　会ったのよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Knew each other? I only met her a little\nwhile ago.\"\n{wait}",
    "slots": [
     83
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.199",
    "jp": "美由紀\n「ねぇねぇ、あの荏狗覇菟の人、\n　友だち？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hey, hey, that Egubado lady... is she your\nfriend?\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.03.200",
    "jp": "美里\n「・・・そうよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...Yes.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.201",
    "jp": "美由紀\n「えと・・・」\n{wait}「その友だちがなんで、荏狗覇菟に\n　いんの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Umm...\"\n{wait}\"So why's your friend with the Egubado?\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.202",
    "jp": "美里\n「うるさいわね！\n　こっちが知りたいわよっ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Shut up! That's what I'd like to know!\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.203",
    "jp": "真由\n「ちょっと大丈夫？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Hey, you okay?\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.03.204",
    "jp": "景子\n「私は平気です。\n　でも美里さんが・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I'm fine. But Misato-san...\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.205",
    "jp": "真由\n「みさと？　ああ、あの子んこつやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Misato? Oh, you mean that girl.\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.206",
    "jp": "景子\n「あ・・・いえ、あの」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Ah... no, um...\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.207",
    "jp": "真由\n「・・・・・・」\n{wait}「・・・なんとかなるくさ。\n　とにかく、がんばろう。ね？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"......\"\n{wait}\"...It'll work out somehow. Anyway, let's do our\nbest. Okay?\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.208",
    "jp": "景子\n「はい・・・」\n{wait}「あ、あの、よかったらこれ、\n　使って下さい」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Okay...\"\n{wait}\"Um, uh, if you'd like, please use this.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.209",
    "jp": "真由\n「よかと？　ありがとう」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You sure? Thanks.\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.210",
    "jp": "景子\n（美里さん・・・大丈夫ですよね）\n{wait}",
-   "en": "",
+   "en": "Keiko\n(Misato-san... She'll be all right, won't she?)\n{wait}",
    "slots": [
     210
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.03.211",
    "jp": "真由\n（なんやろか・・・\n　なんかフクザツそうやね・・・）\n{wait}（ま、いっか）\n{wait}",
-   "en": "",
+   "en": "Mayu\n(Wonder what's up... Seems kinda\ncomplicated...)\n{wait}(Eh, whatever.)\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.212",
    "jp": "鈴音\n「琴音、ムチャしないでよ」\n{wait}「前みたいに離れ離れになったら、\n　ドーガーとガーラー\n　呼べなくなっちゃうんだからね」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Kotone, don't do anything reckless.\"\n{wait}\"If we get split up like before, we won't be\nable to call Doga and Gara anymore.\"\n{wait}",
    "slots": [
     212
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.213",
    "jp": "琴音\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"......\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.214",
    "jp": "鈴音\n「何よ？　その顔」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"What? What's with that face?\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.215",
    "jp": "琴音\n「鈴音の方がムチャするから・・・\n　いつも」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"You're the reckless one, Suzune... Always.\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.216",
    "jp": "鈴音\n「え？　あ、えーと、だからほら、\n　念のためによ、念のため」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Huh? Oh, uh, well, see, I'm just saying it to be\nsafe. Just to be safe.\"\n{wait}",
    "slots": [
     216
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.03.217",
    "jp": "景子\n「美里さん・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Misato-san...\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.03.218",
    "jp": "美里\n「・・・まだ何か用？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...What do you want now?\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.219",
    "jp": "景子\n「怒らせるつもりじゃ・・・なかった」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I didn't... mean to make you angry.\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.220",
    "jp": "美里\n「もうやめてよ！\n　今それどころじゃないのよ！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Just stop it! I don't have time for this\nright now!\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.221",
    "jp": "景子\n「でも、予感が・・・」\n{wait}「私、あなたを・・・\n　苦しめたくないんです」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"But I have a feeling...\"\n{wait}\"I... don't want to hurt you.\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.222",
    "jp": "美里\n「・・・だったら簡単よ。\n　もう話しかけないで！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...Then it's simple. Stop talking to me!\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.225",
    "jp": "ちかな\n「真由、さっきの話、\n　日本が崩壊するっていう・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Mayu, about what you said earlier... Japan\nbeing destroyed...\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.03.226",
    "jp": "真由\n「ああ、あれ・・・もうよかよ」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Oh, that... Forget it.\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.227",
    "jp": "ちかな\n「心当たりが、ないでもないんだ。\n　後で詳しく話すよ」\n{wait}「聞きたいだろ？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"I might have an idea what it's about. I'll tell\nyou more later.\"\n{wait}\"You want to hear it, right?\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.228",
    "jp": "真由\n「うん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah.\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.03.223",
    "jp": "鈴音\n「・・・・・・」\n{wait}「いいんじゃない？\n　あたしたちみんな、ほとんど知らない\n　同士なんだし」\n{wait}「ね、琴音」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"......\"\n{wait}\"Isn't it fine? We're all practically strangers\nto each other anyway.\"\n{wait}\"Right, Kotone?\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.03.224",
    "jp": "琴音\n「うん」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Mm.\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

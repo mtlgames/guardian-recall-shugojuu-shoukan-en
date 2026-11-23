@@ -7,48 +7,53 @@
   {
    "id": "g23.07.000",
    "jp": "凪\n「ククゥ・・・」\n{wait}",
-   "en": "",
+   "en": "Nagi\n\"Kukuu...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.07.001",
    "jp": "景子\n「凪・・・？」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Nagi...?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.07.002",
    "jp": "景子\n「あ・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Ah...\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.07.003",
    "jp": "美里\n（・・・・・・）\n{wait}（荏狗覇菟・・・\n　みんな殺してやる！）\n{wait}",
-   "en": "",
+   "en": "Misato\n(......)\n{wait}(Egubado... I'll kill every last one of them!)\n{wait}",
    "slots": [
     3
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.07.004",
    "jp": "美里\n「メール・・・？」\n{wait}「どうして・・・あたし呼んでないわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Mer...?\"\n{wait}\"Why...? I didn't call you.\"\n{wait}",
    "slots": [
     4
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.07.005",
