@@ -85,3 +85,10 @@ Hasumi Naoe (Yukari's friend, a woman; firm, masculine speech) escorts Yui Iwami
 Taisetsu dragon vein, her presence sealed it in blizzards) and is captured by Seiryu (Satomi Azuma); taken to Mt.
 Osore. The Holy Dragon speaks to Yukari. Yui summons Saiki (sword-shaped, selfish, moody Guardian: "Five-ringed sword
 wherein life dwells...").
+
+## 11 (Hokkaido, toward Mt. Osore)
+Yui explains the seven dragon veins as Japan's blood vessels. Yukari: the Great Archipelago Earthquake was caused by
+the Egubado destroying dragon veins; her SDF superiors wouldn't believe in Guardians, so she quit to investigate.
+Anaritsu (female, あたし, short-tempered) and Subodai ambush them; their drafted Guardian user, Sayaka Shizunai
+(20, college girl, airhead drawl "li-ike", "nothing to do with i-it"; piercing didn't take), joins. Sayaka calls
+Yukari an "old lady"; Yukari is 18.

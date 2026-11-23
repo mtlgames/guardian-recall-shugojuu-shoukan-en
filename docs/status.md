@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (batches b001-b014 merged = unit names + scenario 00-11.010; next b015).
+- **Phase:** 6. Translate in progress (batches b001-b015 merged = unit names + scenario 00-11.207; next b016).
   Last build: 2026-11-23 `build.py` (English, b001-b004): ev02 shows "Yumi / "It failed?"" in the scenario box.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -103,7 +103,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     docs/style-reference.md, docs/translator-brief.md, docs/synopsis.md (00-01). Batches: b001-b002 = all evd unit
     names (wave 0), b003-b057 = g23 scenario in entry order (3000 JP chars each; b003-b004 done = scenario 00-01
     part). Orca workers translate themselves (no subagents): one worker ~8-10 batches before its context limit.
-- **Next:** (a) Phase 6: translate b005..b057 in order (`docs/translator-brief.md`; after each block add its summary
+- **Next:** (a) Phase 6: translate b016..b057 in order (a worker does ~9 batches per context: b007-b015 in one) (`docs/translator-brief.md`; after each block add its summary
   to docs/synopsis.md, merge NEW TERMs into glossary.md), then split and translate g13 (battle), txd, exe/overlays
   (`batches.py split --only 'g13'` etc.; txd needs its own &n() via windows.wrap, EXE strings byte/room budgets).
   Then the review pass (fresh read-only pass per batch file or codex exec after 2026-11-26).

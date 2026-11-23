@@ -30,7 +30,7 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 |---|---|---|---|---|
 | 美由紀 | Miyuki | | heroine, 天城美由紀 | |
 | 真由 | Mayu | | 炎真由 | |
-| 裕子 | Yuko | | 大地裕子; Hakata dialect | Yuuko |
+| 裕子 | Yuko | | 大地裕子; brash, standard speech (not Hakata) | Yuuko |
 | ちかな | Chikana | | 周防ちかな, Kamikado clan heir | |
 | ゆかり | Yukari | | 聖ゆかり | |
 | 美里 | Misato | | 海原美里 | |

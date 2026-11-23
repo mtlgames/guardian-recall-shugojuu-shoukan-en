@@ -122,817 +122,906 @@
   {
    "id": "g23.11.011",
    "jp": "唯\n「日本列島はね、大きな七つの龍脈に\n　よって支えられているの」\n{wait}「日本という身体に龍脈という血管が\n　あって、そこを血が・・・」\n{wait}「つまりエネルギーが流れている、\n　と考えてくれると分かりやすいと\n　思うわ」\n{wait}「順調な血液の流れがあってはじめて、\n　身体は機能するでしょう？」\n{wait}「同じ様に、龍脈を通るエネルギーの\n　順調な流れがあってはじめて大地は\n　活性化されるという事なの」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"The Japanese archipelago is held up by\nseven great dragon veins.\"\n{wait}\"Think of Japan as a body, with the dragon\nveins as its blood vessels, and blood...\"\n{wait}\"I mean energy, flowing through them. That\nmight make it easier to understand.\"\n{wait}\"A body only works when the blood flows\nsmoothly, right?\"\n{wait}\"In the same way, the land only comes alive\nwhen energy flows smoothly through the\ndragon veins.\"\n{wait}",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.012",
    "jp": "裕子\n「なるほど・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I see...\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.013",
    "jp": "唯\n「でも、このシステムを\n　壊してしまうと」\n{wait}「膨大なエネルギーが一気に外へ\n　流れ出して、そのショックで、\n　地脈に異変が生じる」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"But if that system is destroyed...\"\n{wait}\"huge amounts of energy rush out all at\nonce, and the shock throws the earth's\ncurrents into chaos.\"\n{wait}",
    "slots": [
     13
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.014",
    "jp": "裕子\n「地脈の異変って？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Chaos in the earth's currents?\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.015",
    "jp": "唯\n「大災害ね・・・\n　例えば列島大地震のような」\n{wait}「日本を支えていると言われる訳、\n　わかるでしょう？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"A great disaster... Like the Great Archipelago\nEarthquake, for example.\"\n{wait}\"You see why they say the dragon veins hold\nJapan up?\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.016",
    "jp": "裕子\n「はあ～・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Whoa~...\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.017",
    "jp": "ゆかり\n「例えじゃないわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"It's no 'for example.'\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.018",
    "jp": "裕子\n「なんだゆかり、聞いてたの・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Oh, Yukari, you were listening...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.019",
    "jp": "ゆかり\n「・・・列島大地震は、\n　龍脈の破壊で起こったのよ」\n{wait}「そして\n　龍脈を破壊したのは、荏狗覇菟」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...The Great Archipelago Earthquake was\ncaused by the destruction of the\ndragon veins.\"\n{wait}\"And the ones who destroyed them were the\nEgubado.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.020",
    "jp": "裕子\n「・・・マジ言ってる？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...You serious?\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.021",
    "jp": "ゆかり\n「こんな事、冗談で言えると思うの？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Do you think I'd joke about something\nlike this?\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.022",
    "jp": "唯\n「・・・そうね。\n　それだけの力が龍脈にはあるわ」\n{wait}「荏狗覇菟が大雪のあの場所を\n　つきとめたのも、\n　わたしの事に気づいたのも」\n{wait}「それだけ龍脈に、こだわりが\n　あるって事だもの」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"...That's right. The dragon veins hold that\nmuch power.\"\n{wait}\"The Egubado tracking down that place on\nTaisetsu, and noticing me...\"\n{wait}\"it all shows how obsessed they are with the\ndragon veins.\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.023",
    "jp": "ゆかり\n「大雪は運良く、唯さんの一族の\n　おかげで難を逃れていたけど」\n{wait}「他の龍脈は今、ことごとく\n　荏狗覇菟の監視下にあるわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Taisetsu was lucky. It escaped thanks to\nYui-san's family.\"\n{wait}\"But every other dragon vein is now under\nEgubado watch.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.024",
    "jp": "裕子\n「だけど・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"But...\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.025",
    "jp": "ゆかり\n「裕子、今のあなたなら分かるはず」\n{wait}「なぜ東京が荏狗覇菟に占拠された\n　ままになっているのか。\n　なぜ警察や自衛隊が無力なのか」\n{wait}「奴らは全員、守護獣使いなのよ」\n{wait}「どんな兵器も役には立たないわ。\n　守護獣に・・・\n　物理攻撃は効かないんだから」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Yuko, you should understand now.\"\n{wait}\"Why Tokyo is still in the Egubado's hands.\nWhy the police and the Self-Defense Forces\nare powerless.\"\n{wait}\"Every one of them is a Guardian user.\"\n{wait}\"No weapon is any use. Physical attacks...\ndon't work on Guardians.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.026",
    "jp": "裕子\n「う、うん」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Y-yeah.\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.027",
    "jp": "ゆかり\n「・・・でも、それを証明する事は\n　できなかったわ」\n{wait}「守護獣の存在さえ・・・\n　信じてはもらえなかった」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...But I couldn't prove any of that.\"\n{wait}\"They wouldn't even... believe that\nGuardians exist.\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.028",
    "jp": "裕子\n「信じてもらえなかったって、誰に」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Wouldn't believe you? Who wouldn't?\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.029",
    "jp": "ゆかり\n「私の上官」\n{wait}「分かってくれる人もいたけれど、\n　上層部では寝た子を起こすな的な\n　考えが多かったわ」\n{wait}「東京を占拠して以来、荏狗覇菟に表\n　立った動きはないから、とりあえず\n　は静観していようってね」\n{wait}「でも、このままで終わるはずが\n　ないのよ。奴らきっと・・・\n　何か企んでいるはずよ」\n{wait}「また列島大地震のような、いいえ、\n　それ以上の悪夢を見るかも知れない」\n{wait}「私は荏狗覇菟の事を、もっと詳しく\n　調べる為に自衛隊をやめたわ」\n{wait}「奴らの目的が何なのか、\n　それを調べるためにね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"My superiors.\"\n{wait}\"Some people understood, but the higher-ups\nmostly took a 'let sleeping dogs lie' attitude.\"\n{wait}\"The Egubado haven't made any open moves\nsince taking Tokyo, so for now, they'd just\nwait and see.\"\n{wait}\"But it can't just end like this. They must be...\nplotting something.\"\n{wait}\"We may see another nightmare like the\nGreat Archipelago Earthquake. No, something\neven worse.\"\n{wait}\"I quit the Self-Defense Forces to\ninvestigate the Egubado more closely.\"\n{wait}\"To find out what they're really after.\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.030",
    "jp": "闘士\n「おい、見ろ」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Hey, look.\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.031",
    "jp": "闘士\n「・・・守護獣使いだな・・・\n　よし、報告だ」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"...Guardian users, huh... Right, let's report it.\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.032",
    "jp": "ゆかり\n「荏狗覇菟に対抗できるのは、守護獣\n　使いである、私たちだけなのよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"The only ones who can stand up to the\nEgubado are us, the Guardian users.\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.033",
    "jp": "裕子\n「なーる・・・\n　それであたしに声かけたわけね」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Gotcha... So that's why you picked me.\"\n{wait}",
    "slots": [
     33
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.034",
    "jp": "ゆかり\n「そう、私は仲間を探していたの。私に\n　賛同してくれる、守護獣使いをね」\n{wait}「でも、これからは・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Yes. I was looking for allies. Guardian users\nwho'd stand with me.\"\n{wait}\"But from now on...\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.035",
    "jp": "阿那律\n「あれかい？」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Is that them?\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.036",
    "jp": "須菩提\n「はい、確かにあいつらです。\n　大雪から我々を追い出した・・・」\n{wait}",
-   "en": "",
+   "en": "Subodai\n\"Yes, that's them for sure. The ones who\ndrove us out of Taisetsu...\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.037",
    "jp": "阿那律\n「うるさいね、\n　何度も言うんじゃないよ！」\n{wait}「こんな事が上にバレてみな・・・\n　あたしたちはタダじゃ済まないよ。\n　是が非でも奴らを捕まえるんだ！」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Shut up! Quit repeating it!\"\n{wait}\"If the higher-ups find out about this...\nwe'll be in big trouble. We catch them, no\nmatter what!\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.038",
    "jp": "須菩提\n「は、はいっ」\n{wait}",
-   "en": "",
+   "en": "Subodai\n\"Y-yes, ma'am!\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.039",
    "jp": "女の子\n「なにこれぇ、なんか話が違うよぉ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"What is thi-is? This isn't what you said it'd\nbe li-ike.\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.040",
    "jp": "阿那律\n「・・・なんだい、こいつは」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"...What's this one?\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.041",
    "jp": "須菩提\n「は、なかなか役に立つ\n　守護獣使いでして」\n{wait}",
-   "en": "",
+   "en": "Subodai\n\"Ah, she's a rather useful Guardian user...\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.042",
    "jp": "女の子\n「ねえぇ、なんかぁ」\n{wait}「すっごいぃ、\n　いいトコ連れてってくれるってぇ、\n　言ったじゃなあぁい」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Heeey, li-ike,\"\n{wait}\"you said you'd take me somewhere, like,\nsuper-duper ni-ice.\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.043",
    "jp": "須菩提\n「だからそれは、我々とともに戦って\n　いれば・・・」\n{wait}",
-   "en": "",
+   "en": "Subodai\n\"Like I said, if you just fight alongside us...\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.044",
    "jp": "女の子\n「やあぁ、もう疲れたぁ、帰るぅ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Nooo, I'm so ti-ired, I wanna go ho-ome.\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.045",
    "jp": "阿那律\n「うるさいっ！」\n{wait}「誰だ、こんなやつ連れて来たのは！\n　ピアスはどうしたっ」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Shut up!\"\n{wait}\"Who brought this one here!? What happened\nto her piercing!?\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.046",
    "jp": "須菩提\n「あの、あいにく効きませんで・・・」\n{wait}",
-   "en": "",
+   "en": "Subodai\n\"Um, unfortunately it didn't take...\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.047",
    "jp": "女の子\n「ねえぇ・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Heeey...\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.048",
    "jp": "阿那律\n「だああっ、歯切れの悪い喋り方は\n　およしっ！」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Gaaah, quit drawling like that!\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.049",
    "jp": "女の子\n「ひぃぃんっ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Eeep!\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.050",
    "jp": "唯\n「あ、あれ荏狗覇菟よっ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Oh, those are Egubado!\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.051",
    "jp": "裕子\n「なにやってんだ・・・？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What're they doing...?\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.052",
    "jp": "唯\n「なんかモメてるみたいだけど・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Looks like they're arguing about something...\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.053",
    "jp": "ゆかり\n「待ち伏せしてたわね・・・\n　私たち、マークされてるんだわ」\n{wait}「当然と言えば当然だけど」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"An ambush... They've got their eye on us.\"\n{wait}\"Which is only natural, I suppose.\"\n{wait}",
    "slots": [
     53
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.054",
    "jp": "裕子\n「とにかく、\n　やるっきゃないってこった」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Anyway, guess we've got no choice but\nto fight.\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.055",
    "jp": "阿那律\n「くっ、こんなはずでは・・・」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Ngh, this wasn't supposed to happen...\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.056",
    "jp": "女の子\n「あ～、助かっちゃったぁ」\n{wait}「あの人たちってばぁ、\n　な～んかコワくってぇ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Aww, I'm saaaved.\"\n{wait}\"Those people were, like, kinda scaaary.\"\n{wait}",
    "slots": [
     56
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.057",
    "jp": "裕子\n「は、はは・・・そいつぁーよかった」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Ha, haha... Well, good for you.\"\n{wait}",
    "slots": [
     57
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.058",
    "jp": "ゆかり\n「さ、行くわよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Come on, let's go.\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.059",
    "jp": "女の子\n「やっ・・・やぁだぁ！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"W-waaait!\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.060",
    "jp": "女の子\n「ちょ～っと待ぁってよぉ！\n　こんなとこに私ひとり～？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Hold o-on a se-ec! You're leaving me all alone\nout he-ere?\"\n{wait}",
    "slots": [
     60
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.061",
    "jp": "裕子\n「いや、そう言われましても・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Well, even if you say that...\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.062",
    "jp": "唯\n「・・・ねえ」\n{wait}「荏狗覇菟に捕まってたくらいなら、\n　守護獣、使えるんじゃないかしら」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"...Hey.\"\n{wait}\"If the Egubado caught her, maybe she can\nuse a Guardian.\"\n{wait}",
    "slots": [
     62
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.063",
    "jp": "裕子\n「あ、そか。あんた守護獣使い？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Oh, right. You a Guardian user?\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.064",
    "jp": "女の子\n「ん～、まぁてきと～」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Mmm, I guess, sorta~\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.065",
    "jp": "裕子\n「ゆかり！　戦力になんじゃない？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Yukari! Wouldn't she be good backup?\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.066",
    "jp": "ゆかり\n「戦力ね・・・ま、いいか」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Backup, huh... Well, fine.\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.067",
    "jp": "裕子\n「じゃ決まり」\n{wait}「ウチ、守護獣使い募集中なの。\n　あんた仲間になんなよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Then it's settled.\"\n{wait}\"We're recruiting Guardian users.\nCome join us.\"\n{wait}",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.068",
    "jp": "ゆかり\n「なんなよって裕子・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"'Come join us,' Yuko...\"\n{wait}",
    "slots": [
     68
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.069",
    "jp": "女の子\n「別にぃ～、いいケド～？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Su-ure, I don't mi-ind?\"\n{wait}",
    "slots": [
     69
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.070",
    "jp": "ゆかり\n「か、カルイのね・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Th-that was easy...\"\n{wait}",
    "slots": [
     70
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.071",
    "jp": "女の子\n「あらためてぇ、\n　自己紹介しまぁっす」\n{wait}「静内さやかぁ（しずないさやか）、\n　ハタチぃ、蟹座のぉ、Ｏ型ですぅ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"So, like, lemme introduce myse-elf.\"\n{wait}\"I'm Sayaka Shizunai, I'm twe-enty, I'm a\nCancer, blood type O-o.\"\n{wait}",
    "slots": [
     71
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.072",
    "jp": "ゆかり\n「ハタチぃ！？\n　な、なんか調子狂うわね・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Twe-enty!? Th-this is throwing me off...\"\n{wait}",
    "slots": [
     72
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.073",
    "jp": "さやか\n「ごく一般的なぁ、女子大生ですぅ。\n　みなさんよろしくぅ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"I'm just a totally normal college gi-irl. Nice to\nmeet you all~\"\n{wait}",
    "slots": [
     73
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.074",
    "jp": "ゆかり\n「女子大生が怒るわよ・・・」\n{wait}「あなた、もうちょっと\n　シャキシャキ喋れない？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"College girls everywhere would be\noffended...\"\n{wait}\"Can't you talk a little more crisply?\"\n{wait}",
    "slots": [
     74
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.075",
    "jp": "さやか\n「いやだぁ。オバサンってぇ、\n　ノリが悪くってぇ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ugh, no wa-ay. Old ladies are, like, sooo\nuptight.\"\n{wait}",
    "slots": [
     75
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.076",
    "jp": "ゆかり\n「お、おばさんですって！？」\n{wait}「失礼ねっ！　私は１８歳よっ！\n　あなたより、\n　ふたつも年下なんだから！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"O-old lady!?\"\n{wait}\"How rude! I'm eighteen! I'm two years\nyounger than you!\"\n{wait}",
    "slots": [
     76
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.077",
    "jp": "さやか\n「えー？　そぉなのぉ？　だってぇ、\n　なんかフけて見えるからぁ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Whaaat? Seriou-usly? But you, like, look\nkinda o-old.\"\n{wait}",
    "slots": [
     77
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.078",
    "jp": "裕子\n「ぶわっはっはっはっ、ひでー」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Bwahahaha! Harsh!\"\n{wait}",
    "slots": [
     78
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.079",
    "jp": "ゆかり\n「・・・裕子」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...Yuko.\"\n{wait}",
    "slots": [
     79
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.080",
    "jp": "裕子\n「すいません」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Sorry.\"\n{wait}",
    "slots": [
     80
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.099",
    "jp": "女の子\n「ねえぇ・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Heeey...\"\n{wait}",
    "slots": [
     99
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.11.100",
    "jp": "女の子\n「話、違うってばぁ・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"This isn't what you sai-id...\"\n{wait}",
    "slots": [
     100
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.101",
    "jp": "女の子\n「帰ってい～いぃ？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Can I go ho-ome?\"\n{wait}",
    "slots": [
     101
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.102",
    "jp": "女の子\n「ねえってばぁ・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Heeey, come o-on...\"\n{wait}",
    "slots": [
     102
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.103",
    "jp": "女の子\n「ちょっとぉ・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Hello-o...\"\n{wait}",
    "slots": [
     103
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.104",
    "jp": "女の子\n「あたしの話、聞いて・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Listen to me...\"\n{wait}",
    "slots": [
     104
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.105",
    "jp": "阿那律\n「えーいっ、うっとーしいっ！」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Gaaah, you're so annoying!\"\n{wait}",
    "slots": [
     105
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.106",
    "jp": "女の子\n「あたしの話、聞いてるのぉ～？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Are you even listening to me~?\"\n{wait}",
    "slots": [
     106
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.107",
    "jp": "女の子\n「なによぉ～・・・」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Whate-ever~...\"\n{wait}",
    "slots": [
     107
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.108",
    "jp": "女の子\n「べーーーーーっだっ！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Nyeeeeeeh!\"\n{wait}",
    "slots": [
     108
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.199",
    "jp": "裕子\n「ねーあんた、ちょっと・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Hey, you, um...\"\n{wait}",
    "slots": [
     199
    ],
    "pre": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.200",
    "jp": "女の子\n「あ～、あたし関係ないからぁ」\n{wait}「荏狗覇菟とかぁ、\n　そーゆーのと関係ないからぁ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Oh~, I've got nothing to do with i-it.\"\n{wait}\"The Egubado and stu-uff, I've got, like,\nnothing to do with tha-at.\"\n{wait}",
    "slots": [
     200
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.201",
    "jp": "裕子\n「は・・・はあ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Uh... okay.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.202",
    "jp": "ゆかり\n「そこのあなた、悪いけど・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You there, sorry, but...\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.11.203",
    "jp": "女の子\n「あ～、あたし関係ないからぁ」\n{wait}「荏狗覇菟とかぁ、\n　そーゆーのと関係ないからぁ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Oh~, I've got nothing to do with i-it.\"\n{wait}\"The Egubado and stu-uff, I've got, like,\nnothing to do with tha-at.\"\n{wait}",
    "slots": [
     203
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.204",
    "jp": "ゆかり\n「え？　あ、あの・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Huh? Oh, um...\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.205",
    "jp": "唯\n「ねぇあなた、直江さんて人、\n　知らな・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Hey, do you know someone named\nNaoe-san...\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.11.206",
    "jp": "女の子\n「あ～、あたし関係ないからぁ」\n{wait}「荏狗覇菟とかぁ、\n　そーゆーのと関係ないからぁ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Oh~, I've got nothing to do with i-it.\"\n{wait}\"The Egubado and stu-uff, I've got, like,\nnothing to do with tha-at.\"\n{wait}",
    "slots": [
     206
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.207",
    "jp": "唯\n「え・・・えーと」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Uh... umm.\"\n{wait}",
    "slots": [
     207
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.208",
