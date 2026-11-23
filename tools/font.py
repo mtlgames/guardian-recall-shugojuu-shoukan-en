@@ -76,7 +76,8 @@ def cell_of(entry):
 
 
 def plan(a):
-    """{char: map-format cell entry} for every glyph in the font (space: 0)."""
+    """{char: map-format cell entry} for every glyph in the font. Space gets a blank free cell: a lookup miss draws
+    ？ in the txd renderer (0x80017F10) and doesn't advance in 0x80044624."""
     gmap = glyph_map(a)
     used = {cell_of(e) for e in gmap if e}
     # entry 0 means "no glyph", so cell (0, 0, 0) can't be named
@@ -85,9 +86,6 @@ def plan(a):
     glyphs = load_glyphs()
     cells, fi = {}, 0
     for ch in sorted(glyphs):
-        if ch == " ":
-            cells[ch] = 0
-            continue
         if ch.isalnum():
             sj = chr(ord(ch) + 0xFEE0).encode("cp932")
             e = gmap[(sj[0] << 8 | sj[1]) - 0x813F]

@@ -6,14 +6,18 @@ route_choice	1	idle		60 -	600	天/地 route choice (RSEL), where new games start
 option	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -	1800	OPTION menu: 守護獣戦術指南 守護獣図鑑 イベント再現 用語辞典 キャラファイル EXIT
 opt_tactics	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 circle;400 -	1800	OPTION > 守護獣戦術指南 (tutorial list, tu.txd)
 opt_tactics_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 circle;400 -	1800	OPTION > 守護獣戦術指南 (tutorial list, tu.txd), all entries (unlock.mcd)	unlock.mcd
+opt_tactics_page	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 circle;400 -;8 circle;600 -	2400	OPTION > 守護獣戦術指南 (tutorial list, tu.txd), first entry's page (unlock.mcd)	unlock.mcd
 opt_guardians	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 right;40 -;8 circle;400 -	1800	OPTION > 守護獣図鑑 (gd.txd)
 opt_guardians_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 right;40 -;8 circle;400 -	1800	OPTION > 守護獣図鑑 (gd.txd), all entries (unlock.mcd)	unlock.mcd
+opt_guardians_page	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 right;40 -;8 circle;400 -;8 circle;600 -	2400	OPTION > 守護獣図鑑 (gd.txd), first entry's page (unlock.mcd)	unlock.mcd
 opt_replay	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 circle;400 -	1800	OPTION > イベント再現 (rep.txd)
 opt_replay_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 circle;400 -	1800	OPTION > イベント再現 (rep.txd), all entries (unlock.mcd)	unlock.mcd
 opt_dictionary	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 right;40 -;8 circle;400 -	1800	OPTION > 用語辞典 (dic.txd)
 opt_dictionary_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 right;40 -;8 circle;400 -	1800	OPTION > 用語辞典 (dic.txd), all entries (unlock.mcd)	unlock.mcd
+opt_dictionary_page	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 right;40 -;8 circle;400 -;8 circle;600 -	2400	OPTION > 用語辞典 (dic.txd), first entry's page (unlock.mcd)	unlock.mcd
 opt_charfile	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 down;40 -;8 circle;400 -	1800	OPTION > キャラファイル (cf.txd)
 opt_charfile_all	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 down;40 -;8 circle;400 -	1800	OPTION > キャラファイル (cf.txd), all entries (unlock.mcd)	unlock.mcd
+opt_charfile_page	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 down;40 -;8 circle;400 -;8 circle;600 -	2400	OPTION > キャラファイル (cf.txd), first entry's page (unlock.mcd)	unlock.mcd
 opt_music	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 triangle;300 -;400 -	1800	OPTION > △ MUSIC MODE (track 1:MAIN THEME, scrolling)
 opt_music_track	1	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 triangle;300 -;8 r2;300 -;400 -	1800	MUSIC MODE > R2: next track
 replay_d2	2	ovl:16		520 -;8 start;150 -;8 down;60 -;8 start;1000 -;8 down;40 -;8 circle;400 -	2000	disc 2 イベント再現 list (entries 44-84)	unlock.mcd
