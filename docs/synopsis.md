@@ -141,3 +141,12 @@ The Four Gate Generals aren't at the Diet Building: suspicious. Chikana fears sh
 be dead weight against Ryukihi (only the Seven Dragons can beat her). Yuko leads the others on a park tour of Tokyo
 (Shakujii Park...). An Egubado squad's hired "Master", Takegami (old warrior, ワシ/お主, lives to fight the strong),
 loses and joins to fight Ryukihi. Suzune finds a toy hero belt; Akira begs for it.
+
+## 24-25 (Hibiya Park camp; the Four Gates)
+Yukari tells the legend of the Emperor Dragon (皇龍: the Seven Dragons released from the veins become one and save
+Japan); she thinks it means the Dragon Wielders themselves. Ruri falls for Takegami and asks him to be her "partner";
+he hears "sparring partner". Misato and Yuko quarrel while worrying about the scouts; everyone goes to look. Camp
+vignettes: Keiko's habitual polite speech, Miyuki and Keiko "super good friends"; Yukari gives Mayu spare shoes and
+worries she seems bossy (Yuko: no regrets about following her); Suzune asks Keiko to mind-read the newcomers.
+Sayaka goes to Aomori Gakuin Women's College. At the Diet Building the scouts are spotted; the others arrive in time.
+A warrior: no one nears the Diet Building while the Four Gates are guarded.

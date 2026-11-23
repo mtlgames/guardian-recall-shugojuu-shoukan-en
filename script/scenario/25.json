@@ -7,218 +7,242 @@
   {
    "id": "g23.25.000",
    "jp": "巴澄\n「気づかれている様子は、ないな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Doesn't look like they've noticed us.\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.001",
    "jp": "唯\n「よかった」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Thank goodness.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.002",
    "jp": "ちかな\n「闘士の数は、まぁまぁ・・・」\n{wait}「とはいえ、強力な部隊って\n　感じでもないね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"A fair number of warriors...\"\n{wait}\"Still, doesn't feel like a powerful unit.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.003",
    "jp": "唯\n「私たちをおびき寄せたら、\n　数にまかせて一網打尽、とか」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Maybe once they lure us in, they'll\noverwhelm us with numbers and catch us all\nat once.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.004",
    "jp": "巴澄\n「そうでなければ、\n　よほど自信があるんだな」\n{wait}「絶対に龍脈を奪われない自信が」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Or else they're very confident.\"\n{wait}\"Confident that the dragon vein can never\nbe taken from them.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.005",
    "jp": "瞳\n「・・・議事堂に入ってみよう。\n　話はそれからだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...Let's try getting into the Diet Building. We'll\ntalk after that.\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.006",
    "jp": "唯\n「ちかなさん、\n　わたし、思うんだけど・・・」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Chikana-san, I was thinking...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.007",
    "jp": "ちかな\n「なにさ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"What?\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.008",
    "jp": "唯\n「・・・真由さんが言ってたでしょ、\n　龍に導かれてるって」\n{wait}「だから・・・\n　わたしたちみんな、ここにいる事に\n　意味があるって思うの」\n{wait}「わたしたちだから出来る事、\n　わたしたちにしか出来ない事、\n　きっとあるはずよ」\n{wait}「そう思わなくちゃ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"...Mayu-san said it, didn't she? That we're\nbeing led by the dragons.\"\n{wait}\"So... I think there's a meaning to all of us\nbeing here.\"\n{wait}\"Something we can do because we're us,\nsomething only we can do... I'm sure there is.\"\n{wait}\"We have to believe that.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.009",
    "jp": "ちかな\n「うん・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Yeah...\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.010",
    "jp": "巴澄\n「しまった、見つかった！」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Blast, they've spotted us!\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.011",
    "jp": "ちかな\n「なんでさ！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"How!?\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.012",
    "jp": "唯\n「わたしじゃないわよね、ね？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"It wasn't me, was it? Right?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.013",
    "jp": "瞳\n「くそっ・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Damn it...\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.014",
    "jp": "美由紀\n「仁！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Jin!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.25.015",
    "jp": "瞳\n「お前たち、どうして！」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"You lot, why are you here!?\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.016",
    "jp": "裕子\n「遅いんだもん、迎えに来たんだよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"You were taking forever, so we came to\nget you.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.25.017",
    "jp": "ちかな\n「バカ・・・バカだねっ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Idiots... you're such idiots.\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.25.018",
    "jp": "闘士\n「四門が護られている限り、お前たちは\n　議事堂には、近づけない」\n{wait}「フ、フハハハ・・・」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"As long as the Four Gates are guarded, you'll\nnever get near the Diet Building.\"\n{wait}\"Heh, hahaha...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.25.019",
    "jp": "瞳\n「四門・・・四門だと？\n　そうか、そういう事か・・・！」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"The Four Gates... the Four Gates, you say? I\nsee, so that's it...!\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.25.020",
    "jp": "美里\n「やっぱり来て、よかったわね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Good thing we came after all.\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.25.021",
    "jp": "裕子\n「ホント。こんなコトに\n　なってるなんてさ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Seriously. Who knew things were like this.\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.022",
    "jp": "巴澄\n「おまえたち軽率すぎるぞ。ゆかり、\n　おまえがついていながら・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"You're all far too reckless. Yukari, and with\nyou there...\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.25.023",
    "jp": "ゆかり\n「なに言ってるの。\n　危い所だったくせに」\n{wait}「いま仁に、いなくなられたら、\n　私たち困るじゃないの」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"What are you talking about? You were in a\ntight spot.\"\n{wait}\"If we lost Jin now, we'd be in trouble.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.25.024",

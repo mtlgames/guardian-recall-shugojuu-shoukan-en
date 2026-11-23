@@ -7,1501 +7,1665 @@
   {
    "id": "g23.24.000",
    "jp": "ゆかり\n「龍脈から龍が離れる時、\n　日本は壊滅する」\n{wait}「龍脈に関する伝承のひとつよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"When the dragons leave the dragon veins,\nJapan will be destroyed.\"\n{wait}\"That's one of the legends about the\ndragon veins.\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.001",
    "jp": "「でもその一方で、龍脈から離れた龍が\n　日本を救うともあるのよ」\n{wait}",
-   "en": "",
+   "en": "\"But on the other hand, it also says the\ndragons that leave the dragon veins will\nsave Japan.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.002",
    "jp": "「たとえ、なんらかの理由で七龍が\n　放たれたとしても」\n{wait}「龍脈から放たれた七龍は、\n　化身『皇龍』となって、\n　日本を救うんですって」\n{wait}",
-   "en": "",
+   "en": "\"Even if the Seven Dragons were released\nfor some reason...\"\n{wait}\"Once released from the dragon veins, the\nSeven Dragons become an incarnation, the\n'Emperor Dragon', and save Japan.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.24.003",
    "jp": "美由紀\n「・・・でも」\n{wait}「荏狗覇菟に龍脈を壊されて、\n　龍は龍脈から、\n　離れちゃったんでしょ」\n{wait}「なのに・・・じゃあ皇龍は、\n　なんで来てくれないの？」\n{wait}「大雪が無事だったからかな」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...But...\"\n{wait}\"The Egubado wrecked the dragon veins, so\nthe dragons left them, right?\"\n{wait}\"So then... why won't the Emperor\nDragon come?\"\n{wait}\"Is it 'cause Taisetsu was okay?\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.004",
    "jp": "裕子\n「だから、ただのお話だよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Like I said, it's just a story.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.005",
    "jp": "美由紀\n「でも裕子ちゃん、七龍だって\n　ちゃんといるんだもん」\n{wait}「皇龍だって・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"But Yuko-chan, the Seven Dragons are real,\naren't they?\"\n{wait}\"So the Emperor Dragon must be too...\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.006",
    "jp": "裕子\n「ちゃん、だって。\n　にゃはは、照れちゃうなー」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"'Yuko-chan', she says. Nyahaha, you're\nmaking me blush.\"\n{wait}",
    "slots": [
     6
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.007",
    "jp": "美里\n「皇龍なんて、いやしないって」\n{wait}「そんなのがホントにいるなら私たち、\n　今頃こんな苦労してないわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"There's no such thing as an Emperor\nDragon.\"\n{wait}\"If anything like that really existed, we\nwouldn't be going through all this trouble.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.008",
    "jp": "ゆかり\n「そうね」\n{wait}「だけど・・・美由紀さんの言う通り、\n　龍は私たちに宿ったわ。\n　だから私、思うのよ」\n{wait}「皇龍というのも、あながち作り話では\n　なくて、つまり・・・私たちのことを\n　指しているのかも知れないって」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"True.\"\n{wait}\"But... just as Miyuki-san says, the dragons\ncame to dwell in us. So I think...\"\n{wait}\"Maybe the Emperor Dragon isn't entirely\nmade up. Maybe it's... referring to us.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.009",
    "jp": "景子\n「・・・私たち？」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...Us?\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.010",
    "jp": "ゆかり\n「そう」\n{wait}「荏狗覇菟から龍脈を解放してきた\n　事で私たちは少なくとも、地脈の\n　異変からは日本を守ってきた」\n{wait}「その発端は、龍の声でしょう？」\n{wait}「そして、もうひとつ。天龍と地龍が\n　目覚めて七龍がそろった時・・・\n　私たちの前にいるのは、龍鬼妃よ」\n{wait}「日本を混乱させようとしている\n　龍鬼妃を倒す事は、ある意味で\n　日本を救うことになるわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Yes.\"\n{wait}\"By freeing the dragon veins from the\nEgubado, we've at least protected Japan\nfrom upheavals in the earth's veins.\"\n{wait}\"And it all started with the dragons' voices,\ndidn't it?\"\n{wait}\"And one more thing. When the Sky Dragon\nand Earth Dragon awaken and the Seven\nDragons are gathered... Ryukihi is who we'll\n{wait}be facing.\"\n{wait}\"Defeating Ryukihi, who's trying to throw\nJapan into chaos, will in a sense mean\nsaving Japan.\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.011",
    "jp": "晶\n「あ、なるほど！　皇龍は日本を救う、\n　龍鬼妃を倒せば日本は救われる」\n{wait}「七龍の化身が皇龍なら、\n　つまりそれは、私たちです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ah, I see! The Emperor Dragon saves Japan,\nand defeating Ryukihi saves Japan.\"\n{wait}\"If the Emperor Dragon is the incarnation of\nthe Seven Dragons, then that means it's us,\nyes indeed!\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.012",
    "jp": "真由\n「七龍がそろって戦う力が、\n　皇龍ってわけやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"So the Emperor Dragon's the power of the\nSeven Dragons fightin' together, huh.\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.013",
    "jp": "裕子\n「はあ・・・なるほどねぇ」\n{wait}「ゆかり、あんた意外に\n　ロマンチストなんだ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh... I see.\"\n{wait}\"Yukari, you're more of a romantic than I\nthought.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.014",
    "jp": "ゆかり\n「なによ、からかってるの？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"What, are you making fun of me?\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.015",
    "jp": "裕子\n「感心してんのさ。おカタいだけじゃ\n　ないんだなーって」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I'm impressed. Guess you're not just all stiff\nand serious.\"\n{wait}",
    "slots": [
     15
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.016",
    "jp": "ゆかり\n「いやな子」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You're awful.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.017",
    "jp": "裕子\n「それにしても・・・仁たち遅いな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Anyway... Jin and the others sure are\ntaking a while.\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.018",
    "jp": "美由紀\n「うん。まだかな・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah. Are they back yet...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.019",
    "jp": "晶\n「まだみたいです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Looks like not yet, yes indeed.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.020",
    "jp": "ゆかり\n「も～、５分置きにやめてちょうだい、\n　少しは落ち着いたらどうなの」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Oh, please, stop doing that every five\nminutes. Can't you calm down a little?\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.021",
    "jp": "裕子\n「だーって、もうジーッとしてんの\n　あきちゃったんだよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"But I'm already sick of sitting still!\"\n{wait}",
    "slots": [
     21
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.022",
    "jp": "晶\n「その通りなのです！」\n{wait}「ヒーローの生きざまはいつも、\n　波乱万丈なのです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Exactly so, yes indeed!\"\n{wait}\"A hero's life is always full of ups and downs!\"\n{wait}",
    "slots": [
     22
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.023",
    "jp": "真由\n「みんな・・・ごちゃごちゃ言うとる\n　場合じゃ、なか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Everyone... this ain't the time for squabblin'.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.024",
    "jp": "ゆかり\n「い、いつの間に・・・！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Wh-when did they...!\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.025",
    "jp": "美里\n「よかったわね、波乱万丈で」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Lucky you, there's your ups and downs.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.026",
    "jp": "晶\n「うわーん、ごめんなさいです～」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Waaah, I'm sorry, yes indeed~\"\n{wait}",
    "slots": [
     26
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.027",
    "jp": "美里\n「おどかしてくれるわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"They sure gave us a scare.\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.028",
    "jp": "景子\n「今の東京に・・・\n　安全な場所なんてないんですね」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"In Tokyo right now... there's nowhere safe,\nis there?\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.029",
    "jp": "真由\n「・・・そ、それにしても仁たち、\n　遅かね」\n{wait}「ただじっと待つとが、こげん辛かこ\n　つとは思わんかった」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...S-still, Jin and the others sure are\ntakin' a while.\"\n{wait}\"Never thought just sittin' and waitin' could\nbe this hard.\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.030",
    "jp": "美里\n「・・・なんか、あったのかしら」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...Do you think something happened?\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.031",
    "jp": "裕子\n「なんかって・・・なんだよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"'Something'... like what?\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.032",
    "jp": "美里\n「なんかは、なんかよ！」\n{wait}「分からないから、なんかって\n　言ってるんでしょ・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Something is something!\"\n{wait}\"I'm saying 'something' because I don't\nknow, okay...?\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.033",
    "jp": "裕子\n「分からないなら余計な事言わなきゃ\n　いーだろ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"If you don't know, then don't go saying\nstuff we don't need to hear.\"\n{wait}",
    "slots": [
     33
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.034",
    "jp": "美里\n「余計な事とは何よ！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"What do you mean, stuff we don't need\nto hear!?\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.035",
    "jp": "真由\n「ちょ、ちょっと、やめんね！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"H-hey, cut it out, you two!\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.036",
    "jp": "美里\n「だいたいね！」\n{wait}「あなたみたいな礼儀知らずに、\n　とやかく言われたくないわね！\n　なによその口の利き方」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"And another thing!\"\n{wait}\"I don't want to be lectured by someone as\nrude as you! What's with the way you talk?\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.037",
    "jp": "裕子\n「なんだとー！」\n{wait}「自分だって、そのイヤミったらしい\n　口の利き方は、なんなんだよっ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What'd you say!?\"\n{wait}\"And what about you and that snide way of\ntalking, huh!?\"\n{wait}",
    "slots": [
     37
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.038",
    "jp": "ゆかり\n「ま、まーまーまー、\n　ふたりとも落ち着いて、ね？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"N-now, now, now, both of you calm\ndown, okay?\"\n{wait}",
    "slots": [
     38
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.039",
    "jp": "景子\n「そうですよ、子供みたいに・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"That's right, you're acting like children...\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.040",
    "jp": "裕子\n「だってあいつ、\n　縁起でもないコト言ってさあ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"But she said something that's just asking for\nbad luck.\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.041",
    "jp": "美里\n「あたしは、ただ可能性の話を\n　しただけよ！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"I was only talking about a possibility!\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.042",
    "jp": "美由紀\n「だいじょーぶだよ。仁は強いから、\n　心配いらないよ、ね？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"It's okaaay. Jin is strong, so there's nothing\nto worry about, right?\"\n{wait}",
    "slots": [
     42
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.043",
    "jp": "裕子\n「あ、いや・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Oh, uh, well...\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.044",
    "jp": "美里\n「え・・・っと」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Um... well...\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.045",
    "jp": "真由\n「・・・ばってん、やっぱ心配やね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Still, I'm kinda worried.\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.046",
    "jp": "美由紀\n「・・・見に行く？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Wanna go see?\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.047",
    "jp": "晶\n「それ、いい考えです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"That's a good idea, yes indeed.\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.048",
    "jp": "景子\n「でも、待つようにって・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"But they told us to wait...\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.049",
    "jp": "裕子\n「あたし行くよ。\n　心配しながら待つなんてもーヤダ」\n{wait}「イライラする」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I'm going. I'm done waiting around and\nworrying.\"\n{wait}\"It's driving me nuts.\"\n{wait}",
    "slots": [
     49
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.050",
    "jp": "美里\n「・・・まあ、そうね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...Well, I suppose.\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.051",
    "jp": "ゆかり\n「あなたたちは～」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You people~\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.052",
    "jp": "真由\n「ゆかりさんは待っとってよかよ。\n　あたしたちで見てくるけん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You can wait here, Yukari-san. We'll go\ntake a look.\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.053",
    "jp": "ゆかり\n「そんなワケにいきますかっ！\n　しょうがないわねぇ・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"As if I'd do that! Honestly, you're hopeless...\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.199",
    "jp": "るり\n「ああ・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Ahh...\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.24.200",
    "jp": "武神\n「どうした」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"What is it?\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.201",
    "jp": "るり\n「いえ、武神さんて・・・\n　たくましいんですね」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Oh, it's just... Takegami-san, you're\nso... manly.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.202",
    "jp": "武神\n「うむ。修行は欠かさぬからな」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Indeed. I never neglect my training.\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.203",
    "jp": "るり\n「武神さん・・・」\n{wait}「あの・・・よろしければ私と、\n　つきあって、いただけませんか？」\n{wait}（きゃ～！　言っちゃった～！\n　あたしってば、ダ・イ・タ・ン！）\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Takegami-san...\"\n{wait}\"Um... if you don't mind... would you be my\npartner?\"\n{wait}(Kyaaa! I said it~! I'm so bo-o-old!)\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.204",
    "jp": "武神\n「ほう・・・かまわんぞ」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Oh... I don't mind.\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.205",
    "jp": "るり\n「え・・・ほ、ホントに？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Wh... r-really?\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.206",
    "jp": "武神\n「もちろんだ。すぐにでもよいぞ」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Of course. We can begin at once, if you like.\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.207",
    "jp": "るり\n「え・・・ええっ！\n　る、るりカンド～ですう！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Wha... whaaat! R-Ruri's so touched!\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.208",
    "jp": "武神\n「よい心がけだ」\n{wait}「守護獣を使っての手合わせは、\n　お互い守護獣使いでないと\n　できぬからな」\n{wait}「これ日々、精進が肝心」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"A fine attitude.\"\n{wait}\"A Guardian sparring match is only possible\nbetween two Guardian users, after all.\"\n{wait}\"Daily practice is the key.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.209",
    "jp": "るり\n「・・・え？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"...Huh?\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.210",
    "jp": "武神\n「おぬし、おなごにしてはホネがある」\n{wait}「うむ・・・楽しみにしておるぞ。\n　はっはっはっは」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"You have backbone, for a woman.\"\n{wait}\"Yes... I look forward to it. Hahahaha!\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.211",
    "jp": "るり\n「は・・・ははは・・・」\n{wait}（しくしくしく・・・）\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Ha... hahaha...\"\n{wait}(Sob sob sob...)\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.212",
    "jp": "美里\n「みんな、モノ好きよね・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Everyone here's a little weird...\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.24.213",
    "jp": "晶\n「はい？」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Pardon?\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.214",
    "jp": "美里\n「苦しい思いして、こんな戦い・・・」\n{wait}「誰に認めてもらえるわけでも\n　ないのに」\n{wait}「あたしたちだって、龍の声なんか\n　ムシして、いつもの普通のくらし\n　してたっていいのよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Suffering through this fight...\"\n{wait}\"And it's not like anyone will give us\ncredit for it.\"\n{wait}\"We could just ignore the dragons' voices and\nlive our usual normal lives.\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.215",
    "jp": "晶\n「ふーむ・・・なかなかスルドイです。\n　でも！」\n{wait}「その普通の人々の普通のくらしを守る\n　ために、私たちは戦っているです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Hmm... A very sharp point. But!\"\n{wait}\"We fight to protect the normal lives of\nthose normal people, yes indeed!\"\n{wait}",
    "slots": [
     215
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.216",
    "jp": "美里\n「だから」\n{wait}「おとなしく、その普通の人々の中に\n　いればいいのにって言ってんの」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"That's what I mean.\"\n{wait}\"I'm saying we could just quietly stay among\nthose normal people.\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.217",
    "jp": "晶\n「そうできないのが、ヒーローが\n　ヒーローたる、ゆえんなのです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Not being able to do that is exactly what\nmakes a hero a hero, yes indeed.\"\n{wait}",
    "slots": [
     217
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.218",
    "jp": "美里\n「・・・へんなやつ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...You're weird.\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.219",
    "jp": "晶\n「美里さんもです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"So are you, Misato-san.\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.220",
    "jp": "美里\n「私が？　あははっ、あんたに\n　言われたくないわね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Me? Ahaha, you're one to talk.\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.221",
    "jp": "晶\n「いろいろいて、面白いです」\n{wait}「みんな仲間です。一蓮托生、\n　最後まで一緒に戦うです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"All sorts of people here. It's fun, yes indeed.\"\n{wait}\"We're all friends. We're in the same boat, and\nwe'll fight together to the very end!\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.222",
    "jp": "美里\n「ほんと・・・へんなヤツばっか」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Honestly... nothing but weirdos.\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.223",
    "jp": "さやか\n「さぁ～、\n　ばびっと、やっつけちゃお～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"O-kay~ Let's zip-zap 'em good~\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.24.224",
    "jp": "真由\n「ばび？」\n{wait}「そう言えば、さやか・・・さんて、\n　女子大生やったよね？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Zip-zap?\"\n{wait}\"Come to think of it, Sayaka... -san, you're a\ncollege girl, right?\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.225",
    "jp": "さやか\n「そうだけどぉ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ye-ah, so~?\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.226",
    "jp": "真由\n「大学、どこなん？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Which college?\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.227",
    "jp": "さやか\n「青森学院女子ぃ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Aomori Gakuin Women's Colle-ege~\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.228",
    "jp": "真由\n「げ、森女？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Ugh, Morijo?\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.229",
    "jp": "さやか\n「そっかぁ、あんた受験生なんだぁ。\n　こんなトコいてぇ、平気なのぉ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Oh ri-ight, you're studying for entrance\nexams. Is it okay for you to be he-ere~?\"\n{wait}",
    "slots": [
     229
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.230",
    "jp": "真由\n「・・・実は不安やったとやけど、\n　なんか自信でてきたわ、ウン」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Truth is, I was worried. But somehow I'm\nfeelin' a lot more confident now. Yup.\"\n{wait}",
    "slots": [
     230
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.231",
    "jp": "さやか\n「なぁにぃ・・・？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Wha-at's that supposed to mean...?\"\n{wait}",
    "slots": [
     231
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.239",
    "jp": "美由紀\n「景子ちゃん、なんで同い年なのに\n　デスとかマスとか言うの？」\n{wait}「あたしとか、ぜんぜん気にしないから\n　もっとフツーに喋っていいよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Keiko-chan, we're the same age, so why do\nyou talk all polite?\"\n{wait}\"I don't care about that stuff at all, so you\ncan talk normal with me.\"\n{wait}",
    "slots": [
     239
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.240",
    "jp": "景子\n「普通ですよ」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"This is normal for me.\"\n{wait}",
    "slots": [
     240
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.241",
    "jp": "美由紀\n「あ、ほらまた」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"See, you did it again.\"\n{wait}",
    "slots": [
     241
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.242",
    "jp": "景子\n「・・・ほんと。クセになってるのかも\n　知れませんね」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...You're right. Maybe it's become a habit.\"\n{wait}",
    "slots": [
     242
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.243",
    "jp": "美由紀\n「ふうん。じゃ、エンリョしてるって\n　ワケじゃないんだ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hmm. So you're not just holding back, then.\"\n{wait}",
    "slots": [
     243
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.244",
    "jp": "景子\n「・・・え？」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...Huh?\"\n{wait}",
    "slots": [
     244
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.245",
    "jp": "美由紀\n「もしかして、あたしとかウルサイから\n　あんまし好きじゃなくて・・・」\n{wait}「ずーっとエンリョしてるのかなって\n　思ったの。違うなら、いいの」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"I thought maybe... I'm too noisy and you\ndon't like me much...\"\n{wait}\"...so you were holding back the whole time. If\nnot, then that's okay.\"\n{wait}",
    "slots": [
     245
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.246",
    "jp": "景子\n「・・・そんな事ないです。私・・・\n　美由紀さん好きですよ」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...That's not it at all. I... I like you, Miyuki-san.\"\n{wait}",
    "slots": [
     246
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.247",
    "jp": "美由紀\n「うん！　あ、そうそう。\n　景子ちゃんにコレ、あげる」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yay! Oh, right, right. Keiko-chan, I'll give\nyou this.\"\n{wait}",
    "slots": [
     247
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.248",
    "jp": "景子\n「え、私に？　でも・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Huh, for me? But...\"\n{wait}",
    "slots": [
     248
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.249",
    "jp": "美由紀\n「ねー・・・あたし、景子ちゃんと\n　わりと仲良しだよね」\n{wait}「それとも・・・だいぶ仲良し？」\n{wait}「・・・かなり仲良し？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hey... you and me are pretty good friends,\nright, Keiko-chan?\"\n{wait}\"Or... really good friends?\"\n{wait}\"...Super good friends?\"\n{wait}",
    "slots": [
     249
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.250",
    "jp": "景子\n「・・・・・・」\n{wait}「・・・かなり」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"......\"\n{wait}\"...Super good.\"\n{wait}",
    "slots": [
     250
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.251",
    "jp": "美由紀\n「あはは！」\n{wait}「じゃ、あたしと景子ちゃんは、\n　かなり仲良しね！」\n{wait}「かなり仲良しって、\n　イチバンの仲良しの次に、\n　仲いいってコトだからね」\n{wait}「イチバンの仲良しは、美里ちゃん\n　だもんね。あれ？　どしたの・・・\n　顔、赤いよ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ahaha!\"\n{wait}\"Then me and Keiko-chan are super good\nfriends!\"\n{wait}\"Super good friends means the next best\nafter best friends, okay?\"\n{wait}\"'Cause my best friend is Misato-chan. Huh?\nWhat's wrong... your face is all red.\"\n{wait}",
    "slots": [
     251
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.252",
    "jp": "景子\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"......\"\n{wait}",
    "slots": [
     252
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.253",
    "jp": "美由紀\n「待って待って！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Wait, wait!\"\n{wait}",
    "slots": [
     253
    ],
-   "pre": 7
+   "pre": 7,
+   "status": "done"
   },
   {
    "id": "g23.24.254",
    "jp": "美由紀\n「やっぱ、あんまり離れると\n　不安だよ～」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Getting too far apart makes me nervous\nafter all~\"\n{wait}",
    "slots": [
     254
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.255",
    "jp": "美里\n「大丈夫よ、そのくらい」\n{wait}「ひとりでガンガン行ってくれる\n　くらいじゃなきゃね」\n{wait}「天ちゃん、いちいち振り返らなくても\n　いいのよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"That much is fine.\"\n{wait}\"It should be able to charge ahead on\nits own.\"\n{wait}\"Ten-chan, you don't have to look back every\nsingle time.\"\n{wait}",
    "slots": [
     255
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.256",
    "jp": "天ちゃん\n「キキィ・・・」\n{wait}",
-   "en": "",
+   "en": "Ten-chan\n\"Kiki...\"\n{wait}",
    "slots": [
     256
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.257",
    "jp": "ゆかり\n「あまり、なれてないの？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You're not very used to it yet?\"\n{wait}",
    "slots": [
     257
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.258",
    "jp": "ゆかり\n「天ちゃんと会ったのは、いつ？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"When did you meet Ten-chan?\"\n{wait}",
    "slots": [
     258
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.259",
    "jp": "美由紀\n「んっとね・・・つい最近」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Um, let's see... just recently.\"\n{wait}",
    "slots": [
     259
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.260",
    "jp": "ゆかり\n「守護獣使いに、なりたてなのね。\n　裕子と一緒だわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"So you're a brand-new Guardian user. Same\nas Yuko.\"\n{wait}",
    "slots": [
     260
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.261",
    "jp": "美由紀\n「そうなの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Really?\"\n{wait}",
    "slots": [
     261
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.262",
    "jp": "ゆかり\n「そうよ。はい、これあげるわ。\n　がんばってね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Yes. Here, you can have this. Do your best.\"\n{wait}",
    "slots": [
     262
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.263",
    "jp": "美里\n「へえ・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Huh...\"\n{wait}",
    "slots": [
     263
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.264",
    "jp": "美由紀\n「べつにコワイ人じゃなかったね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"She wasn't a scary person at all.\"\n{wait}",
    "slots": [
     264
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.265",
    "jp": "真由\n「ほらほら美由紀、早よせんね。\n　みんな集まっとるよ、もう」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"C'mon, c'mon, Miyuki, hurry it up. Everybody's\nalready gathered.\"\n{wait}",
    "slots": [
     265
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.24.266",
    "jp": "美由紀\n「ほいほい」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Okey-dokey.\"\n{wait}",
    "slots": [
     266
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.267",
    "jp": "真由\n「うわっ・・・ちゃ～・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Whoa... ack...\"\n{wait}",
    "slots": [
     267
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.268",
    "jp": "美由紀\n「真由ちゃん、だいじょぶ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan, you okay?\"\n{wait}",
    "slots": [
     268
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.269",
    "jp": "真由\n「ヒールが・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"My heel...\"\n{wait}",
    "slots": [
     269
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.270",
    "jp": "美由紀\n「あー・・・とれちゃったね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ahh... it came off, huh.\"\n{wait}",
    "slots": [
     270
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.271",
    "jp": "真由\n「とれちゃったね、じゃなかよ～」\n{wait}「あーもう！\n　美由紀がモタモタしとるから～！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Don't you 'came off, huh' me~\"\n{wait}\"Aw, jeez! It's 'cause you were dawdlin',\nMiyuki~!\"\n{wait}",
    "slots": [
     271
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.272",
    "jp": "ゆかり\n「あらあら、大変ね・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Oh dear, that's too bad...\"\n{wait}",
    "slots": [
     272
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.273",
    "jp": "ゆかり\n「これ、使うといいわ。サイズが\n　合うといいんだけど・・・」\n{wait}「大きかったら詰め物して。\n　大丈夫、新品よ。\n　一応、予備に持ってたの」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You can use these. I hope they fit...\"\n{wait}\"If they're too big, stuff something in them.\nDon't worry, they're brand new. I kept them\nas spares, just in case.\"\n{wait}",
    "slots": [
     273
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.274",
    "jp": "美由紀\n「・・・やっさし～」\n{wait}「あの人ぜんぜんコワくないよ。\n　よかったね、真由ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...Sooo nice~\"\n{wait}\"She's not scary at all. Isn't that great,\nMayu-chan?\"\n{wait}",
    "slots": [
     274
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.275",
    "jp": "真由\n「・・・なんか、うまくやって\n　いけそうやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Looks like we'll get along just fine.\"\n{wait}",
    "slots": [
     275
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.276",
    "jp": "ゆかり\n「私・・・威張りちらしてるように\n　見えるかしら・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Do I... come across as bossy...\"\n{wait}",
    "slots": [
     276
    ],
-   "pre": 7
+   "pre": 7,
+   "status": "done"
   },
   {
    "id": "g23.24.277",
    "jp": "ノルト\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Nord\n\"......\"\n{wait}",
    "slots": [
     277
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.278",
    "jp": "ゆかり\n「見えるわよね、やっぱり」\n{wait}「こんなじゃ、みんなついてきて\n　くれないかもね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I do, don't I.\"\n{wait}\"Like this, maybe nobody will want to\nfollow me.\"\n{wait}",
    "slots": [
     278
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.279",
    "jp": "ノルト\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Nord\n\"......\"\n{wait}",
    "slots": [
     279
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.280",
    "jp": "裕子\n「なにノルト相手にグチってんのさ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What're you griping to Nord for?\"\n{wait}",
    "slots": [
     280
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.281",
    "jp": "ゆかり\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"......\"\n{wait}",
    "slots": [
     281
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.282",
    "jp": "裕子\n「ゆかりだけが、がんばるコトないよ。\n　みんな、いるんだしさ」\n{wait}「言ったでしょ。\n　なやんだってしょうがない、\n　なるよーになる」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"You don't have to do everything yourself,\nYukari. We're all here, you know.\"\n{wait}\"I told you, didn't I? No use worrying about it.\nWhatever happens, happens.\"\n{wait}",
    "slots": [
     282
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.283",
    "jp": "ゆかり\n「・・・裕子、私についてきた事、\n　後悔してる？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...Yuko, do you regret following me?\"\n{wait}",
    "slots": [
     283
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.284",
    "jp": "裕子\n「なんだよ、急に・・・」\n{wait}「してたら、どうする？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What's this, all of a sudden...\"\n{wait}\"What if I did?\"\n{wait}",
    "slots": [
     284
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.285",
    "jp": "ゆかり\n「・・・ごめんね。\n　でも最後まで、つき合って」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...I'm sorry. But stick with me to the end.\"\n{wait}",
    "slots": [
     285
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.286",
    "jp": "裕子\n「そうこなくっちゃ」\n{wait}「そうだ・・・これ、さっきそこで\n　見つけたの。けっこうキレイだよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"That's more like it.\"\n{wait}\"Oh, right... I found this over there a minute\nago. It's pretty nice.\"\n{wait}",
    "slots": [
     286
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.287",
    "jp": "ゆかり\n「私に・・・？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"For me...?\"\n{wait}",
    "slots": [
     287
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.288",
    "jp": "裕子\n「言っとくけど、後悔なんて\n　してないよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Just so you know, I don't regret it.\"\n{wait}",
    "slots": [
     288
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.289",
    "jp": "ゆかり\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"......\"\n{wait}",
    "slots": [
     289
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.290",
    "jp": "鈴音\n「だからー」\n{wait}「景子の超能力で、彼女たちホントに\n　いいヤツかどうか調べるだけよ。\n　ね、お願い！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Like I said...\"\n{wait}\"Keiko, just use your psychic power to\ncheck whether those girls are really good\npeople. Please!\"\n{wait}",
    "slots": [
     290
    ],
    "pre": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.291",
    "jp": "景子\n「でも・・・よくないですよ、\n　そういうの」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"But... that kind of thing isn't right.\"\n{wait}",
    "slots": [
     291
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.292",
    "jp": "鈴音\n「だって・・・」\n{wait}「あの中に荏狗覇菟のスパイが混ざって\n　ないとも限らないでしょ？」\n{wait}「あ、美里にはナイショよ。\n　こんなコトさせたって知ったら、\n　怒るに決まってるし」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"But...\"\n{wait}\"There could be an Egubado spy mixed in with\nthem, right?\"\n{wait}\"Oh, and keep it secret from Misato. If she\nfound out I made you do this, she'd blow her\ntop for sure.\"\n{wait}",
    "slots": [
     292
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.293",
    "jp": "景子\n「でしょうね・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I imagine she would...\"\n{wait}",
    "slots": [
     293
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.294",
    "jp": "さやか\n「こう見えてもぉ、人見知りなわけぇ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Believe it or no-ot, I'm actually really\nshy, li-ike.\"\n{wait}",
    "slots": [
     294
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.295",
    "jp": "かおる\n「ふーん」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Huh.\"\n{wait}",
    "slots": [
     295
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.296",
    "jp": "さやか\n「むかっ！　まじめに聞きなさいよ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Hmph! Listen to me seriously~\"\n{wait}",
    "slots": [
     296
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.297",
    "jp": "かおる\n「まじめに聞けって」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"She says listen seriously.\"\n{wait}",
    "slots": [
     297
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.298",
    "jp": "裕子\n「え？　あー、聞いてる聞いてる」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh? Oh, I'm listening, I'm listening.\"\n{wait}",
    "slots": [
     298
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.299",
    "jp": "さやか\n「なによぅ、ふたりとも～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Wha-at's with you two~\"\n{wait}",
    "slots": [
     299
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.300",
    "jp": "裕子\n「わ・・・っと、ごめん」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Whoa... oops, sorry.\"\n{wait}",
    "slots": [
     300
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.301",
    "jp": "景子\n「ご・・・ごめんなさい！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I... I'm sorry!\"\n{wait}",
    "slots": [
     301
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.302",
    "jp": "裕子\n「え？　いや、あたしが\n　よそ見してたんだし・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh? No, I was the one not looking where I\nwas going...\"\n{wait}",
    "slots": [
     302
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.303",
    "jp": "景子\n「こ、これ、おわびです！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Th-this is to apologize!\"\n{wait}",
    "slots": [
     303
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.304",
    "jp": "鈴音\n「あ！　それ私の・・・」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Ah! That's mine...\"\n{wait}",
    "slots": [
     304
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.305",
    "jp": "景子\n「いいんです！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"It's fine!\"\n{wait}",
    "slots": [
     305
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.306",
    "jp": "鈴音\n「ね、ね、どうだった？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"So, so, how'd it go?\"\n{wait}",
    "slots": [
     306
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.307",
    "jp": "景子\n「・・・知りません。教えて\n　あげません」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...I don't know. I'm not telling you.\"\n{wait}",
    "slots": [
     307
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.308",
    "jp": "鈴音\n「不可抗力じゃないの～」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Aw, but that one was an accident, so it\ndoesn't count~\"\n{wait}",
    "slots": [
     308
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.309",
    "jp": "景子\n「ダメです！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"No!\"\n{wait}",
    "slots": [
     309
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.310",
    "jp": "かおる\n「なんだったの？」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"What was that about?\"\n{wait}",
    "slots": [
     310
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.24.311",
    "jp": "裕子\n「さあ・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Beats me...\"\n{wait}",
    "slots": [
     311
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.312",
    "jp": "さやか\n「いいなぁ・・・なんで裕子だけぇ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"No fai-air... why only Yuko~?\"\n{wait}",
    "slots": [
     312
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.313",
    "jp": "かおる\n「あんた人見知りするから」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"'Cause you're shy.\"\n{wait}",
    "slots": [
     313
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.24.314",
    "jp": "さやか\n「ぶー」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Hmph.\"\n{wait}",
    "slots": [
     314
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.24.315",
    "jp": "裕子\n「わははは」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Wahahaha.\"\n{wait}",
    "slots": [
     315
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

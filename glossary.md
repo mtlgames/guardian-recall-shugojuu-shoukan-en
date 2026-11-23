@@ -163,6 +163,8 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 姫ちゃん | Hime-chan | | Yui's (and Yuko's) nickname for Saiki | |
 | ダムダム作戦 | Operation Dam-Dam | | Kagami's dam plan | |
 | ストーンサークル | stone circle | | teleporter site (ch. 15) | |
+| 皇龍 | Emperor Dragon | | legendary incarnation of the Seven Dragons (ch. 24) | |
+| 日比谷公園 | Hibiya Park | | waiting spot in Tokyo (ch. 21-24) | |
 
 ## Guardian species and named guardians (evd unit names, b001; 改 = "+", 弐 = "II")
 | JP | EN | max | notes | Avoid |

@@ -825,120 +825,133 @@
   {
    "id": "g23.23.244",
    "jp": "鈴音\n（やっぱワケわからん・・・）\n{wait}",
-   "en": "",
+   "en": "Suzune\n(I really don't get it...)\n{wait}",
    "slots": [
     244
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.245",
    "jp": "るり\n「す・・・すてき」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"S... so dreamy.\"\n{wait}",
    "slots": [
     245
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.23.246",
    "jp": "蘭\n「るりさん・・・？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Ruri-san...?\"\n{wait}",
    "slots": [
     246
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.247",
    "jp": "るり\n「ごめん蘭ちゃん。\n　あたし、あっち側につくわ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Sorry, Ran-chan. I'm joining their side.\"\n{wait}",
    "slots": [
     247
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.248",
    "jp": "蘭\n「えーっ、\n　ちょ、ちょっと待って！」\n{wait}「なんで？　どうして？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Whaaat? W-wait a minute!\"\n{wait}\"Why? How come?\"\n{wait}",
    "slots": [
     248
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.23.249",
    "jp": "るり\n「ふふふ、女の友情より男への愛情。\n　あのたくましい彼にホれたのよっ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Hehehe, love for a man beats friendship\nbetween girls. I've fallen for that big,\nbrawny hunk!\"\n{wait}",
    "slots": [
     249
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.250",
    "jp": "蘭\n「でも・・・」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"But...\"\n{wait}",
    "slots": [
     250
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.251",
    "jp": "るり\n「恋とは突然、訪れるもの」\n{wait}「今まで世話になったわね、お別れに\n　これあげるわ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Love always strikes out of the blue.\"\n{wait}\"Thanks for everything till now. Here, a\nparting gift.\"\n{wait}",
    "slots": [
     251
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.252",
    "jp": "蘭\n「やだ、だから、ちょっと待って！」\n{wait}「あの人、荏狗覇菟の人だよ？\n　悪い人だよ？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"No, I mean, wait a minute!\"\n{wait}\"He's with the Egubado, you know? He's a bad\nguy, you know?\"\n{wait}",
    "slots": [
     252
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.23.253",
    "jp": "るり\n「そんなコトは関係ないわ」\n{wait}「彼があえてイバラの道を突き進むと\n　いうのなら、私もそれに続くまで」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"That doesn't matter.\"\n{wait}\"If he chooses to walk a path of thorns, I'll\nsimply follow him down it.\"\n{wait}",
    "slots": [
     253
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.254",
    "jp": "蘭\n「じゃあ、あの人がこっちに来れば\n　いいんでしょう？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Then it's fine if he comes over to our\nside, right?\"\n{wait}",
    "slots": [
     254
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.255",
    "jp": "るり\n「・・・！」\n{wait}「なるほどね。\n　そりゃいいわ、それでいこ！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"...!\"\n{wait}\"Good point. That's perfect, let's do that!\"\n{wait}",
    "slots": [
     255
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.23.256",
    "jp": "蘭\n「・・・もう・・・」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"...Jeez...\"\n{wait}",
    "slots": [
     256
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }
