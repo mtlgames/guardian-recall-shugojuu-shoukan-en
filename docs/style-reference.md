@@ -15,6 +15,12 @@ markers and the English devices that carry them. Paired examples are real lines 
 | Sayaka (さやか) | stretched airhead drawl (〜でしょぉ) | "li-ike", "ri-ight?", hyphen-stretched vowels, calls Yukari an old lady |
 | Ruri (るり) | boy-crazy, self-pitying | "my prince", "Ruri's so touched", "big sis" for Yui |
 | Guardians (我王, コウエン) | だ/である, terse | dignified, few words ("Let her try.") |
+| Takegami (武神, joins ch. 23) | old warrior: つかまつる, おる, 〜たる者, 承知 | archaic samurai register, no contractions: "I shall be your opponent!", "Understood!", "A man needs no words!", "have at thee", "my blood clamors" |
+| Kaoru (かおる) | boyish casual: 〜すんなよ, どーせ, 〜っしょ, やだなぁ | breezy tomboy, light dropped g's and slang: "Don't sweat it. I was passin' by anyway.", "Aw, c'mon" |
+| Reiko (麗子, Byakko) | cute clipping (舎利ちゃん), stretched はぁ～い, あら, 〜のね | sing-song cruel cutie: "Hi-iii~", tildes, "Oh my, you don't get it at all."; cheerful about destruction |
+| Satomi (聡美, Seiryu) | 〜かしら, はははっ, あんた | haughty and scornful: "Then why do you suppose...?", "Hahaha, don't make me laugh!" |
+| Megumi (めぐみ, Genbu) | だ/だと, 覚えていろ, masculine command | cold, clipped soldier: "Don't be absurd. I'm perfectly calm.", "Kh... You'll pay for this." |
+| Four Gate Generals together | オンアウンラケンソワカ mantra | mantra kept as romanized chant "On a un ra ken sowaka!" (Tomomi = Suzaku: see the officers row) |
 
 ## Paired examples
 - 真由「なーんノンキに歌っとるとあんたは」 -> "What're you singin' so carefree for?"

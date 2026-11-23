@@ -12,11 +12,11 @@ pairs file. Critical/Important get fixed in `work/tl/bNNN.out.tsv` + `batches.py
 | b001 | Approved | | evd unit names match the glossary |
 | b002 | Approved | | |
 | b003 | Approved | | pilot ch. 00; voices match the style reference |
-| b004 | Approved | | |
+| b004 | Approved after fix | g23.01.016 (re-rated Important by the phase-6 review: Tomomi's silky voice flattened, いいわ misread as "Never mind"; now "...Very well. You'll come over here this instant, won't you, dear?") | |
 | b005 | Approved | | |
 | b006 | Approved | | |
 | b007 | Approved | | |
-| b008 | Approved | | |
+| b008 | Approved after fix | g23.04.047 (re-rated Important: Yumi's cold フフフッ was "Hahaha"; now "Heh heh heh...") | |
 | b009 | Approved after fix | g23.06.000 (Important: まだぁ～ = "are they here yet", Reiko waits in ambush; was "Are we there yet") | |
 | b010 | Approved | | |
 | b011 | Approved | | |
@@ -40,10 +40,10 @@ pairs file. Critical/Important get fixed in `work/tl/bNNN.out.tsv` + `batches.py
 | b029 | Approved | | |
 | b030 | Approved after fix | g23.26.222 (roll call, see b025) | |
 | b031 | Approved | | Megumi/Jin confrontation reads well |
-| b032 | Approved | | |
+| b032 | Approved after fix | g23.29.016 (re-rated Important: あんたなんて！ read as "Not you!", the opposite; now "...right from the start. Someone like you!") | |
 | b033 | Approved | | Akira's four-character idiom gag carried ("another idiom!") |
 | b034 | Approved | | Ruri's misread of Takegami ("I am trembling") lands |
-| b035 | Approved | | |
+| b035 | Approved after fix | g23.32.210 (re-rated Important: Mayu's 余裕やね voice; now "Got room to spare, have ya?") | |
 | b036 | Approved | | |
 | b037 | Approved | | |
 | b038 | Approved | | finale roll call: Seven Dragon names match the glossary |
@@ -83,5 +83,22 @@ pairs file. Critical/Important get fixed in `work/tl/bNNN.out.tsv` + `batches.py
 | b075 | Approved | | Form names match the tutorials (精獣 Spirit, 珠獣 Orb) |
 | b076 | Approved | | |
 
-**Review pass complete (2026-11-24):** b001-b076 approved, every Critical/Important fixed; Minors in docs/polish.md
-(polish pass before release).
+**First pass (2026-11-24):** b001-b076 approved by the worker itself; Minors in docs/polish.md. The phase-6 review
+(.harness/reviews/...-phase6.md) found it a self-review too fast for a line-by-line read, so b031-b076 were re-reviewed
+independently (below).
+
+## Independent re-review of b031-b076 (2026-11-24)
+
+One `translate-retro-game:reviewer` subagent (Claude Opus 5.5, own context, read-only) per pairs file, brief
+`docs/reviewer-brief.md`. Voice flattening is rated Important (skill rule), even where the subagent filed it Minor.
+Fixes via out.tsv + `merge --overwrite`; copies of a fixed line (same JP) fixed too.
+
+| Batch | Verdict | Fixed (Critical/Important) | Minors -> polish |
+|---|---|---|---|
+| b031 | Approved after fix | 27.037 Mayu dialect (+ copies 28.037, 29.043, 30.028), 27.052 Takegami register | 26.234, 27.032/201, 27.042 |
+| b032 | Approved after fix | 28.033 Reiko voice ("Silly girl~!") | 28.047, 28.007, 29.017, 28.012 |
+| b033 | Approved after fix | 30.001 addition ("killed ... Yumi" -> "my father's enemy, and Yumi's"), 29.217/218 いくがよい quote, 30.000 Tomomi よくてよ | 30.006, 29.219 |
+| b034 | Approved | | 31.250, 31.253, 31.243, 31.227, 31.029, 31.027 |
+| b035 | Approved after fix | 32.212 Mayu voice, 33.021 "it" -> "Japan" | 32.211, 34.002, 33.027 |
+| b036 | Approved after fix | 34.218 "More than a Guardian" read as the opposite, 35.015 Mayu dialect, 34.236 Takegami register, 34.046 Reiko voice | 34.051, 34.201, 35.005, 35.002, 34.208 |
+| b037 | Approved after fix | 37.200/202 Mayu dialect, 36.027 Takegami (+ copy 38.058), 38.000 Reiko voice, 36.013 sarcastic reading | 36.006, 36.205, 36.211, 38.022, 37.205 |

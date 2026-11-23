@@ -467,7 +467,7 @@
   {
    "id": "g23.34.046",
    "jp": "麗子\n「どしたの玄武」\n{wait}",
-   "en": "Reiko\n\"What's up, Genbu?\"\n{wait}",
+   "en": "Reiko\n\"What's wro-ong, Genbu~?\"\n{wait}",
    "slots": [
     46
    ],
@@ -722,7 +722,7 @@
   {
    "id": "g23.34.218",
    "jp": "美由紀\n「なんかもう・・・ただの怪獣みたい。\n　守護獣って言うより」\n{wait}",
-   "en": "Miyuki\n\"It's like... just a monster now. More than a\nGuardian.\"\n{wait}",
+   "en": "Miyuki\n\"It's like... just a monster now. Not even a\nGuardian.\"\n{wait}",
    "slots": [
     218
    ],
@@ -822,7 +822,7 @@
   {
    "id": "g23.34.236",
    "jp": "武神\n「わかっておる」\n{wait}「だが、私の血はあやつと戦いたいと\n　さわいでおる。たとえ、ここで倒れ\n　ようとも悔いは・・・いや」\n{wait}「この世には私の知らぬ強者が、もっと\n　おるやもしれん。ならば、そやつらと\n　戦わずして、なにが武人か」\n{wait}「まだまだ、こんなところで・・・\n　死ぬ訳にはいかんな」\n{wait}",
-   "en": "Takegami\n\"I know.\"\n{wait}\"But my blood clamors to fight it. Even if I\nwere to fall here, I would have no\nregrets... no.\"\n{wait}\"There may be more mighty foes in this world\nwhom I have yet to meet. What kind of\nwarrior would I be if I never fought them?\"\n{wait}\"I cannot afford to die... not in a place\nlike this.\"\n{wait}",
+   "en": "Takegami\n\"I am well aware.\"\n{wait}\"But my blood clamors to fight it. Even if I\nwere to fall here, I would have no\nregrets... no.\"\n{wait}\"There may be more mighty foes in this world\nwhom I have yet to meet. What kind of\nwarrior would I be if I never fought them?\"\n{wait}\"Not yet... I cannot afford to die in a place\nlike this.\"\n{wait}",
    "slots": [
     236
    ],

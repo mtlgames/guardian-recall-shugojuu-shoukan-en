@@ -181,3 +181,49 @@ expecting a confession. Hasumi hoped to be a Dragon Wielder (foreshadowing). A B
 Four Gate Generals return; the fortress will fly and drive itself as a wedge into Japan's greatest dragon vein under
 Tokyo Bay, sinking Japan. Jin knew and kept quiet: "I bet everything on you." 34: the Generals chant a mantra
 ("On a un ra ken sowaka!").
+
+## 35-36 (inside the flying fortress; the rearguard holds the giant Guardian)
+35: Miyuki, Mayu, Yuko, Misato, Akira, Yukari and Keiko are teleported onto Hiryuki Palace, now airborne and heading
+for Japan's greatest dragon vein. Chikana, Jin, Suzune, Kotone and the rest stay behind as the rearguard. Miyuki cries
+about "everybody not here" and calls the others cold; Yuko snaps ("Of course we are!"); Mayu scolds her with tough love
+("Where'd the girl who cheered everybody up go?"): the others stayed because they believe in them. Keiko realises Jin
+knew all along and meant to be the decoy. Akira: "I can't face them unless I win and go back." Yukari: "Think only
+about fighting." Tone: shaky, then resolve; Mayu blunt and affectionate.
+36: The rearguard (Chikana, Jin, Hasumi, Yui, Suzune, Kotone, Ruri, Sayaka, Kaoru, Ran, Takegami) fights the fortress's
+giant Guardian; the Four Gate Generals gloat ("how many will be left? Two? Three?" - Megumi). Kaoru: "Like Yuko and the
+others would ever lose!" Banter: Sayaka "I don't wanna die ye-et", plans to see Akira's live show; Chikana and Hasumi
+joke about crybaby Miyuki; Suzune/Yui bicker. 36.017-030 (repeated as 38.048-058) are defeat lines (Chikana "I'm not
+up to it, huh", Ran/Kaoru farewell, Jin "Seven Dragons... I leave it to you."): keep the two copies identical.
+
+## 37 (the endless guards)
+The upper party fights wave after wave of Royal Guards. Mayu hesitates ("Maybe I should just... No. It's nothin'."):
+a sacrifice impulse. Misato to Yuko: "...I don't dislike you, you know." Yukari frets they'll reach the dragon vein
+before Ryukihi, slips "If only Naoe were here...", then: "I won't say it again" (her one crack).
+
+## 38 (the dummy Master; the Generals squabble)
+The rearguard is worn out. Jin reasons: one Guardian, one Master; the Generals' combined will forms a dummy Master,
+the "core", in the middle of the body. Ranged attackers aim there; Takegami: "Hmm, interesting!" Tomomi: if little
+girls can beat Ryukihi-sama she is no more than that ("noble, beautiful, and above all, absolutely strong": faith in
+strength, not love); Megumi furious and worried for Jin; Satomi tells her to stop fretting over Jin.
+
+## 39 (more guards; Yukari's shaking)
+Mayu and Akira fall behind. Yukari barks ("We can't be soft"); Misato sees through her: "has your body stopped shaking
+yet?" "Not yet." "You always get the thankless role. Want to cry?" "I don't have time for that." Keiko wishes she
+could see the future. "Just how many floors does this place have?"
+
+## 40 (Sky and Earth lead)
+Yuko and Miyuki end up alone. Yukari's words come back: the Sky and Earth Dragons lead, "we need you two to try
+especially hard". Carefree Yuko, for once: "Right now, I'm really, really angry... We're gonna beat Ryukihi!"
+
+## 41 (Ryukihi's Ryuki; the Seven Dragons assemble)
+Ryukihi and her Guardian Ryuki ("grant them the purification called death"); the two alone can't hurt it. Ryukihi
+calls the Sky and Earth Dragons back to her ("Accept me!"); they hold on until the others arrive and each calls her
+dragon in turn (Sky, Earth, Flame, Sea, Thunder, Wind, Holy: glossary names, short shouts). Ryukihi: "The Seven
+Dragons, which were once one...!"
+
+## 42 (Ryukihi fuses; Hiryuki Palace falls)
+Ryukihi fuses with Ryuki (True Ryuki). "Do you wish to watch your own country rot away? Japan has no future." Miyuki:
+"It does! It does have a future!" Yuko: "From now on... we'll change it." Ryukihi, dying: "Someday, you too... will
+understand..." The palace begins to collapse. Tone: Ryukihi regal and archaic, not snarling; the girls' answer is the
+theme (future vs rot). The scenario ends here: the escape, the Jin / Black Dragon payoff and the ending are FMV
+(STAFF.STR and the epilogue movies, D3), not g23 text; 43-49 are drafts/copies, 50-65 tutorials.

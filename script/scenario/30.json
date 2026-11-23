@@ -7,7 +7,7 @@
   {
    "id": "g23.30.000",
    "jp": "知美\n「まぁ、かわいいお客様・・・\n　殺すには惜しいわね」\n{wait}「龍鬼妃様に忠誠をちかいなさい。\n　そうしたら・・・\n　許してあげても、よくてよ」\n{wait}",
-   "en": "Tomomi\n\"My, what adorable guests... It would be a\nshame to kill you.\"\n{wait}\"Swear your loyalty to Ryukihi-sama. If you\ndo... I might be willing to forgive you.\"\n{wait}",
+   "en": "Tomomi\n\"My, what adorable guests... It would be a\nshame to kill you.\"\n{wait}\"Swear your loyalty to Ryukihi-sama. If you\ndo... I might even forgive you, you know.\"\n{wait}",
    "slots": [
     0
    ],
@@ -17,7 +17,7 @@
   {
    "id": "g23.30.001",
    "jp": "美里\n「誰が！　荏狗覇菟は父の、\n　そして由美のカタキ！」\n{wait}",
-   "en": "Misato\n\"Never! The Egubado killed my father, and\nYumi too!\"\n{wait}",
+   "en": "Misato\n\"Never! The Egubado are my father's enemy,\nand Yumi's!\"\n{wait}",
    "slots": [
     1
    ],
@@ -288,7 +288,7 @@
   {
    "id": "g23.30.028",
    "jp": "真由\n「早よ、石塔ば」\n{wait}",
-   "en": "Mayu\n\"Hurry, the stone tower.\"\n{wait}",
+   "en": "Mayu\n\"C'mon, hurry it up, the stone tower!\"\n{wait}",
    "slots": [
     28
    ],

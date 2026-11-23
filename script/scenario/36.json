@@ -138,7 +138,7 @@
   {
    "id": "g23.36.013",
    "jp": "かおる\n「・・・裕子たちが負けるもんか！」\n{wait}",
-   "en": "Kaoru\n\"...Like Yuko and the others would ever lose!\"\n{wait}",
+   "en": "Kaoru\n\"...Yuko and the others would never lose!\"\n{wait}",
    "slots": [
     13
    ],
@@ -278,7 +278,7 @@
   {
    "id": "g23.36.027",
    "jp": "武神\n「不覚・・・！」\n{wait}",
-   "en": "Takegami\n\"Careless of me...!\"\n{wait}",
+   "en": "Takegami\n\"A lapse on my part...!\"\n{wait}",
    "slots": [
     27
    ],

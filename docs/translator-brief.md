@@ -30,5 +30,12 @@ translate in their own context, story order, b003 on). Read with offset/limit: f
 - Honorifics stay after names (Mayu-chan, Suzune-san, Yumi-sama). さん after a non-person (守護獣さん) is not one.
 - Names exactly as glossary.md (Western order). Furigana in the text (由美（ゆみ）) is dropped.
 - Jokes and songs keep their punch (the hot-spring egg song rhymes and lilts).
+- Notes from review (phase 6):
+  - Negations that can flip: 美里のためにもね = "for Misato's sake too" (08.213), あんたなんて！ = "Someone like
+    you!" (29.016), not "Not you!".
+  - Check whose companions/friends a line means (18.017: 私の仲間 = her Dragon Wielder companions).
+  - Recurring set pieces (Akira's roll call) are copied word for word from the first instance (`tools/find_en.py`).
+  - Name tables follow the glossary even in odd company (battle.00808 真竜樹 = True Ryuki).
+  - Register words count: いいわ = "Very well", not "Never mind"; a villain's フフフッ is "Heh heh heh", not "Hahaha".
 - Report at the end: `NEW TERM: jp -> en`, `UNSURE: id - note`, `CUT: id - what was dropped`. The worker merges new
   terms into glossary.md itself.

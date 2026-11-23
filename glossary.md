@@ -331,4 +331,14 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | ウール | Ur | | Yumi's guardian | |
 
 ## Decisions from earlier batches
-- (none yet)
+- Robot announcements (katakana machine speech) are in CAPS (b016-b023).
+- Sayaka's mangled proverb is kept mangled: "Every clown has a silver..." (b016-b023).
+- ロッカー pun = rocker / rocking chair (b016-b023).
+- g23.18.019 is an empty 「」 in the JP: kept as "" (b023).
+- Hitomi Jin is called "Jin" (surname) by the cast, as in the JP (diary b067, scenario).
+- Akira's hero roll call is one fixed text, copied word for word wherever it recurs (15.035, 17.038, 20.203, 26.222).
+- Chikana never drops g's; only Mayu (and Kaoru lightly) do (voice check, 0 of 139 Chikana lines).
+- Negations that flip meaning get a second look (08.213 "for Misato's sake too"; 29.016 "Someone like you!").
+- Name tables follow the glossary even beside unfamiliar entries (battle.00808 真竜樹 = True Ryuki).
+- Skill ranks: tutorial prose Melee/Ranged/Healing, status graphic Short/Long/Heal; EXE labels a6520-30 to be
+  matched to whichever screen draws them (phase 7/8, see 行動能力ランク row).

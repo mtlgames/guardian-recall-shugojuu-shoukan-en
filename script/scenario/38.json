@@ -7,7 +7,7 @@
   {
    "id": "g23.38.000",
    "jp": "麗子\n「ねぇ、もうあきちゃったわよ。\n　そろそろ終わりにしない？」\n{wait}",
-   "en": "Reiko\n\"Hey, I'm already bored. Shall we wrap\nthis up?\"\n{wait}",
+   "en": "Reiko\n\"Heeey, I'm bored already~. Can't we wrap\nthis up?\"\n{wait}",
    "slots": [
     0
    ],
@@ -523,7 +523,7 @@
   {
    "id": "g23.38.058",
    "jp": "武神\n「不覚・・・！」\n{wait}",
-   "en": "Takegami\n\"Careless of me...!\"\n{wait}",
+   "en": "Takegami\n\"A lapse on my part...!\"\n{wait}",
    "slots": [
     58
    ],

@@ -319,7 +319,7 @@
   {
    "id": "g23.32.210",
    "jp": "真由\n「お～、人の心配とは余裕やね」\n{wait}「やっぱ天龍の魂を持つ者ともなっと、\n　顔つきも違って見ゆる」\n{wait}",
-   "en": "Mayu\n\"Ooh, worryin' about others? Ain't you\nrelaxed.\"\n{wait}\"Guess once you've got the Sky Dragon's soul,\neven your face looks different.\"\n{wait}",
+   "en": "Mayu\n\"Ooh, worryin' about others? Got room to\nspare, have ya?\"\n{wait}\"Guess once you've got the Sky Dragon's soul,\neven your face looks different.\"\n{wait}",
    "slots": [
     210
    ],
@@ -340,7 +340,7 @@
   {
    "id": "g23.32.212",
    "jp": "真由\n「ばーか。嬉しかよ」\n{wait}",
-   "en": "Mayu\n\"Dummy. I'm happy.\"\n{wait}",
+   "en": "Mayu\n\"Dummy. 'Course I'm happy.\"\n{wait}",
    "slots": [
     212
    ],

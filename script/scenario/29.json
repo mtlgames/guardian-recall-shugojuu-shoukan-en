@@ -168,7 +168,7 @@
   {
    "id": "g23.29.016",
    "jp": "聡美\n「裏切り者！」\n{wait}「いつかは、こんな事になるんじゃ\n　ないかと思ってたわ」\n{wait}「玄武はバカよ。\n　私は最初から気に入らなかったのよ。\n　あんたなんて！」\n{wait}",
-   "en": "Satomi\n\"Traitor!\"\n{wait}\"I always thought something like this would\nhappen someday.\"\n{wait}\"Genbu is a fool. I never liked you from the\nvery start. Not you!\"\n{wait}",
+   "en": "Satomi\n\"Traitor!\"\n{wait}\"I always thought something like this would\nhappen someday.\"\n{wait}\"Genbu is a fool. I never liked you, right from\nthe start. Someone like you!\"\n{wait}",
    "slots": [
     16
    ],
@@ -438,7 +438,7 @@
   {
    "id": "g23.29.043",
    "jp": "真由\n「早よ、石塔ば」\n{wait}",
-   "en": "Mayu\n\"Hurry, the stone tower.\"\n{wait}",
+   "en": "Mayu\n\"C'mon, hurry it up, the stone tower!\"\n{wait}",
    "slots": [
     43
    ],
@@ -781,7 +781,7 @@
   {
    "id": "g23.29.217",
    "jp": "武神\n「これを持っていくがよい」\n{wait}",
-   "en": "Takegami\n\"Take this with you.\"\n{wait}",
+   "en": "Takegami\n\"Take this, and go.\"\n{wait}",
    "slots": [
     217
    ],
@@ -791,7 +791,7 @@
   {
    "id": "g23.29.218",
    "jp": "裕子\n「いくがよいって、ちょっと・・・\n　あたしだけ！？」\n{wait}",
-   "en": "Yuko\n\"'Take this with you'? Hold on... Just me!?\"\n{wait}",
+   "en": "Yuko\n\"'Take this and go'? Hold on... Just me!?\"\n{wait}",
    "slots": [
     218
    ],

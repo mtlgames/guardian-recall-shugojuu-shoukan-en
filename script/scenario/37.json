@@ -78,7 +78,7 @@
   {
    "id": "g23.37.200",
    "jp": "真由\n「・・・ばってん、\n　急がな間に合わんごつなる」\n{wait}",
-   "en": "Mayu\n\"...But if we don't hurry, we won't make\nit in time.\"\n{wait}",
+   "en": "Mayu\n\"...But if we don't hurry, we ain't gonna make\nit in time.\"\n{wait}",
    "slots": [
     200
    ],
@@ -98,7 +98,7 @@
   {
    "id": "g23.37.202",
    "jp": "真由\n「いっそ、あたしが・・・」\n{wait}",
-   "en": "Mayu\n\"Maybe I should just...\"\n{wait}",
+   "en": "Mayu\n\"Might as well just let me...\"\n{wait}",
    "slots": [
     202
    ],

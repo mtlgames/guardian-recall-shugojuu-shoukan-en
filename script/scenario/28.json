@@ -338,7 +338,7 @@
   {
    "id": "g23.28.033",
    "jp": "麗子\n「ばかね！」\n{wait}",
-   "en": "Reiko\n\"Fool!\"\n{wait}",
+   "en": "Reiko\n\"Silly girl~!\"\n{wait}",
    "slots": [
     33
    ],
@@ -378,7 +378,7 @@
   {
    "id": "g23.28.037",
    "jp": "真由\n「早よ、石塔ば」\n{wait}",
-   "en": "Mayu\n\"Hurry, the stone tower.\"\n{wait}",
+   "en": "Mayu\n\"C'mon, hurry it up, the stone tower!\"\n{wait}",
    "slots": [
     37
    ],

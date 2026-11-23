@@ -377,7 +377,7 @@
   {
    "id": "g23.27.037",
    "jp": "真由\n「早よ、石塔ば」\n{wait}",
-   "en": "Mayu\n\"Hurry, the stone tower.\"\n{wait}",
+   "en": "Mayu\n\"C'mon, hurry it up, the stone tower!\"\n{wait}",
    "slots": [
     37
    ],
@@ -527,7 +527,7 @@
   {
    "id": "g23.27.052",
    "jp": "武神\n「ふん・・・肩ならしにもならんわ」\n{wait}",
-   "en": "Takegami\n\"Hmph... That wasn't even a warm-up.\"\n{wait}",
+   "en": "Takegami\n\"Hmph... That was scarcely a warm-up.\"\n{wait}",
    "slots": [
     52
    ],
