@@ -50,7 +50,9 @@ ORIG = {0x8001A6FC: "lui v0,0x801f", 0x80044C48: "move a2,a0", 0x80044480: "addi
         0x80012F24: "andi v0,a2,3", 0x80012F5C: "addiu v0,zero,0x20", 0x80012F64: "addiu v0,zero,0x3a",
         0x8001E278: "sw v1,0x10(v0)", 0x8004F4B8: "lw v0,0x30(s0)",
         0x80034228: "addiu a3,zero,0x4a", 0x80034284: "addiu a3,zero,0x54", 0x80034370: "addiu a1,a1,0x33",
-        0x800630E0: "addiu a0,a0,0x29"}
+        0x800630E0: "addiu a0,a0,0x29", 0x80030B5C: "addiu a3,zero,0x45", 0x80030BDC: "addiu a3,zero,0x36",
+        0x80063988: "addiu a0,a0,0x68", 0x800639B8: "move a1,s1", 0x800639D4: "addiu a0,a0,0xfa",
+        0x8002DD84: "addiu a1,zero,0x7d", 0x8002DD90: "addiu a3,zero,0x3c", 0x8002DD94: "addiu a0,zero,0x81"}
 DATA_ORIG = {0x8009BEE4: (176, 80, 240, 80, 184, 96, 248, 96)}  # 情報 Aura slot table (halfwords)
 # DIC.BIN (overlay base 0x80166218): file offset -> original first word
 DIC_ORIG = {0xC1C: "slti v0,s1,8", 0xC24: "addiu s1,s1,1", 0xCD0: "slti v0,s1,8", 0xD4C: "addiu s1,s1,1",
@@ -66,7 +68,14 @@ ACTION_ORIG = {0x80171558: "addiu s0,s7,0x96", 0x80171570: "addiu a0,t2,0x5d", 0
                0x801716A4: "addiu a3,s7,0xe9", 0x801716BC: "addiu a0,s7,0xd7", 0x801716CC: "ori s0,s7,0xf0",
                0x801716EC: "addiu a3,s7,0x107", 0x80171704: "ori a0,s7,0xf5", 0x80171E40: "addiu a0,s1,0x5a",
                0x80171E58: "addiu a0,s1,0x96", 0x80171E70: "ori a0,s1,0xb4", 0x80171FEC: "addiu a0,t1,0x5d",
-               0x80172024: "addiu a0,t3,0x99", 0x8017202C: "ori a1,s7,0xb4"}
+               0x80172024: "addiu a0,t3,0x99", 0x8017202C: "ori a1,s7,0xb4",
+               0x80171FE8: "jal 0x80043a64",
+               # ring > SEARCH tabs
+               0x80174284: "addiu a1,zero,0x28", 0x80174290: "addiu a3,zero,0x2d", 0x80174294: "addiu a0,zero,0x32",
+               0x801742B8: "addiu a0,zero,0x50", 0x801742D8: "addiu a0,zero,0x6e", 0x80174300: "addiu a1,zero,0x46",
+               0x8017430C: "addiu a3,zero,0x2d", 0x80174310: "addiu a0,zero,0x50", 0x80174334: "addiu a0,zero,0x32",
+               0x80174354: "addiu a0,zero,0x6e", 0x8017437C: "addiu a1,zero,0x66", 0x80174388: "addiu a3,zero,0x2d",
+               0x8017438C: "addiu a0,zero,0x6e", 0x801743B0: "addiu a0,zero,0x32", 0x801743D0: "addiu a0,zero,0x50"}
 # ACTION.BIN UNIT list header x (halfword at RAM address; Ali Lv Exp Sp Mp Ap)
 ACTION_DATA = {0x80167188: 0x5A, 0x80167190: 0x78, 0x80167198: 0x96, 0x801671A0: 0xB4, 0x801671A8: 0xD2,
                0x801671B0: 0xF0}

@@ -313,6 +313,47 @@ wide_tab:                       ; ASCII 0x20-0x7F -> full-width Shift-JIS
   .halfword 0x8288, 0x8289, 0x828A, 0x828B, 0x828C, 0x828D, 0x828E, 0x828F
   .halfword 0x8290, 0x8291, 0x8292, 0x8293, 0x8294, 0x8295, 0x8296, 0x8297
   .halfword 0x8298, 0x8299, 0x829A, 0x816F, 0x8162, 0x8170, 0x8160, 0x8140
+; ---- ring > UNIT list, Guardian tab Type column (ACTION 0x80171FE8, 48 px wide; D14): the type table 0x8009BC34
+; holds 守護獣 (0) and the Forms 1-26 ("Overlord Guardian" 88 px); this column alone draws the Form without
+; " Guardian" (the tab names it). v0 = &table[i], t2 = table, a2 = table[i], a0/a1 set: tail-calls the draw.
+type_short:
+  subu  v0, v0, t2
+  sltiu v1, v0, 27 * 4
+  beqz  v1, @@draw
+  la    v1, type_short_tab
+  addu  v1, v1, v0
+  lw    v1, 0(v1)
+  nop
+  beqz  v1, @@draw
+  nop
+  move  a2, v1
+@@draw:
+  j     0x80043A64
+  nop
+type_short_tab:                 ; 0 = keep the table's own string
+  .word 0, @@t1, @@t2, @@t3, @@t4, @@t5, @@t6, @@t7, @@t8, @@t9, @@t10, @@t11, @@t12, @@t13, @@t14, @@t15
+  .word @@t16, @@t17, @@t18, @@t19, 0, 0, 0, 0, 0, @@t25, @@t26
+@@t1: .asciiz "Battle"
+@@t2: .asciiz "Shooter"
+@@t3: .asciiz "Orb"
+@@t4: .asciiz "Wing"
+@@t5: .asciiz "Dancer"
+@@t6: .asciiz "Armor"
+@@t7: .asciiz "Cannon"
+@@t8: .asciiz "Spirit"
+@@t9: .asciiz "Titan"
+@@t10: .asciiz "Fang"
+@@t11: .asciiz "Hunter"
+@@t12: .asciiz "Phantom"
+@@t13: .asciiz "Asura"
+@@t14: .asciiz "Overlord"
+@@t15: .asciiz "Blast"
+@@t16: .asciiz "Soul"
+@@t17: .asciiz "Knight"
+@@t18: .asciiz "Zen"
+@@t19: .asciiz "Divine"
+@@t25: .asciiz "Demon"
+@@t26: .asciiz "Super"
 .align 4
 evd_names:
   .incbin EVDNAMES
@@ -423,6 +464,26 @@ PSI_W       equ 36             ; tac_power list: box, highlight bar and cost col
   .halfword 208, 80, 208, 96, 208, 112, 208, 128
 .org 0x800630E0                 ; was: addiu a0, a0, 0x29 (cost x)
   addiu a0, a0, 0x51
+; 思考 submenu (fn 0x80030AE0, tac_think_menu): pen x 240, box x 231 w 69 -> w 82 (right 313), highlight w 54 -> 73
+; ("Execute Order" 71 px). Berserk Alert popup (0x8002DD70): box x 125 w 60, text x 129 -> box x 118 w 75, text 123
+; 情報 (fn ~0x80063930): type row (table 0x8009BC34, "Overlord Guardian" 88 px) x 104 -> 88, clear of the "Df."
+; label (x 186); Tec. traits were two 64 px slots at x 186 / 250 ("Seven Dragons" 73): slot 2 now under slot 1
+.org 0x80063988
+  addiu a0, a0, 0x58
+.org 0x800639B8
+  addiu a1, s1, 16
+.org 0x800639D4
+  addiu a0, a0, 0xBA
+.org 0x80030B5C
+  addiu a3, zero, 82
+.org 0x80030BDC
+  addiu a3, zero, 73
+.org 0x8002DD84
+  addiu a1, zero, 118
+.org 0x8002DD90
+  addiu a3, zero, 75
+.org 0x8002DD94
+  addiu a0, zero, 123
 
 .close
 
@@ -534,10 +595,48 @@ UC          equ 30
   addiu a0, s1, 0x96 - 6        ; Ali header
 .org 0x80171E70
   addiu a0, s1, 0xB4 + 10       ; Lv header (was ori)
+.org 0x80171FE8
+  jal   type_short              ; Type value: Form without " Guardian" (was jal 0x80043A64)
 .org 0x80171FEC
   addiu a0, t1, 0x5D + 4        ; Type
 .org 0x80172024
   addiu a0, t3, 0x99 - 6        ; element
 .org 0x8017202C
   addiu a1, s7, 0xB4 + 10       ; Lv (was ori)
+; ring > SEARCH tabs (Tactic / Trait / Psi): labels were at x 50/80/110 with the selected-tab box (x, w 45) 10 px
+; before its label, so "Tactic" (29 px) ran into "Trait" and the box hid the T. Now labels at 46/86/120, boxes
+; 8 px before each, sized to the label (box fn 0x80045B58: a1 x, a2 y, a3 w, sp+0x10 h)
+ST0 equ 46
+ST1 equ 86
+ST2 equ 120
+.org 0x80174284
+  addiu a1, zero, ST0 - 8       ; Tactic selected: box
+.org 0x80174290
+  addiu a3, zero, 43
+.org 0x80174294
+  addiu a0, zero, ST0
+.org 0x801742B8
+  addiu a0, zero, ST1
+.org 0x801742D8
+  addiu a0, zero, ST2
+.org 0x80174300
+  addiu a1, zero, ST1 - 8       ; Trait selected
+.org 0x8017430C
+  addiu a3, zero, 38
+.org 0x80174310
+  addiu a0, zero, ST1
+.org 0x80174334
+  addiu a0, zero, ST0
+.org 0x80174354
+  addiu a0, zero, ST2
+.org 0x8017437C
+  addiu a1, zero, ST2 - 8       ; Psi selected
+.org 0x80174388
+  addiu a3, zero, 27
+.org 0x8017438C
+  addiu a0, zero, ST2
+.org 0x801743B0
+  addiu a0, zero, ST0
+.org 0x801743D0
+  addiu a0, zero, ST1
 .close

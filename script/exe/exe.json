@@ -2547,7 +2547,7 @@
   {
    "id": "exe.026dc",
    "jp": "真・龍鬼－右腕",
-   "en": "True Ryuki (Right Arm)",
+   "en": "True Ryuki R. Arm",
    "off": 9948,
    "room": 16,
    "refs": [
@@ -2559,7 +2559,7 @@
   {
    "id": "exe.026ec",
    "jp": "真・龍鬼－左腕",
-   "en": "True Ryuki (Left Arm)",
+   "en": "True Ryuki L. Arm",
    "off": 9964,
    "room": 16,
    "refs": [
@@ -2571,7 +2571,7 @@
   {
    "id": "exe.026fc",
    "jp": "真・龍鬼－右肩",
-   "en": "True Ryuki (Right Shoulder)",
+   "en": "True Ryuki R. Shoulder",
    "off": 9980,
    "room": 16,
    "refs": [
@@ -2583,7 +2583,7 @@
   {
    "id": "exe.0270c",
    "jp": "真・龍鬼－左肩",
-   "en": "True Ryuki (Left Shoulder)",
+   "en": "True Ryuki L. Shoulder",
    "off": 9996,
    "room": 16,
    "refs": [
@@ -2595,7 +2595,7 @@
   {
    "id": "exe.0271c",
    "jp": "真・龍鬼－頭部",
-   "en": "True Ryuki (Head)",
+   "en": "True Ryuki Head",
    "off": 10012,
    "room": 16,
    "refs": [

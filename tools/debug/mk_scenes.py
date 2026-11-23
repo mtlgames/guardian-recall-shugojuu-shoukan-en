@@ -114,6 +114,12 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
           "ring > UNIT, R1 = Guardian tab"),
          ("tac_unit_r", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 right;90 -", "2400",
           "ring > UNIT, Guardian tab scrolled right"),
+         ("tac_info_g", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 circle;120 -"
+          + ";6 circle;40 -;6 down;15 -;6 circle;90 -", "2600", "ring > UNIT, Guardian tab, ○ (cursor to Sky Dragon), 情報"),
+         *[(f"tac_search_{k}", "2", "70", "", MAP + ";6 triangle;60 -" + ";6 down;40 -" * 4 + ";6 circle;120 -"
+            + ";6 r1;90 -" * n, "2300", f"ring > SEARCH, {k} tab") for k, n in [("trait", 1), ("psi", 2)]],
+         ("tac_think_menu", "2", "70", "", MAP + ";6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;60 -",
+          "2000", "思考 submenu"),
          ("tac_break", "2", "70", "", RING + ";6 circle;60 -", "2300", "ring > BREAK: マップセーブを行いますか？"),
          ("tac_saved", "2", "70", "", RING + ";6 circle;60 -;6 up;20 -;6 circle;1100 -", "3400",
           "BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)")]

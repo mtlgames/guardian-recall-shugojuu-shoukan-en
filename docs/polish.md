@@ -113,3 +113,4 @@ or `waived: reason`).
 - [ ] cf.0617 - "Young and lovely, but a total mystery" -> "She looks young and lovely, but..." (外見は)
 - [ ] dic.0004 - "Lost fast." -> "...but was easily beaten."; dic.0130 - add "so it doesn't appear in the game"
 - [ ] gd.0139 - "A Bone Boxer with more mobility, its weak point." -> "A Bone Boxer with better mobility, its old weak point."
+- [ ] exe.026dc-0271c - True Ryuki boss parts abbreviated "R. Arm / L. Shoulder" for the 108 px status-panel name (D14); revisit if a wider name slot is found

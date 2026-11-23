@@ -107,6 +107,24 @@ VARIANTS = [
     # Guardian tab x 157, Lv x 200 -> 42 px ("Emperor"; "Thunder" shot in the Guardian tab, phase 7)
     dict(name="UNIT list element", ids=r"action\.001[4-6][0-9a-f]$", kind="lines", px=42, lines=1, bytes="room",
          status="measured"),
+    # ring > SEARCH tabs (asm/hooks.asm "SEARCH tabs"): labels x 46/86/120, selected box sized to each; "Tactic" 29
+    dict(name="SEARCH tab", ids=r"action\.010(34|3c|44)$", kind="lines", px=30, lines=1, status="measured"),
+    # 思考 submenu (tac_think_menu): pen x 240, box right now 313; Berserk Alert popup: text x 123, box right 193
+    dict(name="think submenu", ids=r"exe\.01(38c|398|3a4)$", kind="lines", px=73, lines=1, status="measured"),
+    dict(name="Berserk Alert popup", ids=r"exe\.01330$", kind="lines", px=70, lines=1, status="measured (code)"),
+    # Forms (type table 0x8009BC34, 1-26): 情報 type row x 88 -> "Df." label x 186 (tac_info_g + unit_type.lua:
+    # "Overlord Guardian" 88 shot); ring > UNIT Guardian tab Type column draws the short form (type_short, D14)
+    dict(name="Form name", ids=r"exe\.02(5[6-9a-f]|6[0-5])[0-9a-f]$", kind="lines", px=96, lines=1, bytes="room",
+         status="measured"),
+    # traits (type table 27-57): ring > SEARCH Trait tab, 3 columns x 28/110/190 (78 each); 情報 Tec. now one trait
+    # per row at x 186 (134; "Seven Dragons" + "Rising Dragon" shot, tac_info_g with --qa)
+    dict(name="trait name", ids=r"exe\.a69[0-9a-c][0-9a-f]$|exe\.a68[c-f][0-9a-f]$", kind="lines", px=78, lines=1,
+         bytes="room", status="measured"),
+    # unit type names (table 0x80095D08 -> unit+0x10, the default unit name): 情報 / status panel name x 28 to the
+    # emblem x 142 (108). Allies also show in ring > UNIT (masters 94, guardians 80): master names <= 90
+    # (species a6354-a6508 + 015b4-0192c; boss parts 026a0-0271c are set by code)
+    dict(name="unit type name", ids=r"exe\.(a63[5-9a-f]|a64[0-9a-f]|a650|015[b-f]|01[6-8][0-9a-f]|019[0-2]|026[a-f]"
+         r"|027[01])[0-9a-f]$", kind="lines", px=108, lines=1, bytes="room", status="measured (status panel)"),
     # widths the English needs beyond what the screen holds or was measured (tools/exe_pending.txt, one id per
     # line): phase 7 widens the box/column or condenses (D4, D13); a shot must replace each with a measured row
     dict(name="EXE engine pending", ids=PENDING, kind="lines", px=170, lines=1, bytes="room",
