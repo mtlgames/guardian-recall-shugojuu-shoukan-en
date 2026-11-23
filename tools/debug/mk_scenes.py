@@ -94,6 +94,8 @@ for name, keys, frames, note in [
         ("tac_action", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;60 -", "1950", "行動 submenu: 超力 アイテム 話す 送還"),
         ("tac_power", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -", "2000",
          "超力 list + help box"),
+        ("tac_power_cost", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -;6 circle;60 -", "2100",
+         "超力 > ○ on the first Psi (Luck): target prompt (the Ap-cost Restore popup needs a restore Psi: not reached)"),
         ("tac_think", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -", "2050",
          "思考 list (guardian orders) + help box"),
         ("tac_info", ";6 circle;40 -;6 down;15 -;6 circle;90 -", "1950", "情報 (unit info screen)"),
@@ -120,6 +122,8 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
             + ";6 r1;90 -" * n, "2300", f"ring > SEARCH, {k} tab") for k, n in [("trait", 1), ("psi", 2)]],
          ("tac_think_menu", "2", "70", "", MAP + ";6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;60 -",
           "2000", "思考 submenu"),
+         ("hen_unit", "2", "43", "", "1700 -;6 circle;150 -", "2000", "HEN roster (ev43): ○ on the first unit"),
+         ("hen_unit2", "2", "43", "", "1700 -;6 circle;150 -;6 circle;150 -", "2200", "HEN roster: ○ ○"),
          ("tac_break", "2", "70", "", RING + ";6 circle;60 -", "2300", "ring > BREAK: マップセーブを行いますか？"),
          ("tac_saved", "2", "70", "", RING + ";6 circle;60 -;6 up;20 -;6 circle;1100 -", "3400",
           "BREAK > はい: セーブ中です, then セーブしました + ゲームを終了しますか？ (writes the run's card)")]

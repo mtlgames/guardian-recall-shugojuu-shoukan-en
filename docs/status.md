@@ -2,9 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check (phase 6 closed 2026-11-24: all 76 batches translated, merged and reviewed).
-  Last build: 2026-11-24 `build.py` (write check ok, UNIT list columns widened), check.py 37 passed, smoke ok,
-  disc 1 .bin sha1 4092e2141594.
+- **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24: fit lint 0, control codes + printf matched, write
+  check ok on both discs, EXE pending widths 211 -> 34 battle-only ids).
+  Last build: 2026-11-24 `build.py` (write check ok), check.py 37 passed, smoke ok, disc 1 .bin sha1 2993940414e7.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -200,9 +200,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     windows rows: "UNIT list element" 42 px (action.00148-0016c out of exe_pending.txt, now 211 ids), "evd unit
     name" 94 measured (was 95 pending). New scenes tac_unit_g (R1 = Guardian tab), tac_unit_r (+ right = stat page
     2: As Al Df Hi Es Hl; the name column stays).
-- **Next (phase 7: insert, fit, check; done-when = build green: width/overflow lint clean, control codes matched,
-  `romdiff.py` no writes outside allowed ranges):** lint 0, control codes + printf matched, write check ok: the
-  formal done-when holds. Left before closing: the EXE pending widths (D13).
+  - 2026-11-24 (12): **phase 7 closed: EXE widths.** asm/hooks.asm: ring > SEARCH tabs respaced (Tactic/Trait/Psi
+    at 46/86/120, boxes sized), 思考 submenu box + highlight widened, Berserk Alert popup, Retreat Proposal title box,
+    TURN END prompt box, Ap-cost popup "Restore Sp", 情報 type row x 88 + Tec. traits one per row, UNIT list Guardian
+    Type column draws short Forms (payload `type_short`, D14). Text: True Ryuki parts "R. Arm..." (D14, polish.md),
+    HEN roster given names for Kaoru/Sayaka/twins, "Scarlet Wing Necklace". windows.py rows with evidence for every
+    group; exe_pending.txt now 34 BATTLE.BIN ids. Card labels (Spare A-D...) = debug printf only. New: scenes
+    tac_info_g, tac_search_trait/psi, tac_think_menu, tac_power_cost, hen_unit(2); tools/lua/unit_type.lua (force
+    guardian Forms), tools/jal_xref.py (callers of a function), tools/pending.py (pending ids with JP/EN px).
+- **Next (phase 8: QA in the emulator; done-when in the skill table):** (0) Battle labels still pending (34 ids in
+  tools/exe_pending.txt: Psi/trait effect labels, elements, 真竜樹): no standard text-draw call in BATTLE.BIN; the
+  scene `battle` (first battle, ~40000 frames) shows only the VS banner. Find a battle where a passive Psi/trait
+  fires (or exec_log on BATTLE.BIN draw code), shoot, replace with measured rows. VS banner: unit names right-aligned
+  ending x ~120 (left) / from x ~205 (right): check a long enemy name (True Ryuki parts 108 px).
+  (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py), graphics-text survey
+  G1-G18 redraws, inkbox on choice/centred boxes, stress saves, textcover.
+  Earlier phase-7 notes kept for reference:
   (a1) Unit-type name table = flat pointer list at EXE 0x80095D08 (index = unit type; short species names a63xx-a65xx
   and long names 015b4-0270c mixed; master names 01830-0192c too); 3 code refs (EXE file +0x2cbd4/+0x2ce30/+0x2cea8).
   Items 0x8009B51C-5CC, Forms 0x8009BC38-80, traits/types 0x8009BCA8-D14, card labels (Spare A-D, Normal, Never

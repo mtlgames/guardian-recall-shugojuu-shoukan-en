@@ -474,6 +474,9 @@ PSI_W       equ 36             ; tac_power list: box, highlight bar and cost col
   addiu a1, s1, 16
 .org 0x800639D4
   addiu a0, a0, 0xBA
+; Ap-cost popup (fn 0x800320C0, box x 184 w 83): "Restore" (39 px) at x 193, then Sp/Mp at x 219 -> x 236
+.org 0x80032130
+  addiu a0, zero, 236
 .org 0x80030B5C
   addiu a3, zero, 82
 .org 0x80030BDC
@@ -606,6 +609,18 @@ UC          equ 30
 ; ring > SEARCH tabs (Tactic / Trait / Psi): labels were at x 50/80/110 with the selected-tab box (x, w 45) 10 px
 ; before its label, so "Tactic" (29 px) ran into "Trait" and the box hid the T. Now labels at 46/86/120, boxes
 ; 8 px before each, sized to the label (box fn 0x80045B58: a1 x, a2 y, a3 w, sp+0x10 h)
+; Retreat Proposal title (0x801763FC): box x 120 w 71, txd text x 129 (62 px) -> box x 108 w 96, text x 114 (84 px)
+.org 0x80176400
+  addiu a1, zero, 108
+.org 0x80176408
+  addiu a3, zero, 96
+.org 0x80176478
+  addiu a0, zero, 114
+; TURN END prompt (both box variants): box x 115 w 177, text x 125 -> w 182 ("Execute Order with current Tactic" 168)
+.org 0x801769EC
+  addiu a3, zero, 182
+.org 0x80176A44
+  addiu a3, zero, 182
 ST0 equ 46
 ST1 equ 86
 ST2 equ 120

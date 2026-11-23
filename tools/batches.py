@@ -34,6 +34,8 @@ MAX_ENTRIES = 150
 # ---- ADAPTER: this game's text format ----
 TOKEN = re.compile(r"\{[^}]*\}|&[a-z]\([^)]*\)")  # control codes and txd markup; must survive translation
 PRINTF = re.compile(r"%[-+ 0#]*\d*(?:\.\d+)?[a-zA-Z]")
+# HEN roster names drawn at a 76 px pitch: these use the given name only (D14), so the full-name glossary check skips
+GIVEN_ONLY = {"hen.00048", "hen.00054", "hen.000c4", "hen.000d0"}
 FREE = {"{wait}", "&n()"}  # page and line breaks the English may place freely
 VARIABLE = r"\{var[^}]*\}"  # (this game draws no numbers inside text)
 HONORIFICS = {"さん": "-san", "ちゃん": "-chan", "くん": "-kun", "君": "-kun", "様": "-sama", "先輩": "-senpai",
@@ -249,6 +251,8 @@ def problems(entry, en, terms, stored=False):
     en_body = en.split("\n", 1)[1] if stored and is_named(entry) else en
     en_terms = " ".join(TOKEN.sub(" ", en_body).replace("\\n", " ").split()).lower()
     for jps, ens, avoid, _ in terms:
+        if entry["id"] in GIVEN_ONLY:
+            break
         if any(has_term(jp_plain, j) for j in jps) and not any(" ".join(e.split()).lower() in en_terms for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]

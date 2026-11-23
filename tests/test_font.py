@@ -52,6 +52,7 @@ ORIG = {0x8001A6FC: "lui v0,0x801f", 0x80044C48: "move a2,a0", 0x80044480: "addi
         0x80034228: "addiu a3,zero,0x4a", 0x80034284: "addiu a3,zero,0x54", 0x80034370: "addiu a1,a1,0x33",
         0x800630E0: "addiu a0,a0,0x29", 0x80030B5C: "addiu a3,zero,0x45", 0x80030BDC: "addiu a3,zero,0x36",
         0x80063988: "addiu a0,a0,0x68", 0x800639B8: "move a1,s1", 0x800639D4: "addiu a0,a0,0xfa",
+        0x80032130: "addiu a0,zero,0xdb",
         0x8002DD84: "addiu a1,zero,0x7d", 0x8002DD90: "addiu a3,zero,0x3c", 0x8002DD94: "addiu a0,zero,0x81"}
 DATA_ORIG = {0x8009BEE4: (176, 80, 240, 80, 184, 96, 248, 96)}  # 情報 Aura slot table (halfwords)
 # DIC.BIN (overlay base 0x80166218): file offset -> original first word
@@ -70,6 +71,8 @@ ACTION_ORIG = {0x80171558: "addiu s0,s7,0x96", 0x80171570: "addiu a0,t2,0x5d", 0
                0x80171E58: "addiu a0,s1,0x96", 0x80171E70: "ori a0,s1,0xb4", 0x80171FEC: "addiu a0,t1,0x5d",
                0x80172024: "addiu a0,t3,0x99", 0x8017202C: "ori a1,s7,0xb4",
                0x80171FE8: "jal 0x80043a64",
+               0x80176400: "addiu a1,zero,0x78", 0x80176408: "addiu a3,zero,0x47", 0x80176478: "addiu a0,zero,0x81",
+               0x801769EC: "addiu a3,zero,0xb1", 0x80176A44: "addiu a3,zero,0xb1",
                # ring > SEARCH tabs
                0x80174284: "addiu a1,zero,0x28", 0x80174290: "addiu a3,zero,0x2d", 0x80174294: "addiu a0,zero,0x32",
                0x801742B8: "addiu a0,zero,0x50", 0x801742D8: "addiu a0,zero,0x6e", 0x80174300: "addiu a1,zero,0x46",

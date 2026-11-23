@@ -89,8 +89,9 @@ VARIANTS = [
          status="measured"),
     # option: BRAIN menu labels, left column pen x 66 runs into the centre art past ~x 160, right column x 218
     dict(name="BRAIN menu", ids=r"brain\.", kind="lines", px=90, lines=1, status="measured"),
-    # ev43 HEN roster: names centred under 4 portraits, 78 px pitch -> 74 px each
-    dict(name="HEN roster name", ids=r"hen\.00(0[0-9a-f]{2}|10[0-8])$", jp=r"^(?!一の宮|小泊|静内)", kind="lines",
+    # ev43 HEN roster: names left-aligned at x 16 + 76 k (4 columns, inkrows) -> 74 px with a 2 px gap; Kaoru,
+    # Sayaka and the Ichinomiya twins (77-90 px) use given names here only (D14)
+    dict(name="HEN roster name", ids=r"hen\.00(0[0-9a-f]{2}|10[0-8])$", kind="lines",
          px=74, lines=1,
          status="measured"),
     # HEN team prompts share one line; floor = the group's widest JP line (21 chars)
@@ -112,6 +113,15 @@ VARIANTS = [
     # 思考 submenu (tac_think_menu): pen x 240, box right now 313; Berserk Alert popup: text x 123, box right 193
     dict(name="think submenu", ids=r"exe\.01(38c|398|3a4)$", kind="lines", px=73, lines=1, status="measured"),
     dict(name="Berserk Alert popup", ids=r"exe\.01330$", kind="lines", px=70, lines=1, status="measured (code)"),
+    # Retreat Proposal title (box x 108 w 96, text x 114) and TURN END prompt (box x 115 w 182, text x 125): code
+    # card/slot labels (table 0x8009CB38: Spare A-D, Normal, Never Registered, For Yoshida-san): only printf'd by a
+    # leftover debug table dump (0x8006AB40, "table[%d] = %2d .... [%s]"); never drawn
+    dict(name="debug printf labels", ids=r"exe\.(a6b[c-f][0-9a-f]|0287[0c])$", kind="lines", px=200, lines=1,
+         bytes="room", status="not drawn (debug printf)"),
+    # Ap-cost popup row "Restore Sp": label x 193, stat name moved to x 236 (asm/hooks.asm)
+    dict(name="Ap popup Restore", ids=r"exe\.a6288$", kind="lines", px=41, lines=1, status="measured (code)"),
+    dict(name="Retreat title", ids=r"action\.01068$", kind="lines", px=88, lines=1, status="measured (code)"),
+    dict(name="TURN END prompt", ids=r"action\.01094$", kind="lines", px=170, lines=1, status="measured (code)"),
     # Forms (type table 0x8009BC34, 1-26): 情報 type row x 88 -> "Df." label x 186 (tac_info_g + unit_type.lua:
     # "Overlord Guardian" 88 shot); ring > UNIT Guardian tab Type column draws the short form (type_short, D14)
     dict(name="Form name", ids=r"exe\.02(5[6-9a-f]|6[0-5])[0-9a-f]$", kind="lines", px=96, lines=1, bytes="room",
@@ -125,6 +135,11 @@ VARIANTS = [
     # (species a6354-a6508 + 015b4-0192c; boss parts 026a0-0271c are set by code)
     dict(name="unit type name", ids=r"exe\.(a63[5-9a-f]|a64[0-9a-f]|a650|015[b-f]|01[6-8][0-9a-f]|019[0-2]|026[a-f]"
          r"|027[01])[0-9a-f]$", kind="lines", px=108, lines=1, bytes="room", status="measured (status panel)"),
+    # item names (table 0x8009B4F8): drawn only by the equipment helper 0x80060688 (情報 + HEN detail, icon + name)
+    # and in "Obtained '%s'" (map message box 176). Narrowest: HEN detail Foot row, name x 59 -> "Mv." x 170 (poked
+    # equipment: hen_unit + tools/lua/poke.lua, "Vermilion Wing Necklace" 112 hit Mv.: now Scarlet, 104)
+    dict(name="item name", ids=r"exe\.(a67[2-9a-c][0-9a-f]|02[23][0-9a-f]{2})$", kind="lines", px=110, lines=1,
+         bytes="room", status="measured"),
     # widths the English needs beyond what the screen holds or was measured (tools/exe_pending.txt, one id per
     # line): phase 7 widens the box/column or condenses (D4, D13); a shot must replace each with a measured row
     dict(name="EXE engine pending", ids=PENDING, kind="lines", px=170, lines=1, bytes="room",
