@@ -3,8 +3,8 @@
 Modes: "en" = each record's `en` (records without one keep their original bytes); "marker" = every record replaced by
 its id + filler of the same line/page shape (phase 5 marker build, docs/re/text.md "Marker build").
 
-Limits (asm/hooks.asm): scenario blocks (UNN g23) load into SCEN_BUF (0x8000 bytes), battle-quote blocks (g13) into
-malloc(G13_MAX = 0x4000)."""
+Limits (asm/hooks.asm): scenario blocks (UNN g23) load into SCEN_BUF (SCEN_MAX = 0x6A78 bytes), battle-quote blocks
+(g13) into the static G13_BUF (0x4000 bytes)."""
 import json
 import os
 import re
@@ -17,7 +17,7 @@ import script_io
 
 ROOT = Path(__file__).resolve().parents[1]
 ARMIPS = ROOT / "tools/armips/armips.exe"
-LIMITS = {23: 0x8000, 13: 0x4000}
+LIMITS = {23: 0x6A78, 13: 0x4000}
 DIRS = {23: "scenario", 13: "battle"}
 FILLER = "The quick brown fox jumps over the lazy dog. 0123456789 Ready? Go!"
 RULER = "".join(str(i % 10) for i in range(80))  # digits: 6 px each, so the last one shown gives the width

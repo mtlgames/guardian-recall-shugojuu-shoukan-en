@@ -2,19 +2,24 @@
 ; armips asm/hooks.asm -strequ EXE <path to SLPS_012.9x> -strequ TABLES <font_tables.bin from tools/font.py>
 ; RAM = file offset + 0x8000F800. Startup (0x8006B1CC) zeroes BSS 0x800B6408-0x80162F88, so the payload is stored in
 ; that zero BSS area of the file and copied by a boot stub (new EXE entry point) to PAYLOAD.
-; Our RAM: 0x801E8000-0x801F7FFF, cut off the top of the game's malloc arena (descriptor 0x8015B608, base
-; [0x800120DC]+0x800, end 0x801F7F00 -> 0x801E7F00; highest block end seen in 11 scene dumps 0x801D1284).
+; Our RAM: 0x801EC000-0x801F7FFF, cut off the top of the game's malloc arena (descriptor 0x8015B608, base
+; [0x800120DC]+0x800, end 0x801F7F00 -> 0x801EBF00; the HEN screen uses it up to 0x801E1778 on the original:
+; tools/lua/heap.lua), plus the scenario buffer in a free BSS gap (SCEN_BUF).
 ; The stack sits above (0x801F7FF8-0x801FFFF8).
 .psx
 .open EXE, 0x8000F800
 
 PAYLOAD     equ (0x801F0000)    ; code + tables, up to 0x801F7FF8
 STR_POOL    equ (0x801F4000)    ; relocated strings, up to 0x801F7FF8 (tools/insert.py STR_POOL)
-SCEN_BUF    equ (0x801E8000)    ; scenario block buffer, 0x8000 bytes (was 0x2800 at 0x800D16F8)
-SCEN_MAX    equ (0x8000)
+G13_BUF     equ (0x801EC000)    ; battle-quote block buffer, 0x4000 bytes (was malloc(0x2800); tools/insert.py LIMITS)
+SCEN_BUF    equ (0x800CAC00)    ; scenario block buffer in zero BSS, 0x6A78 bytes up to the vars at 0x800D1678 (was
+                                ; 0x2800 at 0x800D16F8); the boot stub there is dead once START runs
+SCEN_MAX    equ (0x6A78)
 
-.org 0x8001A6FC                 ; main: arena size = 0x801F7700 - [0x800120DC]  (was lui v0, 0x801F)
+.org 0x8001A6FC                 ; main: arena size = 0x801EB700 - [0x800120DC], end 0x801EBF00 (was 0x801F7700)
   lui   v0, 0x801E
+.org 0x8001A708
+  ori   v0, v0, 0xB700
 STUB        equ (0x800CAC00)   ; BSS, zero in the file, after the glyph map (0x800C4E78 + 0x5D7C)
 START       equ (0x8006B1CC)   ; original entry point
 LOOKUP_SJIS equ (0x80044C50)   ; glyph lookup, after its first two instructions
@@ -339,10 +344,16 @@ payload_end:
 .org 0x80044FEC
   addiu a0, a0, lo(SCEN_BUF)
 
-; ---- battle-quote block (UNN g13) buffer: malloc(0x2800) at 0x80044BB4 -> malloc(G13_MAX) ----
-G13_MAX     equ (0x4000)
-.org 0x80044BC0
-  addiu a0, zero, G13_MAX
+; ---- battle-quote block (UNN g13) buffer: malloc(0x2800) at 0x80044BB4 -> static G13_BUF ----
+; A bigger malloc failed on a tight heap (HEN formation screen, ev43: v0 = 0, the CD DMA then wrote the kernel at 0).
+; Every caller reads the block through gp+0xBF4 (none keeps v0), so one static buffer is safe; the release at
+; 0x80044C10 frees gp+0xBF8 only when it equals gp+0xBF4: that free is skipped (it would corrupt the heap).
+.org 0x80044BC0                 ; was: addiu a0, zero, 0x2800
+  lui   v0, hi(G13_BUF)
+.org 0x80044BC8                 ; was: jal 0x80064370 (malloc); its delay slot (sw s0) stays
+  addiu v0, v0, lo(G13_BUF)
+.org 0x80044C24                 ; was: jal 0x80064390 (free)
+  nop
 
 .close
 

@@ -40,11 +40,18 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
   letters/digits replace the full-width Ａ-Ｚ ａ-ｚ ０-９ glyphs (now left-aligned), punctuation uses free cells. Every
   lookup stores the advance in `last_adv` (ASCII: width + 1; else 13); the scenario renderer adds it (0x80044480).
 - RAM for new code/data: the malloc arena (descriptor 0x8015B608, init 0x8006A2C4(base [0x800120DC]+0x800, size
-  0x801F7700 - [0x800120DC]) set in main 0x8001A6FC) is cut to end 0x801E7F00; ours = 0x801E8000-0x801F7FFF
-  (highest arena block end seen in 11 scene dumps: 0x801D1284). Payload at 0x801F0000, copied there by a boot stub
-  (new EXE entry, stored in the zero BSS at 0x800CAC00; startup clears BSS 0x800B6408-0x80162F88 afterwards).
+  0x801F7700 - [0x800120DC]) set in main 0x8001A6FC) is cut to end 0x801EBF00; ours = 0x801EC000-0x801F7FFF.
+  Payload at 0x801F0000, copied there by a boot stub (new EXE entry, stored in the zero BSS at 0x800CAC00; startup
+  clears BSS 0x800B6408-0x80162F88 afterwards). Heap walk: `tools/lua/heap.lua` (block header 0x1C: +0 next,
+  +8 used, +0xC size; first block at desc+0x40); malloc log: `tools/lua/malloc_log.lua`. The HEN formation screen
+  (ev43) uses the arena up to 0x801E1778 on the original (a 0x1A8FC block), the most seen so far.
+- **ev43 crash (fixed 2026-11-23):** the arena cut was 0x10000 and the g13 malloc grown to 0x4000; with the 2D pool
+  0x2800 bigger (pool_grow rounding) HEN's g13 malloc returned 0, the CD DMA loaded the block to address 0 and the
+  kernel died (pause pc 0xF8 in a B0 call, ra 0x8008FF00). Now: scenario buffer in BSS, g13 buffer static.
 - Scenario buffer: 0x800D16F8 was 0x2800 bytes (next symbol 0x800D3EF8, refs: 5 lui/addiu pairs 0x80044B4C-0x80044FEC)
-  -> moved to 0x801E8000, 0x8000 bytes. Battle quotes (g13): loader 0x80044BB4 mallocs 0x2800 -> 0x4000.
+  -> SCEN_BUF 0x800CAC00, 0x6A78 bytes (zero BSS after the glyph map up to vars at 0x800D1678; no code ref into it in
+  the EXE or any overlay: `tools/xref_range.py`). Battle quotes (g13): loader 0x80044BB4 malloc(0x2800) -> static
+  G13_BUF 0x801EC000 (0x4000); callers read it via gp+0xBF4 only, the release's free (0x80044C24) is nopped.
 - Scenario box (measured, ev02/ev03 marker shots): pen x = 70 (top and bottom box), name line + up to 3 text lines,
   17 px apart; page cursor at x 296-301 between lines 2 and 3. JP lines end at 70 + 17 x 13. Budget: 224 px/line.
 

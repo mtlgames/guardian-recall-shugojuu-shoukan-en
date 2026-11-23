@@ -2,9 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Width gate nearly done (every record has a budget, torture line passed in all renderers); left: a
-  full marker tour + Japanese-left check. Last build: 2026-11-23 `tools/torture.py` (marker + torture overrides):
-  rebuild with `build.py --marker` before the tour.
+- **Phase:** 6. Translate (phase 5 done 2026-11-23: marker tour 128/128, width gate, no font-drawn Japanese left).
+  Last build: 2026-11-23 `build.py --marker`.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -90,11 +89,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
     help 02/07/10) get the Japanese line's own width as a floor (`px="jp"`, status "jp width"). Fit lint 0, no record
     without a budget. Glyph torture (tools/torture.py) correct in generic, txd and DIC renderers. Probe
     tools/lua/pool2d.lua.
-- **Next:** (a) `build.py --marker`, then the full marker tour `regen.py --timeout 2400` (all 122+ scenes, expect
-  tac_search ok now) and look over the menu/tac/opt/day finals for Japanese left by a missed ref; that closes phase 5.
-  (b) Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp width"
-  floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of abbreviating.
-  (c) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.
+  - 2026-11-23 (12): **phase 5 closed.** Full marker tour: ev43 (HEN formation roster) crashed: our g13 malloc
+    (grown to 0x4000) returned 0 on HEN's tight heap, the CD DMA wrote the kernel (docs/re/text.md "ev43 crash").
+    Fix: scenario buffer -> zero BSS gap 0x800CAC00 (0x6A78, xref-checked over EXE + all overlays), g13 buffer
+    static at 0x801EC000 (free nopped), arena end 0x801E7F00 -> 0x801EBF00 (HEN top free 0x3F88 -> 0x7F88). Re-tour
+    128/128 ok (gameover needs `--timeout 3600` under parallel load). Finals of every menu/tac/opt/day/title scene
+    and every event read: no font-drawn Japanese; graphics survey gained G17 (tactics element orbs) and G18 (title
+    copyright line). New tools: tools/lua/heap.lua (arena walk), tools/lua/malloc_log.lua, tools/xref_range.py.
+- **Next:** (a) Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
+  width" floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of
+  abbreviating. Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
+  (b) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.
+  (c) Heap margin: HEN leaves 0x7F88 free at the arena top; if English grows the 2D pool more, consider a smaller
+  pool_grow rounding (asm/hooks.asm) before cutting more RAM.
 - **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).

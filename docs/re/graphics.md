@@ -27,6 +27,8 @@ Static sweep (rebuild into work/, not in git):
 | G14 | Character-file emblems (kanji in medallion, e.g. ruen) | GRETC cf 215/216/218 (320x240) | 3 | decorative; check in tour |
 | G15 | Staff credits movie (burned-in Japanese roles/names; English "Thanks for Playing" end) | disc 2 STR/STAFF.STR | 1 movie | D3 = English credits: needs STR re-encode (phase 8) |
 | G16 | Opening/ending logo with small 守護獣召喚 under "Guardian Recall" | STR movies (OP, MEND) | 2 | leave (movie, logo); see status Waiting |
+| G17 | Tactics element orbs: kanji 主 天 地 雷 海 火 飛 冥 聖 in glass spheres (ring > DIAGRAM, unit HUD emblem left of Sp/Mp/Ap) | source not found yet (tactics overlay / UNN, phase 8) | ~9 | found in marker tour 2026-11-23 (tac_diagram, tac_unit_menu); element icons: redraw as letters or keep, decide in phase 8 |
+| G18 | Title copyright line ©XING 1998／©1996.1998 アグミックス／藺宮 涼、龍炎 狼牙 (under the logo, 640x480 title) | same title image as G6 (UNN g21/g09, confirm) | 1 | found in marker tour 2026-11-23 (title); romanize: Agumix / Ryo Imiya, Roga Ryuen |
 
 Checked, no Japanese: UNN g01-g08 (battle effect animation frames; first page of each sampled, rest same strip
 format), g10 (55 face icons 42x50), g25 (earth), g09 rest (item/element icons, digits, **ASCII font 0x4069EC 128x25**,
@@ -36,4 +38,6 @@ AMAGI), opt (English: OPTION, music player), day (fontn.tim = English menu label
 OPTION + font), mill digits; DATA/MEM_ERR.TIM (English); STR movies other than STAFF (incidental signage only, e.g.
 サウナ室 sign: leave).
 
-Tour still to do (phase 5 marker tour / phase 2 warps): menus, battle UI, save/load, game over, ending.
+Marker tour 2026-11-23 (all 128 scenes, final frames of every menu/tac/opt/day/title scene and every event read):
+no font-drawn Japanese left; the Japanese on screen is G1-G5, G8, G10-G13 and the new rows G17 (tactics element
+orbs) and G18 (title copyright line).

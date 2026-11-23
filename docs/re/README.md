@@ -14,7 +14,7 @@ Addresses are for the dump in `rom.sha1` unless a note says otherwise.
 |---|---|---|
 | text.md | encoding + jp.tbl, renderer + glyph map, scenario/battle blocks, txd markup text, evd unit names, EXE/overlay strings + pointers, extraction (script/), free space | verified except buffer size, txd renderer, BRAIN base |
 | containers.md | disc layout, UNN.PAK TOC + sub-tables, TX03 codec, GRETC.RLZ (dir, RLE, XOR), overlays | verified; GRETC checksum algorithm open |
-| graphics.md | graphics-text survey | static sweep complete (G1-G16); tour rows in phase 5 |
+| graphics.md | graphics-text survey | static sweep + marker tour complete (G1-G18) |
 | debug.md | main loop task, event starter, overlay ids, mode setters, title/OPTION, memory card + checksum | warps verified (81/81 scenes); save layout partial |
 
 Tools: `tools/gr_text.py` (decode), `gr_scan_blocks.py`, `gr_codes.py`, `gr_strings.py`, `sjis_survey.py`,
