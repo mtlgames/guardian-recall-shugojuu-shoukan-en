@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
 import insert  # noqa: E402
+import writecheck  # noqa: E402
 
 MKPSXISO = ROOT / "tools/mkpsxiso/mkpsxiso-2.30-win64"
 DISCS = (1, 2)
@@ -33,8 +34,13 @@ def dump(n):
 
 
 def patch(n, tree, mode="en"):
-    """Write font, hooks and text into disc n's file tree (tools/insert.py; both discs share every DATA file)."""
-    insert.patch_tree(tree, mode)
+    """Write font, hooks and text into disc n's file tree (tools/insert.py; both discs share every DATA file), then
+    check every changed byte against the pristine dump (tools/writecheck.py); any error stops the build."""
+    errs = insert.patch_tree(tree, mode)
+    errs += writecheck.verify(dump(n) / "tree", tree, insert.LOG, insert.GRETC_REBUILT)
+    if errs:
+        sys.exit(f"disc {n}: write check failed\n" + "\n".join(errs[:60]))
+    print(f"disc {n}: write check ok ({sum(map(len, insert.LOG.values()))} logged writes)")
 
 
 def build_disc(n, out_dir, patched=True, mode="en"):

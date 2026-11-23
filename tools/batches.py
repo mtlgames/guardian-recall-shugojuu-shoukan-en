@@ -33,6 +33,7 @@ MAX_ENTRIES = 150
 
 # ---- ADAPTER: this game's text format ----
 TOKEN = re.compile(r"\{[^}]*\}|&[a-z]\([^)]*\)")  # control codes and txd markup; must survive translation
+PRINTF = re.compile(r"%[-+ 0#]*\d*(?:\.\d+)?[a-zA-Z]")
 FREE = {"{wait}", "&n()"}  # page and line breaks the English may place freely
 VARIABLE = r"\{var[^}]*\}"  # (this game draws no numbers inside text)
 HONORIFICS = {"さん": "-san", "ちゃん": "-chan", "くん": "-kun", "君": "-kun", "様": "-sama", "先輩": "-senpai",
@@ -237,6 +238,10 @@ def problems(entry, en, terms, stored=False):
     have = Counter(t for t in TOKEN.findall(en) if not free(t))
     if want != have:
         out.append(f"control codes differ: JP {dict(want)} EN {dict(have)}")
+    # printf format strings (EXE/overlay): same conversions in order; flags/width may change (day.002a0 drops %-7s
+    # padding). Text without conversions isn't printf'd: "100% of" drew as is in g13 help (phase 7 shot)
+    if (jf := PRINTF.findall(jp)) and [f[-1] for f in jf] != [f[-1] for f in PRINTF.findall(en)]:
+        out.append(f"printf conversions differ: JP {jf} EN {PRINTF.findall(en)}")
     name, body_jp = speaker_of(entry)
     if name and name not in speakers():
         out.append(f"speaker {name} not in glossary.md")

@@ -13,7 +13,9 @@ import subprocess
 from pathlib import Path
 
 import font
+import gr_index
 import script_io
+import writecheck
 
 ROOT = Path(__file__).resolve().parents[1]
 ARMIPS = ROOT / "tools/armips/armips.exe"
@@ -70,6 +72,12 @@ TAGS = {}  # marker tag -> id, written to work/marker_tags.tsv by a marker build
 KEEP = os.environ.get("MARKER_KEEP")  # bisecting a marker-build bug: ids matching this regex keep the Japanese
 SAME = os.environ.get("MARKER_SAME")  # ids matching this regex get filler of the Japanese byte length per line
 QA = {}  # id -> text overriding en/marker (build.py --qa ID=TEXT): stress lines, glyph torture line
+LOG = {}  # tree-relative path -> [(off, orig, new, writer)]: every write to EXE/overlay images (tools/writecheck.py)
+GRETC_REBUILT = set()  # GRETC.RLZ entry indexes patch_tree rebuilt
+
+
+def log(rel, off, orig, new, who):
+    LOG.setdefault(rel, []).append((off, bytes(orig), bytes(new), who))
 
 
 def b36(n):
@@ -221,12 +229,13 @@ LOW_OPS = (0x09, 0x0D, 0x20, 0x21, 0x23, 0x24, 0x25, 0x28, 0x29, 0x2B)  # str_re
 
 def repoint(img, base, ref, old, new):
     """Point one `refs` entry (w = u32 word, p = lui + its low op within 8 instructions, as str_refs.pairs finds it)
-    at new. Every p ref's lui feeds one low op only (checked over all 248 when this was written)."""
+    at new. Every p ref's lui feeds one low op only (checked over all 248 when this was written).
+    Returns the file offsets of the words it rewrote."""
     a = int(ref[1:], 16) - base
     if ref[0] == "w":
         assert struct.unpack_from("<I", img, a)[0] == old, ref
         struct.pack_into("<I", img, a, new)
-        return
+        return [a]
     lui = struct.unpack_from("<I", img, a)[0]
     rt = (lui >> 16) & 31
     for j in range(a + 4, a + 36, 4):
@@ -242,6 +251,7 @@ def repoint(img, base, ref, old, new):
     hi = new >> 16 if ori else (new + 0x8000) >> 16
     struct.pack_into("<I", img, a, (lui & 0xFFFF0000) | hi)
     struct.pack_into("<I", img, j, (y & 0xFFFF0000) | (new & 0xFFFF))
+    return [a, j]
 
 
 def patch_images(tree, exe_path, mode):
@@ -252,6 +262,7 @@ def patch_images(tree, exe_path, mode):
     for key, (f, base, _) in script_io.IMAGES.items():
         doc = json.loads((ROOT / f"script/exe/{key}.json").read_text(encoding="utf-8"))
         path = exe_path if key == "exe" else tree / f
+        rel = path.relative_to(tree).as_posix()
         img = bytearray(path.read_bytes())
         for k, s in enumerate(doc["strings"]):
             tag(s, PREFIX[key] + b36(k))
@@ -259,13 +270,17 @@ def patch_images(tree, exe_path, mode):
             if t is None:
                 continue
             if len(t) < s["room"]:
-                img[s["off"]:s["off"] + s["room"]] = t + bytes(s["room"] - len(t))
+                o, new = s["off"], t + bytes(s["room"] - len(t))
+                log(rel, o, img[o:o + len(new)], new, s["id"])
+                img[o:o + len(new)] = new
                 continue
             assert s.get("refs") and not s.get("inner"), f"{s['id']}: {len(t)} bytes > room {s['room']}, can't move"
             new = STR_POOL + len(pool)
             pool += t + bytes(4 - len(t) % 4)  # NUL + word alignment
             for r in s["refs"]:
-                repoint(img, base, r, base + s["off"], new)
+                before = bytes(img)  # shortcut: whole-image copy per ref, ~250 refs, fine
+                for o in repoint(img, base, r, base + s["off"], new):
+                    log(rel, o, before[o:o + 4], img[o:o + 4], f"{s['id']} ref {r}")
         path.write_bytes(img)
     assert len(pool) <= STR_POOL_MAX, f"string pool {len(pool):#x} > {STR_POOL_MAX:#x}"
     (ROOT / "work/asm/str_pool.bin").write_bytes(bytes(pool) or bytes(4))
@@ -276,14 +291,24 @@ def patch_tree(tree, mode="en"):
     tree = Path(tree)
     exe_path = next(p for p in tree.glob("SLPS_*"))
     unn_path = tree / "DATA/UNN.PAK"
-    exe, unn = exe_path.read_bytes(), bytearray(unn_path.read_bytes())
-    tables = font.patch_unn(exe, unn)                      # same size: before the repack moves groups
-    exe, unn = script_io.unn_repack(exe, bytes(unn), text_groups(mode))
+    LOG.clear()
+    GRETC_REBUILT.clear()
+    exe0, unn = exe_path.read_bytes(), bytearray(unn_path.read_bytes())
+    tables = font.patch_unn(exe0, unn)                      # same size: before the repack moves groups
+    groups = text_groups(mode)
+    exe, unn = script_io.unn_repack(exe0, bytes(unn), groups)
+    # unn_repack rewrites the group TOC and the text groups' sub-tables in the EXE
+    spans = [(gr_index.TOC - gr_index.BASE, 8 * gr_index.NGROUPS)]
+    spans += [(script_io.TEXT_GROUPS[g] - gr_index.BASE, 8 * len(b)) for g, b in groups.items()]
+    for o, n in spans:
+        log(exe_path.name, o, exe0[o:o + n], exe[o:o + n], "unn index")
     exe_path.write_bytes(exe)
     unn_path.write_bytes(unn)
     rlz_path = tree / "DATA/GRETC.RLZ"
     rlz = rlz_path.read_bytes()
-    rlz_path.write_bytes(script_io.gretc_repack(rlz, gretc_files(rlz, mode)))
+    files = gretc_files(rlz, mode)
+    GRETC_REBUILT.update(files)
+    rlz_path.write_bytes(script_io.gretc_repack(rlz, files))
     patch_images(tree, exe_path, mode)
     if mode == "marker":
         (ROOT / "work").mkdir(exist_ok=True)
@@ -291,8 +316,17 @@ def patch_tree(tree, mode="en"):
     work = ROOT / "work/asm"
     work.mkdir(parents=True, exist_ok=True)
     (work / "font_tables.bin").write_bytes(tables)
+    asm_files = {exe_path.name: exe_path, "DATA/DIC.BIN": tree / "DATA/DIC.BIN", "DATA/DAY.BIN": tree / "DATA/DAY.BIN"}
+    pre = {rel: p.read_bytes() for rel, p in asm_files.items()}
     subprocess.run([ARMIPS, ROOT / "asm/hooks.asm", "-strequ", "EXE", exe_path, "-strequ", "TABLES",
                     work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN", "-strequ", "DAY", tree / "DATA/DAY.BIN",
                     "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin",
-                    "-sym", work / "hooks.sym"],
+                    "-sym", work / "hooks.sym", "-temp", work / "hooks.lst"],
                    check=True)
+    blocks = writecheck.asm_blocks((work / "hooks.lst").read_text(encoding="utf-8-sig"))
+    errs = []
+    for rel, p in asm_files.items():
+        w, e = writecheck.asm_writes(rel, pre[rel], p.read_bytes(), blocks.get(p.name.upper(), []))
+        LOG.setdefault(rel, []).extend(w)
+        errs += e
+    return errs

@@ -11,6 +11,13 @@ def test_shipped_english_lint_clean():
     assert batches.main(["check"]) == 0
 
 
+def test_printf_conversions_must_match():
+    e = {"id": "exe.x", "jp": "残り%dターン"}
+    assert any("printf" in p for p in batches.problems(e, "Turns left", []))
+    assert not any("printf" in p for p in batches.problems(e, "%-3d turns left", []))
+    assert not any("printf" in p for p in batches.problems({"id": "g13.03.000", "jp": "１００％"}, "100% of", []))
+
+
 def test_prepare_scenario_adds_speaker_wraps_and_pages():
     e = {"id": "g23.01.001", "jp": "富楼那\n「は、あ\n　い」\n{wait}「う」\n{wait}"}
     long = '"' + " ".join(["word"] * 60) + '"'
