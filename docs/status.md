@@ -155,8 +155,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
     tactic list 115, current tactic 107, 行動 submenu 69, BRAIN menu 90, HEN roster 74, HEN team prompt 273, map
     message box 176. D13 (engine pending list). Glossary: Forms, traits, Takegami equipment set, Retreat, OK.
     Skill rank labels a6520-30 = Heal / Ranged / Melee (glossary lint); glossary 行動能力ランク says the status shows Short / Long / Heal: reconcile in the review.
-- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important). No reviewer subagent available (Orca
-  worker; codex limit until 2026-11-26): do it as a fresh read-only pass per chapter/pairs file and write verdicts.
+  - 2026-11-24 (3): **review pass started** (docs/review.md: method + verdict per batch; Minors in docs/polish.md).
+    New `tools/pairs.py bNNN` -> work/qa/review/pairs/bNNN.txt (JP + out.tsv English, `==` rows = copies judged
+    earlier); `pairs.py --drift` = out.tsv vs script/ (empty = fixes via out.tsv + `merge --overwrite` are safe).
+    b001-b010 reviewed: all approved, 1 Important fixed (g23.06.000). One worker covers ~10 scenario batches
+    (~15 KB pairs each, read in two 100-line halves) before its context limit.
+- **Next:** (a) **Review pass** (phase 6 done-when: no Critical/Important): continue at **b011** (docs/review.md).
+  No reviewer subagent available (Orca worker; codex limit until 2026-11-26): fresh read-only pass per pairs file.
+  b041-b044 are all `==` copies (nothing to read); after 2026-11-26 14:14 `codex exec` can take batches.
   (a2) EXE widths: 246 ids in tools/exe_pending.txt carry an "engine pending / unmeasured" budget (D13; docs/windows.md
   "EXE engine pending"). Measured narrow: Psi name slot 32 px (tac_power + 情報 Aura), SEARCH tabs (Tactic hides the
   T of Trait), HEN roster for Kaoru/Sayaka/Ichinomiya twins (74 px). Not shot yet: species/guardian/item/trait/Form
