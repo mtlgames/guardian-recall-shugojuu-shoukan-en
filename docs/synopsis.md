@@ -157,3 +157,27 @@ Asakusa Sensoji, south Tokyo Second International Airport) now power a barrier a
 restore each other, so all four stone towers must be destroyed at the same moment: the party splits into four
 groups. The Four Gate Generals wait at the gates (Genbu still expects Jin to see through it; Reiko blames Genbu for
 Jin's betrayal). Akira drags shy Kotone into her hero roll call ("That was embarrassing...").
+Group-split vignettes: Sayaka wants a gate with fun on the side; Misato refuses to team with her; Ran gives Keiko an
+item "so you'll be teamed with Misato".
+
+## 27-30 (the four gate battles)
+Each gate has a shared pre-battle roll call (every party member's one-liner, repeated per gate: keep them identical)
+and a "stone tower" line each. 27 (Shinjuku): Genbu (Megumi) vs Jin: they joined hands to protect Japan from "the
+rotten people of this world"; Megumi can't forget her miserable childhood; Jin: "You're only taking revenge on the
+world." Suzune proposes practising separate summons (she couldn't save Kotone when kidnapped; Kotone is 19). Yui
+tells Ruri her "lovey-dovey attack" on Takegami would fail. 28 (Setagaya Tonder Egg): Reiko (Miyuki calls her "old
+lady") preaches death as bliss; Mayu: "Kyushu dialect's the whole world's common tongue!" Sayaka pities Miyuki's
+boyfriendless life. Yukari plays "healer" so Chikana charges. 29 (airport): Seiryu (Satomi) vs Akira, who mistakes
+her grand idioms for a rival's style ("I'd expect no less from the Four Gate Generals"); Sayaka confuses punk and
+thrash metal; Takegami leaves Seiryu to Yuko; Hasumi wants a rematch from Taisetsu. 30 (Sensoji): Tomomi (Suzaku)
+"raised" Yumi ("my darling little bird"); Misato's rage. Mayu encourages Ran: Miyuki has a sharp sense for these things.
+
+## 31-34 (the Seven Dragons awaken; Hiryuki Palace)
+Yuko and Miyuki felt a bond on meeting. The last dragon vein is freed: every Dragon Wielder's Guardian becomes its
+dragon (Ten-chan = Sky Dragon, speaks: "Please call me Sky Dragon, Miyuki"; Pochi = Earth Dragon; so Miyuki is the
+Sky Dragon, Yuko the Earth Dragon). Ryukihi is at Hiryuki Palace, an island fortress in Tokyo Bay. Vignettes: Yui on
+Guardians (Ten-chan needn't talk); Jin and Keiko (purity hurts the tainted); Takegami's musings fool Ruri into
+expecting a confession. Hasumi hoped to be a Dragon Wielder (foreshadowing). A Black Dragon appears to Jin. 33: the
+Four Gate Generals return; the fortress will fly and drive itself as a wedge into Japan's greatest dragon vein under
+Tokyo Bay, sinking Japan. Jin knew and kept quiet: "I bet everything on you." 34: the Generals chant a mantra
+("On a un ra ken sowaka!").

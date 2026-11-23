@@ -7,767 +7,851 @@
   {
    "id": "g23.27.000",
    "jp": "めぐみ\n「仁・・・生きておめおめと・・・\n　あまつさえ敵に寝返るとは！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Jin... You have the gall to still be alive... and\nto defect to the enemy, no less!\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.27.001",
    "jp": "瞳\n「玄武・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Genbu...\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.002",
    "jp": "めぐみ\n「なぜだ、なぜ裏切った・・・」\n{wait}「私たちは・・・世の中のくさった\n　連中から、日本を護るために手を\n　取り合ったのでは、なかったか！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Why? Why did you betray us...\"\n{wait}\"Didn't we join hands... to protect Japan from\nthe rotten people of this world!?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.003",
    "jp": "瞳\n「破壊も殺戮も、何も生みはしない」\n{wait}「龍鬼妃のもとでは、私たちの理想が\n　実現する事はない」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Destruction and slaughter create nothing.\"\n{wait}\"Under Ryukihi, our ideals will never\ncome true.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.004",
    "jp": "めぐみ\n「間違いだったと言うのか・・・\n　おまえは今さらそれを言うのか！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"You're saying it was a mistake... You'd say\nthat to me now, of all times!?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.005",
    "jp": "瞳\n「そうじゃない。あの頃の私たちには\n　ほかに選択肢はなかった」\n{wait}「だが、今は違う」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"That's not it. Back then, we had no\nother choice.\"\n{wait}\"But now it's different.\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.006",
    "jp": "めぐみ\n「ハッ！　龍の使い手か？」\n{wait}「龍の使い手ならば、実現できると\n　言うんだな」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Hah! The Dragon Wielders?\"\n{wait}\"You're saying the Dragon Wielders can make\nit come true?\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.007",
    "jp": "瞳\n「そうだ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"That's right.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.008",
    "jp": "めぐみ\n「戯れ言だ！」\n{wait}「私は忘れまい。\n　私を踏みにじった者たちを・・・\n　あの、みじめな子供時代を」\n{wait}「他に術などない、\n　私は、間違ってはいない！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Nonsense!\"\n{wait}\"I will never forget. The ones who trampled\nme... that miserable childhood.\"\n{wait}\"There is no other way. I am not wrong!\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.009",
    "jp": "瞳\n「玄武、私は」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Genbu, I...\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.010",
    "jp": "めぐみ\n「おまえは似ていると思った・・・\n　おまえだけは・・・」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"I thought you were like me... You, of all\npeople...\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.011",
    "jp": "めぐみ\n「いいや。おまえもしょせんは、\n　あの虫ケラどもと一緒だ」\n{wait}「そういう事だ・・・」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"No. In the end, you're no different from the\nrest of those insects.\"\n{wait}\"So that's how it is...\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.012",
    "jp": "めぐみ\n「龍の使い手などと言うが、この私に\n　どこまで通用するかな」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Dragon Wielders, you call yourselves... Let's\nsee how far that gets you against me.\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.013",
    "jp": "美由紀\n「あたしたち負けない、\n　負けられないんだもん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We won't lose! We can't lose!\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.014",
    "jp": "裕子\n「勝ってみせる！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"We'll win, just watch!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.015",
    "jp": "真由\n「やってみらなわからん！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Ain't no knowin' till we try!\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.016",
    "jp": "ゆかり\n「さあ・・・\n　泣くのは、どっちかしらね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Well then... I wonder which of us will be the\none crying?\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.017",
    "jp": "美里\n「あんたたちが・・・あんたたち\n　みたいなのがいるから！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"It's because of people like you... because of\npeople like you!\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.018",
    "jp": "景子\n「私みんなの役に、たたなきゃ・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I have to be useful to everyone...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.019",
    "jp": "晶\n「天網恢恢疎にして漏らさず、\n　悪人には必ず天罰が下るです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Heaven's net is wide, yet none slip through!\nDivine punishment always falls upon the\nwicked, yes indeed!\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.020",
    "jp": "ちかな\n「ゴタクはいいんだよ。\n　さっさとかかってきな！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Spare me the speeches. Just come at us\nalready!\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.021",
    "jp": "唯\n「わたしたちだから出来る事・・・\n　わたしたちにしか、出来ない事！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"What we can do because it's us... What only\nwe can do!\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.022",
    "jp": "巴澄\n「こう見えても、往生際は悪いんだ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I may not look it, but I don't give up easily.\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.023",
    "jp": "鈴音\n「琴音、いけるね」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Kotone, you ready?\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.024",
    "jp": "琴音\n「大丈夫、鈴音。ひとりじゃないもの」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"I'm fine, Suzune. I'm not alone.\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.025",
    "jp": "さやか\n「うえぇ～、恐い～！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Waaah~ I'm sca-ared~!\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.026",
    "jp": "かおる\n「誰かのためなんかじゃない」\n{wait}「あたしは、あたし自身のために\n　やるんだから！」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"It's not for anybody else.\"\n{wait}\"I'm doing this for me!\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.027",
    "jp": "蘭\n「きっと大丈夫・・・大丈夫！」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"It'll be okay... It'll be okay!\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.028",
    "jp": "るり\n「世界中の人間が死んだって、私は、\n　私だけは生き抜いてみせるのよ！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Even if every person in the world dies, I, at\nleast, am going to survive!\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.029",
    "jp": "武神\n「お相手つかまつる！」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"I shall be your opponent!\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.030",
    "jp": "めぐみ\n「おまえは変わった！\n　変わってしまった！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"You've changed! You've completely changed!\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.27.031",
    "jp": "瞳\n「変わったのは、あなただ」\n{wait}「あなたは世の中に復讐しているだけ、\n　そこにはもう理想などない」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"You're the one who changed.\"\n{wait}\"You're only taking revenge on the world.\nThere are no ideals left in it.\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.032",
    "jp": "めぐみ\n「ほざくなっ！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Silence!\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.033",
    "jp": "めぐみ\n「仁・・・私は、おまえを許さない、\n　決して！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Jin... I will never forgive you. Never!\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.27.034",
    "jp": "めぐみ\n「クッ・・・覚えていろ」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Kh... You'll pay for this.\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.035",
    "jp": "美由紀\n「石塔って、あれだね・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"That must be the stone tower...\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.27.036",
    "jp": "裕子\n「石塔って、あれだな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"So that's the stone tower.\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.037",
    "jp": "真由\n「早よ、石塔ば」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Hurry, the stone tower.\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.038",
    "jp": "美里\n「まだ時間あるわよね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"We've still got time, right?\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.039",
    "jp": "景子\n「石塔って、あれですね」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"That must be the stone tower.\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.040",
    "jp": "ゆかり\n「あれね・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"That's it...\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.041",
    "jp": "晶\n「急ぐです、もうすぐ時間です」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Hurry, it's almost time, yes indeed.\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.042",
    "jp": "ちかな\n「そろそろいいかな」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"About time, I'd say.\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.043",
    "jp": "蘭\n「あの石、壊さなきゃ」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"We have to break that stone.\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.044",
    "jp": "唯\n「もう時間ね」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"It's time.\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.045",
    "jp": "かおる\n「へへ、チョロイチョロイ。\n　あとは、あの石を壊すだけ」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Heh, easy-peasy. Now I just gotta smash\nthat stone.\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.046",
    "jp": "さやか\n「準備オッケぇ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"All re-eady~\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.047",
    "jp": "るり\n「もう、いいわよね？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"It's time now, right?\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.048",
    "jp": "仁\n「時間だ」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"It's time.\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.049",
    "jp": "鈴音\n「さ、石塔を壊さなきゃ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Okay, we have to break the stone tower.\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.050",
    "jp": "琴音\n「うん」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Right.\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.051",
    "jp": "巴澄\n「間に合ったようだな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Looks like we made it in time.\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.052",
    "jp": "武神\n「ふん・・・肩ならしにもならんわ」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Hmph... That wasn't even a warm-up.\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.199",
    "jp": "めぐみ\n「許さん・・・許さんぞ、仁瞳！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"I won't forgive you... I won't forgive you,\nHitomi Jin!\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 6
+   "pre": 6,
+   "status": "done"
   },
   {
    "id": "g23.27.200",
    "jp": "瞳\n「退いてくれ、と言って退く相手でも\n　ないだろうが・・・」\n{wait}「あなたには借りがある。\n　私の手で倒したくはない」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"You're not the kind to back down just\nbecause I ask, I suppose...\"\n{wait}\"But I owe you. I don't want to be the one to\ndefeat you.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.201",
    "jp": "めぐみ\n「ほざくな！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Silence!\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.202",
    "jp": "めぐみ\n「私の方が正しいという事を、\n　その身体に教えてやる！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"I'll beat it into you that I'm the one\nwho's right!\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.203",
    "jp": "瞳\n「やるしか、ないのか・・・」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"So there's no choice but to fight...\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.204",
    "jp": "鈴音\n「うーん・・・」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hmmm...\"\n{wait}",
    "slots": [
     204
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.205",
    "jp": "琴音\n「なに、鈴音」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"What is it, Suzune?\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.206",
    "jp": "鈴音\n「やっぱ、さすがに私たちは\n　一緒に組まされたなーと」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"I was just thinking, of course they stuck the\ntwo of us together.\"\n{wait}",
    "slots": [
     206
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.207",
    "jp": "琴音\n「別れたら守護獣、呼べないから」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"If we split up, we can't summon our\nGuardians.\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.208",
    "jp": "鈴音\n「ねー、それなんだけどさ」\n{wait}「今度、別々に呼ぶ訓練でも\n　してみない？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Yeah, about that.\"\n{wait}\"How about we practice summoning them\nseparately sometime?\"\n{wait}",
    "slots": [
     208
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.209",
    "jp": "琴音\n「鈴音・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Suzune...\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.210",
    "jp": "鈴音\n「わー、泣かない泣かない！」\n{wait}「一緒がイヤなんじゃないわよ。でも\n　いざって時、やっぱり困るでしょ」\n{wait}「さらわれた時のコトとか、思い出す\n　のよ。助けに行けなくて・・・\n　くやしかったのよ、すっごく」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Whoa, no crying, no crying!\"\n{wait}\"It's not that I don't want to be with you.\nBut when it really counts, it'd be a\nproblem, right?\"\n{wait}\"I keep remembering when you got\nkidnapped. I couldn't go save you... It was so\nfrustrating. Really, really frustrating.\"\n{wait}",
    "slots": [
     210
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.211",
    "jp": "琴音\n「うん・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Okay...\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.212",
    "jp": "鈴音\n「でしょ？」\n{wait}「もう・・・１９にもなって、\n　泣かないでよね、こんなコトで」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"See?\"\n{wait}\"Geez... You're nineteen years old. Don't cry\nover something like this.\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.213",
    "jp": "琴音\n「うん・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Okay...\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.214",
    "jp": "鈴音\n「・・・はいはい。\n　鈴音ちゃんが悪かったです」\n{wait}「ごめんなさい。もう言いません。\n　だから泣きやんでよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"...Okay, okay. Suzune-chan was wrong.\"\n{wait}\"I'm sorry. I won't say it again. So stop\ncrying, okay?\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.215",
    "jp": "琴音\n「・・・・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"......\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.216",
    "jp": "鈴音\n「あ、これあげるから！」\n{wait}「はーい、琴音ちゃ～ん、\n　べろべろばー」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Ah, here, you can have this!\"\n{wait}\"Okaaay, Kotone-chaaan~ Peekaboo!\"\n{wait}",
    "slots": [
     216
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.217",
    "jp": "琴音\n「子供あつかい・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Treating me like a baby...\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.27.218",
    "jp": "鈴音\n「だーっ！　だから泣くなってばっ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Gaaah! I said stop crying!\"\n{wait}",
    "slots": [
     218
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.219",
    "jp": "るり\n「やる気ないない・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"No motivation, none at all...\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.27.220",
    "jp": "唯\n「なんて顔してるのよ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"What's with that face?\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.221",
    "jp": "るり\n「せっかく少人数チームなのに～」\n{wait}「武神さんに、らぶらぶアタックする\n　予定だったのに～」\n{wait}「もうヤル気なくした」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"We finally get a small team, and~\"\n{wait}\"I was gonna launch my lovey-dovey attack\non Takegami-san~\"\n{wait}\"I've totally lost my motivation.\"\n{wait}",
    "slots": [
     221
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.222",
    "jp": "唯\n「・・・・・・」\n{wait}「いなくてよかったわ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"......\"\n{wait}\"Good thing he isn't here.\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.223",
    "jp": "るり\n「なんでよ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Why's that?\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.224",
    "jp": "唯\n「それ以上やる気なくされたら、\n　困るし」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"If you lost any more motivation, we'd be in\ntrouble.\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.225",
    "jp": "るり\n「なによそれ、どーゆーイミよ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"What's that supposed to mean?\"\n{wait}",
    "slots": [
     225
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.226",
    "jp": "唯\n「だから・・・\n　自爆するとか、考えない？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"I mean... don't you think you'd just crash\nand burn?\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.227",
    "jp": "るり\n「か、可能性はゼロじゃないわよ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Th-the chances aren't zero!\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.27.228",
    "jp": "唯\n「でも限りなくゼロに近いわね。\n　あの人、カタそうだし」\n{wait}「ストレートに言っても、気づいて\n　くれないタイプよ、きっと。\n　うん、やっぱりダメだと思うわ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"But they're about as close to zero as it gets.\nHe seems like the stiff type.\"\n{wait}\"Even if you told him straight out, he\nwouldn't notice. That type, I'm sure. Yes, I\nreally don't think it'll work.\"\n{wait}",
    "slots": [
     228
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.27.229",
    "jp": "るり\n「イヤな予言してくれるわね・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Thanks for the lovely prophecy...\"\n{wait}",
    "slots": [
     229
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

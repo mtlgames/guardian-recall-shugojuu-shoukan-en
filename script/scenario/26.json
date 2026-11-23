@@ -730,159 +730,176 @@
   {
    "id": "g23.26.229",
    "jp": "さやか\n「あたしぃ、どこ行こ～かなぁ」\n{wait}「お寺もぉ、風情があるけどぉ、\n　遊園地もぉ、いいよねぇ」\n{wait}「空港もぉ、見てみたいしぃ\n　新宿ってとこもぉ、興味あるぅ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Where should I go-o, I wonder~?\"\n{wait}\"The temple's got, li-ike, atmosphere, but the\namusement park sounds ni-ice too~\"\n{wait}\"And I wanna see the airport, and that\nShinjuku place sounds, li-ike, interesting~\"\n{wait}",
    "slots": [
     229
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.26.230",
    "jp": "美里\n「いらいらいらいら・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Grrrrrrr...\"\n{wait}",
    "slots": [
     230
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.231",
    "jp": "さやか\n「な～にぃ？　どうしたのぉ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Wha-at? What's the matter~?\"\n{wait}",
    "slots": [
     231
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.232",
    "jp": "美里\n「どーせね、どこ行ったって\n　廃墟ばっかりなのよ」\n{wait}「わかってんの？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Wherever we go, it's all just ruins anyway.\"\n{wait}\"Do you get that?\"\n{wait}",
    "slots": [
     232
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.233",
    "jp": "さやか\n「わかってるわよぉ」\n{wait}「でもぉ、どーせだったらぁ、\n　ついでにぃ、遊べるところが\n　い～じゃなぁい」\n{wait}「ひょっとしてぇ、壊れてないでぇ、\n　残ってるかもよぉ？\n　うふふ、わくわくぅ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"I get i-it~\"\n{wait}\"But if we're going anyway, somewhere we\ncan have fun on the side would be ni-ice,\nri-ight?\"\n{wait}\"Maybe it's, li-ike, not even wrecked and still\nstanding~? Ufufu, how exci-iting~\"\n{wait}",
    "slots": [
     233
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.234",
    "jp": "美里\n「あんたとは組みたくない・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"I do not want to be on your team...\"\n{wait}",
    "slots": [
     234
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.235",
    "jp": "景子\n「グループ分け、かおるさんと\n　一緒だといいですね」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I hope you end up in the same group as\nKaoru-san.\"\n{wait}",
    "slots": [
     235
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.236",
    "jp": "蘭\n「うん。私、お願いしてみようかな。\n　誰に言えばいいと思う？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Yeah. Maybe I'll ask. Who do you think I\nshould talk to?\"\n{wait}",
    "slots": [
     236
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.237",
    "jp": "景子\n「・・・でも、あまりワガママは\n　言わない方が・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...But it might be better not to be too\nselfish...\"\n{wait}",
    "slots": [
     237
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.238",
    "jp": "蘭\n「そっか・・・あー、なんか、\n　進級の時のクラス替えみたい」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Right... Ahh, it's kind of like when they shuffle\nthe classes at the start of a school year.\"\n{wait}",
    "slots": [
     238
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.26.239",
    "jp": "景子\n「ふふっ、ほんと・・・\n　ドキドキしますね」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Hehe, it really is... It makes my heart pound.\"\n{wait}",
    "slots": [
     239
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.240",
    "jp": "蘭\n「景子さんは、やっぱり美里さんと\n　一緒がいいんでしょ？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Keiko-san, you want to be with Misato-san\nafter all, right?\"\n{wait}",
    "slots": [
     240
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.241",
    "jp": "景子\n「え？　そんな事は・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Huh? That's not...\"\n{wait}",
    "slots": [
     241
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.242",
    "jp": "蘭\n「景子さん、これあげる」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Keiko-san, here, you can have this.\"\n{wait}",
    "slots": [
     242
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.243",
    "jp": "景子\n「なにかしら」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"What could it be?\"\n{wait}",
    "slots": [
     243
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.244",
    "jp": "蘭\n「これ持ってたらきっと、\n　美里さんと組めるよ」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Hold on to this, and I bet you'll get teamed\nwith Misato-san.\"\n{wait}",
    "slots": [
     244
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.26.245",
    "jp": "景子\n「ありがとう、いただいておきます」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Thank you. I'll gratefully accept it.\"\n{wait}",
    "slots": [
     245
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

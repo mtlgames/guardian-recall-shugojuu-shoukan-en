@@ -7,771 +7,856 @@
   {
    "id": "g23.29.000",
    "jp": "晶\n「き、緊張するです・・・\n　責任重大です・・・」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"I-I'm so nervous, yes indeed... This is a huge\nresponsibility, yes indeed...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.29.001",
    "jp": "さやか\n「でもでもぉ」\n{wait}「さやかぁ、晶さんと一緒でぇ、\n　チョ～嬉しいのぉ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"But, but~\"\n{wait}\"Sayaka's, li-ike, sooo happy to be with\nAkira-san~\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.002",
    "jp": "晶\n「あ・・・あはははは」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ah... ahahahaha.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.003",
    "jp": "さやか\n「ところでぇ、晶さんはぁ、\n　ハナ輪とかはぁ、しないのぉ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"By the wa-ay, Akira-san, don't you, li-ike,\nwear a nose ring or anything~?\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.004",
    "jp": "晶\n「は・・・ハナ輪？」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"A... a nose ring?\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.005",
    "jp": "さやか\n「ほらぁ、みんなしてるでしょお～。\n　あとほっぺにぃ、安全ピンとかぁ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Y'kno-ow, everybody wears one, ri-ight~?\nAnd, li-ike, safety pins in their cheeks~\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.006",
    "jp": "晶\n「そ、それはパンクスです・・・」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Th-that's punks, yes indeed...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.007",
    "jp": "さやか\n「なんか違うぅ？」\n{wait}「あ・・・！　はいはいはいぃ～、\n　分かったぁ、あのウルサイ奴だぁ、\n　ずーっと叫んでるぅ・・・」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Is that different~?\"\n{wait}\"Oh...! Okay, okay, oka-ay~, I get it, it's\nthose loud ones, the ones who scream the\nwhole ti-ime...\"\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.29.008",
    "jp": "晶\n「むぅぅ・・・\n　それはスラッシュメタル」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Mmmph... That's thrash metal.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.009",
    "jp": "さやか\n「あ・・・」\n{wait}「きゃははははは、やぁだぁ～、\n　似たようなモンでしょ～？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Oh...\"\n{wait}\"Kyahahahaha, come o-on~, it's pretty much\nthe same thing, ri-ight~?\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.010",
    "jp": "晶\n「ごっ・・・言語道断です！\n　ぜんっぜん違うです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ou... Outrageous, yes indeed! They're\ncompletely different, yes indeed!\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.011",
    "jp": "聡美\n「こんな連中に、おびやかされるって\n　いうの？　龍鬼妃様が？」\n{wait}「信じられないわ」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"You're telling me Ryukihi-sama is threatened\nby this lot?\"\n{wait}\"Unbelievable.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.012",
    "jp": "晶\n「げ・・・せ、青龍！？」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ugh... S-Seiryu!?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.013",
    "jp": "聡美\n「あら・・・\n　自己紹介の必要は、なさそうね」\n{wait}「おいで、お前らごとき、\n　一網打尽にしてやるわ」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Oh my... No need for introductions, it seems.\"\n{wait}\"Come. I'll round up the likes of you in one\nfell swoop.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.014",
    "jp": "晶\n「ああ、ずるいっ！\n　それは私のセリフですぅっ」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ah, no fair! That's my line, yes indeed!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.015",
    "jp": "聡美\n「ははははっ、笑わせてくれる！\n　やれるものなら、やってごらん！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Hahaha, don't make me laugh! Try it if you\nthink you can!\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.016",
    "jp": "聡美\n「裏切り者！」\n{wait}「いつかは、こんな事になるんじゃ\n　ないかと思ってたわ」\n{wait}「玄武はバカよ。\n　私は最初から気に入らなかったのよ。\n　あんたなんて！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Traitor!\"\n{wait}\"I always thought something like this would\nhappen someday.\"\n{wait}\"Genbu is a fool. I never liked you from the\nvery start. Not you!\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.017",
    "jp": "瞳\n「・・・そうだろうな」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"...I'm sure you didn't.\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.018",
    "jp": "聡美\n「その、すました顔・・・！\n　不愉快なのよ！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"That smug face of yours...! It disgusts me!\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.019",
    "jp": "聡美\n「・・・待ちくたびれたわよ、\n　遅かったじゃないの」\n{wait}「さ、お手並み拝見といこうかしら？」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"...I got tired of waiting. You took your time.\"\n{wait}\"Well then, shall we see what you can do?\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.020",
    "jp": "美由紀\n「あたしたち負けない、\n　負けられないんだもん！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We won't lose! We can't lose!\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.021",
    "jp": "裕子\n「勝ってみせる！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"We'll win, just watch!\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.022",
    "jp": "真由\n「やってみらな、わからん！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Ain't no knowin' till we try!\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.023",
    "jp": "ゆかり\n「さあ・・・泣くのはどっちかしらね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Well then... I wonder which of us will be the\none crying?\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.024",
    "jp": "美里\n「あんたたちが・・・あんたたち\n　みたいなのがいるから！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"It's because of people like you... because of\npeople like you!\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.025",
    "jp": "景子\n「私、みんなの役に、たたなきゃ」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I have to be useful to everyone.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.026",
    "jp": "晶\n「天網恢恢疎にして漏らさず、\n　悪人には必ず天罰が下るです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Heaven's net is wide, yet none slip through!\nDivine punishment always falls upon the\nwicked, yes indeed!\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.027",
    "jp": "ちかな\n「・・・アタシは、アタシは神門一門、\n　周防ちかな様だ！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...I'm... I'm Chikana Suo-sama of the\nKamikado clan!\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.028",
    "jp": "唯\n「わたしたちだから出来る事・・・\n　わたしたちにしか、出来ない事！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"What we can do because it's us... What only\nwe can do!\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.029",
    "jp": "巴澄\n「こう見えても、往生際は悪いんだ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I may not look it, but I don't give up easily.\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.030",
    "jp": "鈴音\n「琴音、いけるね」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Kotone, you ready?\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.031",
    "jp": "琴音\n「大丈夫、鈴音。ひとりじゃないもの」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"I'm fine, Suzune. I'm not alone.\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.032",
    "jp": "さやか\n「うえぇ～、恐い～！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Waaah~ I'm sca-ared~!\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.033",
    "jp": "かおる\n「誰かの為なんかじゃない、あたしは、\n　あたし自身の為にやるんだ！」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"It's not for anybody else. I'm doing\nthis for me!\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.034",
    "jp": "蘭\n「きっと大丈夫・・・大丈夫！」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"It'll be okay... It'll be okay!\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.035",
    "jp": "るり\n「世界中の人間が死んだって・・・」\n{wait}「私は、私だけは、生き抜いて\n　みせるんだから！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Even if every person in the world dies...\"\n{wait}\"I, at least, am going to survive!\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.036",
    "jp": "武神\n「お相手つかまつる！」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"I shall be your opponent!\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.037",
    "jp": "聡美\n「あんたなんかいなくたって、玄武には\n　私たちがついてるのよっ」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Even without you, Genbu has us on her side!\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": "0a000a0a0a"
+   "pre": "0a000a0a0a",
+   "status": "done"
   },
   {
    "id": "g23.29.038",
    "jp": "瞳\n「玄武なら、ひとりでもやるさ」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Genbu would carry on even alone.\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.039",
    "jp": "聡美\n「知ったような口をきいて！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Don't talk like you know her!\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.040",
    "jp": "聡美\n「こんなやつらに・・・\n　やられるなんて！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Beaten... by the likes of them!\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.041",
    "jp": "美由紀\n「石塔って、これだね・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"So this is the stone tower...\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.29.042",
    "jp": "裕子\n「石塔って、これだな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"So this is the stone tower.\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.043",
    "jp": "真由\n「早よ、石塔ば」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Hurry, the stone tower.\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.044",
    "jp": "美里\n「まだ時間あるわよね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"We've still got time, right?\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.045",
    "jp": "景子\n「石塔って・・・これみたいですね」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"The stone tower... this seems to be it.\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.046",
    "jp": "ゆかり\n「あれね・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"That's it...\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.047",
    "jp": "晶\n「急ぐです、もうすぐ時間です」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Hurry, it's almost time, yes indeed.\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.048",
    "jp": "ちかな\n「そろそろいいかな」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"About time, I'd say.\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.049",
    "jp": "蘭\n「あの石、壊さなきゃ」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"We have to break that stone.\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.050",
    "jp": "唯\n「もう時間ね」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"It's time.\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.051",
    "jp": "かおる\n「へへ、チョロイチョロイ。\n　アトはあの石を壊すだけ」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Heh, easy-peasy. Now I just gotta smash\nthat stone.\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.052",
    "jp": "さやか\n「準備オッケぇ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"All re-eady~\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.053",
    "jp": "るり\n「もういいわよね？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"It's time now, right?\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.054",
    "jp": "仁\n「時間だ」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"It's time.\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.055",
    "jp": "鈴音\n「さ、石塔を壊さなきゃ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Okay, we have to break the stone tower.\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.056",
    "jp": "琴音\n「うん」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Right.\"\n{wait}",
    "slots": [
     56
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.057",
    "jp": "巴澄\n「間に合ったようだな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Looks like we made it in time.\"\n{wait}",
    "slots": [
     57
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.058",
    "jp": "武神\n「ふん・・・肩ならしにもならんわ」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Hmph... That wasn't even a warm-up.\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.199",
    "jp": "晶\n「覚悟するですっ！」\n{wait}「この雷晶が天にかわって、\n　正義の鉄拳をくだすですっ！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Prepare yourself, yes indeed!\"\n{wait}\"On behalf of the heavens, I, Akira\nIkazuchi, shall deliver the iron fist of\njustice, yes indeed!\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 6
+   "pre": 6,
+   "status": "done"
   },
   {
    "id": "g23.29.200",
    "jp": "聡美\n「なにが正義よ・・・」\n{wait}「この世の中が、本当に勧善懲悪で\n　成り立ってると思っている・・・\n　だから愚かだと言うのよ」\n{wait}「思慮分別のひとつもあれば、\n　そんな言葉・・・\n　恥ずかしくて言えやしない」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Justice, she says...\"\n{wait}\"You really believe this world runs on virtue\nrewarded and vice punished... That's exactly\nwhy you're a fool.\"\n{wait}\"Anyone with a shred of prudence and\ndiscretion would be too ashamed to say\nsuch words.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.201",
    "jp": "晶\n「う・・・さ、さすがです」\n{wait}「こうも四字熟語を連発するとは・・・\n　さすが四門将と言うほかないです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ugh... I-impressive, yes indeed.\"\n{wait}\"Firing off grand idioms one after another\nlike that... I'd expect no less from the Four\nGate Generals, yes indeed.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.202",
    "jp": "聡美\n「？？？？」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"????\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.203",
    "jp": "晶\n「でも負けないです！」\n{wait}「荏狗覇菟が倒されるのは、因果応報\n　なのです！　不撓不屈の精神で、\n　あなたを倒すです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"But I won't lose, yes indeed!\"\n{wait}\"The Egubado's downfall is karmic retribution,\nyes indeed! With an indomitable, unyielding\nspirit, I shall defeat you, yes indeed!\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.204",
    "jp": "聡美\n「ふざけるのも、だいがいにして\n　おくのね・・・」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"You'd better stop fooling around...\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.205",
    "jp": "聡美\n「文字通り、一刀両断にしてやるわ！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"I'll cut you down, quite literally, in a\nsingle stroke!\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.29.206",
    "jp": "晶\n「ま、また四字熟語を！\n　うう～、イヤガラセです・・・」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Th-there's another idiom! Uuugh, that's just\nharassment, yes indeed...\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.207",
    "jp": "武神\n「あれが青龍か・・・。\n　なかなかの“気”をまとっておる」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"So that is Seiryu... She is wrapped in a\nformidable 'ki'.\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.29.208",
    "jp": "裕子\n「気？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Ki?\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.209",
    "jp": "武神\n「格闘家の魂を感じるのだ」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"I sense the soul of a martial artist.\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.210",
    "jp": "裕子\n「要するに、むちゃ強いってワケね」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"In other words, she's crazy strong.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.211",
    "jp": "武神\n「うむ。相手にとって不足なし」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Indeed. A worthy opponent.\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.212",
    "jp": "裕子\n「げーろー・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Bleeeh...\"\n{wait}",
    "slots": [
     212
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.29.213",
    "jp": "武神\n「げーろー？」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Bleeeh?\"\n{wait}",
    "slots": [
     213
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.29.214",
    "jp": "裕子\n「いや、自信ないなーと・・・\n　ま、当たって砕けろだ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I mean, I'm not feeling too confident... Well,\ngo for broke, I guess.\"\n{wait}",
    "slots": [
     214
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.29.215",
    "jp": "武神\n「ふうむ・・・ならばこの勝負、\n　お主に譲ってやろう」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Hmmm... Then I shall leave this fight to you.\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.216",
    "jp": "裕子\n「へ？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh?\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.217",
    "jp": "武神\n「これを持っていくがよい」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Take this with you.\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.218",
    "jp": "裕子\n「いくがよいって、ちょっと・・・\n　あたしだけ！？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"'Take this with you'? Hold on... Just me!?\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.219",
    "jp": "巴澄\n「大雪では世話になったな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Thanks for looking after me back at\nTaisetsu.\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.29.220",
    "jp": "聡美\n「おまえは・・・」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"You...\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.221",
    "jp": "巴澄\n「今度こそ、正々堂々と勝負といこう」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"This time, let's settle it fair and square.\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.222",
    "jp": "聡美\n「フン・・・負け惜しみね。\n　いつかの二の舞になるわよ」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Hmph... Sore loser. You'll just repeat what\nhappened last time.\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.223",
    "jp": "巴澄\n「自分で言うのもなんだが、力は\n　つけたつもりだよ」\n{wait}「あの時と同じと思われては困る」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"It's not for me to say, but I believe I've\ngrown stronger.\"\n{wait}\"Don't think I'm the same as I was back then.\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.29.224",
    "jp": "聡美\n「言っておくけど・・・」\n{wait}「今度は生け捕りになんかしないわ。\n　覚悟するのね」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Let me make one thing clear...\"\n{wait}\"This time I won't be taking you alive. Prepare\nyourself.\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

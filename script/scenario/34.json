@@ -7,110 +7,122 @@
   {
    "id": "g23.34.000",
    "jp": "美由紀\n「やったね！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We did it!\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.34.001",
    "jp": "晶\n「世の中に悪の栄えたためしなし、\n　なのです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Evil never prospers in this world,\nyes indeed.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.002",
    "jp": "美里\n「漢字四つじゃないのね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"No fancy idiom this time?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.003",
    "jp": "晶\n「はっ！　しまったです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ah! Blast, yes indeed!\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.004",
    "jp": "裕子\n「あはははっ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Ahahaha!\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.005",
    "jp": "裕子\n「な・・・なんだ？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Wh... what's that?\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.34.006",
    "jp": "美里\n「どうして・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"How...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.34.007",
    "jp": "ゆかり\n「ばかな！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Impossible!\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.008",
    "jp": "めぐみ\n「オンアウンラケンソワカ！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"On a un ra ken sowaka!\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.34.009",
    "jp": "麗子\n「オンアウンラケンソワカ！」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"On a un ra ken sowaka!\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.010",
    "jp": "聡美\n「オンアウンラケンソワカ！」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"On a un ra ken sowaka!\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.011",
    "jp": "知美\n「オンアウンラケンソワカ！」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"On a un ra ken sowaka!\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.34.012",

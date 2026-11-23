@@ -239,9 +239,13 @@ def problems(entry, en, terms, stored=False):
         if any(has_term(jp_plain, j) for j in jps) and not any(" ".join(e.split()).lower() in en_terms for e in ens):
             out.append(f"glossary: {jps[0]} -> {ens[0]}")
         out += [f"glossary Avoid: {a}" for a in avoid if re.search(rf"\b{re.escape(a)}\b", en)]
-    for jp_name, en_name in persons().items():
+    names = persons()
+    for jp_name, en_name in names.items():
+        # a given name inside a listed full name (周防ちかな様) is checked as the full name only
+        longer = [k for k in names if k != jp_name and k.endswith(jp_name)]
         for jp_form, en_form in HONORIFICS.items():
-            hit = any(m.start() == 0 or kind(jp_plain[m.start() - 1]) != kind(jp_name[0])
+            hit = any((m.start() == 0 or kind(jp_plain[m.start() - 1]) != kind(jp_name[0]))
+                      and not any(jp_plain[:m.start() + len(jp_name)].endswith(k) for k in longer)
                       for m in re.finditer(re.escape(jp_name + jp_form), jp_plain))
             if hit and (en_name + en_form).lower() not in en.lower():
                 out.append(f"honorific {jp_name}{jp_form} needs {en_name}{en_form}")
