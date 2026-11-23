@@ -79,8 +79,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
     bytes), evd name in 情報 panel (108 px). `regen.py --outdir work/qa/warp_orig --orig` keeps original reference
     shots (51 menu scenes there now); `tools/inkrows.py` = ink segments per text row (measure from numbers, not by
     eye). Scenes tac_ring_help, tac_info_help(2) (the latter show no help: trigger unknown).
-- **Next (phase 5 rest, done-when = every variant measured + torture line):** (0) check the marker tour of this build
-  (work/qa/regen_marker.out; relocated ACTION/EXE labels must show their tags, no Japanese); (1) **ring > UNIT crash**
+    Marker tour of this build: smoke ok, 53/54 menu/tac/opt/day scenes ok (tac_search = the original's own stall);
+    tac_unit_menu shows relocated labels (E4t 15 chars) and keyed evd names.
+- **Next (phase 5 rest, done-when = every variant measured + torture line):** (0) look over the new marker shots for
+  any Japanese left by a missed ref (work/qa/warp/*/final.png); (1) **ring > UNIT crash**
   with 20-byte evd names (exception pc 0x641C ra 0xD00 in ACTION): find the fixed buffer in the UNIT list draw
   (`one.py tac_unit -- --script tools/lua/pc_log.lua`, MARKER evd length in insert.gretc_files), then lift the
   10-byte cap in windows.py; measure the UNIT list name column (x 25 to Ali ~x 100); (2) g13 help: 02 item help
