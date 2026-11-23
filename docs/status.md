@@ -2,7 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (batches b001-b051 merged = unit names + scenario 00-60.007; next b052).
+- **Phase:** 6. Translate in progress (b001-b063 merged = unit names, all scenario, all g13 battle text; b064-b065
+  (txd rep/save/tu) drafted, not merged; then txd cf/day/dic/gd/op, then exe/overlays, then review).
   Last build: 2026-11-23 `build.py` (English, b001-b004): ev02 shows "Yumi / "It failed?"" in the scenario box.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -118,10 +119,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     parameters, Psi (Cure, Rock Shield, Blessing, Focus, Luck, Weaken), elements, Ryuki, Step 01-14 speakers.
     Lint fixes: given name inside a full name (周防ちかな様), name-line heuristic skips lines ending in a particle.
     Synopsis 27-34.
-- **Next:** (a) Phase 6: translate b052..b057 (tutorials 60-65; run `tools/tl_reuse.py bNNN --write` first) (`docs/translator-brief.md`; after each block add its summary
-  to docs/synopsis.md, merge NEW TERMs into glossary.md), then split and translate g13 (battle), txd, exe/overlays
-  (`batches.py split --only 'g13'` etc.; txd needs its own &n() via windows.wrap, EXE strings byte/room budgets).
-  Then the review pass (fresh read-only pass per batch file or codex exec after 2026-11-26).
+  - 2026-11-23 (17): b052-b063 merged: scenario complete (4821/4821; entries 64-68 are near-copies of 59-63, done
+    with new `tools/tl_diff.py bNNN SRC --same F` + tl_reuse --fill), g13 complete (465/465). tl_reuse: speaker test
+    = windows.named_jp (narration first lines were dropped before), indexes all script/. `tools/find_en.py PHRASE`
+    = shipped English for a JP phrase. windows rows: item help g13.02 = 4 lines (JP floor 130 px), trait/Tactic
+    help g13.07/10 = 221 px (group's widest JP line). Glossary: Forms (Battle/Shooter/Orb/Spirit Guardian), skill
+    rank/EXP, all Psi names + categories, consumable item names (in g13.02 help line 1), Trait, Levitate (move
+    type), Unleash your potential, Expert. Item help line 1 = item name for consumables (JP "(name) 消費：").
+- **Next:** (a) b064/b065 (work/tl, gitignored, drafts on disk): all rows done except the chapter labels
+  save.0512-0708 (天の章第一話 = "Sky Chapter, Episode 1", 地 Earth, 七龍 Seven Dragons, 覚醒 Awakening, 龍鬼 Ryuki;
+  ＴＥＳＴＭＡＰ = TESTMAP): their JP-width floor is 78-91 px, English needs ~170: measure where they show
+  (day_save / title LOAD list scenes) and add a windows row, then fill, check, merge. `<a>` in save.txd = the
+  day.001c8/001d0 EXE words ロード/セーブ: translate those as lowercase "load"/"save" (save.txd sentences use them
+  mid-sentence). (b) split + translate txd cf/day/dic/gd/op (`batches.py split --only '^(cf|day|dic|gd|op)\.'`;
+  op got no batch from the last split: check why), then exe/overlays (byte/room budgets; 守護○獣 Form names,
+  Psi names, item names, trait names 復讐者..蛮族 at exe.a68e4-a69c4 must match glossary). Then the review pass.
   (a0) Old note: Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
   width" floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of
   abbreviating. Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
