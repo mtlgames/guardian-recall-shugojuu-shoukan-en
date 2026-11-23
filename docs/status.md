@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (batches b001-b030 merged = unit names + scenario 00-26.228; next b031).
+- **Phase:** 6. Translate in progress (batches b001-b051 merged = unit names + scenario 00-60.007; next b052).
   Last build: 2026-11-23 `build.py` (English, b001-b004): ev02 shows "Yumi / "It failed?"" in the scenario box.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -110,13 +110,25 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - 2026-11-23 (15): b024-b030 merged (scenario 18.246-26.228), synopsis 19-26. Glossary: Emperor Dragon (皇龍),
     Hibiya Park, Four Gates + the four gate sites. Takegami (old warrior, "have at thee") joins in ch. 23. Voice
     check: Chikana never drops g's (0 of 139 lines); only Mayu (and Kaoru lightly) do.
-- **Next:** (a) Phase 6: translate b031..b057 in order (a worker does ~8-9 batches per context: b016-b023 in one) (`docs/translator-brief.md`; after each block add its summary
+  - 2026-11-23 (16): b031-b051 merged (scenario 26.229-60.007: story ends at 42; 43 = draft of ch. 05, 44-48 =
+    copies of ch. 00, 49 = Miyuki meets Jin (unused/alt scene), 50-65 = tactics tutorials, "Step NN" title cards).
+    New `tools/tl_reuse.py bNNN --write` prefills a batch from English already in script/ (same JP body, breaks
+    ignored) and `--fill F.tsv` fills the TODO rows: b041-b044 were 100% reuse. Glossary: UI commands (Move, Action,
+    Wait, Dismiss, Summon, Execute Order, Change Tactic, Check Target), Tactic orders (Guard me!, Attack!...),
+    parameters, Psi (Cure, Rock Shield, Blessing, Focus, Luck, Weaken), elements, Ryuki, Step 01-14 speakers.
+    Lint fixes: given name inside a full name (周防ちかな様), name-line heuristic skips lines ending in a particle.
+    Synopsis 27-34.
+- **Next:** (a) Phase 6: translate b052..b057 (tutorials 60-65; run `tools/tl_reuse.py bNNN --write` first) (`docs/translator-brief.md`; after each block add its summary
   to docs/synopsis.md, merge NEW TERMs into glossary.md), then split and translate g13 (battle), txd, exe/overlays
   (`batches.py split --only 'g13'` etc.; txd needs its own &n() via windows.wrap, EXE strings byte/room budgets).
   Then the review pass (fresh read-only pass per batch file or codex exec after 2026-11-26).
   (a0) Old note: Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
   width" floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of
   abbreviating. Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
+  (a1) EXE labels must use the glossary "UI commands" names; their budgets are JP-width floors that the English
+  overruns (Dismiss 33 > 26 px, Summon 40 > 26, Change Tactic 68 > 52, Check Target 65 > 52, Execute Order 71 > 52;
+  unit menu 30 px measured: Move/Info/Action/Tactic/Wait fit): measure the 行動 and 思考 submenus (tac_* scenes) and
+  add windows rows before translating the EXE batch, rather than abbreviating.
   (b) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.
   (c) Heap margin: HEN leaves 0x7F88 free at the arena top; if English grows the 2D pool more, consider a smaller
   pool_grow rounding (asm/hooks.asm) before cutting more RAM.

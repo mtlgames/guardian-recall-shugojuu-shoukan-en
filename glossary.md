@@ -220,6 +220,9 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 加護 | Blessing | | Psi | |
 | 気合 | Focus | | Psi | |
 | 幸運 | Luck | | Psi | |
+| 非力 | Weaken | | Psi (attack type) | |
+| 属性相性表 | element chart | | ring menu DIAGRAM | |
+| 主 | Master | | (no lint): element of Masters; elements 地 Earth 炎 Flame 聖 Holy 雷 Thunder 海 Sea 飛 Wind 天 Sky | |
 | ＴＵＲＮＥＮＤ | TURN END | | △ sub-command | |
 | サブコマンド | sub-command | | the △ ring menu | |
 | 現在の思考のまま命令実行 | Execute Order with current Tactic | | TURN END prompt option (EXE) | |

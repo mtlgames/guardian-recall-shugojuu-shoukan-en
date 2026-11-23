@@ -7,76 +7,84 @@
   {
    "id": "g23.60.000",
    "jp": "ユニットの操作に入る前に、マップその\nものの操作法を教えておこう。\n{wait}味方ユニットがどこにいて、敵ユニット\nがどのように配置されているかを知らな\nいことには話にならないからね。\n{wait}",
-   "en": "",
+   "en": "Before we get to controlling units, let me\nteach you how to control the map itself.\n{wait}After all, you can't do anything without\nknowing where your units are and how the\nenemy units are placed.\n{wait}",
    "slots": [
     0
    ],
-   "pre": "83608385815b8367838a8341838b8177837d83628376c98ca995fb81780a0a"
+   "pre": "83608385815b8367838a8341838b8177837d83628376c98ca995fb81780a0a",
+   "status": "done"
   },
   {
    "id": "g23.60.001",
    "jp": "まずは、手っ取り早く全体を見る方法。\nこれは、サブコマンドの全体マップ表示\n機能を使う。\n{wait}",
-   "en": "",
+   "en": "First, the quickest way to see the whole\nthing: use the sub-command's full-map view.\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.002",
    "jp": "これが「サブコマンド」\n△ボタンで呼び出すので覚えておこう。\n{wait}これの「ＭＡＰ」というところにあわせ\nて、○ボタンで決定すると・・・\n{wait}",
-   "en": "",
+   "en": "This is the 'sub-command' menu. Remember,\nyou call it up with the Triangle button.\n{wait}Put the cursor on 'MAP' and press the Circle\nbutton, and...\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.003",
    "jp": "このように上空から見下ろした感じの\n全体マップが表示される。\n{wait}青く表示されているのは味方ユニット。\n赤く表示されているのは敵ユニットだ。\n{wait}ゲームが始まったら最初に、\nこの全体マップを見ておくと戦闘が進め\nやすくなるよ。\n{wait}",
-   "en": "",
+   "en": "the full map is shown, as if looking down from\nthe sky, like this.\n{wait}Units shown in blue are your allies. Units\nshown in red are enemies.\n{wait}When the game starts, look at this full map\nfirst, and the battle will go more smoothly.\n{wait}",
    "slots": [
     3
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.60.004",
    "jp": "次は実際のマップ表示中での操作。\nいくつかあるので、順番に紹介していく\nね。\n{wait}まずはマップの回転。\n{wait}",
-   "en": "",
+   "en": "Next, controls while the actual map is\nshown. There are a few, so I'll introduce\nthem in order.\n{wait}First, rotating the map.\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.005",
    "jp": "これはＬ１ボタンとＲ１ボタンを使う。\n多用することになる機能なので、しっか\nり覚えておこう。\n{wait}",
-   "en": "",
+   "en": "For this, use the L1 and R1 buttons. It's a\nfeature you'll use a lot, so learn it well.\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.006",
    "jp": "トレーニング：\n『Ｌ１、Ｒ１ボタンでマップを回転』\n（○ボタンを押すと次へ進みます）\n{wait}",
-   "en": "",
+   "en": "Training: 'Rotate the map with the L1 and R1\nbuttons' (press the Circle button to continue)\n{wait}",
    "slots": [
     6
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.60.007",
    "jp": "マップの回転は、わかったかな？\nマップの表示された方向が見づらいと思\nったら、積極的に使っていこうね。\n{wait}次はマップの見下ろし角度の変更。\n{wait}先ほどの回転を使用しても、木などの障\n害物が多いマップでは、うまくユニット\nが見える方向にならない時もある。\n{wait}そんな時は、マップの見下ろし角度を調\n節してみよう。\n{wait}□ボタンを押しながらＬ１ボタン\nを押してみる。\nすると・・・\n{wait}",
-   "en": "",
+   "en": "Did you get the hang of rotating the map? If\nthe map's facing is hard to see, use it freely.\n{wait}Next, changing the map's viewing angle.\n{wait}Even with rotation, on maps with lots of\nobstacles like trees, sometimes no direction\ngives a good view of your units.\n{wait}At times like that, try adjusting the map's\nviewing angle.\n{wait}Hold the Square button and press the L1\nbutton. Then...\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.60.008",

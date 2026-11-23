@@ -92,153 +92,169 @@
   {
    "id": "g23.58.008",
    "jp": "『幸運』が無くなってるね？\n今の戦闘で持続効果ががきれたってわけ\nだ。\n{wait}このように戦闘補助系は戦闘をしなけれ\nば何ターンでも持続する。\n{wait}１回でも戦闘をすれば、その１戦闘限り\nで終わりだ。\n{wait}この１戦闘ってのは敵から攻撃された場\n合もカウントされてしまうので、注意し\nよう。\n{wait}どの敵と戦う時に使うべきかをしっかり\n見切って使うことが大切ってことだね。\n{wait}",
-   "en": "",
+   "en": "'Luck' is gone, right? Its effect ran out in\nthat battle.\n{wait}Like this, battle-support Psi lasts any number\nof turns as long as there's no battle.\n{wait}Fight even one battle, and it ends\nright there.\n{wait}Being attacked by an enemy counts as a\nbattle too, so be careful.\n{wait}The key is to judge carefully which enemy to\nuse it against.\n{wait}",
    "slots": [
     8
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.009",
    "jp": "３つ目は能力向上系の超力。\n{wait}",
-   "en": "",
+   "en": "Third is ability-boost Psi.\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.58.010",
    "jp": "このマークが能力向上系超力だ。\n{wait}この系統は直接、守護獣の能力値をアッ\nプさせる。とりあえずこの『気合』を我\n王にかけてみて、\n{wait}",
-   "en": "",
+   "en": "This mark means ability-boost Psi.\n{wait}This type directly raises a Guardian's ability\nvalues. First, let's use this 'Focus' on Gao,\n{wait}",
    "slots": [
     10
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.011",
    "jp": "我王のパラメータを確認してみよう。\n{wait}",
-   "en": "",
+   "en": "and check Gao's parameters.\n{wait}",
    "slots": [
     11
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.012",
    "jp": "Ａｓ（接近戦力）が２６１／１９８、\nＡｌ（投射戦力）が２４４／１８５\nに上昇しているね。\n{wait}これが『気合』の効果ってわけだ。\n{wait}",
-   "en": "",
+   "en": "As (Melee) has risen to 261/198, and Al\n(Ranged) to 244/185.\n{wait}That's the effect of 'Focus'.\n{wait}",
    "slots": [
     12
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.58.013",
    "jp": "能力向上系の持続時間は１ターンだけ。\nその分、１ターンの間に何回敵と戦闘し\nても有効だ。\n{wait}敵に囲まれていて、１ターンに何回も戦\nわなきゃいけない時なんかに使うと、か\nなり役に立つね。\n{wait}",
-   "en": "",
+   "en": "Ability-boost Psi lasts only one turn. In\nexchange, it works no matter how many\nbattles you fight in that turn.\n{wait}It's a big help when you're surrounded by\nenemies and have to fight many times in\none turn.\n{wait}",
    "slots": [
     13
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.014",
    "jp": "４つ目は特殊状態化の超力。\n{wait}",
-   "en": "",
+   "en": "Fourth is special-status Psi.\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.58.015",
    "jp": "このマークが特殊状態化超力。\n{wait}名前からしてわかりにくいが効果も非常\nに特殊な超力だ。\n{wait}最初はこの系統は無視してても構わない\nかな。他の系統の超力に慣れてきてから\n使えばいい。\n{wait}この系統の超力を使えないとゲームが進\nめないってことは無いしね。\n{wait}逆に使いこなせると、いろいろと役に立\nつ超力でもある。\n{wait}ちなみにこの系統も能力向上系と同じく\n持続は１ターンのみだ。有効に使おう。\n{wait}",
-   "en": "",
+   "en": "This mark means special-status Psi.\n{wait}The name doesn't tell you much, and the\neffects are very special too.\n{wait}At first, it's fine to ignore this type. Use it\nonce you're used to the other types of Psi.\n{wait}It's not as if you can't progress without this\ntype of Psi.\n{wait}Then again, once you master it, it's Psi that\ncomes in handy in all sorts of ways.\n{wait}By the way, like ability-boost Psi, this type\nalso lasts only one turn. Use it wisely.\n{wait}",
    "slots": [
     15
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.016",
    "jp": "５つ目の攻撃系超力は、他の超力と違い\n敵に対して使う超力だ。\n{wait}",
-   "en": "",
+   "en": "The fifth, attack Psi, unlike the others, is\nused on enemies.\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.58.017",
    "jp": "このマークが攻撃系超力。先に説明した\n能力向上系と色違いな感じのマークだ。\n{wait}効果も能力向上系の反対で、守護獣のパ\nラメータを低下させるはたらきがある。\n{wait}ためしにこの『非力』を敵にかけてみる\nと・・・\n{wait}",
-   "en": "",
+   "en": "This mark means attack Psi. It looks like the\nability-boost mark in a different color.\n{wait}Its effect is the opposite of ability-boost\ntoo: it lowers a Guardian's parameters.\n{wait}Let's try using this 'Weaken' on an enemy...\n{wait}",
    "slots": [
     17
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.018",
    "jp": "Ａｓ（接近戦力）が０７３／１１１、\nＡｌ（投射戦力）が０６８／１０４\nと低下しているのがわかる。\n{wait}これが『非力』の効果だ。\n{wait}",
-   "en": "",
+   "en": "You can see As (Melee) has dropped to\n073/111, and Al (Ranged) to 068/104.\n{wait}That's the effect of 'Weaken'.\n{wait}",
    "slots": [
     18
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.58.019",
    "jp": "この攻撃系の超力は強敵に出会った時に\nこそ役に立つ。\n{wait}ザコには使う必要は無いが、苦戦する敵\nに出会ったら使ってみるといいだろう。\n{wait}攻撃系を相手にかけておいて、仲間の方\nに戦闘補助系や能力向上系をかけて戦う\nとかなり楽になるよ。\n{wait}",
-   "en": "",
+   "en": "Attack Psi really comes in handy when you\nmeet a strong enemy.\n{wait}There's no need to use it on small fry, but\ntry it when you meet an enemy that gives\nyou trouble.\n{wait}Put attack Psi on the enemy and\nbattle-support or ability-boost Psi on your\nallies, and the fight gets a lot easier.\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.58.020",
    "jp": "最後の６つ目は、その他の超力。\n{wait}",
-   "en": "",
+   "en": "The sixth and last is other Psi.\n{wait}",
    "slots": [
     20
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.58.021",
    "jp": "このマークの系統がそうだ。\n{wait}この系統は、今までの５系統に含まれな\nいサポート的なもの。\n{wait}その他というだけあって超力ごとに目的\nも使い方も異なるので、それぞれの超力\nの説明文を参考にして欲しい。\n{wait}使える場面が限られているので、そんな\nに難しくはない。\n必要だと思ったら使ってみよう。\n{wait}",
-   "en": "",
+   "en": "This mark is that type.\n{wait}It's for support that doesn't fit in the five\ntypes so far.\n{wait}As the word 'other' suggests, each Psi has a\ndifferent purpose and use, so please refer\nto each Psi's description.\n{wait}The situations they can be used in are limited,\nso they're not that hard. Use them when you\nthink you need them.\n{wait}",
    "slots": [
     21
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.58.022",
    "jp": "さてさて、超力の系統別の説明はわかっ\nてもらえたかな？\n{wait}細かい効果については、それぞれの説明\n文を見てもらえればわかるハズ。\n{wait}そして、思考と同じく、いろいろと自分\nで試しながら使ってみよう。\n{wait}そうすれば、こういう時はコレだな、っ\nてのが感覚的にわかってくるようになる\nよ。\n{wait}",
-   "en": "",
+   "en": "So, did the explanation of Psi by type\nmake sense?\n{wait}For detailed effects, each description\nshould tell you.\n{wait}And just like Tactics, try using them in all\nsorts of ways yourself.\n{wait}Do that, and you'll get a feel for \"this is the\none for this situation.\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.58.098",
    "jp": "ステップ１３\n　　　　　『超力の種類』　　　　　　\n{wait}",
-   "en": "",
+   "en": "Step 13\n'Kinds of Psi'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

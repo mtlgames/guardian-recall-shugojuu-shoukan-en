@@ -7,108 +7,119 @@
   {
    "id": "g23.59.000",
    "jp": "敵と戦ってると思わぬダメージを受けた\nり、逆に期待したほどのダメージが出な\nいなんてことがあるんじゃないかな？\n{wait}これには、いろんな要因がからんでるん\nだけど、その中でも大きいのが守護獣の\n『属性』の相性だ。\n{wait}まず、守護獣にカーソルを合わせてみよ\nう。\n{wait}",
-   "en": "",
+   "en": "When fighting enemies, haven't you\nsometimes taken unexpected damage, or\nfailed to do as much damage as you hoped?\n{wait}Many factors are involved, but one of the\nbiggest is the compatibility of the Guardians'\n'elements'.\n{wait}First, let's put the cursor on a Guardian.\n{wait}",
    "slots": [
     0
    ],
    "pre": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.59.001",
    "jp": "簡易ステータスの真ん中に大きな珠があ\nるね？　これが『属性』を示しているん\nだ。\n{wait}我王の場合は「地」の『属性』ってこと\nになる。他の守護獣も見てみよう。\n{wait}",
-   "en": "",
+   "en": "See the big orb in the middle of the short\nstatus? It shows the 'element'.\n{wait}In Gao's case, its 'element' is 'Earth'. Let's look\nat other Guardians too.\n{wait}",
    "slots": [
     1
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.59.002",
    "jp": "これは「炎」。\n{wait}",
-   "en": "",
+   "en": "This one is 'Flame'.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.59.003",
    "jp": "そして、これは「聖」だ。\n{wait}このように守護獣にはそれぞれ『属性』\nってものがあって戦闘の時のダメージに\n影響を与えるんだ。\n{wait}ちなみにマスターの方は、\n{wait}",
-   "en": "",
+   "en": "And this one is 'Holy'.\n{wait}Like this, every Guardian has its own\n'element', and it affects the damage in battle.\n{wait}By the way, the Masters...\n{wait}",
    "slots": [
     3
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.59.004",
    "jp": "みんな同じで「主」。\n{wait}まあ、本来はフツーの人間だからね。個\n人個人で『属性』ってものは特に無く、\n全員共通で「主」という表示になる。\n{wait}",
-   "en": "",
+   "en": "are all the same: 'Master'.\n{wait}Well, they're ordinary humans, after all. They\nhave no 'element' of their own, so all of them\nare shown as 'Master'.\n{wait}",
    "slots": [
     4
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.59.005",
    "jp": "さて、話を守護獣に戻そう。\nさっき『属性』の相性によってダメージ\nに差が出ると言った。\n{wait}じゃあ、具体的にどの『属性』がどの\n『属性』に対して有利なのか不利なのか\n知りたいと思う。\n{wait}そんなときは「属性相性表」を見てみよ\nう。\n{wait}「属性相性表」はサブコマンドを開いて\nＤＩＡＧＲＡＭを選択すればいい。\n{wait}",
-   "en": "",
+   "en": "Now, back to Guardians. I said the\ncompatibility of 'elements' makes a difference\nin damage.\n{wait}So you'll want to know exactly which\n'element' has the advantage or\ndisadvantage against which.\n{wait}When you do, look at the 'element chart'.\n{wait}To see the 'element chart', open the\nsub-command menu and choose DIAGRAM.\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.59.006",
    "jp": "と、これがそうだ。中心にある『属性』\nが周囲の『属性』に対してどれだけ有利\nかがわかるようになっている。\n{wait}方向キーの左右で中心の『属性』が変え\nられる。それじゃあ、我王の「地」を見\nてみようか。\n{wait}",
-   "en": "",
+   "en": "And here it is. It shows how strong the\n'element' in the center is against the\n'elements' around it.\n{wait}Left and right on the directional buttons\nchange the center 'element'. Let's look at\nGao's 'Earth'.\n{wait}",
    "slots": [
     6
    ],
    "pre": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.59.007",
    "jp": "これが「地」の『属性』の相性だ。\n{wait}この表から「主」や「雷」に有利。逆に\n「海」や「飛」にやや不利だということ\nがわかる。\n{wait}だから、もし「海」や「飛」の『属性』\nの敵が出てきたら別の『属性』の仲間に\nまかせてしまうといい。\n{wait}逆に「雷」の敵が出てきたら、自分が前\nに出て戦ってやるといいってわけだ。\n{wait}",
-   "en": "",
+   "en": "This is the compatibility of the 'Earth'\nelement.\n{wait}From this chart, you can see it has the\nadvantage against 'Master' and 'Thunder',\nand a slight disadvantage against 'Sea'\n{wait}and 'Wind'.\n{wait}So if an enemy with the 'Sea' or 'Wind'\nelement shows up, leave it to an ally with a\ndifferent 'element'.\n{wait}On the other hand, if a 'Thunder' enemy\nshows up, step forward and fight it yourself.\n{wait}",
    "slots": [
     7
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.59.008",
    "jp": "こちらは「炎」の相性。「飛」と「主」\nに有利で、「海」に不利ってことがわか\nる。\n{wait}ちなみにマスターである「主」に対して\nは、どの『属性』の守護獣でも自動的に\n有利になる。\n{wait}考えてみれば当たり前の話だ。マスター\nはしょせん普通の人間なんだから、守護\n獣なんかに殴られたらイチコロだね。\n{wait}",
-   "en": "",
+   "en": "This is 'Flame' compatibility. You can see it has\nthe advantage against 'Wind' and 'Master',\nand a disadvantage against 'Sea'.\n{wait}By the way, against 'Master', the Masters, a\nGuardian of any 'element' automatically has\nthe advantage.\n{wait}When you think about it, that's obvious.\nMasters are just ordinary humans, so one\npunch from a Guardian and they're done for.\n{wait}",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.59.009",
    "jp": "『属性』の相性ってのも何となくわかっ\nてもらえたかな？\n{wait}もっとも、初めの内はそんなに気にしな\nくても大丈夫。少々、不利でも十分戦え\nるからね。\n{wait}ただ、後半戦になって苦しい展開が多く\nなってきたら、このあたりのことも頭に\n置くようにするといい。\n{wait}有利な『属性』の敵へ仲間をうまく振り\n分けていけば、戦いの流れもかなり変わ\nってくるよ。\n{wait}がんばって、真の守護獣使いを目指して\nくれ。\n期待してるよっ！\n{wait}",
-   "en": "",
+   "en": "Do you sort of understand 'element'\ncompatibility now?\n{wait}Still, at first you don't need to worry about it\nmuch. You can fight fine even at a slight\ndisadvantage.\n{wait}But once the later battles get tough, keep\nthis sort of thing in mind.\n{wait}If you assign your allies well to enemies\nwhose 'element' they beat, the flow of battle\nchanges a lot.\n{wait}Do your best, and aim to become a true\nGuardian user. I'm counting on you!\n{wait}",
    "slots": [
     9
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.59.098",
    "jp": "ステップ１４\n　　　　　『属性と相性』　　　　　　\n{wait}",
-   "en": "",
+   "en": "Step 14\n'Elements and Compatibility'\n{wait}",
    "slots": [
     98
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   }
  ]
 }
