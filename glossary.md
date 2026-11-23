@@ -160,6 +160,9 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | メトラン / サバオト | Metran / Sabaoth | | Yumi's summoning words ("In the names of Metran and Sabaoth") | |
 | 瀬戸内海 | Seto Inland Sea | | | |
 | 風水 | feng shui | | | |
+| 姫ちゃん | Hime-chan | | Yui's (and Yuko's) nickname for Saiki | |
+| ダムダム作戦 | Operation Dam-Dam | | Kagami's dam plan | |
+| ストーンサークル | stone circle | | teleporter site (ch. 15) | |
 
 ## Guardian species and named guardians (evd unit names, b001; 改 = "+", 弐 = "II")
 | JP | EN | max | notes | Avoid |

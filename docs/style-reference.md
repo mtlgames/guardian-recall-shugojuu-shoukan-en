@@ -10,6 +10,10 @@ markers and the English devices that carry them. Paired examples are real lines 
 | Chikana (周防ちかな) | アタシ, 〜さ, 〜だろ, 〜かい, あんた | cool tomboy big-sister: "you know?", "Got it?", "Good grief", "Bingo~", short clipped sentences |
 | Egubado officers (由美, 富楼那, 知美) | 〜わ, 〜ておいて, は(っ) | Yumi curt and imperious ("Very well."), subordinates stiff ("Yes, ma'am.", "Yumi-sama!"); Tomomi (Suzaku) silky and condescending ("My, my...") |
 | Dragons (炎龍 etc.) | indented narration, no quotes, である/のだ | solemn, archaic-leaning, no quotation marks ("Bereft of our protection, this island nation is fated to perish.") |
+| Akira (晶) | 〜です on everything (ハイですっ), 4-kanji idioms, hero roll call | earnest stiff hero: "Yes indeed!", "Farewell!", "on behalf of the heavens", grand idioms ("righteous indignation", "calm seas and fair winds") |
+| Ryoko Kagami (涼子) | ボク, brat bluster, ギャハハ | boastful coward: "Call me Kagami-sama!", "Nyeh!", "Yuko-chaaan"; sensitive about "shorty" |
+| Sayaka (さやか) | stretched airhead drawl (〜でしょぉ) | "li-ike", "ri-ight?", hyphen-stretched vowels, calls Yukari an old lady |
+| Ruri (るり) | boy-crazy, self-pitying | "my prince", "Ruri's so touched", "big sis" for Yui |
 | Guardians (我王, コウエン) | だ/である, terse | dignified, few words ("Let her try.") |
 
 ## Paired examples

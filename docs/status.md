@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate in progress (batches b001-b015 merged = unit names + scenario 00-11.207; next b016).
+- **Phase:** 6. Translate in progress (batches b001-b023 merged = unit names + scenario 00-18.234; next b024).
   Last build: 2026-11-23 `build.py` (English, b001-b004): ev02 shows "Yumi / "It failed?"" in the scenario box.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -103,7 +103,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
     docs/style-reference.md, docs/translator-brief.md, docs/synopsis.md (00-01). Batches: b001-b002 = all evd unit
     names (wave 0), b003-b057 = g23 scenario in entry order (3000 JP chars each; b003-b004 done = scenario 00-01
     part). Orca workers translate themselves (no subagents): one worker ~8-10 batches before its context limit.
-- **Next:** (a) Phase 6: translate b016..b057 in order (a worker does ~9 batches per context: b007-b015 in one) (`docs/translator-brief.md`; after each block add its summary
+  - 2026-11-23 (14): b016-b023 merged (scenario 11.208-18.234), synopsis 12-18, style rows for Akira, Kagami,
+    Sayaka, Ruri; glossary Hime-chan, Operation Dam-Dam, stone circle. Robot announcements in CAPS; Sayaka's mangled
+    proverb = "Every clown has a silver..."; ロッカー pun = rocker / rocking chair. g23.18.019 is an empty 「」 in JP
+    (kept as "").
+- **Next:** (a) Phase 6: translate b024..b057 in order (a worker does ~8-9 batches per context: b016-b023 in one) (`docs/translator-brief.md`; after each block add its summary
   to docs/synopsis.md, merge NEW TERMs into glossary.md), then split and translate g13 (battle), txd, exe/overlays
   (`batches.py split --only 'g13'` etc.; txd needs its own &n() via windows.wrap, EXE strings byte/room budgets).
   Then the review pass (fresh read-only pass per batch file or codex exec after 2026-11-26).

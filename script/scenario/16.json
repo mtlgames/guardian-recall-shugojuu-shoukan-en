@@ -408,933 +408,1035 @@
   {
    "id": "g23.16.075",
    "jp": "裕子\n「あ、あのう・・・\n　急いで欲しいんですけど」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"U-um... could you hurry, please?\"\n{wait}",
    "slots": [
     75
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.076",
    "jp": "女の子\n「・・・あなた、荏狗覇菟と\n　戦ってるの・・・？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"...Are you... fighting the Egubado?\"\n{wait}",
    "slots": [
     76
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.077",
    "jp": "裕子\n「は、はい」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Y-yes.\"\n{wait}",
    "slots": [
     77
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.078",
    "jp": "女の子\n「協力するわ。\n　私、平泉るり（ひらいずみるり）」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"I'll help you. I'm Ruri Hiraizumi.\"\n{wait}",
    "slots": [
     78
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.079",
    "jp": "裕子\n「あ、大地裕子です・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Oh, I'm Yuko Daichi...\"\n{wait}",
    "slots": [
     79
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.080",
    "jp": "るり\n「見てらっしゃい荏狗覇菟！\n　行くわよ、きらら！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Just you watch, Egubado! Let's go, Kirara!\"\n{wait}",
    "slots": [
     80
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.081",
    "jp": "きらら\n「やれやれ」\n{wait}",
-   "en": "",
+   "en": "Kirara\n\"Here we go again.\"\n{wait}",
    "slots": [
     81
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.082",
    "jp": "守護獣\n「あ、開いた」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"Oh, it's open.\"\n{wait}",
    "slots": [
     82
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.083",
    "jp": "ゆかり\n「安心して」\n{wait}「あなたたち、\n　荏狗覇菟に捕まってたのね」\n{wait}「一緒に逃げましょう。急いで、\n　もうじきこの基地は・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"It's all right.\"\n{wait}\"You were captured by the Egubado,\nweren't you?\"\n{wait}\"Let's escape together. Hurry, this base is\nabout to...\"\n{wait}",
    "slots": [
     83
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.089",
    "jp": "守護獣\n「ほら、お迎え来たよ」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"See, your ride's here.\"\n{wait}",
    "slots": [
     89
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.090",
    "jp": "女の子\n「荏狗覇菟よ～\n　荏狗覇菟のせいよ～」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"It's the Egubado~ It's all the\nEgubado's fault~\"\n{wait}",
    "slots": [
     90
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.091",
    "jp": "守護獣\n「・・・え、えーと」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"...U-um, well...\"\n{wait}",
    "slots": [
     91
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.092",
    "jp": "女の子\n「・・・あなた、荏狗覇菟と\n　戦ってるの・・・？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"...Are you... fighting the Egubado?\"\n{wait}",
    "slots": [
     92
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.093",
    "jp": "ゆかり\n「え？　え・・・まあ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Huh? Er... I suppose.\"\n{wait}",
    "slots": [
     93
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.094",
    "jp": "女の子\n「協力するわ！\n　私、平泉るり（ひらいずみるり）」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"I'll help you! I'm Ruri Hiraizumi.\"\n{wait}",
    "slots": [
     94
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.095",
    "jp": "ゆかり\n「ひ、聖ゆかり・・・です」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Y-Yukari Hijiri... nice to meet you.\"\n{wait}",
    "slots": [
     95
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.096",
    "jp": "るり\n「見てらっしゃい荏狗覇菟！\n　行くわよ、きらら！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Just you watch, Egubado! Let's go, Kirara!\"\n{wait}",
    "slots": [
     96
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.097",
    "jp": "きらら\n「やれやれ」\n{wait}",
-   "en": "",
+   "en": "Kirara\n\"Here we go again.\"\n{wait}",
    "slots": [
     97
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.098",
    "jp": "守護獣\n「あ、開いた」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"Oh, it's open.\"\n{wait}",
    "slots": [
     98
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.099",
    "jp": "さやか\n「あ～れぇ？\n　もしかしてぇ、捕まってたぁ？」\n{wait}「急いで逃げないとぉ、\n　もうすぐこの基地はねぇ・・・」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Wha-at? Were you, like, captured?\"\n{wait}\"We gotta hurry and escape, 'cause this base\nis gonna, li-ike...\"\n{wait}",
    "slots": [
     99
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.105",
    "jp": "守護獣\n「ほら、お迎え来たよ」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"See, your ride's here.\"\n{wait}",
    "slots": [
     105
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.106",
    "jp": "女の子\n「荏狗覇菟よ～\n　荏狗覇菟のせいよ～」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"It's the Egubado~ It's all the\nEgubado's fault~\"\n{wait}",
    "slots": [
     106
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.107",
    "jp": "さやか\n「うぇ？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Huh?\"\n{wait}",
    "slots": [
     107
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.108",
    "jp": "女の子\n「・・・あなた、荏狗覇菟と\n　戦ってるの・・・？」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"...Are you... fighting the Egubado?\"\n{wait}",
    "slots": [
     108
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.109",
    "jp": "さやか\n「・・・うん。まあ、いちお～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"...Yeah. Well, sort o-of~\"\n{wait}",
    "slots": [
     109
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.110",
    "jp": "女の子\n「協力するわ！\n　私、平泉るり（ひらいずみるり）」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"I'll help you! I'm Ruri Hiraizumi.\"\n{wait}",
    "slots": [
     110
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.111",
    "jp": "さやか\n「静内さやかですう」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"I'm Sayaka Shizuna-ai.\"\n{wait}",
    "slots": [
     111
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.112",
    "jp": "るり\n「見てらっしゃい荏狗覇菟！\n　行くわよ、きらら！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Just you watch, Egubado! Let's go, Kirara!\"\n{wait}",
    "slots": [
     112
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.113",
    "jp": "きらら\n「やれやれ」\n{wait}",
-   "en": "",
+   "en": "Kirara\n\"Here we go again.\"\n{wait}",
    "slots": [
     113
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.114",
    "jp": "　\n「アト２０分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 20 MINUTES.\"\n{wait}",
    "slots": [
     114
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.115",
    "jp": "　\n「アト１９分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 19 MINUTES.\"\n{wait}",
    "slots": [
     115
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.116",
    "jp": "　\n「アト１８分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 18 MINUTES.\"\n{wait}",
    "slots": [
     116
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.117",
    "jp": "　\n「アト１７分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 17 MINUTES.\"\n{wait}",
    "slots": [
     117
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.118",
    "jp": "　\n「アト１６分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 16 MINUTES.\"\n{wait}",
    "slots": [
     118
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.119",
    "jp": "　\n「アト１５分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 15 MINUTES.\"\n{wait}",
    "slots": [
     119
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.120",
    "jp": "　\n「アト１４分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 14 MINUTES.\"\n{wait}",
    "slots": [
     120
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.121",
    "jp": "　\n「アト１３分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 13 MINUTES.\"\n{wait}",
    "slots": [
     121
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.122",
    "jp": "　\n「アト１２分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 12 MINUTES.\"\n{wait}",
    "slots": [
     122
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.123",
    "jp": "　\n「アト１１分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 11 MINUTES.\"\n{wait}",
    "slots": [
     123
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.124",
    "jp": "　\n「アト１０分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 10 MINUTES.\"\n{wait}",
    "slots": [
     124
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.125",
    "jp": "　\n「アト９分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 9 MINUTES.\"\n{wait}",
    "slots": [
     125
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.126",
    "jp": "　\n「アト８分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 8 MINUTES.\"\n{wait}",
    "slots": [
     126
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.127",
    "jp": "　\n「アト７分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 7 MINUTES.\"\n{wait}",
    "slots": [
     127
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.128",
    "jp": "　\n「アト６分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 6 MINUTES.\"\n{wait}",
    "slots": [
     128
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.129",
    "jp": "　\n「アト５分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 5 MINUTES.\"\n{wait}",
    "slots": [
     129
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.130",
    "jp": "　\n「アト４分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 4 MINUTES.\"\n{wait}",
    "slots": [
     130
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.131",
    "jp": "　\n「アト３分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 3 MINUTES.\"\n{wait}",
    "slots": [
     131
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.132",
    "jp": "　\n「アト２分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 2 MINUTES.\"\n{wait}",
    "slots": [
     132
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.133",
    "jp": "　\n「アト１分デ爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATION IN 1 MINUTE.\"\n{wait}",
    "slots": [
     133
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.134",
    "jp": "裕子\n「急いで！\n　できるだけ基地から離れるんだっ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Hurry! Get as far from the base as you can!\"\n{wait}",
    "slots": [
     134
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.16.135",
    "jp": "裕子\n「間に合うか？！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Are we gonna make it!?\"\n{wait}",
    "slots": [
     135
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.136",
    "jp": "ゆかり\n「時間がないわ、急いで！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"We're out of time, hurry!\"\n{wait}",
    "slots": [
     136
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.137",
    "jp": "ゆかり\n「間に合った！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"We made it!\"\n{wait}",
    "slots": [
     137
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.138",
    "jp": "さやか\n「先行くからねぇ～、\n　ちゃんと来てよぉ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"I'm goin' on ahead-d~ Make sure you\nkeep up-p~\"\n{wait}",
    "slots": [
     138
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.139",
    "jp": "さやか\n「やーん、\n　待って待って待ってったらぁ～！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Nooo, wait, wait, wait for me-e~!\"\n{wait}",
    "slots": [
     139
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.140",
    "jp": "るり\n「みんな早く！\n　爆発しちゃうわよ！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Everyone, hurry! It's gonna blow!\"\n{wait}",
    "slots": [
     140
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.141",
    "jp": "るり\n「まだ大丈夫よね、まだ」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"We're still okay, right? Still...\"\n{wait}",
    "slots": [
     141
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.142",
    "jp": "　\n「爆破シマス」\n{wait}",
-   "en": "",
+   "en": "\"DETONATING.\"\n{wait}",
    "slots": [
     142
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.143",
    "jp": "裕子\n「だめだ、間に合わない！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"No good, we won't make it!\"\n{wait}",
    "slots": [
     143
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.144",
    "jp": "ゆかり\n「くっ！　ここまで来て」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Ngh! After coming all this way...\"\n{wait}",
    "slots": [
     144
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.145",
    "jp": "さやか\n「うそぉーーーーっ！\n　こんなのいやぁ～っ！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"No waaaaay! I don't want it to end\nlike thi-is~!\"\n{wait}",
    "slots": [
     145
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.146",
    "jp": "るり\n「ああ、私って、とことん不幸・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Oh, I'm just unlucky through and through...\"\n{wait}",
    "slots": [
     146
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.199",
    "jp": "さやか\n「ねぇ、爆発しちゃう爆発しちゃう、\n　爆発しちゃうよお」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Hey, it's gonna blow, it's gonna blow, it's\ngonna blo-ow!\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.16.200",
    "jp": "裕子\n「わかってるよウルサイなっ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I know, so shut up already!\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.201",
    "jp": "さやか\n「ふぃぃぃぃん、\n　さやか、ここで死んじゃうのぉ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Waaaah, Sayaka's gonna di-ie here...\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.202",
    "jp": "裕子\n「よしてよ、縁起でもない」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Cut it out, don't jinx us.\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.203",
    "jp": "さやか\n「うう、裕子ぉ、\n　お別れにこれあげるねぇ・・・」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ugh, Yuko-o, I'll give you this to remember\nme by-y...\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.204",
    "jp": "裕子\n「・・・はいはい」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Yeah, yeah.\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.205",
    "jp": "さやか\n「私が死んだらぁ、これ見るたびにぃ、\n　私のことぉ、思い出してぇ」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"When I'm dea-ad, every time you look at\nthis-s, think of me-e.\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.206",
    "jp": "裕子\n「ははは。それって不可能に近いな」\n{wait}「あんたが死んでるなら、\n　あたしたちもみんな死んでるって」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Hahaha. That's next to impossible.\"\n{wait}\"If you're dead, we'll all be dead too.\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.207",
    "jp": "るり\n「うわーん、荏狗覇菟の\n　ばかばかばかばかーっ！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Waaah! Egubado, you stupid stupid stupid\nstupid jerks!\"\n{wait}",
    "slots": [
     207
    ],
    "pre": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.208",
    "jp": "裕子\n「お、落ち着いて・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"C-calm down...\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.209",
    "jp": "るり\n「あんなヤツあんなヤツあんなヤツ！\n　あたしを置いて逃げるなんてー！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"That jerk, that jerk, that JERK! Running off\nand leaving me behind!\"\n{wait}",
    "slots": [
     209
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.210",
    "jp": "裕子\n「あ・・・あの逃げた男・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Oh... that guy who ran off...\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.211",
    "jp": "るり\n「どーせ私は男に逃げられたわよー！\n　みんなして責めないでよー！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Yeah, yeah, I got dumped! Stop ganging\nup on me!\"\n{wait}",
    "slots": [
     211
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.212",
    "jp": "裕子\n「責めてないって」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Nobody's ganging up on you.\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.213",
    "jp": "るり\n「いいわよ」\n{wait}「今度はもっとイイ男つかまえるもん。\n　あなたイイ男、知らない？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Fine.\"\n{wait}\"Next time I'll catch an even better man. You\nknow any good guys?\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.214",
    "jp": "裕子\n「いや、あたしもどっちかつーと\n　縁遠い方で・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Um, no, I'm kinda hopeless in that\ndepartment myself...\"\n{wait}",
    "slots": [
     214
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.215",
    "jp": "るり\n「あら、カワイソ」\n{wait}「ああ、あたしの王子様っ。\n　るりが今行きます～」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Aww, poor thing.\"\n{wait}\"Oh, my prince! Ruri's coming for you~\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.216",
    "jp": "裕子\n（だいじょうぶか・・・この人）\n{wait}",
-   "en": "",
+   "en": "Yuko\n(Is she gonna be okay...?)\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.217",
    "jp": "ゆかり\n「そこをどきなさい！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Get out of my way!\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.16.218",
    "jp": "羅侯羅\n「そうはいかないよ」\n{wait}「貴様らがここで、この基地とともに\n　この世から消え去るのを、\n　見とどけなきゃならないからね」\n{wait}",
-   "en": "",
+   "en": "Ragora\n\"I don't think so.\"\n{wait}\"I have to make sure you vanish from this\nworld, right here, along with this base.\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.219",
    "jp": "ゆかり\n「基地が爆発するのよ、死にたいの？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"The base is going to explode. Do you\nwant to die?\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.220",
    "jp": "羅侯羅\n「命なぞ惜しくないんだよ」\n{wait}",
-   "en": "",
+   "en": "Ragora\n\"I don't care about my life.\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.221",
    "jp": "ゆかり\n「そう・・・でも私たちは、\n　ここで死ぬわけにはいかないのよ」\n{wait}「日本を救うために！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I see... But we can't afford to die here.\"\n{wait}\"We have to save Japan!\"\n{wait}",
    "slots": [
     221
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.222",
    "jp": "羅侯羅\n「荏狗覇菟こそが日本を救うんだよ。\n　貴様らは、その妨げ」\n{wait}「さっさと消えな！」\n{wait}",
-   "en": "",
+   "en": "Ragora\n\"It's the Egubado who'll save Japan. You're in\nthe way.\"\n{wait}\"So just disappear!\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.223",
    "jp": "ゆかり\n「荏狗覇菟が日本を救うですって？\n　バカ言わないで！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"The Egubado, save Japan? Don't be\nridiculous!\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.224",
    "jp": "　　　　　　　　　　　　\n　　　「う、うわぁー！」\n{wait}",
-   "en": "",
+   "en": "\"Wh-whoaaaa!\"\n{wait}",
    "slots": [
     224
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.225",
    "jp": "ゆかり\n「あっちね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"That way.\"\n{wait}",
    "slots": [
     225
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.226",
    "jp": "裕子\n「げ、爆弾・・・？\n　なんとか、なんないかな」\n{wait}「えーと・・・スイッチは・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Ugh, a bomb...? Can't we do something\nabout it?\"\n{wait}\"Umm... where's the switch...\"\n{wait}",
    "slots": [
     226
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.227",
    "jp": "ゆかり\n「これが自爆装置？\n　解除できないかしら」\n{wait}「配線を見てみれば・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Is this the self-destruct device? I wonder if\nI can disarm it.\"\n{wait}\"If I look at the wiring...\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.228",
    "jp": "さやか\n「うぇ～、爆弾～。\n　止めるスイッチとか無いのぉ～？」\n{wait}「うぅ～・・・・・・」\n{wait}「これ・・・かな・・・？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ble-eh~, a bomb~. Isn't there, like, an off\nswitch or something~?\"\n{wait}\"Ugh~......\"\n{wait}\"Is it... this one...?\"\n{wait}",
    "slots": [
     228
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.16.229",
    "jp": "るり\n「これ外しちゃえば\n　いーんじゃないの？」\n{wait}「ほいっと・・・！」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"If I just pull this off, that'd work, right?\"\n{wait}\"Aaand... there!\"\n{wait}",
    "slots": [
     229
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.230",
    "jp": "「警告・・・警告・・・\n　緊急こーど入力後ノ変更ハ\n　受ケツケテオリマセン」\n{wait}「コレ以上ノ操作ヲ行ウナラバ\n　即時爆破もーどヘト移行シマス。\n　繰リ返シマス・・・」\n{wait}",
-   "en": "",
+   "en": "\"WARNING... WARNING... NO CHANGES ACCEPTED\nAFTER EMERGENCY CODE ENTRY.\"\n{wait}\"FURTHER TAMPERING WILL SWITCH TO\nIMMEDIATE DETONATION MODE. REPEAT...\"\n{wait}",
    "slots": [
     230
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.231",
    "jp": "裕子\n「うわわわわっ！！\n　やっぱ脱出するしかないかっ！」\n{wait}「出口は・・・！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Whoa-whoa-whoa!! Guess we've gotta get\nout of here after all!\"\n{wait}\"The exit is...!\"\n{wait}",
    "slots": [
     231
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.232",
    "jp": "裕子\n「くそ、急がないと！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Damn, we gotta hurry!\"\n{wait}",
    "slots": [
     232
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.233",
    "jp": "ゆかり\n「く・・・！　さすがに専門家でも\n　呼んでこないと無理のようね」\n{wait}「ここはあきらめて脱出しないと」\n　出口は・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Ngh...! No use without calling in an expert,\nit seems.\"\n{wait}\"I'll have to give up and get out of here.\nThe exit is...\"\n{wait}",
    "slots": [
     233
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.16.234",
    "jp": "ゆかり\n「あそこ、だったわね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Over there, wasn't it?\"\n{wait}",
    "slots": [
     234
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.235",
    "jp": "さやか\n「そくじばくはモード・・・？」\n{wait}「・・・そくじ、ってことは\n　すぐ、ってことだから・・・」\n{wait}「・・・・・・・・・」\n{wait}「やだぁ！　何なのよぉ～！\n　あーん、出口はどこよぉ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Immediate detonation mode...?\"\n{wait}\"...Immediate means, li-ike, right away, so...\"\n{wait}\".........\"\n{wait}\"No wa-ay! What is thi-is~! Waah, where's\nthe exi-it~\"\n{wait}",
    "slots": [
     235
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.236",
    "jp": "さやか\n「もお！　荏狗覇菟のばかぁ！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ugh! Egubado, you big du-ummy!\"\n{wait}",
    "slots": [
     236
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.16.237",
    "jp": "るり\n「ふんっ。\n　そ、そんな、はったり・・・！」\n{wait}「・・・・・・・・・」\n{wait}「えーと・・・。\n　出口は・・・あっちだったかな？」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Hmph. Th-that's just a bluff...!\"\n{wait}\".........\"\n{wait}\"Umm... The exit was... that way, I think?\"\n{wait}",
    "slots": [
     237
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.16.238",
    "jp": "るり\n「ホンっトにろくな日じゃないわね」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Today's REALLY a lousy day.\"\n{wait}",
    "slots": [
     238
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   }
  ]
 }

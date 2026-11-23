@@ -108,3 +108,17 @@ Yuko theorises a Guardian reflects its master's wishes (Saiki's selfishness = Yu
 last of the Iwamizawa line). Operation Dam-Dam: Kagami's detonator has no batteries. Kagami reveals Jin (Hitomi Jin)
 took Naoe to Sado. Akira Ikazuchi ("wandering hero", earnest stiff hero speech: "Yes indeed!", "on behalf of the
 heavens!") helps and leaves.
+
+## 15-16 (stone circle teleporter; base self-destruct)
+Hitomi Jin (Genbu's officer, cool, masculine; Genbu's favourite; Ragora her subordinate) covers for Kagami, holds the real
+Hasumi on Sado and leaves for Nikko (blowing up the teleport room). Yukari's group finds a stone circle teleporter; Akira helps again (Sayaka: "a heroine, not a
+hero"). Yuko tells Yukari to lean on them. The teleporter lands them in an Egubado base that self-destructs (robot
+countdown, "IMMEDIATE DETONATION MODE"); Ruri (with Kirara, a sharp-tongued female Guardian) is freed and joins.
+Genbu (Megumi Hokuto: stern, masculine) scolds Seiryu (Satomi Azuma: catty) for handing the prisoner to Kagami.
+
+## 17-18 (Sado reunion; Kagami quits; toward Nikko)
+They were sent to Sado. Both halves of the party reunite and make up (Yuko: "Yukari, you idiot! ...and sorry I'm so
+short-tempered"); Hasumi rescued. Akira (a rock musician, "rocker"; Guardian Zabi-tan, crackles with electricity)
+joins. Yukari tells Hasumi she heard the Holy Dragon: her mission is to free the veins and awaken the Sky and Earth
+Dragons. Genbu orders Jin to settle it at Nikko. Kagami's last-chance attack fails; she quits the Egubado ("back to
+being a bum"). Next: Nikko dragon vein, then Tokyo (Egubado HQ).
