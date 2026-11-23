@@ -7,566 +7,627 @@
   {
    "id": "g13.02.000",
    "jp": "装備をはずして、スト\nックに戻します。\n",
-   "en": "",
+   "en": "Removes the equipment\nand returns it to stock.\n",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.001",
    "jp": "帽子：\nスポーツするのに最適\nな帽子。\nＤｆ＋２\n",
-   "en": "",
+   "en": "Hat:\nA cap that's ideal\nfor playing sports.\nDf+2\n",
    "slots": [
     1
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.002",
    "jp": "帽子：\nヘアバンド風のおしゃ\nれな髪飾り。\nＤｆ＋１／Ｉｎ＋６\n",
-   "en": "",
+   "en": "Hat:\nA stylish hairband-like hair\nornament.\nDf+1/In+6\n",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.003",
    "jp": "帽子：\n英国特殊戦闘員が落と\nしていった軍帽。\nＤｆ＋３\n",
-   "en": "",
+   "en": "Hat:\nA beret dropped by\na British commando.\nDf+3\n",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.004",
    "jp": "帽子：\n頭がさえる効能のある\nバンダナ。\nＤｆ＋１／Ｉｎ＋５\n",
-   "en": "",
+   "en": "Hat:\nA bandana that keeps\nyour mind sharp.\nDf+1/In+5\n",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.005",
    "jp": "帽子：\n外遊びにはかかせない\n日射病予防の帽子。\nＤｆ＋１\n",
-   "en": "",
+   "en": "Hat:\nA must for outdoor\nplay: stops sunstroke.\nDf+1\n",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.006",
    "jp": "帽子：\n漆黒に染め上げられた\nかぶり笠。\nＤｆ＋２\n",
-   "en": "",
+   "en": "Hat:\nA wide straw hat\ndyed jet black.\nDf+2\n",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.007",
    "jp": "手袋：\n親指と他の指とに分か\nれた手袋。温かい。\nＡｔ＋１／Ｄｆ＋１\n",
-   "en": "",
+   "en": "Gloves:\nMittens with a thumb. Nice\nand warm.\nAt+1/Df+1\n",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.008",
    "jp": "手袋：\nバイク乗り用のすべり\nにくく機能的な手袋。\nＡｔ＋５\n",
-   "en": "",
+   "en": "Gloves:\nNon-slip, practical\nbiker's gloves.\nAt+5\n",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.009",
    "jp": "手袋：\n熱血ボクサーの魂がこ\nもったグローブ。\nＡｔ＋１０\n",
-   "en": "",
+   "en": "Gloves:\nHolds the soul of a\nhot-blooded boxer.\nAt+10\n",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.010",
    "jp": "手袋：\n軍放出品の代物を裕子\nが軽量化したもの。\nＡｔ＋２／Ｄｆ＋２\n",
-   "en": "",
+   "en": "Gloves:\nArmy surplus, made lighter\nby Yuko.\nAt+2/Df+2\n",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.011",
    "jp": "手袋：\nあると役立つ手袋。引\n越しにはかかせない。\nＡｔ＋１\n",
-   "en": "",
+   "en": "Gloves:\nHandy gloves. A must\nwhen moving house.\nAt+1\n",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.012",
    "jp": "手袋：\n漆黒に染め上げられた\n手甲。\nＡｔ＋３／Ｄｆ＋１\n",
-   "en": "",
+   "en": "Gloves:\nGauntlets dyed jet black.\nAt+3/Df+1\n",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.013",
    "jp": "ベルト：\n金属の輪をくさり状に\nつないだベルト。\nＡｔ＋２／Ｄｆ＋１\n",
-   "en": "",
+   "en": "Belt:\nA belt of metal rings linked\nlike a chain.\nAt+2/Df+1\n",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.014",
    "jp": "ベルト：\n胴回りを引き締めるベ\nルト。効果バツグン。\nＤｆ＋４\n",
-   "en": "",
+   "en": "Belt:\nA belt that cinches the\nwaist. Works great.\nDf+4\n",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.015",
    "jp": "ベルト：\nベルト代わりのズボン\nつり。活動的な人に。\nＤｆ＋２\n",
-   "en": "",
+   "en": "Belt:\nSuspenders instead of\na belt. For the active.\nDf+2\n",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.016",
    "jp": "ベルト：\nヒーローグッズ。中の\n風車が光って回る。\nＡｔ＋２／Ｄｆ＋１\n",
-   "en": "",
+   "en": "Belt:\nHero merch. The pinwheel\nlights up and spins.\nAt+2/Df+1\n",
    "slots": [
     16
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.017",
    "jp": "ベルト：\n寒い時にはかかせない\nお腹冷え防止の布。\nＤｆ＋１\n",
-   "en": "",
+   "en": "Belt:\nA belly warmer. A\nmust in cold weather.\nDf+1\n",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.018",
    "jp": "ベルト：\n漆黒に染め上げられた\n帯。\nＡｔ＋４／Ｄｆ＋１\n",
-   "en": "",
+   "en": "Belt:\nA sash dyed jet black.\nAt+4/Df+1\n",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.019",
    "jp": "靴：\nひざ下まであるロング\nブーツ。\nＭｖ＋１\n",
-   "en": "",
+   "en": "Shoes:\nLong boots that\nreach below the knee.\nMv+1\n",
    "slots": [
     19
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.020",
    "jp": "靴：\n有名メーカーの超レア\nなモデル。運動性良。\nＡｇ＋５／Ｍｖ＋２\n",
-   "en": "",
+   "en": "Shoes:\nA super-rare model by a\nbig brand. Nimble.\nAg+5/Mv+2\n",
    "slots": [
     20
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.021",
    "jp": "靴：\nヒールが１０センチく\nらいあるパンプス。\nＡｔ＋３／Ｍｖ＋１\n",
-   "en": "",
+   "en": "Shoes:\nPumps with heels about 10\ncm high.\nAt+3/Mv+1\n",
    "slots": [
     21
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.022",
    "jp": "靴：\n運動用。人をけっては\nいけない。　Ａｔ＋７\n／Ａｇ＋５／Ｍｖ＋１\n",
-   "en": "",
+   "en": "Shoes:\nFor sports. Don't kick\npeople!\nAt+7/Ag+5/Mv+1\n",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.023",
    "jp": "靴：\n土木仕事のバイトには\nかかせないはきもの。\nＡｇ＋１／Ｍｖ＋１\n",
-   "en": "",
+   "en": "Shoes:\nA must for part-time\nconstruction work.\nAg+1/Mv+1\n",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.024",
    "jp": "靴：\n漆黒に染め上げられた\nレスリングシューズ。\nＭｖ＋１\n",
-   "en": "",
+   "en": "Shoes:\nWrestling shoes\ndyed jet black.\nMv+1\n",
    "slots": [
     24
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.025",
    "jp": "アクセサリ：\n美由紀が幼い頃からつ\nけている胸飾り。\nＤｆ＋１／Ｉｎ＋５\n",
-   "en": "",
+   "en": "Accessory:\nA brooch Miyuki has worn\nsince she was little.\nDf+1/In+5\n",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.026",
    "jp": "アクセサリ：\n瞳のトレードマークと\nも言えるアイテム。\nＡｇ＋５\n",
-   "en": "",
+   "en": "Accessory:\nYou could call it\nHitomi's trademark.\nAg+5\n",
    "slots": [
     26
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.027",
    "jp": "アクセサリ：\n由美が胸につけてるブ\nローチ。\nＩｎ＋３\n",
-   "en": "",
+   "en": "Accessory:\nThe brooch Yumi\nwears on her chest.\nIn+3\n",
    "slots": [
     27
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.028",
    "jp": "アクセサリ：\n一般人を命令に忠実な\n闘士に変えてしまうピ\nアス。\n",
-   "en": "",
+   "en": "Accessory:\nA piercing that turns\npeople into loyal Warriors.\n",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.029",
    "jp": "アクセサリ：\n白虎こと麗子が耳につ\nけてるピアス。\nＡｇ＋８\n",
-   "en": "",
+   "en": "Accessory:\nThe earring of\nReiko, a.k.a. Byakko.\nAg+8\n",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.030",
    "jp": "アクセサリ：\n朱雀こと知美が首にか\nけてる飾り。\nＩｎ＋１６\n",
-   "en": "",
+   "en": "Accessory:\nWorn around the neck\nby Tomomi, a.k.a. Suzaku.\nIn+16\n",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.031",
    "jp": "アクセサリ：\n玄武ことめぐみが指に\nつけてるリング。\nＤｆ＋４\n",
-   "en": "",
+   "en": "Accessory:\nThe ring of Megumi,\na.k.a. Genbu.\nDf+4\n",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.032",
    "jp": "アクセサリ：\n青龍こと聡美が持ち歩\nく扇。武器にもなる。\nＡｔ＋８\n",
-   "en": "",
+   "en": "Accessory:\nSatomi (Seiryu)'s\nfan. Also a weapon.\nAt+8\n",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.033",
    "jp": "アクセサリ：\n龍鬼妃の力を秘める金\nの額冠。\nＭｖ＋１／他全て＋５\n",
-   "en": "",
+   "en": "Accessory:\nA gold circlet holding\nRyukihi's power.\nMv+1/All others+5\n",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.034",
    "jp": "アクセサリ：\n東京タワー特産の謎の\nぬいぐるみ。重い。\nＤｆ＋１０／Ｍｖ－２\n",
-   "en": "",
+   "en": "Accessory:\nA mystery plush, a Tokyo\nTower special. Heavy.\nDf+10/Mv-2\n",
    "slots": [
     34
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.035",
    "jp": "アクセサリ：\n有名メーカーの緑色の\nスカーフ。高級品。\nＡｔ＋１／Ａｇ＋４\n",
-   "en": "",
+   "en": "Accessory:\nA big brand's green scarf.\nLuxury goods.\nAt+1/Ag+4\n",
    "slots": [
     35
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.036",
    "jp": "アクセサリ：\nオパールのついたペン\nダント。\nＡｔ＋３／Ｄｆ＋１\n",
-   "en": "",
+   "en": "Accessory:\nA pendant set with an\nopal.\nAt+3/Df+1\n",
    "slots": [
     36
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.037",
    "jp": "アクセサリ：\nチョーカーっぽい感じ\nのネックレス。\nＤｆ＋１／Ｉｎ＋２\n",
-   "en": "",
+   "en": "Accessory:\nA choker-style necklace.\nDf+1/In+2\n",
    "slots": [
     37
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.038",
    "jp": "アクセサリ：\n正装時に必須のネクタ\nイ。大人な感じ。\nＩｎ＋７\n",
-   "en": "",
+   "en": "Accessory:\nA must for formal\nwear. Very grown-up.\nIn+7\n",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.039",
    "jp": "アクセサリ：\nオパールのついたイヤ\nリング。\nＤｆ＋１\n",
-   "en": "",
+   "en": "Accessory:\nEarrings set with opals.\nDf+1\n",
    "slots": [
     39
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.040",
    "jp": "アクセサリ：\n小物がいろいろ入るハ\nンドバック。\nＡｔ＋２／Ｄｆ＋２\n",
-   "en": "",
+   "en": "Accessory:\nA handbag that holds all\nsorts of things.\nAt+2/Df+2\n",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.061",
    "jp": "（花香湯）消費：\n湯にとかして飲む薬。\n花の香りがする。\nＳｐ１００回復。\n",
-   "en": "",
+   "en": "Floral Tonic:\nDissolve in hot water and\ndrink. Smells of flowers.\nSp +100.\n",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.062",
    "jp": "（鳥香湯）消費：\n小鳥のさえずりのよう\nな音を立てる薬。\nＳｐ２００回復。\n",
-   "en": "",
+   "en": "Birdsong Tonic:\nA medicine that chirps like\na little bird.\nSp +200.\n",
    "slots": [
     62
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.063",
    "jp": "（風香湯）消費：\nさわやかな風につつま\nれた気分になる薬。\nＳｐ３００回復。\n",
-   "en": "",
+   "en": "Breeze Tonic:\nA medicine that feels like a\nfresh breeze.\nSp +300.\n",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.064",
    "jp": "（月香湯）消費：\n月光を取り込んだと言\nわれる発光する薬。\nＳｐ８００回復。\n",
-   "en": "",
+   "en": "Moonlight Tonic:\nA glowing medicine said to\nhold moonlight.\nSp +800.\n",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.065",
    "jp": "（幻魂丹）消費：\n幻獣の魂から産まれた\nとされる謎の漢方薬。\nＭｐ６０回復。\n",
-   "en": "",
+   "en": "Phantom Pill:\nA mystery remedy born\nof a phantom's soul.\nMp +60.\n",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.066",
    "jp": "（夢魂丹）消費：\n夢のかけらを閉じこめ\nた不思議な漢方薬。\nＭｐ２００回復。\n",
-   "en": "",
+   "en": "Dream Pill:\nA strange remedy sealing\na dream fragment.\nMp +200.\n",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.067",
    "jp": "（霊泉水）消費：\n中国奥地の霊山にわき\n出る泉の水。\nＡｐ３０回復。\n",
-   "en": "",
+   "en": "Spirit Water:\nSpring water from a\nholy peak in deep China.\nAp +30.\n",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.068",
    "jp": "（神泉水）消費：\n神が眠ると伝えられる\n泉から流れ出た水。\nＡｐ１００回復。\n",
-   "en": "",
+   "en": "Divine Water:\nWater from a spring\nwhere a god sleeps.\nAp +100.\n",
    "slots": [
     68
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.069",
    "jp": "（蛍之雫）消費：\n百年に一度現れる大蛍\nの落とした雫。\nＳｐＭｐＡｐ全快。\n",
-   "en": "",
+   "en": "Firefly Drop:\nA drop from a giant firefly\nseen once a century.\nSp Mp Ap full.\n",
    "slots": [
     69
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.070",
    "jp": "（龍玉）消費：\n龍の魂が宿る紅色の水\n晶体。\n超力『復帰』の効果。\n",
-   "en": "",
+   "en": "Dragon Jewel:\nA crimson crystal home to\na dragon's soul.\nPsi 'Revive'.\n",
    "slots": [
     70
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.071",
    "jp": "（力液）消費：\n眠気すっきりのスーパ\nードリンク。医薬品。\n超力『気合』の効果。\n",
-   "en": "",
+   "en": "Power Drink:\nA wake-up super drink.\nMedicinal.\nPsi 'Focus'.\n",
    "slots": [
     71
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.02.072",
    "jp": "（けむり玉）消費：\n爆煙で敵の攻撃をかわ\nしてしまう忍び道具。\n超力『心眼』の効果。\n",
-   "en": "",
+   "en": "Smoke Bomb:\nA ninja smoke bomb for\ndodging attacks.\nPsi 'Mind's Eye'.\n",
    "slots": [
     72
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.073",
    "jp": "（大吉みくじ）消費：\n持ってるだけで運勢が\n良くなるみくじ。\n超力『幸運』の効果。\n",
-   "en": "",
+   "en": "Lucky Fortune:\nA fortune that brings luck\njust by holding it.\nPsi 'Luck'.\n",
    "slots": [
     73
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.074",
    "jp": "（破魔の矢）消費：\nすべての悪運を打ち破\nる効力のある神具。\n超力『会心』の効果。\n",
-   "en": "",
+   "en": "Demon-Bane Arrow:\nA sacred arrow that\nbreaks all bad luck.\nPsi 'Critical'.\n",
    "slots": [
     74
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.075",
    "jp": "（お守り）消費：\n様々な災害から身を守\nってくれるアイテム。\n超力『加護』の効果。\n",
-   "en": "",
+   "en": "Charm:\nA charm that guards you\nfrom all disasters.\nPsi 'Blessing'.\n",
    "slots": [
     75
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.076",
    "jp": "（感応石）消費：\n遠く離れた者とも心が\n通じ合える魔石。\n超力『感応』の効果。\n",
-   "en": "",
+   "en": "Bond Stone:\nA magic stone that links\ndistant hearts.\nPsi 'Telepathy'.\n",
    "slots": [
     76
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.077",
    "jp": "（忍法伝授書）消費：\n気配を完全に絶つ方法\nの記された巻物。\n超力『隠影』の効果。\n",
-   "en": "",
+   "en": "Ninja Scroll:\nA scroll on how to vanish\nwithout a trace.\nPsi 'Shadow'.\n",
    "slots": [
     77
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.078",
    "jp": "（封印のお札）消費：\n暴れる鬼をも封じたと\nされる強力なお札。\n守護獣を送還する。\n",
-   "en": "",
+   "en": "Sealing Tag:\nA strong charm said to\nseal even raging oni.\nDismisses a Guardian.\n",
    "slots": [
     78
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.079",
    "jp": "（当たりくじ）消費：\n何が当たるかは使って\nみてのお楽しみ！\nアイテム１コ入手。\n",
-   "en": "",
+   "en": "Prize Ticket:\nWhat will you win? Use it\nand see!\nGet 1 item.\n",
    "slots": [
     79
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.02.080",
    "jp": "（賢者の石）消費：\n石を手にした者は瞬時\nに悟りを開くという。\n経験値１００入手。\n",
-   "en": "",
+   "en": "Sage's Stone:\nWhoever holds it gains\ninstant wisdom.\nGet 100 EXP.\n",
    "slots": [
     80
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

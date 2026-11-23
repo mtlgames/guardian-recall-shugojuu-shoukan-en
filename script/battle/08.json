@@ -7,250 +7,277 @@
   {
    "id": "g13.08.000",
    "jp": "美由紀\n「バイバイ、天ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Bye-bye, Ten-chan.\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.025",
    "jp": "美由紀\n「ちょっと待っててね」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Wait for me a little, 'kay?\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.001",
    "jp": "真由\n「お疲れさんやったね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Good work out there.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.002",
    "jp": "美里\n「さがっていいわよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"You may stand down.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.003",
    "jp": "景子\n「凪、お疲れさま」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Thank you, Nagi.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.004",
    "jp": "ちかな\n「精魂の地へ戻れ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Return to the land of spirits.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.005",
    "jp": "鈴音\n「琴音、戻すよ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Kotone, sending 'em back!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.027",
    "jp": "琴音\n「またね、ガーラー」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"See you, Gara.\"\n{wait}",
    "slots": [
     27
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.08.028",
    "jp": "鈴音\n「ドーガー、お疲れ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Good job, Doga.\"\n{wait}",
    "slots": [
     28
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.08.007",
    "jp": "蘭\n「ありがと、またね」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Thanks. See you.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.008",
    "jp": "朱雀\n「おさがり！」\n{wait}",
-   "en": "",
+   "en": "Suzaku\n\"Back off!\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.009",
    "jp": "白虎\n「ちょい引っ込んでて」\n{wait}",
-   "en": "",
+   "en": "Byakko\n\"Go sit in the back for a bit.\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.010",
    "jp": "由美\n「ウール、戻って！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Ur, come back!\"\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.08.011",
    "jp": "龍鬼妃\n「さがれ、龍鬼」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Withdraw, Ryuki.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.012",
    "jp": "裕子\n「お疲れさん！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Nice work!\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.013",
    "jp": "ゆかり\n「ご苦労さま」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Thank you for your trouble.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.014",
    "jp": "晶\n「帰還するです！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Returning to base!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.015",
    "jp": "唯\n「姫ちゃん、もういいわ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Hime-chan, that's enough.\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.016",
    "jp": "さやか\n「じゃあねぇ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Bye-bye~\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.017",
    "jp": "かおる\n「じゃあね、不動」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"See ya, Fudo.\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.018",
    "jp": "るり\n「ハーイ、きらら、お疲れさん」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Okaaay, Kirara, good work.\"\n{wait}",
    "slots": [
     18
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.08.019",
    "jp": "巴澄\n「さがれ」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Withdraw.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.020",
    "jp": "青龍\n「青龍、さがって！」\n{wait}",
-   "en": "",
+   "en": "Seiryu\n\"Seiryu, fall back!\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.021",
    "jp": "玄武\n「もどれ！」\n{wait}",
-   "en": "",
+   "en": "Genbu\n\"Return!\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.022",
    "jp": "鏡\n「帰っていーよ」\n{wait}",
-   "en": "",
+   "en": "Kagami\n\"You can go home now.\"\n{wait}",
    "slots": [
     22
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.08.023",
    "jp": "仁\n「ご苦労」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"Well done.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.08.024",
    "jp": "武神\n「さがれ、護法童子！」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Withdraw, Goho Doji!\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

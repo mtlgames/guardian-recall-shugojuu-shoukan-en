@@ -31,6 +31,10 @@ VARIANTS = [
     dict(name="think help", ids=r"g13\.04\.", kind="lines", px=117, lines=4, status="measured"),
     dict(name="field help", ids=r"g13\.(05|06|17|18)\.", kind="lines", px=220, lines=3, status="measured"),
     # 02 item help (10-char lines), 07 ability / 10 think + reading (17-char lines): trigger not yet found in game
+    # 02 records are 4 lines (category: / 2 description lines / stats)
+    dict(name="item help", ids=r"g13\.02\.", kind="lines", px="jp", lines=4, status="jp width"),
+    # 07 trait / 10 Tactic help: one box per group, so its widest JP line (17 chars, 221 px) is every record's floor
+    dict(name="trait help", ids=r"g13\.(07|10)\.", kind="lines", px=221, lines=3, status="jp width (group max)"),
     dict(name="battle help", ids=r"g13\.", kind="lines", px="jp", lines=3, status="jp width"),
     dict(name="charfile profile", ids=r"cf\.", jp=r"^&s\(165,87\)", kind="txd", px=129, lines=5, status="measured"),
     dict(name="dictionary entry", ids=r"dic\.", kind="txd", px=114, lines=99, status="measured"),

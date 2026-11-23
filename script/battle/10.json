@@ -7,154 +7,170 @@
   {
    "id": "g13.10.000",
    "jp": "（わたしをしゅごせよ）\n守護獣を常にマスターの側に置き、\n近くの敵のみを攻撃させる。\n",
-   "en": "",
+   "en": "(Guard me!)\nThe Guardian always stays by its Master and\nattacks only nearby enemies.\n",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.001",
    "jp": "（こうげきせよ）\n守護獣を積極的に敵の方へ進ませ、\n攻撃をしかけさせる。\n",
-   "en": "",
+   "en": "(Attack!)\nThe Guardian actively advances on the\nenemy and attacks.\n",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.10.002",
    "jp": "（せっきんしてこうげきせよ）\n守護獣の攻撃方法を接近戦だけに限定\nして、攻撃をしかけさせる。\n",
-   "en": "",
+   "en": "(Close in and attack!)\nThe Guardian attacks, using melee only.\n",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.10.003",
    "jp": "（とおくからこうげきせよ）\n守護獣の攻撃方法を投射戦だけに限定\nして、攻撃をしかけさせる。\n",
-   "en": "",
+   "en": "(Attack from afar!)\nThe Guardian attacks, fighting at range only.\n",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.10.004",
    "jp": "（とつげきせよ）\n敵に体当たり攻撃をしかけさせる。\n攻撃対象がいない場合は実行しない。\n",
-   "en": "",
+   "en": "(Charge!)\nThe Guardian rams the enemy. Not done if\nthere is no target.\n",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.10.005",
    "jp": "（きりょくをいやせ）\n守護獣に味方ユニットのＳＰを回復\nさせる。\n",
-   "en": "",
+   "en": "(Heal Spirit!)\nThe Guardian restores an ally unit's SP.\n",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.10.006",
    "jp": "（いどうせよ）\n守護獣をＭＡＰ上の指定した位置に\n移動させる。攻撃はできない。\n",
-   "en": "",
+   "en": "(Move!)\nThe Guardian moves to the chosen spot on\nthe MAP. It can't attack.\n",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.10.007",
    "jp": "（なにもするな！）\n守護獣をその場で休ませる。攻撃も\n行わない。\n",
-   "en": "",
+   "en": "(Do nothing!)\nThe Guardian rests where it is. It won't\nattack either.\n",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.10.008",
    "jp": "（せっきんせんりょくをたかめよ）\n守護獣にパワーをたくわえさせる。\n次のターンのみ接近戦力が上昇する。\n",
-   "en": "",
+   "en": "(Boost Melee!)\nThe Guardian builds up power. Raises melee\npower next turn only.\n",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.009",
    "jp": "（とうしゃせんりょくをたかめよ）\n守護獣にパワーをたくわえさせる。\n次のターンのみ投射戦力が上昇する。\n",
-   "en": "",
+   "en": "(Boost Ranged!)\nThe Guardian builds up power. Raises ranged\npower next turn only.\n",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.010",
    "jp": "（ちゆりょくをたかめよ）\n守護獣にパワーをたくわえさせる。\n次のターンのみ治癒力が上昇する。\n",
-   "en": "",
+   "en": "(Boost Healing!)\nThe Guardian builds up power. Raises Healing\nnext turn only.\n",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.011",
    "jp": "（ぼうぎょりょくをたかめよ）\n守護獣にパワーをたくわえさせる。\n次のターンのみ防御力が上昇する。\n",
-   "en": "",
+   "en": "(Boost Defense!)\nThe Guardian builds up power. Raises Defense\nnext turn only.\n",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.012",
    "jp": "（めいちゅうそくどをたかめよ）\n守護獣にパワーをたくわえさせる。\n次のターンのみ命中速度が上昇する。\n",
-   "en": "",
+   "en": "(Boost Accuracy!)\nThe Guardian builds up power. Raises\nAccuracy next turn only.\n",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.013",
    "jp": "（かいひそくどをたかめよ）\n守護獣にパワーをたくわえさせる。\n次のターンのみ回避速度が上昇する。\n",
-   "en": "",
+   "en": "(Boost Evasion!)\nThe Guardian builds up power. Raises Evasion\nnext turn only.\n",
    "slots": [
     13
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.014",
    "jp": "（いどうりょくをたかめよ）\n守護獣にパワーをたくわえさせる。\n次のターンのみ移動力が上昇する。\n",
-   "en": "",
+   "en": "(Boost Movement!)\nThe Guardian builds up power. Raises\nMovement next turn only.\n",
    "slots": [
     14
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.10.015",
    "jp": "（せんざいのうりょくをつかえ）\nその守護獣固有の力を発動させる。\nある一定条件のもとで発動可能。\n",
-   "en": "",
+   "en": "(Unleash your potential!)\nUnleashes the Guardian's unique power.\nUsable only under certain conditions.\n",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

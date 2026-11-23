@@ -40,7 +40,7 @@ def translator_form(entry: dict) -> str:
 
 def index(skip_prefix: str = "") -> dict:
     idx = {}
-    for f in sorted((ROOT / "script" / "scenario").glob("*.json")):
+    for f in sorted((ROOT / "script").glob("*/*.json")):
         d = json.loads(f.read_text(encoding="utf8"))
         for e in d if isinstance(d, list) else d["strings"]:
             if e.get("en") and e["en"] != e["jp"] and not (skip_prefix and e["id"].startswith(skip_prefix)):

@@ -7,198 +7,218 @@
   {
    "id": "g13.06.000",
    "jp": "ユニットのレベルです。\nマスターと守護獣で共通です。\n{wait}",
-   "en": "",
+   "en": "The unit's level. Shared by the Master and\nGuardian.\n{wait}",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.001",
    "jp": "ユニットの経験値です。マスターと\n守護獣で共通です。この値が１００\nになると次のレベルにアップします。\n{wait}",
-   "en": "",
+   "en": "The unit's EXP. Shared by the Master and\nGuardian. At 100, it goes up to the next level.\n{wait}",
    "slots": [
     1
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.002",
    "jp": "ユニットの属性です。属性間の相性に\nより、敵に与えるダメージが変動しま\nす。\n{wait}",
-   "en": "",
+   "en": "The unit's element. Compatibility between\nelements changes the damage dealt to\nenemies.\n{wait}",
    "slots": [
     2
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.003",
    "jp": "ユニットの名前です。\n{wait}",
-   "en": "",
+   "en": "The unit's name.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.06.004",
    "jp": "現在、守護獣にセットしている思考名\nです。\n{wait}",
-   "en": "",
+   "en": "The name of the Tactic currently set for the\nGuardian.\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.06.005",
    "jp": "気力ポイントです。マスターと守護獣\nで共通です。この値が０になると戦闘\n不能になります。\n{wait}",
-   "en": "",
+   "en": "Spirit Points. Shared by the Master and\nGuardian. If this reaches 0, the unit is\nknocked out.\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.006",
    "jp": "思考ポイントです。マスターと守護獣\nで共通です。この値が少なくなると守\n護獣が暴走しやすくなります。\n{wait}",
-   "en": "",
+   "en": "Tactic Points. Shared by the Master and\nGuardian. When this gets low, the Guardian is\nmore likely to go Berserk.\n{wait}",
    "slots": [
     6
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.007",
    "jp": "現在、この守護獣にかかっている超力\nです。\n{wait}",
-   "en": "",
+   "en": "The Psi currently in effect on this Guardian.\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.06.008",
    "jp": "ユニットの種類です。\nＭａｓｔｅｒ：マスターユニット\nＧｕａｒｄｉａｎ：守護獣ユニット\n{wait}さらに守護獣ユニットは育て方によっ\nていくつかの形態に進化するようにな\nります。最初は守護獣ですが、やがて\n{wait}守護闘獣：接近戦が得意な守護獣\n守護撃獣：投射戦が得意な守護獣\n守護珠獣：治癒行動が得意な守護獣\n{wait}などという名の形態に進化していきま\nす。ここで挙げた他にも多くの形態が\nあります。\n{wait}",
-   "en": "",
+   "en": "The unit's type.\nMaster: a Master unit\nGuardian: a Guardian unit\n{wait}Guardian units also evolve into several\nForms depending on how they're raised.\nThey start out as Guardian, but in time\n{wait}Battle Guardian: good at melee\nShooter Guardian: good at ranged\nOrb Guardian: good at healing\n{wait}they evolve into Forms with names like\nthese. There are many more Forms\nbesides these.\n{wait}",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.009",
    "jp": "移動方法の種類です。\n{wait}Ｌ－Ｗａｌｋ：軽歩\n２段差までの地形を移動することが\nできます。\n{wait}マスターや人型の守護獣の移動方法\nです。\n{wait}Ｈ－Ｗａｌｋ：重歩\n１段差の地形間しか移動できません。\n重量級の守護獣の移動方法です。\n{wait}Ｆｌｙ：飛行\n翼を持つ守護獣の移動方法です。\n{wait}どんな段差でも無視して移動できます\nが、移動終了時は地上に降りるため、\n行き先に着地できる場所が必要です。\n{wait}Ｌｅｖｉｔａｔｅ：浮遊\n空中にフワフワと浮かぶ能力を持つ\n守護獣の移動方法です。\n{wait}常に空中に浮かんでいるため、飛行と\n違い着地点を必要としません。水上な\nどの地形でも移動終了が可能です。\n{wait}段差の移動は、下降ならばどんな段差\nでも可能ですが、上昇するにはその段\n差分の移動力を必要とします。\n{wait}",
-   "en": "",
+   "en": "The unit's move type.\n{wait}L-Walk: Light Walk\nCan move over terrain up to 2 steps high.\n{wait}The move type of Masters and humanoid\nGuardians.\n{wait}H-Walk: Heavy Walk\nCan only move between terrain 1 step apart.\nThe move type of heavyweight Guardians.\n{wait}Fly: Flight\nThe move type of winged Guardians.\n{wait}It ignores height differences, but it lands\nat the end of its move, so it needs\nsomewhere to land.\n{wait}Levitate: Levitation\nThe move type of Guardians that can float\nin the air.\n{wait}It is always floating, so unlike Fly it needs\nno landing spot. It can even end its move\non water.\n{wait}Going down, it can drop any height, but\nclimbing costs Movement equal to the height.\n{wait}",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.010",
    "jp": "守護獣の各行動能力をランクで示して\nいます。\n{wait}Ｓｈｏｒｔ：接近戦能力\nＬｏｎｇ：投射戦能力\nＨｅａｌ：治癒能力\n{wait}ランクは共通でＳが一番高く、ついで\nＡＢＣの順になります。ランクＤは、\nその行動ができないことを示します。\n{wait}ランクが高いほど、攻撃や回復の数値\nにボーナスを得ることができます。投\n射と治癒に関しては射程も伸びます。\n{wait}ランクは形態進化することや戦闘中の\n特定の条件により上昇します。\n{wait}後ろにある３ケタの数値は行動経験値\nで、その行動能力がどれだけ活用され\nているかを示しています。\n{wait}この行動経験値が、守護獣の形態進化\nの方向づけに大きく影響してきます。\n{wait}",
-   "en": "",
+   "en": "Shows each of the Guardian's skills as a rank.\n{wait}Short: melee skill\nLong: ranged skill\nHeal: healing skill\n{wait}For every skill, S is the highest rank,\nfollowed by A, B and C. Rank D means the unit\ncan't do that action.\n{wait}The higher the rank, the bigger the bonus to\nattack and recovery values. Ranged and\nhealing also gain range.\n{wait}Ranks rise through Form Evolution and\nunder certain conditions in battle.\n{wait}The three-digit number after it is skill\nEXP, showing how much that skill has\nbeen put to use.\n{wait}This skill EXP has a big effect on which way\nthe Guardian's Form Evolution goes.\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.011",
    "jp": "守護獣の接近戦攻撃力です。高いほど\n接近戦で大ダメージを出すことができ\nます。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}マスターの装備しているアイテムの\n修正もこちらの基本値に含まれます。\n{wait}現在値：\n左側の値です。思考の修正を加えた\nそのターンでの数値を示しています。\n{wait}超力による修正はこちらの現在値に\n反映されます。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Guardian's melee attack power. The\nhigher it is, the more damage it can deal\nin melee.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}It also includes modifiers from items the\nMaster has equipped.\n{wait}Current:\nThe value on the left. It's this turn's value,\nincluding modifiers from the Tactic.\n{wait}Modifiers from Psi show up in this\ncurrent value.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.012",
    "jp": "守護獣の投射戦攻撃力です。高いほど\n投射戦で大ダメージを出すことができ\nます。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}マスターの装備しているアイテムの\n修正もこちらの基本値に含まれます。\n{wait}現在値：\n左側の値です。思考の修正を加えた\nそのターンでの数値を示しています。\n{wait}超力による修正はこちらの現在値に\n反映されます。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Guardian's ranged attack power. The\nhigher it is, the more damage it can deal\nat range.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}It also includes modifiers from items the\nMaster has equipped.\n{wait}Current:\nThe value on the left. It's this turn's value,\nincluding modifiers from the Tactic.\n{wait}Modifiers from Psi show up in this\ncurrent value.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.013",
    "jp": "守護獣の防御力です。高いほど敵の攻\n撃のダメージを減少させることができ\nます。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}マスターの装備しているアイテムの\n修正もこちらの基本値に含まれます。\n{wait}現在値：\n左側の値です。思考の修正を加えた\nそのターンでの数値を示しています。\n{wait}超力による修正はこちらの現在値に\n反映されます。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Guardian's Defense. The higher it is,\nthe more it can reduce damage from\nenemy attacks.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}It also includes modifiers from items the\nMaster has equipped.\n{wait}Current:\nThe value on the left. It's this turn's value,\nincluding modifiers from the Tactic.\n{wait}Modifiers from Psi show up in this\ncurrent value.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     13
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.014",
    "jp": "守護獣の命中速度です。高いほど敵に\n攻撃を命中させやすくなります。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}マスターの装備しているアイテムの\n修正もこちらの基本値に含まれます。\n{wait}現在値：\n左側の値です。思考の修正を加えた\nそのターンでの数値を示しています。\n{wait}超力による修正はこちらの現在値に\n反映されます。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Guardian's Accuracy. The higher it is, the\neasier it is to land attacks on enemies.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}It also includes modifiers from items the\nMaster has equipped.\n{wait}Current:\nThe value on the left. It's this turn's value,\nincluding modifiers from the Tactic.\n{wait}Modifiers from Psi show up in this\ncurrent value.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     14
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.015",
    "jp": "守護獣の回避速度です。高いほど敵の\n攻撃をガードしやすくなります。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}マスターの装備しているアイテムの\n修正もこちらの基本値に含まれます。\n{wait}現在値：\n左側の値です。思考の修正を加えた\nそのターンでの数値を示しています。\n{wait}超力による修正はこちらの現在値に\n反映されます。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Guardian's Evasion. The higher it is, the\neasier it is to guard against enemy attacks.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}It also includes modifiers from items the\nMaster has equipped.\n{wait}Current:\nThe value on the left. It's this turn's value,\nincluding modifiers from the Tactic.\n{wait}Modifiers from Psi show up in this\ncurrent value.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     15
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.016",
    "jp": "守護獣の移動力です。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}現在値：\n左側の値です。思考の修正を加えた\nそのターンでの数値を示しています。\n{wait}超力による修正はこちらの現在値に\n反映されます。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Guardian's Movement.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It's this turn's value,\nincluding modifiers from the Tactic.\n{wait}Modifiers from Psi show up in this\ncurrent value.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     16
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.017",
    "jp": "守護獣の治癒能力です。高いほど思考\nの「気力を癒せ」を実行した時のＳＰ\nの回復量が上がります。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}マスターの装備しているアイテムの\n修正もこちらの基本値に含まれます。\n{wait}現在値：\n左側の値です。思考の修正を加えた\nそのターンでの数値を示しています。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Guardian's healing ability. The higher it is,\nthe more SP is restored when it carries out\nthe Tactic 'Heal Spirit!'.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}It also includes modifiers from items the\nMaster has equipped.\n{wait}Current:\nThe value on the left. It's this turn's value,\nincluding modifiers from the Tactic.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.06.018",
    "jp": "守護獣の特性です。これを持っている\n守護獣は移動や戦闘で様々な恩恵を得\nることができます。\n{wait}",
-   "en": "",
+   "en": "The Guardian's traits. A Guardian that has\none gets all kinds of benefits when moving\nand in battle.\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.06.019",
    "jp": "ユニットの経験値です。マスターと\n守護獣で共通です。この値が１００\nになると次のレベルにアップします。\n{wait}",
-   "en": "",
+   "en": "The unit's EXP. Shared by the Master and\nGuardian. At 100, it goes up to the next level.\n{wait}",
    "slots": [
     19
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

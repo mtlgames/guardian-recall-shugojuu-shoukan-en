@@ -7,154 +7,170 @@
   {
    "id": "g13.04.000",
    "jp": "守護獣を常にマスタ\nーの側に置き、近く\nの敵のみを攻撃させ\nる。\n",
-   "en": "",
+   "en": "The Guardian always\nstays by its Master and\nattacks only nearby\nenemies.\n",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.001",
    "jp": "守護獣を積極的に敵\nの方へ進ませ、攻撃\nをしかけさせる。\n",
-   "en": "",
+   "en": "The Guardian actively\nadvances on the enemy\nand attacks.\n",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.04.002",
    "jp": "守護獣の攻撃方法を\n接近戦だけに限定し\nて、攻撃をしかけさ\nせる。\n",
-   "en": "",
+   "en": "The Guardian attacks,\nusing melee only.\n",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.04.003",
    "jp": "守護獣の攻撃方法を\n投射戦だけに限定し\nて、攻撃をしかけさ\nせる。\n",
-   "en": "",
+   "en": "The Guardian attacks,\nfighting at range only.\n",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.04.004",
    "jp": "敵に体当たり攻撃を\nしかけさせる。\n攻撃対象がいない場\n合は実行しない。\n",
-   "en": "",
+   "en": "The Guardian rams the\nenemy. Not done if\nthere is no target.\n",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.04.005",
    "jp": "守護獣に味方ユニッ\nトのＳＰを回復させ\nる。\n",
-   "en": "",
+   "en": "The Guardian restores\nan ally unit's SP.\n",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.04.006",
    "jp": "守護獣をＭＡＰ上の\n指定した位置に移動\nさせる。\n攻撃はできない。\n",
-   "en": "",
+   "en": "The Guardian moves to\nthe chosen spot on the\nMAP. It can't attack.\n",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.04.007",
    "jp": "守護獣をその場で休\nませる。\n攻撃も行わない。\n",
-   "en": "",
+   "en": "The Guardian rests\nwhere it is. It won't\nattack either.\n",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.04.008",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ接近\n戦力が上昇する。\n",
-   "en": "",
+   "en": "The Guardian builds up\npower. Raises melee\npower next turn only.\n",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.009",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ投射\n戦力が上昇する。\n",
-   "en": "",
+   "en": "The Guardian builds up\npower. Raises ranged\npower next turn only.\n",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.010",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ治癒\n力が上昇する。\n",
-   "en": "",
+   "en": "The Guardian builds up\npower. Raises healing\npower next turn only.\n",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.011",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ防御\n力が上昇する。\n",
-   "en": "",
+   "en": "The Guardian builds up\npower. Raises Defense\nnext turn only.\n",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.012",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ命中\n速度が上昇する。\n",
-   "en": "",
+   "en": "The Guardian builds up\npower. Raises Accuracy\nnext turn only.\n",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.013",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ回避\n速度が上昇する。\n",
-   "en": "",
+   "en": "The Guardian builds up\npower. Raises Evasion\nnext turn only.\n",
    "slots": [
     13
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.014",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ移動\n力が上昇する。\n",
-   "en": "",
+   "en": "The Guardian builds\nup power. Raises\nMovement next\nturn only.\n",
    "slots": [
     14
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.04.015",
    "jp": "その守護獣固有の力\nを発動させる。ある\n一定条件のもとで発\n動可能。\n",
-   "en": "",
+   "en": "Unleashes the\nGuardian's unique\npower, under certain\nconditions.\n",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

@@ -7,279 +7,309 @@
   {
    "id": "g13.09.000",
    "jp": "美由紀\n「天ちゃん、お願い！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ten-chan, please!\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.025",
    "jp": "美由紀\n「お願い！　出てきて守護獣さん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Please! Come out, Mister Guardian!\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.001",
    "jp": "真由\n「オンマリシエイソワカ！\n　アニチヤマリシソワカ！」\n{wait}「きて、コウエン！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"On marishiei sowaka, anichiya marishi\nsowaka!\"\n{wait}\"Come on out, Koen!\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.002",
    "jp": "美里\n「蒼く気高き深淵より来たりて、\n　我を守護せよ、メール！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Come forth from the noble azure abyss and\nprotect me, Mer!\"\n{wait}",
    "slots": [
     2
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.09.003",
    "jp": "景子\n「凪、みんなを守って・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Nagi, protect everyone...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.004",
    "jp": "ちかな\n「天清浄、地清浄、内外清浄、\n　六根清浄、守護獣我王」\n{wait}「ここに召しませ！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Purity of heaven, purity of earth, purity\nwithin and without, purity of the six roots...\nGuardian Gao,\"\n{wait}\"I summon thee here!\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.005",
    "jp": "鈴音\n「いくよ、琴音！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Here we go, Kotone!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.027",
    "jp": "琴音\n「うん、鈴音！」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Yeah, Suzune!\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.028",
    "jp": "鈴音\n「ドーガー！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Doga!\"\n{wait}",
    "slots": [
     28
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.09.029",
    "jp": "琴音\n「ガーラー！」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Gara!\"\n{wait}",
    "slots": [
     29
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.09.007",
    "jp": "蘭\n「助けて、是空！」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Help me, Zeku!\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.008",
    "jp": "朱雀\n「オンアウンラケンソワカ！」\n{wait}「紅蓮の朱雀、お前の炎で\n　あのゴミどもを焼き尽くせ！」\n{wait}",
-   "en": "",
+   "en": "Suzaku\n\"On a un ra ken sowaka!\"\n{wait}\"Crimson Suzaku, burn that trash to ashes\nwith your flames!\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.009",
    "jp": "白虎\n「オンアウンラケンソワカ！\n　白虎、やっておしまい！」\n{wait}",
-   "en": "",
+   "en": "Byakko\n\"On a un ra ken sowaka! Byakko, finish\nthem off!\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.010",
    "jp": "由美\n「メトランとサバオトの名にかけて、\n　ウール・・・ウール・・・ウール！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"In the names of Metran and Sabaoth...\nUr... Ur... Ur!\"\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.09.011",
    "jp": "龍鬼妃\n「龍鬼、あの者どもに\n　死という名の浄化を授けよ」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"Ryuki, grant them the purification\ncalled death.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.012",
    "jp": "裕子\n「おいで、ポチ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"C'mere, Pochi!\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.026",
    "jp": "裕子\n「だああああっ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Daaaaaah!\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.013",
    "jp": "ゆかり\n「聖我一体！　七十八式召喚術！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Holy self, one body! Summoning Art No. 78!\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.014",
    "jp": "晶\n「雷光ぉぉ招来！\n　悪を誅て、ザビたん！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Lightning, desceeend! Smite evil, Zabi-tan!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.015",
    "jp": "唯\n「生命宿りし五輪の剣・・・\n　斎姫、汝が務めをここに果たせ！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Five-ringed sword wherein life dwells... Saiki,\nfulfill thy duty here!\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.016",
    "jp": "さやか\n「アーちゃん、よろしくぅ！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ah-chan, I'm counting on you-u!\"\n{wait}",
    "slots": [
     16
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.09.017",
    "jp": "かおる\n「普く諸混合に帰依し奉る\n　暴悪相忿怒をなせる金剛尊よ」\n{wait}「願わくは眼前の悪魔をことごとく砕\n　破したまえ・・・」\n{wait}「ナウマク、サマンダ、バザラ、\n　ダンカン・・・出よ大聖不動明王、\n　アシュラナータ！」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"I take refuge in all the Vajra lords, O\nDiamond One of wrathful, fearsome form.\"\n{wait}\"I pray, smash every demon before my eyes\nto pieces...\"\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.09.030",
    "jp": "不動\n「何だよ、また面倒かよ。つまんねー\n　事でいちいち呼ぶなよ」\n{wait}",
-   "en": "",
+   "en": "Fudo\n\"What, another chore? Quit callin' me out for\nevery stupid little thing.\"\n{wait}",
    "slots": [
     30
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.09.018",
    "jp": "るり\n「こうなったら、\n　きらら呼ぶっきゃないか」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Guess it's come to this. Time to call Kirara.\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.019",
    "jp": "巴澄\n「斬り捨ていっ、カネツグ！」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Cut them down, Kanetsugu!\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.020",
    "jp": "青龍\n「オンアウンラケンソワカ！\n　青龍、きさまの巧夫を見せてやれ！」\n{wait}",
-   "en": "",
+   "en": "Seiryu\n\"On a un ra ken sowaka! Seiryu, show them\nyour kung fu!\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.021",
    "jp": "玄武\n「オンアウンラケンソワカ！\n　漆黒のはざまより来たれ、玄武！」\n{wait}",
-   "en": "",
+   "en": "Genbu\n\"On a un ra ken sowaka! Come forth from the\njet-black rift, Genbu!\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.022",
    "jp": "鏡\n「カモ～ン、ドナルド！\n　レッツ、ショ～タ～イム」\n{wait}",
-   "en": "",
+   "en": "Kagami\n\"Come o~n, Donald! Let's... sho~wtime!\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.023",
    "jp": "仁\n「黒龍！」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"Black Dragon!\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.09.024",
    "jp": "武神\n「護法童子っ！」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Goho Doji!\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

@@ -7,166 +7,184 @@
   {
    "id": "g13.11.000",
    "jp": "美由紀\n「なんかダメかも。いっぺん帰ろーよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"This might be bad. Let's go home for now!\"\n{wait}",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.11.001",
    "jp": "真由\n「力押しはいかんよ。いったん退いた\n　方が良かっちゃなかね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Pushin' through by force won't work. Ain't it\nbetter to pull back for now?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.002",
    "jp": "美里\n「認めたくはないけど・・・\n　ここは出直すべきね」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"I hate to admit it... but we should regroup.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.003",
    "jp": "景子\n「あの、さしでがましいとは思います\n　が、ここは撤退した方が・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Um, I know it's not my place, but maybe we\nshould retreat...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.004",
    "jp": "ちかな\n「ここは退いた方がいい。\n　このままじゃ全滅しちまう」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"We'd better pull back. At this rate, we'll be\nwiped out.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.005",
    "jp": "鈴音\n「あのさ、逃げた方がよくない？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hey, shouldn't we just run?\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.006",
    "jp": "琴音\n「逃げましょ・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Let's run...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.007",
    "jp": "蘭\n「こんなの勝てっこない、\n　もう逃げようよ」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"There's no way we can win this. Let's run\nalready!\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.012",
    "jp": "裕子\n「うーわー、やっぱ無理っぽいよ。\n　とにかく態勢立て直そう」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Whoa, this really looks impossible. Let's\nregroup, whatever we do.\"\n{wait}",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.11.013",
    "jp": "ゆかり\n「不利ね・・・みんな、撤退するわよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"We're at a disadvantage... Everyone, we're\nretreating.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.014",
    "jp": "晶\n「まさに四面楚歌なのです。\n　一時撤退するです」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"We are surrounded on all sides, truly! A\ntemporary retreat, yes indeed!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.015",
    "jp": "唯\n「戦力を立て直した方が、いいんじゃ\n　ないかしら？」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Wouldn't it be better to rebuild our forces?\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.016",
    "jp": "さやか\n「なんかやだぁ、帰ろうよぉ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"I don't like this-s. Let's go ho-ome~\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.017",
    "jp": "かおる\n「あのさ、\n　ここは逃げた方がよくない？」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Hey, shouldn't we get outta here?\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.018",
    "jp": "るり\n「ヤバいんじゃないの、\n　このままじゃあ・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Isn't this bad? If it keeps up like this...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.019",
    "jp": "巴澄\n「うまくない陣形だな。\n　ここはいったん退くか」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Not a good formation. Let us fall back\nfor now.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.023",
    "jp": "仁\n「無理があったか・・・撤退するぞ！」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"Too much to ask, was it...? Retreat!\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.11.024",
    "jp": "武神\n「引き際を心得ることも名将の要素。\n　ここは一時、退くべきだろう」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Knowing when to withdraw is the mark of a\ngreat general. We should fall back for now.\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

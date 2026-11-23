@@ -7,84 +7,93 @@
   {
    "id": "g13.12.008",
    "jp": "朱雀\n「もう終わりなの？\n　いたぶりがいがないのね・・・」\n{wait}",
-   "en": "",
+   "en": "Suzaku\n\"Finished already? You're no fun to\ntorment at all...\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g13.12.009",
    "jp": "白虎\n「ほ～んと、お子ちゃまねぇ」\n{wait}",
-   "en": "",
+   "en": "Byakko\n\"You're suuuch little kids.\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.12.010",
    "jp": "由美\n「話にならないわ」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Pathetic.\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.12.011",
    "jp": "龍鬼妃\n「我こそが真理・・・\n　うぬらの踏み込む余地などないわ」\n{wait}",
-   "en": "",
+   "en": "Ryukihi\n\"I alone am the truth... There is no room for\nthe likes of you to tread.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.12.020",
    "jp": "青龍\n「たわいもない・・・」\n{wait}",
-   "en": "",
+   "en": "Seiryu\n\"How feeble...\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.12.021",
    "jp": "玄武\n「ぶざまな・・・」\n{wait}",
-   "en": "",
+   "en": "Genbu\n\"How unsightly...\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.12.022",
    "jp": "鏡\n「ボクに勝とーなんて、\n　百億光年早いンだよ！」\n{wait}",
-   "en": "",
+   "en": "Kagami\n\"You wanna beat me? You're ten billion\nlight-years too early!\"\n{wait}",
    "slots": [
     22
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.12.023",
    "jp": "仁\n「しょせん、\n　その程度だったということか・・・」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"So in the end, that was all you were worth...\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.12.024",
    "jp": "武神\n「まだまだ修行が足りんな」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Your training is still sorely lacking.\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

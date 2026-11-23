@@ -7,138 +7,153 @@
   {
    "id": "g13.18.000",
    "jp": "ユニットの詳細なパラメータを表示し\nます。\n{wait}",
-   "en": "",
+   "en": "Shows the unit's detailed parameters.\n{wait}",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.18.001",
    "jp": "ユニットを移動力の範囲で移動させま\nす。\n{wait}",
-   "en": "",
+   "en": "Moves the unit within its Movement range.\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.002",
    "jp": "守護獣の召喚や送還、超力やアイテム\nの使用などを行います。\n{wait}",
-   "en": "",
+   "en": "Summons or dismisses the Guardian, uses Psi\nor items, and so on.\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.003",
    "jp": "守護獣ユニットへの命令や現在セット\nしている思考の変更などを行います。\n{wait}",
-   "en": "",
+   "en": "Gives orders to the Guardian unit, changes\nthe Tactic currently set, and so on.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.004",
    "jp": "ユニットの全てのコマンドを終了させ\nます。守護獣が未行動の場合は現在の\n思考で自動的に命令されます。\n{wait}",
-   "en": "",
+   "en": "Ends all of the unit's commands. If the\nGuardian hasn't acted, it's ordered\nautomatically with its current Tactic.\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.005",
    "jp": "守護獣ユニットを召喚します。\n{wait}",
-   "en": "",
+   "en": "Summons the Guardian unit.\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.006",
    "jp": "消費アイテムを使います。\n{wait}",
-   "en": "",
+   "en": "Uses a consumable item.\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.007",
    "jp": "隣接するユニットに話しかけます。\n{wait}特定のユニットと特定の条件下で隣接\nした時のみ実行できます。\n{wait}",
-   "en": "",
+   "en": "Talks to an adjacent unit.\n{wait}Only possible when next to certain units\nunder certain conditions.\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.008",
    "jp": "超力を使います。\n{wait}",
-   "en": "",
+   "en": "Uses Psi.\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.009",
    "jp": "消費アイテムを使います。\n{wait}",
-   "en": "",
+   "en": "Uses a consumable item.\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.010",
    "jp": "隣接するユニットに話しかけます。\n{wait}特定のユニットと特定の条件下で隣接\nした時のみ実行できます。\n{wait}",
-   "en": "",
+   "en": "Talks to an adjacent unit.\n{wait}Only possible when next to certain units\nunder certain conditions.\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.011",
    "jp": "守護獣ユニットを送還します。\n{wait}",
-   "en": "",
+   "en": "Dismisses the Guardian unit.\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.012",
    "jp": "現在セットしている思考を別の思考に\n変更します。\n{wait}",
-   "en": "",
+   "en": "Changes the Tactic currently set to a\ndifferent Tactic.\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.013",
    "jp": "「移動せよ」で移動先としてセット\nしたブロックを確認します。\n{wait}または「気力を癒せ」で対象として\nセットしたユニットを確認します。\n{wait}",
-   "en": "",
+   "en": "Checks the block set as the destination\nfor \"Move!\".\n{wait}Or checks the unit set as the target for\n\"Heal Spirit!\".\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.18.014",
    "jp": "現在セットしている思考で守護獣に\n命令します。\n{wait}",
-   "en": "",
+   "en": "Orders the Guardian with the Tactic\ncurrently set.\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

@@ -7,167 +7,185 @@
   {
    "id": "g13.00.000",
    "jp": "美由紀\n「あははっ、勝った勝ったあ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ahaha! We won, we wo-on!\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.001",
    "jp": "真由\n「なんとかなるもんやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Guess it all worked out, huh.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.002",
    "jp": "美里\n「当然よ、\n　こんなところで負けられないわ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Naturally. We can't lose in a place like this.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.003",
    "jp": "景子\n「やりましたね！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"We did it!\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.004",
    "jp": "ちかな\n「まあ、こんなモンだろ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Well, that's about what I expected.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.005",
    "jp": "鈴音\n「えへへ、らーくしょおー」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Ehehe, ea-sy peasy!\"\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.00.006",
    "jp": "琴音\n「勝ったのね・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"We won, didn't we...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.007",
    "jp": "蘭\n「ふう・・・よかった」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Phew... thank goodness.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.012",
    "jp": "裕子\n「ふひー。ま、こんなモンか」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Whew. Eh, about what I figured.\"\n{wait}",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.00.013",
    "jp": "ゆかり\n「これが私たちの実力ってトコね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I'd say that shows what we're really\nmade of.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.014",
    "jp": "晶\n「万事解決ですっ！」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"All's well that ends well!\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.015",
    "jp": "唯\n「みんな、がんばったものね！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Everyone worked so hard!\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.016",
    "jp": "さやか\n「あたしのおかげでしょお～？」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"It's all thanks to me, ri-ight?\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.017",
    "jp": "かおる\n「なーんだ、あっけないの」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Pfft, that was over fast.\"\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.00.018",
    "jp": "るり\n「あったしの勝ちね～」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Ruri wi-ins!\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.019",
    "jp": "巴澄\n「終わったな」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"It's over.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.023",
    "jp": "仁\n「手応えのない連中だ」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"What a spineless lot.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.00.024",
    "jp": "武神\n「うむ、こんなものか」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Hmm. So that is all they had.\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

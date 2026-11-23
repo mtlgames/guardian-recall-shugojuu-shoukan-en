@@ -7,619 +7,687 @@
   {
    "id": "g13.01.000",
    "jp": "美由紀\n「うにぃ、もうダメぇ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Unyuu, I can't go on...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.001",
    "jp": "美由紀\n「みんな、ごめん・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Sorry, everyone...\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.002",
    "jp": "真由\n「こがんかこつで・・・情けなか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Done in by somethin' like this... how pathetic.\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.003",
    "jp": "真由\n「油断してしもた・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"I let my guard down...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.004",
    "jp": "美里\n「こんなところでやられるワケには\n　・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"I can't be beaten in a place like this...\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.005",
    "jp": "美里\n「なにやってんのよ、私・・・」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"What am I doing...?\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.006",
    "jp": "景子\n「私、役に立たなくて・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I wasn't any help...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.007",
    "jp": "景子\n「足手まといになっちゃった・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I just slowed everyone down...\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.008",
    "jp": "ちかな\n「まいったね。\n　こんなとこでリタイアかい」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Well, ain't that a pain. Retiring here, huh?\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.009",
    "jp": "ちかな\n「ふざけやがって・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"You dirty...\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.010",
    "jp": "鈴音\n「ごっめーん、やられちゃった」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Sooorry, they got me.\"\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.01.011",
    "jp": "鈴音\n「かっこ悪ーい」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"How uncool...\"\n{wait}",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.01.012",
    "jp": "琴音\n「鈴音・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Suzune...\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.013",
    "jp": "琴音\n「ダメ・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"No...\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.014",
    "jp": "蘭\n「痛い、痛いよ・・・」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"It hurts, it hurts...\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.015",
    "jp": "蘭\n「もう立てないよ・・・」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"I can't stand up anymore...\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.016",
    "jp": "知美\n「なぜ・・・この私が倒れる・・・」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"Why... why would I fall...?\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.017",
    "jp": "知美\n「覚えておくことね・・・」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"You had best remember this...\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.018",
    "jp": "麗子\n「ま、まさか・・・」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"N-no way...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.019",
    "jp": "麗子\n「うそでしょお！？」\n{wait}",
-   "en": "",
+   "en": "Reiko\n\"You've gotta be kidding me!?\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.020",
    "jp": "由美\n「私の力を、凌駕するというの・・・」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"You surpass my power...?\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.021",
    "jp": "由美\n「認めない、こんな・・・！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"I won't accept this...!\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.024",
    "jp": "裕子\n「強すぎる・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"They're too strong...\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.025",
    "jp": "裕子\n「くっそーっ、ここまでか」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Dammiiit, this is as far as I go?\"\n{wait}",
    "slots": [
     25
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.01.026",
    "jp": "ゆかり\n「わ、私としたことが・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"H-how could I, of all people...?\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.027",
    "jp": "ゆかり\n「みんな、あと、お願い・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Everyone... I'm counting on you...\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.028",
    "jp": "晶\n「晶死すとも正義は死なず・・・\n　ですぅ」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Akira may fall, but justice will never die... yes\nindeed...\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.029",
    "jp": "晶\n「うう、満身創痍ですぅ～」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ugh, I'm battered from head to toe~\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.030",
    "jp": "唯\n「くやしい・・・！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"This is so frustrating...!\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.031",
    "jp": "唯\n「いやよ、こんなところで・・・！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"No! Not here, not like this...!\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.032",
    "jp": "さやか\n「もお、知らなぁい！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ugh, I don't ca-are anymore!\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.033",
    "jp": "さやか\n「もおやだぁ、帰るぅ！」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Ugh, this su-ucks, I'm going ho-ome!\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.034",
    "jp": "かおる\n「あちゃー、ごめん」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Oops, sorry.\"\n{wait}",
    "slots": [
     34
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.01.035",
    "jp": "かおる\n「もうちょいだったのに・・・」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"And I was so close...\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.036",
    "jp": "るり\n「あたしってやっぱり不幸・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"I really am cursed with bad luck...\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.037",
    "jp": "るり\n「佳人薄命ってヤツよね・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Beauty dies young, just like they say...\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.038",
    "jp": "巴澄\n「ここで負けるわけには・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"I can't lose here...\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.039",
    "jp": "巴澄\n「先走りすぎたか・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Did I rush ahead too far...?\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.040",
    "jp": "聡美\n「こんなはずでは・・・」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"This wasn't supposed to happen...\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.041",
    "jp": "聡美\n「ここまで、なの・・・？」\n{wait}",
-   "en": "",
+   "en": "Satomi\n\"Is this... the end...?\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.042",
    "jp": "めぐみ\n「貴様らごときに・・・！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"To the likes of you...!\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.043",
    "jp": "めぐみ\n「おのれ・・・！」\n{wait}",
-   "en": "",
+   "en": "Megumi\n\"Curse you...!\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.044",
    "jp": "涼子\n「なんだよ、こんなのありかよ、\n　くっそー」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"What the heck, how is that fair!? Dammit!\"\n{wait}",
    "slots": [
     44
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.01.045",
    "jp": "涼子\n「い・・・いい気になるなよ・・・」\n{wait}",
-   "en": "",
+   "en": "Ryoko\n\"D-don't get cocky...\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.046",
    "jp": "瞳\n「私が・・・倒されるのか」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Am I... being defeated?\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.047",
    "jp": "瞳\n「負けたというのか？」\n{wait}",
-   "en": "",
+   "en": "Hitomi\n\"Are you saying I lost?\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.048",
    "jp": "武神\n「無念」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Alas.\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.049",
    "jp": "武神\n「修行が足りぬか・・・」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"My training was lacking, it seems...\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.064",
    "jp": "迦葉\n「ばかな、こんな小娘ごときに・・・」\n{wait}",
-   "en": "",
+   "en": "Kasho\n\"Impossible! To mere little girls like these...!\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.065",
    "jp": "迦葉\n「ばかな、こんな小娘ごときに・・・」\n{wait}",
-   "en": "",
+   "en": "Kasho\n\"Impossible! To mere little girls like these...!\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.070",
    "jp": "富楼那\n「なんだと・・・！」\n{wait}",
-   "en": "",
+   "en": "Furuna\n\"What...!\"\n{wait}",
    "slots": [
     70
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.071",
    "jp": "富楼那\n「なんだと・・・！」\n{wait}",
-   "en": "",
+   "en": "Furuna\n\"What...!\"\n{wait}",
    "slots": [
     71
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.088",
    "jp": "目連\n「な、なにが起きたというのだ」\n{wait}",
-   "en": "",
+   "en": "Mokuren\n\"Wh-what has happened?\"\n{wait}",
    "slots": [
     88
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.089",
    "jp": "目連\n「な、なにが起きたというのだ」\n{wait}",
-   "en": "",
+   "en": "Mokuren\n\"Wh-what has happened?\"\n{wait}",
    "slots": [
     89
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.098",
    "jp": "舎利弗\n「これで私も終わりか・・・」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"So this is the end of me, too...\"\n{wait}",
    "slots": [
     98
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.099",
    "jp": "舎利弗\n「これで私も終わりか・・・」\n{wait}",
-   "en": "",
+   "en": "Sharihotsu\n\"So this is the end of me, too...\"\n{wait}",
    "slots": [
     99
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.108",
    "jp": "優婆離\n「・・・由美様・・・」\n{wait}",
-   "en": "",
+   "en": "Ubari\n\"...Yumi-sama...\"\n{wait}",
    "slots": [
     108
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.109",
    "jp": "優婆離\n「・・・由美様・・・」\n{wait}",
-   "en": "",
+   "en": "Ubari\n\"...Yumi-sama...\"\n{wait}",
    "slots": [
     109
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.114",
    "jp": "迦旃\n「ま、負けた・・・」\n{wait}",
-   "en": "",
+   "en": "Kasen\n\"I-I lost...\"\n{wait}",
    "slots": [
     114
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.115",
    "jp": "迦旃\n「ま、負けた・・・」\n{wait}",
-   "en": "",
+   "en": "Kasen\n\"I-I lost...\"\n{wait}",
    "slots": [
     115
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.118",
    "jp": "阿那律\n「くっ、こんなはずでは・・・」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Hngh, this wasn't supposed to happen...\"\n{wait}",
    "slots": [
     118
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.119",
    "jp": "阿那律\n「くっ、こんなはずでは・・・」\n{wait}",
-   "en": "",
+   "en": "Anaritsu\n\"Hngh, this wasn't supposed to happen...\"\n{wait}",
    "slots": [
     119
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.128",
    "jp": "須菩提\n「強い、強すぎるぅ・・・」\n{wait}",
-   "en": "",
+   "en": "Subodai\n\"Too strong, they're way too strooong...\"\n{wait}",
    "slots": [
     128
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.129",
    "jp": "須菩提\n「強い、強すぎるぅ・・・」\n{wait}",
-   "en": "",
+   "en": "Subodai\n\"Too strong, they're way too strooong...\"\n{wait}",
    "slots": [
     129
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.156",
    "jp": "阿難\n「こんなことだろうと思った・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"I just knew it would end like this...\"\n{wait}",
    "slots": [
     156
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.157",
    "jp": "阿難\n「こんなことだろうと思った・・・」\n{wait}",
-   "en": "",
+   "en": "Anan\n\"I just knew it would end like this...\"\n{wait}",
    "slots": [
     157
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.162",
    "jp": "羅侯羅\n「仁様、申し訳ございません・・・」\n{wait}",
-   "en": "",
+   "en": "Ragora\n\"Jin-sama, I am truly sorry...\"\n{wait}",
    "slots": [
     162
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.01.163",
    "jp": "羅侯羅\n「仁様、申し訳ございません・・・」\n{wait}",
-   "en": "",
+   "en": "Ragora\n\"Jin-sama, I am truly sorry...\"\n{wait}",
    "slots": [
     163
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

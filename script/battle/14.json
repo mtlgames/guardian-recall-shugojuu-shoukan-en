@@ -7,232 +7,257 @@
   {
    "id": "g13.14.000",
    "jp": "あきらめちゃダメだよ！\nもっかいがんばろうよ！\nきっと大丈夫。\n{wait}",
-   "en": "",
+   "en": "Don't give up! Let's try again! I'm sure it'll\nbe okay.\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g13.14.001",
    "jp": "　　　　　\nこがんこつであきらめるんじゃなかよ。\n{wait}",
-   "en": "",
+   "en": "Don't you go givin' up over somethin' like this.\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.002",
    "jp": "ちょっと焦りすぎたわ・・・\nでも次はやれる！\n{wait}",
-   "en": "",
+   "en": "I rushed things a bit too much... But next\ntime, I can do it!\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.003",
    "jp": "大丈夫です、\n次はきっとうまくいきます。\n私の勘、当たるんです。\n{wait}",
-   "en": "",
+   "en": "It's all right. I'm sure it'll go well next time. My\nhunches are always right.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.004",
    "jp": "なーに、もう一回やってみるさ。\n案外、あっさり勝てるかもしれないよ。\n{wait}",
-   "en": "",
+   "en": "Hey, just give it another shot. You might win\neasier than you think.\n{wait}",
    "slots": [
     4
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.14.005",
    "jp": "もっと慎重にやんなきゃね。\n人のこと言えないけど・・・。\n{wait}",
-   "en": "",
+   "en": "We've gotta be more careful. Not that I'm\none to talk...\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.006",
    "jp": "終わったの・・・？\nでも・・・まだ・・・！\n{wait}",
-   "en": "",
+   "en": "Is it over...? But... not yet...!\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.007",
    "jp": "やっぱり戦うの怖いよ。\nでもあたし、がんばるから！\n{wait}",
-   "en": "",
+   "en": "Fighting really is scary. But I'll keep trying\nmy best!\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.008",
    "jp": "　　　　　\nだめよ・・・まだ足りないわ。\n{wait}",
-   "en": "",
+   "en": "Not enough... It's still not enough.\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.009",
    "jp": "あーら、まだやる気？\n死んじゃっても知らないわよ？\n{wait}",
-   "en": "",
+   "en": "My, my, still want more? Don't blame me if\nyou end up dead.\n{wait}",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.14.010",
    "jp": "まだ刃向かう気？\nムダだというのに\n・・・わからないのね。\n{wait}",
-   "en": "",
+   "en": "You still mean to defy us? It's useless... You\njust don't understand, do you?\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.011",
    "jp": "我は七龍の長、皇龍の魂を持つ者。\n何人たりとも我が浄化を妨げることは\nできぬ。すべては運命なのだ・・・。\n{wait}",
-   "en": "",
+   "en": "I am the head of the Seven Dragons, she who\nholds the soul of the Emperor Dragon. None\nmay hinder my purification. All is fate...\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.012",
    "jp": "まいったまいった。\nやっぱ、ただ突っ込むだけじゃダメ\nだよね。反省反省。\n{wait}",
-   "en": "",
+   "en": "Well, that's that. Just charging in won't cut it,\nhuh? Lesson learned, lesson learned.\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.013",
    "jp": "戦略ミス？　私もまだまだね・・・\nみんな、もう一度きたえ直すわよ！\n{wait}",
-   "en": "",
+   "en": "A strategic mistake? I still have a lot to\nlearn... Everyone, we're training all\nover again!\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.014",
    "jp": "ヒーローの魂は不撓不屈！\nくじけずがんばるですっ！\n{wait}",
-   "en": "",
+   "en": "A hero's spirit never bends and never breaks!\nWe will not lose heart, yes indeed!\n{wait}",
    "slots": [
     14
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.14.015",
    "jp": "そんなに落ち込まないで・・・\nもっと強くならなきゃ、ね？\n{wait}",
-   "en": "",
+   "en": "Don't be so down... We just have to get\nstronger, right?\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.016",
    "jp": "うっそぉ、みんな何やってんのよぉ～。\nしっかりしてよ、もお～。\n・・・え、あたし？\n{wait}",
-   "en": "",
+   "en": "No wa-ay, what are you all doi-ing~? Get it\ntogether alrea-ady~ ...Huh, me?\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.017",
    "jp": "なんでさー・・・。\nでもま、くじけないでさ。\nもっかいくらいやってみよーよ。\n{wait}",
-   "en": "",
+   "en": "How come...? Well, don't let it get you down.\nLet's give it one more shot.\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.14.018",
    "jp": "負けは負けね・・・。\nでも、あーんな奴らにやられるなんて！\nは・ら・た・つ・～。\n{wait}",
-   "en": "",
+   "en": "A loss is a loss... But to get beaten by gu-uys\nlike that! It makes me so ma-ad~\n{wait}",
    "slots": [
     18
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.14.019",
    "jp": "ここは少し休んだほうがいい。\nヤツらとの戦い、先は長いからな。\n{wait}",
-   "en": "",
+   "en": "We'd better rest a little. The fight against\nthem is a long one.\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.020",
    "jp": "　　　　　\nもうちょっと骨があると思ったけどね。\n{wait}",
-   "en": "",
+   "en": "I thought you would have a bit more\nbackbone.\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.021",
    "jp": "　　　　　\n私たちに勝てる者などいない！\n{wait}",
-   "en": "",
+   "en": "No one can defeat us!\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.022",
    "jp": "あはははっ、\nこのボクに勝てると思ってたの？\nこの鏡サマに？　あははははっ。\n{wait}",
-   "en": "",
+   "en": "Ahahaha! Did you really think you could beat\nme? The great Kagami-sama? Ahahahaha!\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.023",
    "jp": "私の見込み違いだったのか？\nもう少しできると思ったがな。\n{wait}",
-   "en": "",
+   "en": "Was I wrong about you? I thought you could\ndo a little better.\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.14.024",
    "jp": "何度でも、はい上がるのだ。\nあきらめることなど、この私が許さん！\n{wait}",
-   "en": "",
+   "en": "Climb back up, as many times as it takes. I will\nnot allow you to give up!\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

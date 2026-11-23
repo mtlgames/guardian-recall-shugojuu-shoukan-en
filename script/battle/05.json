@@ -7,177 +7,195 @@
   {
    "id": "g13.05.000",
    "jp": "ユニットのレベルです。\nマスターと守護獣で共通です。\n{wait}",
-   "en": "",
+   "en": "The unit's level. Shared by the Master and\nGuardian.\n{wait}",
    "slots": [
     0
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.001",
    "jp": "ユニットの経験値です。マスターと\n守護獣で共通です。この値が１００\nになると次のレベルにアップします。\n{wait}",
-   "en": "",
+   "en": "The unit's EXP. Shared by the Master and\nGuardian. At 100, it goes up to the next level.\n{wait}",
    "slots": [
     1
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.002",
    "jp": "ユニットの属性です。属性間の相性に\nより、敵に与えるダメージが変動しま\nす。\n{wait}",
-   "en": "",
+   "en": "The unit's element. Compatibility between\nelements changes the damage dealt to\nenemies.\n{wait}",
    "slots": [
     2
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.003",
    "jp": "ユニットの名前です。\n{wait}",
-   "en": "",
+   "en": "The unit's name.\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.05.004",
    "jp": "現在、守護獣にセットしている思考名\nです。\n{wait}",
-   "en": "",
+   "en": "The name of the Tactic currently set for the\nGuardian.\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.05.005",
    "jp": "気力ポイントです。マスターと守護獣\nで共通です。この値が０になると戦闘\n不能になります。\n{wait}",
-   "en": "",
+   "en": "Spirit Points. Shared by the Master and\nGuardian. If this reaches 0, the unit is\nknocked out.\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.006",
    "jp": "思考ポイントです。マスターと守護獣\nで共通です。この値が少なくなると\n守護獣が暴走しやすくなります。\n{wait}",
-   "en": "",
+   "en": "Tactic Points. Shared by the Master and\nGuardian. When this gets low, the Guardian is\nmore likely to go Berserk.\n{wait}",
    "slots": [
     6
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.007",
    "jp": "ユニットの種類です。\nＭａｓｔｅｒ：マスターユニット\nＧｕａｒｄｉａｎ：守護獣ユニット\n{wait}さらに守護獣ユニットは育て方によっ\nていくつかの形態に進化するようにな\nります。最初は守護獣ですが、やがて\n{wait}守護闘獣：接近戦が得意な守護獣\n守護撃獣：投射戦が得意な守護獣\n守護珠獣：治癒行動が得意な守護獣\n{wait}などという名の形態に進化していきま\nす。ここで挙げた他にも多くの形態が\nあります。\n{wait}",
-   "en": "",
+   "en": "The unit's type.\nMaster: a Master unit\nGuardian: a Guardian unit\n{wait}Guardian units also evolve into several\nForms depending on how they're raised.\nThey start out as Guardian, but in time\n{wait}Battle Guardian: good at melee\nShooter Guardian: good at ranged\nOrb Guardian: good at healing\n{wait}they evolve into Forms with names like\nthese. There are many more Forms\nbesides these.\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.008",
    "jp": "移動方法の種類です。\n{wait}Ｌ－Ｗａｌｋ：軽歩\n２段差までの地形を移動することが\nできます。\n{wait}マスターや人型の守護獣の移動方法\nです。\n{wait}Ｈ－Ｗａｌｋ：重歩\n１段差の地形間しか移動できません。\n重量級の守護獣の移動方法です。\n{wait}Ｆｌｙ：飛行\n翼を持つ守護獣の移動方法です。\n{wait}どんな段差でも無視して移動できます\nが、移動終了時は地上に降りるため、\n行き先に着地できる場所が必要です。\n{wait}Ｌｅｖｉｔａｔｅ：浮遊\n空中にフワフワと浮かぶ能力を持つ\n守護獣の移動方法です。\n{wait}常に空中に浮かんでいるため、飛行と\n違い着地点を必要としません。水上な\nどの地形でも移動終了が可能です。\n{wait}下降ならばどんな段差でも可能ですが\n上昇するにはその段差分の移動力を\n必要とします。\n{wait}",
-   "en": "",
+   "en": "The unit's move type.\n{wait}L-Walk: Light Walk\nCan move over terrain up to 2 steps high.\n{wait}The move type of Masters and humanoid\nGuardians.\n{wait}H-Walk: Heavy Walk\nCan only move between terrain 1 step apart.\nThe move type of heavyweight Guardians.\n{wait}Fly: Flight\nThe move type of winged Guardians.\n{wait}It ignores height differences, but it lands\nat the end of its move, so it needs\nsomewhere to land.\n{wait}Levitate: Levitation\nThe move type of Guardians that can float\nin the air.\n{wait}It is always floating, so unlike Fly it needs\nno landing spot. It can even end its move\non water.\n{wait}It can drop down any height, but climbing\ncosts Movement equal to the height.\n{wait}",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.009",
    "jp": "アイテムの装備箇所と現在装備してい\nるアイテム名を表示します。\n{wait}ＨＥＡＤ：\nこの箇所には帽子かアクセサリを装備\nできます。\n{wait}ＨＡＮＤ：\nこの箇所には手袋かアクセサリを装備\nできます。\n{wait}ＷＡＩＳＴ：\nこの箇所にはベルトかアクセサリを装\n備できます。\n{wait}ＦＯＯＴ：\nこの箇所には靴かアクセサリを装備で\nきます。\n{wait}",
-   "en": "",
+   "en": "Shows the equipment slots and the items\nequipped now.\n{wait}HEAD:\nTakes a hat or an accessory.\n{wait}HAND:\nTakes gloves or an accessory.\n{wait}WAIST:\nTakes a belt or an accessory.\n{wait}FOOT:\nTakes shoes or an accessory.\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.05.010",
    "jp": "マスターの攻撃力です。実際にマスタ\nーが直接、攻撃をすることはありませ\nん。\n{wait}この値は守護獣の接近戦力と投射戦力\nに反映されます。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}現在値：\n左側の値です。装備アイテムの修正を\n加えた数値を示しています。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Master's attack power. The Master\nnever actually attacks directly.\n{wait}This value is reflected in the Guardian's\nmelee and ranged power.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It includes modifiers\nfrom equipped items.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     10
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.011",
    "jp": "マスターの知力です。超力の射程や\n攻撃された時の回避率に影響します。\n{wait}この値は守護獣の治癒力に反映されま\nす。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}現在値：\n左側の値です。装備アイテムの修正を\n加えた数値を示しています。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Master's intellect. Affects Psi range and\nthe chance to dodge when attacked.\n{wait}This value is reflected in the\nGuardian's Healing.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It includes modifiers\nfrom equipped items.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     11
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.012",
    "jp": "マスターの防御力です。敵に攻撃され\nた時のダメージの値に影響します。\n{wait}この値は守護獣の防御力に反映されま\nす。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}現在値：\n左側の値です。装備アイテムの修正を\n加えた数値を示しています。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Master's defense. Affects the damage\ntaken when attacked by an enemy.\n{wait}This value is reflected in the Guardian's\nDefense.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It includes modifiers\nfrom equipped items.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.013",
    "jp": "マスターの素早さです。敵に攻撃され\nた時の回避率に影響します。\n{wait}この値は守護獣の命中速度と回避速度\nに反映されます。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}現在値：\n左側の値です。装備アイテムの修正を\n加えた数値を示しています。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Master's agility. Affects the chance to\ndodge when attacked by an enemy.\n{wait}This value is reflected in the Guardian's\nAccuracy and Evasion.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It includes modifiers\nfrom equipped items.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     13
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.014",
    "jp": "マスターの移動力です。\n他のパラメータと異なり、守護獣の\n移動力とは無関係です。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}現在値：\n左側の値です。装備アイテムの修正を\n加えた数値を示しています。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "",
+   "en": "The Master's Movement.\nUnlike the other parameters, it has nothing\nto do with the Guardian's Movement.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It includes modifiers\nfrom equipped items.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     14
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.05.015",
    "jp": "ユニットが修得済みの超力です。\n右側の数値はその超力を使うのに必要\nなＡＰ（超力ポイント）です。\n{wait}",
-   "en": "",
+   "en": "The Psi the unit has learned.\nThe number on the right is the AP (Psi\nPoints) needed to use that Psi.\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.05.016",
    "jp": "超力ポイントです。この数値を消費し\nて超力を使っていきます。\n{wait}",
-   "en": "",
+   "en": "Psi Points. Psi are used by spending these.\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.05.017",
    "jp": "ユニットの経験値です。マスターと\n守護獣で共通です。この値が１００\nになると次のレベルにアップします。\n{wait}",
-   "en": "",
+   "en": "The unit's EXP. Shared by the Master and\nGuardian. At 100, it goes up to the next level.\n{wait}",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

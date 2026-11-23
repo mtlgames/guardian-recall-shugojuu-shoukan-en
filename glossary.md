@@ -203,6 +203,9 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 気力を癒せ | Heal Spirit | | | |
 | 移動せよ | Move | | | |
 | 何もするな | Do nothing | | | |
+| 潜在能力を使え | Unleash your potential | | Tactic (g13.10.015) | |
+| 特性 | Trait | | (no lint): a Guardian's passive ability (g13.07 help; SEARCH tabs Tactic / Trait / Psi) | |
+| 達人 | Expert | | (no lint): trait name (EXE trait list 復讐者..蛮族) | |
 | 接近戦 | melee | | 接近戦力 = Melee (parameter) | |
 | 投射戦 | ranged / at range | | 投射戦力 = Ranged (parameter) | |
 | 防御力 | Defense | | parameter | |
@@ -218,10 +221,36 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 治癒 | Cure / heal | | Psi "Cure"; the healing skill (Short/Long/Heal ranks) = "healing", 治癒行動経験値 = healing skill EXP | |
 | 岩楯 | Rock Shield | | Psi | |
 | 加護 | Blessing | | Psi | |
-| 気合 | Focus | | Psi | |
+| 気合 | Focus / resolve / guts | | Psi "Focus"; 気合い in prose = resolve, guts | |
 | 幸運 | Luck | | Psi | |
 | 非力 | Weaken | | Psi (attack type) | |
 | 確認 | Scan | | (no lint): Psi that reveals an enemy's status; elsewhere 確認 = "check" | |
+| 入魂 | Inspire | | Psi (recovery: one ally's MP) | |
+| 全癒 | Cure All | | Psi (recovery) | |
+| 勇気 | Courage | | Psi (recovery: all allies' MP) | |
+| 復帰 | Revive | | Psi (recovery) | |
+| 直撃 | Sure Hit | | Psi (battle support) | |
+| 心眼 | Mind's Eye | | Psi (battle support) | |
+| 会心 | Critical | | Psi (battle support) | |
+| 闘神 | War God | | Psi (battle support) | |
+| 風技 | Wind Art | | Psi (ability boost) | |
+| 神脚 | Swift Foot | | Psi (ability boost) | |
+| 鬼神 | Demon Might | | Psi (ability boost); not the 鬼神 of story text | |
+| 軽撃 | Light Blow | | Psi (special status) | |
+| 分身 | Clone / other self / another version of | | Psi "Clone" (special status); in story = one's other self | |
+| 隠影 | Shadow | | Psi (special status) | |
+| 波陣 | Wave Field | | Psi (special status) | |
+| 薄皮 | Thin Skin | | Psi (attack) | |
+| 重荷 | Burden | | Psi (attack) | |
+| 誘眠 | Sleep | | Psi (attack) | |
+| 封じ | Seal | | (no lint): Psi (attack) | |
+| 探査 | Detect | | Psi (other) | |
+| 再動 | Refresh | | Psi (other) | |
+| 浮遊 | Levitate | | (no lint): Psi (other); also the move type shown as "Levitate" (軽歩 L-Walk, 重歩 H-Walk, 飛行 Fly) | |
+| 戦闘不能 | knocked out | | (no lint) | |
+| 感応 | Telepathy | | Psi (other) | |
+| 回復系 / 戦闘補助系 / 能力向上系 / 特殊状態系 / 攻撃系 | Recovery / Battle Support / Ability Boost / Special Status / Attack | | (no lint): Psi categories (power help line 1 = "(Name) Category:") | |
+| 消費 | Consumable | | (no lint): item category; equipment = Hat, Gloves, Belt, Shoes, Accessory; stats Df In At Mv Ag Sp Mp Ap kept | |
 | 形態 | Form | | a Guardian's class, shown under UnitType; 形態進化 = Form Evolution | |
 | 行動能力ランク | skill rank | | status "Skill": Short (melee) / Long (ranged) / Heal; ranks S A B C D | |
 | 行動経験値 | skill EXP | | 3-digit number right of "Rank" | |

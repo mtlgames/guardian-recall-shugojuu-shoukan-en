@@ -7,290 +7,320 @@
   {
    "id": "g13.03.000",
    "jp": "（ちゆ）回復系：\n味方１体のＳＰを消費ＡＰ×５の\n数値分、回復させる。\n",
-   "en": "",
+   "en": "(Cure) Recovery:\nRestores one ally's SP by the AP spent x 5.\n",
    "slots": [
     0
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.001",
    "jp": "（にゅうこん）回復系：\n味方１体のＭＰを消費ＡＰ×２の\n数値分、回復させる。\n",
-   "en": "",
+   "en": "(Inspire) Recovery:\nRestores one ally's MP by the AP spent x 2.\n",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.002",
    "jp": "（ぜんゆ）回復系：\n味方全体のＳＰを消費ＡＰ×２の\n数値分、回復させる。\n",
-   "en": "",
+   "en": "(Cure All) Recovery:\nRestores all allies' SP by the AP spent x 2.\n",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.003",
    "jp": "（ゆうき）回復系：\n味方全体のＭＰを消費ＡＰ×１／２の\n数値分、回復させる。\n",
-   "en": "",
+   "en": "(Courage) Recovery:\nRestores all allies' MP by the AP spent x 1/2.\n",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.004",
    "jp": "（ふっき）回復系：\n戦闘不能になった味方１体を全快状態\nで復活させる。\n",
-   "en": "",
+   "en": "(Revive) Recovery:\nRevives one fallen ally at full strength.\n",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.005",
    "jp": "（ちょくげき）戦闘補助系：\n１戦闘だけ、攻撃の命中率を１００％\nにする。「心眼」には無効。\n",
-   "en": "",
+   "en": "(Sure Hit) Battle Support:\nFor one battle, attacks hit 100% of the time.\nNo effect against 'Mind's Eye'.\n",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.006",
    "jp": "（しんがん）戦闘補助系：\n１戦闘だけ、敵の攻撃の命中率を０％\nにする。\n",
-   "en": "",
+   "en": "(Mind's Eye) Battle Support:\nFor one battle, enemy attacks hit 0% of\nthe time.\n",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.007",
    "jp": "（かいしん）戦闘補助系：\n１戦闘だけ、攻撃のクリティカル率を\n１００％にする。「加護」には無効。\n",
-   "en": "",
+   "en": "(Critical) Battle Support:\nFor one battle, attacks are 100% critical.\nNo effect against 'Blessing'.\n",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.008",
    "jp": "（こううん）戦闘補助系：\n１戦闘だけ、経験値の入手値に×２の\nボーナスを得る。\n",
-   "en": "",
+   "en": "(Luck) Battle Support:\nFor one battle, EXP gained is doubled.\n",
    "slots": [
     8
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.009",
    "jp": "（とうじん）戦闘補助系：\n「直撃」「心眼」「会心」「幸運」を\n合わせた効果を得る。持続は１戦闘。\n",
-   "en": "",
+   "en": "(War God) Battle Support:\nThe effects of 'Sure Hit', 'Mind's Eye', 'Critical'\nand 'Luck' combined. Lasts one battle.\n",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.010",
    "jp": "（きあい）能力向上系：\n１ターンの間、接近戦力＆投射戦力を\n高める。\n",
-   "en": "",
+   "en": "(Focus) Ability Boost:\nRaises melee and ranged power for one turn.\n",
    "slots": [
     10
    ],
    "pre": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.011",
    "jp": "（がんじゅん）能力向上系：\n１ターンの間、防御力を高める。\n\n",
-   "en": "",
+   "en": "(Rock Shield) Ability Boost:\nRaises Defense for one turn.\n",
    "slots": [
     11
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.012",
    "jp": "（ふうぎ）能力向上系：\n１ターンの間、命中速度＆回避速度を\n高める。\n",
-   "en": "",
+   "en": "(Wind Art) Ability Boost:\nRaises Accuracy and Evasion for one turn.\n",
    "slots": [
     12
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.013",
    "jp": "（しんきゃく）能力向上系：\n１ターンの間、移動力を高める。\n\n",
-   "en": "",
+   "en": "(Swift Foot) Ability Boost:\nRaises Movement for one turn.\n",
    "slots": [
     13
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.014",
    "jp": "（きじん）能力向上系：\n「気合」「岩楯」「風技」「神脚」を\n合わせた効果を得る。１ターン持続。\n",
-   "en": "",
+   "en": "(Demon Might) Ability Boost:\nThe effects of 'Focus', 'Rock Shield', 'Wind Art'\nand 'Swift Foot' combined. Lasts one turn.\n",
    "slots": [
     14
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.015",
    "jp": "（けいげき）特殊状態系：\n１ターンの間、攻撃のダメージを半分\nにおさえ、わざと敵のＳＰを１残す。\n",
-   "en": "",
+   "en": "(Light Blow) Special Status:\nFor one turn, attacks do half damage and\nalways leave the enemy 1 SP.\n",
    "slots": [
     15
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.016",
    "jp": "（ぶんしん）特殊状態系：\n１ターンの間、敵から受けるダメージ\nを半分に減らす。\n",
-   "en": "",
+   "en": "(Clone) Special Status:\nFor one turn, halves the damage taken from\nenemies.\n",
    "slots": [
     16
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.017",
    "jp": "（いんえい）特殊状態系：\n１ターンの間、敵から攻撃をされなく\nなる。反撃も受けない。\n",
-   "en": "",
+   "en": "(Shadow) Special Status:\nFor one turn, enemies can't attack the unit. No\ncounterattacks either.\n",
    "slots": [
     17
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.018",
    "jp": "（かご）特殊状態系：\n１ターンの間、敵の攻撃の\nクリティカル率を０％にする。\n",
-   "en": "",
+   "en": "(Blessing) Special Status:\nFor one turn, enemy attacks have a 0%\ncritical rate.\n",
    "slots": [
     18
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.019",
    "jp": "（はじん）特殊状態系：\n１ターンの間、隣接している敵に\n無条件でダメージを与える。\n",
-   "en": "",
+   "en": "(Wave Field) Special Status:\nFor one turn, always damages adjacent\nenemies.\n",
    "slots": [
     19
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.020",
    "jp": "（ひりき）攻撃系：\n敵に使う。１ターンの間、接近戦力＆\n投射戦力を低下させる。\n",
-   "en": "",
+   "en": "(Weaken) Attack:\nUse on an enemy. Lowers its melee and ranged\npower for one turn.\n",
    "slots": [
     20
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.021",
    "jp": "（うすかわ）攻撃系：\n敵に使う。１ターンの間、防御力を\n低下させる。\n",
-   "en": "",
+   "en": "(Thin Skin) Attack:\nUse on an enemy. Lowers its Defense for\none turn.\n",
    "slots": [
     21
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.022",
    "jp": "（おもに）攻撃系：\n敵に使う。１ターンの間、命中／回避\n速度＆移動力を低下させる。\n",
-   "en": "",
+   "en": "(Burden) Attack:\nUse on an enemy. Lowers its Accuracy, Evasion\nand Movement for one turn.\n",
    "slots": [
     22
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.023",
    "jp": "（ゆうみん）攻撃系：\n敵に使う。１ターンの間、行動不能に\nする。\n",
-   "en": "",
+   "en": "(Sleep) Attack:\nUse on an enemy. It can't act for one turn.\n",
    "slots": [
     23
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.024",
    "jp": "（ふうじ）攻撃系：\n敵に使う。そのユニットにかかって\nいる超力を全て取り除く。\n",
-   "en": "",
+   "en": "(Seal) Attack:\nUse on an enemy. Removes every Psi effect on\nthat unit.\n",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.025",
    "jp": "（かくにん）その他：\n敵に使う。そのユニットのパラメータ\nを確認済みにする。\n",
-   "en": "",
+   "en": "(Scan) Other:\nUse on an enemy. Marks that unit's parameters\nas checked.\n",
    "slots": [
     25
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.026",
    "jp": "（たんさ）その他：\nマップ上に隠されたアイテムの位置を\n１カ所だけつきとめる。\n",
-   "en": "",
+   "en": "(Detect) Other:\nPinpoints one spot where an item is hidden on\nthe map.\n",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.027",
    "jp": "（さいどう）その他：\n行動済みの味方ユニットを行動可能\n状態に戻す。\n",
-   "en": "",
+   "en": "(Refresh) Other:\nLets an ally unit that has already acted\nact again.\n",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.03.028",
    "jp": "（ふゆう）その他：\n１ターンの間、移動タイプを「浮遊」\nにする。\n",
-   "en": "",
+   "en": "(Levitate) Other:\nSets the move type to 'Levitate' for one turn.\n",
    "slots": [
     28
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.03.029",
    "jp": "（かんのう）その他：\n１ターンの間、遠く離れた守護獣でも\nマスターの側にいる恩恵を受ける。\n",
-   "en": "",
+   "en": "(Telepathy) Other:\nFor one turn, even a far-off Guardian gets\nthe benefits of being near its Master.\n",
    "slots": [
     29
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }

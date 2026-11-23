@@ -7,183 +7,203 @@
   {
    "id": "g13.16.000",
    "jp": "美由紀\n「どうしよう・・・\n　天ちゃんがおかしいよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"What do I do...? Something's wrong with\nTen-chan!\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g13.16.025",
    "jp": "美由紀\n「うにぃ、もうダメぇ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Unyuu, I can't go on...\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.001",
    "jp": "真由\n「なん？　こげん時に目眩が・・・？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What? Dizzy, at a time like this...?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.002",
    "jp": "美里\n「くっ、長引きすぎた・・・？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Ngh, did this drag on too long...?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.003",
    "jp": "景子\n「いけない・・・凪・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Oh no... Nagi...\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.004",
    "jp": "ちかな\n「まずいね、このままじゃ・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Not good. At this rate...\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.005",
    "jp": "鈴音\n「あっちゃー、マズいってば」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Uh-oh, this is bad, seriously.\"\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g13.16.006",
    "jp": "琴音\n「なにか・・・変・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Something's... wrong...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.007",
    "jp": "蘭\n「どうしたの？　おかしいよ・・・」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"What's wrong? Something's not right...\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.012",
    "jp": "裕子\n「え？　なに？\n　どうなってんの？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh? What? What's goin' on?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.026",
    "jp": "裕子\n「え？　なに？\n　どうなってんの？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh? What? What's goin' on?\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.013",
    "jp": "ゆかり\n「いけない、\n　このままでは暴走するわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Oh no, at this rate it'll go Berserk.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.014",
    "jp": "晶\n「うう・・・青息吐息ですぅ・・・」\n{wait}",
-   "en": "",
+   "en": "Akira\n\"Ugh... I'm at my last gasp...\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.015",
    "jp": "唯\n「ちょっと姫ちゃん、\n　ハリキリすぎよ！」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"Hey, Hime-chan, you're overdoing it!\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.016",
    "jp": "さやか\n「ふぃ～ん、つかれたぁ～」\n{wait}",
-   "en": "",
+   "en": "Sayaka\n\"Hweeh, I'm so ti-ired~\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.017",
    "jp": "かおる\n「あ！\n　なんかイヤな予感・・・」\n{wait}",
-   "en": "",
+   "en": "Kaoru\n\"Ah! I've got a bad feeling about this...\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.018",
    "jp": "るり\n「うえ・・・頭痛してきた・・・」\n{wait}",
-   "en": "",
+   "en": "Ruri\n\"Ugh... I'm getting a headache...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.019",
    "jp": "巴澄\n「まずいな・・・\n　疲れているのか・・・」\n{wait}",
-   "en": "",
+   "en": "Hasumi\n\"Not good... Is it tired...?\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.023",
    "jp": "仁\n「私としたことが、長期戦とは・・・」\n{wait}",
-   "en": "",
+   "en": "Jin\n\"How could I let this turn into a\ndrawn-out fight...\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g13.16.024",
    "jp": "武神\n「しまった、調子に乗りすぎたか」\n{wait}",
-   "en": "",
+   "en": "Takegami\n\"Blast, I got carried away.\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }
