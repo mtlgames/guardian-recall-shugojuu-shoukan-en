@@ -7,564 +7,626 @@
   {
    "id": "g23.08.000",
    "jp": "美由紀\n「うひゃ～・・・いるいるいるいる～」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yikes~... They're everywhere, everywhere,\neverywhere~\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.08.001",
    "jp": "真由\n「すっかり警戒されとるとやね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"They're really on their guard now.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.002",
    "jp": "ちかな\n「別口の、龍の使い手って連中の事も\n　あるからね・・・」\n{wait}「ま、敵も手強くなったけど、こっちも\n　仲間が増えると思えば、心強いだろ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"There's that other bunch of Dragon Wielders\nto think about too...\"\n{wait}\"Sure, the enemy's gotten tougher, but if\nit means more allies for us, that's\nreassuring, right?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.003",
    "jp": "美里\n「ここにいてくれればね」\n{wait}「だいいち仲間になるかどうかなんて、\n　まだ分からないじゃない」\n{wait}「それより今は、目の前の敵よ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"If they were here, sure.\"\n{wait}\"Besides, we don't even know if they'll\njoin us yet.\"\n{wait}\"Right now, worry about the enemy in\nfront of us.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.004",
    "jp": "美由紀\n「やったあ！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We did it!\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.08.005",
    "jp": "鈴音\n「これで龍脈、何個目なの？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"So how many dragon veins is that now?\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.006",
    "jp": "琴音\n「みっつ目・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"Three...\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.007",
    "jp": "真由\n「でも・・・会えんやったね。\n　例の人たち」\n{wait}「どこさん、おるとやろか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"But... we didn't meet 'em. Those folks we\nheard about.\"\n{wait}\"Where d'you s'pose they are?\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.008",
    "jp": "ちかな\n「がっかりしなさんな。\n　龍脈は、ほかにもあるんだから」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Don't be so down. There are other dragon\nveins out there.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.08.009",
    "jp": "真由\n「うん。わかっとる」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah. I know.\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.010",
    "jp": "美里\n「景子・・・！？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Keiko...!?\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.08.011",
    "jp": "　・・・景子。\n{wait}",
-   "en": "",
+   "en": "...Keiko.\n{wait}",
    "slots": [
     11
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.08.012",
    "jp": "「ああ・・・この感じ、さっきの・・・\n　あなたが、私を待っていた・・・？」\n{wait}",
-   "en": "",
+   "en": "\"Ah... This feeling, from before... Was it you\nwho was waiting for me...?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.08.013",
    "jp": "　そう・・・私は待っていた。\n　長い間・・・景子、あなたの中に\n　宿って、この日の来るのを。\n{wait}",
-   "en": "",
+   "en": "Yes... I have been waiting. For a long\ntime... dwelling within you, Keiko, for this\nday to come.\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.014",
    "jp": "「私の中に・・・」\n{wait}「ええ、感じます、あたたかい・・・\n　どうして今まで気づかなかったの\n　かしら・・・」\n{wait}",
-   "en": "",
+   "en": "\"Within me...\"\n{wait}\"Yes, I can feel it, so warm... How did I never\nnotice before...?\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.015",
    "jp": "　私は、飛龍。龍脈を守護する者。\n{wait}",
-   "en": "",
+   "en": "I am the Wind Dragon. One who guards the\ndragon vein.\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.016",
    "jp": "「飛龍・・・そう・・・\n　私は、真由さんの探していた、\n　仲間のひとりだったのね・・・」\n{wait}",
-   "en": "",
+   "en": "\"The Wind Dragon... I see... So I'm one of the\ncompanions Mayu-san was looking for...\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.017",
    "jp": "　私があなたに宿ったように、\n　龍に選ばれ、\n　その心を受け取った者たち。\n{wait}　あなたの仲間を探し出し、天龍と\n　地龍を目覚めさせるのです・・・\n{wait}",
-   "en": "",
+   "en": "As I came to dwell in you, there are\nothers chosen by the dragons, who\nreceived their hearts.\n{wait}Seek out your companions, and awaken the\nSky Dragon and the Earth Dragon...\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.018",
    "jp": "「ええ、わかってます・・・」\n{wait}「ああ、うれしい、私・・・\n　みんなの役に立てるのね」\n{wait}",
-   "en": "",
+   "en": "\"Yes, I understand...\"\n{wait}\"Oh, I'm so happy... I can be of use to\neveryone.\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.020",
    "jp": "美里\n「景子！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Keiko!\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.08.021",
    "jp": "景子\n「・・・美里さん、私・・・\n　龍の魂が・・・」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"...Misato-san, I... A dragon's soul...\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.08.022",
    "jp": "真由\n「・・・！」\n{wait}「聞いたとやね、龍ん声ば」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...!\"\n{wait}\"You heard it, didn't you? A dragon's voice.\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.023",
    "jp": "景子\n「私・・・はい、飛龍が」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"I... Yes. The Wind Dragon.\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.024",
    "jp": "真由\n「飛龍・・・！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"The Wind Dragon...!\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.025",
    "jp": "美由紀\n「すごいね・・・\n　なんかあらためて実感」\n{wait}「やっぱり、ほんとにいるんだね、龍」\n{wait}「他の仲間も、きっとすぐ見つかるよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Wow... It really hits me all over again.\"\n{wait}\"Dragons really do exist, huh?\"\n{wait}\"I bet we'll find the other companions\nsoon too.\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.026",
    "jp": "真由\n「うん・・・」\n{wait}「あたしら確かに龍に導かれとる・・・\n　そがん気がする」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Yeah...\"\n{wait}\"The dragons really are guidin' us... That's how\nit feels.\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.199",
    "jp": "美里\n「どうしたの、ボーっとして。\n　おかしいわよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"What's wrong, spacing out like that? It's not\nlike you.\"\n{wait}",
    "slots": [
     199
    ],
    "pre": 3,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.08.200",
    "jp": "景子\n「え？　あ、すいません」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Huh? Oh, I'm sorry.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.201",
    "jp": "美里\n「身体の調子でも悪いの？」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Are you feeling sick or something?\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.202",
    "jp": "景子\n「違います。大丈夫」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"No. I'm all right.\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.203",
    "jp": "美里\n「・・・ケガなんかしたら、\n　承知しないわよ」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"...You'd better not get hurt, you hear me?\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.204",
    "jp": "景子\n「はい・・・！」\n{wait}",
-   "en": "",
+   "en": "Keiko\n\"Okay...!\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.205",
    "jp": "美由紀\n「琴ちゃん、しっかり」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Koto-chan, hang in there.\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.08.206",
    "jp": "琴音\n「大丈夫・・・」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"I'm okay...\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.207",
    "jp": "美由紀\n「鈴ちゃん呼ぶ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Should I call Suzu-chan?\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.208",
    "jp": "琴音\n「・・・私、みんなの事、好き」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"...I like everyone.\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.209",
    "jp": "美由紀\n「・・・？」\n{wait}「あたしも、琴ちゃん好きだよ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"...?\"\n{wait}\"I like you too, Koto-chan?\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.210",
    "jp": "琴音\n「・・・だから、大丈夫」\n{wait}",
-   "en": "",
+   "en": "Kotone\n\"...So I'm okay.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.211",
    "jp": "ちかな\n「あんた、どっかで・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"You... I've seen you somewhere...\"\n{wait}",
    "slots": [
     211
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.08.212",
    "jp": "優婆離\n「由美様の仇、とらせてもらうよ！」\n{wait}",
-   "en": "",
+   "en": "Ubari\n\"I'll be avenging Yumi-sama now!\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.213",
    "jp": "ちかな\n「そうか！　愛媛にいたヤツか」\n{wait}「悪いけどあの一件じゃ、こっちも十分\n　不愉快な思いしてるんだ」\n{wait}「そんな理屈でやられるワケには\n　いかないね。美里のためにもね！」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Right! You were the one in Ehime.\"\n{wait}\"Sorry, but that whole business left a pretty\nbad taste in our mouths too.\"\n{wait}\"We're not about to go down for a reason like\nthat. Not for Misato's sake, either!\"\n{wait}",
    "slots": [
     213
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.214",
    "jp": "美里\n「おまえは・・・！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"You're...!\"\n{wait}",
    "slots": [
     214
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.08.215",
    "jp": "優婆離\n「由美様の仇、とらせてもらうよ！」\n{wait}",
-   "en": "",
+   "en": "Ubari\n\"I'll be avenging Yumi-sama now!\"\n{wait}",
    "slots": [
     215
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.216",
    "jp": "美里\n「仇？　仇ですって！？」\n{wait}「あんたたちに、ゆっこの何が\n　分かるって言うのよ！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"Avenge? Did you say avenge!?\"\n{wait}\"What could you people possibly understand\nabout Yukko!\"\n{wait}",
    "slots": [
     216
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.217",
    "jp": "優婆離\n「私たちは、ひとつの志に\n　結ばれた同志！」\n{wait}「おまえたちこそ、\n　何も分かっていない！」\n{wait}",
-   "en": "",
+   "en": "Ubari\n\"We are comrades, bound by a single\npurpose!\"\n{wait}\"You're the ones who understand nothing!\"\n{wait}",
    "slots": [
     217
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.218",
    "jp": "美里\n「なんにも知らないくせに・・・\n　なんにも知らないくせに！」\n{wait}",
-   "en": "",
+   "en": "Misato\n\"You don't know anything... You don't know\nanything at all!\"\n{wait}",
    "slots": [
     218
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.219",
    "jp": "鈴音\n「にゃっはっは、見て見て真由」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Nyahaha, look, look, Mayu!\"\n{wait}",
    "slots": [
     219
    ],
-   "pre": 3
+   "pre": 3,
+   "status": "done"
   },
   {
    "id": "g23.08.220",
    "jp": "真由\n「またなんば、くすねてきたと？\n　ようやる・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What've you swiped this time? Unbelievable...\"\n{wait}",
    "slots": [
     220
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.221",
    "jp": "鈴音\n「あー、そーゆー目で見るんだね。\n　いーよ、真由にはあげないから」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Oh, so that's the look you're giving me. Fine,\nMayu, you're not getting any.\"\n{wait}",
    "slots": [
     221
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.08.222",
    "jp": "真由\n「あ、それって・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Hey, that's...\"\n{wait}",
    "slots": [
     222
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.223",
    "jp": "鈴音\n「へへ～、欲しい？」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hehe~ You want it?\"\n{wait}",
    "slots": [
     223
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.224",
    "jp": "真由\n「いらん！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Nope!\"\n{wait}",
    "slots": [
     224
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.225",
    "jp": "鈴音\n「ふふーん、\n　真由ってば強情なんだから」\n{wait}「えい！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Hmmm, Mayu, you're so stubborn.\"\n{wait}\"Here!\"\n{wait}",
    "slots": [
     225
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.08.226",
    "jp": "真由\n「もう！　いらん言うとるのに～」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Jeez! I said I don't want it~\"\n{wait}",
    "slots": [
     226
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.227",
    "jp": "ちかな\n「よおし、いけ我王っ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"All right, go, Gao!\"\n{wait}",
    "slots": [
     227
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.08.228",
    "jp": "蘭\n「ちかなさん、すごーい」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Chikana-san, that's amazing!\"\n{wait}",
    "slots": [
     228
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.08.229",
    "jp": "ちかな\n「なんだい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"What is?\"\n{wait}",
    "slots": [
     229
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.230",
    "jp": "蘭\n「ううん。\n　戦い方が上手だなって思って」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Nothing. I just thought you're really good at\nfighting.\"\n{wait}",
    "slots": [
     230
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.231",
    "jp": "ちかな\n「コツがあるんだよ。\n　教えてやろうか？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"There's a knack to it. Want me to\nteach you?\"\n{wait}",
    "slots": [
     231
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.232",
    "jp": "蘭\n「ええっ！？\n　あの・・・痛くしないでね」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Huh!? Um... please don't make it hurt.\"\n{wait}",
    "slots": [
     232
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.233",
    "jp": "ちかな\n「・・・はいよ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...Here you go.\"\n{wait}",
    "slots": [
     233
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.08.234",
    "jp": "蘭\n「え、なあに？」\n{wait}",
-   "en": "",
+   "en": "Ran\n\"Huh? What's this?\"\n{wait}",
    "slots": [
     234
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   }
  ]
 }

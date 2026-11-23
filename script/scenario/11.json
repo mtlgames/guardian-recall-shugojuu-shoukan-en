@@ -7,106 +7,117 @@
   {
    "id": "g23.11.000",
    "jp": "ゆかり\n「聖龍・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Holy Dragon...\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "g23.11.001",
    "jp": "裕子\n「ゆかり！」\n{wait}「ゆかりちゃ～ん？\n　どしちゃったのかな～？」\n{wait}「ちょーっとゆかりってばっ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Yukari!\"\n{wait}\"Yukari-cha~an? What's gotten into you~?\"\n{wait}\"Hey, Yukari, come on!\"\n{wait}",
    "slots": [
     1
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.002",
    "jp": "ゆかり\n「・・・あ、なに・・・？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...Oh, what...?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.003",
    "jp": "裕子\n「なにって・・・もう、なんだかなー」\n{wait}「変だよあんた、\n　なんかボーッとしちゃってさあ、\n　なに聞いても上の空じゃん」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What? Jeez, what's with you...\"\n{wait}\"You're acting weird. You're all spaced out,\nand you're not listening to a thing I say.\"\n{wait}",
    "slots": [
     3
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.004",
    "jp": "ゆかり\n「え・・・そう？\n　そんなことないわよ・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Huh... Am I? No, I'm not...\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.005",
    "jp": "裕子\n「・・・じゅーしょーだね、こりゃ。\n　自分で分かってないんだから」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...It's serious, then. She doesn't even\nrealize it.\"\n{wait}",
    "slots": [
     5
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.006",
    "jp": "唯\n「直江さんが心配なのよ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"She's worried about Naoe-san.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.007",
    "jp": "裕子\n「そりゃそーだけど・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Well, sure, but...\"\n{wait}",
    "slots": [
     7
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.008",
    "jp": "「唯さんはさ、荏狗覇菟の事詳しい？\n　ああ、龍脈の事でもいいや」\n{wait}",
-   "en": "",
+   "en": "\"Yui-san, do you know much about the\nEgubado? Or the dragon veins, that\nworks too.\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.009",
    "jp": "唯\n「龍脈は、大地のエネルギーが\n　集中する場所よ」\n{wait}「風水では、エネルギーのうねるような\n　流れを、龍に例えている。\n　だから龍脈と言うのよ」\n{wait}「古くから伝わる伝説の中には、\n　龍脈に流れる膨大なエネルギーが\n　むやみに放出しないように」\n{wait}「龍がそれを抑えている・・・\n　という話もあるわ」\n{wait}",
-   "en": "",
+   "en": "Yui\n\"A dragon vein is a place where the earth's\nenergy gathers.\"\n{wait}\"Feng shui likens the surging, winding flow of\nthat energy to a dragon. That's why it's\ncalled a dragon vein.\"\n{wait}\"Some old legends say that so the vast\nenergy in a dragon vein doesn't burst out\nrecklessly...\"\n{wait}\"a dragon holds it in check.\"\n{wait}",
    "slots": [
     9
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.11.010",
    "jp": "裕子\n「へぇ・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh...\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.11.011",

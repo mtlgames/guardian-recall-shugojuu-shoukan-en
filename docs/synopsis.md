@@ -65,3 +65,23 @@ they promise to always believe each other.
 ## 06 (Kyoto ambush)
 Reiko leaves Sharihotsu (gender-neutral so far; Reiko calls them "Sharihotsu-chan") to ambush the girls and goes home.
 Chikana learns of the dragon voice. The Egubado know where Misato is. Keiko senses Misato's mind and leads them.
+
+## 07 (Misato and Keiko)
+Mer (polite, formal) warns Misato she has lost the will to live. Keiko follows; she is an empath (feels people's
+feelings on touch; feared since childhood; family lost in the Great Archipelago Earthquake, alone with Nagi; born
+1999, same age as Misato). She saw her old self in Misato's hatred; Misato takes her hand. Miyuki and Mayu arrive;
+Misato rejoins and calls Keiko her friend. Ran (looking for Kaoru) tells Misato she'll keep searching, even in her
+heart. Reiko is summoned by Suzaku after another defeat.
+
+## 08 (third dragon vein)
+Ubari seeks revenge for Yumi; Misato: "You don't know anything." Keiko hears the Wind Dragon (she bears a dragon's
+soul). Ran asks Chikana to teach her to fight. Suzune keeps pilfering items.
+
+## 09-10 (Hokkaido: Yuko, Yukari, Yui; Mt. Taisetsu)
+New party. Yuko Daichi (brash, short-tempered, hates hassle; on a solo trip; standard speech, not Hakata) is
+recruited by Yukari Hijiri (ex-Self-Defense Forces, cool, pushy, teasing) and names her rock Guardian Pochi (Yukari
+suggested "Boulder"). Yukari explains Guardians (= defensive instinct given form), Spirit, orders. Kasen attacks.
+Hasumi Naoe (Yukari's friend, a woman; firm, masculine speech) escorts Yui Iwamizawa (gentle; her family guarded the
+Taisetsu dragon vein, her presence sealed it in blizzards) and is captured by Seiryu (Satomi Azuma); taken to Mt.
+Osore. The Holy Dragon speaks to Yukari. Yui summons Saiki (sword-shaped, selfish, moody Guardian: "Five-ringed sword
+wherein life dwells...").

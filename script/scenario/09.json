@@ -7,934 +7,1036 @@
   {
    "id": "g23.09.000",
    "jp": "裕子\n「なんなのコレ、どうなってんの！？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What is this!? What's going on!?\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "g23.09.001",
    "jp": "ゆかり\n「荏狗覇菟よ。あなたも聞いた事くらい\n　あるでしょう？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"The Egubado. You've at least heard of them,\nhaven't you?\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.002",
    "jp": "裕子\n「東京を占拠してる？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"The ones occupying Tokyo?\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.003",
    "jp": "ゆかり\n「知ってるんじゃない」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"So you do know.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.004",
    "jp": "裕子\n「それしか知らないよ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"That's ALL I know!\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.005",
    "jp": "ゆかり\n「十分よ。いい加減に目の前の現実、\n　受け入れてちょうだいね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"That's enough. Now please, start accepting\nthe reality in front of you.\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.006",
    "jp": "裕子\n「あんた・・・何者・・・？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Who... who are you...?\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.007",
    "jp": "ゆかり\n「言ったでしょ？\n　聖ゆかり（ひじりゆかり）」\n{wait}「一応、元自衛官よ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I told you, didn't I? Yukari Hijiri.\"\n{wait}\"Formerly of the Self-Defense Forces, for\nwhat it's worth.\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.008",
    "jp": "裕子\n「自衛官って・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Self-Defense Forces...\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.009",
    "jp": "ゆかり\n「“元”よ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"'Formerly.'\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.010",
    "jp": "裕子\n「どっちだっていいよ。いったい\n　あたしに、何をさせたいんだ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Like I care which! What the heck do you want\nme to do?\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.011",
    "jp": "ゆかり\n「もちろん、\n　奴らを片づける手伝いをね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Help me take care of them, of course.\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.012",
    "jp": "裕子\n「ほ・・・本気？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Y-you're serious?\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.013",
    "jp": "ゆかり\n「もちろんよ」\n{wait}「さあ、呼んでちょうだい。\n　あなたの守護獣を」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Of course.\"\n{wait}\"Now, call it. Your Guardian.\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.014",
    "jp": "裕子\n「・・・これ？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...This thing?\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.015",
    "jp": "ゆかり\n「そうよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"That's right.\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.016",
    "jp": "裕子\n「む・・・ムチャ言うな～・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"D-don't ask the impossible~...\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.017",
    "jp": "ゆかり\n「ムチャじゃないわ。\n　私、確かに見たのよ」\n{wait}「あなたが落ちそうになった時・・・\n　さっきの話よ。階段から大きな腕が\n　出てきて、あなたを支えたのを」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"It's not impossible. I saw it with my\nown eyes.\"\n{wait}\"When you almost fell... just a moment ago. A\nhuge arm came out of the stairs and\ncaught you.\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.018",
    "jp": "裕子\n「し・・・知らないよ、\n　なんのコトだか・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I-I don't know what you're talking about...\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.019",
    "jp": "ゆかり\n「やってみもしないうちから、\n　否定するつもりなの？」\n{wait}「私とあなた、ふたりの守護獣がいれば\n　勝てない数じゃないわ。お願い、私を\n　信じて！　精神を集中して！」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You're going to deny it before you've\neven tried?\"\n{wait}\"With two Guardians, yours and mine, there\naren't too many to beat. Please, trust me!\nConcentrate!\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.020",
    "jp": "裕子\n「う・・・うー・・・」\n{wait}「だあああ！！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Ngh... Nnngh...\"\n{wait}\"Raaaah!!\"\n{wait}",
    "slots": [
     20
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.021",
    "jp": "「・・・うそ」\n{wait}",
-   "en": "",
+   "en": "\"...No way.\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.022",
    "jp": "ゆかり\n「すてき・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Wonderful...\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.023",
    "jp": "裕子\n「ど、どどど、どうしよう」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Wh-wh-wh-what do I do?\"\n{wait}",
    "slots": [
     23
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.024",
    "jp": "ゆかり\n「心配しないで。\n　守護獣が護ってくれるわ」\n{wait}「いい？　守護獣と私たちとは、気力で\n　つながっているの。気力がなくなれば\n　守護獣は消えてしまうわ」\n{wait}「守護獣が消えてしまうと、私たちも\n　動けなくなる。分かるわね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Don't worry. Your Guardian will protect you.\"\n{wait}\"Listen. We're connected to our Guardians by\nSpirit. If your Spirit runs out, your Guardian\nvanishes.\"\n{wait}\"And if your Guardian vanishes, you won't be\nable to move either. Understand?\"\n{wait}",
    "slots": [
     24
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.025",
    "jp": "裕子\n「わ・・・わかった！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"G... got it!\"\n{wait}",
    "slots": [
     25
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.026",
    "jp": "ゆかり\n「それから守護獣には、こまめに\n　指示を出すのを忘れないで」\n{wait}「ヘタに放っておくと、そのうち指示\n　通りに動いてくれなくなるわ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"And don't forget to give your Guardian\norders often.\"\n{wait}\"Leave it alone carelessly, and sooner or\nlater it'll stop following your orders.\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.027",
    "jp": "裕子\n「うん」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Okay.\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.028",
    "jp": "ゆかり\n「ああ、それから」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Oh, and one more thing.\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.029",
    "jp": "裕子\n「まだあんの！？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"There's MORE!?\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.030",
    "jp": "ゆかり\n「・・・あなた、短気そうだけど」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...You look like the hot-tempered type, but...\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "g23.09.031",
    "jp": "裕子\n「う・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Urk...\"\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.032",
    "jp": "ゆかり\n「間違っても、前面に出たりしては\n　ダメよ。かないやしないから」\n{wait}「戦うのは守護獣の役目で、私たちは\n　指示を出すだけ。\n　これは重要な事よ。忘れないで」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Whatever you do, don't charge out in front.\nYou won't stand a chance.\"\n{wait}\"Fighting is the Guardian's job; all we do is\ngive orders. This is important. Don't forget it.\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.033",
    "jp": "裕子\n「つ・・・疲れた・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"I'm... beat...\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.034",
    "jp": "ゆかり\n「初めてにしてはよくやったわ」\n{wait}「やっぱり私の目に、くるいは\n　なかったわね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You did well for a first time.\"\n{wait}\"I knew my eye didn't fail me.\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.035",
    "jp": "裕子\n「あのさー」\n{wait}「あたし、\n　なんかえらい事に巻き込まれたような\n　気がするんですけど」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Hey, um.\"\n{wait}\"I kinda feel like I just got dragged into\nsomething huge here.\"\n{wait}",
    "slots": [
     35
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.036",
    "jp": "ゆかり\n「そうね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I suppose so.\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.037",
    "jp": "裕子\n「そうねって、そんな平然と・・・\n　説明くらいしたらどうなのさ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"'I suppose so'? How can you be so calm... You\ncould at least explain.\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.038",
    "jp": "ゆかり\n「興味あるの？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Are you interested?\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.039",
    "jp": "裕子\n「・・・いい。やっぱやめた」\n{wait}「めんどくさい事キライなんだ、\n　あたし」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Never mind. Forget it.\"\n{wait}\"I hate stuff that's a hassle.\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.040",
    "jp": "ゆかり\n「・・・かわいそうに」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...Poor thing.\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.041",
    "jp": "裕子\n「何が」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What?\"\n{wait}",
    "slots": [
     41
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.042",
    "jp": "ゆかり\n「めんどくさい事キライなんでしょう？\n　じゃ、聞かない方がいいわよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You hate things that are a hassle, don't\nyou? Then you're better off not asking.\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.043",
    "jp": "裕子\n「あたしはね～」\n{wait}「めんどくさい事もキライだけど、\n　そーゆー奥歯に物の挟まったような\n　言い方は、もっとキライなの！」\n{wait}「さー、聞かせてもらおうか！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Listen, you~\"\n{wait}\"I hate stuff that's a hassle, but I hate it\neven more when people beat around the\nbush like that!\"\n{wait}\"Okay, let's hear it!\"\n{wait}",
    "slots": [
     43
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.044",
    "jp": "ゆかり\n「いいわよ。じゃ、\n　とりあえず私についてきて」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"All right. Then, for now, come with me.\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.045",
    "jp": "裕子\n「なに・・・\n　ここじゃできない話なわけ？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What... It's something you can't tell\nme here?\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.046",
    "jp": "ゆかり\n「違うわよ。会わせたい人がいるの。\n　話なら道々できるもの」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"No. There's someone I want you to meet. We\ncan talk on the way.\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.047",
    "jp": "裕子\n「え・・・ちょっと、\n　あたしの都合は？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh... Hold on, what about my plans?\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.048",
    "jp": "ゆかり\n「だって、あなた気ままな\n　ひとり旅でしょ？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Well, you're on a carefree trip by yourself,\naren't you?\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.049",
    "jp": "裕子\n「気ままなって・・・\n　まぁ、そうだけど」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Carefree... Well, yeah, but...\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.050",
    "jp": "ゆかり\n「なら決まりね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Then it's settled.\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.051",
    "jp": "裕子\n「・・・ゴーインな人だな」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Pushy, aren't you?\"\n{wait}",
    "slots": [
     51
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.052",
    "jp": "ゆかり\n「あなた、名前は？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"What's your name?\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.053",
    "jp": "裕子\n「大地裕子（だいちゆうこ）。\n　余裕の裕に子供の子で裕子ね」\n{wait}「あ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Yuko Daichi. 'Yu' like in 'laid-back,' 'ko'\nlike in 'kid.'\"\n{wait}\"Oh!\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.054",
    "jp": "「そうだ、忘れてた。ねぇねぇ、\n　コレなんだけど」\n{wait}",
-   "en": "",
+   "en": "\"Right, I forgot. Hey, hey, about this thing...\"\n{wait}",
    "slots": [
     54
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.055",
    "jp": "ゆかり\n「だから守護獣よ、あなたの」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Like I said, it's your Guardian.\"\n{wait}",
    "slots": [
     55
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.056",
    "jp": "裕子\n「そーじゃなくて・・・」\n{wait}「そもそも守護獣ってのは、\n　いったいなんなのさ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"That's not what I mean...\"\n{wait}\"What the heck even IS a Guardian?\"\n{wait}",
    "slots": [
     56
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.057",
    "jp": "ゆかり\n「困った人ね。えーと・・・つまりね」\n{wait}「人間の防御本能が実体化したもの\n　・・・とでも言えばいいかしら」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You're a handful. Let's see... In short...\"\n{wait}\"It's a person's defensive instinct given\nphysical form... I suppose you could say.\"\n{wait}",
    "slots": [
     57
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.058",
    "jp": "裕子\n「防御本能・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Defensive instinct...\"\n{wait}",
    "slots": [
     58
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.059",
    "jp": "ゆかり\n「ええ。だから本当は、誰にでもある\n　能力なんだけど・・・」\n{wait}「実は守護獣を自由に呼び出すのは、\n　そう簡単ではないの。かなりの\n　精神力と、それに集中力がいるわ」\n{wait}「その点あなたは、合格って事よ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Yes. So really, it's an ability everyone\nhas, but...\"\n{wait}\"Actually, summoning a Guardian at will isn't\nso easy. It takes a lot of willpower, and\nfocus too.\"\n{wait}\"In that respect, you pass.\"\n{wait}",
    "slots": [
     59
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.060",
    "jp": "裕子\n「つまり・・・これはあたしの\n　一部みたいなものなんだ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"So... this thing's kinda like a part of me.\"\n{wait}",
    "slots": [
     60
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.061",
    "jp": "ゆかり\n「そうね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"I suppose so.\"\n{wait}",
    "slots": [
     61
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.062",
    "jp": "裕子\n「・・・ねえ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Hey.\"\n{wait}",
    "slots": [
     62
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.063",
    "jp": "ゆかり\n「なに？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"What?\"\n{wait}",
    "slots": [
     63
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.064",
    "jp": "裕子\n「これ、なんて呼べばいい？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What should I call this thing?\"\n{wait}",
    "slots": [
     64
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.065",
    "jp": "ゆかり\n「え？　いや、なんてって・・・\n　好きに呼べばいいじゃない」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Huh? Well, call it... Call it whatever you like.\"\n{wait}",
    "slots": [
     65
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.066",
    "jp": "裕子\n「でも、あんたのには・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"But yours has...\"\n{wait}",
    "slots": [
     66
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.067",
    "jp": "ゆかり\n「ゆかりよ」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"It's Yukari.\"\n{wait}",
    "slots": [
     67
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.068",
    "jp": "裕子\n「・・・ゆかりのには、なんか\n　カッコイイ名前がついてるよ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"...Yukari's has some cool name and\neverything.\"\n{wait}",
    "slots": [
     68
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.069",
    "jp": "ゆかり\n「・・・だって自分で名乗ったもの」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...Well, it told me its name itself.\"\n{wait}",
    "slots": [
     69
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.070",
    "jp": "裕子\n「え？　喋るの？　なーんだ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh? They talk? Oh, okay.\"\n{wait}",
    "slots": [
     70
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.071",
    "jp": "「じゃあ、あんたも名乗ってよ」\n{wait}",
-   "en": "",
+   "en": "\"Then you tell me your name too.\"\n{wait}",
    "slots": [
     71
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.072",
    "jp": "守護獣\n「・・・ゴゴゴ・・・」\n{wait}",
-   "en": "",
+   "en": "Guardian\n\"...Rumble rumble...\"\n{wait}",
    "slots": [
     72
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.073",
    "jp": "ゆかり\n「うふふっ、ダメみたいね」\n{wait}「何かいい呼び名、\n　考えてあげなさいな」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Ufufu, doesn't look like it can.\"\n{wait}\"Think up a good name for it.\"\n{wait}",
    "slots": [
     73
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.074",
    "jp": "裕子\n「えー？　わかんないよ・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Huh? I dunno...\"\n{wait}",
    "slots": [
     74
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.075",
    "jp": "「うーん、うーん、うーん・・・」\n{wait}",
-   "en": "",
+   "en": "\"Hmmm, hmmm, hmmm...\"\n{wait}",
    "slots": [
     75
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.076",
    "jp": "ゆかり\n「そんなに考え込まなくても・・・\n　こんなのインスピレーションよ」\n{wait}「ねぇ、\n　岩みたいだから巌ってのはどう？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"You don't have to think so hard... It's all\nabout inspiration.\"\n{wait}\"Here, it looks like a rock, so how about\n'Boulder'?\"\n{wait}",
    "slots": [
     76
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.077",
    "jp": "裕子\n「いわおぉ？　やだー、ダッサダサ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Boulder? Ugh, that's sooo lame!\"\n{wait}",
    "slots": [
     77
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.078",
    "jp": "ゆかり\n「なによ・・・いいと思ったのに」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Well, excuse me... I thought it was good.\"\n{wait}",
    "slots": [
     78
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.079",
    "jp": "裕子\n「どうしよう・・・」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What should I do...\"\n{wait}",
    "slots": [
     79
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.080",
    "jp": "「うーん、うーん、うー・・・」\n{wait}",
-   "en": "",
+   "en": "\"Hmmm, hmmm, hmm...\"\n{wait}",
    "slots": [
     80
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.081",
    "jp": "「あ、これいい、ポチ！」\n{wait}",
-   "en": "",
+   "en": "\"Oh, this is good! Pochi!\"\n{wait}",
    "slots": [
     81
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.082",
    "jp": "ゆかり\n「ぽちぃ？」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Pochi?\"\n{wait}",
    "slots": [
     82
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.083",
    "jp": "裕子\n「ポチって感じだよ、カワイイし。\n　うん！　ポチで決まりね」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"It just feels like a Pochi. And it's cute. Yep!\nPochi it is.\"\n{wait}",
    "slots": [
     83
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.084",
    "jp": "ゆかり\n「・・・イヌじゃないんだから・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...That's a dog's name...\"\n{wait}",
    "slots": [
     84
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.085",
    "jp": "裕子\n「あんた今日からポチね」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"From today on, you're Pochi.\"\n{wait}",
    "slots": [
     85
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.086",
    "jp": "ポチ\n「ゴゴ・・・」\n{wait}",
-   "en": "",
+   "en": "Pochi\n\"Rumble...\"\n{wait}",
    "slots": [
     86
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.199",
    "jp": "ゆかり\n「しっかりしてちょうだい。\n　まったく、見ていられないわね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Get a grip. Honestly, I can't bear to watch.\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 5
+   "pre": 5,
+   "status": "done"
   },
   {
    "id": "g23.09.200",
    "jp": "裕子\n「そんなこと言ったって、\n　こんなの初めてなんだよ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Easy for you to say! This is my first time\ndoing this!\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.201",
    "jp": "ゆかり\n「怒鳴らないでよ。やっぱり短気ね」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Don't yell. You really are hot-tempered.\"\n{wait}",
    "slots": [
     201
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.202",
    "jp": "裕子\n「あのな～」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Why, you~\"\n{wait}",
    "slots": [
     202
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.203",
    "jp": "ゆかり\n「ほら、これ使いなさいな」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"Here, use this.\"\n{wait}",
    "slots": [
     203
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.204",
    "jp": "裕子\n「なに、これ？」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"What's this?\"\n{wait}",
    "slots": [
     204
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.205",
    "jp": "ゆかり\n「即効性の気力回復薬よ」\n{wait}「何本か持ってきてるから、使いたく\n　なったら自由に使っていいわよ。\n　ただし、味の方は・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"A fast-acting Spirit restorative.\"\n{wait}\"I brought several, so use them whenever\nyou like. Although, the taste...\"\n{wait}",
    "slots": [
     205
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.206",
    "jp": "裕子\n「うげっ！　なんだよ、これ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Bleagh! What IS this stuff?\"\n{wait}",
    "slots": [
     206
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.09.207",
    "jp": "ゆかり\n「・・・保証しないけど・・・」\n{wait}",
-   "en": "",
+   "en": "Yukari\n\"...isn't guaranteed...\"\n{wait}",
    "slots": [
     207
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.208",
    "jp": "裕子\n「先に言ってよ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Tell me that first!\"\n{wait}",
    "slots": [
     208
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.209",
    "jp": "裕子\n「どいてどいてどいて！\n　ちょっと、あんたジャマだってば」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Move, move, move! Hey, you're in the way!\"\n{wait}",
    "slots": [
     209
    ],
-   "pre": 4
+   "pre": 4,
+   "status": "done"
   },
   {
    "id": "g23.09.210",
    "jp": "迦旃\n「もうけたね、こんな所に守護獣使いが\n　いるなんて」\n{wait}「おまえ、おとなしく私に従うんだよ。\n　悪いようにはしないからね」\n{wait}",
-   "en": "",
+   "en": "Kasen\n\"What luck, finding a Guardian user in a place\nlike this.\"\n{wait}\"You'll come quietly and do as I say. I won't\ntreat you badly.\"\n{wait}",
    "slots": [
     210
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.211",
    "jp": "裕子\n「えーと、えーと・・・」\n{wait}「あーもう、この守護獣とかいうの、\n　なんで思ったように動かないんだ」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Umm, umm...\"\n{wait}\"Aaagh, why won't this Guardian thing move\nthe way I want?\"\n{wait}",
    "slots": [
     211
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.09.212",
    "jp": "迦旃\n「私を無視したね・・・いい度胸だよ」\n{wait}「・・・少し痛い目をみないと、\n　分からないようだね」\n{wait}",
-   "en": "",
+   "en": "Kasen\n\"Ignoring me, are you... You've got nerve.\"\n{wait}\"...Seems you won't learn until you get\nhurt a little.\"\n{wait}",
    "slots": [
     212
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.09.213",
    "jp": "裕子\n「だーっ！\n　うるさいって言ってんだろ！」\n{wait}",
-   "en": "",
+   "en": "Yuko\n\"Gaaah! I said shut up already!\"\n{wait}",
    "slots": [
     213
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   }
  ]
 }
