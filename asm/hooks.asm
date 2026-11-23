@@ -223,6 +223,17 @@ payload_end:
   j     txd_adv
   lw    v1, 0x24(a0)
 
+; ---- 0x80012EE0(dst, src): list rows (0x800174AC, DAY.BIN save list) widen ASCII to Shift-JIS (lowercase came out
+; as ？). Now ASCII is copied as is (drawn by the VWF): no digit/letter class, no space/colon match ----
+.org 0x80012F18                 ; was: andi v0, a2, 4 (digit)
+  andi  v0, a2, 0
+.org 0x80012F24                 ; was: andi v0, a2, 3 (letter)
+  andi  v0, a2, 0
+.org 0x80012F5C                 ; was: addiu v0, zero, 0x20 (space -> 8140)
+  addiu v0, zero, 0x100
+.org 0x80012F64                 ; was: addiu v0, zero, 0x3A (colon -> 8146)
+  addiu v0, zero, 0x100
+
 ; ---- scenario block buffer 0x800D16F8 (0x2800 bytes: the next symbol is 0x800D3EF8) -> SCEN_BUF ----
 .org 0x80044B4C
   lui   s0, hi(SCEN_BUF)

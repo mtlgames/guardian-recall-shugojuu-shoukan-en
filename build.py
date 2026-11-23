@@ -68,7 +68,12 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--identity", action="store_true", help="skip patching (output must equal the dump)")
     ap.add_argument("--marker", action="store_true", help="marker build: every string = its id + filler")
+    ap.add_argument("--qa", action="append", default=[], metavar="ID=TEXT",
+                    help=r"override one record's text (\n = newline), e.g. the glyph torture line")
     a = ap.parse_args()
+    for q in a.qa:
+        k, v = q.split("=", 1)
+        insert.QA[k] = v.replace("\\n", "\n")
     check_rom.check()
     for n in DISCS:
         print(build_disc(n, ROOT / f"build/disc{n}", patched=not a.identity, mode="marker" if a.marker else "en"))

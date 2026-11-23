@@ -151,3 +151,8 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
   stores VALUE into a range), `tools/lua/dumpram_at.lua` (several frames: `DUMP_AT='5,600'`).
 - Probes: `tools/lua/exec_log.lua` (log hits on addresses, --debugger), `tools/lua/watch_u32.lua` (log u32 or
   *pointer changes per frame), `tools/lua/pc_log.lua` (pc/ra every N frames + pause catcher for hangs).
+- **tac_search stall is not ours** (2026-11-23): on the cursor reaching SEARCH (~frame 4950, before ○) the game jumps
+  to 0x6420 from the 3D primitive dispatch (0x80074C88, ra 0x80079C28; packet pointer 0x801617C0 = frame struct
+  +0x211C). The **original disc** does the same with `one.py tac_search --orig` (twice, also with 120 more frames before
+  ○); some marker builds pass, depending on build only (load timing). Marker-table bisect (MARKER_KEEP/MARKER_SAME)
+  chased this for hours: when a scene stalls, run it with `--orig` first.

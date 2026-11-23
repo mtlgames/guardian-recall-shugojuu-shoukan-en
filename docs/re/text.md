@@ -39,7 +39,6 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
 - English: bytes 0x20-0x7E go through `cell_tab` (hook at 0x80044C48) to cells drawn from `fonts/vwf12.txt`:
   letters/digits replace the full-width Ａ-Ｚ ａ-ｚ ０-９ glyphs (now left-aligned), punctuation uses free cells. Every
   lookup stores the advance in `last_adv` (ASCII: width + 1; else 13); the scenario renderer adds it (0x80044480).
-  Other renderers still advance 13 per byte (monospace English) until hooked.
 - RAM for new code/data: the malloc arena (descriptor 0x8015B608, init 0x8006A2C4(base [0x800120DC]+0x800, size
   0x801F7700 - [0x800120DC]) set in main 0x8001A6FC) is cut to end 0x801E7F00; ours = 0x801E8000-0x801F7FFF
   (highest arena block end seen in 11 scene dumps: 0x801D1284). Payload at 0x801F0000, copied there by a boot stub
@@ -48,6 +47,24 @@ EXE RAM = file offset + 0x8000F800 (t_addr 0x80010000, header 0x800; text size 0
   -> moved to 0x801E8000, 0x8000 bytes. Battle quotes (g13): loader 0x80044BB4 mallocs 0x2800 -> 0x4000.
 - Scenario box (measured, ev02/ev03 marker shots): pen x = 70 (top and bottom box), name line + up to 3 text lines,
   17 px apart; page cursor at x 296-301 between lines 2 and 3. JP lines end at 70 + 17 x 13. Budget: 224 px/line.
+
+- Space (0x20) has a blank cell of its own (a lookup miss draws ？ in the txd renderer and doesn't advance in
+  0x80044624). The hook also sets `last_sjis` (1 after a Shift-JIS lookup, 0 after ASCII).
+- VWF per renderer (verified in game with the marker build, 2026-11-23): generic 0x80043A64 (pen s3; lookup miss and
+  glyph both go through `gen_adv`), 0x80044624 (pen s2, `gen2_adv`; a miss now advances too), txd markup default
+  font mode (`txd_adv` at 0x80017DC8: x += &g pitch + last_adv - 13).
+- **txd markup renderer** 0x800133D4 (context struct: x +0x14, y +0x18, &g pitch +0x24, line height +0x28, &f chars
+  per line +0x2C, lines +0x30, chars on the line +0x34). Handler table 0x800913EC ('c p s g f a n e d h y i m b').
+  Auto-wrap 0x80017EAC: when +0x34 >= +0x2C (except before 、。) x = 0, y += +0x28. `txd_adv` counts Shift-JIS
+  glyphs only, so English never auto-wraps: the inserter must wrap English with &n() at (+0x2C x +0x24) px.
+  Glyph draw 0x80017F10 (lookup miss -> ？ 0x8148). Font modes +0x0/+0x8/+0xC (other advance paths, not hooked).
+- **Dictionary pages** (DIC.BIN, overlay 0x80166218; 0xB38 = layout of one page into glyph records, 0x2708 =
+  per page, 0x2600 = all 90 entries at list build, 0x1CEC = draw one glyph with the page-turn transform). Its own
+  grid: x = col * 14 + 0x28 (left page) / 0xAE (right), y = row * 16 + 0x23, 8 columns; only &c and &n. Records
+  were 26 bytes in the task workspace (0x36934 bytes, glyph array ws+0x49B0..ws+0x3688C = 7856 records; JP uses
+  6045): English markers needed 11272 and overran into the next arena block (list pointers -> sprintf hang).
+  Patched: col counts pixels (wrap when col >= 100), ASCII advance = width + 1, spaces keep no record, records 10
+  bytes (corners rebuilt per draw by `dic_expand`): capacity 20444.
 
 ## Scenario script: UNN.PAK group 23 (verified: decoded, RAM match)
 - Group 23 = UNN.PAK 0x1B87000, 0x60000 bytes. Sub-table (69 entries) at EXE RAM 0x80092734 (see containers.md).

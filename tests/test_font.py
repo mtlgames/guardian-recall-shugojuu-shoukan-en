@@ -45,7 +45,8 @@ ORIG = {0x8001A6FC: "lui v0,0x801f", 0x80044C48: "move a2,a0", 0x80044480: "addi
         0x80044F40: "lui v1,0x800d", 0x80044F44: "addiu v1,v1,0x16f8", 0x80044FE8: "lui a0,0x800d",
         0x80044FEC: "addiu a0,a0,0x16f8", 0x80044BC0: "addiu a0,zero,0x2800",
         0x80043B60: "bnez v0,0x80043af4", 0x80043D6C: "j 0x80043ab0", 0x8004471C: "bnez v0,0x80044680",
-        0x80044928: "j 0x80044680", 0x80017DC8: "lw v0,0x14(a0)"}
+        0x80044928: "j 0x80044680", 0x80017DC8: "lw v0,0x14(a0)", 0x80012F18: "andi v0,a2,4",
+        0x80012F24: "andi v0,a2,3", 0x80012F5C: "addiu v0,zero,0x20", 0x80012F64: "addiu v0,zero,0x3a"}
 # DIC.BIN (overlay base 0x80166218): file offset -> original first word
 DIC_ORIG = {0xC1C: "slti v0,s1,8", 0xC24: "addiu s1,s1,1", 0xCD0: "slti v0,s1,8", 0xD4C: "addiu s1,s1,1",
             0xD58: "addiu s5,s5,0x1a", 0xD60: "addiu s2,s2,0x1a", 0xD6C: "addiu v0,v0,1", 0x227C: "sll v0,a0,3",

@@ -68,6 +68,8 @@ B36 = "0123456789abcdefghijklmnopqrstuvwxyz"
 PREFIX = {"exe": "E", "action": "A", "battle": "B", "hen": "H", "day": "D", "brain": "R"}
 TAGS = {}  # marker tag -> id, written to work/marker_tags.tsv by a marker build
 KEEP = os.environ.get("MARKER_KEEP")  # bisecting a marker-build bug: ids matching this regex keep the Japanese
+SAME = os.environ.get("MARKER_SAME")  # ids matching this regex get filler of the Japanese byte length per line
+QA = {}  # id -> text overriding en/marker (build.py --qa ID=TEXT): stress lines, glyph torture line
 
 
 def b36(n):
@@ -115,6 +117,10 @@ def marker_lines(s):
 
 def encoder(mode, glyphs):
     def enc(s):
+        if s["id"] in QA:
+            return script_io.enc(QA[s["id"]])
+        if mode == "marker" and SAME and re.match(SAME, s["id"]):
+            return script_io.enc(marker_lines(s))  # shortcut: drops {wait} codes; for strings without them
         if mode == "marker" and not (KEEP and re.match(KEEP, s["id"])):
             return script_io.enc(marker_text(s, glyphs))
         if mode == "marker":
@@ -141,6 +147,8 @@ def text_groups(mode):
 
 def record_bytes(s, mode, marker):
     """Encoded text of a record (no NUL), or None to keep the original."""
+    if s["id"] in QA:
+        return script_io.enc(QA[s["id"]])
     if s.get("status") == "data":
         return None
     if mode == "marker" and KEEP and re.match(KEEP, s["id"]):

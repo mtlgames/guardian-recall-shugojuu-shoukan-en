@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 5. Engine spike and marker build in progress (scenario VWF works in game). Last build: 2026-11-23
-  `build.py --marker` (scenario + battle-quote markers), smoke ok, ev01-03 show markers.
+- **Phase:** 5. Width gate in progress (VWF in every renderer, full marker build tours 125 scenes). Last build:
+  2026-11-23 `build.py --marker --qa g23.01.000=<torture line>`, ev02 shows it correctly.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -63,12 +63,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     `tools/insert.py` + `build.py [--marker]` rebuild g23/g13 blocks (UNN repack moves groups: works in game).
     **Fixed build bug:** layout.xml pointed at the pristine tree (no patch ever reached the disc). Scenario box
     measured: 224 px/line, 3 lines/page + name. tests/test_font.py. `tools/re.py` (fn/dis/jal xref helper).
-- **Next (phase 5 rest):** (1) marker tour of g13 battle quotes + item help (where drawn, which renderer, box
-  width); (2) VWF for the other renderers (0x80043A64 generic UI ~200 callers, 0x80044624, 0x80017F10, DIC.BIN) and
-  the txd markup renderer (not yet traced: does it use the same lookup? `&g(w,h)` spacing); (3) marker insertion
-  for txd (GRETC repack), evd names (bytecode growth: check jump offsets), EXE/overlay strings (in-place `room`,
-  else relocate into the payload area and repoint refs); (4) tour every box variant with markers, record budgets in
-  a window-data file (e.g. `docs/windows.md` + lint), glyph torture line; non-text strings found -> status `data`.
+  - 2026-11-23 (9): VWF in generic UI 0x80043A64, 0x80044624, txd renderer (0x80017DC8), list-row converter
+    0x80012EE0 (keeps ASCII), DIC.BIN grid (compact 10-byte glyph records); blank space cell. Markers for txd, evd
+    names, EXE/overlay strings (`work/marker_tags.tsv` maps short tags to ids). Full marker tour 124/125 ok.
+    tac_search "stall" = **original disc does it too** (docs/re/debug.md). Width gate: `tools/windows.py` (budgets +
+    fit lint + byte budget for in-place records, `--cover`), evidence in `docs/windows.md`; measured: scenario,
+    battle quote/comment, power help, charfile profile, dictionary. `build.py --qa ID=TEXT` override; glyph torture
+    line OK in the scenario box. Helpers: tools/find_ref.py, tools/boxedge.py, tools/debug/{one,keep_re}.py,
+    tools/lua/regs_at.lua.
+- **Next (phase 5 rest, done-when = every variant measured + torture line):** `windows.py --cover` still lists
+  guess variants: (1) other g13 help (02 item, 04/10 think, 05 06 17 18 info/ring help, 07 traits): tour each help
+  box with markers (tac_think/tac_info help, ring help bar, item help) and split VARIANTS; (2) txd lists/pages (gd
+  rep tu day save op, cf headers): rows are centred, measure per screen from the opt_*/day_* marker shots;
+  (3) EXE/overlay strings: px per screen (unit menu, ring labels, tac_* windows, title/DAY menus) on top of the
+  enforced byte room; strings that need more room -> relocate into the payload area and repoint `refs`;
+  (4) evd unit names: bytes <= JP (朱雀 = 4 bytes) blocks most English names: grow the evd op (check jump offsets) or
+  a name table hook; (5) torture line through the txd, generic UI and DIC renderers (`--qa` on a cf/dic/exe id).
 - **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).
@@ -79,5 +89,6 @@ Updated at the end of every session. Keep it to what the next session needs; his
   output > ~4 KB: read files with limit, keep command output short. Exec/read hooks need `emu.py --debugger`.
   `codex exec` hit its usage limit (until 2026-11-26): no codex reviews before then. Other repos' emulators share
   this machine: emu.py runs can be 10x slower under load; kill only PIDs whose command line has this repo.
-  A game exception pauses PCSX (run ends 124): `tools/lua/pc_log.lua` logs the PC. Yes/no prompts in this game
+  When a scene stalls on a patched build, run `one.py NAME --orig` before bisecting (tac_search stalls on the
+  original too). A game exception pauses PCSX (run ends 124): `tools/lua/pc_log.lua` logs the PC. Yes/no prompts in this game
   often default to いいえ. play.py `--every` sheets are 12 full frames: expensive to read, prefer single shots.

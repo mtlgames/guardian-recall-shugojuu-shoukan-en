@@ -7,6 +7,7 @@ for a in tostring(ADDRS):gmatch("0x%x+") do
   local addr = tonumber(a)
   hits[addr] = 0
   L.on_exec(addr, function()
+    if frame < (FROM or 0) then return end  -- --var FROM=N: only from frame N
     hits[addr] = hits[addr] + 1
     if hits[addr] > (MAXHITS or 50) then return end
     local r = PCSX.getRegisters().GPR.n
