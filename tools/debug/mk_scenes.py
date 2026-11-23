@@ -92,6 +92,8 @@ RING = MAP + ";6 triangle;60 -" + ";6 down;40 -" * 6   # ring: UNIT MAP MISSION 
 for name, keys, frames, note in [
         ("tac_unit_menu", ";6 circle;60 -", "1900", "unit command menu: 移動 情報 行動 思考 待機"),
         ("tac_action", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;60 -", "1950", "行動 submenu: 超力 アイテム 話す 送還"),
+        ("tac_item", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 down;15 -;6 circle;60 -;6 circle;60 -"
+         ";6 circle;60 -", "2200", "行動 > アイテム > ○ ○ ○ (use the held item)"),
         ("tac_power", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -", "2000",
          "超力 list + help box"),
         ("tac_power_cost", ";6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -;6 circle;60 -", "2100",

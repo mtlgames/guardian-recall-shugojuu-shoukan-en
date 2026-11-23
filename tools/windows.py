@@ -113,14 +113,16 @@ VARIANTS = [
     dict(name="SEARCH tab", ids=r"action\.010(34|3c|44)$", kind="lines", px=30, lines=1, status="measured"),
     # 思考 submenu (tac_think_menu): pen x 240, box right now 313; Berserk Alert popup: text x 123, box right 193
     dict(name="think submenu", ids=r"exe\.01(38c|398|3a4)$", kind="lines", px=73, lines=1, status="measured"),
-    dict(name="Berserk Alert popup", ids=r"exe\.01330$", kind="lines", px=70, lines=1, status="measured (code)"),
+    # shot: tac_turnend + MP 0 pokes + tools/lua/berserk.lua (docs/windows.md): text x 123-187 inside box 118-193
+    dict(name="Berserk Alert popup", ids=r"exe\.01330$", kind="lines", px=70, lines=1, status="measured"),
     # Retreat Proposal title (box x 108 w 96, text x 114) and TURN END prompt (box x 115 w 182, text x 125): code
     # card/slot labels (table 0x8009CB38: Spare A-D, Normal, Never Registered, For Yoshida-san): only printf'd by a
     # leftover debug table dump (0x8006AB40, "table[%d] = %2d .... [%s]"); never drawn
     dict(name="debug printf labels", ids=r"exe\.(a6b[c-f][0-9a-f]|0287[0c])$", kind="lines", px=200, lines=1,
          bytes="room", status="not drawn (debug printf)"),
-    # Ap-cost popup row "Restore Sp": label x 193, stat name moved to x 236 (asm/hooks.asm)
-    dict(name="Ap popup Restore", ids=r"exe\.a6288$", kind="lines", px=41, lines=1, status="measured (code)"),
+    # Ap-cost popup row "Restore Sp": label x 193, stat name moved to x 236 (asm/hooks.asm); shot "Restore Mp" via
+    # tac_power_cost + tools/lua/setreg.lua ADDR=0x80033854 REGS='s4=0,s3=2' (Luck sent down the restore path)
+    dict(name="Ap popup Restore", ids=r"exe\.a6288$", kind="lines", px=41, lines=1, status="measured"),
     # tac_retreat + turnend.lua RETREAT=1: "Retreat Proposal" shot inside the widened box
     dict(name="Retreat title", ids=r"action\.01068$", kind="lines", px=88, lines=1, status="measured"),
     # tac_turnend (ring item 7): "Execute Order with current Tactic" shot whole inside the widened box
@@ -129,8 +131,9 @@ VARIANTS = [
     # x 190 -> 77 px; "End Turn" / "Retreat" shot. Retreat is also row 3 of the prompt list above (events 5, 8...)
     dict(name="TURN END choice", ids=r"action\.010(ec|c8)$", kind="lines", px=77, lines=1, status="measured"),
     # HEN team start prompt (state 9, 0x8016A2C4): text x 100 y 100, Yes/No below at x 126, no box: 200 px to the
-    # screen edge (code only: needs a multi-team event, not shot yet)
-    dict(name="HEN start prompt", ids=r"hen\.00320$", kind="lines", px=200, lines=1, status="measured (code)"),
+    # screen edge. Shot: hen_unit + tools/lua/poke.lua EVERY=1 AT=4700 POKE='0x8016B02C=0x5;0x8016B034=0x9' (team
+    # select mode 5, sub-state 9): "Start the battle?" x 100-181
+    dict(name="HEN start prompt", ids=r"hen\.00320$", kind="lines", px=200, lines=1, status="measured"),
     # Forms (type table 0x8009BC34, 1-26): 情報 type row x 88 -> "Df." label x 186 (tac_info_g + unit_type.lua:
     # "Overlord Guardian" 88 shot); ring > UNIT Guardian tab Type column draws the short form (type_short, D14)
     dict(name="Form name", ids=r"exe\.02(5[6-9a-f]|6[0-5])[0-9a-f]$", kind="lines", px=96, lines=1, bytes="room",
@@ -168,9 +171,17 @@ VARIANTS = [
     # "%s: Choose a target" (0x800338BC): box x 67 w 186, text x 76 -> 172
     dict(name="target prompt", ids=r"exe\.0145c$", kind="lines", px=172, lines=1, args=["Psi name"],
          status="measured (code)"),
-    # "Obtained '%s'" (0x8005F3BC, message task 0x80060908, box not traced): map message box width assumed
-    dict(name="obtained message", ids=r"exe\.02410$", kind="lines", px=176, lines=1, args=["item name"],
-         status="guess (map message box)"),
+    # "Obtained '%s'" (message box 0x80047090: box x 10-310, text start ~160 - bytes * 3.25). Shot: tac_item + poke
+    # + setreg (tools/lua/setreg.lua): "Obtained 'Scarlet Wing Necklace'" x 55-210. 240 keeps a byte-centred line
+    # of the longest item inside the box
+    dict(name="obtained message", ids=r"exe\.02410$", kind="lines", px=240, lines=1, args=["item name"],
+         status="measured"),
+    # BATTLE.BIN Psi/trait names (records 0x801713E8 + 12n: +4 glyph-index list into split.tim = what the battle
+    # draws, graphics G9; +8 this string) and battle-bg element / boss names (records 0x80171BCC + 16n: +0 BTBG, +4
+    # BTBX file, +8 this string, +0xC flag): code reads only +4 / +0 / +4 / +0xC (xref of every lui/addiu|load
+    # pair onto both tables, EXE + all overlays; no pointer word to them). Never drawn: no width limit.
+    dict(name="battle unread labels", ids=r"battle\.(000[0-9a-c][0-9a-f]|000d[0-8]|00[89][0-9a-f]{2})$",
+         kind="lines", px=200, lines=1, bytes="room", status="not drawn (no reader)"),
     # widths the English needs beyond what the screen holds or was measured (tools/exe_pending.txt, one id per
     # line): phase 7 widens the box/column or condenses (D4, D13); a shot must replace each with a measured row
     dict(name="EXE engine pending", ids=PENDING, kind="lines", px=170, lines=1, bytes="room",

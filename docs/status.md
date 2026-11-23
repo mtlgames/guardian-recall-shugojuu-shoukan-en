@@ -2,10 +2,9 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 7. Insert, fit, check (reopened 2026-11-24 by the phase-7 review: D13 keeps phase 7 open until the 34
-  pending BATTLE.BIN widths are measured in a shot; see Next (0)).
-  Last build: 2026-11-24 `build.py` (write check + jp_refs ok both discs), fit lint 0, smoke ok, disc 1 .bin sha1
-  cd72f0d45b8d.
+- **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
+  left from the (0)/(0b) list; see Next).
+  Last build: 2026-11-24 `build.py` (write check + jp_refs ok both discs), fit lint 0, smoke ok.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -218,20 +217,25 @@ Updated at the end of every session. Keep it to what the next session needs; his
     box (`px="bytes"`): "%s evolved into %s" (quotes dropped: 48-byte screen limit). Important 4: TURN END prompt
     (ring item 7 = new scene tac_turnend), its End Turn/Retreat variant and Retreat Proposal (tac_retreat) shot via
     new probe tools/lua/turnend.lua; Berserk Alert, Ap popup, HEN start prompt still code-only (below).
-- **Next (phase 7, then phase 8):** (0) Battle labels still pending (34 ids in
-  tools/exe_pending.txt: Psi/trait effect labels, elements, 真竜樹): no standard text-draw call in BATTLE.BIN; the
-  scene `battle` (first battle, ~40000 frames) shows only the VS banner. Find a battle where a passive Psi/trait
-  fires (or exec_log on BATTLE.BIN draw code), shoot, replace with measured rows. VS banner: unit names right-aligned
-  ending x ~120 (left) / from x ~205 (right): check a long enemy name (True Ryuki parts 108 px).
-  (0b) Still "measured (code)", shoot to close phase 7: Berserk Alert exe.01330 (0x8002DD70, state 0x800C3038 = 0xB,
-  +2 = 1; trigger unknown: poke it), Ap popup "Restore" exe.a6288 (needs a restore Psi, e.g. Cure), HEN start prompt
-  hen.00320 (HEN state 9; ev43 has no team select: a multi-team event, Four Gates ch. 33-34), obtained message
-  exe.02410 (box not traced). Review Minors 9, 12, 13 done (pre-commit skips only .md docs, decisions order, 宴 typo
-  note in glossary); still open: 6 blank-padding rule, 7 keep-list for empty en, 8 orphan-page lint, 10 check.py
-  158 s, 11 branch-target check in writecheck.
-  Phase 7 is done when (0) and (0b) are shot and measured; then phase 8.
-  (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py), graphics-text survey
-  G1-G18 redraws, inkbox on choice/centred boxes, stress saves, textcover.
+  - 2026-11-24 (14): **phase 7 closed.** (0) The 34 BATTLE.BIN ids are never read: trait records 0x801713E8+12n
+    draw a glyph-index list (+4, split.tim = graphics G9), element/boss bg records 0x80171BCC+16n read +0/+4/+0xC
+    only; the strings at +8 have no reader (xref EXE + all overlays). windows row "battle unread labels";
+    tools/exe_pending.txt empty. **VS banner fix** (asm/hooks.asm vs_left, 0x8004FF6C): the left name was
+    right-aligned by byte count (English ended short, 108 px names ran off-screen left); now 91 - pixel width, ends
+    x 119 (shot: battle + `--qa exe.a6414=True Ryuki L. Shoulder`). Right "True Ryuki R. Shoulder" 203-309 touches
+    the plate end-cap (polish.md). (0b) all shot: Berserk Alert (tools/lua/berserk.lua), Ap "Restore Mp" and
+    "Obtained 'Scarlet Wing Necklace'" (new tools/lua/setreg.lua: register writes in exec hooks), HEN "Start the
+    battle?" (poke.lua EVERY=1: team-select mode 0x8016B02C=5, sub-state 9). New scene tac_item (行動 > Item);
+    inventory = item counts u8[60] at 0x80157F70. Commands per row in docs/windows.md.
+- **Next (phase 8):** (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
+  the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
+  Psi/trait label glyphs in GRETC mill 004 split.tim, composed from glyph-index lists at BATTLE 0x80171374+: redraw
+  or re-point to English label art), inkbox on choice/centred boxes, stress saves, textcover. A battle where a
+  passive Psi/trait fires is still unshot (needed for G9).
+  Review Minors still open: 6 blank-padding rule, 7 keep-list for empty en, 8 orphan-page lint, 10 check.py 176 s,
+  11 branch-target check in writecheck. Other rows still "measured (code)" (printf messages, Psi active / target
+  prompt): shoot in the phase-8 tour. insert.repoint fails on exe.01324 ("????", pair p8002C9D8 builds 0x80014020)
+  if that string ever outgrows its room.
   Earlier phase-7 notes kept for reference:
   (a1) Unit-type name table = flat pointer list at EXE 0x80095D08 (index = unit type; short species names a63xx-a65xx
   and long names 015b4-0270c mixed; master names 01830-0192c too); 3 code refs (EXE file +0x2cbd4/+0x2ce30/+0x2cea8).

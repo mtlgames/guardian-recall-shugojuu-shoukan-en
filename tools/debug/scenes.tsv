@@ -110,6 +110,7 @@ ev69	2	69			1800	night street field
 ev70	2	70			1800	tactics map, Turn 01 (units, HP/AP bars) after its intro
 tac_unit_menu	2	70		1750 -;6 circle;60 -	2300	unit command menu: 移動 情報 行動 思考 待機
 tac_action	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;60 -	2350	行動 submenu: 超力 アイテム 話す 送還
+tac_item	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 down;15 -;6 circle;60 -;6 circle;60 -;6 circle;60 -	2600	行動 > アイテム > ○ ○ ○ (use the held item)
 tac_power	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -	2400	超力 list + help box
 tac_power_cost	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -;6 circle;60 -	2500	超力 > ○ on the first Psi (Luck): target prompt (the Ap-cost Restore popup needs a restore Psi: not reached)
 tac_think	2	70		1750 -;6 circle;40 -;6 down;15 -;6 down;15 -;6 down;15 -;6 circle;40 -;6 circle;60 -	2450	思考 list (guardian orders) + help box

@@ -114,3 +114,4 @@ or `waived: reason`).
 - [ ] dic.0004 - "Lost fast." -> "...but was easily beaten."; dic.0130 - add "so it doesn't appear in the game"
 - [ ] gd.0139 - "A Bone Boxer with more mobility, its weak point." -> "A Bone Boxer with better mobility, its old weak point."
 - [ ] exe.026dc-0271c - True Ryuki boss parts abbreviated "R. Arm / L. Shoulder" for the 108 px status-panel name (D14); revisit if a wider name slot is found
+- [ ] exe.026fc/0270c - VS banner: "True Ryuki R./L. Shoulder" (108 px) runs onto the right plate's end-cap (x 203-309, plate ~297) and past the left plate's start ornament (x 11); legible, all other names fit. Visual QA (phase 8) to judge

@@ -355,6 +355,33 @@ type_short_tab:                 ; 0 = keep the table's own string
 @@t25: .asciiz "Demon"
 @@t26: .asciiz "Super"
 .align 4
+; ---- battle VS banner, left name (0x8004FEF4, txd renderer): right-aligned to 7 full-width cells by byte count,
+; (7 - strlen / 2) * 13; now 91 - pixel width (ASCII adv_tab, Shift-JIS pair 13). a0 = name; v0 = x offset.
+vs_left:
+  la    t1, adv_tab
+  li    v0, 91
+@@loop:
+  lbu   t0, 0(a0)
+  nop
+  beqz  t0, @@done
+  sltiu t2, t0, 0x80
+  beqz  t2, @@sjis
+  addiu a0, a0, 1
+  addiu t0, t0, -0x20
+  bltz  t0, @@loop
+  addu  t0, t1, t0
+  lbu   t0, 0(t0)
+  nop
+  b     @@loop
+  subu  v0, v0, t0
+@@sjis:
+  addiu a0, a0, 1
+  b     @@loop
+  addiu v0, v0, -13
+@@done:
+  jr    ra
+  nop
+.align 4
 evd_names:
   .incbin EVDNAMES
 .if org() > STR_POOL
@@ -487,6 +514,17 @@ PSI_W       equ 36             ; tac_power list: box, highlight bar and cost col
   addiu a3, zero, 75
 .org 0x8002DD94
   addiu a0, zero, 123
+; battle VS banner left name (scene battle, ~f39900): x offset from pixel width (vs_left), not byte count
+.org 0x8004FF6C                 ; was: jal 0x8006BB54 (strlen); delay slot move a0, s3 kept
+  jal   vs_left
+.org 0x8004FF74                 ; was: srl/li/subu/sll/addu/sll/addu = (7 - v0 / 2) * 13
+  move  a1, v0
+  nop
+  nop
+  nop
+  nop
+  nop
+  nop
 
 .close
 

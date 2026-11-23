@@ -19,7 +19,7 @@ Static sweep (rebuild into work/, not in git):
 | G6 | Title screen 守護獣召喚 + ガーディアンリコール ruby | UNN g21 0x1A5EC10 (96x40), 0x1A5F1D8 (64x36); logo with small subtitle UNN g09 0x4698CC (248x144) | 3 | menu labels PUSH START/NEW GAME/LOAD/CONTINUE/OPTION already English |
 | G7 | Boot memory-card messages | GRETC txd/save.txd (font text, not graphics) | - | text work |
 | G8 | Disc-swap screen pieces: CHECK DISC を 2 / が違います / 中です 1 / OK! 入れて ください | UNN g09 0x467018 (244x160) | 1 | Japanese + English pieces composed at runtime |
-| G9 | Battle kanji glyph set (族 霊 鬼 騎 士 ... 直 撃 心 眼 ...) used to compose class/skill labels | GRETC mill 004 split.tim (256x256) | ~53 glyphs | find the composer (battle overlay) in phase 5; likely replace by English labels |
+| G9 | Battle kanji glyph set (族 霊 鬼 騎 士 ... 直 撃 心 眼 ...) used to compose class/skill labels | GRETC mill 004 split.tim (256x256) | ~53 glyphs | composer: BATTLE.BIN trait records 0x801713E8 + 12n, +4 -> glyph-index list (bytes, FF end) at 0x80171374+ (code 0x8016AE64/0x8016AF20); the string at +8 is never read. Redraw as English label art (phase 8) |
 | G10 | Element pentagram (天 風 海 炎 雷 地 聖 飛 kanji round the circle) | GRETC brain 244 penta.tim (320x240) | 1 | |
 | G11 | Dictionary cover: 用語辞典 seals + ガーディアンリコール katakana (English "GUARDIAN RECALL DICTIONARY" above) | GRETC dic 204 anim00.tim | 1 | 205 dicic.tim (small vertical label) also kanji |
 | G12 | Guardian-dictionary scroll with vertical calligraphy | GRETC gd 210 nun0.tim (170x186) | 1 | decorative poem; translate or leave (low) |

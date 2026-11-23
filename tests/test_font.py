@@ -53,7 +53,8 @@ ORIG = {0x8001A6FC: "lui v0,0x801f", 0x80044C48: "move a2,a0", 0x80044480: "addi
         0x800630E0: "addiu a0,a0,0x29", 0x80030B5C: "addiu a3,zero,0x45", 0x80030BDC: "addiu a3,zero,0x36",
         0x80063988: "addiu a0,a0,0x68", 0x800639B8: "move a1,s1", 0x800639D4: "addiu a0,a0,0xfa",
         0x80032130: "addiu a0,zero,0xdb",
-        0x8002DD84: "addiu a1,zero,0x7d", 0x8002DD90: "addiu a3,zero,0x3c", 0x8002DD94: "addiu a0,zero,0x81"}
+        0x8002DD84: "addiu a1,zero,0x7d", 0x8002DD90: "addiu a3,zero,0x3c", 0x8002DD94: "addiu a0,zero,0x81",
+        0x8004FF6C: "jal 0x8006bb54", 0x8004FF74: "srl v0,v0,1"}
 DATA_ORIG = {0x8009BEE4: (176, 80, 240, 80, 184, 96, 248, 96)}  # 情報 Aura slot table (halfwords)
 # DIC.BIN (overlay base 0x80166218): file offset -> original first word
 DIC_ORIG = {0xC1C: "slti v0,s1,8", 0xC24: "addiu s1,s1,1", 0xCD0: "slti v0,s1,8", 0xD4C: "addiu s1,s1,1",
