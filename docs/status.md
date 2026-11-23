@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 3. Identity build next (phase 2 debug tool done 2026-11-23: every scenes.tsv entry reached from a
-  cold boot). Last build: none yet.
+- **Phase:** 4. Extract next (phase 3 identity build done 2026-11-23). Last build: 2026-11-23, unpatched =
+  byte-identical to the dump (disc 1 sha1 3ae2071d..., disc 2 d45a833f...), smoke ok.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -45,9 +45,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     cold boot. Scenes day_diary, day_route, day_route_yes, day_save, day_load, day_config, day_next, day_diary_05/12/33
     (all regen ok, final shots checked). save.py knows the GRDA layout (event +0x238; test); scenes.tsv card
     `day01.mcd@N` = DAY menu / diary of episode N (regen.py makes the card). 122 scene rows.
-- **Next (phase 3, identity build):** dumpsxiso both discs -> mkpsxiso rebuild with no edits -> byte-identical
-  .bin as a test (references/pipeline.md §Identity, platform-ps1.md). Then phase 4 (extract: scenario g23, g13,
-  txd, EXE/overlay strings; roundtrip tests).
+  - 2026-11-23 (6): **phase 3 done.** `build.py` dumps each disc once (dumpsxiso -> work/iso/d<N>/{tree,layout.xml}),
+    copies the tree to work/build/d<N>/, runs `patch(n, tree)` (empty for now), repacks with mkpsxiso into
+    build/disc<N>/ (~10 s both discs). Slow test tests/test_identity.py: unpatched rebuild of both discs = rom.sha1
+    (passes from a fresh dump). Built disc 1 smoke ok.
+- **Next (phase 4, extract):** scenario g23, battle quotes g13, txd (GRETC.RLZ), EXE/overlay strings into script/;
+  roundtrip tests (re-encode = original bytes) incl. any archive repack (UNN.PAK, RLZ) byte-identical; text range
+  coverage. Insertion hooks into `build.patch()`.
 - **Later (debug tool, low priority):** CONTINUE of a warp-made map save hangs on NOW LOADING (zero story blocks).
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).

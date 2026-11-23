@@ -3,7 +3,7 @@
 Skill: translate-retro-game (Claude Code: plugin, enabled in .claude/settings.json; other agents: `<SKILL_DIR>/SKILL.md`; `$SKILL` = `python tools/skill.py`). Read it before ROM, text or QA work.
 
 ## Commands (run from repo root)
-- Build:    `python -X utf8 build.py` -> build/disc{1,2}/*.bin+.cue (checks the dump against `rom.sha1` first)
+- Build:    `python -X utf8 build.py` -> build/disc{1,2}/*.bin+.cue (checks the dump against `rom.sha1` first; `--identity` = unpatched; insertion goes in `build.patch()`)
 - Check:    `python -X utf8 tools/check.py` (fast tests; the pre-commit hook runs it; `git config core.hooksPath tools/hooks` once per clone). Slow tests: `python -X utf8 -m pytest -m slow tests`
 - Smoke:    `python -X utf8 $SKILL/scripts/emu.py build/disc1/<cue> --out work/qa/smoke --route tools/routes/boot.txt --smoke`
 - Warp:     `python -X utf8 $SKILL/scripts/emu.py build/disc<N>/<cue> --out work/qa/warp --sav tools/debug/cards/sys.mcd --script tools/debug/warp.lua --var "SCENE='<name>'" --frames 4600 --sheet` (scenes + their disc: `tools/debug/scenes.tsv`, written by `tools/debug/mk_scenes.py`; never ask the user to play to a scene)
