@@ -7,991 +7,1100 @@
   {
    "id": "g23.01.000",
    "jp": "由美\n「失敗した？」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"It failed?\"\n{wait}",
    "slots": [
     0
    ],
-   "pre": 0
+   "pre": 0,
+   "status": "done"
   },
   {
    "id": "g23.01.001",
    "jp": "富楼那\n「は、福岡の学校を襲った天闘衆は\n　全滅との報告が入っております」\n{wait}「神門の残党に、してやられました」\n{wait}",
-   "en": "",
+   "en": "Furuna\n\"Yes. We have received word that the\nTentoshu unit that attacked the school in\nFukuoka was wiped out.\"\n{wait}\"The remnants of the Kamikado got the\nbetter of us.\"\n{wait}",
    "slots": [
     1
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.002",
    "jp": "由美\n「迦葉のやつ、油断したわね」\n{wait}「でも神門にまだ、\n　そんな連中がいたなんて」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Kasho let his guard down.\"\n{wait}\"But to think the Kamikado still had people\nlike that...\"\n{wait}",
    "slots": [
     2
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.003",
    "jp": "富楼那\n「すでに調査させておりますが、\n　詳しい事はまだ」\n{wait}",
-   "en": "",
+   "en": "Furuna\n\"I have already ordered an investigation, but\nwe have no details yet.\"\n{wait}",
    "slots": [
     3
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.004",
    "jp": "由美\n「いいわ。調べを急がせて」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Very well. Have them hurry.\"\n{wait}",
    "slots": [
     4
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.005",
    "jp": "闘士\n「由美（ゆみ）様！」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Yumi-sama!\"\n{wait}",
    "slots": [
     5
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.006",
    "jp": "闘士\n「ただいま収容所から、捕虜が\n　ひとり脱走したとの報告が」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"We've just received a report that a prisoner\nhas escaped from the holding facility.\"\n{wait}",
    "slots": [
     6
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.007",
    "jp": "由美\n「ピアスはどうしたの！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"What about her piercing!?\"\n{wait}",
    "slots": [
     7
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.008",
    "jp": "闘士\n「は、い、いえ、\n　施術後だったのですが・・・」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Y-yes, I mean, no, it had already been put\nin, but...\"\n{wait}",
    "slots": [
     8
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.009",
    "jp": "由美\n「ばかな・・・効かなかったというの？\n　失態続きね・・・逃がさないでよ」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Impossible... You're telling me it didn't work?\nOne blunder after another... Don't let her\nget away.\"\n{wait}",
    "slots": [
     9
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.010",
    "jp": "闘士\n「由美様」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Yumi-sama.\"\n{wait}",
    "slots": [
     10
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.011",
    "jp": "由美\n「なんなの！」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"What is it!?\"\n{wait}",
    "slots": [
     11
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.012",
    "jp": "闘士\n「い、いえ、朱雀様が・・・\n　メインに切り替えます」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"N-nothing, it's Suzaku-sama... Switching to\nthe main screen.\"\n{wait}",
    "slots": [
     12
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.013",
    "jp": "由美\n「朱雀様？」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Suzaku-sama?\"\n{wait}",
    "slots": [
     13
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.014",
    "jp": "知美\n「あら、ずいぶんご機嫌ナナメなのね」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"My, my, aren't we in a foul mood.\"\n{wait}",
    "slots": [
     14
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.015",
    "jp": "由美\n「い、いえ」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"N-no, ma'am.\"\n{wait}",
    "slots": [
     15
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.016",
    "jp": "知美\n「・・・いいわ。あなた、\n　今すぐこちらにいらっしゃいな」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"...Never mind. You will come here at once.\"\n{wait}",
    "slots": [
     16
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.017",
    "jp": "由美\n「ですが私には阿蘇の・・・」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"But I have Aso to...\"\n{wait}",
    "slots": [
     17
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.018",
    "jp": "知美\n「私に同じ事を言わせるつもり？」\n{wait}",
-   "en": "",
+   "en": "Tomomi\n\"Do you intend to make me repeat myself?\"\n{wait}",
    "slots": [
     18
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.019",
    "jp": "由美\n「・・・わかりました。すぐに」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"...Understood. Right away.\"\n{wait}",
    "slots": [
     19
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.020",
    "jp": "由美\n「・・・富楼那」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"...Furuna.\"\n{wait}",
    "slots": [
     20
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.021",
    "jp": "富楼那\n「はっ」\n{wait}",
-   "en": "",
+   "en": "Furuna\n\"Yes, ma'am.\"\n{wait}",
    "slots": [
     21
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.022",
    "jp": "由美\n「私が戻るまでに、全部カタを\n　つけておいて。いいわね」\n{wait}",
-   "en": "",
+   "en": "Yumi\n\"Have everything settled by the time I\nreturn. Understood?\"\n{wait}",
    "slots": [
     22
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.023",
    "jp": "美由紀\n「たまごーたまごー温泉たまご～、\n　私はキミが好きなのよ～」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Eggies, eggies, hot-spring eggies~ Oh, how I\nlove you so~\"\n{wait}",
    "slots": [
     23
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.024",
    "jp": "真由\n「なーんノンキに歌っとるとあんたは」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What're you singin' so carefree for?\"\n{wait}",
    "slots": [
     24
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.025",
    "jp": "美由紀\n「温泉たまごって、おいしーんだよ。\n　帰りに買ってこーよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hot-spring eggs are sooo yummy. Let's buy\nsome on the way home!\"\n{wait}",
    "slots": [
     25
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.026",
    "jp": "真由\n「いらんて。それよか・・・こがん所に\n　ほんとにみんなおると？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Don't want any. More to the point... Is\neverybody really in a place like this?\"\n{wait}",
    "slots": [
     26
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.027",
    "jp": "ちかな\n「・・・いるさ。ここは荏狗覇菟の\n　基地みたいなもんだから」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"...They're here. This place is sort of an\nEgubado base.\"\n{wait}",
    "slots": [
     27
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.028",
    "jp": "美由紀\n「あれ？\n　荏狗覇菟の基地は東京でしょ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Huh? Isn't the Egubado base in Tokyo?\"\n{wait}",
    "slots": [
     28
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.029",
    "jp": "ちかな\n「そうだよ。でも・・・」\n{wait}「阿蘇には炎の龍が眠ってるんだよ。\n　だからね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"It is. But...\"\n{wait}\"A dragon of fire sleeps under Aso.\nThat's why.\"\n{wait}",
    "slots": [
     29
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.030",
    "jp": "真由\n「なんよ、それ・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What's that s'posed to mean...\"\n{wait}",
    "slots": [
     30
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.031",
    "jp": "　真由・・・\n{wait}",
-   "en": "",
+   "en": "Mayu...\n{wait}",
    "slots": [
     31
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.032",
    "jp": "真由\n「・・え？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"...Huh?\"\n{wait}",
    "slots": [
     32
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.033",
    "jp": "美由紀\n「どしたの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"What's wrong?\"\n{wait}",
    "slots": [
     33
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.034",
    "jp": "真由\n「あ・・・ううん。\n　龍が、なんやったっけ？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Oh... Nothin'. What was that about a dragon?\"\n{wait}",
    "slots": [
     34
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.035",
    "jp": "ちかな\n「日本って国はね、\n　龍に護られているのさ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"This country, Japan, is protected by\ndragons.\"\n{wait}",
    "slots": [
     35
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.036",
    "jp": "ちかな\n「天龍、地龍、炎龍、海龍、聖龍、飛龍\n　そして雷龍・・・」\n{wait}「七体の龍が日本を護ってる。\n　そのうちの炎龍が眠ってる場所が、\n　ここってわけ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"The Sky Dragon, the Earth Dragon, the\nFlame Dragon, the Sea Dragon, the Holy\nDragon, the Wind Dragon, and the Thunder\n{wait}Dragon...\"\n{wait}\"Seven dragons protect Japan. And this\nis where one of them, the Flame\nDragon, sleeps.\"\n{wait}",
    "slots": [
     36
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.037",
    "jp": "美由紀\n「それって昔話みたいな？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"You mean like in a fairy tale?\"\n{wait}",
    "slots": [
     37
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.038",
    "jp": "ちかな\n「まあ・・・伝説なんだけどね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Well... it IS a legend.\"\n{wait}",
    "slots": [
     38
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.039",
    "jp": "真由\n「なしてそっが、荏狗覇菟がここにおる\n　理由んなっと？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"So how come that's a reason for the\nEgubado to be here?\"\n{wait}",
    "slots": [
     39
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.040",
    "jp": "ちかな\n「それは・・・」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"That's...\"\n{wait}",
    "slots": [
     40
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.041",
    "jp": "女の子\n「いやぁー！　離してぇー！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Nooo! Let me go!\"\n{wait}",
    "slots": [
     41
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.042",
    "jp": "女の子\n「イヤだったら！　離してよ！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"I said no! Let go of me!\"\n{wait}",
    "slots": [
     42
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.043",
    "jp": "闘士\n「制御ピアスがありません！」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Her control piercing is gone!\"\n{wait}",
    "slots": [
     43
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.044",
    "jp": "富楼那\n「自分で、はずすとはね・・・」\n{wait}",
-   "en": "",
+   "en": "Furuna\n\"She removed it herself...\"\n{wait}",
    "slots": [
     44
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.045",
    "jp": "闘士\n「富楼那様、侵入者です！」\n{wait}",
-   "en": "",
+   "en": "Warrior\n\"Furuna-sama, intruders!\"\n{wait}",
    "slots": [
     45
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.046",
    "jp": "富楼那\n「神門か？　チッ、こんな時に・・・」\n{wait}「よし、そいつを収容所へ。他の者は\n　私に続け。侵入者を捕獲する！」\n{wait}",
-   "en": "",
+   "en": "Furuna\n\"The Kamikado? Tch, of all the times...\"\n{wait}\"Right, take her back to the holding facility.\nEveryone else, follow me. We capture the\nintruders!\"\n{wait}",
    "slots": [
     46
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.047",
    "jp": "美由紀\n「ありゃりゃりゃ～・・・\n　うじゃうじゃ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Whoa whoa whoa... There's tons of 'em.\"\n{wait}",
    "slots": [
     47
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.048",
    "jp": "ちかな\n「どうする？　逃げるかい？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"What'll it be? Want to run?\"\n{wait}",
    "slots": [
     48
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.049",
    "jp": "真由\n「やってみらな分からん！」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Can't know till we try!\"\n{wait}",
    "slots": [
     49
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.050",
    "jp": "ちかな\n「フッ・・・\n　ま、せめてあの子だけでもね」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Heh... Well, let's at least save that girl.\"\n{wait}",
    "slots": [
     50
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.051",
    "jp": "美由紀\n「よぉっし！\n　天ちゃん、お願い！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Alllright! Ten-chan, you're up!\"\n{wait}",
    "slots": [
     51
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.052",
    "jp": "真由\n「てんちゃん？\n　あんたいつん間に名前つけたと」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Ten-chan? When'd you go and name it?\"\n{wait}",
    "slots": [
     52
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.053",
    "jp": "美由紀\n「えへへ。シッポが海老の天ぷらみたい\n　だから天ちゃん。いいっしょ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Ehehe. Its tail looks like shrimp tempura, so\nit's Ten-chan. Cute, huh?\"\n{wait}",
    "slots": [
     53
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.081",
    "jp": "美由紀\n「やった！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We did it!\"\n{wait}",
    "slots": [
     81
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.01.082",
    "jp": "ちかな\n「おわった！？　いやにあっさり・・・\n　だけど・・・」\n{wait}「とにかく、荏狗覇菟を追いだしちま\n　った・・・龍脈を取り戻したんだ！\n　ははっ・・・あははっ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"It's over!? That was awfully easy... but...\"\n{wait}\"Anyway, we drove the Egubado out... We\ntook back the dragon vein! Haha... Ahaha!\"\n{wait}",
    "slots": [
     82
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.083",
    "jp": "真由\n「りゅうみゃく・・・？」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Dragon vein...?\"\n{wait}",
    "slots": [
     83
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.084",
    "jp": "女の子\n「みんな無事に逃げたわ！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Everybody got away safely!\"\n{wait}",
    "slots": [
     84
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.01.085",
    "jp": "美由紀\n「ほんと！？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Really!?\"\n{wait}",
    "slots": [
     85
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.086",
    "jp": "女の子\n「バッチリ！　あなたたちのおかげよ。\n　あの・・・」\n{wait}「私、一の宮鈴音（いちのみやすずね）\n　っていいます。\n　みなさん、ほんとにありがとう」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Totally! It's all thanks to you. Um...\"\n{wait}\"My name's Suzune Ichinomiya. Thank you all\nso, so much.\"\n{wait}",
    "slots": [
     86
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.087",
    "jp": "女の子\n「あなたたちが助けてくれたのね！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"You're the ones who rescued me!\"\n{wait}",
    "slots": [
     87
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.01.088",
    "jp": "美由紀\n「あ・・・さっきの女の子！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Oh... It's the girl from before!\"\n{wait}",
    "slots": [
     88
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.089",
    "jp": "女の子\n「おかげで捕まってた人たちみんな、\n　逃げる事が出来たわ」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Thanks to you, all the people who were\ncaptured managed to escape.\"\n{wait}",
    "slots": [
     89
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.090",
    "jp": "美由紀\n「みんな逃げれた？　ほんと？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Everybody got away? Really?\"\n{wait}",
    "slots": [
     90
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.091",
    "jp": "女の子\n「ええ！」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Yes!\"\n{wait}",
    "slots": [
     91
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.092",
    "jp": "ちかな\n「あんたが逃がしてくれたんだ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"So you're the one who set them free.\"\n{wait}",
    "slots": [
     92
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.093",
    "jp": "女の子\n「ううん」\n{wait}「あなたたちが、あいつらを引きつけ\n　ててくれなきゃ、こんなにうまく\n　できなかったもの」\n{wait}「私、一の宮鈴音（いちのみやすずね）\n　といいます。\n　みなさん、ほんとにありがとう」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"No, no.\"\n{wait}\"If you hadn't drawn those creeps away, it\nnever would have gone so well.\"\n{wait}\"My name's Suzune Ichinomiya. Thank you all\nso, so much.\"\n{wait}",
    "slots": [
     93
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.094",
    "jp": "美由紀\n「くふふっ。そんなふうに言われたら、\n　なんかこそばい」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Hehehe. When you put it like that, it\nkinda tickles.\"\n{wait}",
    "slots": [
     94
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.095",
    "jp": "鈴音\n「それであの・・・ついでと言っては\n　なんなんだけど・・・」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"And, um... I know this is a lot to ask on top of\neverything...\"\n{wait}",
    "slots": [
     95
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.096",
    "jp": "美由紀\n「なあに？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"What is it?\"\n{wait}",
    "slots": [
     96
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.097",
    "jp": "鈴音\n「・・・あなたたちを見込んで\n　どうしても頼みたい事があるの」\n{wait}「あの、姉を、助けて欲しいの」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"...I'm counting on you. There's something I\nreally need to ask.\"\n{wait}\"Please... help me save my sister.\"\n{wait}",
    "slots": [
     97
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.098",
    "jp": "美由紀\n「助けるって・・・」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Save her...\"\n{wait}",
    "slots": [
     98
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.099",
    "jp": "鈴音\n「姉も捕まっているの、荏狗覇菟に。\n　姉を助けたいの」\n{wait}「お願い、私に力を貸して」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"My sister was captured too, by the Egubado.\nI want to save her.\"\n{wait}\"Please, lend me your strength.\"\n{wait}",
    "slots": [
     99
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.149",
    "jp": "美由紀\n「イキナリそう言われても・・・」\n「すぐ行こう」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"That's kinda sudden...\"\n\"Let's go right now!\"\n{wait}",
    "slots": [
     149
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.100",
    "jp": "美由紀\n「イキナリそう言われても・・・\n　どうしよう真由ちゃん」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"That's kinda sudden... What should we do,\nMayu-chan?\"\n{wait}",
    "slots": [
     100
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.101",
    "jp": "真由\n「なん言よっと。\n　もちろん助けに行くけんね」\n{wait}「そがんこつ、\n　許せるワケなかやんね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What're you sayin'? Of course we're goin'\nto help.\"\n{wait}\"There's no way I can let somethin' like\nthat slide.\"\n{wait}",
    "slots": [
     101
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.102",
    "jp": "美由紀\n「うん！　行こ行こ、すぐ行こー！」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Yeah! Let's go, let's go, let's go right now!\"\n{wait}",
    "slots": [
     102
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.103",
    "jp": "真由\n「あんたは・・・\n　すーぐ調子に乗っとやけん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"You... You always get carried away so quick.\"\n{wait}",
    "slots": [
     103
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.104",
    "jp": "美由紀\n「ちかちゃんは？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"What about you, Chika-chan?\"\n{wait}",
    "slots": [
     104
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.105",
    "jp": "ちかな\n「そりゃ、あんたたちさえ良けりゃ、\n　あたしは」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Well, if you two are fine with it, so am I.\"\n{wait}",
    "slots": [
     105
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.106",
    "jp": "真由\n「いいに決まっとるやん」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"'Course we are.\"\n{wait}",
    "slots": [
     106
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.107",
    "jp": "鈴音\n「ああっ！　ありがとう！」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Oh! Thank you!\"\n{wait}",
    "slots": [
     107
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.108",
    "jp": "真由\n「あ・・・あれ・・・\n　目が、まわ・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"Huh... What... Everything's spin...\"\n{wait}",
    "slots": [
     108
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.109",
    "jp": "美由紀\n「真由ちゃんっ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan?\"\n{wait}",
    "slots": [
     109
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.110",
    "jp": "　真由・・・\n{wait}",
-   "en": "",
+   "en": "Mayu...\n{wait}",
    "slots": [
     110
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.111",
    "jp": "「誰・・・\n　あたしんこつ呼ぶとは・・・」\n{wait}",
-   "en": "",
+   "en": "\"Who... Who's callin' me...\"\n{wait}",
    "slots": [
     111
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.112",
    "jp": "　私は、炎龍。\n{wait}",
-   "en": "",
+   "en": "I am the Flame Dragon.\n{wait}",
    "slots": [
     112
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.113",
    "jp": "「えんりゅう・・・炎の、龍・・・」\n{wait}",
-   "en": "",
+   "en": "\"Flame Dragon... A dragon of fire...\"\n{wait}",
    "slots": [
     113
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.114",
    "jp": "　私は、龍脈を守護する者。\n　そしてお前の中にある。\n{wait}",
-   "en": "",
+   "en": "I am one who guards the dragon vein. And I\ndwell within you.\n{wait}",
    "slots": [
     114
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.115",
    "jp": "「あたしん、中？」\n{wait}",
-   "en": "",
+   "en": "\"Inside me?\"\n{wait}",
    "slots": [
     115
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.116",
    "jp": "　真由・・・日本はいずれ崩壊する。\n{wait}",
-   "en": "",
+   "en": "Mayu... In time, Japan will fall.\n{wait}",
    "slots": [
     116
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.117",
    "jp": "「日本が、崩壊？」\n{wait}",
-   "en": "",
+   "en": "\"Japan... will fall?\"\n{wait}",
    "slots": [
     117
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.118",
    "jp": "　私たちの守護を失ったこの島国は、\n　いずれ亡び行く運命にある。\n{wait}",
-   "en": "",
+   "en": "Bereft of our protection, this island nation is\nfated to perish.\n{wait}",
    "slots": [
     118
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.119",
    "jp": "「なぜ・・・龍は、日本ば護って\n　くれるとやなかと？」\n{wait}",
-   "en": "",
+   "en": "\"Why... Don't the dragons protect Japan?\"\n{wait}",
    "slots": [
     119
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.120",
    "jp": "　この地を解き放たれた私たちに、\n　その力はもう、ない。\n　日本を救う為には、真由・・・\n{wait}　すべての龍脈を取り戻し、\n　お前と同じ、龍の魂を持つ者を\n　探し出すのだ。\n{wait}",
-   "en": "",
+   "en": "Torn from this land, we no longer have that\npower. To save Japan, Mayu...\n{wait}You must reclaim every dragon vein, and seek\nout those who, like you, bear a dragon's soul.\n{wait}",
    "slots": [
     120
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.121",
    "jp": "「龍の魂？　いったい、なんのこと」\n{wait}",
-   "en": "",
+   "en": "\"A dragon's soul? What're you talkin' about?\"\n{wait}",
    "slots": [
     121
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.122",
    "jp": "　お前の仲間を、探し出せ・・・\n　天龍と・・・地龍を・・・\n　目覚めさせよ・・・\n{wait}",
-   "en": "",
+   "en": "Find your companions... Awaken the Sky\nDragon... and the Earth Dragon...\n{wait}",
    "slots": [
     122
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.123",
    "jp": "真由\n「あたし・・・\n　今んとは、いったい・・・」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"What... What on earth was that just now...\"\n{wait}",
    "slots": [
     123
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.124",
    "jp": "美由紀\n「真由ちゃん・・・ぐあい悪いの？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Mayu-chan... Are you feeling sick?\"\n{wait}",
    "slots": [
     124
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.125",
    "jp": "真由\n「違うと。大丈夫、なんでんなか」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"No. I'm fine, it's nothin'.\"\n{wait}",
    "slots": [
     125
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.126",
    "jp": "真由\n「それよか、鈴音さんのお姉さん\n　助けに行くとやろ」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"More importantly, we're goin' to rescue\nSuzune-san's sister, right?\"\n{wait}",
    "slots": [
     126
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.127",
    "jp": "美由紀\n「あ、そーだった」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Oh, right!\"\n{wait}",
    "slots": [
     127
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.128",
    "jp": "ちかな\n「場所は？」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Where is she?\"\n{wait}",
    "slots": [
     128
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.129",
    "jp": "鈴音\n「宮崎よ」\n{wait}",
-   "en": "",
+   "en": "Suzune\n\"Miyazaki.\"\n{wait}",
    "slots": [
     129
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.130",
    "jp": "真由\n「遠かね」\n{wait}",
-   "en": "",
+   "en": "Mayu\n\"That's a ways off.\"\n{wait}",
    "slots": [
     130
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.131",
    "jp": "美由紀\n「最初は福岡にいたんだよ。阿蘇も\n　宮崎も遠いのに変わんないよ」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"We were in Fukuoka to start with. Aso and\nMiyazaki are both far, so what's the\ndifference?\"\n{wait}",
    "slots": [
     131
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.132",
    "jp": "ちかな\n「そりゃそーだ」\n{wait}",
-   "en": "",
+   "en": "Chikana\n\"Can't argue with that.\"\n{wait}",
    "slots": [
     132
    ],
    "pre": 1,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "g23.01.199",
    "jp": "美由紀\n「だいじょうぶ？」\n{wait}",
-   "en": "",
+   "en": "Miyuki\n\"Are you okay?\"\n{wait}",
    "slots": [
     199
    ],
-   "pre": 2
+   "pre": 2,
+   "status": "done"
   },
   {
    "id": "g23.01.200",
    "jp": "女の子\n「ええ！　ありがとう！\n　助かっちゃった」\n{wait}",
-   "en": "",
+   "en": "Girl\n\"Yes! Thank you! You really saved me.\"\n{wait}",
    "slots": [
     200
    ],
-   "pre": 1
+   "pre": 1,
+   "status": "done"
   },
   {
    "id": "g23.01.201",

@@ -4,317 +4,361 @@
   {
    "id": "map48.0365",
    "jp": "大地裕子",
-   "en": "",
+   "en": "Yuko Daichi",
    "off": 869,
-   "idx": 0
+   "idx": 0,
+   "status": "done"
   },
   {
    "id": "map48.0371",
    "jp": "ポチ",
-   "en": "",
+   "en": "Pochi",
    "off": 881,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map48.0379",
    "jp": "聖ゆかり",
-   "en": "",
+   "en": "Yukari Hijiri",
    "off": 889,
    "idx": 2,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map48.0385",
    "jp": "ノルト",
-   "en": "",
+   "en": "Nord",
    "off": 901,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map48.038f",
    "jp": "岩見沢唯",
-   "en": "",
+   "en": "Yui Iwamizawa",
    "off": 911,
-   "idx": 4
+   "idx": 4,
+   "status": "done"
   },
   {
    "id": "map48.039b",
    "jp": "斎姫",
-   "en": "",
+   "en": "Saiki",
    "off": 923,
-   "idx": 5
+   "idx": 5,
+   "status": "done"
   },
   {
    "id": "map48.03a3",
    "jp": "天城美由紀",
-   "en": "",
+   "en": "Miyuki Amagi",
    "off": 931,
-   "idx": 6
+   "idx": 6,
+   "status": "done"
   },
   {
    "id": "map48.03b1",
    "jp": "天ちゃん",
-   "en": "",
+   "en": "Ten-chan",
    "off": 945,
    "idx": 7,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map48.03bd",
    "jp": "炎真由",
-   "en": "",
+   "en": "Mayu Homura",
    "off": 957,
-   "idx": 8
+   "idx": 8,
+   "status": "done"
   },
   {
    "id": "map48.03c7",
    "jp": "コウエン",
-   "en": "",
+   "en": "Koen",
    "off": 967,
-   "idx": 9
+   "idx": 9,
+   "status": "done"
   },
   {
    "id": "map48.03d3",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 979,
    "idx": 10,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map48.03e1",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 993,
-   "idx": 11
+   "idx": 11,
+   "status": "done"
   },
   {
    "id": "map48.03e9",
    "jp": "一の宮鈴音",
-   "en": "",
+   "en": "Suzune Ichinomiya",
    "off": 1001,
    "idx": 12,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map48.03f7",
    "jp": "ドーガー",
-   "en": "",
+   "en": "Doga",
    "off": 1015,
    "idx": 13,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map48.0403",
    "jp": "一の宮琴音",
-   "en": "",
+   "en": "Kotone Ichinomiya",
    "off": 1027,
    "idx": 14,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map48.0411",
    "jp": "ガーラー",
-   "en": "",
+   "en": "Gara",
    "off": 1041,
    "idx": 15,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map48.0424",
    "jp": "２－黒",
-   "en": "",
+   "en": "2-Black",
    "off": 1060,
-   "idx": 16
+   "idx": 16,
+   "status": "done"
   },
   {
    "id": "map48.042e",
    "jp": "鎌蜥蜴",
-   "en": "",
+   "en": "Scythe Lizard",
    "off": 1070,
-   "idx": 17
+   "idx": 17,
+   "status": "done"
   },
   {
    "id": "map48.0438",
    "jp": "２－黒",
-   "en": "",
+   "en": "2-Black",
    "off": 1080,
-   "idx": 18
+   "idx": 18,
+   "status": "done"
   },
   {
    "id": "map48.0442",
    "jp": "鎌蜥蜴・改",
-   "en": "",
+   "en": "Scythe Lizard+",
    "off": 1090,
-   "idx": 19
+   "idx": 19,
+   "status": "done"
   },
   {
    "id": "map48.0450",
    "jp": "３－黒",
-   "en": "",
+   "en": "3-Black",
    "off": 1104,
-   "idx": 20
+   "idx": 20,
+   "status": "done"
   },
   {
    "id": "map48.045a",
    "jp": "弓男",
-   "en": "",
+   "en": "Bowman",
    "off": 1114,
-   "idx": 21
+   "idx": 21,
+   "status": "done"
   },
   {
    "id": "map48.0462",
    "jp": "迦葉（４－青）",
-   "en": "",
+   "en": "Kasho (4-Blue)",
    "off": 1122,
-   "idx": 22
+   "idx": 22,
+   "status": "done"
   },
   {
    "id": "map48.0474",
    "jp": "翔妖・紫翼種",
-   "en": "",
+   "en": "Violet Wraith",
    "off": 1140,
-   "idx": 23
+   "idx": 23,
+   "status": "done"
   },
   {
    "id": "map48.0484",
    "jp": "４－青",
-   "en": "",
+   "en": "4-Blue",
    "off": 1156,
-   "idx": 24
+   "idx": 24,
+   "status": "done"
   },
   {
    "id": "map48.048e",
    "jp": "翔妖",
-   "en": "",
+   "en": "Wing Wraith",
    "off": 1166,
-   "idx": 25
+   "idx": 25,
+   "status": "done"
   },
   {
    "id": "map48.0496",
    "jp": "富楼那（８－赤）",
-   "en": "",
+   "en": "Furuna (8-Red)",
    "off": 1174,
-   "idx": 26
+   "idx": 26,
+   "status": "done"
   },
   {
    "id": "map48.04aa",
    "jp": "長・死人守",
-   "en": "",
+   "en": "Grave Chief",
    "off": 1194,
-   "idx": 27
+   "idx": 27,
+   "status": "done"
   },
   {
    "id": "map48.04b8",
    "jp": "５－黒",
-   "en": "",
+   "en": "5-Black",
    "off": 1208,
-   "idx": 28
+   "idx": 28,
+   "status": "done"
   },
   {
    "id": "map48.04c2",
    "jp": "化石竜",
-   "en": "",
+   "en": "Fossil Dragon",
    "off": 1218,
-   "idx": 29
+   "idx": 29,
+   "status": "done"
   },
   {
    "id": "map48.04d3",
    "jp": "７－黒",
-   "en": "",
+   "en": "7-Black",
    "off": 1235,
-   "idx": 16
+   "idx": 16,
+   "status": "done"
   },
   {
    "id": "map48.04dd",
    "jp": "水式陸鮫",
-   "en": "",
+   "en": "Aqua Landshark",
    "off": 1245,
-   "idx": 17
+   "idx": 17,
+   "status": "done"
   },
   {
    "id": "map48.04e9",
    "jp": "７－黒",
-   "en": "",
+   "en": "7-Black",
    "off": 1257,
-   "idx": 18
+   "idx": 18,
+   "status": "done"
   },
   {
    "id": "map48.04f3",
    "jp": "雷式陸鮫",
-   "en": "",
+   "en": "Volt Landshark",
    "off": 1267,
-   "idx": 19
+   "idx": 19,
+   "status": "done"
   },
   {
    "id": "map48.04ff",
    "jp": "迦旃",
-   "en": "",
+   "en": "Kasen",
    "off": 1279,
-   "idx": 20
+   "idx": 20,
+   "status": "done"
   },
   {
    "id": "map48.0507",
    "jp": "炎式陸鮫",
-   "en": "",
+   "en": "Flame Landshark",
    "off": 1287,
-   "idx": 21
+   "idx": 21,
+   "status": "done"
   },
   {
    "id": "map48.0513",
    "jp": "２－青",
-   "en": "",
+   "en": "2-Blue",
    "off": 1299,
-   "idx": 22
+   "idx": 22,
+   "status": "done"
   },
   {
    "id": "map48.051d",
    "jp": "双砲蟹",
-   "en": "",
+   "en": "Twin-Gun Crab",
    "off": 1309,
-   "idx": 23
+   "idx": 23,
+   "status": "done"
   },
   {
    "id": "map48.0527",
    "jp": "阿那律（２－赤）",
-   "en": "",
+   "en": "Anaritsu (2-Red)",
    "off": 1319,
-   "idx": 24
+   "idx": 24,
+   "status": "done"
   },
   {
    "id": "map48.053b",
    "jp": "長射双砲蟹",
-   "en": "",
+   "en": "Long Gun Crab",
    "off": 1339,
-   "idx": 25
+   "idx": 25,
+   "status": "done"
   },
   {
    "id": "map48.0549",
    "jp": "９－黒",
-   "en": "",
+   "en": "9-Black",
    "off": 1353,
-   "idx": 26
+   "idx": 26,
+   "status": "done"
   },
   {
    "id": "map48.0553",
    "jp": "天尊・幼獣",
-   "en": "",
+   "en": "Amazon Cub",
    "off": 1363,
-   "idx": 27
+   "idx": 27,
+   "status": "done"
   },
   {
    "id": "map48.0561",
    "jp": "須菩提（９－青）",
-   "en": "",
+   "en": "Subodai (9-Blue)",
    "off": 1377,
-   "idx": 28
+   "idx": 28,
+   "status": "done"
   },
   {
    "id": "map48.0575",
    "jp": "天尊・亜成獣",
-   "en": "",
+   "en": "Amazon Youth",
    "off": 1397,
-   "idx": 29
+   "idx": 29,
+   "status": "done"
   }
  ]
 }

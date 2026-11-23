@@ -4,184 +4,210 @@
   {
    "id": "map69.1149",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4425,
-   "idx": 16
+   "idx": 16,
+   "status": "done"
   },
   {
    "id": "map69.1151",
    "jp": "斬鬼・弐式改",
-   "en": "",
+   "en": "Slash Oni II+",
    "off": 4433,
-   "idx": 17
+   "idx": 17,
+   "status": "done"
   },
   {
    "id": "map69.1161",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4449,
-   "idx": 18
+   "idx": 18,
+   "status": "done"
   },
   {
    "id": "map69.1169",
    "jp": "斬鬼・弐式改",
-   "en": "",
+   "en": "Slash Oni II+",
    "off": 4457,
-   "idx": 19
+   "idx": 19,
+   "status": "done"
   },
   {
    "id": "map69.1179",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4473,
-   "idx": 20
+   "idx": 20,
+   "status": "done"
   },
   {
    "id": "map69.1181",
    "jp": "斬鬼・弐式改",
-   "en": "",
+   "en": "Slash Oni II+",
    "off": 4481,
-   "idx": 21
+   "idx": 21,
+   "status": "done"
   },
   {
    "id": "map69.1191",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4497,
-   "idx": 22
+   "idx": 22,
+   "status": "done"
   },
   {
    "id": "map69.1199",
    "jp": "遠隔射甲殻機",
-   "en": "",
+   "en": "Gunner Shellmech",
    "off": 4505,
-   "idx": 23
+   "idx": 23,
+   "status": "done"
   },
   {
    "id": "map69.11a9",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4521,
-   "idx": 24
+   "idx": 24,
+   "status": "done"
   },
   {
    "id": "map69.11b1",
    "jp": "遠隔射甲殻機",
-   "en": "",
+   "en": "Gunner Shellmech",
    "off": 4529,
-   "idx": 25
+   "idx": 25,
+   "status": "done"
   },
   {
    "id": "map69.11c1",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4545,
-   "idx": 26
+   "idx": 26,
+   "status": "done"
   },
   {
    "id": "map69.11c9",
    "jp": "天尊・成獣",
-   "en": "",
+   "en": "Amazon Adult",
    "off": 4553,
-   "idx": 27
+   "idx": 27,
+   "status": "done"
   },
   {
    "id": "map69.11d7",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4567,
-   "idx": 28
+   "idx": 28,
+   "status": "done"
   },
   {
    "id": "map69.11df",
    "jp": "天尊・成獣",
-   "en": "",
+   "en": "Amazon Adult",
    "off": 4575,
-   "idx": 29
+   "idx": 29,
+   "status": "done"
   },
   {
    "id": "map69.11ed",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4589,
-   "idx": 30
+   "idx": 30,
+   "status": "done"
   },
   {
    "id": "map69.11f5",
    "jp": "天尊・幼獣",
-   "en": "",
+   "en": "Amazon Cub",
    "off": 4597,
-   "idx": 31
+   "idx": 31,
+   "status": "done"
   },
   {
    "id": "map69.1203",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4611,
-   "idx": 32
+   "idx": 32,
+   "status": "done"
   },
   {
    "id": "map69.120b",
    "jp": "天尊・幼獣",
-   "en": "",
+   "en": "Amazon Cub",
    "off": 4619,
-   "idx": 33
+   "idx": 33,
+   "status": "done"
   },
   {
    "id": "map69.1219",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4633,
-   "idx": 34
+   "idx": 34,
+   "status": "done"
   },
   {
    "id": "map69.1221",
    "jp": "鎌蜥蜴・改",
-   "en": "",
+   "en": "Scythe Lizard+",
    "off": 4641,
-   "idx": 35
+   "idx": 35,
+   "status": "done"
   },
   {
    "id": "map69.122f",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4655,
-   "idx": 36
+   "idx": 36,
+   "status": "done"
   },
   {
    "id": "map69.1237",
    "jp": "鎌蜥蜴・改",
-   "en": "",
+   "en": "Scythe Lizard+",
    "off": 4663,
-   "idx": 37
+   "idx": 37,
+   "status": "done"
   },
   {
    "id": "map69.1245",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4677,
-   "idx": 38
+   "idx": 38,
+   "status": "done"
   },
   {
    "id": "map69.124d",
    "jp": "鎌蜥蜴",
-   "en": "",
+   "en": "Scythe Lizard",
    "off": 4685,
-   "idx": 39
+   "idx": 39,
+   "status": "done"
   },
   {
    "id": "map69.1257",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 4695,
-   "idx": 40
+   "idx": 40,
+   "status": "done"
   },
   {
    "id": "map69.125f",
    "jp": "鎌蜥蜴",
-   "en": "",
+   "en": "Scythe Lizard",
    "off": 4703,
-   "idx": 41
+   "idx": 41,
+   "status": "done"
   }
  ]
 }

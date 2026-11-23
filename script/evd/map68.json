@@ -4,174 +4,198 @@
   {
    "id": "map68.0992",
    "jp": "天城美由紀",
-   "en": "",
+   "en": "Miyuki Amagi",
    "off": 2450,
-   "idx": 0
+   "idx": 0,
+   "status": "done"
   },
   {
    "id": "map68.09a0",
    "jp": "天ちゃん",
-   "en": "",
+   "en": "Ten-chan",
    "off": 2464,
    "idx": 1,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map68.09ac",
    "jp": "炎真由",
-   "en": "",
+   "en": "Mayu Homura",
    "off": 2476,
-   "idx": 2
+   "idx": 2,
+   "status": "done"
   },
   {
    "id": "map68.09b6",
    "jp": "コウエン",
-   "en": "",
+   "en": "Koen",
    "off": 2486,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map68.09c2",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 2498,
    "idx": 4,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map68.09d0",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 2512,
-   "idx": 5
+   "idx": 5,
+   "status": "done"
   },
   {
    "id": "map68.09d8",
    "jp": "一の宮鈴音",
-   "en": "",
+   "en": "Suzune Ichinomiya",
    "off": 2520,
    "idx": 6,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map68.09e6",
    "jp": "ドーガー",
-   "en": "",
+   "en": "Doga",
    "off": 2534,
    "idx": 7,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map68.09f2",
    "jp": "富楼那",
-   "en": "",
+   "en": "Furuna",
    "off": 2546,
-   "idx": 8
+   "idx": 8,
+   "status": "done"
   },
   {
    "id": "map68.09fc",
    "jp": "長・死人守",
-   "en": "",
+   "en": "Grave Chief",
    "off": 2556,
-   "idx": 9
+   "idx": 9,
+   "status": "done"
   },
   {
    "id": "map68.0a0a",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 2570,
-   "idx": 10
+   "idx": 10,
+   "status": "done"
   },
   {
    "id": "map68.0a12",
    "jp": "鎌蜥蜴",
-   "en": "",
+   "en": "Scythe Lizard",
    "off": 2578,
-   "idx": 11
+   "idx": 11,
+   "status": "done"
   },
   {
    "id": "map68.0a1c",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 2588,
-   "idx": 12
+   "idx": 12,
+   "status": "done"
   },
   {
    "id": "map68.0a24",
    "jp": "鎌蜥蜴",
-   "en": "",
+   "en": "Scythe Lizard",
    "off": 2596,
-   "idx": 13
+   "idx": 13,
+   "status": "done"
   },
   {
    "id": "map68.0a2e",
    "jp": "迦葉",
-   "en": "",
+   "en": "Kasho",
    "off": 2606,
-   "idx": 14
+   "idx": 14,
+   "status": "done"
   },
   {
    "id": "map68.0a36",
    "jp": "翔妖・紫翼種",
-   "en": "",
+   "en": "Violet Wraith",
    "off": 2614,
-   "idx": 15
+   "idx": 15,
+   "status": "done"
   },
   {
    "id": "map68.0a46",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 2630,
-   "idx": 16
+   "idx": 16,
+   "status": "done"
   },
   {
    "id": "map68.0a4e",
    "jp": "翔妖・緑翼種",
-   "en": "",
+   "en": "Green Wraith",
    "off": 2638,
-   "idx": 17
+   "idx": 17,
+   "status": "done"
   },
   {
    "id": "map68.0a5e",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 2654,
-   "idx": 18
+   "idx": 18,
+   "status": "done"
   },
   {
    "id": "map68.0a66",
    "jp": "翔妖・緑翼種",
-   "en": "",
+   "en": "Green Wraith",
    "off": 2662,
-   "idx": 19
+   "idx": 19,
+   "status": "done"
   },
   {
    "id": "map68.0a76",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 2678,
-   "idx": 20
+   "idx": 20,
+   "status": "done"
   },
   {
    "id": "map68.0a7e",
    "jp": "弓男",
-   "en": "",
+   "en": "Bowman",
    "off": 2686,
-   "idx": 21
+   "idx": 21,
+   "status": "done"
   },
   {
    "id": "map68.0a86",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 2694,
-   "idx": 22
+   "idx": 22,
+   "status": "done"
   },
   {
    "id": "map68.0a8e",
    "jp": "弓男",
-   "en": "",
+   "en": "Bowman",
    "off": 2702,
-   "idx": 23
+   "idx": 23,
+   "status": "done"
   }
  ]
 }

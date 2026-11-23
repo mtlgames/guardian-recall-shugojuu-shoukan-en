@@ -4,47 +4,53 @@
   {
    "id": "map55.00a7",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 167,
    "idx": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map55.00b5",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 181,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map55.00bd",
    "jp": "敵マスター",
-   "en": "",
+   "en": "Enemy Master",
    "off": 189,
    "idx": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map55.00cb",
    "jp": "敵守護獣",
-   "en": "",
+   "en": "Enemy Guardian",
    "off": 203,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map55.00d7",
    "jp": "聖ゆかり",
-   "en": "",
+   "en": "Yukari Hijiri",
    "off": 215,
    "idx": 4,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map55.00e3",
    "jp": "ノルト",
-   "en": "",
+   "en": "Nord",
    "off": 227,
-   "idx": 5
+   "idx": 5,
+   "status": "done"
   }
  ]
 }

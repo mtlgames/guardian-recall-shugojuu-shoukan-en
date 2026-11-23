@@ -2,8 +2,8 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 6. Translate (phase 5 done 2026-11-23: marker tour 128/128, width gate, no font-drawn Japanese left).
-  Last build: 2026-11-23 `build.py --marker`.
+- **Phase:** 6. Translate in progress (batches b001-b004 merged; next b005).
+  Last build: 2026-11-23 `build.py` (English, b001-b004): ev02 shows "Yumi / "It failed?"" in the scenario box.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -96,7 +96,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     128/128 ok (gameover needs `--timeout 3600` under parallel load). Finals of every menu/tac/opt/day/title scene
     and every event read: no font-drawn Japanese; graphics survey gained G17 (tactics element orbs) and G18 (title
     copyright line). New tools: tools/lua/heap.lua (arena walk), tools/lua/malloc_log.lua, tools/xref_range.py.
-- **Next:** (a) Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
+  - 2026-11-23 (13): **phase 6 started.** `tools/batches.py` (split/check/merge/fit; adapter: speaker name line added
+    from glossary.md, scenario bodies word-wrapped to the box and run onto extra {wait} pages, honorifics after
+    person names, width lint via tools/windows.py; tests/test_batches.py runs the lint over all shipped English).
+    glossary.md seeded (speakers, full names, places, terms, guardian species; readings from dic/gd), D8-D10,
+    docs/style-reference.md, docs/translator-brief.md, docs/synopsis.md (00-01). Batches: b001-b002 = all evd unit
+    names (wave 0), b003-b057 = g23 scenario in entry order (3000 JP chars each; b003-b004 done = scenario 00-01
+    part). Orca workers translate themselves (no subagents): one worker ~8-10 batches before its context limit.
+- **Next:** (a) Phase 6: translate b005..b057 in order (`docs/translator-brief.md`; after each block add its summary
+  to docs/synopsis.md, merge NEW TERMs into glossary.md), then split and translate g13 (battle), txd, exe/overlays
+  (`batches.py split --only 'g13'` etc.; txd needs its own &n() via windows.wrap, EXE strings byte/room budgets).
+  Then the review pass (fresh read-only pass per batch file or codex exec after 2026-11-26).
+  (a0) Old note: Phase 6 translation batches (docs/decisions.md rulings; budgets from tools/windows.py). Where a "jp
   width" floor is too tight for good English, measure that screen and add a row (docs/windows.md) instead of
   abbreviating. Limits: scenario block 0x6A78 bytes, g13 block 0x4000 (insert.py LIMITS asserts).
   (b) Optional: g13 help 02 (needs a map with items) and 05/06/07/10/18 trigger in 情報 to replace their floors.

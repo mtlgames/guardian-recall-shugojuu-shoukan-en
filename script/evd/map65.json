@@ -4,91 +4,103 @@
   {
    "id": "map65.00a5",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 165,
    "idx": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map65.00b3",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 179,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map65.00bb",
    "jp": "炎真由",
-   "en": "",
+   "en": "Mayu Homura",
    "off": 187,
-   "idx": 2
+   "idx": 2,
+   "status": "done"
   },
   {
    "id": "map65.00c5",
    "jp": "コウエン",
-   "en": "",
+   "en": "Koen",
    "off": 197,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map65.00d1",
    "jp": "聖ゆかり",
-   "en": "",
+   "en": "Yukari Hijiri",
    "off": 209,
    "idx": 4,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map65.00dd",
    "jp": "ノルト",
-   "en": "",
+   "en": "Nord",
    "off": 221,
-   "idx": 5
+   "idx": 5,
+   "status": "done"
   },
   {
    "id": "map65.00e7",
    "jp": "敵マスター",
-   "en": "",
+   "en": "Enemy Master",
    "off": 231,
    "idx": 6,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map65.00f5",
    "jp": "敵守護獣",
-   "en": "",
+   "en": "Enemy Guardian",
    "off": 245,
-   "idx": 7
+   "idx": 7,
+   "status": "done"
   },
   {
    "id": "map65.0101",
    "jp": "敵マスター",
-   "en": "",
+   "en": "Enemy Master",
    "off": 257,
    "idx": 8,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map65.010f",
    "jp": "敵守護獣",
-   "en": "",
+   "en": "Enemy Guardian",
    "off": 271,
-   "idx": 9
+   "idx": 9,
+   "status": "done"
   },
   {
    "id": "map65.011b",
    "jp": "敵マスター",
-   "en": "",
+   "en": "Enemy Master",
    "off": 283,
    "idx": 10,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map65.0129",
    "jp": "敵守護獣",
-   "en": "",
+   "en": "Enemy Guardian",
    "off": 297,
-   "idx": 11
+   "idx": 11,
+   "status": "done"
   }
  ]
 }

@@ -4,159 +4,181 @@
   {
    "id": "map46.05ff",
    "jp": "大地裕子",
-   "en": "",
+   "en": "Yuko Daichi",
    "off": 1535,
-   "idx": 0
+   "idx": 0,
+   "status": "done"
   },
   {
    "id": "map46.060b",
    "jp": "ポチ",
-   "en": "",
+   "en": "Pochi",
    "off": 1547,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map46.0613",
    "jp": "岩見沢唯",
-   "en": "",
+   "en": "Yui Iwamizawa",
    "off": 1555,
-   "idx": 2
+   "idx": 2,
+   "status": "done"
   },
   {
    "id": "map46.061f",
    "jp": "斎姫",
-   "en": "",
+   "en": "Saiki",
    "off": 1567,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map46.0627",
    "jp": "平泉るり",
-   "en": "",
+   "en": "Ruri Hiraizumi",
    "off": 1575,
    "idx": 4,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map46.0633",
    "jp": "きらら",
-   "en": "",
+   "en": "Kirara",
    "off": 1587,
    "idx": 5,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map46.063d",
    "jp": "雷晶",
-   "en": "",
+   "en": "Akira Ikazuchi",
    "off": 1597,
-   "idx": 6
+   "idx": 6,
+   "status": "done"
   },
   {
    "id": "map46.0645",
    "jp": "ザビたん",
-   "en": "",
+   "en": "Zabi-tan",
    "off": 1605,
    "idx": 7,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map46.0651",
    "jp": "鏡涼子",
-   "en": "",
+   "en": "Ryoko Kagami",
    "off": 1617,
-   "idx": 8
+   "idx": 8,
+   "status": "done"
   },
   {
    "id": "map46.065b",
    "jp": "ドナルド",
-   "en": "",
+   "en": "Donald",
    "off": 1627,
-   "idx": 9
+   "idx": 9,
+   "status": "done"
   },
   {
    "id": "map46.0667",
    "jp": "阿難",
-   "en": "",
+   "en": "Anan",
    "off": 1639,
-   "idx": 10
+   "idx": 10,
+   "status": "done"
   },
   {
    "id": "map46.066f",
    "jp": "強襲型爆竜",
-   "en": "",
+   "en": "Assault Drake",
    "off": 1647,
-   "idx": 11
+   "idx": 11,
+   "status": "done"
   },
   {
    "id": "map46.067d",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 1661,
-   "idx": 12
+   "idx": 12,
+   "status": "done"
   },
   {
    "id": "map46.0685",
    "jp": "哨戒用一角砕",
-   "en": "",
+   "en": "Scout Hornram",
    "off": 1669,
-   "idx": 13
+   "idx": 13,
+   "status": "done"
   },
   {
    "id": "map46.0695",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 1685,
-   "idx": 14
+   "idx": 14,
+   "status": "done"
   },
   {
    "id": "map46.069d",
    "jp": "哨戒用一角砕",
-   "en": "",
+   "en": "Scout Hornram",
    "off": 1693,
-   "idx": 15
+   "idx": 15,
+   "status": "done"
   },
   {
    "id": "map46.06ad",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 1709,
-   "idx": 16
+   "idx": 16,
+   "status": "done"
   },
   {
    "id": "map46.06b5",
    "jp": "水上双砲蟹",
-   "en": "",
+   "en": "Sea Gun Crab",
    "off": 1717,
-   "idx": 17
+   "idx": 17,
+   "status": "done"
   },
   {
    "id": "map46.06c3",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 1731,
-   "idx": 18
+   "idx": 18,
+   "status": "done"
   },
   {
    "id": "map46.06cb",
    "jp": "水上双砲蟹",
-   "en": "",
+   "en": "Sea Gun Crab",
    "off": 1739,
-   "idx": 19
+   "idx": 19,
+   "status": "done"
   },
   {
    "id": "map46.06d9",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 1753,
-   "idx": 20
+   "idx": 20,
+   "status": "done"
   },
   {
    "id": "map46.06e1",
    "jp": "水上双砲蟹",
-   "en": "",
+   "en": "Sea Gun Crab",
    "off": 1761,
-   "idx": 21
+   "idx": 21,
+   "status": "done"
   }
  ]
 }

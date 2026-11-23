@@ -4,30 +4,34 @@
   {
    "id": "map17.0b7c",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 2940,
-   "idx": 24
+   "idx": 24,
+   "status": "done"
   },
   {
    "id": "map17.0b84",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 2948,
-   "idx": 26
+   "idx": 26,
+   "status": "done"
   },
   {
    "id": "map17.0b8c",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 2956,
-   "idx": 28
+   "idx": 28,
+   "status": "done"
   },
   {
    "id": "map17.0b94",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 2964,
-   "idx": 30
+   "idx": 30,
+   "status": "done"
   }
  ]
 }

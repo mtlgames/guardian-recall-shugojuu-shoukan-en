@@ -4,45 +4,51 @@
   {
    "id": "map58.0085",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 133,
    "idx": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map58.0093",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 147,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map58.009b",
    "jp": "天城美由紀",
-   "en": "",
+   "en": "Miyuki Amagi",
    "off": 155,
-   "idx": 2
+   "idx": 2,
+   "status": "done"
   },
   {
    "id": "map58.00a9",
    "jp": "？？？？",
-   "en": "",
+   "en": "????",
    "off": 169,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map58.00b5",
    "jp": "大地裕子",
-   "en": "",
+   "en": "Yuko Daichi",
    "off": 181,
-   "idx": 4
+   "idx": 4,
+   "status": "done"
   },
   {
    "id": "map58.00c1",
    "jp": "？？？？",
-   "en": "",
+   "en": "????",
    "off": 193,
-   "idx": 5
+   "idx": 5,
+   "status": "done"
   }
  ]
 }

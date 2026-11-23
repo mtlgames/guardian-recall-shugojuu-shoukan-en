@@ -4,128 +4,146 @@
   {
    "id": "map41.02b2",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 690,
-   "idx": 30
+   "idx": 30,
+   "status": "done"
   },
   {
    "id": "map41.02ba",
    "jp": "影鬼・変異型",
-   "en": "",
+   "en": "Mutant Shadow",
    "off": 698,
-   "idx": 31
+   "idx": 31,
+   "status": "done"
   },
   {
    "id": "map41.02ca",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 714,
-   "idx": 32
+   "idx": 32,
+   "status": "done"
   },
   {
    "id": "map41.02d2",
    "jp": "影鬼・変異型",
-   "en": "",
+   "en": "Mutant Shadow",
    "off": 722,
-   "idx": 33
+   "idx": 33,
+   "status": "done"
   },
   {
    "id": "map41.02e2",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 738,
-   "idx": 34
+   "idx": 34,
+   "status": "done"
   },
   {
    "id": "map41.02ea",
    "jp": "龍殺鬼・死鬼",
-   "en": "",
+   "en": "Deathbane",
    "off": 746,
-   "idx": 35
+   "idx": 35,
+   "status": "done"
   },
   {
    "id": "map41.02fa",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 762,
-   "idx": 36
+   "idx": 36,
+   "status": "done"
   },
   {
    "id": "map41.0302",
    "jp": "斬鬼・弐式改",
-   "en": "",
+   "en": "Slash Oni II+",
    "off": 770,
-   "idx": 37
+   "idx": 37,
+   "status": "done"
   },
   {
    "id": "map41.0312",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 786,
-   "idx": 38
+   "idx": 38,
+   "status": "done"
   },
   {
    "id": "map41.031a",
    "jp": "斬鬼・弐式改",
-   "en": "",
+   "en": "Slash Oni II+",
    "off": 794,
-   "idx": 39
+   "idx": 39,
+   "status": "done"
   },
   {
    "id": "map41.032a",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 810,
-   "idx": 40
+   "idx": 40,
+   "status": "done"
   },
   {
    "id": "map41.0332",
    "jp": "弓男・狙撃手",
-   "en": "",
+   "en": "Sniper Bowman",
    "off": 818,
-   "idx": 41
+   "idx": 41,
+   "status": "done"
   },
   {
    "id": "map41.0342",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 834,
-   "idx": 42
+   "idx": 42,
+   "status": "done"
   },
   {
    "id": "map41.034a",
    "jp": "弓男・狙撃手",
-   "en": "",
+   "en": "Sniper Bowman",
    "off": 842,
-   "idx": 43
+   "idx": 43,
+   "status": "done"
   },
   {
    "id": "map41.035a",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 858,
-   "idx": 44
+   "idx": 44,
+   "status": "done"
   },
   {
    "id": "map41.0362",
    "jp": "呪殺影鬼",
-   "en": "",
+   "en": "Hex Shadow",
    "off": 866,
-   "idx": 45
+   "idx": 45,
+   "status": "done"
   },
   {
    "id": "map41.036e",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 878,
-   "idx": 46
+   "idx": 46,
+   "status": "done"
   },
   {
    "id": "map41.0376",
    "jp": "呪殺影鬼",
-   "en": "",
+   "en": "Hex Shadow",
    "off": 886,
-   "idx": 47
+   "idx": 47,
+   "status": "done"
   }
  ]
 }

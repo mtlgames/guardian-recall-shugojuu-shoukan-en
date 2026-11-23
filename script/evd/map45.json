@@ -4,168 +4,191 @@
   {
    "id": "map45.0c05",
    "jp": "大地裕子",
-   "en": "",
+   "en": "Yuko Daichi",
    "off": 3077,
-   "idx": 0
+   "idx": 0,
+   "status": "done"
   },
   {
    "id": "map45.0c11",
    "jp": "ポチ",
-   "en": "",
+   "en": "Pochi",
    "off": 3089,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map45.0c19",
    "jp": "聖ゆかり",
-   "en": "",
+   "en": "Yukari Hijiri",
    "off": 3097,
    "idx": 2,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map45.0c25",
    "jp": "ノルト",
-   "en": "",
+   "en": "Nord",
    "off": 3109,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map45.0c2f",
    "jp": "静内さやか",
-   "en": "",
+   "en": "Sayaka Shizunai",
    "off": 3119,
    "idx": 4,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map45.0c3d",
    "jp": "アーチー",
-   "en": "",
+   "en": "Archie",
    "off": 3133,
    "idx": 5,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map45.0c49",
    "jp": "平泉るり",
-   "en": "",
+   "en": "Ruri Hiraizumi",
    "off": 3145,
    "idx": 6,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map45.0c55",
    "jp": "きらら",
-   "en": "",
+   "en": "Kirara",
    "off": 3157,
    "idx": 7,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map45.0c5f",
    "jp": "男",
-   "en": "",
+   "en": "Man",
    "off": 3167,
-   "idx": 8
+   "idx": 8,
+   "status": "done"
   },
   {
    "id": "map45.0c65",
    "jp": "羅侯羅",
-   "en": "",
+   "en": "Ragora",
    "off": 3173,
-   "idx": 10
+   "idx": 10,
+   "status": "done"
   },
   {
    "id": "map45.0c6f",
    "jp": "戯画骸零式",
-   "en": "",
+   "en": "Husk Zero",
    "off": 3183,
-   "idx": 11
+   "idx": 11,
+   "status": "done"
   },
   {
    "id": "map45.0c7d",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 3197,
-   "idx": 12
+   "idx": 12,
+   "status": "done"
   },
   {
    "id": "map45.0c85",
    "jp": "支援甲殻機",
-   "en": "",
+   "en": "Support Shellmech",
    "off": 3205,
-   "idx": 13
+   "idx": 13,
+   "status": "done"
   },
   {
    "id": "map45.0c93",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 3219,
-   "idx": 14
+   "idx": 14,
+   "status": "done"
   },
   {
    "id": "map45.0c9b",
    "jp": "支援甲殻機",
-   "en": "",
+   "en": "Support Shellmech",
    "off": 3227,
-   "idx": 15
+   "idx": 15,
+   "status": "done"
   },
   {
    "id": "map45.0ca9",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 3241,
-   "idx": 16
+   "idx": 16,
+   "status": "done"
   },
   {
    "id": "map45.0cb1",
    "jp": "支援甲殻機",
-   "en": "",
+   "en": "Support Shellmech",
    "off": 3249,
-   "idx": 17
+   "idx": 17,
+   "status": "done"
   },
   {
    "id": "map45.0cbf",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 3263,
-   "idx": 18
+   "idx": 18,
+   "status": "done"
   },
   {
    "id": "map45.0cc7",
    "jp": "双砲蟹",
-   "en": "",
+   "en": "Twin-Gun Crab",
    "off": 3271,
-   "idx": 19
+   "idx": 19,
+   "status": "done"
   },
   {
    "id": "map45.0cd1",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 3281,
-   "idx": 20
+   "idx": 20,
+   "status": "done"
   },
   {
    "id": "map45.0cd9",
    "jp": "双砲蟹",
-   "en": "",
+   "en": "Twin-Gun Crab",
    "off": 3289,
-   "idx": 21
+   "idx": 21,
+   "status": "done"
   },
   {
    "id": "map45.0ce3",
    "jp": "闘士",
-   "en": "",
+   "en": "Warrior",
    "off": 3299,
-   "idx": 22
+   "idx": 22,
+   "status": "done"
   },
   {
    "id": "map45.0ceb",
    "jp": "双砲蟹",
-   "en": "",
+   "en": "Twin-Gun Crab",
    "off": 3307,
-   "idx": 23
+   "idx": 23,
+   "status": "done"
   }
  ]
 }

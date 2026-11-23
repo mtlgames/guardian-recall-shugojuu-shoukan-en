@@ -4,46 +4,52 @@
   {
    "id": "map57.021e",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 542,
    "idx": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map57.022c",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 556,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map57.0234",
    "jp": "炎真由",
-   "en": "",
+   "en": "Mayu Homura",
    "off": 564,
-   "idx": 2
+   "idx": 2,
+   "status": "done"
   },
   {
    "id": "map57.023e",
    "jp": "コウエン",
-   "en": "",
+   "en": "Koen",
    "off": 574,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   },
   {
    "id": "map57.024a",
    "jp": "敵マスター",
-   "en": "",
+   "en": "Enemy Master",
    "off": 586,
    "idx": 4,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map57.0258",
    "jp": "敵守護獣",
-   "en": "",
+   "en": "Enemy Guardian",
    "off": 600,
-   "idx": 5
+   "idx": 5,
+   "status": "done"
   }
  ]
 }

@@ -4,32 +4,36 @@
   {
    "id": "map54.006f",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 111,
    "idx": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map54.007d",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 125,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map54.0085",
    "jp": "敵マスター",
-   "en": "",
+   "en": "Enemy Master",
    "off": 133,
    "idx": 2,
-   "tbl": "jp-"
+   "tbl": "jp-",
+   "status": "done"
   },
   {
    "id": "map54.0093",
    "jp": "敵守護獣",
-   "en": "",
+   "en": "Enemy Guardian",
    "off": 147,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   }
  ]
 }

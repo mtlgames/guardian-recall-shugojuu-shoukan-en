@@ -4,23 +4,26 @@
   {
    "id": "map14.0a52",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 2642,
-   "idx": 24
+   "idx": 24,
+   "status": "done"
   },
   {
    "id": "map14.0a5a",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 2650,
-   "idx": 26
+   "idx": 26,
+   "status": "done"
   },
   {
    "id": "map14.0a62",
    "jp": "爆弾",
-   "en": "",
+   "en": "Bomb",
    "off": 2658,
-   "idx": 28
+   "idx": 28,
+   "status": "done"
   }
  ]
 }

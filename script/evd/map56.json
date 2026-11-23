@@ -4,17 +4,19 @@
   {
    "id": "map56.005f",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 95,
    "idx": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map56.006d",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 109,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   }
  ]
 }

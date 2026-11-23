@@ -4,31 +4,35 @@
   {
    "id": "map53.0069",
    "jp": "周防ちかな",
-   "en": "",
+   "en": "Chikana Suo",
    "off": 105,
    "idx": 0,
-   "tbl": "sjis"
+   "tbl": "sjis",
+   "status": "done"
   },
   {
    "id": "map53.0077",
    "jp": "我王",
-   "en": "",
+   "en": "Gao",
    "off": 119,
-   "idx": 1
+   "idx": 1,
+   "status": "done"
   },
   {
    "id": "map53.007f",
    "jp": "炎真由",
-   "en": "",
+   "en": "Mayu Homura",
    "off": 127,
-   "idx": 2
+   "idx": 2,
+   "status": "done"
   },
   {
    "id": "map53.0089",
    "jp": "コウエン",
-   "en": "",
+   "en": "Koen",
    "off": 137,
-   "idx": 3
+   "idx": 3,
+   "status": "done"
   }
  ]
 }

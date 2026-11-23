@@ -52,7 +52,9 @@ VARIANTS = [
          lines=99, bytes="room", status="jp width"),
     # evd names go through the evd_name hook (any length); narrowest view = ring > UNIT list name column (x 25, Ali
     # values from x 103): 75 px. The 20-byte crash there was the 2D pool (asm/hooks.asm pool_grow), not the name.
-    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=75, lines=1, status="measured"),
+    # 95 px = full English names ("Suzune Ichinomiya" 90 px, D4: no abbreviations). The ring > UNIT list holds 75 px
+    # before the Ali column (x 103): phase 7 must widen that column or draw it condensed (docs/windows.md).
+    dict(name="evd unit name", ids=r"map\d+\.", kind="lines", px=95, lines=1, status="engine pending (75 measured)"),
 ]
 
 
@@ -114,8 +116,7 @@ def lint(s, v, glyphs):
         b = len(script_io.enc(s["en"]))
         if b > n:
             errs.append(f"{b} bytes > {n} in place")
-    # a scenario record opens with the speaker's name line when the Japanese does (not 「 （ 『 or an indent)
-    named = v["kind"] == "scenario" and "\n" in s["jp"] and s["jp"][0] not in "「（『　"
+    named = v["kind"] == "scenario" and named_jp(s["jp"])
     for text, px in segments(v, s["en"], s["jp"]):
         for i, p in enumerate(pages(v, text)):
             body = p[1:] if named and i == 0 else p
@@ -126,6 +127,15 @@ def lint(s, v, glyphs):
                 if w > px:
                     errs.append(f"{w} px > {px}: {line!r}")
     return errs
+
+
+def named_jp(jp):
+    """A scenario record opens with a speaker name line: a short first line (<= 8 chars) with no sentence
+    punctuation; tutorial narration lines (long, or with 。、) and 「（『/indented openings are not names."""
+    if "\n" not in jp:
+        return False
+    first = jp.split("\n", 1)[0]
+    return len(first) <= 8 and first[:1] not in "「（『　" and not re.search(r"[。、！？・：「」（）『』]", first)
 
 
 def jp_px(jp):
