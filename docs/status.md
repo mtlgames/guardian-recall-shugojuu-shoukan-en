@@ -4,11 +4,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (20) `build.py` (write check + jp_refs ok both discs; G1-G6, G8-G11, G13, G15, G17, G18
-  English), check.py green, disc 1 smoke ok, disc 2 `ending` regen ok. Phase 8 in progress: every graphics row done
-  and shot (chapter cards too); full tour run 142/142 ok on this build (work/qa/tour); visual-QA verdicts in
-  progress: d1 done (154/154 ok, `qa_gate.py check` d1 exits 0); d2 chunk 000 done (30/111 ok, 0 issues), d2
-  001-003 left (Next (1)).
+  Last build: 2026-11-24 (24) `build.py` at c9c1c9e+ (write check ok both discs; disc1 bin sha1 b9e87ef3.., disc2
+  dc0c87ff..), check.py green, disc 1 smoke ok. Phase 8 in progress: every graphics row done and shot; full tour
+  144/144 ok on this build (work/qa/tour); **visual-QA verdicts complete: `qa_gate.py check` exits 0 for d1
+  (154) and d2 (113) on this build**. Left for phase 8: inkbox, stress saves, textcover (Next (1)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -276,9 +275,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     Checked against the original where in doubt: name-less continuation pages and battle comments are the game's
     layout, OITA-EHIME / INSERT DISC placement as original, Tec. rows are two traits. New tools/vqa_pack.py,
     tools/findtile.py.
+  - 2026-11-24 (24): **visual-QA verdicts done** (d2 chunks 001-003). Two issues found and fixed (asm/hooks.asm,
+    tests/test_font.py): UNIT list pages 2/3 started their first column at x 100 ("Thunder Dragon" ran into As / the
+    Short rank; Master page 2 had no room for 90 px names) -> Master At x 120, Guardian As x 108, Short x 112 (new
+    scenes tac_unit_mr, tac_unit_r2); unit command highlight bar ended before the c of "Tactic" -> box w 49, bar to
+    pen+34. Full re-tour 144/144; d1 battle/gameover sheets changed only in the command box (proved with new
+    `tools/framediff.py` against the previous build's run in work/qa/tour_prev). Guardian list page 1 "Thunder Dragon"
+    4 px before Type: docs/polish.md line.
 - **Next (phase 8):** (0) Still unknown whether other code draws split.tim cells (none seen).
-  (1) **Visual-QA verdicts**: d1 all 6 chunks done (154 ok; 2026-11-24 (23)); d2 chunk_486099ed861f_000 done (diary,
-  ending/credits, epilogues, ev21: 30 ok); next d2 001, 002, 003 (81 sheets). Saves context:
+  (1) **Visual-QA verdicts done** (both gates exit 0 at 2026-11-24 (24)). After any later code/font/text change:
+  re-run the tour, `vqa_sheets.py`, `qa_gate.py init ... --build`, `todo`; for long scenes whose sheets change only
+  through a known fix, `tools/framediff.py NEW OLD` against a run on the previous build shows where frames differ.
+  Next: inkbox, stress saves, textcover (below). Notes from the verdict pass, still useful:
   `tools/vqa_uniq.py OUTPREFIX SHEET..` packs only distinct tiles 4 per image (boot/title/replay-list frames repeat
   across opt_* and d2 sheets: epilogue_*_sheet were 100% ending_sheet tiles); FMV-only pages skim fine at half size
   (2x2 sheets per image). Near-duplicate dedupe (pixel tolerance) was tried and dropped: map frames all differ
