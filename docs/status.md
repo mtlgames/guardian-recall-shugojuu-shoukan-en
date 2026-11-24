@@ -243,7 +243,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
     G12 scroll poem, G14 medallions kept as decoration. All shot in game (graphics.md rows).
 - **Next (phase 8):** (0) Graphics rows left: G17 element orbs (source unknown; tactics HUD + DIAGRAM) and G10
   pentagram (same element kanji: give both the same treatment, English element names Earth/Flame/Holy/Thunder/Sea/
-  Wind/Sky/Nether per glossary 主 row), G9 battle label glyphs, G15 STAFF.STR credits (STR re-encode: biggest).
+  Wind/Sky/Nether per glossary 主 row). G17 not in GRETC (names checked); UNN sweep (work/gfx/sweep/UNN.idx, 1066
+  TX03 images) by size alone is too broad: dump VRAM in tac_unit_menu (L.dump_ppu, first 1 MB = VRAM), find the orb
+  tpage/uv, then match that tile against the sweep. G9 battle label glyphs, G15 STAFF.STR credits (STR re-encode: biggest).
   Chapter cards (SUBTI 39-43) not yet shot in game.
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
   the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
