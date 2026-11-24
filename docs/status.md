@@ -4,7 +4,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (17) `build.py` (write check + jp_refs ok both discs; G1-G6, G8, G11, G13, G18 English),
+  Last build: 2026-11-24 (18) `build.py` (write check + jp_refs ok both discs; G1-G6, G8, G10, G11, G13, G17, G18 English),
   check.py green. Phase 8 in progress: graphics rows first (Next (0)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
@@ -241,11 +241,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     same sizes, pixels only; tests/test_gfx.py): G5 SKY / EARTH (new scene route_choice_r), G13 VOICE PLAY legend
     (two lines; the voice actor name is printed right of CV), G11 cover katakana -> "Guardian Recall". D16: G11 seals,
     G12 scroll poem, G14 medallions kept as decoration. All shot in game (graphics.md rows).
-- **Next (phase 8):** (0) Graphics rows left: G17 element orbs (source unknown; tactics HUD + DIAGRAM) and G10
-  pentagram (same element kanji: give both the same treatment, English element names Earth/Flame/Holy/Thunder/Sea/
-  Wind/Sky/Nether per glossary 主 row). G17 not in GRETC (names checked); UNN sweep (work/gfx/sweep/UNN.idx, 1066
-  TX03 images) by size alone is too broad: dump VRAM in tac_unit_menu (L.dump_ppu, first 1 MB = VRAM), find the orb
-  tpage/uv, then match that tile against the sweep. G9 battle label glyphs, G15 STAFF.STR credits (STR re-encode: biggest).
+  - 2026-11-24 (18): **G17 element orbs** English: source = UNN g09 +0x1323C (TX03 of a TIM; found by VRAM dump
+    with the skill's ppudump.lua probe + needle search, CLUTs in the same TIM). `gfx.orb_sheet` re-shades each orb in
+    its own CLUT + 7-px caps name (SKY EARTH THUNDER SEA FLAME WIND NETHER HOLY EMPEROR MASTER); shots tac_diagram,
+    tac_unit_menu. **G10 pentagram** (OPTION background) English via `gfx.penta`; shot option. tests/test_gfx.py.
+- **Next (phase 8):** (0) Graphics rows left: G9 battle label glyphs, G15 STAFF.STR credits (STR re-encode: biggest).
+  G9 facts: split.tim = 4bpp 256x256 (one 16-colour CLUT: 1 outline, 2 white core, 3-8 red bands, 10-14 blue
+  bands), 64 cells of 32x32 (idx -> col idx%8, row idx/8), 53 used. 29 labels = trait records 0x801713E8+12n
+  (+0 type id, +4 glyph list ptr into 0x80171374-0x801713E7 = 116 bytes, lists FF-terminated, read by lbu: no
+  alignment needed). Each glyph = an object, x advance 0x1A (addiu at BATTLE 0x8016AFBC), centring 26n/2
+  (0x8016AED4..). English at 16 px serif x0.9 needs 62 cells only if the advance is patched to 32 (and the
+  centring to 16n); at advance 26 it needs 75 (> 64). Unknown: when a label shows (probe the battle scene with
+  exec_log on 0x8016AE64/0x8016AF80) and whether other code draws split.tim cells.
   Chapter cards (SUBTI 39-43) not yet shot in game.
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
   the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
