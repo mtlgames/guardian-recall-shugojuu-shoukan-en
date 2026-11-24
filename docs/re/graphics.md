@@ -11,8 +11,8 @@ Static sweep (rebuild into work/, not in git):
 
 | # | Element | Source | Count | Notes |
 |---|---|---|---|---|
-| G1 | Episode title cards (第N話 + title + small English line) | SUBTI.PAK (TX03 160x240 4bpp) **and** copy in UNN g17 (+64); patch both | 53 | reviewed |
-| G2 | Chapter cards (天の章, 地の章, 七龍の章, 覚醒の章, 龍鬼の章; vertical) | same SUBTI/g17 set | 5 | reviewed |
+| G1 | Episode title cards (第N話 + title + small English line) | SUBTI.PAK (TX03 160x240 4bpp) **and** copy in UNN g17 (+64); patch both | 53 | **English** (2026-11-24): `tools/gfx.py` draws every card from gfx/cards.tsv (Episode N, title, chapter; Liberation Serif Bold) and writes TX03 in place into SUBTI.PAK (index ACTION.BIN 0x12664) and g17 (+64 TIM header; g17 = alternate layouts, 37/47 = Hitomi Jin, 49 = Guardian Recall). Shot: `one.py battle --frames 16400` f016050 |
+| G2 | Chapter cards (天の章, 地の章, 七龍の章, 覚醒の章, 龍鬼の章; vertical) | same SUBTI/g17 set | 5 | **English** (entries 39-43, "Sky Chapter"...; 26 px so SUBTI's 1-sector entries fit); not shot in game yet |
 | G3 | Location/time cards (雪花旅館 + furigana + HOKKAIDO 19:44 ...) | UNN g24 (TX03 160x240) | 66 | reviewed (both sheets) |
 | G4 | Battle victory/defeat condition cards (勝利条件 / 敗北条件 / 撤退可能) | UNN g18 (TX03 128x240) | 24 | reviewed |
 | G5 | Route choice 天 / 地 brush kanji (black and white versions) | GRETC rsel: 220 tiblk, 221 teblk, 223 tiwhi, 226 tewhi (TIM 192x128) | 4 | yin-yang halves 222/224/225/227 have no text |

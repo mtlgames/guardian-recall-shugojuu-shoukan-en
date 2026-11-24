@@ -8,6 +8,7 @@ Rules (errors fail the build):
   - armips runs (asm_writes) lie inside spans its -temp listing says it emitted, and a run longer than a hook
     patch (HOOK_MAX) only covers bytes that were zero in the dump (payload, boot stub: never live code or data);
   - UNN.PAK: every group but the text groups (13, 23) keeps its bytes; g9 differs only inside the font TIM pixels;
+    logged in-place gfx writes (g17 title cards, tools/gfx.py) pass the same romdiff write checks;
   - GRETC.RLZ: entries insert.py did not rebuild keep their stored bytes; directory fields other than the
     offset/size/sector ones are unchanged.
 What it misses: whether a write's *content* is right (text tests, emulator QA) and the text groups' own bytes
@@ -24,7 +25,7 @@ import romdiff
 import script_io
 
 FILES = {"DATA/UNN.PAK", "DATA/GRETC.RLZ", "DATA/ACTION.BIN", "DATA/BATTLE.BIN", "DATA/HEN.BIN", "DATA/DAY.BIN",
-         "DATA/BRAIN.BIN", "DATA/DIC.BIN"}  # + the SLPS_* EXE
+         "DATA/BRAIN.BIN", "DATA/DIC.BIN", "DATA/SUBTI.PAK"}  # + the SLPS_* EXE
 HOOK_MAX = 0x40  # longest hook-site patch is 6 instructions; anything longer must sit in the dump's zero area
 BREAK = re.compile(r'\.(open|org|orga|close|headersize)\b\s*"?([^",;\s]*)"?,?(0x[0-9A-Fa-f]+)?')
 
@@ -92,7 +93,8 @@ def asm_writes(name, pre, post, blocks):
     return writes, errs
 
 
-def unn_errors(exe0, exe1, unn0, unn1):
+def unn_errors(exe0, exe1, unn0, unn1, writes=()):
+    """writes: logged in-place UNN writes [(pre-repack off, orig, new, who)] (gfx cards), allowed in their group."""
     errs = []
     toc0, toc1 = gr_index.toc(exe0), gr_index.toc(exe1)
     first = min(s for s, _, _ in toc0) * script_io.SECTOR
@@ -111,7 +113,9 @@ def unn_errors(exe0, exe1, unn0, unn1):
             continue
         lo = img - s0 * script_io.SECTOR
         allowed = [range(lo, lo + 128 * h)] if g == 9 else []
-        errs += [f"UNN.PAK group {g}: {e}" for e in romdiff.check(old, new, allowed, [])[0]]
+        base = s0 * script_io.SECTOR
+        mine = [(o - base, a, b, w) for o, a, b, w in writes if base <= o < base + len(old)]
+        errs += [f"UNN.PAK group {g}: {e}" for e in romdiff.check(old, new, allowed, mine)[0]]
     end0 = max(s + n for s, n, _ in toc0) * script_io.SECTOR
     end1 = max(s + n for s, n, _ in toc1) * script_io.SECTOR
     if unn1[end1:] != unn0[end0:]:
@@ -161,6 +165,7 @@ def verify(orig_tree, tree, log, gretc_rebuilt):
             errs.append(f"{rel}: size changed")
         errs += [f"{rel} {e}" for e in romdiff.check(a, b, [], log.get(rel, []))[0]]
     rd = lambda t, r: (t / r).read_bytes()  # noqa: E731
-    errs += unn_errors(rd(orig_tree, exe), rd(tree, exe), rd(orig_tree, "DATA/UNN.PAK"), rd(tree, "DATA/UNN.PAK"))
+    errs += unn_errors(rd(orig_tree, exe), rd(tree, exe), rd(orig_tree, "DATA/UNN.PAK"), rd(tree, "DATA/UNN.PAK"),
+                        log.get("DATA/UNN.PAK", []))
     errs += gretc_errors(rd(orig_tree, "DATA/GRETC.RLZ"), rd(tree, "DATA/GRETC.RLZ"), gretc_rebuilt)
     return errs

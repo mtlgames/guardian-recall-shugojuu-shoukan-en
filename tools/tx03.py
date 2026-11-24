@@ -51,6 +51,55 @@ def decompress(src, off=0):
     return bytes(out[:end]), i
 
 
+def compress(w, h, data):
+    """TX03 stream for w*h data bytes (w = bytes per row). Greedy longest match over all copy forms; a copy beats a
+    literal even at length 1 (1 byte vs 2). decompress(compress(...)) == header + data (tests/test_tx03.py)."""
+    assert len(data) == w * h and w * h >= 2
+    t = struct.pack("<hh", w, h) + bytes(data)   # target, positions as the decoder counts them
+    end = len(t)
+    cands = ([(0x00 | o << 3, 7, -(o + 1)) for o in range(8)]
+             + [(0x40 | o << 3, 7, -4 - w + o) for o in range(8)]
+             + [(0x80 | o << 3, 7, -4 - 2 * w + o) for o in range(8)]
+             + [(0xC0 | o << 2, 3, -4 - 4 * w + o) for o in range(8)])
+    out = bytearray(b"TX03" + t[:6])
+    lit = bytearray()
+
+    def flush():
+        for k in range(0, len(lit), 32):
+            run = lit[k:k + 32]
+            out.append(0xE0 | (len(run) - 1))
+            out.extend(run)
+        lit.clear()
+
+    p = 6
+    while p < end:
+        best, bl = None, 0
+        lim = min(255, end - p)
+        for code, inl, d in cands:
+            r = p + d
+            if r < 4:   # never read the w/h header
+                continue
+            n = 0
+            while n < lim and t[r + n] == t[p + n]:
+                n += 1
+            # tie: prefer the form that encodes the length inline (1 byte instead of 2)
+            if n > bl or (n == bl and n and n - 1 < inl and best[1] <= n - 1):
+                best, bl = (code, inl), n
+        if bl == 0:
+            lit.append(t[p])
+            p += 1
+            continue
+        flush()
+        code, inl = best
+        if bl - 1 < inl:
+            out.append(code | (bl - 1))
+        else:
+            out += bytes((code | inl, bl - 1))
+        p += bl
+    flush()
+    return bytes(out)
+
+
 if __name__ == "__main__":
     data = open(sys.argv[1], "rb").read()
     off = int(sys.argv[2], 0)

@@ -1,0 +1,58 @@
+# SUBTI.PAK / UNN g17 title cards (G1, G2): entry, chapter (sky earth seven awake ryuki), episode (- = none), English title (rep.json; - = chapter card)
+0	sky	1	Guardian Recall
+1	sky	2	Flame Dragon Awakens
+2	sky	3	Suzune and Kotone
+3	sky	4	Fateful Reunion
+4	sky	5	Sea Dragon Awakens
+5	sky	6	Escape from Shikoku
+6	sky	6	Trap on Onaruto Bridge
+7	sky	7	Sorrow and Anger in Our Hearts
+8	sky	8	Wind Dragon Awakens
+9	earth	1	Attack! Overture to a Journey
+10	earth	2	Holy Dragon Awakens
+11	earth	3	Clash! Seikan Tunnel
+12	earth	4	Kagami Appears! Egubado's Trap
+13	earth	5	Great Escape from Ryusendo!
+14	earth	6	Stop Operation Dam-Dam!
+15	earth	5	Pursuit! The Stone Circle
+16	earth	6	Smash! Egubado's Base
+17	earth	7	Akira, Rocker of Justice!
+18	earth	8	Break the Line of Trials!
+19	seven	1	Thunder Dragon Awakens
+20	seven	2	Into Tokyo
+21	seven	3	Battle 150 Meters Up
+22	seven	4	Reconnaissance
+23	seven	5	Takegami Appears!
+24	seven	5	The Hibiya Siege
+25	seven	6	To the National Diet Building
+26	seven	7	Barrier of the Four Gates
+27	awake	1	Jet-Black Genbu
+28	awake	2	Silver Byakko
+29	awake	3	Azure Seiryu
+30	awake	4	Crimson Suzaku
+31	awake	5	Heaven and Earth Awaken
+32	awake	6	Storm Hiryuki Palace!
+33	awake	7	Showdown! Four Gate Generals
+34	awake	8	The Combined Guardian Nue!
+35	ryuki	-	Ryukihi
+36	sky	6	Trap on Onaruto Bridge
+37	sky	7	Sorrow and Anger in Our Hearts
+38	sky	8	Wind Dragon Awakens
+39	sky	-	-
+40	earth	-	-
+41	seven	-	-
+42	awake	-	-
+43	ryuki	-	-
+44	sky	5	Sea Dragon Awakens
+45	sky	6	Escape from Shikoku
+46	sky	6	Trap on Onaruto Bridge
+47	sky	7	Sorrow and Anger in Our Hearts
+48	sky	8	Wind Dragon Awakens
+49	sky	7	Hitomi Jin
+50	seven	6	The Hibiya Siege
+51	seven	7	To the National Diet Building
+52	seven	8	Barrier of the Four Gates
+# UNN g17 holds alternate layouts of the same cards; these entries show another episode there
+g17.37	sky	7	Hitomi Jin
+g17.47	sky	7	Hitomi Jin
+g17.49	sky	1	Guardian Recall

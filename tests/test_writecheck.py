@@ -8,6 +8,7 @@ import pytest
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
+import gr_index  # noqa: E402
 import insert  # noqa: E402
 import writecheck  # noqa: E402
 
@@ -54,7 +55,7 @@ def test_asm_writes_rules():
 
 
 MINI = ["DATA/UNN.PAK", "DATA/GRETC.RLZ", "DATA/ACTION.BIN", "DATA/BATTLE.BIN", "DATA/HEN.BIN", "DATA/DAY.BIN",
-        "DATA/BRAIN.BIN", "DATA/DIC.BIN", "DATA/CF.BIN"]
+        "DATA/BRAIN.BIN", "DATA/DIC.BIN", "DATA/CF.BIN", "DATA/SUBTI.PAK"]
 
 
 def test_patched_tree_and_stray_writes(tmp_path):  # ~2 s: kept in the commit gate
@@ -86,6 +87,10 @@ def test_patched_tree_and_stray_writes(tmp_path):  # ~2 s: kept in the commit ga
     assert any("overwritten" in e for e in errs_after(exe, off))                      # clobbered logged write
     assert any("group 0" in e for e in errs_after("DATA/UNN.PAK", 0x800 * 30))         # non-text UNN group
     assert any("never patches" in e for e in errs_after("DATA/CF.BIN", 100))           # file insert.py never patches
+    assert any("SUBTI" in e for e in errs_after("DATA/SUBTI.PAK", 0x800 * 3 + 100))    # stray write in a card's slack
+    g17 = next(o for o, *_ in insert.LOG["DATA/UNN.PAK"])   # pre-repack offset: shift by the group's move
+    move = 0x800 * (gr_index.toc((tree / exe).read_bytes())[17][0] - gr_index.toc((orig / exe).read_bytes())[17][0])
+    assert any("group 17" in e for e in errs_after("DATA/UNN.PAK", g17 + move - 8))    # card TIM header (unlogged)
     first_kept = min(set(range(50)) - insert.GRETC_REBUILT)
     import gretc
     e = gretc.directory((tree / "DATA/GRETC.RLZ").read_bytes())[1][first_kept]

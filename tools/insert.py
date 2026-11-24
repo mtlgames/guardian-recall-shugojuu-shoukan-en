@@ -13,6 +13,7 @@ import subprocess
 from pathlib import Path
 
 import font
+import gfx
 import gr_index
 import script_io
 import writecheck
@@ -295,6 +296,7 @@ def patch_tree(tree, mode="en"):
     GRETC_REBUILT.clear()
     exe0, unn = exe_path.read_bytes(), bytearray(unn_path.read_bytes())
     tables = font.patch_unn(exe0, unn)                      # same size: before the repack moves groups
+    gfx.patch(tree, exe0, unn, log)                         # title cards: in place, same sizes
     groups = text_groups(mode)
     exe, unn = script_io.unn_repack(exe0, bytes(unn), groups)
     # unn_repack rewrites the group TOC and the text groups' sub-tables in the EXE
