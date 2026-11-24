@@ -309,7 +309,7 @@ def patch_tree(tree, mode="en"):
     rlz_path = tree / "DATA/GRETC.RLZ"
     rlz = rlz_path.read_bytes()
     files = gretc_files(rlz, mode)
-    tims = gfx.gretc_images(rlz)                            # redrawn TIMs (G5...), same sizes
+    tims = gfx.gretc_images(rlz, (tree / "DATA/BATTLE.BIN").read_bytes())   # redrawn TIMs (G5...), same sizes
     assert not files.keys() & tims.keys()
     files.update(tims)
     GRETC_REBUILT.update(files)
@@ -322,11 +322,11 @@ def patch_tree(tree, mode="en"):
     work.mkdir(parents=True, exist_ok=True)
     (work / "font_tables.bin").write_bytes(tables)
     asm_files = {exe_path.name: exe_path, "DATA/DIC.BIN": tree / "DATA/DIC.BIN", "DATA/DAY.BIN": tree / "DATA/DAY.BIN",
-                 "DATA/ACTION.BIN": tree / "DATA/ACTION.BIN"}
+                 "DATA/ACTION.BIN": tree / "DATA/ACTION.BIN", "DATA/BATTLE.BIN": tree / "DATA/BATTLE.BIN"}
     pre = {rel: p.read_bytes() for rel, p in asm_files.items()}
     subprocess.run([ARMIPS, ROOT / "asm/hooks.asm", "-strequ", "EXE", exe_path, "-strequ", "TABLES",
                     work / "font_tables.bin", "-strequ", "DIC", tree / "DATA/DIC.BIN", "-strequ", "DAY", tree / "DATA/DAY.BIN",
-                    "-strequ", "ACTION", tree / "DATA/ACTION.BIN", "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin",
+                    "-strequ", "ACTION", tree / "DATA/ACTION.BIN", "-strequ", "BATTLE", tree / "DATA/BATTLE.BIN", "-strequ", "EVDNAMES", work / "evd_names.bin", "-strequ", "STRPOOL", work / "str_pool.bin",
                     "-sym", work / "hooks.sym", "-temp", work / "hooks.lst"],
                    check=True)
     blocks = writecheck.asm_blocks((work / "hooks.lst").read_text(encoding="utf-8-sig"))

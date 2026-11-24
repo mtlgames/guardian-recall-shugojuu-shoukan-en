@@ -4,8 +4,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (18) `build.py` (write check + jp_refs ok both discs; G1-G6, G8, G10, G11, G13, G17, G18 English),
-  check.py green. Phase 8 in progress: graphics rows first (Next (0)).
+  Last build: 2026-11-24 (19) `build.py` (write check + jp_refs ok both discs; G1-G6, G8-G11, G13, G17, G18 English),
+  check.py green. Phase 8 in progress: graphics rows first (Next (0)); only G15 (credits movie) left.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -245,20 +245,22 @@ Updated at the end of every session. Keep it to what the next session needs; his
     with the skill's ppudump.lua probe + needle search, CLUTs in the same TIM). `gfx.orb_sheet` re-shades each orb in
     its own CLUT + 7-px caps name (SKY EARTH THUNDER SEA FLAME WIND NETHER HOLY EMPEROR MASTER); shots tac_diagram,
     tac_unit_menu. **G10 pentagram** (OPTION background) English via `gfx.penta`; shot option. tests/test_gfx.py.
-- **Next (phase 8):** (0) Graphics rows left: G9 battle label glyphs, G15 STAFF.STR credits (STR re-encode: biggest).
-  G9 facts: split.tim = 4bpp 256x256 (one 16-colour CLUT: 1 outline, 2 white core, 3-8 red bands, 10-14 blue
-  bands), 64 cells of 32x32 (idx -> col idx%8, row idx/8), 53 used. 29 labels = trait records 0x801713E8+12n
-  (+0 type id, +4 glyph list ptr into 0x80171374-0x801713E7 = 116 bytes, lists FF-terminated, read by lbu: no
-  alignment needed). Each glyph = an object, x advance 0x1A (addiu at BATTLE 0x8016AFBC), centring 26n/2
-  (0x8016AED4..). English at 16 px serif x0.9 needs 62 cells only if the advance is patched to 32 (and the
-  centring to 16n); at advance 26 it needs 75 (> 64). Trigger: label object handler 0x8016AE00 (field 0xc =
-  record index) is spawned by 0x8016D754, called from 0x8016D73C in a watcher task 0x8016D710 when
-  `*(*(s->0xc)) & (s->0xc)[1]` (flag word & mask) is non-zero; (s->0xc)+0x10 = screen slot (x 0/0x6A/0x6C...),
-  +0x18 = record index. The `battle` scene (stops 500 frames into BATTLE, ~40186) never ran 0x8016AE64/AF80
-  (exec_log, 2026-11-24). To shoot: extend the battle scene a few hundred frames, then tools/lua/setreg.lua at
-  0x8016D734 forcing v0 = 1 (and/or poke the record index at +0x18) so every label can be shown in turn. Who
-  creates the 0x8016D710 watchers is not found yet (no word/addiu ref in BATTLE.BIN; check EXE/jalr tables).
-  Still unknown whether other code draws split.tim cells.
+  - 2026-11-24 (19): **G9 battle labels English** (docs/re/graphics.md G9 row): `gfx.label_*` + hooks.asm BATTLE
+    block (advance 32, centring 32n; BATTLE.BIN now an armips target), all 29 shot (`tools/debug/g9shots.py`,
+    probe tools/lua/g9labels.lua). Label watchers scan only twice in the battle state (~220, ~457 frames in).
+    **G15 groundwork:** `tools/mdec.py` MDEC v2 decode/encode, all 4797 STAFF.STR frames byte-identical
+    (tests/test_mdec.py).
+- **Next (phase 8):** (0) Graphics row left: **G15 STAFF.STR credits** (D3 = English). Plan: (a) transcribe every
+  credit (roles + names) from frames (`tools/str_frames.py work/staff STAFF.STR --every 1 --width 320`; the scroll
+  is ~5 min, text column in the left half; frames 68-80 of a 4 s sample = ©XING card + English ending: keep);
+  (b) translate roles, romanize names (check MobyGames/official sources first; record the source in decisions.md;
+  unknown readings -> flag in Waiting, non-blocking); (c) find the scroll speed (row offset per frame) so a
+  re-rendered English column can follow the same timing; (d) per frame: decode, replace the left-column
+  macroblocks with the English column rendered on black (forward DCT + PSX quant matrix at the frame's qscale),
+  keep the right-side macroblocks' coefficients as they are, re-encode; each frame must fit its own chunks x 2016
+  bytes (same sector layout, audio sectors untouched); (e) write the new STR into disc 2's tree in build.patch
+  (mkpsxiso keeps form-2 STR as-is; check layout.xml), shoot scene `ending` (disc 2) from a cold boot.
+  Still unknown whether other code draws split.tim cells (none seen).
   Chapter cards (SUBTI 39-43) not yet shot in game.
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
   the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle

@@ -81,6 +81,8 @@ ACTION_ORIG = {0x80171558: "addiu s0,s7,0x96", 0x80171570: "addiu a0,t2,0x5d", 0
                0x80174354: "addiu a0,zero,0x6e", 0x8017437C: "addiu a1,zero,0x66", 0x80174388: "addiu a3,zero,0x2d",
                0x8017438C: "addiu a0,zero,0x6e", 0x801743B0: "addiu a0,zero,0x32", 0x801743D0: "addiu a0,zero,0x50"}
 # ACTION.BIN UNIT list header x (halfword at RAM address; Ali Lv Exp Sp Mp Ap)
+# BATTLE.BIN (same base): G9 label advance / centring
+BATTLE_ORIG = {0x8016AEDC: "sll v1,v0,1", 0x8016AEF0: "sll v1,v1,1", 0x8016AFBC: "addiu v1,v1,0x1a"}
 ACTION_DATA = {0x80167188: 0x5A, 0x80167190: 0x78, 0x80167198: 0x96, 0x801671A0: 0xB4, 0x801671A8: 0xD2,
                0x801671B0: 0xF0}
 
@@ -93,17 +95,19 @@ def test_hooked_words_are_original():
     dic = (TREE / "DATA/DIC.BIN").read_bytes()
     day = (TREE / "DATA/DAY.BIN").read_bytes()
     act = (TREE / "DATA/ACTION.BIN").read_bytes()
+    bat = (TREE / "DATA/BATTLE.BIN").read_bytes()
     for a, want in ACTION_DATA.items():
         assert struct.unpack_from("<h", act, a - 0x80166218)[0] == want, hex(a)
     for img, base, orig in ((exe, BASE, ORIG), (dic, 0x80166218, {0x80166218 + o: w for o, w in DIC_ORIG.items()}),
-                            (day, 0x80166218, DAY_ORIG), (act, 0x80166218, ACTION_ORIG)):
+                            (day, 0x80166218, DAY_ORIG), (act, 0x80166218, ACTION_ORIG),
+                            (bat, 0x80166218, BATTLE_ORIG)):
         for a, want in orig.items():
             i = next(md.disasm(img[a - base:a - base + 4], a))
             assert f"{i.mnemonic} {i.op_str}".replace("$", "").replace(", ", ",") == want, hex(a)
     for a, want in DATA_ORIG.items():
         assert struct.unpack_from(f"<{len(want)}h", exe, a - BASE) == want, hex(a)
     asm = (ROOT / "asm/hooks.asm").read_text(encoding="utf-8")
-    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | set(DAY_ORIG) | set(DATA_ORIG) | set(ACTION_ORIG) | set(ACTION_DATA) | {
+    assert set(int(x, 16) for x in re.findall(r"^\.org (0x8[0-9A-F]+)\b(?!\s*\+)", asm, re.M)) - {0x8000F810, } <= set(ORIG) | set(DAY_ORIG) | set(DATA_ORIG) | set(ACTION_ORIG) | set(ACTION_DATA) | set(BATTLE_ORIG) | {
         int(re.search(r"STUB\s+equ \((0x[0-9A-F]+)", asm).group(1), 16)}
     assert set(int(x, 16) for x in re.findall(r"^\.org 0x80166218 \+ (0x[0-9A-F]+)", asm, re.M)) <= set(DIC_ORIG)
     assert struct.unpack_from("<I", exe, 0x10)[0] == 0x8006B1CC  # entry point the stub jumps to

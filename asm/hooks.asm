@@ -693,3 +693,17 @@ ST2 equ 120
 .org 0x801743D0
   addiu a0, zero, ST1
 .close
+
+; ---- BATTLE.BIN (overlay at 0x80166218): trait/skill labels (G9, tools/gfx.py label_*): English runs on across
+; 32-px cells, so the sprite advance is 32 (was 26) and the label width / centring 32n (was 26n).
+.open BATTLE, 0x80166218
+.org 0x8016AEDC                 ; was: sll v1,v0,1; addu v1,v1,v0; sll v1,v1,2; addu v1,v1,v0 (v1 = 13n)
+  sll   v1, v0, 5
+  nop
+  nop
+  nop
+.org 0x8016AEF0                 ; was: sll v1,v1,1 (26n)
+  nop
+.org 0x8016AFBC                 ; was: addiu v1,v1,0x1A
+  addiu v1, v1, 0x20
+.close

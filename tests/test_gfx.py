@@ -9,6 +9,7 @@ import gfx  # noqa: E402
 import gretc  # noqa: E402
 
 RLZ = ROOT / "work/iso/d1/tree/DATA/GRETC.RLZ"
+BATTLE = ROOT / "work/iso/d1/tree/DATA/BATTLE.BIN"
 
 
 @pytest.mark.skipif(not RLZ.exists(), reason="needs a dumped disc (build.py)")
@@ -16,11 +17,28 @@ def test_gretc_images_keep_tim_layout():
     """Redrawn GRETC TIMs keep header + CLUT and size; only pixels change, and every one changes something."""
     rlz = RLZ.read_bytes()
     ents = gretc.directory(rlz)[1]
-    for i, new in gfx.gretc_images(rlz).items():
+    for i, new in gfx.gretc_images(rlz, BATTLE.read_bytes()).items():
         old = gretc.expand(rlz, ents[i])
-        p, w, h = gfx.tim_pixels(old)
+        p, w, h = gfx.tim_pixels(old) if i != gfx.SPLIT else (8 + 0x2C + 12, 128, 256)   # split.tim: 4bpp
         assert len(new) == len(old) and new[:p] == old[:p], i
         assert new[p:p + w * h] != old[p:p + w * h], i
+
+
+@pytest.mark.skipif(not RLZ.exists(), reason="needs a dumped disc (build.py)")
+def test_battle_labels_fit():
+    """G9: every label word gets whole cells (<= 64 in all, <= 4 per label: 128 px), the lists fit their 116 bytes,
+    and the pointer writes land on the 29 records' +4 words inside the list range."""
+    import struct
+    battle = BATTLE.read_bytes()
+    cells, lists = gfx.label_layout(battle)
+    assert len(cells) <= 64 and max(map(len, lists)) <= 4 and len(lists) == gfx.NLABELS
+    assert [w for w, _ in gfx.label_words(battle)][:3] == ["Barbarian", "Oni", "Knight"]
+    writes = gfx.label_writes(battle)
+    lo, hi = gfx.LABEL_LISTS
+    blob = writes[0][2]
+    for (o, old, new), cl in zip(writes[1:], lists):
+        p = struct.unpack("<I", new)[0]
+        assert lo <= p < hi and list(blob[p - lo:p - lo + len(cl) + 1]) == cl + [0xFF]
 
 
 @pytest.mark.skipif(not RLZ.exists(), reason="needs a dumped disc (build.py)")

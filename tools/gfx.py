@@ -510,11 +510,13 @@ def penta(b):
     return b[:p] + a.tobytes() + b[p + w * h:]
 
 
-def gretc_images(rlz):
-    """{GRETC entry: new plain TIM bytes} for the redrawn GRETC graphics (same sizes; insert.patch_tree repacks)."""
+def gretc_images(rlz, battle):
+    """{GRETC entry: new plain TIM bytes} for the redrawn GRETC graphics (same sizes; insert.patch_tree repacks).
+    battle = DATA/BATTLE.BIN (G9 label words)."""
     import gretc
     ents = gretc.directory(rlz)[1]
-    out = {}
+    assert ents[SPLIT]["name"] == "split.tim"
+    out = {SPLIT: split_sheet(gretc.expand(rlz, ents[SPLIT]), battle)}
     for i, word in RSEL.items():
         out[i] = brush_word(gretc.expand(rlz, ents[i]), word)
     out[CFVC] = cfvc(gretc.expand(rlz, ents[CFVC]))
@@ -620,6 +622,101 @@ def orb_preview(d, new):
         rows.append(np.concatenate(tiles, 1))
     im = Image.fromarray(np.concatenate(rows, 0))
     return im.resize((im.width * 4, im.height * 4), Image.NEAREST)
+
+
+# Battle trait/skill labels (G9): GRETC entry 4 = mill/split.tim, 4bpp 256x256, one CLUT (15 transparent, 1 dark
+# outline, 2 white core, 3-8 red bands, 10-14 blue bands), 64 cells of 32x32 (index k -> column k%8, row k//8). Label
+# record n (BATTLE 0x801713E8 + 12n: +0 type, +4 cell-index list, FF end, inside 0x80171374-0x801713E7, +8 the
+# Japanese name, never read) draws one sprite per cell at an x advance of 26 (asm/hooks.asm makes it 32 and the
+# centring 16n, so English runs on across cells). Each label is laid out as one strip of n whole cells; red (traits,
+# records 0-19) or blue (skills, 20-28) as the original cells. The words are the en of the +8 strings.
+SPLIT, LABEL_RECS, NLABELS = 4, 0x801713E8, 29
+LABEL_LISTS = (0x80171374, 0x801713E8)
+LABEL_FONT, LABEL_SIZE, LABEL_SX, LABEL_SY = SERIF, 18, 0.8, 1.375
+RED_RING = {12: 6, 13: 7, 14: 8, 15: 8, 16: 8, 17: 8, 18: 7, 19: 6, 20: 5, 21: 5, 22: 4}      # row -> index, else 3
+BLUE_RING = {8: 14, 9: 14, 10: 14, 11: 14, 12: 12, 13: 11, 14: 10, 15: 10, 16: 10, 17: 10, 18: 11, 19: 12, 20: 14,
+             21: 14, 22: 14, 23: 14}                                                       # else 13
+
+
+def label_words(battle):
+    """[(English word, blue?)] per label record, from script/exe/battle.json by the record's +8 string."""
+    import json
+    en = {s["off"]: s["en"] for s in json.loads((ROOT / "script/exe/battle.json").read_text(encoding="utf-8"))["strings"]}
+    out = []
+    for n in range(NLABELS):
+        _, p, s = struct.unpack_from("<III", battle, LABEL_RECS + 12 * n - DAY_BASE)
+        out.append((en[s - DAY_BASE], n >= 20))
+    return out
+
+
+def label_art(word, blue):
+    """Index array (32, 32n): `word` in condensed bold serif, white core, a band-coloured ring (+ dark outline on red)."""
+    from scipy import ndimage
+    ss = 4
+    f = ImageFont.truetype(str(LABEL_FONT), LABEL_SIZE * ss)
+    top, bot = f.getbbox("Hg")[1], f.getbbox("Hg")[3]
+    w = int(f.getlength(word)) + 2 * ss
+    im = Image.new("L", (w, bot - top + 2 * ss), 0)
+    ImageDraw.Draw(im).text((ss, ss - top), word, font=f, fill=255)
+    cw, ch = round(w * LABEL_SX / ss), round(im.height * LABEL_SY / ss)
+    core = np.array(im.resize((cw, ch), Image.BOX)) >= 110
+    ys, xs = np.nonzero(core)
+    core = core[:, xs.min():xs.max() + 1]
+    rings = 1 if blue else 2
+    n = -(-(core.shape[1] + 2 * rings) // 32)
+    m = np.zeros((32, 32 * n), bool)
+    y0 = (32 - ch) // 2 + 1
+    x0 = (32 * n - core.shape[1]) // 2
+    m[y0:y0 + ch, x0:x0 + core.shape[1]] = core
+    k = np.ones((3, 3), bool)
+    r1 = ndimage.binary_dilation(m, k) & ~m
+    a = np.full(m.shape, 15, np.uint8)
+    rows = np.arange(32)[:, None].repeat(32 * n, 1)
+    band = np.vectorize((BLUE_RING if blue else RED_RING).get)(rows, 13 if blue else 3)
+    a[r1] = band[r1]
+    if not blue:
+        r2 = ndimage.binary_dilation(m | r1, k) & ~(m | r1)
+        a[r2] = 1
+    a[m] = 2
+    return a
+
+
+def label_layout(battle):
+    """(cells: list of 32x32 index arrays, lists: [cell indices] per record)."""
+    cells, lists = [], []
+    for word, blue in label_words(battle):
+        a = label_art(word, blue)
+        lists.append(list(range(len(cells), len(cells) + a.shape[1] // 32)))
+        cells += [a[:, x:x + 32] for x in range(0, a.shape[1], 32)]
+    assert len(cells) <= 64, f"G9 labels need {len(cells)} cells > 64"
+    return cells, lists
+
+
+def split_sheet(b, battle):
+    """split.tim bytes -> same TIM with every cell redrawn (unused cells transparent)."""
+    assert struct.unpack_from("<II", b) == (0x10, 8)
+    p = 8 + struct.unpack_from("<I", b, 8)[0]
+    assert struct.unpack_from("<I4H", b, p)[1:] == (384, 256, 64, 256)
+    a = np.full((256, 256), 15, np.uint8)
+    for k, c in enumerate(label_layout(battle)[0]):
+        a[k // 8 * 32:k // 8 * 32 + 32, k % 8 * 32:k % 8 * 32 + 32] = c
+    return b[:p + 12] + (a[:, 0::2] | a[:, 1::2] << 4).astype(np.uint8).tobytes() + b[p + 12 + 128 * 256:]
+
+
+def label_writes(battle):
+    """[(BATTLE.BIN file offset, old bytes, new bytes)]: the cell lists (FF ends) and each record's +4 pointer."""
+    lists = label_layout(battle)[1]
+    blob = b"".join(bytes(x) + b"\xff" for x in lists)
+    lo, hi = LABEL_LISTS
+    assert len(blob) <= hi - lo, f"G9 lists {len(blob)} > {hi - lo} bytes"
+    blob += b"\xff" * (hi - lo - len(blob))
+    out = [(lo - DAY_BASE, battle[lo - DAY_BASE:hi - DAY_BASE], blob)]
+    at = lo
+    for n, x in enumerate(lists):
+        o = LABEL_RECS + 12 * n + 4 - DAY_BASE
+        out.append((o, battle[o:o + 4], struct.pack("<I", at)))
+        at += len(x) + 1
+    return out
 
 
 def pack(cov, ink0=True):
@@ -750,6 +847,12 @@ def patch(tree, exe, unn, log):
         log("DATA/DAY.BIN", o, old, new, "gfx disc swap layout")
         day[o:o + len(new)] = new
     day_path.write_bytes(day)
+    battle_path = tree / "DATA/BATTLE.BIN"
+    battle = bytearray(battle_path.read_bytes())
+    for o, old, new in label_writes(bytes(battle)):
+        log("DATA/BATTLE.BIN", o, old, new, "gfx battle labels G9")
+        battle[o:o + len(new)] = new
+    battle_path.write_bytes(battle)
     pak_path.write_bytes(pak)
     (tree / "DATA/ACTION.BIN").write_bytes(action_new)
 
@@ -780,7 +883,7 @@ if __name__ == "__main__":
     for o, old, new in swap_layout(idx, (tree / "DATA/DAY.BIN").read_bytes()):
         print(f"DAY {o + DAY_BASE:08X}: {old.hex()} -> {new.hex()}")
     import tim
-    for i, b in gretc_images((tree / "DATA/GRETC.RLZ").read_bytes()).items():
+    for i, b in gretc_images((tree / "DATA/GRETC.RLZ").read_bytes(), (tree / "DATA/BATTLE.BIN").read_bytes()).items():
         bg = Image.new("RGBA", tim.read(b)[:2], (40, 40, 80, 255))
         bg.alpha_composite(tim.to_image(b))
         bg.convert("RGB").save(out / f"gretc_{i:03d}.png")
