@@ -4,7 +4,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 `build.py` (write check + jp_refs ok both discs), fit lint 0, smoke ok.
+  Last build: 2026-11-24 (15) `build.py` (write check + jp_refs ok both discs; G1/G2/G4 cards English), smoke ok;
+  sha1 disc1 08a1c849dda6.., disc2 5dc3c3c2d193.. Phase 8 in progress: graphics rows first (Next (0)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -227,7 +228,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
     "Obtained 'Scarlet Wing Necklace'" (new tools/lua/setreg.lua: register writes in exec hooks), HEN "Start the
     battle?" (poke.lua EVERY=1: team-select mode 0x8016B02C=5, sub-state 9). New scene tac_item (行動 > Item);
     inventory = item counts u8[60] at 0x80157F70. Commands per row in docs/windows.md.
-- **Next (phase 8):** (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
+  - 2026-11-24 (15): phase-7 review (.harness/reviews/...-phase7.md): no Critical/Important findings. **Phase 8
+    graphics pipeline**: `tx03.compress` (greedy; recompresses originals to the same sizes; tests/test_tx03.py),
+    `tools/gfx.py` (cards drawn from TSVs with fonts/LiberationSerif-*.ttf, OFL; TX03 written in place before the
+    UNN repack, logged; writecheck checks SUBTI.PAK and in-place UNN writes). Done: **G1/G2** title + chapter cards
+    (gfx/cards.tsv; SUBTI.PAK index = ACTION.BIN 0x12664, may grow inside its sectors; UNN g17 = alternate layouts,
+    37/47/49 differ), shot `one.py battle --frames 16400` f016050; **G4** condition cards (gfx/conditions.tsv,
+    g18), shot `one.py tac_mission`. `python tools/gfx.py` writes previews to work/gfx/cards/.
+- **Next (phase 8):** (0) Graphics rows left, in this order: **G3** location cards (UNN g24 entries 17-82 = 66
+  TX03 320x240; entries 0-16 are other data; layout = white place name + furigana box on top, English place/time
+  line at the bottom already English: redraw only the top part, keep the bottom rows; check index polarity and
+  whether streams fit like gfx.condition; names: day.json location lines + glossary), G6/G18 title logo subtitle
+  + copyright (UNN g21/g09), G8 disc-swap pieces, G5 route kanji (GRETC rsel TIMs), G10-G14 GRETC TIMs (gretc_repack
+  + tools/tim.py: needs a TIM writer), G17 element orbs (source unknown), G9 battle label glyphs, G15 STAFF.STR
+  credits (STR re-encode: biggest). Chapter cards (SUBTI 39-43) not yet shot in game.
+  (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
   the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
   Psi/trait label glyphs in GRETC mill 004 split.tim, composed from glyph-index lists at BATTLE 0x80171374+: redraw
   or re-point to English label art), inkbox on choice/centred boxes, stress saves, textcover. A battle where a
