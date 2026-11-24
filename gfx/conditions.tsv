@@ -1,0 +1,25 @@
+# UNN g18 victory/defeat condition cards (G4): entry, retreat allowed (1 = 撤退可能 tag), victory lines, defeat lines (| between lines)
+0	0	Defeat all enemies	Miyuki is knocked out
+1	0	Defeat all enemies	Miyuki is knocked out|Kotone is knocked out
+2	0	Defeat Yumi	Miyuki is knocked out
+3	0	Defeat all enemies	Yuko is knocked out
+4	0	Disarm the detonator	Yuko is knocked out|15 turns pass
+5	0	Defeat Ryoko	Yuko is knocked out
+6	0	All allies escape	Any ally is knocked out|20 turns pass
+7	0	Defeat Hitomi	Miyuki is knocked out
+8	0	Defeat Hitomi	Yuko is knocked out
+9	0	Defeat all enemies	Hitomi is knocked out
+10	0	Defeat Megumi	All allies are knocked out|15 turns pass
+11	0	Defeat Reiko	All allies are knocked out|15 turns pass
+12	0	Defeat Satomi	All allies are knocked out|15 turns pass
+13	0	Defeat Tomomi	All allies are knocked out|15 turns pass
+14	0	Defeat the Four Gate Generals	All allies are knocked out|10 turns pass
+15	0	Defeat Nue	All allies are knocked out|20 turns pass
+16	0	Defeat all enemies	All allies are knocked out|20 turns pass
+17	0	Defeat Nue (Core)	All allies are knocked out|20 turns pass
+18	0	Defeat Ryukihi	All allies are knocked out
+19	0	Defeat True Ryuki	All allies are knocked out
+20	1	Defeat Yumi	Miyuki is knocked out
+21	1	Defeat all enemies	Miyuki is knocked out
+22	1	Defeat all enemies	Yuko is knocked out
+23	1	Defeat Ryoko	Yuko is knocked out

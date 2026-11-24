@@ -22,10 +22,12 @@ ROOT = Path(__file__).resolve().parents[1]
 SECTOR = 0x800
 SUBTI_INDEX = 0x12664          # ACTION.BIN file offset of the SUBTI.PAK index
 G17_TAB, TIM_HDR = 0x800922E4, 64
-W, H, NCARDS = 320, 240, 53
+G18_TAB = 0x800915CC           # condition cards: plain TX03 per entry, 256x240
+W, H, NCARDS, CW = 320, 240, 53, 256
 CHAPTER = {"sky": "Sky Chapter", "earth": "Earth Chapter", "seven": "Seven Dragons Chapter",
            "awake": "Awakening Chapter", "ryuki": "Ryuki Chapter"}
 SERIF = ROOT / "fonts/LiberationSerif-Bold.ttf"
+SERIF_BI = ROOT / "fonts/LiberationSerif-BoldItalic.ttf"
 CACHE = ROOT / "work/gfx/tx03"
 
 
@@ -80,19 +82,51 @@ def card(ch, ep, title):
     return np.asarray(img)
 
 
-def pack(cov):
-    """4bpp, low nibble = left pixel, index 15 - ink level."""
-    idx = 15 - np.rint(cov.astype(np.float32) * 15 / 255).astype(np.uint8)
+def condition_rows():
+    """[(retreat, [victory lines], [defeat lines])] by g18 entry, from gfx/conditions.tsv."""
+    out = []
+    for ln in (ROOT / "gfx/conditions.tsv").read_text(encoding="utf-8").splitlines():
+        if ln and not ln.startswith("#"):
+            k, r, v, d = ln.split("\t")
+            assert int(k) == len(out), ln
+            out.append((r == "1", v.split("|"), d.split("|")))
+    return out
+
+
+def condition(retreat, victory, defeat):
+    """Ink coverage of a 256x240 condition card; geometry from the originals (headers y 46/121, x 17; lines x 38,
+    25 px apart; 撤退可能 tag right of the header at y 32)."""
+    img = Image.new("L", (CW, H), 0)
+    d = ImageDraw.Draw(img)
+    head = ImageFont.truetype(str(SERIF_BI), 26)
+    if retreat:
+        d.text((CW - 8, 30), "Retreat allowed", font=ImageFont.truetype(str(SERIF_BI), 14), fill=255, anchor="ra")
+    for y, title, lines in ((48, "Victory Conditions", victory), (123, "Defeat Conditions", defeat)):
+        d.text((17, y + 22), title, font=head, fill=255, anchor="ls")
+        for i, ln in enumerate(lines):
+            size = 20
+            while ImageFont.truetype(str(SERIF_BI), size).getlength(ln) > CW - 38 - 6:
+                size -= 1
+            assert size >= 13, ln
+            d.text((38, y + 46 + 25 * i), ln, font=ImageFont.truetype(str(SERIF_BI), size), fill=255, anchor="ls")
+    return np.asarray(img)
+
+
+def pack(cov, ink0=True):
+    """4bpp, low nibble = left pixel; ink0: index 15 - ink level (title cards), else index = ink level."""
+    idx = np.rint(cov.astype(np.float32) * 15 / 255).astype(np.uint8)
+    if ink0:
+        idx = 15 - idx
     return (idx[:, 0::2] | idx[:, 1::2] << 4).astype(np.uint8).tobytes()
 
 
-def stream(data):
-    """TX03 of a packed card, cached by content (the compressor is pure Python)."""
-    h = hashlib.sha1(data).hexdigest()
+def stream(data, w=W // 2):
+    """TX03 of a packed card (w bytes per row), cached by content (the compressor is pure Python)."""
+    h = hashlib.sha1(data + bytes([w])).hexdigest()
     p = CACHE / f"{h}.bin"
     if p.exists():
         return p.read_bytes()
-    s = tx03.compress(W // 2, H, data)
+    s = tx03.compress(w, len(data) // w, data)
     assert tx03.decompress(s)[0][4:] == data
     CACHE.mkdir(parents=True, exist_ok=True)
     p.write_bytes(s)
@@ -100,13 +134,15 @@ def stream(data):
 
 
 def images():
-    """{'subti': {n: packed}, 'g17': {n: packed}}."""
+    """{'subti': {n: packed}, 'g17': {n: packed}, 'g18': {n: packed}}."""
     r = rows()
-    out = {"subti": {}, "g17": {}}
+    out = {"subti": {}, "g17": {}, "g18": {}}
     for n in range(NCARDS):
         base = r[str(n)]
         out["subti"][n] = pack(card(*base))
         out["g17"][n] = pack(card(*r.get(f"g17.{n}", base)))
+    for n, c in enumerate(condition_rows()):
+        out["g18"][n] = pack(condition(*c), ink0=False)
     return out
 
 
@@ -139,6 +175,17 @@ def patch(tree, exe, unn, log):
         assert unn[off - TIM_HDR + 8:off - TIM_HDR + 12] == b"\x2c\0\0\0" and unn[off:off + 4] == b"TX03"
         log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx cards g17")
         unn[off:off + len(s)] = s
+    gs = gr_index.toc(exe)[18][0]
+    sub = {t: e for _, t, e in gr_index.subtables(exe)}[G18_TAB]
+    assert len(sub) == len(imgs["g18"])
+    for n, data in imgs["g18"].items():
+        s = stream(data, CW // 2)
+        sec, _, size = sub[n]
+        assert len(s) <= size, f"g18 card {n}: {len(s):#x} > {size:#x}"
+        off = (gs + sec) * SECTOR
+        assert unn[off:off + 4] == b"TX03"
+        log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx conditions g18")
+        unn[off:off + len(s)] = s
     pak_path.write_bytes(pak)
     (tree / "DATA/ACTION.BIN").write_bytes(action_new)
 
@@ -151,7 +198,7 @@ if __name__ == "__main__":
     out.mkdir(parents=True, exist_ok=True)
     for kind, d in images().items():
         for n, data in d.items():
-            b = np.frombuffer(data, np.uint8).reshape(H, W // 2)
-            px = np.stack([b & 15, b >> 4], -1).reshape(H, W) * 17
+            b = np.frombuffer(data, np.uint8).reshape(H, -1)
+            px = np.stack([b & 15, b >> 4], -1).reshape(H, -1) * 17
             Image.fromarray(px.astype(np.uint8)).save(out / f"{kind}_{n:02d}.png")
     print(out)

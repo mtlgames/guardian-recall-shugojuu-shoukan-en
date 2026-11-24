@@ -261,7 +261,8 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 探査 | Detect | | Psi (other) | |
 | 再動 | Refresh | | Psi (other) | |
 | 浮遊 | Levitate | | (no lint): Psi (other); also the move type shown as "Levitate" (軽歩 L-Walk, 重歩 H-Walk, 飛行 Fly) | |
-| 戦闘不能 | knocked out | | (no lint) | |
+| 戦闘不能 | knocked out | | (no lint); condition cards (gfx/conditions.tsv): victory "Defeat X", defeat "X is knocked out" | |
+| 勝利条件 / 敗北条件 | Victory Conditions / Defeat Conditions | | (no lint) graphics G4; 撤退可能 = "Retreat allowed" | |
 | 感応 | Telepathy | | Psi (other) | |
 | 回復系 / 戦闘補助系 / 能力向上系 / 特殊状態系 / 攻撃系 | Recovery / Battle Support / Ability Boost / Special Status / Attack | | (no lint): Psi categories (power help line 1 = "(Name) Category:") | |
 | 消費 | Consumable | | (no lint): item category; equipment = Hat, Gloves, Belt, Shoes, Accessory; stats Df In At Mv Ag Sp Mp Ap kept | |
