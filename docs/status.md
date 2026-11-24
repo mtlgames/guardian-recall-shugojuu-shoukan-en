@@ -7,7 +7,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Last build: 2026-11-24 (20) `build.py` (write check + jp_refs ok both discs; G1-G6, G8-G11, G13, G15, G17, G18
   English), check.py green, disc 1 smoke ok, disc 2 `ending` regen ok. Phase 8 in progress: every graphics row done
   and shot (chapter cards too); full tour run 142/142 ok on this build (work/qa/tour); visual-QA verdicts in
-  progress: d1 chunks 000-002 written (90/154 ok, 0 issues), d1 003-005 and all of d2 left (Next (1)).
+  progress: d1 done (154/154 ok, `qa_gate.py check` d1 exits 0); d2 chunk 000 done (30/111 ok, 0 issues), d2
+  001-003 left (Next (1)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -276,9 +277,13 @@ Updated at the end of every session. Keep it to what the next session needs; his
     layout, OITA-EHIME / INSERT DISC placement as original, Tec. rows are two traits. New tools/vqa_pack.py,
     tools/findtile.py.
 - **Next (phase 8):** (0) Still unknown whether other code draws split.tim cells (none seen).
-  (1) **Visual-QA verdicts**: d1 chunk_1b5698d55edb_000/001/002 done (all ok; 2026-11-24 (22)); next d1 003 (gameover
-  sheets 34-60: map turns/battles, panels and menus already passed in 000-002, skim), 004, 005, then d2. Saves
-  context: `tools/vqa_pack.py OUT.png SHEET..` packs only the non-padding tiles of 2-3 sheets into one image;
+  (1) **Visual-QA verdicts**: d1 all 6 chunks done (154 ok; 2026-11-24 (23)); d2 chunk_486099ed861f_000 done (diary,
+  ending/credits, epilogues, ev21: 30 ok); next d2 001, 002, 003 (81 sheets). Saves context:
+  `tools/vqa_uniq.py OUTPREFIX SHEET..` packs only distinct tiles 4 per image (boot/title/replay-list frames repeat
+  across opt_* and d2 sheets: epilogue_*_sheet were 100% ending_sheet tiles); FMV-only pages skim fine at half size
+  (2x2 sheets per image). Near-duplicate dedupe (pixel tolerance) was tried and dropped: map frames all differ
+  (animation) and it took 7 min per chunk. Full sheets cost ~1.3k tokens each: ~60 per session fits.
+  `tools/vqa_pack.py OUT.png SHEET..` packs only the non-padding tiles of 2-3 sheets into one image;
   `tools/findtile.py SHEET TILE --jp` finds the tour frame behind a tile and the closest tour_jp frame. Identical
   sheets (day_* main sheets = boot/title/load; gameover_sheet..18 = battle_sheet..18) verified by pixel diff, not
   re-read. G9 trait label "Oni" fires in gameover (f059700): shot, closes the "passive trait" gap below. Chunks for
