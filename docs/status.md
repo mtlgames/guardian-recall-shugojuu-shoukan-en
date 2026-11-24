@@ -5,8 +5,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
   Last build: 2026-11-24 (20) `build.py` (write check + jp_refs ok both discs; G1-G6, G8-G11, G13, G15, G17, G18
-  English), check.py green, disc 1 smoke ok, disc 2 `ending` regen ok. Phase 8 in progress: every graphics row done;
-  next = chapter cards shot, then the full tour (Next (1)).
+  English), check.py green, disc 1 smoke ok, disc 2 `ending` regen ok. Phase 8 in progress: every graphics row done
+  and shot (chapter cards too); full tour run 142/142 ok on this build (work/qa/tour); visual-QA verdicts not yet
+  written (Next (1)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -264,13 +265,26 @@ Updated at the end of every session. Keep it to what the next session needs; his
     STR/STAFF.STR. `staff_strip.scan` now parallel (34 s, output identical). `--lines DIR` / `--preview DIR --frames`
     for checking. tests/test_staff.py. Shot: `regen.py --only ending --timeout 2400` (work/qa/warp/ending, every
     credit English incl. cast + ©card; zooms zoom_g15*.png).
-- **Next (phase 8):** (0) Chapter cards (SUBTI 39-43) not yet shot in game. Still unknown whether other code draws
-  split.tim cells (none seen).
-  (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
-  the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
-  Psi/trait label glyphs in GRETC mill 004 split.tim, composed from glyph-index lists at BATTLE 0x80171374+: redraw
-  or re-point to English label art), inkbox on choice/centred boxes, stress saves, textcover. A battle where a
-  passive Psi/trait fires is still unshot (needed for G9).
+  - 2026-11-24 (21): **G2 chapter cards shot**: all 5 (Sky, Earth, Seven Dragons, Awakening, Ryuki Chapter) whole
+    in game (work/qa/chapter/; command in graphics.md G2 row: setreg on the SUBTI loader index). **Full tour**
+    `regen.py --outdir work/qa/tour --jobs 3 --timeout 2400`: 142/142 ok (~25 min). Original tour started into
+    work/qa/tour_jp (`--orig`, same ids). New `tools/vqa_sheets.py` (compact per-scene sheets, duplicates dropped,
+    full-size tiles, split by disc) -> work/qa/vqa/d1 (disc 1 scenes) and d2, each with manifest.tsv (`qa_gate.py
+    init ... --build build/disc<N>/<bin>`), chunks/ and verdicts/. New docs/visual-qa-brief.md (game non-bugs).
+- **Next (phase 8):** (0) Still unknown whether other code draws split.tim cells (none seen).
+  (1) **Visual-QA verdicts** for work/qa/vqa/d1 and d2 (`qa_gate.py todo work/qa/vqa/d<N>/manifest.tsv
+  work/qa/vqa/d<N>/verdicts --size 30 --out-dir work/qa/vqa/d<N>/chunks`), per docs/visual-qa-brief.md, written to
+  work/qa/vqa/d<N>/verdicts/<chunk stem>.tsv. No nested workers and codex is out of quota until 2026-11-26: read the
+  sheets yourself, about 30 per session (context); work/ is gitignored but clean.py keeps manifests, sheets and
+  verdicts. FMV pages (battle_sheet_2..5, ending) skim fast; dialogue needs
+  full-size tiles (div 2 glyphs were unreadable). If tour_jp finished, compare suspicious tiles with
+  `sheet.py EN --compare work/qa/tour_jp/<scene>/fNNN.png`. Then: inkbox on choice/centred boxes (title menu,
+  tac_* menus, day_* tabs, BREAK/TURN END prompts), stress saves (save.py: longest unit/item names, max numbers),
+  and **textcover** (no infrastructure yet; design: exec hooks at the renderer entries 0x80043A64 (a2 = string),
+  0x80044624, scenario box 0x80043DA4, txd 0x800133D4, DIC 0xD04 log `TEXT <FNV-32 of the bytes up to 0x00>`;
+  build writes build/strings.tsv = id -> FNV-32 of its encoded bytes; printf-formatted lines need their format
+  string hooked at sprintf or a waiver; scenario coverage needs each event played to its end with ○ mashed).
+  A battle where a passive Psi/trait fires is still unshot (needed for G9).
   Review Minors still open: 6 blank-padding rule, 7 keep-list for empty en, 8 orphan-page lint, 10 check.py 176 s,
   11 branch-target check in writecheck. Other rows still "measured (code)" (printf messages, Psi active / target
   prompt): shoot in the phase-8 tour. insert.repoint fails on exe.01324 ("????", pair p8002C9D8 builds 0x80014020)
