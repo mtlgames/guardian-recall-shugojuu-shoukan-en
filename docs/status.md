@@ -2,13 +2,14 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
-  left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (29) `build.py` (centre_pad box centres; write check ok both discs), check.py green (51).
-  **vqa gates d1/d2 open on the (29) build** (148 sheets without a verdict; s1/s2 stress gates green).
-  **textcover green** on (29): 7336/7696 shown, 360 waived, 0 failing (gate command below).
-  Left for phase 8: vqa verdicts for 148 tour sheets on the (29) build (see "Next" under (29)); stress, inkbox,
-  textcover done.
+- **Phase:** 9. Release (phase 8 closed 2026-11-24 (30): vqa gates d1/d2/s1/s2 exit 0, textcover exits 0, inkbox
+  and stress done, smoke ok).
+  Last build: 2026-11-24 (30) `build.py` (= (29) + dic.0253 wrap fix; disc 1 sha1 ac96b569.., disc 2 74d1d0ca..;
+  write check ok both discs), check.py green (51), smoke ok.
+  **vqa gates green** on (30): d1 re-inited on (30) after re-shooting opt_dictionary_sweep; d2/s1/s2 hotfix-waived
+  for (30) (only GRETC.RLZ dic.txd changed, 4 sectors per disc; no scene there shows the dictionary).
+  **textcover green** on (30): 7336/7696 shown, 360 waived, 0 failing (dic sweep re-run with --cover).
+  Next = phase 9 (see "Next (phase 9)" below).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -363,6 +364,20 @@ Updated at the end of every session. Keep it to what the next session needs; his
     tools/vqa_todo.py` -> work/qa/vqa/todo_29.txt says per scene new/changed + framediff vs tour_prev (changed
     scenes whose diff lies only in the card/save boxes or boot "Checking the system file..." are the centre_pad
     change). ~30 sheets per session (context). Then both `qa_gate check` d1/d2/s1/s2 exit 0 -> phase 9.
+  - 2026-11-24 (30): **phase 8 closed.** Verdicts for all 148 sheets (d1 chunk_26626974cf7c_00*, d2
+    chunk_7cadf53967a2_00*), read as deduped 2x2 tile packs (`tools/vqa_uniq.py`: 53 packs for 148 sheets).
+    One issue, fixed: dictionary "Prophecy" (dic.0253) had a line starting with an orphan ")" after "(Egubado";
+    rewrapped (lint 101/114 px); swept every script line start for orphan punctuation: none left (only "..."
+    openers). Rebuilt (30); re-shot opt_dictionary_sweep (tour + cover/dic with --cover), d1 init --build,
+    recheck verdict in d1/verdicts/recheck_dic0253.tsv; d2/s1/s2 `qa_gate waive` for (30) (reason in manifest).
+    Non-issues noted: diary LOAD tab emblem bobs over long place names/body text (JP body runs under it too);
+    save-list labels run behind the standing sprite (original layout); "TESTMAP"/"[Invalid stage]" are original
+    labels; day_diary_43 never opens LOAD (title only: coverage gap, its diary text is covered elsewhere).
+  **Next (phase 9):** story-pass verdicts per chapter (`qa_gate.py check work/qa/story/manifest.tsv ...`,
+  references/translation.md §Review), docs/polish.md unticked lines (e.g. Guardian list page 1 "Thunder Dragon"),
+  `jp_left.py` on the release build, debug tool off in release, `tools/release.py` (xdelta per .bin + verify; runs
+  qa_gate on every manifest + textcover), README placeholders + base hashes, zip = patch + README. Never
+  `gh release create`.
   Waive only real unreachables in docs/text_unshown.tsv (`id<TAB>reason`, written by tools/cover_waive.py); gate =
   `$SKILL/scripts/textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.
   **Don't build while coverage runs** (emulators read build/); a rebuild changes only edited strings' hashes.
