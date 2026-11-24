@@ -21,7 +21,9 @@ for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守�
                          ("opt_dictionary", "8 down;40 -;8 right;40 -;8 circle", "OPTION > 用語辞典 (dic.txd)"),
                          ("opt_charfile", "8 down;40 -;8 down;40 -;8 circle", "OPTION > キャラファイル (cf.txd)"),
                          ("opt_music", "8 triangle;300 -", "OPTION > △ MUSIC MODE (track 1:MAIN THEME, scrolling)"),
-                         ("opt_music_track", "8 triangle;300 -;8 r2;300 -", "MUSIC MODE > R2: next track")]:
+                         ("opt_music_track", "8 triangle;300 -;8 r2;300 -", "MUSIC MODE > R2: next track"),
+                         # text coverage (op.txd): every track title, R2 each 200 frames, unlocked card
+                         ("opt_music_sweep", "8 triangle;300 -" + ";8 r2;200 -" * 60, "MUSIC MODE, R2 through every track")]:
     rows.append((name, "1", "ovl:16", "", OPT + (";" + keys + ";400 -" if keys else ""), "1800", note))
     if keys and "triangle" not in keys:  # same screen with every entry unlocked: card made by tools/debug/save.py --unlock-all
         rows.append((name + "_all", "1", "ovl:16", "", rows[-1][4], "1800", note + ", all entries (unlock.mcd)",

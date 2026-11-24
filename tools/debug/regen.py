@@ -56,7 +56,9 @@ def run(sc, args):
         cmd += ['--debugger', '--script', os.path.join(REPO, 'tools/lua/textcover.lua')]
     if args.sweep:  # every scenario line of the event's block through the box (tools/lua/scen_sweep.lua)
         cmd += ['--debugger', '--script', os.path.join(REPO, 'tools/lua/scen_sweep.lua')]
-    p = subprocess.run(cmd, capture_output=True, text=True)
+    for s in args.lua or []:  # extra probes, e.g. tools/lua/setreg.lua (--var HOOKS=...)
+        cmd += ['--debugger', '--script', os.path.join(REPO, s)]
+    p =subprocess.run(cmd, capture_output=True, text=True)
     logp = os.path.join(out, 'log.txt')
     log = open(logp, encoding='utf-8', errors='replace').read() if os.path.exists(logp) else ''
     ok = (p.returncode == 0 and 'final frame' in log
@@ -77,6 +79,7 @@ def main():
     ap.add_argument('--var', action='append', help='extra --var for warp.lua, e.g. ADVANCE=90')
     ap.add_argument('--cover', action='store_true', help='also run tools/lua/textcover.lua (emu.py --debugger)')
     ap.add_argument('--sweep', action='store_true', help='loop the first message op over the whole scenario block')
+    ap.add_argument('--lua', action='append', help='extra Lua script (repo path) for emu.py, e.g. tools/lua/setreg.lua')
     ap.add_argument('--card', default=os.path.join(REPO, 'tools/debug/cards/sys.mcd'),
                     help='memory card (default: system file only, so the boot skips the create prompt)')
     args = ap.parse_args()

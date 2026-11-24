@@ -49,10 +49,24 @@ for _, r in ipairs({{0x80010000, 0x80012760}, {0x80162F8C, 0x80162FE8}, {0x80166
   L.on_read(r[1], r[2] - 1, on_read)
 end
 -- 0x80017E40 a3: txd book pages (OPTION dictionary etc.) sprintf "&e()%s&d()" onto the stack before 0x800133D4
-for _, h in ipairs({{0x80043A64, "a2"}, {0x800133D4, "a2"}, {0x80044680, "s3"}, {0x80017E40, "a3"}}) do
+-- 0x80166D50 a2: DIC.BIN page layout (overlay base+0xB38; other overlays at that base hash junk, matching no id)
+for _, h in ipairs({{0x80043A64, "a2"}, {0x800133D4, "a2"}, {0x80044680, "s3"}, {0x80017E40, "a3"},
+                    {0x80166D50, "a2"}}) do
   local reg = h[2]
   L.on_exec(h[1], function() take(PCSX.getRegisters().GPR.n[reg]) end)
 end
+-- evd op 0x34 (unit name, 0x8001E278 = j evd_name_hook, v0 = unit record): the hook stores the English pointer at
+-- unit +0x10; read it on the next frame. Counts a name as reached when the map loads it (the generic draw shows it
+-- only in unit menus).
+local units = {}
+L.on_exec(0x8001E278, function() units[#units + 1] = PCSX.getRegisters().GPR.n.v0 end)
+L.on_frame(function()
+  for i = #units, 1, -1 do
+    local a, p = units[i], 0
+    for j = 3, 0, -1 do p = p * 256 + u8(a + 0x10 + j) end
+    take(p); units[i] = nil
+  end
+end)
 L.on_exec(0x80043DA4, function()  -- scenario box: a0 = box, string at [a0 + 8]
   local a = PCSX.getRegisters().GPR.n.a0
   local p = 0

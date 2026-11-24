@@ -32,10 +32,11 @@ L.on_exec(0x8001FE48, function()
     orig = r16(BUF + P + 11)
     local b = scen_buf()
     local n, seen = r32(b), {}
+    if n == 0 then n = 254 end  -- g23 entry 43: count 0 but 254 slots (docs/re/text.md)
     slots = {}
     for i = 2, n + 1 do
       local o = r32(b + 4 * i)
-      if o ~= 0 and not seen[o] then seen[o] = true; slots[#slots + 1] = i end
+      if o ~= 0 and o < 0x6A78 and not seen[o] then seen[o] = true; slots[#slots + 1] = i end
     end
     L.log(string.format("SWEEP start f=%d op@%04X buf=%08X count=%d slots=%d", frame, P, b, n, #slots))
   end

@@ -7,7 +7,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Last build: 2026-11-24 (25) `build.py` (centre_pad fix; write check ok both discs), check.py green (50 passed).
   **vqa gates green on the (25) build** (2026-11-24 (26): re-toured the 7 save/card-message scenes, only
   tac_saved_sheet changed, verdict ok in d2/verdicts/recheck_25.tsv; manifests re-inited with --build).
-  Left for phase 8: textcover (Next (1)), stress saves, the rest of inkbox.
+  Left for phase 8: textcover (Next (1), 6768/7696 at 2026-11-24 (27)), stress saves, the rest of inkbox.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -298,24 +298,31 @@ Updated at the end of every session. Keep it to what the next session needs; his
   - 2026-11-24 (26): **coverage sweeps** (Next (1)): event message op 0x26 decoded (docs/re/debug.md), scenario
     sweep probe + `regen.py --sweep`, txd book hook in textcover.lua, coverage scenes in mk_scenes.py; vqa re-verdict
     for the (25) build (both gates exit 0).
-- **Next (phase 8):** (1) **textcover: 5289/7696 shown** (2026-11-24 (26), all on the (25) build; logs in
-  work/qa/cover/{menu,ev}, `python -X utf8 tools/cover_stats.py work/qa/cover [--files] [--missing PREFIX]`).
+  - 2026-11-24 (27): **coverage 6768/7696** (no rebuild; all on the (25) build). g23 4821/4821: the missing blocks
+    forced into ev11 (setreg `0x80044B24:a0=N`, loader arg = block; scen_sweep.lua now sweeps count-0 entry 43 as 254
+    slots); runs in work/qa/cover/blk/bNN. g13 464/465: `tools/lua/g13_sweep.lua` forces entry G13 at the loader
+    0x80044BB4 and steps 0x80044624's slot arg per call in tac_think (`sh tools/debug/g13_sweep.sh [N..]`,
+    work/qa/cover/g13/eNN; g13.02.000 still unlogged, rerun e02). map (evd names) 564/564: textcover.lua logs the
+    name op 0x34 stores (0x8001E278, unit +0x10 next frame), plus `tools/lua/draw_sweep.lua` = generic-draw
+    substitution: a string from a known pointer table (`tools/cover_tables.py`: w-refs of script/exe grouped) or the
+    payload evd name table (EVD = hooks.sym evd_names) is swapped for the table's next entry in the same column
+    (`sh tools/debug/draw_sweep.sh [SCENE..]`, OUT=dir; 19 menu scenes in work/qa/cover/draw, tac_unit with EVD in
+    draw_evd). DIC.BIN page layout hook 0x80166D50 a2 in textcover.lua (dic bodies all shown; headwords not:
+    drawn by another path, list build = DIC base+0x2600). regen.py `--lua SCRIPT` passes extra probes.
   Done: every non-ev scene (run_menu*.txt 57/57 + first 17), 70/70 events with `regen.py --cover --sweep --frames
   26000 --var ADVANCE=20 --jobs 3 --timeout 3000` (~3.5 h; tools/lua/scen_sweep.lua loops the event's first op
   0x26 over every used slot of the loaded block, then ends the run), book sweeps opt_{tactics,dictionary,charfile}
-  _sweep, replay_sweep_d1/d2, day_diary_NN for every DAY-bound event (47/47). Left by area: g23 775 (below), map
-  357 (evd unit names: read from name records every frame, no cheap hook yet), g13 465+ (battle quotes/help:
-  shown via 0x80044680 only in battles/menus), exe 265 (mostly unit-type/item/trait/Psi names in the gp sdata
-  tables 0x800B5918.. and pointer tables 0x80095D08/0x8009B51C..: hook the table readers, read BPs on sdata are
-  too slow), cf 175 / dic 166 / gd 175 (book pages: the 0x80017E40 a3 hook logs only the first spreads, later
-  flips log nothing: find the page renderer path; guardians need art page + △ per entry), rep 113, day 101 (likely
-  the 512-708 stage labels: save lists), save 59 / action 50 (card errors: boot with no card / corrupt checksum),
-  op 54 (music titles: MUSIC MODE track sweep r2*N), battle 68, hen 31, tu 18.
-  **g23 gaps:** warped events 45, 47, 66-68, 69 load another block (16, 00, 01, 24: the block index depends on
-  story state, not only the event number), and ev38/43/44/46/48/49/70 never hit op 0x26 within 26000 frames
-  (field-only/tactics events: check op 0x43 or the ACTION in-map message path). Blocks left: 37, 42, 43 (33/105),
-  44-48 (94/108 each), 65-68. Next step: find the scenario block loader (UNN.PAK g23 -> SCEN_BUF, docs/re/text.md)
-  and force its index from Lua, then sweep each missing block from any event that hits op 0x26 (e.g. ev11).
+  _sweep, replay_sweep_d1/d2, day_diary_NN for every DAY-bound event (47/47), plus the (27) sweeps above.
+  **Left at (27) (928):** cf 161 / gd 138 (book pages: the 0x80017E40 a3 hook logs only the first spreads, later
+  flips log nothing: find the page renderer path; guardians need art page + △ per entry; some cf rows are numeric
+  index lists like "1,28,1,25,..." and "?????" locked-entry placeholders: check whether they are parsed data, not
+  drawn, before waiving), rep 113, exe 110 (sdata names 0x800B5918.. aren't in cover_tables groups: no w-refs;
+  printf formats), day 101 (likely the 512-708 stage labels: save lists), dic 67 (headwords only), save 59 /
+  action 45 (card errors: boot with no card / corrupt checksum), op 54 (MUSIC MODE titles, original English
+  "&s(0,0)&g(13,0)&c(7)6:LITTLE ANGEL..."; scene opt_music_sweep (run with `--frames 13000 --card
+  tools/debug/cards/unlock.mcd`) pages R2 through them but no hook sees the strings whole, only single letters:
+  the title scroller draws another way; find it or waive as untouched original text),
+  battle 45, tu 18, hen 16, g13 1. `cover_stats.py work/qa/cover --missing PREFIX` lists them.
   Waive only real unreachables in docs/text_unshown.tsv (`id<TAB>reason`; none yet); gate =
   `$SKILL/scripts/textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.
   **Don't build while coverage runs** (emulators read build/); a rebuild changes only edited strings' hashes.
