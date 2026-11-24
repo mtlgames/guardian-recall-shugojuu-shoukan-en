@@ -6,8 +6,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   left from the (0)/(0b) list; see Next).
   Last build: 2026-11-24 (20) `build.py` (write check + jp_refs ok both discs; G1-G6, G8-G11, G13, G15, G17, G18
   English), check.py green, disc 1 smoke ok, disc 2 `ending` regen ok. Phase 8 in progress: every graphics row done
-  and shot (chapter cards too); full tour run 142/142 ok on this build (work/qa/tour); visual-QA verdicts not yet
-  written (Next (1)).
+  and shot (chapter cards too); full tour run 142/142 ok on this build (work/qa/tour); visual-QA verdicts in
+  progress: d1 chunks 000-002 written (90/154 ok, 0 issues), d1 003-005 and all of d2 left (Next (1)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -271,8 +271,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     work/qa/tour_jp (`--orig`, same ids). New `tools/vqa_sheets.py` (compact per-scene sheets, duplicates dropped,
     full-size tiles, split by disc) -> work/qa/vqa/d1 (154 sheets) and d2 (111), each with manifest.tsv (`qa_gate.py
     init ... --build build/disc<N>/<bin>`), chunks/ and verdicts/. New docs/visual-qa-brief.md (game non-bugs).
+  - 2026-11-24 (22): visual-QA verdicts d1 chunks 000-002 (90 sheets, all ok; `qa_gate.py check` counts them).
+    Checked against the original where in doubt: name-less continuation pages and battle comments are the game's
+    layout, OITA-EHIME / INSERT DISC placement as original, Tec. rows are two traits. New tools/vqa_pack.py,
+    tools/findtile.py.
 - **Next (phase 8):** (0) Still unknown whether other code draws split.tim cells (none seen).
-  (1) **Visual-QA verdicts** for work/qa/vqa/d1 and d2 (`qa_gate.py todo work/qa/vqa/d<N>/manifest.tsv
+  (1) **Visual-QA verdicts**: d1 chunk_1b5698d55edb_000/001/002 done (all ok; 2026-11-24 (22)); next d1 003 (gameover
+  sheets 34-60: map turns/battles, panels and menus already passed in 000-002, skim), 004, 005, then d2. Saves
+  context: `tools/vqa_pack.py OUT.png SHEET..` packs only the non-padding tiles of 2-3 sheets into one image;
+  `tools/findtile.py SHEET TILE --jp` finds the tour frame behind a tile and the closest tour_jp frame. Identical
+  sheets (day_* main sheets = boot/title/load; gameover_sheet..18 = battle_sheet..18) verified by pixel diff, not
+  re-read. G9 trait label "Oni" fires in gameover (f059700): shot, closes the "passive trait" gap below. Chunks for
+  d1 and d2 (`qa_gate.py todo work/qa/vqa/d<N>/manifest.tsv
   work/qa/vqa/d<N>/verdicts --size 30 --out-dir work/qa/vqa/d<N>/chunks`), per docs/visual-qa-brief.md, written to
   work/qa/vqa/d<N>/verdicts/<chunk stem>.tsv. No nested workers and codex is out of quota until 2026-11-26: read the
   sheets yourself, about 30 per session (context); work/ is gitignored but clean.py keeps manifests, sheets and
@@ -286,7 +296,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
   0x80044624, scenario box 0x80043DA4, txd 0x800133D4, DIC 0xD04 log `TEXT <FNV-32 of the bytes up to 0x00>`;
   build writes build/strings.tsv = id -> FNV-32 of its encoded bytes; printf-formatted lines need their format
   string hooked at sprintf or a waiver; scenario coverage needs each event played to its end with ○ mashed).
-  A battle where a passive Psi/trait fires is still unshot (needed for G9).
+  Trait label shot in battle (Oni, gameover f059700); a Psi label firing in battle is still unshot.
   Review Minors still open: 6 blank-padding rule, 7 keep-list for empty en, 8 orphan-page lint, 10 check.py 176 s,
   11 branch-target check in writecheck. Other rows still "measured (code)" (printf messages, Psi active / target
   prompt): shoot in the phase-8 tour. insert.repoint fails on exe.01324 ("????", pair p8002C9D8 builds 0x80014020)
