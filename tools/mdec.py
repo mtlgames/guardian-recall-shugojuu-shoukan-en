@@ -129,6 +129,71 @@ def encode(q, blocks, end=True):
     return head + struct.pack(f"<{len(words)}H", *words)
 
 
+QUANT = np.array([2, 16, 19, 22, 26, 27, 29, 34, 16, 16, 22, 24, 27, 29, 34, 37, 19, 22, 26, 27, 29, 34, 34, 38,
+                  22, 22, 26, 27, 29, 34, 37, 40, 22, 26, 27, 29, 32, 35, 40, 48, 26, 27, 29, 32, 35, 40, 48, 58,
+                  26, 27, 29, 34, 38, 46, 56, 69, 27, 29, 35, 38, 46, 56, 69, 83], float).reshape(8, 8)
+ZIGZAG = sorted(((y, x) for y in range(8) for x in range(8)),
+                key=lambda p: (p[0] + p[1], p[0] if (p[0] + p[1]) % 2 else p[1]))   # scan order -> (row, col)
+_C = np.array([[np.sqrt((1 if u else 0.5) / 4) * np.cos((2 * x + 1) * u * np.pi / 16) for x in range(8)]
+               for u in range(8)])                                                # orthonormal DCT-II basis
+
+
+def block_coefs(dc, ac, q):
+    """Dequantised 8x8 DCT coefficients of one block."""
+    F = np.zeros((8, 8))
+    F[0, 0] = dc * QUANT[0, 0]
+    k = 0
+    for r, l in ac:
+        k += r + 1
+        y, x = ZIGZAG[k]
+        F[y, x] = l * q * QUANT[y, x] / 8
+    return F
+
+
+def block_levels(pix, q, dc_only=False):
+    """(dc, [(run, level)]) for an 8x8 block of signed samples (-128..127): forward DCT + PSX quantisation."""
+    F = _C @ pix @ _C.T
+    dc = int(np.clip(round(F[0, 0] / QUANT[0, 0]), -512, 511))
+    ac, run = [], 0
+    for y, x in ZIGZAG[1:]:
+        l = 0 if dc_only else int(np.clip(round(F[y, x] * 8 / (q * QUANT[y, x])), -511, 511))
+        if l:
+            ac.append((run, l))
+            run = 0
+        else:
+            run += 1
+    return dc, ac
+
+
+def mb_order(w=320, h=240):
+    """(mx, my) of each macroblock in stream order (column-major)."""
+    return [(mx, my) for mx in range((w + 15) // 16) for my in range((h + 15) // 16)]
+
+
+def to_pixels(q, blocks, w=320, h=240):
+    """RGB uint8 (h, w, 3) of a decoded frame."""
+    Y = np.zeros(((h + 15) // 16 * 16, (w + 15) // 16 * 16))
+    Cr, Cb = np.zeros((Y.shape[0] // 2, Y.shape[1] // 2)), np.zeros((Y.shape[0] // 2, Y.shape[1] // 2))
+    for i, (mx, my) in enumerate(mb_order(w, h)):
+        b = [_C.T @ block_coefs(*blocks[6 * i + j], q) @ _C for j in range(6)]
+        Cr[my * 8:my * 8 + 8, mx * 8:mx * 8 + 8] = b[0]
+        Cb[my * 8:my * 8 + 8, mx * 8:mx * 8 + 8] = b[1]
+        for j, (dy, dx) in enumerate(((0, 0), (0, 8), (8, 0), (8, 8))):
+            Y[my * 16 + dy:my * 16 + dy + 8, mx * 16 + dx:mx * 16 + dx + 8] = b[2 + j]
+    cr, cb = (np.repeat(np.repeat(c, 2, 0), 2, 1) for c in (Cr, Cb))
+    Y += 128
+    rgb = np.stack([Y + 1.402 * cr, Y - 0.3437 * cb - 0.7143 * cr, Y + 1.772 * cb], -1)
+    return np.clip(np.rint(rgb), 0, 255).astype(np.uint8)[:h, :w]
+
+
+def gray_mb(lum, q):
+    """6 blocks (Cr, Cb, Y1-Y4) for a 16x16 greyscale patch (0..255): neutral chroma."""
+    out = [(0, []), (0, [])]
+    for dy, dx in ((0, 0), (0, 8), (8, 0), (8, 8)):
+        out.append(block_levels(lum[dy:dy + 8, dx:dx + 8].astype(float) - 128, q))
+    return out
+
+
 if __name__ == "__main__":
     s = open(sys.argv[1], "rb").read()
     fr = frames(s)

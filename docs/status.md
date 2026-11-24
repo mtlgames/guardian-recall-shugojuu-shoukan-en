@@ -249,13 +249,18 @@ Updated at the end of every session. Keep it to what the next session needs; his
     block (advance 32, centring 32n; BATTLE.BIN now an armips target), all 29 shot (`tools/debug/g9shots.py`,
     probe tools/lua/g9labels.lua). Label watchers scan only twice in the battle state (~220, ~457 frames in).
     **G15 groundwork:** `tools/mdec.py` MDEC v2 decode/encode, all 4797 STAFF.STR frames byte-identical
-    (tests/test_mdec.py).
-- **Next (phase 8):** (0) Graphics row left: **G15 STAFF.STR credits** (D3 = English). Plan: (a) transcribe every
-  credit (roles + names) from frames (`tools/str_frames.py work/staff STAFF.STR --every 1 --width 320`; the scroll
-  is ~5 min, text column in the left half; frames 68-80 of a 4 s sample = ©XING card + English ending: keep);
-  (b) translate roles, romanize names (check MobyGames/official sources first; record the source in decisions.md;
-  unknown readings -> flag in Waiting, non-blocking); (c) find the scroll speed (row offset per frame) so a
-  re-rendered English column can follow the same timing; (d) per frame: decode, replace the left-column
+    (tests/test_mdec.py); pixel decode `to_pixels` matches ffmpeg (mean diff 0.12/255), forward path
+    `block_levels`/`gray_mb` written but not yet tried in a frame. Text column x 0-159 (clips at x >= 164, y ~80-160)
+    scrolls a constant 2 px/frame until ~frame 4290; `tools/staff_strip.py` stitches it into work/staff/strip.png
+    (8326 rows) + offsets.tsv (frame -> strip offset) + strip_NN.png pages. **Every credit transcribed** into
+    gfx/staff.tsv (scroll order, draft English; "?" = unconfirmed name reading, `(glossary)` = cast character name
+    to take from glossary.md).
+- **Next (phase 8):** (0) Graphics row left: **G15 STAFF.STR credits** (D3 = English). Plan: (a) done (gfx/staff.tsv);
+  (b) finish en: cast names from glossary.md, check "?" readings against a source (MobyGames, anime staff
+  databases; record it in decisions.md; still-unsure ones -> Waiting, non-blocking), G18/D15 spelling for the
+  copyright names; (c) done: 2 px/frame, offsets.tsv; (d) render the English strip (same row of each Japanese line:
+  find line bands in strip.png; white serif on black, centred at x 80, cast lines "Name …… Actor" across 0-159), then
+  per frame: decode, replace the left-column
   macroblocks with the English column rendered on black (forward DCT + PSX quant matrix at the frame's qscale),
   keep the right-side macroblocks' coefficients as they are, re-encode; each frame must fit its own chunks x 2016
   bytes (same sector layout, audio sectors untouched); (e) write the new STR into disc 2's tree in build.patch
