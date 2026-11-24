@@ -199,6 +199,141 @@ def g24_images(exe, unn):
     return out
 
 
+# Title screen pieces (G6/G18, D15): UNN g21 offsets in the group -> (w bytes, h, text, font, size, kind). 4bpp.
+# kind "ruby": index 7 = transparent, 1 = ink, 2-4 = edge levels; kind "copy": 0 = background, ink level 1-15.
+TITLE = {0x24410: (96, 40, "Shugojuu Shoukan", SERIF, 26, "ruby"),    # 守護獣召喚 under the logo
+         0x249D8: (64, 36, "", SERIF, 0, "ruby"),                     # ガーディアンリコール ruby: blank (D15)
+         # 藺宮 涼、龍炎 狼牙: romanized as the disc-swap logo credits them ("RYO KAMIYA & RUEN ROUGA")
+         0x64750: (118, 16, "Agumix / Ryo Kamiya, Ruen Rouga", ROOT / "fonts/LiberationSerif-Regular.ttf", 14, "copy")}
+
+
+def title_piece(w, h, text, font, size, kind):
+    """Packed 4bpp piece; text shrinks to fit the width (2 px margin)."""
+    img = Image.new("L", (w * 2, h), 0)
+    if text:
+        while ImageFont.truetype(str(font), size).getlength(text) > w * 2 - 4:
+            size -= 1
+        ImageDraw.Draw(img).text((w, h / 2), text, font=ImageFont.truetype(str(font), size), fill=255, anchor="mm")
+    c = np.asarray(img, np.float32) / 255
+    if kind == "copy":
+        idx = np.rint(c * 15).astype(np.uint8)
+    else:
+        idx = np.select([c >= .8, c >= .55, c >= .35, c >= .15], [1, 2, 3, 4], 7).astype(np.uint8)
+    return (idx[:, 0::2] | idx[:, 1::2] << 4).astype(np.uint8).tobytes()
+
+
+# Disc-swap screen (G8): sheet = UNN g09 +0x65018 (TX03 4bpp 488x160, VRAM x 640 = tpage 10, x 896 = tpage 11; bg 0,
+# ink 15), sprites and layouts in DAY.BIN (tools/swap_layout.py). DISC, CHECK, OK! and the digits are the original
+# English art; the Japanese pieces become caps words on their freed sheet areas: "INSERT DISC 1", "WRONG DISC",
+# "DISC CHECK...", "DISC OK!" (one line in mode 0, two lines in the heroine + logo screens).
+SWAP_REL, SWAP_W, SWAP_H = 0x65018, 244, 160
+G9_TAB = 0x80092D1C
+DAY_BASE = 0x80166218
+SW_DISC, SW_D1, SW_D2, SW_CHECK, SW_OK = 0x8016C0C4, 0x8016C0D0, 0x8016C0DC, 0x8016C118, 0x8016C130
+SW_NEW = {0x8016C100: ("INSERT", 11, 0, 104, 232), 0x8016C10C: ("WRONG", 10, 0, 56, 250),
+          0x8016C124: ("...", 11, 0, 56, 56)}       # descriptor: text, tpage, u, v, w (h 48, baseline 44)
+SW_CLEAR = [(10, 0, 56, 256, 48), (10, 112, 104, 144, 56), (11, 0, 104, 232, 56), (11, 0, 56, 152, 48),
+            (11, 152, 0, 40, 48)]               # tpage, u, v, w, h: 違います, 入れて, ください, 中です, を
+SW_INSERT, SW_WRONG, SW_DOTS = SW_NEW
+SW_LISTS = {0: [[SW_INSERT, SW_DISC, SW_D1]], 1: [[SW_WRONG, SW_DISC]], 2: [[SW_DISC, SW_CHECK, SW_DOTS]],
+            3: [[SW_DISC, SW_OK]], 4: [[SW_INSERT], [SW_DISC, SW_D2]], 5: [[SW_WRONG], [SW_DISC]],
+            6: [[SW_DISC], [SW_CHECK, SW_DOTS]], 7: [[SW_DISC], [SW_OK]]}   # 0x8016C3A0[i]: 0-3 mode 0, 4-7 stacked
+SW_DIGIT_CODE = {SW_D1: (0x8016BC08, 0x8016BC10), SW_D2: (0x8016BC18, 0x8016BC1C)}   # addiu a1 x / a2 y
+
+
+def swap_sheet(idx, outline=False):
+    """Redraw the Japanese pieces of the disc-swap sheet (H x 488 indices) in place. outline: index 1 (black) ring
+    of 2 px round the new words, as the TIM copy's art has (it sits on the white yin-yang)."""
+    for tp, u, v, w, h in SW_CLEAR:
+        x = u + 256 * (tp - 10)
+        idx[v:v + h, x:x + w] = 0
+    f = ImageFont.truetype(str(SERIF), 60)
+    for text, tp, u, v, w in SW_NEW.values():
+        img = Image.new("L", (w, 48), 0)
+        ImageDraw.Draw(img).text((2, 44), text, font=f, fill=255, anchor="ls")
+        assert f.getlength(text) <= w - 4, text
+        x = u + 256 * (tp - 10)
+        new = np.rint(np.asarray(img, np.float32) * 15 / 255).astype(np.uint8)
+        if outline:
+            ink = np.pad(new > 3, 2)
+            ring = np.zeros_like(new, bool)
+            for dy in range(-2, 3):
+                for dx in range(-2, 3):
+                    ring |= ink[2 + dy:2 + dy + new.shape[0], 2 + dx:2 + dx + new.shape[1]]
+            new = np.where(ring & (new <= 3), 1, new).astype(np.uint8)
+        idx[v:v + 48, x:x + w] = new
+    return idx
+
+
+LOGO_REL, LOGO_W, LOGO_H = 0x678CC, 248, 144      # g09 small logo (8bpp, disc-swap screens 2/3), +rel in the group
+LOGO_BOX = (107, 123, 143, 247)                    # rows y0-y1, cols x0-x1: the 守護獣召喚 subtitle and free space right
+
+
+def logo_sub(b):
+    """8bpp logo (H x W): subtitle -> "Shugojuu Shoukan", binary 12 px bold; each ink pixel keeps the original's
+    colour index where the kanji had ink there, else the kanji's most common index (the CLUT is not a ramp)."""
+    y0, y1, x0, x1 = LOGO_BOX
+    old = b[y0:y1, x0:x1].copy()
+    vals = old[old > 20]
+    common = np.bincount(vals).argmax()
+    img = Image.new("L", (x1 - x0, y1 - y0), 0)
+    f = ImageFont.truetype(str(SERIF), 12)
+    assert f.getlength("Shugojuu Shoukan") <= x1 - x0 - 2
+    ImageDraw.Draw(img).text(((x1 - x0) / 2, (y1 - y0) / 2), "Shugojuu Shoukan", font=f, fill=255, anchor="mm")
+    ink = np.asarray(img) > 110
+    b = b.copy()
+    b[y0:y1, x0:x1] = np.where(ink, np.where(old > 20, old, common), 0)
+    return b
+
+
+def swap_layout(idx, day):
+    """[(DAY.BIN offset, old, new bytes)] for sprites, layout lists and digit positions; ink extents from `idx`."""
+    def spr(p):
+        return struct.unpack_from("<IHHBBBB", day, p - DAY_BASE)
+
+    writes = []
+    for p, (text, tp, u, v, w) in SW_NEW.items():
+        ot, tpage, clut, *_ = spr(p)
+        writes.append((p - DAY_BASE + 4, struct.pack("<HHBBBB", tpage & ~0x1F | tp, clut, u, v, w, 48)))
+    sprites = {p: spr(p) for p in (SW_DISC, SW_D1, SW_D2, SW_CHECK, SW_OK)}
+    sprites.update({p: (0, tp, 0, u, v, w, 48) for p, (_, tp, u, v, w) in SW_NEW.items()})
+
+    def ink(p):
+        _, tpage, _, u, v, w, h = sprites[p]
+        a = idx[v:v + h, u + 256 * ((tpage & 0x1F) - 10):][:, :w] > 3
+        xs, ys = np.flatnonzero(a.any(0)), np.flatnonzero(a.any(1))
+        return xs[0], xs[-1] + 1, ys[-1] + 1          # ink x0, x1, baseline (caps: ink bottom)
+
+    digit = {}
+    tab = DAY_BASE
+    for i, lines in SW_LISTS.items():
+        lp = struct.unpack_from("<I", day, 0x8016C3A0 - tab + 4 * i)[0]
+        old_n = 0
+        while struct.unpack_from("<I", day, lp - tab + 8 * old_n)[0]:
+            old_n += 1
+        centre, base, step = (320, 259, 0) if i < 4 else (176, 115, 80)
+        ents = []
+        for li, line in enumerate(lines):
+            e = [ink(p) for p in line]
+            gaps = [2 if q == SW_DOTS else 20 for q in line[1:]]
+            x = centre - (sum(x1 - x0 for x0, x1, _ in e) + sum(gaps)) // 2
+            for j, (p, (x0, x1, b)) in enumerate(zip(line, e)):
+                pos = (int(x - x0), int(base + step * li - b))
+                if p in SW_DIGIT_CODE:
+                    digit[p] = pos
+                else:
+                    ents.append((p, *pos))
+                x += x1 - x0 + (gaps[j] if j < len(gaps) else 0)
+        assert len(ents) <= old_n, i
+        writes.append((lp - tab, b"".join(struct.pack("<IHH", *e) for e in ents) + bytes(8)))
+    for p, (ax, ay) in SW_DIGIT_CODE.items():
+        x, y = digit[p]
+        assert struct.unpack_from("<I", day, ax - tab)[0] >> 16 == 0x2405, hex(ax)
+        writes.append((ax - tab, struct.pack("<I", 0x24050000 | x)))    # addiu a1, zero, x
+        writes.append((ay - tab, struct.pack("<I", 0x24060000 | y)))    # addiu a2, zero, y
+    return [(o, day[o:o + len(n)], n) for o, n in writes]
+
+
 def pack(cov, ink0=True):
     """4bpp, low nibble = left pixel; ink0: index 15 - ink level (title cards), else index = ink level."""
     idx = np.rint(cov.astype(np.float32) * 15 / 255).astype(np.uint8)
@@ -282,6 +417,45 @@ def patch(tree, exe, unn, log):
         off = (gs + sec) * SECTOR
         log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx locations g24")
         unn[off:off + len(s)] = s
+    gs = gr_index.toc(exe)[21][0] * SECTOR
+    for rel, (w, h, *rest) in TITLE.items():
+        off = gs + rel
+        d, end = tx03.decompress(unn, off)
+        assert struct.unpack_from("<hh", d) == (w, h), hex(rel)
+        s = stream(title_piece(w, h, *rest), w)
+        assert len(s) <= end - off, f"title piece {rel:#x}: {len(s):#x} > {end - off:#x}"
+        log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx title g21")
+        unn[off:off + len(s)] = s
+    off = gr_index.toc(exe)[9][0] * SECTOR + SWAP_REL
+    d, end = tx03.decompress(unn, off)
+    assert struct.unpack_from("<hh", d) == (SWAP_W, SWAP_H)
+    idx = swap_sheet(unpack(d[4:], SWAP_W))
+    s = stream((idx[:, 0::2] | idx[:, 1::2] << 4).astype(np.uint8).tobytes(), SWAP_W)
+    assert len(s) <= end - off, f"swap sheet {len(s):#x} > {end - off:#x}"
+    log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx disc swap g09")
+    unn[off:off + len(s)] = s
+    off = gr_index.toc(exe)[9][0] * SECTOR + LOGO_REL
+    d, end = tx03.decompress(unn, off)
+    assert struct.unpack_from("<hh", d) == (LOGO_W, LOGO_H)
+    s = stream(logo_sub(np.frombuffer(d[4:], np.uint8).reshape(LOGO_H, LOGO_W)).tobytes(), LOGO_W)
+    assert len(s) <= end - off, f"swap logo {len(s):#x} > {end - off:#x}"
+    log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx disc swap logo g09")
+    unn[off:off + len(s)] = s
+    # mode 0 (DISC 1 screen) loads an uncompressed TIM copy of the sheet: g9 entry 8, pixels at +0x60
+    o = (gr_index.toc(exe)[9][0] + {t: e for _, t, e in gr_index.subtables(exe)}[G9_TAB][8][0]) * SECTOR
+    assert struct.unpack_from("<IIIhhhh", unn, o)[:2] == (0x10, 8) and struct.unpack_from("<hh", unn, o + 0x5C) == (
+        SWAP_W // 2, SWAP_H)
+    o += 0x60
+    t = swap_sheet(unpack(unn[o:o + SWAP_W * SWAP_H], SWAP_W), outline=True)
+    new = (t[:, 0::2] | t[:, 1::2] << 4).astype(np.uint8).tobytes()
+    log("DATA/UNN.PAK", o, unn[o:o + len(new)], new, "gfx disc swap g09 TIM")
+    unn[o:o + len(new)] = new
+    day_path = tree / "DATA/DAY.BIN"
+    day = bytearray(day_path.read_bytes())
+    for o, old, new in swap_layout(idx, bytes(day)):
+        log("DATA/DAY.BIN", o, old, new, "gfx disc swap layout")
+        day[o:o + len(new)] = new
+    day_path.write_bytes(day)
     pak_path.write_bytes(pak)
     (tree / "DATA/ACTION.BIN").write_bytes(action_new)
 
@@ -301,4 +475,12 @@ if __name__ == "__main__":
     exe = next(tree.glob("SLPS_*")).read_bytes()
     for n, data in g24_images(exe, (tree / "DATA/UNN.PAK").read_bytes()).items():
         Image.fromarray((unpack(data, W // 2) * 17).astype(np.uint8)).save(out / f"g24_{n:02d}.png")
+    for rel, (w, *rest) in TITLE.items():
+        Image.fromarray((unpack(title_piece(w, *rest), w) * 17).astype(np.uint8)).save(out / f"title_{rel:05x}.png")
+    unn = (tree / "DATA/UNN.PAK").read_bytes()
+    d = tx03.decompress(unn, gr_index.toc(exe)[9][0] * SECTOR + SWAP_REL)[0]
+    idx = swap_sheet(unpack(d[4:], SWAP_W))
+    Image.fromarray((idx * 17).astype(np.uint8)).save(out / "swap_sheet.png")
+    for o, old, new in swap_layout(idx, (tree / "DATA/DAY.BIN").read_bytes()):
+        print(f"DAY {o + DAY_BASE:08X}: {old.hex()} -> {new.hex()}")
     print(out)

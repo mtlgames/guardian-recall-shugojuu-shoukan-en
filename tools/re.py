@@ -13,6 +13,10 @@ from capstone import CS_ARCH_MIPS, CS_MODE_32, CS_MODE_LITTLE_ENDIAN, Cs
 ROOT = os.path.join(os.path.dirname(__file__), "..", "work", "iso", "d1", "tree")
 EXE = os.path.join(ROOT, "SLPS_012.97")
 BASE = 0x8000F800
+if "--ovl" in sys.argv:     # --ovl DAY.BIN: disassemble an overlay (loaded at 0x80166218) instead of the EXE
+    i = sys.argv.index("--ovl")
+    EXE, BASE = os.path.join(ROOT, "DATA", sys.argv[i + 1]), 0x80166218
+    del sys.argv[i:i + 2]
 img = open(EXE, "rb").read()
 md = Cs(CS_ARCH_MIPS, CS_MODE_32 + CS_MODE_LITTLE_ENDIAN)
 

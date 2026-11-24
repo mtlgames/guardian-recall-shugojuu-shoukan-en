@@ -236,8 +236,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     37/47/49 differ), shot `one.py battle --frames 16400` f016050; **G4** condition cards (gfx/conditions.tsv,
     g18), shot `one.py tac_mission`. `python tools/gfx.py` writes previews to work/gfx/cards/.
 - **Next (phase 8):** (0) Graphics rows left, in this order (G3 location cards done 2026-11-24 (16): gfx/locations.tsv,
-  shots one.py ev02/ev04), G6/G18 title logo subtitle
-  + copyright (UNN g21/g09), G8 disc-swap pieces, G5 route kanji (GRETC rsel TIMs), G10-G14 GRETC TIMs (gretc_repack
+  shots one.py ev02/ev04; G6/G18 title subtitle + copyright and G8 disc-swap screens done 2026-11-24 (16), D15),
+  G5 route kanji (GRETC rsel TIMs), G10-G14 GRETC TIMs (gretc_repack
   + tools/tim.py: needs a TIM writer), G17 element orbs (source unknown), G9 battle label glyphs, G15 STAFF.STR
   credits (STR re-encode: biggest). Chapter cards (SUBTI 39-43) not yet shot in game.
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
