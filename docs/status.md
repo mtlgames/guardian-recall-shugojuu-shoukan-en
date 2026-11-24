@@ -269,7 +269,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
     in game (work/qa/chapter/; command in graphics.md G2 row: setreg on the SUBTI loader index). **Full tour**
     `regen.py --outdir work/qa/tour --jobs 3 --timeout 2400`: 142/142 ok (~25 min). Original tour started into
     work/qa/tour_jp (`--orig`, same ids). New `tools/vqa_sheets.py` (compact per-scene sheets, duplicates dropped,
-    full-size tiles, split by disc) -> work/qa/vqa/d1 (disc 1 scenes) and d2, each with manifest.tsv (`qa_gate.py
+    full-size tiles, split by disc) -> work/qa/vqa/d1 (154 sheets) and d2 (111), each with manifest.tsv (`qa_gate.py
     init ... --build build/disc<N>/<bin>`), chunks/ and verdicts/. New docs/visual-qa-brief.md (game non-bugs).
 - **Next (phase 8):** (0) Still unknown whether other code draws split.tim cells (none seen).
   (1) **Visual-QA verdicts** for work/qa/vqa/d1 and d2 (`qa_gate.py todo work/qa/vqa/d<N>/manifest.tsv
@@ -277,7 +277,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   work/qa/vqa/d<N>/verdicts/<chunk stem>.tsv. No nested workers and codex is out of quota until 2026-11-26: read the
   sheets yourself, about 30 per session (context); work/ is gitignored but clean.py keeps manifests, sheets and
   verdicts. FMV pages (battle_sheet_2..5, ending) skim fast; dialogue needs
-  full-size tiles (div 2 glyphs were unreadable). If tour_jp finished, compare suspicious tiles with
+  full-size tiles (div 2 glyphs were unreadable); warp scenes skip the boot frames (< 2800). Event scenes stop
+  1800 frames after the warp, mostly on the first typed line: dialogue coverage needs longer runs with ○ advancing
+  (regen `--var ADVANCE=90 --frames N`: warp.lua presses ○ every 90 frames) and goes with textcover below. tour_jp (142/142 ok) is done: compare suspicious tiles with
   `sheet.py EN --compare work/qa/tour_jp/<scene>/fNNN.png`. Then: inkbox on choice/centred boxes (title menu,
   tac_* menus, day_* tabs, BREAK/TURN END prompts), stress saves (save.py: longest unit/item names, max numbers),
   and **textcover** (no infrastructure yet; design: exec hooks at the renderer entries 0x80043A64 (a2 = string),

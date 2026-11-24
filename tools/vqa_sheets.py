@@ -36,7 +36,10 @@ for r in rows:
     os.makedirs(os.path.dirname(out), exist_ok=True)
     for old in glob.glob(out[:-4] + "*.png"):
         os.remove(old)
-    subprocess.run([sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts/sheet.py"), src, "--changed", a.changed,
+    # the cold boot (logos, 640x480 title) is the same in every warp scene and doubles the tile size: skip it,
+    # except for scenes that start from the title menu (target ovl:N)
+    lo = [] if r[2].startswith("ovl") else ["--from", "2800"]
+    subprocess.run([sys.executable, "-X", "utf8", os.path.join(SKILL, "scripts/sheet.py"), src, *lo, "--changed", a.changed,
                     "--max", a.max, "--div", a.div, "--out", out], check=True, capture_output=True)
     n += 1
 print(n, "scenes ->", a.out)
