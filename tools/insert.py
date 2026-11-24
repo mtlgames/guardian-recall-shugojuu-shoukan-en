@@ -309,6 +309,9 @@ def patch_tree(tree, mode="en"):
     rlz_path = tree / "DATA/GRETC.RLZ"
     rlz = rlz_path.read_bytes()
     files = gretc_files(rlz, mode)
+    tims = gfx.gretc_images(rlz)                            # redrawn TIMs (G5...), same sizes
+    assert not files.keys() & tims.keys()
+    files.update(tims)
     GRETC_REBUILT.update(files)
     rlz_path.write_bytes(script_io.gretc_repack(rlz, files))
     patch_images(tree, exe_path, mode)

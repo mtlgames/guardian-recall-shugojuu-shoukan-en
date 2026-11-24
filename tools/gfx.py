@@ -334,6 +334,152 @@ def swap_layout(idx, day):
     return [(o, day[o:o + len(n)], n) for o, n in writes]
 
 
+# G5 route choice (GRETC rsel, RSEL.BIN): 天 / 地 brush kanji, 8bpp 192x128 TIMs, index 0 = transparent; blk = dark
+# stone texture, whi = white brush (the picked side). The word stays inside the kanji's ink columns: the right-hand
+# sprite runs off-screen past them.
+RSEL = {220: "EARTH", 221: "SKY", 223: "EARTH", 226: "SKY"}
+
+
+def tim_pixels(b):
+    """(offset of the pixel data, w in pixels, h) of an 8bpp TIM with a CLUT."""
+    assert struct.unpack_from("<II", b) == (0x10, 9), "8bpp TIM with CLUT"
+    p = 8 + struct.unpack_from("<I", b, 8)[0]
+    _, _, _, w16, h = struct.unpack_from("<I4H", b, p)
+    return p + 12, w16 * 2, h
+
+
+def brush_word(b, word, stretch=2.4):
+    """New TIM bytes: the kanji ink -> `word` (bold serif as wide as the ink columns, drawn up to `stretch` x taller
+    and at most 60% of the kanji height), textured with patches of the kanji's own stroke interiors."""
+    from scipy import ndimage
+    p, w, h = tim_pixels(b)
+    a = np.frombuffer(b, np.uint8, w * h, p).reshape(h, w)
+    ys, xs = np.nonzero(a)
+    x0, x1, y0, y1 = xs.min(), xs.max() + 1, ys.min(), ys.max() + 1
+    size = 120
+    while ImageFont.truetype(str(SERIF), size).getlength(word) > x1 - x0 - 4:
+        size -= 1
+    f = ImageFont.truetype(str(SERIF), size)
+    l, t, r, btm = f.getbbox(word)
+    img = Image.new("L", (r - l + 4, btm - t + 4), 0)
+    ImageDraw.Draw(img).text((2 - l, 2 - t), word, font=f, fill=255)
+    hh = max(img.height, min(round(img.height * stretch), round(0.6 * (y1 - y0))))
+    img = img.resize((img.width, hh), Image.LANCZOS)
+    mask = np.zeros((h, w), bool)
+    ox, oy = (x0 + x1 - img.width) // 2, (y0 + y1 - img.height) // 2
+    mask[oy:oy + img.height, ox:ox + img.width] = np.asarray(img) > 100
+    # shading field = smooth noise (marble) + distance from the stroke edge (brush relief), mapped by quantile onto the
+    # kanji's own ink colours sorted by brightness, so the word has the same colour mix as the kanji
+    clut = struct.unpack_from("<256H", b, 20)
+    lum = np.array([(c & 31) * 3 + (c >> 5 & 31) * 6 + (c >> 10 & 31) for c in clut])
+    src = np.sort(a[a != 0])
+    src = src[np.argsort(lum[src], kind="stable")]
+    noise = ndimage.gaussian_filter(np.random.default_rng(len(word)).random((h, w)), 3)
+    edge = np.minimum(ndimage.distance_transform_edt(mask), 4) / 4
+    white = lum[src].mean() > 200
+    field = (0.3 if white else 0.7) * (noise - noise.min()) / np.ptp(noise) + (0.7 if white else 0.3) * edge
+    rank = np.argsort(np.argsort(field[mask]))
+    new = np.zeros_like(a)
+    new[mask] = src[rank * len(src) // len(rank)]
+    return b[:p] + new.tobytes() + b[p + w * h:]
+
+
+# G13 character-file VOICE PLAY legend (GRETC cf 217 cfvc.tim, 8bpp 140x55, index 0 transparent): "○召 △戦 CV" ->
+# two stacked lines "○Summon" / "△Battle" left of CV (the game prints the voice actor's name right after CV, so the
+# legend can't grow right; the box has free rows under the old line). VWF font, fill 5 = the kanji's light grey,
+# shadow 1; ○ / △ redrawn 9 px tall in their own colours (13/14 red, 10/7 teal).
+CFVC = 217
+CFVC_X0, CFVC_X1 = 14, 68          # free columns left of CV (TIM x 69-79)
+SMALL_O = ["..###..", ".#...#.", "#.....#", "#.....#", "#.....#", ".#...#.", "..###.."]
+SMALL_T = ["...#...", "...#...", "..#.#..", "..#.#..", ".#...#.", ".#...#.", "#######"]
+
+
+def cfvc(b):
+    import font
+    p, w, h = tim_pixels(b)
+    a = np.frombuffer(b, np.uint8, w * h, p).reshape(h, w).copy()
+    a[27:51, CFVC_X0 - 2:CFVC_X1 + 1] = 0
+    glyphs = font.load_glyphs()
+
+    def put(x, y, rows, fill, shade):
+        for dy, r in enumerate(rows):
+            for dx, c in enumerate(r):
+                if c == "#":
+                    a[y + dy + 1, x + dx + 1] = a[y + dy + 1, x + dx + 1] or shade
+                    a[y + dy, x + dx] = fill
+
+    def line(y, sym, fill, shade, text):
+        put(CFVC_X0, y + 1, sym, fill, shade)
+        x = CFVC_X0 + len(sym[0]) + 2
+        for ch in text:
+            adv, rows = glyphs[ch]
+            put(x, y, rows, 5, 1)
+            x += adv
+        assert x <= CFVC_X1, text
+    line(28, SMALL_O, 13, 14, "Summon")
+    line(40, SMALL_T, 10, 7, "Battle")
+    return b[:p] + a.tobytes() + b[p + w * h:]
+
+
+# G11 dictionary cover (GRETC dic 204 anim00.tim, 8bpp 160x240): the orange katakana ガーディアンリコール across the
+# dragon relief -> "Guardian Recall". The katakana (orange, R - B > 50, plus a 1 px ring for its shadow) is filled by
+# diffusion from the relief round it, then the English is drawn orange with a dark shadow like the katakana. The
+# 用語辞典 seals stay (D16: decorative stamps; the cover already says GUARDIAN RECALL DICTIONARY in English).
+DIC_COVER = 204
+DIC_BAND = (104, 128, 14, 140)     # y0, y1, x0, x1 holding the katakana
+
+
+def nearest_index(rgb, pal, used):
+    d = ((rgb[..., None, :] - pal[used][None, None]) ** 2).sum(-1)
+    return used[d.argmin(-1)]
+
+
+def dic_cover(b):
+    from scipy import ndimage
+    p, w, h = tim_pixels(b)
+    a = np.frombuffer(b, np.uint8, w * h, p).reshape(h, w).copy()
+    clut = np.array(struct.unpack_from("<256H", b, 20))
+    pal = np.stack([clut & 31, clut >> 5 & 31, clut >> 10 & 31], -1).astype(np.float32) * 8
+    y0, y1, x0, x1 = DIC_BAND
+    rgb = pal[a]
+    mask = np.zeros((h, w), bool)
+    mask[y0:y1, x0:x1] = rgb[y0:y1, x0:x1, 0] - rgb[y0:y1, x0:x1, 2] > 50
+    text_idx = a[mask]
+    mask = ndimage.binary_dilation(mask, iterations=1)
+    fill = rgb.copy()
+    for _ in range(300):            # diffusion inpaint: masked pixels -> mean of their 4 neighbours
+        avg = (np.roll(fill, 1, 0) + np.roll(fill, -1, 0) + np.roll(fill, 1, 1) + np.roll(fill, -1, 1)) / 4
+        fill[mask] = avg[mask]
+    used = np.unique(a[~mask])
+    used = used[pal[used].sum(1) > 0]
+    a[mask] = nearest_index(fill[mask][None], pal, used)[0]
+    lum = pal[text_idx].sum(1)
+    hi = np.bincount(text_idx[lum >= np.median(lum)]).argmax()      # orange face
+    lo = np.bincount(text_idx[lum < np.percentile(lum, 25)]).argmax()  # dark shadow
+    size = 22
+    while ImageFont.truetype(str(SERIF), size).getlength("Guardian Recall") > x1 - x0 - 6:
+        size -= 1
+    img = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(img).text(((x0 + x1) / 2, (y0 + y1) / 2), "Guardian Recall", font=ImageFont.truetype(str(SERIF), size),
+                             fill=255, anchor="mm")
+    ink = np.asarray(img) > 110
+    a[np.roll(ink, (1, 1), (0, 1)) & ~ink] = lo
+    a[ink] = hi
+    return b[:p] + a.tobytes() + b[p + w * h:]
+
+
+def gretc_images(rlz):
+    """{GRETC entry: new plain TIM bytes} for the redrawn GRETC graphics (same sizes; insert.patch_tree repacks)."""
+    import gretc
+    ents = gretc.directory(rlz)[1]
+    out = {}
+    for i, word in RSEL.items():
+        out[i] = brush_word(gretc.expand(rlz, ents[i]), word)
+    out[CFVC] = cfvc(gretc.expand(rlz, ents[CFVC]))
+    out[DIC_COVER] = dic_cover(gretc.expand(rlz, ents[DIC_COVER]))
+    return out
+
+
 def pack(cov, ink0=True):
     """4bpp, low nibble = left pixel; ink0: index 15 - ink level (title cards), else index = ink level."""
     idx = np.rint(cov.astype(np.float32) * 15 / 255).astype(np.uint8)
@@ -483,4 +629,9 @@ if __name__ == "__main__":
     Image.fromarray((idx * 17).astype(np.uint8)).save(out / "swap_sheet.png")
     for o, old, new in swap_layout(idx, (tree / "DATA/DAY.BIN").read_bytes()):
         print(f"DAY {o + DAY_BASE:08X}: {old.hex()} -> {new.hex()}")
+    import tim
+    for i, b in gretc_images((tree / "DATA/GRETC.RLZ").read_bytes()).items():
+        bg = Image.new("RGBA", tim.read(b)[:2], (40, 40, 80, 255))
+        bg.alpha_composite(tim.to_image(b))
+        bg.convert("RGB").save(out / f"gretc_{i:03d}.png")
     print(out)

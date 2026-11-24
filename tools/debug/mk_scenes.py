@@ -11,7 +11,8 @@ rows += [("title", "1", "ovl:16", "", "520 -", "0", "title screen, PUSH START (o
          ("title_menu", "1", "ovl:16", "", "520 -;8 start;150 -", "0", "title menu: LOAD / NEW GAME / OPTION"),
          ("title_load", "1", "ovl:16", "", "520 -;8 start;150 -;8 up;60 -;8 start;600 -", "1500",
           "title > LOAD (memory card; DAY overlay)"),
-         ("route_choice", "1", "idle", "", "60 -", "600", "天/地 route choice (RSEL), where new games start")]
+         ("route_choice", "1", "idle", "", "60 -", "600", "天/地 route choice (RSEL), where new games start"),
+         ("route_choice_r", "1", "idle", "", "60 -;8 right;200 -", "700", "route choice with 地 (Earth, right) picked")]
 OPT = "520 -;8 start;150 -;8 down;60 -;8 start;1000 -"   # title > OPTION = the BRAIN menu (BRAIN.BIN)
 for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守護獣図鑑 イベント再現 用語辞典 キャラファイル EXIT"),
                          ("opt_tactics", "8 circle", "OPTION > 守護獣戦術指南 (tutorial list, tu.txd)"),

@@ -4,8 +4,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (15) `build.py` (write check + jp_refs ok both discs; G1/G2/G4 cards English), smoke ok;
-  sha1 disc1 08a1c849dda6.., disc2 5dc3c3c2d193.. Phase 8 in progress: graphics rows first (Next (0)).
+  Last build: 2026-11-24 (17) `build.py` (write check + jp_refs ok both discs; G1-G6, G8, G11, G13, G18 English),
+  check.py green. Phase 8 in progress: graphics rows first (Next (0)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -235,11 +235,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (gfx/cards.tsv; SUBTI.PAK index = ACTION.BIN 0x12664, may grow inside its sectors; UNN g17 = alternate layouts,
     37/47/49 differ), shot `one.py battle --frames 16400` f016050; **G4** condition cards (gfx/conditions.tsv,
     g18), shot `one.py tac_mission`. `python tools/gfx.py` writes previews to work/gfx/cards/.
-- **Next (phase 8):** (0) Graphics rows left, in this order (G3 location cards done 2026-11-24 (16): gfx/locations.tsv,
-  shots one.py ev02/ev04; G6/G18 title subtitle + copyright and G8 disc-swap screens done 2026-11-24 (16), D15),
-  G5 route kanji (GRETC rsel TIMs), G10-G14 GRETC TIMs (gretc_repack
-  + tools/tim.py: needs a TIM writer), G17 element orbs (source unknown), G9 battle label glyphs, G15 STAFF.STR
-  credits (STR re-encode: biggest). Chapter cards (SUBTI 39-43) not yet shot in game.
+  - 2026-11-24 (16): G3 location cards (gfx/locations.tsv), G6/G18 title subtitle + copyright, G8 disc-swap screens
+    (D15).
+  - 2026-11-24 (17): **GRETC TIM redraws** (`gfx.gretc_images` -> insert.patch_tree adds them to the GRETC repack;
+    same sizes, pixels only; tests/test_gfx.py): G5 SKY / EARTH (new scene route_choice_r), G13 VOICE PLAY legend
+    (two lines; the voice actor name is printed right of CV), G11 cover katakana -> "Guardian Recall". D16: G11 seals,
+    G12 scroll poem, G14 medallions kept as decoration. All shot in game (graphics.md rows).
+- **Next (phase 8):** (0) Graphics rows left: G17 element orbs (source unknown; tactics HUD + DIAGRAM) and G10
+  pentagram (same element kanji: give both the same treatment, English element names Earth/Flame/Holy/Thunder/Sea/
+  Wind/Sky/Nether per glossary 主 row), G9 battle label glyphs, G15 STAFF.STR credits (STR re-encode: biggest).
+  Chapter cards (SUBTI 39-43) not yet shot in game.
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
   the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
   Psi/trait label glyphs in GRETC mill 004 split.tim, composed from glyph-index lists at BATTLE 0x80171374+: redraw
