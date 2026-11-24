@@ -115,3 +115,4 @@ or `waived: reason`).
 - [ ] gd.0139 - "A Bone Boxer with more mobility, its weak point." -> "A Bone Boxer with better mobility, its old weak point."
 - [ ] exe.026dc-0271c - True Ryuki boss parts abbreviated "R. Arm / L. Shoulder" for the 108 px status-panel name (D14); revisit if a wider name slot is found
 - [ ] exe.026fc/0270c - VS banner: "True Ryuki R./L. Shoulder" (108 px) runs onto the right plate's end-cap (x 203-309, plate ~297) and past the left plate's start ornament (x 11); legible, all other names fit. Visual QA (phase 8) to judge
+- [ ] tac_info_g guardian list (情報 Guardian tab) - "Thunder Dragon" ends at x 102, Type column starts x 107: the 4 px gap equals a word space, so it reads "Thunder Dragon Guardian"; shift Type/Ali right 2-4 px if the row has room (work/qa/tour/tac_info_g/f004950.png)

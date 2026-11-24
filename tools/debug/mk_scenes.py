@@ -119,6 +119,10 @@ rows += [("tac_ring", "2", "70", "", MAP + ";6 triangle;80 -", "1900", "field ri
           "ring > UNIT, R1 = Guardian tab"),
          ("tac_unit_r", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 right;90 -", "2400",
           "ring > UNIT, Guardian tab scrolled right"),
+         ("tac_unit_r2", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 right;90 -;6 right;90 -",
+          "2500", "ring > UNIT, Guardian tab scrolled right twice"),
+         ("tac_unit_mr", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 right;90 -", "2300",
+          "ring > UNIT, Master tab scrolled right"),
          ("tac_info_g", "2", "70", "", MAP + ";6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 circle;120 -"
           + ";6 circle;40 -;6 down;15 -;6 circle;90 -", "2600", "ring > UNIT, Guardian tab, ○ (cursor to Sky Dragon), 情報"),
          *[(f"tac_search_{k}", "2", "70", "", MAP + ";6 triangle;60 -" + ";6 down;40 -" * 4 + ";6 circle;120 -"

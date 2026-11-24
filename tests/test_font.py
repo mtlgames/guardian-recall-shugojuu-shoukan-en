@@ -54,7 +54,8 @@ ORIG = {0x8001A6FC: "lui v0,0x801f", 0x80044C48: "move a2,a0", 0x80044480: "addi
         0x80063988: "addiu a0,a0,0x68", 0x800639B8: "move a1,s1", 0x800639D4: "addiu a0,a0,0xfa",
         0x80032130: "addiu a0,zero,0xdb",
         0x8002DD84: "addiu a1,zero,0x7d", 0x8002DD90: "addiu a3,zero,0x3c", 0x8002DD94: "addiu a0,zero,0x81",
-        0x8004FF6C: "jal 0x8006bb54", 0x8004FF74: "srl v0,v0,1"}
+        0x8004FF6C: "jal 0x8006bb54", 0x8004FF74: "srl v0,v0,1",
+        0x800376D4: "addiu a3,zero,0x2b", 0x80037770: "addiu a2,fp,0x1c"}  # unit command menu box / highlight
 DATA_ORIG = {0x8009BEE4: (176, 80, 240, 80, 184, 96, 248, 96)}  # 情報 Aura slot table (halfwords)
 # DIC.BIN (overlay base 0x80166218): file offset -> original first word
 DIC_ORIG = {0xC1C: "slti v0,s1,8", 0xC24: "addiu s1,s1,1", 0xCD0: "slti v0,s1,8", 0xD4C: "addiu s1,s1,1",
@@ -79,12 +80,32 @@ ACTION_ORIG = {0x80171558: "addiu s0,s7,0x96", 0x80171570: "addiu a0,t2,0x5d", 0
                0x801742B8: "addiu a0,zero,0x50", 0x801742D8: "addiu a0,zero,0x6e", 0x80174300: "addiu a1,zero,0x46",
                0x8017430C: "addiu a3,zero,0x2d", 0x80174310: "addiu a0,zero,0x50", 0x80174334: "addiu a0,zero,0x32",
                0x80174354: "addiu a0,zero,0x6e", 0x8017437C: "addiu a1,zero,0x66", 0x80174388: "addiu a3,zero,0x2d",
-               0x8017438C: "addiu a0,zero,0x6e", 0x801743B0: "addiu a0,zero,0x32", 0x801743D0: "addiu a0,zero,0x50"}
+               0x8017438C: "addiu a0,zero,0x6e", 0x801743B0: "addiu a0,zero,0x32", 0x801743D0: "addiu a0,zero,0x50",
+               # UNIT list pages 2/3 (Master At..Mv-Type, Guardian As..Hi, Short/Long/Heal)
+               0x80171928: "addiu s0,s7,0x5a", 0x80171950: "addiu s0,s7,0x5a", 0x801719A0: "ori a3,s7,0x71",
+               0x801719C8: "addiu a0,s7,0x5f", 0x801719F4: "addiu s0,s7,0x78", 0x80171A1C: "addiu s0,s7,0x78",
+               0x80171A6C: "addiu a3,s7,0x8f", 0x80171A94: "addiu a0,s7,0x7d", 0x80171AC0: "addiu s0,s7,0x96",
+               0x80171AE8: "addiu s0,s7,0x96", 0x80171B38: "addiu a3,s7,0xad", 0x80171B60: "addiu a0,s7,0x9b",
+               0x80171B8C: "ori s0,s7,0xb4", 0x80171BB4: "ori s0,s7,0xb4", 0x80171C04: "addiu a3,s7,0xcb",
+               0x80171C2C: "addiu a0,s7,0xb9", 0x80171C58: "addiu s0,s7,0xd2", 0x80171C80: "addiu s0,s7,0xd2",
+               0x80171CD4: "addiu a3,s7,0xe9", 0x80171CFC: "addiu a0,s7,0xd7", 0x80171D30: "addiu a0,t2,0xf3",
+               0x80172250: "addiu a0,s1,0x5a", 0x80172268: "addiu a0,s1,0x78", 0x80172280: "addiu a0,s1,0x96",
+               0x80172298: "ori a0,s1,0xb4", 0x8017240C: "addiu s0,s7,0x5a", 0x80172434: "addiu s0,s7,0x5a",
+               0x8017246C: "ori a3,s7,0x71", 0x80172494: "addiu a0,s7,0x5f", 0x801724C0: "addiu s0,s7,0x78",
+               0x801724E8: "addiu s0,s7,0x78", 0x80172520: "addiu a3,s7,0x8f", 0x80172548: "addiu a0,s7,0x7d",
+               0x80172574: "addiu s0,s7,0x96", 0x8017259C: "addiu s0,s7,0x96", 0x801725D4: "addiu a3,s7,0xad",
+               0x801725FC: "addiu a0,s7,0x9b", 0x80172628: "ori s0,s7,0xb4", 0x80172650: "ori s0,s7,0xb4",
+               0x80172688: "addiu a3,s7,0xcb", 0x801726B0: "addiu a0,s7,0xb9", 0x801728B0: "addiu a0,s1,0x5a",
+               0x801728C8: "addiu a0,s1,0x82", 0x801728E0: "addiu a0,s1,0xaa", 0x80172ADC: "addiu a0,s6,0xaa",
+               0x80172AF4: "ori a0,s7,0xb5", 0x80172A40: "addiu a0,s6,0x5a", 0x80172A58: "ori a0,s7,0x65",
+               0x80172A98: "addiu a0,s6,0x82", 0x80172AB0: "addiu a0,s7,0x8d"}
 # ACTION.BIN UNIT list header x (halfword at RAM address; Ali Lv Exp Sp Mp Ap)
 # BATTLE.BIN (same base): G9 label advance / centring
 BATTLE_ORIG = {0x8016AEDC: "sll v1,v0,1", 0x8016AEF0: "sll v1,v1,1", 0x8016AFBC: "addiu v1,v1,0x1a"}
 ACTION_DATA = {0x80167188: 0x5A, 0x80167190: 0x78, 0x80167198: 0x96, 0x801671A0: 0xB4, 0x801671A8: 0xD2,
-               0x801671B0: 0xF0}
+               0x801671B0: 0xF0,
+               0x801671DC: 0x5A, 0x801671E4: 0x78, 0x801671EC: 0x96, 0x801671F4: 0xB4, 0x801671FC: 0xD2,
+               0x80167204: 0xF0}  # Master page 2 header x (At In Df Ag Mv Mv-Type)
 
 
 @need_dump

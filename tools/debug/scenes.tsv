@@ -129,6 +129,8 @@ tac_diagram	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 c
 tac_search	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;120 -	2600	ring > SEARCH
 tac_unit_g	2	70		1750 -;6 triangle;60 -;6 circle;120 -;6 r1;90 -	2700	ring > UNIT, R1 = Guardian tab
 tac_unit_r	2	70		1750 -;6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 right;90 -	2800	ring > UNIT, Guardian tab scrolled right
+tac_unit_r2	2	70		1750 -;6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 right;90 -;6 right;90 -	2900	ring > UNIT, Guardian tab scrolled right twice
+tac_unit_mr	2	70		1750 -;6 triangle;60 -;6 circle;120 -;6 right;90 -	2700	ring > UNIT, Master tab scrolled right
 tac_info_g	2	70		1750 -;6 triangle;60 -;6 circle;120 -;6 r1;90 -;6 circle;120 -;6 circle;40 -;6 down;15 -;6 circle;90 -	3000	ring > UNIT, Guardian tab, ○ (cursor to Sky Dragon), 情報
 tac_search_trait	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;120 -;6 r1;90 -	2700	ring > SEARCH, trait tab
 tac_search_psi	2	70		1750 -;6 triangle;60 -;6 down;40 -;6 down;40 -;6 down;40 -;6 down;40 -;6 circle;120 -;6 r1;90 -;6 r1;90 -	2700	ring > SEARCH, psi tab

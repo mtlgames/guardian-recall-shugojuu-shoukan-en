@@ -514,6 +514,12 @@ PSI_W       equ 36             ; tac_power list: box, highlight bar and cost col
   addiu a3, zero, 75
 .org 0x8002DD94
   addiu a0, zero, 123
+; unit command menu (fn ~0x800376B0, tac_unit_menu / tac_think_menu): box x pen-9 w 43, highlight pen-2..pen+28: "Tactic"
+; ink runs to pen+29 past the bar -> box w 49, highlight to pen+34 (same 7 px margins both sides)
+.org 0x800376D4
+  addiu a3, zero, 0x31
+.org 0x80037770
+  addiu a2, fp, 0x22
 ; battle VS banner left name (scene battle, ~f39900): x offset from pixel width (vs_left), not byte count
 .org 0x8004FF6C                 ; was: jal 0x8006BB54 (strlen); delay slot move a0, s3 kept
   jal   vs_left
@@ -692,6 +698,124 @@ ST2 equ 120
   addiu a0, zero, ST0
 .org 0x801743D0
   addiu a0, zero, ST1
+; UNIT list pages 2/3 (→ on a tab; tac_unit_mr, tac_unit_r, tac_unit_r2): names run to x 115 (Master, 90 px) / 102
+; ("Thunder Dragon") but the first stat column started at x 100. Fraction column X: upper number s7+X, rule end
+; s7+X+0x17, lower number s7+X+5; header s1+X (s1 = s7 = 10). ori forms become addiu (s7 = 10 shares bits).
+; Master page 2 (At In Df Ag Mv Mv-Type): +20 +16 +12 +8 +4 +2 (At at x 120 like page 1's Ali; 26 px apart)
+.org 0x801671DC
+  .halfword 0x5A + 20
+.org 0x801671E4
+  .halfword 0x78 + 16
+.org 0x801671EC
+  .halfword 0x96 + 12
+.org 0x801671F4
+  .halfword 0xB4 + 8
+.org 0x801671FC
+  .halfword 0xD2 + 4
+.org 0x80167204
+  .halfword 0xF0 + 2
+.org 0x80171928
+  addiu s0, s7, 0x5A + 20
+.org 0x80171950
+  addiu s0, s7, 0x5A + 20
+.org 0x801719A0
+  addiu a3, s7, 0x71 + 20
+.org 0x801719C8
+  addiu a0, s7, 0x5F + 20
+.org 0x801719F4
+  addiu s0, s7, 0x78 + 16
+.org 0x80171A1C
+  addiu s0, s7, 0x78 + 16
+.org 0x80171A6C
+  addiu a3, s7, 0x8F + 16
+.org 0x80171A94
+  addiu a0, s7, 0x7D + 16
+.org 0x80171AC0
+  addiu s0, s7, 0x96 + 12
+.org 0x80171AE8
+  addiu s0, s7, 0x96 + 12
+.org 0x80171B38
+  addiu a3, s7, 0xAD + 12
+.org 0x80171B60
+  addiu a0, s7, 0x9B + 12
+.org 0x80171B8C
+  addiu s0, s7, 0xB4 + 8
+.org 0x80171BB4
+  addiu s0, s7, 0xB4 + 8
+.org 0x80171C04
+  addiu a3, s7, 0xCB + 8
+.org 0x80171C2C
+  addiu a0, s7, 0xB9 + 8
+.org 0x80171C58
+  addiu s0, s7, 0xD2 + 4
+.org 0x80171C80
+  addiu s0, s7, 0xD2 + 4
+.org 0x80171CD4
+  addiu a3, s7, 0xE9 + 4
+.org 0x80171CFC
+  addiu a0, s7, 0xD7 + 4
+.org 0x80171D30
+  addiu a0, t2, 0xF3 + 2         ; Mv-Type value
+; Guardian page 2 (As Al Df Hi Es Hl): +8 +6 +4 +2 0 0
+.org 0x80172250
+  addiu a0, s1, 0x5A + 8
+.org 0x80172268
+  addiu a0, s1, 0x78 + 6
+.org 0x80172280
+  addiu a0, s1, 0x96 + 4
+.org 0x80172298
+  addiu a0, s1, 0xB4 + 2
+.org 0x8017240C
+  addiu s0, s7, 0x5A + 8
+.org 0x80172434
+  addiu s0, s7, 0x5A + 8
+.org 0x8017246C
+  addiu a3, s7, 0x71 + 8
+.org 0x80172494
+  addiu a0, s7, 0x5F + 8
+.org 0x801724C0
+  addiu s0, s7, 0x78 + 6
+.org 0x801724E8
+  addiu s0, s7, 0x78 + 6
+.org 0x80172520
+  addiu a3, s7, 0x8F + 6
+.org 0x80172548
+  addiu a0, s7, 0x7D + 6
+.org 0x80172574
+  addiu s0, s7, 0x96 + 4
+.org 0x8017259C
+  addiu s0, s7, 0x96 + 4
+.org 0x801725D4
+  addiu a3, s7, 0xAD + 4
+.org 0x801725FC
+  addiu a0, s7, 0x9B + 4
+.org 0x80172628
+  addiu s0, s7, 0xB4 + 2
+.org 0x80172650
+  addiu s0, s7, 0xB4 + 2
+.org 0x80172688
+  addiu a3, s7, 0xCB + 2
+.org 0x801726B0
+  addiu a0, s7, 0xB9 + 2
+; Guardian page 3 (Short Long Heal Mv Mv-Type): rank letter s6+X, exp digits s7+X+11: Short +12, Long +8, Heal +4
+.org 0x801728B0
+  addiu a0, s1, 0x5A + 12
+.org 0x801728C8
+  addiu a0, s1, 0x82 + 8
+.org 0x801728E0
+  addiu a0, s1, 0xAA + 4
+.org 0x80172ADC
+  addiu a0, s6, 0xAA + 4
+.org 0x80172AF4
+  addiu a0, s7, 0xB5 + 4
+.org 0x80172A40
+  addiu a0, s6, 0x5A + 12
+.org 0x80172A58
+  addiu a0, s7, 0x65 + 12
+.org 0x80172A98
+  addiu a0, s6, 0x82 + 8
+.org 0x80172AB0
+  addiu a0, s7, 0x8D + 8
 .close
 
 ; ---- BATTLE.BIN (overlay at 0x80166218): trait/skill labels (G9, tools/gfx.py label_*): English runs on across
