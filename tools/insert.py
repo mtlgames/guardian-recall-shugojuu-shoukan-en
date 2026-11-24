@@ -16,6 +16,7 @@ import font
 import gfx
 import gr_index
 import script_io
+import staff_str
 import writecheck
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -297,6 +298,8 @@ def patch_tree(tree, mode="en"):
     exe0, unn = exe_path.read_bytes(), bytearray(unn_path.read_bytes())
     tables = font.patch_unn(exe0, unn)                      # same size: before the repack moves groups
     gfx.patch(tree, exe0, unn, log)                         # title cards: in place, same sizes
+    if (tree / "STR/STAFF.STR").exists():                   # disc 2: credits movie (G15), cached re-encode
+        staff_str.patch(tree / "STR/STAFF.STR", log)
     groups = text_groups(mode)
     exe, unn = script_io.unn_repack(exe0, bytes(unn), groups)
     # unn_repack rewrites the group TOC and the text groups' sub-tables in the EXE

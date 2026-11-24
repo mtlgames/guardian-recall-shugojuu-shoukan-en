@@ -25,7 +25,7 @@ import romdiff
 import script_io
 
 FILES = {"DATA/UNN.PAK", "DATA/GRETC.RLZ", "DATA/ACTION.BIN", "DATA/BATTLE.BIN", "DATA/HEN.BIN", "DATA/DAY.BIN",
-         "DATA/BRAIN.BIN", "DATA/DIC.BIN", "DATA/SUBTI.PAK"}  # + the SLPS_* EXE
+         "DATA/BRAIN.BIN", "DATA/DIC.BIN", "DATA/SUBTI.PAK", "STR/STAFF.STR"}  # + the SLPS_* EXE
 HOOK_MAX = 0x40  # longest hook-site patch is 6 instructions; anything longer must sit in the dump's zero area
 BREAK = re.compile(r'\.(open|org|orga|close|headersize)\b\s*"?([^",;\s]*)"?,?(0x[0-9A-Fa-f]+)?')
 

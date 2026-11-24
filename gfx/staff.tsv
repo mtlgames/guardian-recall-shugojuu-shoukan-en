@@ -1,32 +1,35 @@
 # G15 STAFF.STR credits, in scroll order (transcribed 2026-11-24 from work/staff/strip_NN.png, tools/staff_strip.py).
-# kind: head (section/English title, keep or translate), role (-役職-), name, cast (character ... actor), note.
-# en: DRAFT. Names = Western order, Hepburn, long vowels unmarked; "?" = reading not confirmed (check a source:
-# MobyGames, anime staff databases; character names must match glossary.md). Lines already English stay as-is.
+# kind: head (section title), role (drawn as -Role-), name, cast (character …… actor: left / right aligned), note.
+# " / " separates display lines (one per text band in the movie; en and jp must have the same count). A line whose en
+# equals its jp stays as the original pixels; every other line is redrawn by tools/staff_str.py.
+# Names: Western order, Hepburn, long vowels unmarked; checked against VNDB v8185 (Sotohori, Misumi Hishinuma); the
+# character designers as the game's own logo credit spells them (D15); cast characters as glossary.md. Unconfirmed
+# readings: docs/decisions.md D17.
 kind	jp	en
 head	GUARDIAN RECALL / PlayStation STAFF	GUARDIAN RECALL / PlayStation STAFF
-role	キャラクターデザイン / 天の章	Character Design / Sky Chapter
-name	藺宮涼	Ryo Imiya?  (G18/D15 spelling wins)
-role	キャラクターデザイン / 地の章	Character Design / Earth Chapter
-name	龍炎狼牙	Roga Ryuen?  (G18/D15 spelling wins)
+role	キャラクターデザイン / 天の章	Character Design / Sky
+name	藺宮涼	Ryo Kamiya
+role	キャラクターデザイン / 地の章	Character Design / Earth
+name	龍炎狼牙	Ruen Rouga
 role	守護獣デザイン	Guardian Design
-name	外堀裕典	Hironori Sotobori?
+name	外堀裕典	Hironori Sotohori
 role	原作・シナリオ	Original Story & Scenario
-name	菱沼美佳	Mika Hishinuma
+name	菱沼美佳	Misumi Hishinuma
 role	メインプログラム	Main Program
-name	吉田能也	Yoshiya Yoshida?
+name	吉田能也	Yoshiya Yoshida
 role	アシストプログラム	Assistant Program
 name	太田原邦夫	Kunio Otahara
-name	池田晃	Akira Ikeda?
+name	池田晃	Akira Ikeda
 role	バトルプログラム	Battle Program
-name	仲田津宏	Tsuhiro Nakata?
+name	仲田津宏	Tsuhiro Nakata
 role	ゲームデザイン	Game Design
-name	庄司裕	Yutaka Shoji?
+name	庄司裕	Yutaka Shoji
 name	後藤克也	Katsuya Goto
 role	イベント制作	Event Production
-name	青氏	Aouji?  (pen name)
-name	大竹宗寿	Munetoshi Otake?
+name	青氏	Aouji
+name	大竹宗寿	Munetoshi Otake
 role	グラフィック監修	Graphics Supervisor
-name	伊勢猫	Iseneko?  (pen name)
+name	伊勢猫	Iseneko
 role	2Dグラフィック	2D Graphics
 name	木村晴美	Harumi Kimura
 name	山口初美	Hatsumi Yamaguchi
@@ -34,33 +37,33 @@ name	松本康之	Yasuyuki Matsumoto
 name	中村竜彦	Tatsuhiko Nakamura
 name	大森享子	Kyoko Omori
 role	3Dグラフィック	3D Graphics
-name	新村直之	Naoyuki Shinmura?
+name	新村直之	Naoyuki Shinmura
 name	あべただし	Tadashi Abe
 role	フレームデザイン	Frame Design
-name	野口琴代	Kotoyo Noguchi?
+name	野口琴代	Kotoyo Noguchi
 role	バトル原動画	Battle Animation
-name	踏分信司	Shinji Fumiwake?
-name	川口俊大	Toshihiro Kawaguchi?
+name	踏分信司	Shinji Fumiwake
+name	川口俊大	Toshihiro Kawaguchi
 name	鈴木美紀	Miki Suzuki
 role	サウンド	Sound
 name	伊藤健一	Kenichi Ito
 role	サウンドエフェクト	Sound Effects
-name	須賀愛美	Manami Suga?
+name	須賀愛美	Manami Suga
 head	OPENING THEME / 「Little Angel」	OPENING THEME / "Little Angel"
-role	作詞／作曲	Lyrics / Music
+role	作詞／作曲	Lyrics & Music
 name	伊藤健一	Kenichi Ito
 role	編曲	Arrangement
 name	常盤太郎	Taro Tokiwa
 role	唄	Vocals
 name	西村ちなみ	Chinami Nishimura
 head	ENDING THEME / 「風の唄」	ENDING THEME / "Song of the Wind"
-role	作詞／作曲	Lyrics / Music
+role	作詞／作曲	Lyrics & Music
 name	伊藤健一	Kenichi Ito
 role	編曲	Arrangement
 name	常盤太郎	Taro Tokiwa
-role	音楽協力	Music Cooperation
-name	黒山公純 （ギター）	Kimizumi Kuroyama? (Guitar)
-name	大山憲治 （ベース）	Kenji Oyama (Bass)
+role	音楽協力	Musicians
+name	黒山公純 / （ギター）	Kimizumi Kuroyama / (Guitar)
+name	大山憲治 / （ベース）	Kenji Oyama / (Bass)
 role	唄	Vocals
 name	かないみか	Mika Kanai
 head	[OPアニメーションパート]	[Opening Animation]
@@ -79,24 +82,24 @@ name	山下明彦	Akihiko Yamashita
 role	演出補	Assistant Director
 name	杉山慶一	Keiichi Sugiyama
 role	総作画監督	Chief Animation Director
-name	新号靖	Yasushi Shingo?
+name	新号靖	Yasushi Shingo
 role	作画監督	Animation Director
-name	沙羽都慶央	Yoshio Sawato?
+name	沙羽都慶央	Yoshio Sawato
 role	原画	Key Animation
-name	新号靖	Yasushi Shingo?
-name	沙羽都慶央	Yoshio Sawato?
-name	羽坂英則	Hidenori Hasaka?
+name	新号靖	Yasushi Shingo
+name	沙羽都慶央	Yoshio Sawato
+name	羽坂英則	Hidenori Hasaka
 name	塚本篤	Atsushi Tsukamoto
 name	中谷マリ	Mari Nakatani
 name	竹内昭	Akira Takeuchi
 name	菅井嘉浩	Yoshihiro Sugai
 name	長森佳容	Yoshihiro Nagamori
 name	森悦史	Etsushi Mori
-role	動画	In-between Animation
+role	動画	In-Between Animation
 name	WHITE LINE / ORANGE PRO / To PRODUCTION	WHITE LINE / ORANGE PRO / To PRODUCTION
 role	仕上	Ink & Paint
 name	WHITE LINE / ORANGE PRO / To PRODUCTION	WHITE LINE / ORANGE PRO / To PRODUCTION
-role	仕上検査	Ink & Paint Check
+role	仕上検査	Paint Check
 name	北川太郎	Taro Kitagawa
 role	特殊効果	Special Effects
 name	榊原豊彦	Toyohiko Sakakibara
@@ -108,8 +111,8 @@ role	撮影	Photography
 name	アズハタプロダクション	Azuhata Production
 name	月岡敦夫	Atsuo Tsukioka
 name	笹岡進一	Shinichi Sasaoka
-name	西川晃子	Akiko Nishikawa?
-name	高橋一純	Kazuzumi Takahashi?
+name	西川晃子	Akiko Nishikawa
+name	高橋一純	Kazuzumi Takahashi
 role	編集	Editing
 name	井上編集室 / 井上和夫	Inoue Editing Room / Kazuo Inoue
 role	現像	Film Processing
@@ -117,13 +120,13 @@ name	IMAGICA	IMAGICA
 role	制作担当	Production Manager
 name	沖本信幸	Nobuyuki Okimoto
 role	アニメーション制作	Animation Production
-name	有限会社 武遊	Buyu Co., Ltd.?
+name	有限会社 武遊	Buyu Co., Ltd.
 role	ビデオ編集	Video Editing
 name	映像通信	Eizo Tsushin
 role	音響監督	Sound Director
 name	吉田知弘	Tomohiro Yoshida
-role	アニメーション制作管理	Animation Production Management
-name	クーズ・クリエーション	Coos Creation?
+role	アニメーション制作管理	Animation Production Control
+name	クーズ・クリエーション	Coos Creation
 head	[アニメーション音響パート]	[Animation Sound]
 role	音響監督	Sound Director
 name	中野徹	Toru Nakano
@@ -137,36 +140,36 @@ name	セントラル録音	Central Recording
 role	音響プロデューサー	Sound Producer
 name	中村明子	Akiko Nakamura
 role	音響制作	Sound Production
-name	HALF H・P STUDIO	HALF H.P STUDIO
+name	HALF H・P STUDIO	HALF H・P STUDIO
 role	キャスト	Cast
-cast	天城美由紀 …… かないみか	(glossary) …… Mika Kanai
-cast	炎真由 …… 富沢美智恵	(glossary) …… Michie Tomizawa
-cast	海原美里 …… 篠原恵美	(glossary) …… Emi Shinohara
-cast	飛知和景子 …… 浅田葉子	(glossary) …… Yoko Asada
-cast	大地裕子 …… 渕崎ゆり子	(glossary) …… Yuriko Fuchizaki
-cast	聖ゆかり …… 本間ゆかり	(glossary) …… Yukari Honma
-cast	雷晶 …… 西村ちなみ	(glossary) …… Chinami Nishimura
-cast	周防ちかな …… 安達忍	(glossary) …… Shinobu Adachi
+cast	天城美由紀 …… かないみか	Miyuki Amagi …… Mika Kanai
+cast	炎真由 …… 富沢美智恵	Mayu Homura …… Michie Tomizawa
+cast	海原美里 …… 篠原恵美	Misato Kaibara …… Emi Shinohara
+cast	飛知和景子 …… 浅田葉子	Keiko Hichiwa …… Yoko Asada
+cast	大地裕子 …… 渕崎ゆり子	Yuko Daichi …… Yuriko Fuchizaki
+cast	聖ゆかり …… 本間ゆかり	Yukari Hijiri …… Yukari Honma
+cast	雷晶 …… 西村ちなみ	Akira Ikazuchi …… Chinami Nishimura
+cast	周防ちかな …… 安達忍	Chikana Suo …… Shinobu Adachi
 cast	一の宮鈴音 …… 皆口裕子	Suzune Ichinomiya …… Yuko Minaguchi
 cast	一の宮琴音 …… 皆口裕子	Kotone Ichinomiya …… Yuko Minaguchi
-cast	日之影蘭 …… 高田由美	(glossary) …… Yumi Takada
-cast	岩見沢唯 …… 熊谷ニーナ	(glossary) …… Nina Kumagai
-cast	静内さやか …… 篠原恵美	(glossary) …… Emi Shinohara
-cast	小泊かおる …… 岩坪理恵	(glossary) …… Rie Iwatsubo
-cast	平泉るり …… 浅田葉子	(glossary) …… Yoko Asada
-cast	直江巴澄 …… 佐久間レイ	(glossary) …… Rei Sakuma
-cast	南条知美 …… 佐久間レイ	(glossary) …… Rei Sakuma
-cast	西苑寺麗子 …… 大谷育江	(glossary) …… Ikue Otani
-cast	半澤由美 …… 皆口裕子	(glossary) …… Yuko Minaguchi
-cast	東聡美 …… 高田由美	(glossary) …… Yumi Takada
-cast	北斗めぐみ …… 岩坪理恵	(glossary) …… Rie Iwatsubo
-cast	鏡涼子 …… 大谷育江	(glossary) …… Ikue Otani
+cast	日之影蘭 …… 高田由美	Ran Hinokage …… Yumi Takada
+cast	岩見沢唯 …… 熊谷ニーナ	Yui Iwamizawa …… Nina Kumagai
+cast	静内さやか …… 篠原恵美	Sayaka Shizunai …… Emi Shinohara
+cast	小泊かおる …… 岩坪理恵	Kaoru Kodomari …… Rie Iwatsubo
+cast	平泉るり …… 浅田葉子	Ruri Hiraizumi …… Yoko Asada
+cast	直江巴澄 …… 佐久間レイ	Hasumi Naoe …… Rei Sakuma
+cast	南条知美 …… 佐久間レイ	Tomomi Nanjo …… Rei Sakuma
+cast	西苑寺麗子 …… 大谷育江	Reiko Saionji …… Ikue Otani
+cast	半澤由美 …… 皆口裕子	Yumi Hanzawa …… Yuko Minaguchi
+cast	東聡美 …… 高田由美	Satomi Azuma …… Yumi Takada
+cast	北斗めぐみ …… 岩坪理恵	Megumi Hokuto …… Rie Iwatsubo
+cast	鏡涼子 …… 大谷育江	Ryoko Kagami …… Ikue Otani
 cast	仁瞳 …… 勝生真沙子	Hitomi Jin …… Masako Katsuki
-cast	龍鬼妃 …… 井上喜久子	(glossary) …… Kikuko Inoue
+cast	龍鬼妃 …… 井上喜久子	Ryukihi …… Kikuko Inoue
 cast	ナレーション …… 梁田清之	Narration …… Kiyoyuki Yanada
-cast	天龍 …… 並木伸一	(glossary) …… Shinichi Namiki
-cast	飛龍 …… 熊谷正行	(glossary) …… Masayuki Kumagai?
-cast	地龍 …… 東久仁彦	(glossary) …… Kunihiko Azuma?
+cast	天龍 …… 並木伸一	Sky Dragon …… Shinichi Namiki
+cast	飛龍 …… 熊谷正行	Wind Dragon …… Masayuki Kumagai
+cast	地龍 …… 東久仁彦	Earth Dragon …… Kunihiko Azuma
 note	順不同	In no particular order
 head	[パブリッシングパート]	[Publishing]
 role	グラフィックデザイン	Graphic Design
@@ -177,16 +180,16 @@ name	山田実穂	Miho Yamada
 role	広報制作	Publicity
 name	伊瀬飛鳥	Asuka Ise
 role	デバッグ	Debugging
-name	佐藤成行	Shigeyuki Sato?
+name	佐藤成行	Shigeyuki Sato
 head	SPECIAL THANKS	SPECIAL THANKS
 name	蓬田一郎	Ichiro Yomogita
-name	足立秀司（デザイン協力）	Shuji Adachi (Design Cooperation)
+name	足立秀司（デザイン協力）	Shuji Adachi (Design Assistance)
 role	エグゼクティヴプロデューサー	Executive Producer
 name	辻猛	Takeshi Tsuji
-name	木村良郎（XING）	Yoshiro Kimura? (XING)
-role	企画／原案／総監督	Planning / Original Concept / General Director
+name	木村良郎（XING）	Yoshiro Kimura (XING)
+role	企画／原案／総監督	Planning, Concept & Direction
 name	島津司郎	Shiro Shimazu
 role	制作	Production
 name	アグミックス	Agumix
 name	TEAM DUEL	TEAM DUEL
-note	©XING 1998 / ©1996.1998 アグミックス / 藺宮涼、龍炎狼牙	©XING 1998 / ©1996.1998 Agumix / (G18 line, D15 spelling)
+note	©XING 1998 / ©1996.1998 アグミックス / 藺宮涼、龍炎狼牙	©XING 1998 / ©1996.1998 Agumix / Ryo Kamiya, Ruen Rouga

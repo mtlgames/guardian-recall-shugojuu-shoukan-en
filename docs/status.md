@@ -4,8 +4,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (19) `build.py` (write check + jp_refs ok both discs; G1-G6, G8-G11, G13, G17, G18 English),
-  check.py green. Phase 8 in progress: graphics rows first (Next (0)); only G15 (credits movie) left.
+  Last build: 2026-11-24 (20) `build.py` (write check + jp_refs ok both discs; G1-G6, G8-G11, G13, G15, G17, G18
+  English), check.py green, disc 1 smoke ok, disc 2 `ending` regen ok. Phase 8 in progress: every graphics row done;
+  next = chapter cards shot, then the full tour (Next (1)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -255,18 +256,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (8326 rows) + offsets.tsv (frame -> strip offset) + strip_NN.png pages. **Every credit transcribed** into
     gfx/staff.tsv (scroll order, draft English; "?" = unconfirmed name reading, `(glossary)` = cast character name
     to take from glossary.md).
-- **Next (phase 8):** (0) Graphics row left: **G15 STAFF.STR credits** (D3 = English). Plan: (a) done (gfx/staff.tsv);
-  (b) finish en: cast names from glossary.md, check "?" readings against a source (MobyGames, anime staff
-  databases; record it in decisions.md; still-unsure ones -> Waiting, non-blocking), G18/D15 spelling for the
-  copyright names; (c) done: 2 px/frame, offsets.tsv; (d) render the English strip (same row of each Japanese line:
-  find line bands in strip.png; white serif on black, centred at x 80, cast lines "Name …… Actor" across 0-159), then
-  per frame: decode, replace the left-column
-  macroblocks with the English column rendered on black (forward DCT + PSX quant matrix at the frame's qscale),
-  keep the right-side macroblocks' coefficients as they are, re-encode; each frame must fit its own chunks x 2016
-  bytes (same sector layout, audio sectors untouched); (e) write the new STR into disc 2's tree in build.patch
-  (mkpsxiso keeps form-2 STR as-is; check layout.xml), shoot scene `ending` (disc 2) from a cold boot.
-  Still unknown whether other code draws split.tim cells (none seen).
-  Chapter cards (SUBTI 39-43) not yet shot in game.
+  - 2026-11-24 (20): **G15 credits movie English** (D17): gfx/staff.tsv final (VNDB-checked names, glossary cast,
+    D15 copyright); `tools/staff_str.py` redraws each Japanese line in its own strip band (Liberation Serif Bold,
+    cast lines one uniform squeeze), background = 15x15 grey opening (keeps the video behind the ©card), re-encodes
+    only touched left macroblocks of frames 74-4394 (qscale raised until no AC clip and the frame fits its sectors),
+    cached as work/staff/STAFF.<hash>.STR (~5 min first build); insert.patch_tree writes it, writecheck FILES has
+    STR/STAFF.STR. `staff_strip.scan` now parallel (34 s, output identical). `--lines DIR` / `--preview DIR --frames`
+    for checking. tests/test_staff.py. Shot: `regen.py --only ending --timeout 2400` (work/qa/warp/ending, every
+    credit English incl. cast + ©card; zooms zoom_g15*.png).
+- **Next (phase 8):** (0) Chapter cards (SUBTI 39-43) not yet shot in game. Still unknown whether other code draws
+  split.tim cells (none seen).
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
   the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
   Psi/trait label glyphs in GRETC mill 004 split.tim, composed from glyph-index lists at BATTLE 0x80171374+: redraw
