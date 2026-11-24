@@ -10,6 +10,21 @@ Updated at the end of every session. Keep it to what the next session needs; his
   for (30) (only GRETC.RLZ dic.txd changed, 4 sectors per disc; no scene there shows the dictionary).
   **textcover green** on (30): 7336/7696 shown, 360 waived, 0 failing (dic sweep re-run with --cover).
   Next = phase 9 (see "Next (phase 9)" below).
+  **Phase 9 progress (2026-11-24 (31)):** `tools/release.py` written (gate order: check -> build -> smoke ->
+  jp_scan -> qa_gate check on every work/qa/**/manifest.tsv -> textcover -> polish all ticked -> README placeholders
+  -> xdelta3 -B per disc, re-applied + compared -> release/Guardian_Recall_Shugojuu_Shoukan_EN_v1.0.zip, stored;
+  README template docs/release-readme.txt); not run end to end yet. `tools/jp_scan.py` (re-extracts every
+  container from the built trees, jp_refs on both EXEs, new SJIS runs in changed files): **clean** on (30) (pristine
+  tree gives 6571 hits = the scan works). README.md filled (status table, base hashes). Debug tool = external Lua
+  only (warp.lua, --qa/--marker build flags): release.py runs plain build.py, so nothing to switch off.
+  **Story pass:** `tools/story.py` -> work/qa/story/chapters/00-42.txt (scenario 00-42 in id order; 43-49 copies/alt,
+  50+ tutorials stay per-batch reviewed); manifest work/qa/story/manifest.tsv; verdicts work/qa/story/verdicts/NN.tsv.
+  Done: 00 ok, 01 fixed (g23.01.036 "Thunder / Dragon" split over a page: rewrapped to 3 lines, full dragon names kept for the glossary lint). **Left: 02-42** (~520 KB; a
+  4 KB Read is ~30 lines, a chapter 2-7 reads: ~4 chapters per worker after setup, more when started fresh).
+  No codex until 2026-11-26 14:14 (`codex exec` would take chapters with the brief in the prompt).
+  **Text edited since build (30), not rebuilt yet:** g23.01.036. Batch all story/polish fixes, then once: build,
+  re-shoot coverage for changed ids (`textcover.py ... --runs-for IDS`), `qa_gate waive` d1/d2/s1/s2 (text-only
+  hotfix) or re-tour, story.py + `qa_gate init` story, release.py.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs

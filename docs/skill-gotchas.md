@@ -41,3 +41,4 @@
 docs/re/text.md: overlay 0x12 (title LOAD) expands "<a>" in save.txd messages via 0x8016A468 into a stack buffer before the txd renderer: hook the source pointer there for coverage, not the renderer.
 references/emulator-qa.md (Text coverage): pointer-substitution sweeps must never hand a longer string to a copy into a fixed buffer (book sprintf, %s labels): the game crashes and PCSX pauses (run ends 124 with frozen frames).
 references/emulator-qa.md (Text coverage): `textcover.py --runs-for ID` prints nothing for a string whose text changed (it matches logged hashes, and the old hash is no longer in strings.tsv): find the run by scene (e.g. the sweep that shows that page) and re-run it with --cover.
+- references/emulator-qa.md / translation.md: context-mode trims Read above ~4 KB, so a story-pass chapter of 16-28 KB costs 4-7 Reads; without codex/subagents one worker covers only ~4 chapters
