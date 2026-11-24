@@ -404,7 +404,7 @@
   {
    "id": "g23.03.039",
    "jp": "美里\n「人違い・・・？\n　ううん、あれはゆっこだ」\n{wait}",
-   "en": "Misato\n\"The wrong person...? No, that's Yukko.\"\n{wait}",
+   "en": "Misato\n\"Am I mistaken...? No, that's Yukko.\"\n{wait}",
    "slots": [
     39
    ],
@@ -596,7 +596,7 @@
   {
    "id": "g23.03.058",
    "jp": "美里\n「幼なじみよ」\n{wait}「家だって隣どうしで、\n　小さい頃からずっと一緒で・・・\n　人違いなんかじゃない」\n{wait}「なのに・・・」\n{wait}「なにがなんだか、訳が分からないわ」\n{wait}",
-   "en": "Misato\n\"My childhood friend.\"\n{wait}\"We lived right next door to each other, we\nwere together ever since we were little... It's\nnot the wrong person.\"\n{wait}\"And yet...\"\n{wait}\"I don't understand any of this.\"\n{wait}",
+   "en": "Misato\n\"My childhood friend.\"\n{wait}\"We lived right next door to each other, we\nwere together ever since we were little... I'm\nnot mistaken.\"\n{wait}\"And yet...\"\n{wait}\"I don't understand any of this.\"\n{wait}",
    "slots": [
     58
    ],

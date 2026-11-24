@@ -673,7 +673,7 @@
   {
    "id": "g23.09.066",
    "jp": "裕子\n「でも、あんたのには・・・」\n{wait}",
-   "en": "Yuko\n\"But yours has...\"\n{wait}",
+   "en": "Yuko\n\"But you... yours has...\"\n{wait}",
    "slots": [
     66
    ],
@@ -683,7 +683,7 @@
   {
    "id": "g23.09.067",
    "jp": "ゆかり\n「ゆかりよ」\n{wait}",
-   "en": "Yukari\n\"It's Yukari.\"\n{wait}",
+   "en": "Yukari\n\"Call me Yukari.\"\n{wait}",
    "slots": [
     67
    ],
@@ -693,7 +693,7 @@
   {
    "id": "g23.09.068",
    "jp": "裕子\n「・・・ゆかりのには、なんか\n　カッコイイ名前がついてるよ」\n{wait}",
-   "en": "Yuko\n\"...Yukari's has some cool name and\neverything.\"\n{wait}",
+   "en": "Yuko\n\"...Yukari, yours has some cool name and\neverything.\"\n{wait}",
    "slots": [
     68
    ],

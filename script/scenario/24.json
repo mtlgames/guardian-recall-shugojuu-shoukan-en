@@ -1012,7 +1012,7 @@
   {
    "id": "g23.24.251",
    "jp": "美由紀\n「あはは！」\n{wait}「じゃ、あたしと景子ちゃんは、\n　かなり仲良しね！」\n{wait}「かなり仲良しって、\n　イチバンの仲良しの次に、\n　仲いいってコトだからね」\n{wait}「イチバンの仲良しは、美里ちゃん\n　だもんね。あれ？　どしたの・・・\n　顔、赤いよ？」\n{wait}",
-   "en": "Miyuki\n\"Ahaha!\"\n{wait}\"Then me and Keiko-chan are super good\nfriends!\"\n{wait}\"Super good friends means the next best\nafter best friends, okay?\"\n{wait}\"'Cause my best friend is Misato-chan. Huh?\nWhat's wrong... your face is all red.\"\n{wait}",
+   "en": "Miyuki\n\"Ahaha!\"\n{wait}\"Then me and Keiko-chan are super good\nfriends!\"\n{wait}\"Super good friends means the next best\nafter best friends, okay?\"\n{wait}\"'Cause your best friend is\nMisato-chan, right? Huh? What's\nwrong... your face is all red.\"\n{wait}",
    "slots": [
     251
    ],

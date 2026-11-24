@@ -148,7 +148,7 @@
   {
    "id": "g23.21.014",
    "jp": "美由紀\n「ねえ仁、龍鬼妃さん・・・\n　龍鬼妃と話した事ある？」\n{wait}",
-   "en": "Miyuki\n\"Hey, Jin, Ryukihi-san... Have you ever talked\nto Ryukihi?\"\n{wait}",
+   "en": "Miyuki\n\"Hey, Jin. Have you ever talked to\nRyukihi-san... I mean, Ryukihi?\"\n{wait}",
    "slots": [
     14
    ],

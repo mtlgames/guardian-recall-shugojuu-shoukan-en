@@ -2,7 +2,7 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release (phase 8 closed 2026-11-24 (30): vqa gates d1/d2/s1/s2 exit 0, textcover exits 0, inkbox
+- **Phase:** 9. Release in progress: story pass read 00-42, polish list next (phase 8 closed 2026-11-24 (30): vqa gates d1/d2/s1/s2 exit 0, textcover exits 0, inkbox
   and stress done, smoke ok).
   Last build: 2026-11-24 (30) `build.py` (= (29) + dic.0253 wrap fix; disc 1 sha1 ac96b569.., disc 2 74d1d0ca..;
   write check ok both discs), check.py green (51), smoke ok.
@@ -19,12 +19,19 @@ Updated at the end of every session. Keep it to what the next session needs; his
   only (warp.lua, --qa/--marker build flags): release.py runs plain build.py, so nothing to switch off.
   **Story pass:** `tools/story.py` -> work/qa/story/chapters/00-42.txt (scenario 00-42 in id order; 43-49 copies/alt,
   50+ tutorials stay per-batch reviewed); manifest work/qa/story/manifest.tsv; verdicts work/qa/story/verdicts/NN.tsv.
-  Done: 00 ok, 01 fixed (g23.01.036 "Thunder / Dragon" split over a page: rewrapped to 3 lines, full dragon names kept for the glossary lint). **Left: 02-42** (~520 KB; a
-  4 KB Read is ~30 lines, a chapter 2-7 reads: ~4 chapters per worker after setup, more when started fresh).
-  No codex until 2026-11-26 14:14 (`codex exec` would take chapters with the brief in the prompt).
-  **Text edited since build (30), not rebuilt yet:** g23.01.036. Batch all story/polish fixes, then once: build,
-  re-shoot coverage for changed ids (`textcover.py ... --runs-for IDS`), `qa_gate waive` d1/d2/s1/s2 (text-only
-  hotfix) or re-tour, story.py + `qa_gate init` story, release.py.
+  Done: 00 ok, 01 fixed (g23.01.036 "Thunder / Dragon" split over a page: rewrapped to 3 lines, full dragon names kept for the glossary lint).
+  **2026-11-25: 02-42 read** (EN-only extract of each chapter, 3.7 KB chunks, JP checked on doubt: whole pass fits
+  one session, ~60 Reads). Verdicts written in work/qa/story/verdicts/02-42.tsv: fixed 03, 09, 10, 21, 24, 38, rest
+  ok; report work/qa/story/reports/02-42.md (Important: 24.251 best friend = Keiko's, 09.066-068 ゆかりよ beat).
+  **Story verdicts go stale** once story.py regenerates the chapter files and `qa_gate init` re-hashes them: after
+  the rebuild, run story.py, `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`
+  (check the original init args in git log / manifest), then re-write the verdict files (same content) so they
+  postdate init, and `qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts`.
+  **Text edited since build (30), not rebuilt yet:** g23.01.036, 03.039, 03.058, 09.066-068, 10.028, 21.014,
+  24.251, 38.031 (all `batches.py fit` OK). **Next:** docs/polish.md has 107 unticked Minors: fix (batches.py fit,
+  then Edit the json) or tick `waived: reason`; then once: build, re-shoot coverage for changed ids
+  (`textcover.py ... --runs-for IDS`), `qa_gate waive` d1/d2/s1/s2 (text-only hotfix) or re-tour, story pass
+  re-init above, release.py.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
