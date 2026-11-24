@@ -178,6 +178,21 @@ def record_bytes(s, mode, marker):
     return script_io.enc(s["en"]) if s.get("en") else None
 
 
+def centre_pad(s, t):
+    """EXE/overlay messages the original centres with leading full-width spaces (ACTION save/card boxes, "　　セーブしました"):
+    pad the English to the same centre, 13 px per full-width space + 3 px per ASCII space."""
+    jp, en = s["jp"], s.get("en") or ""
+    if not jp.startswith("　") or "%" in jp or "\n" in jp or not en or en[0] in " 　" or s["id"] in QA:
+        return t
+    core = jp.strip("　")
+    lead = len(jp) - len(jp.lstrip("　"))
+    pad = round(13 * lead + 13 * len(core) / 2 - font.width(en) / 2)
+    if pad < 3:
+        return t
+    n13, r = divmod(pad, 13)
+    return script_io.enc("　" * n13 + " " * round(r / 3) + en)
+
+
 def entry_index(doc):
     return int(re.match(r"GRETC\.RLZ entry (\d+)", doc["src"]).group(1))
 
@@ -271,6 +286,8 @@ def patch_images(tree, exe_path, mode):
             t = record_bytes(s, mode, marker_exe if s.get("refs") else marker_lines)
             if t is None:
                 continue
+            if mode == "en":
+                t = centre_pad(s, t)
             if len(t) < s["room"]:
                 o, new = s["off"], t + bytes(s["room"] - len(t))
                 log(rel, o, img[o:o + len(new)], new, s["id"])

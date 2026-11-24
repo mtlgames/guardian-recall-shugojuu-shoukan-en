@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "tools"))
 import check_rom  # noqa: E402
 import insert  # noqa: E402
+import strings_tsv  # noqa: E402
 import writecheck  # noqa: E402
 import jp_refs  # noqa: E402
 
@@ -86,3 +87,5 @@ if __name__ == "__main__":
     check_rom.check()
     for n in DISCS:
         print(build_disc(n, ROOT / f"build/disc{n}", patched=not a.identity, mode="marker" if a.marker else "en"))
+    if not a.identity and not a.marker:
+        strings_tsv.write(qa=insert.QA)  # build/strings.tsv: text coverage keys of this build

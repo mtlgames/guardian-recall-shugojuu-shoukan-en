@@ -4,10 +4,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (24) `build.py` at c9c1c9e+ (write check ok both discs; disc1 bin sha1 b9e87ef3.., disc2
-  dc0c87ff..), check.py green, disc 1 smoke ok. Phase 8 in progress: every graphics row done and shot; full tour
-  144/144 ok on this build (work/qa/tour); **visual-QA verdicts complete: `qa_gate.py check` exits 0 for d1
-  (154) and d2 (113) on this build**. Left for phase 8: inkbox, stress saves, textcover (Next (1)).
+  Last build: 2026-11-24 (25) `build.py` (centre_pad fix; write check ok both discs), check.py green (50 passed).
+  The vqa gate was passed on the (24) build: the (25) build changes only ~20 ACTION save/card message strings
+  (centring), so `qa_gate.py check` now fails on the build hash: re-tour the tac_break/tac_saved/day_save* scenes,
+  `vqa_sheets.py`, re-verdict those sheets. Left for phase 8: textcover (run in progress, Next (1)), stress saves,
+  the rest of inkbox.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -282,7 +283,37 @@ Updated at the end of every session. Keep it to what the next session needs; his
     pen+34. Full re-tour 144/144; d1 battle/gameover sheets changed only in the command box (proved with new
     `tools/framediff.py` against the previous build's run in work/qa/tour_prev). Guardian list page 1 "Thunder Dragon"
     4 px before Type: docs/polish.md line.
-- **Next (phase 8):** (0) Still unknown whether other code draws split.tim cells (none seen).
+  - 2026-11-24 (25): **textcover infrastructure.** `tools/lua/textcover.lua` logs `TEXT <fnv32>` per distinct
+    string read (exec hooks: generic draw 0x80043A64 a2, txd 0x800133D4 a2, g13 draw 0x80044680 s3, scenario box
+    0x80043DA4 string [a0+8]; read BPs only on printf-format ranges EXE 0x80010000-0x80012760, overlays, STR_POOL;
+    reads by the boot stub ignored). `build.py` writes build/strings.tsv (`tools/strings_tsv.py`: id -> FNV-1a 32
+    of the bytes the build writes; content keys, so runs on different builds combine for unchanged strings).
+    `regen.py --cover` adds the probe (+ --debugger). `tools/cover_stats.py LOGDIR [--files] [--missing PREFIX]`
+    = per-area counts and the unshown ids with text. Measured: ~45 fps per run with the slim probe (read BPs on
+    the name records/scenario buffer made it 12 fps); ev02 with ADVANCE=60 shows ~10 scenario messages per 3000
+    frames. Single-char strings ("0", "/") match anywhere: harmless (same bytes). **inkbox finding fixed:** the
+    ACTION save/card messages were centred in Japanese by leading full-width spaces ("　　セーブしました") and the
+    English started at the box border; `insert.centre_pad` pads each such EXE string to the Japanese text's centre
+    (tests/test_centre.py). tac_saved "Saved" inkbox 53/54 px (orig 25/23, `--ink 255,255,255 --diff 60`: the
+    boxes are translucent, so default ink picks up the map).
+- **Next (phase 8):** (1) **textcover run in progress** (started 2026-11-24 ~17:30 by the (25) session, may have
+  died with it): `regen.py --cover --outdir work/qa/cover/menu` (all non-ev scenes, default frames) then
+  `--outdir work/qa/cover/ev --frames 15000 --var ADVANCE=45 --jobs 4` (70 events, ~2 h); progress in
+  work/qa/cover/run_{menu,ev}.txt, strings in work/qa/cover/strings.tsv. **Don't build while it runs** (the
+  emulators read build/). If the run_*.txt files don't end in "N/N ok", re-run the missing part. Then
+  `python -X utf8 tools/cover_stats.py work/qa/cover work/qa/cover/strings.tsv --files` and close gaps:
+  events whose scenario lines stay unshown need longer runs or a route (story branches, in-map conditions);
+  txd: opt_*_page scenes paging through every entry (route `right*N`), day diaries via `day01.mcd@N` cards; g13
+  battle quotes need battles per character (`battle` scene variants); save.txd/ACTION card errors can be forced
+  by booting with no card / a corrupt card (save.py --poke on the checksum). Waive only real unreachables in
+  docs/text_unshown.tsv (`id<TAB>reason`); gate = `$SKILL/scripts/textcover.py work/qa/cover build/strings.tsv
+  --waive docs/text_unshown.tsv`. Stress saves: no name entry in this game (fixed cast); cases = longest unit
+  names on a map (evd names / unit-type table ranked by font.width), max stats (USD array 0x800C3050: Lv +0, HP
+  +0x10, AP +0x12, MP +0x14 via warp.lua writes), unlock-all lists (opt_*_all done); item slots in the unit struct
+  not yet mapped. inkbox: the ACTION messages now padded need a shot each (day_save*, tac_break, card boot
+  messages); other choice boxes (Yes/No, unit menu, think menu) are left-aligned as in the original (checked
+  against tour_jp), so inkbox doesn't apply to them; title menu is graphics (centred, shot).
+  (0) Still unknown whether other code draws split.tim cells (none seen).
   (1) **Visual-QA verdicts done** (both gates exit 0 at 2026-11-24 (24)). After any later code/font/text change:
   re-run the tour, `vqa_sheets.py`, `qa_gate.py init ... --build`, `todo`; for long scenes whose sheets change only
   through a known fix, `tools/framediff.py NEW OLD` against a run on the previous build shows where frames differ.

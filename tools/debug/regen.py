@@ -52,6 +52,8 @@ def run(sc, args):
     cmd += ['--var', f"EVENT={sc['target']}"] if sc.get('raw') else ['--var', f"SCENE='{sc['name']}'"]
     for v in args.var or []:
         cmd += ['--var', v]
+    if args.cover:  # text coverage: log.txt gets TEXT <fnv32> lines (tools/lua/textcover.lua)
+        cmd += ['--debugger', '--script', os.path.join(REPO, 'tools/lua/textcover.lua')]
     p = subprocess.run(cmd, capture_output=True, text=True)
     logp = os.path.join(out, 'log.txt')
     log = open(logp, encoding='utf-8', errors='replace').read() if os.path.exists(logp) else ''
@@ -71,6 +73,7 @@ def main():
     ap.add_argument('--frames', type=int, help='frames after the warp (default: scenes.tsv column)')
     ap.add_argument('--timeout', type=int, default=300)
     ap.add_argument('--var', action='append', help='extra --var for warp.lua, e.g. ADVANCE=90')
+    ap.add_argument('--cover', action='store_true', help='also run tools/lua/textcover.lua (emu.py --debugger)')
     ap.add_argument('--card', default=os.path.join(REPO, 'tools/debug/cards/sys.mcd'),
                     help='memory card (default: system file only, so the boot skips the create prompt)')
     args = ap.parse_args()
