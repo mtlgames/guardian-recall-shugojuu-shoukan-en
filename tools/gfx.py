@@ -23,6 +23,7 @@ SECTOR = 0x800
 SUBTI_INDEX = 0x12664          # ACTION.BIN file offset of the SUBTI.PAK index
 G17_TAB, TIM_HDR = 0x800922E4, 64
 G18_TAB = 0x800915CC           # condition cards: plain TX03 per entry, 256x240
+G24_TAB = 0x80092D9C           # location cards: plain TX03 320x240 in entries 17-82
 W, H, NCARDS, CW = 320, 240, 53, 256
 CHAPTER = {"sky": "Sky Chapter", "earth": "Earth Chapter", "seven": "Seven Dragons Chapter",
            "awake": "Awakening Chapter", "ryuki": "Ryuki Chapter"}
@@ -112,6 +113,92 @@ def condition(retreat, victory, defeat):
     return np.asarray(img)
 
 
+def location_rows():
+    """{g24 entry: [English lines]} from gfx/locations.tsv."""
+    out = {}
+    for ln in (ROOT / "gfx/locations.tsv").read_text(encoding="utf-8").splitlines():
+        if ln and not ln.startswith("#"):
+            k, en, _ = ln.split("\t")
+            out[int(k)] = en.split("|")
+    return out
+
+
+def _bands(idx, gap=3):
+    """[(y0, y1)] row runs holding ink, runs closer than `gap` blank rows merged."""
+    ys = np.flatnonzero(idx.any(1))
+    out = []
+    for y in ys:
+        if out and y - out[-1][1] <= gap:
+            out[-1][1] = y + 1
+        else:
+            out.append([y, y + 1])
+    return out
+
+
+def location(idx, lines, maxsize=34):
+    """Redraw a location card (idx: H x W indices 0..15, 0 = background): the Japanese block = the tallest row band
+    (the big name; the region/time lines are <= 16 px) plus small bands within 8 rows of it (furigana). Its rows are
+    cleared and the English name drawn there, aligned like the Japanese (left, right or centred)."""
+    bands = _bands(idx)
+    j = max(range(len(bands)), key=lambda i: bands[i][1] - bands[i][0])
+    assert bands[j][1] - bands[j][0] >= 20, bands
+    lo, hi = j, j
+    while lo > 0 and bands[lo][0] - bands[lo - 1][1] <= 8 and bands[lo - 1][1] - bands[lo - 1][0] <= 17:
+        lo -= 1
+    while hi + 1 < len(bands) and bands[hi + 1][0] - bands[hi][1] <= 8 and bands[hi + 1][1] - bands[hi + 1][0] <= 17:
+        hi += 1
+    y0, y1 = bands[lo][0], bands[hi][1]
+    xs = np.flatnonzero(idx[y0:y1].any(0))
+    x0, x1 = xs[0], xs[-1] + 1
+    top = bands[lo - 1][1] + 4 if lo else 4                 # free rows the English may use
+    bot = bands[hi + 1][0] - 4 if hi + 1 < len(bands) else H - 4
+    for size in range(maxsize, 15, -1):
+        f = _font(size)
+        lh = round(size * 1.1)
+        if max(f.getlength(t) for t in lines) <= W - 16 and lh * len(lines) <= bot - top:
+            break
+    else:
+        raise AssertionError(f"location {lines} does not fit rows {top}-{bot}")
+    hgt = lh * len(lines)
+    cy = min(max((y0 + y1) / 2, top + hgt / 2), bot - hgt / 2)
+    if x0 >= 24 and x1 > W - 24:
+        x, anchor = min(x1, W - 8), "r"
+    elif x0 < 24 and x1 <= W - 24:
+        x, anchor = max(x0, 8), "l"
+    else:
+        x, anchor = W / 2, "m"
+    img = Image.new("L", (W, H), 0)
+    d = ImageDraw.Draw(img)
+    for i, t in enumerate(lines):
+        d.text((x, cy - hgt / 2 + lh * (i + 0.5)), t, font=f, fill=255, anchor=anchor + "m")
+    new = np.rint(np.asarray(img, np.float32) * 15 / 255).astype(np.uint8)
+    out = idx.copy()
+    out[y0:y1] = 0
+    return np.maximum(out, new)
+
+
+def unpack(data, w):
+    b = np.frombuffer(data, np.uint8).reshape(-1, w)
+    return np.stack([b & 15, b >> 4], -1).reshape(b.shape[0], -1)
+
+
+def g24_images(exe, unn):
+    """{entry: packed redrawn card} for every row of gfx/locations.tsv."""
+    gs = gr_index.toc(exe)[24][0]
+    sub = {t: e for _, t, e in gr_index.subtables(exe)}[G24_TAB]
+    out = {}
+    for n, lines in location_rows().items():
+        off = (gs + sub[n][0]) * SECTOR
+        d = tx03.decompress(unn, off)[0]
+        assert struct.unpack_from("<hh", d) == (W // 2, H), n
+        for size in range(34, 20, -2):          # smaller text until the stream fits the entry's byte count
+            idx = location(unpack(d[4:], W // 2), lines, size)
+            out[n] = (idx[:, 0::2] | idx[:, 1::2] << 4).astype(np.uint8).tobytes()
+            if len(stream(out[n])) <= sub[n][2]:
+                break
+    return out
+
+
 def pack(cov, ink0=True):
     """4bpp, low nibble = left pixel; ink0: index 15 - ink level (title cards), else index = ink level."""
     idx = np.rint(cov.astype(np.float32) * 15 / 255).astype(np.uint8)
@@ -186,6 +273,15 @@ def patch(tree, exe, unn, log):
         assert unn[off:off + 4] == b"TX03"
         log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx conditions g18")
         unn[off:off + len(s)] = s
+    gs = gr_index.toc(exe)[24][0]
+    sub = {t: e for _, t, e in gr_index.subtables(exe)}[G24_TAB]
+    for n, data in g24_images(exe, unn).items():
+        s = stream(data)
+        sec, _, size = sub[n]
+        assert len(s) <= size, f"g24 card {n}: {len(s):#x} > {size:#x}"
+        off = (gs + sec) * SECTOR
+        log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx locations g24")
+        unn[off:off + len(s)] = s
     pak_path.write_bytes(pak)
     (tree / "DATA/ACTION.BIN").write_bytes(action_new)
 
@@ -201,4 +297,8 @@ if __name__ == "__main__":
             b = np.frombuffer(data, np.uint8).reshape(H, -1)
             px = np.stack([b & 15, b >> 4], -1).reshape(H, -1) * 17
             Image.fromarray(px.astype(np.uint8)).save(out / f"{kind}_{n:02d}.png")
+    tree = ROOT / "work/iso/d1/tree"
+    exe = next(tree.glob("SLPS_*")).read_bytes()
+    for n, data in g24_images(exe, (tree / "DATA/UNN.PAK").read_bytes()).items():
+        Image.fromarray((unpack(data, W // 2) * 17).astype(np.uint8)).save(out / f"g24_{n:02d}.png")
     print(out)

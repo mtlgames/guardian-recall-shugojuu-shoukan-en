@@ -235,10 +235,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (gfx/cards.tsv; SUBTI.PAK index = ACTION.BIN 0x12664, may grow inside its sectors; UNN g17 = alternate layouts,
     37/47/49 differ), shot `one.py battle --frames 16400` f016050; **G4** condition cards (gfx/conditions.tsv,
     g18), shot `one.py tac_mission`. `python tools/gfx.py` writes previews to work/gfx/cards/.
-- **Next (phase 8):** (0) Graphics rows left, in this order: **G3** location cards (UNN g24 entries 17-82 = 66
-  TX03 320x240; entries 0-16 are other data; layout = white place name + furigana box on top, English place/time
-  line at the bottom already English: redraw only the top part, keep the bottom rows; check index polarity and
-  whether streams fit like gfx.condition; names: day.json location lines + glossary), G6/G18 title logo subtitle
+- **Next (phase 8):** (0) Graphics rows left, in this order (G3 location cards done 2026-11-24 (16): gfx/locations.tsv,
+  shots one.py ev02/ev04), G6/G18 title logo subtitle
   + copyright (UNN g21/g09), G8 disc-swap pieces, G5 route kanji (GRETC rsel TIMs), G10-G14 GRETC TIMs (gretc_repack
   + tools/tim.py: needs a TIM writer), G17 element orbs (source unknown), G9 battle label glyphs, G15 STAFF.STR
   credits (STR re-encode: biggest). Chapter cards (SUBTI 39-43) not yet shot in game.
