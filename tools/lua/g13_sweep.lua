@@ -27,7 +27,8 @@ L.on_exec(0x80044624, function()
     local n, seen = r32(b), {}
     if n == 0 or n > 1000 then return end  -- buffer not loaded yet
     slots = {}
-    for i = 2, n + 1 do
+    local first = r32(b + 4) == 0 and 2 or 1  -- entry 2 (item help): `u32 80` then 81 offsets, no 0 word
+    for i = first, n + 1 do
       local o = r32(b + 4 * i) % 65536
       if o ~= 0 and not seen[o] then seen[o] = true; slots[#slots + 1] = i end
     end

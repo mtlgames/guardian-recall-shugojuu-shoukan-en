@@ -11,7 +11,8 @@ for a in tostring(ADDRS):gmatch("0x%x+") do
     hits[addr] = hits[addr] + 1
     if hits[addr] > (MAXHITS or 50) then return end
     local r = PCSX.getRegisters().GPR.n
-    L.log(string.format("EXEC %08X f=%d ra=%08X a0=%08X a1=%08X a2=%08X a3=%08X", addr, frame,
-                        r.ra % 2^32, r.a0 % 2^32, r.a1 % 2^32, r.a2 % 2^32, r.a3 % 2^32))
+    L.log(string.format("EXEC %08X f=%d ra=%08X a0=%08X a1=%08X a2=%08X a3=%08X s0=%08X s1=%08X s2=%08X fp=%08X", addr,
+                        frame, r.ra % 2^32, r.a0 % 2^32, r.a1 % 2^32, r.a2 % 2^32, r.a3 % 2^32, r.s0 % 2^32,
+                        r.s1 % 2^32, r.s2 % 2^32, PCSX.getRegisters().GPR.r[30] % 2^32))
   end)
 end

@@ -19,16 +19,22 @@ def fnv32(b):
     return h
 
 
-def rows(qa=None):
+def encoded(f, s, qa=None):
+    """The bytes the build writes for record s of script file f (no NUL)."""
     qa = qa or {}
+    b = script_io.enc(qa[s["id"]]) if s["id"] in qa else script_io.enc(s["en"]) if s.get("en") else script_io.enc_jp(s)
+    if f.parent.name == "exe" and s.get("en") and s["id"] not in qa:
+        import insert  # the build pads centred EXE messages (insert.centre_pad)
+        b = insert.centre_pad(s, b)
+    return b
+
+
+def rows(qa=None):
     for f in sorted((ROOT / "script").glob("*/*.json")):
         for s in json.loads(f.read_text(encoding="utf-8"))["strings"]:
             if s.get("status") == "data":
                 continue
-            b = script_io.enc(qa[s["id"]]) if s["id"] in qa else script_io.enc(s["en"]) if s.get("en") else script_io.enc_jp(s)
-            if f.parent.name == "exe" and s.get("en") and s["id"] not in qa:
-                import insert  # the build pads centred EXE messages (insert.centre_pad)
-                b = insert.centre_pad(s, b)
+            b = encoded(f, s, qa)
             if b:
                 yield s["id"], fnv32(b)
 

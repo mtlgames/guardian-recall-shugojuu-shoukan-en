@@ -33,9 +33,10 @@ for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守�
             page = ";400 -;30 circle;1500 -;30 triangle;800 -" if name == "opt_guardians" else ";8 circle;600 -"
             rows.append((name + "_page", "1", "ovl:16", "", rows[-1][4] + page, "5200" if name == "opt_guardians" else "2400",
                          note + ", first entry's page (unlock.mcd)", "unlock.mcd"))
-            if name != "opt_guardians":  # text coverage: the page is a book, → flips a spread (2 entries)
-                rows.append((name + "_sweep", "1", "ovl:16", "", rows[-1][4] + ";8 right;62 -" * 60, "7000",
-                             note + ", every page flipped with → (unlock.mcd)", "unlock.mcd"))
+            # text coverage: the page is a book, → flips a spread (2 entries); guardians: → on the text page
+            rows.append((name + "_sweep", "1", "ovl:16", "", rows[-1][4] + ";8 right;62 -" * 60,
+                         "9000" if name == "opt_guardians" else "7000",
+                         note + ", every page flipped with → (unlock.mcd)", "unlock.mcd"))
 # disc 2 OPTION > イベント再現 lists rep entries 44-84 (disc 1 shows 1-43); entry 39 = エンディング (staff credits,
 # STAFF.STR ~19000 frames), 40/41 = epilogues. Unlocked card; the list ignores presses closer than ~30 frames.
 REP2 = OPT + ";8 down;40 -;8 circle;400 -"

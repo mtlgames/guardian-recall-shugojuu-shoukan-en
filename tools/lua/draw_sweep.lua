@@ -4,6 +4,8 @@
 -- runs first and sees the original pointer). Needs emu.py --debugger.
 -- Use: regen.py --only SCENE --cover --lua tools/lua/draw_sweep.lua --var "SLOTS='<tools/cover_tables.py>'" --var FROM=N
 -- SLOTS = groups split by ';', each a ','-list of pointer-slot RAM addresses (hex, no 0x).
+-- [--var "VALS='<tools/cover_addrs.py action exe>'"]: groups of string addresses; run VALS overlay groups only in scenes
+-- where that overlay is loaded (another overlay at the same addresses would be swapped for junk).
 local ffi = require("ffi")
 local bit = require("bit")
 local mem = ffi.cast("uint8_t*", PCSX.getMemPtr())
@@ -14,6 +16,12 @@ for g in tostring(SLOTS):gmatch("[^;]+") do
   local t = {}
   for a in g:gmatch("%x+") do t[#t + 1] = tonumber(a, 16) end
   groups[#groups + 1] = {slots = t, k = 0}
+end
+-- VALS = groups of direct string addresses (tools/cover_addrs.py: code-referenced EXE/overlay messages), same format
+for g in tostring(VALS or ""):gmatch("[^;]+") do
+  local t = {}
+  for a in g:gmatch("%x+") do t[#t + 1] = tonumber(a, 16) end
+  groups[#groups + 1] = {vals = t, k = 0}
 end
 local frame, map, built, seen, subs = 0, {}, -1000, {}, 0
 L.on_frame(function(n) frame = n end)

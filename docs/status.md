@@ -7,7 +7,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Last build: 2026-11-24 (25) `build.py` (centre_pad fix; write check ok both discs), check.py green (50 passed).
   **vqa gates green on the (25) build** (2026-11-24 (26): re-toured the 7 save/card-message scenes, only
   tac_saved_sheet changed, verdict ok in d2/verdicts/recheck_25.tsv; manifests re-inited with --build).
-  Left for phase 8: textcover (Next (1), 6768/7696 at 2026-11-24 (27)), stress saves, the rest of inkbox.
+  **textcover green** (2026-11-24 (28)): 7336/7696 shown, 360 waived, 0 failing (gate command below).
+  Left for phase 8: stress saves, the rest of inkbox (see "Next" under (28)).
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -323,7 +324,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
   tools/debug/cards/unlock.mcd`) pages R2 through them but no hook sees the strings whole, only single letters:
   the title scroller draws another way; find it or waive as untouched original text),
   battle 45, tu 18, hen 16, g13 1. `cover_stats.py work/qa/cover --missing PREFIX` lists them.
-  Waive only real unreachables in docs/text_unshown.tsv (`id<TAB>reason`; none yet); gate =
+  - 2026-11-24 (28): **textcover exits 0** (no rebuild; (25) build). New: `tools/lua/txd_sweep.lua` + `tools/txd_sweep.py
+    LOGDIR OUT` (swaps a txd string reaching book sprintf 0x80017E40 a3 / txd renderer 0x800133D4 a2 / sprintf
+    0x8006C9E4 a2,a3 (<= 24 bytes) / overlay-0x12 "<a>" expander 0x8016A468 a1 for the next unshown slot of the same
+    loaded txd, never longer than the buffer allows: longer strings into the book sprintf or a list label crashed the
+    game); `tools/cover_addrs.py STEM..` + draw_sweep `VALS` (direct string addresses of code-referenced EXE/overlay
+    messages, incl. STR_POOL and tail-shared strings); `tools/cover_waive.py` writes docs/text_unshown.tsv (rules:
+    battle rule-record names, numeric data records, untranslated no-Japanese records; MANUAL: day.0029c). textcover.lua
+    now hooks 0x8016A468 a1 (title LOAD card messages expand "<a>" so the drawn bytes never matched). g13_sweep.lua
+    fixed for entry 2 (no 0 word). Runs (all under work/qa/cover): items = hen_unit with USD +0x26..+0x2A poked (equip
+    slots, 1-based into 0x8009B4F8; HEN draws them via 0x80060688; all items fit the HEN column), vals*/ = tac_break
+    (action+exe groups), hen_unit (hen), txd5 title_load (save), txd6 opt_{charfile,guardians}_sweep (new scene
+    opt_guardians_sweep), txd4 day_save/title_load/day_save_write. After a text change: rebuild, re-run only the runs
+    whose strings changed (`textcover.py ... --runs-for IDS`), `python -X utf8 tools/cover_waive.py`, then the gate.
+    **Next (phase 8 left):** inkbox on the padded ACTION messages (tac_break prompt, card boot messages, day_save*),
+    stress saves (max stats: warp writes on USD 0x800C3050 Lv/HP/AP/MP; longest evd unit names on a map; items
+    in 情報 Head/Hand/Waist/Foot = tac_info with equip slots poked, struct for the map units not yet found: HEN uses
+    USD +0x26.., tac_info doesn't call 0x80062AF0), then their sheets through visual QA (qa_gate) and phase 9.
+  Waive only real unreachables in docs/text_unshown.tsv (`id<TAB>reason`, written by tools/cover_waive.py); gate =
   `$SKILL/scripts/textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.
   **Don't build while coverage runs** (emulators read build/); a rebuild changes only edited strings' hashes.
   Stress saves: no name entry in this game (fixed cast); cases = longest unit

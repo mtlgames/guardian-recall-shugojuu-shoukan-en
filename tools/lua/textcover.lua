@@ -50,8 +50,10 @@ for _, r in ipairs({{0x80010000, 0x80012760}, {0x80162F8C, 0x80162FE8}, {0x80166
 end
 -- 0x80017E40 a3: txd book pages (OPTION dictionary etc.) sprintf "&e()%s&d()" onto the stack before 0x800133D4
 -- 0x80166D50 a2: DIC.BIN page layout (overlay base+0xB38; other overlays at that base hash junk, matching no id)
+-- 0x8016A468 a1: overlay 0x12 (title LOAD / card checks) expands "<a>" in a save.txd message into a stack buffer
+-- before 0x800133D4, so the drawn bytes differ from the stored ones (other overlays there: junk hashes, no id)
 for _, h in ipairs({{0x80043A64, "a2"}, {0x800133D4, "a2"}, {0x80044680, "s3"}, {0x80017E40, "a3"},
-                    {0x80166D50, "a2"}}) do
+                    {0x80166D50, "a2"}, {0x8016A468, "a1"}}) do
   local reg = h[2]
   L.on_exec(h[1], function() take(PCSX.getRegisters().GPR.n[reg]) end)
 end
