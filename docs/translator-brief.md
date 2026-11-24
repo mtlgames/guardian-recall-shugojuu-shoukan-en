@@ -24,6 +24,19 @@ translate in their own context, story order, b003 on). Read with offset/limit: f
     python -X utf8 tools/batches.py check bNNN
     python -X utf8 tools/batches.py merge bNNN
 
+## FMV batches (fmvNN, D18: movie subtitles)
+- Ids `fmv.<MOVIE>.<n>`; the group column is the movie and its start second. M<NN> movies belong to synopsis
+  episode NN (PRO = prologue narration, MEND = ending, EP_A = Miyuki epilogue, EP_B = Yuko epilogue, SYO = guardian
+  summon incantations). The JP is a **Whisper transcript of the voice track**: expect misheard names and homophones
+  (巣王ちかな = 周防ちかな, 無気づき = 美由紀, 郊外 = 校外, エグバド = 荏狗覇菟 Egubado), merged speakers and the odd
+  garbled line. Translate what was most likely said, from context, synopsis and glossary; report `UNSURE: id - note`
+  for real guesses. Mantras (オン…ソワカ) are romanised as heard ("On aun raken sowaka!").
+- Subtitles: say it in short, natural spoken English; about 15 characters per second of the line's time reads
+  comfortably. ` / ` starts a new subtitle page at a sentence end (long narration); a page wraps itself and goes on
+  in a further page past 2 lines. No `{wait}`, no speaker names, plain ASCII.
+- Check and merge: `python -X utf8 tools/fmv_subs.py --merge fmvNN` then `--check fmvNN` until `ok` (glossary lint
+  is the reviewer's job here, not batches.py).
+
 ## Quality bar (past mistakes)
 - Keep each voice: Miyuki's bubbly childishness, Mayu's Hakata folksiness, Chikana's cool tomboy clip. A flattened
   voice is an Important review finding.

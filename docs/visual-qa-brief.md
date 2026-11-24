@@ -31,8 +31,9 @@ Standing non-bugs, `ok`:
 - text still typing out, a box mid-fade or mid-scroll, a cursor caught mid-blink;
 - a map or scene still loading after a warp; plain purple tiles = padding of the contact sheet;
 - anything identical in the original's sheet.
-- FMVs (anime cut-scenes, opening, epilogues) are voiced Japanese with no subtitles (D3: only the STAFF credits get
-  English).
+- FMVs (D18): voiced movies carry burned-in English subtitles, white with a dark outline and **no background box**
+  (on purpose), centred at the bottom of the picture; the opening song has none. Judge a subtitle sheet like text:
+  legible against the picture, no widow or split word, no clipped letters, names per glossary.
 - Kept decoration (D16): the 用語辞典 seal stamps on the dictionary cover, the guardian-dictionary scroll poem, the
   character-file background medallions. The g09 logo on the disc-swap screens keeps its small baked-in ruby (D15).
 - Boot: PCSX-Redux "no system file" / memory-card notices before the title are the emulator's card handling.

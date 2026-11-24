@@ -18,6 +18,7 @@ import re
 import struct
 from pathlib import Path
 
+import fmv_subs
 import font
 import gr_index
 import gretc
@@ -26,6 +27,7 @@ import script_io
 
 FILES = {"DATA/UNN.PAK", "DATA/GRETC.RLZ", "DATA/ACTION.BIN", "DATA/BATTLE.BIN", "DATA/HEN.BIN", "DATA/DAY.BIN",
          "DATA/BRAIN.BIN", "DATA/DIC.BIN", "DATA/SUBTI.PAK", "STR/STAFF.STR"}  # + the SLPS_* EXE
+FILES |= {f"STR/{s}.STR" for s in fmv_subs.stems()}   # subtitled movies (D18; fmv_subs.patch: video sectors only)
 HOOK_MAX = 0x40  # longest hook-site patch is 6 instructions; anything longer must sit in the dump's zero area
 BREAK = re.compile(r'\.(open|org|orga|close|headersize)\b\s*"?([^",;\s]*)"?,?(0x[0-9A-Fa-f]+)?')
 

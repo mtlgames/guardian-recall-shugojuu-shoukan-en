@@ -17,6 +17,7 @@ import gfx
 import gr_index
 import script_io
 import staff_str
+import fmv_subs
 import writecheck
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -330,6 +331,9 @@ def patch_tree(tree, mode="en"):
     gfx.patch(tree, exe0, unn, log)                         # title cards: in place, same sizes
     if (tree / "STR/STAFF.STR").exists():                   # disc 2: credits movie (G15), cached re-encode
         staff_str.patch(tree / "STR/STAFF.STR", log)
+    if mode == "en":
+        for p in sorted((tree / "STR").glob("*.STR")):         # FMV subtitles (D18), cached re-encode
+            fmv_subs.patch(p, log)
     groups = text_groups(mode)
     exe, unn = script_io.unn_repack(exe0, bytes(unn), groups)
     # unn_repack rewrites the group TOC and the text groups' sub-tables in the EXE

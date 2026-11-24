@@ -5,6 +5,24 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 9. Release done (2026-11-25 (31)): `tools/release.py` exit 0 end to end ->
   release/Guardian_Recall_Shugojuu_Shoukan_EN_v1.0.zip (sha1 7eeb2aa0..; Disc1/Disc2 .xdelta + README.txt, stored),
   each patch re-applied to rom/ = build. Not published (owner's call, see "Waiting on the user").
+  **(32) 2026-11-25 FMV subtitles (D18, user asked; no background box):** every voiced STR movie (45 of 48: OP song,
+  XING logo, STAFF = G15 excluded) has burned-in English: `tools/fmv_asr.py` (faster-whisper large-v3 on GPU, CUDA
+  DLLs pip-installed into work/cuda; VAD run + `--no-vad` diff for missed shouts) -> `fmv_subs.py --init` ->
+  gfx/fmv/<STEM>.tsv (start, end, ja, en; ids fmv.STEM.<centiseconds>) -> translator batches fmv01-05 (work/tl;
+  01-04 moved to work/tl/old when ids changed from row index to start time) + 4 reviewer passes, findings applied
+  (M1915.003 "Yumi" rejected: Yumi is dead by ep 19). `fmv_subs.py` draws Liberation Sans Bold 12 px white, dark
+  outline, max 2 balanced lines per page (' / ' = page break, '-' = dropped hallucination), re-encodes only touched
+  macroblocks (staff_str helpers), cache work/fmv/cache keyed on the encoder functions; insert.patch_tree (en mode)
+  + writecheck FILES; tests/test_fmv.py. In-game proof: `regen.py --only epilogue_miyuki --outdir work/qa/fmv`
+  (f007350 subtitle). Visual QA: `fmv_subs.py --preview work/fmv/preview` -> sheets work/qa/fmv_vqa/<STEM>/
+  (bottom crop, zoom 2), manifest work/qa/fmv_vqa/manifest.tsv. Visual QA rounds 1-2 flagged only line/page
+  breaks; fixed by `pages()` (one DP over page + line breaks, PAGE/BRK costs, WEAK/KEEP/TAIL lists) and a few
+  hand ' / ' breaks; csv quote-eating bug fixed (plain tab I/O). **Next:** the round-3 rebuild was killed by the
+  OS for low memory: re-run `build.py`, `fmv_subs.py --preview work/fmv/preview`, sheet.py per movie into
+  work/qa/fmv_vqa/<STEM>/ (crop 0,96,304,64 zoom 2 cols 2 max 14; delete old sheet*.png with find first),
+  `qa_gate.py init` + `todo` + visual-qa agents until `qa_gate.py check work/qa/fmv_vqa/manifest.tsv
+  work/qa/verdicts` passes. **Release zip v1.0 is now stale**: bump release.py VERSION and run release.py for
+  v1.1 (not published without the owner).
   Last build (31): disc 1 sha1 48ea392b.., disc 2 8f003f26..; write check ok, check.py green (51), smoke ok,
   jp_scan clean, story gate 43/43, vqa d1/d2/s1/s2 green (text-only hotfix waiver for (31), reason in
   manifest.tsv.waive), textcover 7336/7696 shown, 360 waived, 0 failing, docs/polish.md all ticked.
@@ -470,8 +488,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
   Diary text for every episode (phase 8): day.txd slots 512-708 not yet tied to events; `day01.mcd@N` covers
   slots 4*(N-1). GOD mode not needed so far (clamp_hp.lua covers forced wins/losses).
 - **Open bugs:** none.
-- **Waiting on the user:** (non-blocking) FMVs are voiced Japanese with no subtitles; default = no FMV subtitles,
-  only the STAFF.STR credits get English (D3). Ask if subtitles are wanted.
+- **Waiting on the user:** (non-blocking) opening song (OP_A4SND/OP_B_SND) lyrics left unsubtitled: Whisper's lyric
+  transcript is unreliable and partly English; ask if wanted (lyrics would need a proper source).
   (non-blocking) Publishing v1.0 (GitHub release / upload) is the owner's call: release/Guardian_Recall_Shugojuu_Shoukan_EN_v1.0.zip
   is built and verified, never published by an agent.
   (non-blocking) Disc 2 patch is 51.6 MB (disc 1 0.77 MB): both images grow by 50 sectors, and on disc 2 the growth
