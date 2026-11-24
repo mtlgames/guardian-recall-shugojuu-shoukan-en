@@ -251,8 +251,14 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (+0 type id, +4 glyph list ptr into 0x80171374-0x801713E7 = 116 bytes, lists FF-terminated, read by lbu: no
   alignment needed). Each glyph = an object, x advance 0x1A (addiu at BATTLE 0x8016AFBC), centring 26n/2
   (0x8016AED4..). English at 16 px serif x0.9 needs 62 cells only if the advance is patched to 32 (and the
-  centring to 16n); at advance 26 it needs 75 (> 64). Unknown: when a label shows (probe the battle scene with
-  exec_log on 0x8016AE64/0x8016AF80) and whether other code draws split.tim cells.
+  centring to 16n); at advance 26 it needs 75 (> 64). Trigger: label object handler 0x8016AE00 (field 0xc =
+  record index) is spawned by 0x8016D754, called from 0x8016D73C in a watcher task 0x8016D710 when
+  `*(*(s->0xc)) & (s->0xc)[1]` (flag word & mask) is non-zero; (s->0xc)+0x10 = screen slot (x 0/0x6A/0x6C...),
+  +0x18 = record index. The `battle` scene (stops 500 frames into BATTLE, ~40186) never ran 0x8016AE64/AF80
+  (exec_log, 2026-11-24). To shoot: extend the battle scene a few hundred frames, then tools/lua/setreg.lua at
+  0x8016D734 forcing v0 = 1 (and/or poke the record index at +0x18) so every label can be shown in turn. Who
+  creates the 0x8016D710 watchers is not found yet (no word/addiu ref in BATTLE.BIN; check EXE/jalr tables).
+  Still unknown whether other code draws split.tim cells.
   Chapter cards (SUBTI 39-43) not yet shot in game.
   (1) Full regen tour of every scene on the English build + visual-QA verdicts (qa_gate.py; do
   the read-only verdict pass yourself: no nested workers), graphics-text survey G1-G18 redraws (G9 = battle
