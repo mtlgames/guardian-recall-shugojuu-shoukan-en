@@ -5,10 +5,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
   Last build: 2026-11-24 (25) `build.py` (centre_pad fix; write check ok both discs), check.py green (50 passed).
-  The vqa gate was passed on the (24) build: the (25) build changes only ~20 ACTION save/card message strings
-  (centring), so `qa_gate.py check` now fails on the build hash: re-tour the tac_break/tac_saved/day_save* scenes,
-  `vqa_sheets.py`, re-verdict those sheets. Left for phase 8: textcover (run in progress, Next (1)), stress saves,
-  the rest of inkbox.
+  **vqa gates green on the (25) build** (2026-11-24 (26): re-toured the 7 save/card-message scenes, only
+  tac_saved_sheet changed, verdict ok in d2/verdicts/recheck_25.tsv; manifests re-inited with --build).
+  Left for phase 8: textcover (Next (1)), stress saves, the rest of inkbox.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -296,18 +295,31 @@ Updated at the end of every session. Keep it to what the next session needs; his
     English started at the box border; `insert.centre_pad` pads each such EXE string to the Japanese text's centre
     (tests/test_centre.py). tac_saved "Saved" inkbox 53/54 px (orig 25/23, `--ink 255,255,255 --diff 60`: the
     boxes are translucent, so default ink picks up the map).
-- **Next (phase 8):** (1) **textcover run in progress** (started 2026-11-24 ~17:30 by the (25) session, may have
-  died with it): `regen.py --cover --outdir work/qa/cover/menu` (all non-ev scenes, default frames) then
-  `--outdir work/qa/cover/ev --frames 15000 --var ADVANCE=45 --jobs 4` (70 events, ~2 h); progress in
-  work/qa/cover/run_{menu,ev}.txt, strings in work/qa/cover/strings.tsv. **Don't build while it runs** (the
-  emulators read build/). If the run_*.txt files don't end in "N/N ok", re-run the missing part. Then
-  `python -X utf8 tools/cover_stats.py work/qa/cover work/qa/cover/strings.tsv --files` and close gaps:
-  events whose scenario lines stay unshown need longer runs or a route (story branches, in-map conditions);
-  txd: opt_*_page scenes paging through every entry (route `right*N`), day diaries via `day01.mcd@N` cards; g13
-  battle quotes need battles per character (`battle` scene variants); save.txd/ACTION card errors can be forced
-  by booting with no card / a corrupt card (save.py --poke on the checksum). Waive only real unreachables in
-  docs/text_unshown.tsv (`id<TAB>reason`); gate = `$SKILL/scripts/textcover.py work/qa/cover build/strings.tsv
-  --waive docs/text_unshown.tsv`. Stress saves: no name entry in this game (fixed cast); cases = longest unit
+  - 2026-11-24 (26): **coverage sweeps** (Next (1)): event message op 0x26 decoded (docs/re/debug.md), scenario
+    sweep probe + `regen.py --sweep`, txd book hook in textcover.lua, coverage scenes in mk_scenes.py; vqa re-verdict
+    for the (25) build (both gates exit 0).
+- **Next (phase 8):** (1) **textcover: 5289/7696 shown** (2026-11-24 (26), all on the (25) build; logs in
+  work/qa/cover/{menu,ev}, `python -X utf8 tools/cover_stats.py work/qa/cover [--files] [--missing PREFIX]`).
+  Done: every non-ev scene (run_menu*.txt 57/57 + first 17), 70/70 events with `regen.py --cover --sweep --frames
+  26000 --var ADVANCE=20 --jobs 3 --timeout 3000` (~3.5 h; tools/lua/scen_sweep.lua loops the event's first op
+  0x26 over every used slot of the loaded block, then ends the run), book sweeps opt_{tactics,dictionary,charfile}
+  _sweep, replay_sweep_d1/d2, day_diary_NN for every DAY-bound event (47/47). Left by area: g23 775 (below), map
+  357 (evd unit names: read from name records every frame, no cheap hook yet), g13 465+ (battle quotes/help:
+  shown via 0x80044680 only in battles/menus), exe 265 (mostly unit-type/item/trait/Psi names in the gp sdata
+  tables 0x800B5918.. and pointer tables 0x80095D08/0x8009B51C..: hook the table readers, read BPs on sdata are
+  too slow), cf 175 / dic 166 / gd 175 (book pages: the 0x80017E40 a3 hook logs only the first spreads, later
+  flips log nothing: find the page renderer path; guardians need art page + △ per entry), rep 113, day 101 (likely
+  the 512-708 stage labels: save lists), save 59 / action 50 (card errors: boot with no card / corrupt checksum),
+  op 54 (music titles: MUSIC MODE track sweep r2*N), battle 68, hen 31, tu 18.
+  **g23 gaps:** warped events 45, 47, 66-68, 69 load another block (16, 00, 01, 24: the block index depends on
+  story state, not only the event number), and ev38/43/44/46/48/49/70 never hit op 0x26 within 26000 frames
+  (field-only/tactics events: check op 0x43 or the ACTION in-map message path). Blocks left: 37, 42, 43 (33/105),
+  44-48 (94/108 each), 65-68. Next step: find the scenario block loader (UNN.PAK g23 -> SCEN_BUF, docs/re/text.md)
+  and force its index from Lua, then sweep each missing block from any event that hits op 0x26 (e.g. ev11).
+  Waive only real unreachables in docs/text_unshown.tsv (`id<TAB>reason`; none yet); gate =
+  `$SKILL/scripts/textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.
+  **Don't build while coverage runs** (emulators read build/); a rebuild changes only edited strings' hashes.
+  Stress saves: no name entry in this game (fixed cast); cases = longest unit
   names on a map (evd names / unit-type table ranked by font.width), max stats (USD array 0x800C3050: Lv +0, HP
   +0x10, AP +0x12, MP +0x14 via warp.lua writes), unlock-all lists (opt_*_all done); item slots in the unit struct
   not yet mapped. inkbox: the ACTION messages now padded need a shot each (day_save*, tac_break, card boot
