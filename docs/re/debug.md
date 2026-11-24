@@ -119,6 +119,14 @@ Title returns 0..4 into a jump table at 0x80010398: 0 new game (C068), 1 load (0
 - Buffer **0x800B68F0**, PC = u16 at gp+0xC6 (gp = **0x800B58E4**, so 0x800B59AA); gp+0xC4 = wait. Dispatcher
   0x8001B3xx reads an op byte: op < 0x20 -> fn table 0x8009328C[op], else 0x8009338C[op-0x20] (8-byte entries fn,
   flag). Args are little-endian u16 (0x8001D8EC). It is halted while u16 0x8013CEEE & 4 or 0x8013CEEC & 8.
+- **op 0x26** (0x8001FE48) = message box: 13 bytes, op + six u16 args, the **last = scenario block slot**
+  (slots 2..count+1; `26 1000 0400 0000 0000 0100 0200` = slot 2); arg4 != 0 picks 0x800474B0 instead of 0x800463DC;
+  both reach the box opener 0x80044F18(a0 = slot, a1 = arg3), string = SCEN_BUF + [SCEN_BUF + 4*slot]. The script
+  halts until the box closes; the dispatcher reads the next op at **0x8001B44C** (jal 0x8001D8BC). op 0x43
+  (0x8001FF20) is another message form (also 0x800463DC/0x800474B0). Probes: `tools/lua/msgop_log.lua` (op bytes +
+  slots), `tools/lua/scen_sweep.lua` (rewinds the PC onto the event's first op 0x26 and steps its slot through
+  every used slot: the whole block through the real box; ev11 126/126 in ~9300 frames with ADVANCE=20;
+  `regen.py --cover --sweep`). Event N loads block g23.(N-1).
 - **op 0x23** = system call 0x8001EAE4(sub, a, b), sub 0..0x27 via jump table 0x80010650: 1 = end of episode ->
   DAY menu (installs mode fn 0x8002059C, which loads DAY.BIN and calls 0x80167C8C(0) = diary/save menu task
   0x80166508; 0x80167C8C(1) is the title LOAD path), 2 = load ACTION.BIN, 4 = DAY disc check (0x8016B998),

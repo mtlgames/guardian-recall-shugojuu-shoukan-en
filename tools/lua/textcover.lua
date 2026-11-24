@@ -48,7 +48,8 @@ for _, r in ipairs({{0x80010000, 0x80012760}, {0x80162F8C, 0x80162FE8}, {0x80166
                     {0x801F4000, 0x801F7FFF}}) do
   L.on_read(r[1], r[2] - 1, on_read)
 end
-for _, h in ipairs({{0x80043A64, "a2"}, {0x800133D4, "a2"}, {0x80044680, "s3"}}) do
+-- 0x80017E40 a3: txd book pages (OPTION dictionary etc.) sprintf "&e()%s&d()" onto the stack before 0x800133D4
+for _, h in ipairs({{0x80043A64, "a2"}, {0x800133D4, "a2"}, {0x80044680, "s3"}, {0x80017E40, "a3"}}) do
   local reg = h[2]
   L.on_exec(h[1], function() take(PCSX.getRegisters().GPR.n[reg]) end)
 end

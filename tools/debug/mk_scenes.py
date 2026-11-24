@@ -31,6 +31,9 @@ for name, keys, note in [("option", "", "OPTION menu: 守護獣戦術指南 守�
             page = ";400 -;30 circle;1500 -;30 triangle;800 -" if name == "opt_guardians" else ";8 circle;600 -"
             rows.append((name + "_page", "1", "ovl:16", "", rows[-1][4] + page, "5200" if name == "opt_guardians" else "2400",
                          note + ", first entry's page (unlock.mcd)", "unlock.mcd"))
+            if name != "opt_guardians":  # text coverage: the page is a book, → flips a spread (2 entries)
+                rows.append((name + "_sweep", "1", "ovl:16", "", rows[-1][4] + ";8 right;62 -" * 60, "7000",
+                             note + ", every page flipped with → (unlock.mcd)", "unlock.mcd"))
 # disc 2 OPTION > イベント再現 lists rep entries 44-84 (disc 1 shows 1-43); entry 39 = エンディング (staff credits,
 # STAFF.STR ~19000 frames), 40/41 = epilogues. Unlocked card; the list ignores presses closer than ~30 frames.
 REP2 = OPT + ";8 down;40 -;8 circle;400 -"
@@ -41,6 +44,9 @@ for name, n, frames, note in [("replay_d2", 0, "2000", "disc 2 イベント再�
                               ("epilogue_yuko", 40, "12000", "イベント再現 > エピローグ（裕子バージョン）")]:
     rows.append((name, "2", "ovl:16", "", REP2 + ";6 down;30 -" * n + (";60 -;8 circle;400 -" if n else ""), frames,
                  note, "unlock.mcd"))
+for disc in "12":  # text coverage: scroll the whole replay list (disc 1 entries 1-43, disc 2 44-84)
+    rows.append((f"replay_sweep_d{disc}", disc, "ovl:16", "", REP2 + ";6 down;40 -" * 46, "4000",
+                 f"disc {disc} イベント再現 list scrolled to the end", "unlock.mcd"))
 # DAY menu (between episodes): title > LOAD of a DAY save (day01.mcd = saved from the diary after ev01, block 2
 # GRDA) lands on the DIARY page. Up/Down = tab (DIARY ROUTE SAVE LOAD CONFIG NEXT), ○ opens it, × closes.
 DAY = "520 -;8 start;150 -;8 up;60 -;8 start;1400 -;8 circle;150 -;8 up;30 -;8 circle;400 -;8 circle;1500 -"
@@ -59,6 +65,10 @@ rows.append(("day_route_yes", "1", "ovl:16", "", DAY + ";8 up;60 -;8 up;60 -;8 c
 for n, disc, note in [(5, "1", "天の章第五話"), (12, "1", "地の章第一話"), (33, "2", "disc 2 episode")]:
     rows.append((f"day_diary_{n:02d}", disc, "ovl:16", "", DAY, "4300", f"DAY menu DIARY, event {n} ({note})",
                  f"day01.mcd@{n}"))
+for n in [*range(1, 47), 50, 70]:  # text coverage: every DAY-bound episode's diary (events 47-49, 51-69 are field-only)
+    if n not in (5, 12, 33):
+        rows.append((f"day_diary_{n:02d}", "1" if n <= 20 or n == 50 else "2", "ovl:16", "", DAY, "4300",
+                     f"DAY menu DIARY, event {n} (coverage)", f"day01.mcd@{n}"))
 rows += [
     ("disc_swap", "1", "7>2", "0x8013DE46=0x1", "", "1500", "DAY disc check: DISC 1を入れてください (disc id faked as 2)"),
     ("disc_swap2", "1", "7>call:0x8004C900", "0x8013CEE4=0x2", "", "1500", "DAY disc check: DISC 2を入れてください"),
