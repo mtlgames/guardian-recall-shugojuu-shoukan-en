@@ -1,0 +1,17 @@
+2200 -
+8 circle
+300 -
+8 up
+30 -
+8 circle
+500 -
+8 circle
+300 -
+8 up
+30 -
+8 circle
+500 -
+8 circle
+400 -
+8 circle
+400 -

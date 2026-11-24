@@ -18,6 +18,13 @@ def test_saved_centred():
     assert abs(centre - (26 + 7 * 13 / 2)) <= 2  # JP centre: 2 spaces + 7 glyphs
 
 
+def test_centred_without_lead():
+    s = {"id": "action.0097c", "jp": "セーブデータ（１ブロック）を作成する為", "en": "and save data (1 block), so a"}
+    text = script_io.dec(insert.centre_pad(s, script_io.enc(s["en"])))[0]
+    centre = font.width(text[:-len(s["en"])]) + font.width(s["en"]) / 2
+    assert abs(centre - insert.CENTRED["action.0097c"]) <= 2  # box centre from the text x
+
+
 def test_left_aligned_and_printf_untouched():
     for jp in ("メモリーカードが差されていません　", "　「%s」をかけますか？"):
         s = {"id": "x", "jp": jp, "en": "Text"}

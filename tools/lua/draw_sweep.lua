@@ -38,6 +38,12 @@ local function rebuild()  -- value -> group; overlay tables change when an overl
     evd_group = {vals = t, k = 0}
     groups[#groups + 1] = evd_group
     L.log(string.format("DRAWSWEEP evd names %d", n))
+    -- WIDE='<name>' (stress run): every evd name drawn becomes that one name instead of the next entry
+    for _, a in ipairs(WIDE and t or {}) do
+      local s = {}
+      for i = 0, 63 do local b = u8(a + i); if b == 0 then break end; s[#s + 1] = string.char(b) end
+      if table.concat(s) == WIDE then evd_group.fixed = a; L.log(string.format("DRAWSWEEP wide %08X", a)) end
+    end
   end
   for gi, g in ipairs(groups) do
     for _, s in ipairs(g.vals or g.slots) do
@@ -70,6 +76,7 @@ L.on_exec(0x80043A64, function()
   local gi = map[r.a2 % 2^32]
   if not gi then return end
   local g = groups[gi]
+  if g.fixed then r.a2 = g.fixed; return end
   local list = g.vals or g.slots
   for _ = 1, #list do  -- next slot holding a valid pointer
     g.k = g.k % #list + 1

@@ -178,15 +178,28 @@ def record_bytes(s, mode, marker):
     return script_io.enc(s["en"]) if s.get("en") else None
 
 
+# ACTION card/system messages whose Japanese fills its fixed-size box (left and right margins within ~12 px, so it
+# reads centred): id -> box centre in px from the text x (median over the draw sites: 0x80045B58 box a1 + a3/2 minus
+# the 0x80043A64 a0 that draws it; docs/re/text.md "ACTION message boxes"). Left-aligned prompts with a right gap in
+# Japanese (End the turn?, Returning to the title...) stay left.
+CENTRED = {"action.006e8": 119, "action.00728": 103, "action.0074c": 119, "action.00774": 103, "action.007c8": 106,
+           "action.007ec": 103, "action.00810": 131, "action.0083c": 99, "action.0085c": 103, "action.00880": 103,
+           "action.008a4": 93, "action.008e4": 126, "action.0090c": 115, "action.0097c": 125, "action.009ec": 123,
+           "action.00a14": 58, "action.00c08": 116, "action.00c30": 116, "action.00cc8": 112, "action.00e00": 107,
+           "action.00f14": 84, "action.01054": 50}
+
+
 def centre_pad(s, t):
     """EXE/overlay messages the original centres with leading full-width spaces (ACTION save/card boxes, "　　セーブしました"):
-    pad the English to the same centre, 13 px per full-width space + 3 px per ASCII space."""
+    pad the English to the same centre, 13 px per full-width space + 3 px per ASCII space. CENTRED: box centres for
+    messages whose Japanese fills the box with no leading space."""
     jp, en = s["jp"], s.get("en") or ""
-    if not jp.startswith("　") or "%" in jp or "\n" in jp or not en or en[0] in " 　" or s["id"] in QA:
+    if not (jp.startswith("　") or s["id"] in CENTRED) or "%" in jp or "\n" in jp or not en or en[0] in " 　" or s["id"] in QA:
         return t
     core = jp.strip("　")
     lead = len(jp) - len(jp.lstrip("　"))
-    pad = round(13 * lead + 13 * len(core) / 2 - font.width(en) / 2)
+    centre = CENTRED.get(s["id"], 13 * lead + 13 * len(core) / 2)
+    pad = round(centre - font.width(en) / 2)
     if pad < 3:
         return t
     n13, r = divmod(pad, 13)
