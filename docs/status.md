@@ -4,11 +4,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
 
 - **Phase:** 8. QA in the emulator (phase 7 closed 2026-11-24 (14): no "engine pending" or "measured (code)" row
   left from the (0)/(0b) list; see Next).
-  Last build: 2026-11-24 (25) `build.py` (centre_pad fix; write check ok both discs), check.py green (50 passed).
-  **vqa gates green on the (25) build** (2026-11-24 (26): re-toured the 7 save/card-message scenes, only
-  tac_saved_sheet changed, verdict ok in d2/verdicts/recheck_25.tsv; manifests re-inited with --build).
-  **textcover green** (2026-11-24 (28)): 7336/7696 shown, 360 waived, 0 failing (gate command below).
-  Left for phase 8: stress saves, the rest of inkbox (see "Next" under (28)).
+  Last build: 2026-11-24 (29) `build.py` (centre_pad box centres; write check ok both discs), check.py green (51).
+  **vqa gates d1/d2 open on the (29) build** (148 sheets without a verdict; s1/s2 stress gates green).
+  **textcover green** on (29): 7336/7696 shown, 360 waived, 0 failing (gate command below).
+  Left for phase 8: vqa verdicts for 148 tour sheets on the (29) build (see "Next" under (29)); stress, inkbox,
+  textcover done.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -337,10 +337,32 @@ Updated at the end of every session. Keep it to what the next session needs; his
     (action+exe groups), hen_unit (hen), txd5 title_load (save), txd6 opt_{charfile,guardians}_sweep (new scene
     opt_guardians_sweep), txd4 day_save/title_load/day_save_write. After a text change: rebuild, re-run only the runs
     whose strings changed (`textcover.py ... --runs-for IDS`), `python -X utf8 tools/cover_waive.py`, then the gate.
-    **Next (phase 8 left):** inkbox on the padded ACTION messages (tac_break prompt, card boot messages, day_save*),
-    stress saves (max stats: warp writes on USD 0x800C3050 Lv/HP/AP/MP; longest evd unit names on a map; items
-    in 情報 Head/Hand/Waist/Foot = tac_info with equip slots poked, struct for the map units not yet found: HEN uses
-    USD +0x26.., tac_info doesn't call 0x80062AF0), then their sheets through visual QA (qa_gate) and phase 9.
+  - 2026-11-24 (29): **inkbox + stress saves done** (build (29): centre_pad box centres). ACTION card/system boxes are
+    fixed size per draw site (0x80045B58 a1 x / a3 w, text 0x80043A64 a0); Japanese that fills its box read centred
+    while English sat left with a 60-130 px gap, and the 5-line card notice's 3rd line (no leading 　) wasn't padded.
+    `insert.CENTRED` = id -> box centre from the text x (22 ids, median over sites); left-aligned JP prompts (End the
+    turn?, Returning to the title) stay left. `sh tools/debug/cardruns.sh` (unformatted card: No -> notice / Yes ->
+    format + create system file; EN + JP) and `tools/inkscan.py RUN --jp RUN_jp` (every distinct box row's L/R
+    margins, boxes found by tools/boxfind.py): all rows within the JP's own offsets (notice +5..+10 px both). Map
+    save / overwrite boxes same (one.py --card ev70_map.mcd). Corrupt-checksum and no-card boots show no message in
+    this emulator (checksum only feeds a debug printf). **Stress:** tools/debug/stress_poke.txt via tools/lua/poke.lua
+    EVERY=1 (all 65 USD units Lv 99, Sp 999, Mp/Ap 255; allies' gear USD +0x26.. = widest items, 1-based table
+    0x8009B4F8: 情報 shows them too), draw_sweep.lua `WIDE='name'` (every evd name drawn = the widest, 93 px): 情報,
+    HEN, UNIT Master pages fit; Guardian tab pages overflow only with that artificial enemy name: ally guardians are
+    the dragons (widest Thunder Dragon 79/80; `tools/debug/unit_names.py` logs UNIT-list names per map via
+    tools/lua/draw_log.lua; only ev49/ev70 open on the map, the other evd maps are field scenes). Sheets + verdicts:
+    work/qa/vqa/s1 (card boxes, disc 1) and s2 (stress, disc 2), `sh tools/debug/stress_sheets.sh` (lists the runs),
+    both gates exit 0. New scenes tac49_unit(_g). one.py takes --out/--card (options before NAME).
+    Full re-tour on the (29) build done (work/qa/tour 198/198 ok; previous run moved to work/qa/tour_prev),
+    `vqa_sheets.py` + `qa_gate init --build` both discs. textcover green again (re-swept the 22 changed ids:
+    work/qa/cover/vals5 = tac_break with `VALS=$(tools/cover_addrs.py action --unshown work/qa/cover)`).
+    **Next (phase 8 left): verdicts for 148 sheets** (d1 81, d2 67; 93 scenes: 54 new coverage scenes added in
+    (26)-(28) never verdicted (day_diary_NN, opt_*_sweep, replay_sweep_*, tac49_*...), 39 changed scenes). Chunks:
+    work/qa/vqa/d<N>/chunks/chunk_26626974cf7c_00{0,1,2}.txt (d1), chunk_7cadf53967a2_00{0,1,2}.txt (d2); verdict
+    file per chunk = work/qa/vqa/d<N>/verdicts/<chunk stem>.tsv (docs/visual-qa-brief.md). `python -X utf8
+    tools/vqa_todo.py` -> work/qa/vqa/todo_29.txt says per scene new/changed + framediff vs tour_prev (changed
+    scenes whose diff lies only in the card/save boxes or boot "Checking the system file..." are the centre_pad
+    change). ~30 sheets per session (context). Then both `qa_gate check` d1/d2/s1/s2 exit 0 -> phase 9.
   Waive only real unreachables in docs/text_unshown.tsv (`id<TAB>reason`, written by tools/cover_waive.py); gate =
   `$SKILL/scripts/textcover.py work/qa/cover build/strings.tsv --waive docs/text_unshown.tsv`.
   **Don't build while coverage runs** (emulators read build/); a rebuild changes only edited strings' hashes.
