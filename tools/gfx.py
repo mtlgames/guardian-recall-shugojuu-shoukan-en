@@ -468,6 +468,48 @@ def dic_cover(b):
     return b[:p] + a.tobytes() + b[p + w * h:]
 
 
+# G10 OPTION background pentagram (GRETC brain 244 penta.tim, 8bpp 320x240): the glowing kanji in the 8 spheres round
+# the circle -> the element names (glossary 主 row) in the G17 orb caps font, same glow colour, dark outline. Kanji
+# ink = pixels brighter than a 9-px median of their sphere; filled from that median before the word is drawn.
+PENTA = 244
+PENTA_SPHERES = [((128, 40), "SKY"), ((192, 43), "NETHER"), ((233, 87), "SEA"), ((235, 152), "THUNDER"),
+                 ((192, 195), "EARTH"), ((128, 193), "HOLY"), ((85, 148), "FLAME"), ((85, 90), "WIND")]
+
+
+def penta(b):
+    from scipy import ndimage
+    p, w, h = tim_pixels(b)
+    a = np.frombuffer(b, np.uint8, w * h, p).reshape(h, w).copy()
+    clut = np.array(struct.unpack_from("<256H", b, 20))
+    pal = np.stack([clut & 31, clut >> 5 & 31, clut >> 10 & 31], -1).astype(float)
+    rgb = pal[a]
+    lum = rgb @ [0.3, 0.59, 0.11]
+    yy, xx = np.mgrid[0:h, 0:w]
+    for (cx, cy), word in PENTA_SPHERES:
+        disk = np.hypot(yy - cy, xx - cx) < 15
+        y0, y1, x0, x1 = cy - 20, cy + 21, cx - 20, cx + 21
+        med = np.stack([ndimage.median_filter(rgb[y0:y1, x0:x1, c], 9) for c in range(3)], -1)
+        ink = np.zeros((h, w), bool)
+        ink[y0:y1, x0:x1] = lum[y0:y1, x0:x1] - med @ [0.3, 0.59, 0.11] > 2.5
+        ink = ndimage.binary_dilation(ink & disk) & disk
+        glow = rgb[ink].max(0) if ink.any() else np.array([31, 24, 8.0])
+        patch = rgb[y0:y1, x0:x1]
+        m = ink[y0:y1, x0:x1]
+        patch[m] = med[m]
+        txt = _orb_word(word)
+        th, tw = txt.shape
+        t = np.zeros((h, w), bool)
+        t[cy - th // 2:cy - th // 2 + th, cx - tw // 2:cx - tw // 2 + tw] = txt
+        halo = ndimage.binary_dilation(t, np.ones((3, 3), bool)) & ~t
+        rgb[halo] = rgb[halo] * 0.35
+        rgb[t] = glow
+        changed = ink | t | halo
+        # nearest CLUT colour (index 0 is transparent black: never chosen)
+        dist = ((rgb[changed][:, None, :] - pal[None, 1:, :]) ** 2).sum(-1)
+        a[changed] = 1 + dist.argmin(1)
+    return b[:p] + a.tobytes() + b[p + w * h:]
+
+
 def gretc_images(rlz):
     """{GRETC entry: new plain TIM bytes} for the redrawn GRETC graphics (same sizes; insert.patch_tree repacks)."""
     import gretc
@@ -477,7 +519,107 @@ def gretc_images(rlz):
         out[i] = brush_word(gretc.expand(rlz, ents[i]), word)
     out[CFVC] = cfvc(gretc.expand(rlz, ents[CFVC]))
     out[DIC_COVER] = dic_cover(gretc.expand(rlz, ents[DIC_COVER]))
+    out[PENTA] = penta(gretc.expand(rlz, ents[PENTA]))
     return out
+
+
+# Element orbs (G17: ring > DIAGRAM, unit HUD emblem): UNN g09 +0x1323C = TX03 of a TIM (w 124, h 470) whose CLUT
+# block is really pixels for VRAM (960,40) 64x216 and whose image block is (960,0) 60x255; the CLUT block is uploaded
+# last. Orbs are 4bpp 40x40, index 15 = transparent: image block rows 0-39 = orbs 0-5, CLUT block rows 0-39 x 0-159
+# = orbs 6-9; orb k's CLUT = CLUT block row k, halfwords 48-63 (VRAM 1008,40+k). The kanji becomes the English
+# element name (glossary 主 row) in a 7-px caps pixel font on a re-shaded sphere; the glass rim is kept.
+ORB_REL, ORB_W, ORB_H = 0x1323C, 124, 470
+ORB_WORDS = ["SKY", "EARTH", "THUNDER", "SEA", "FLAME", "WIND", "NETHER", "HOLY", "EMPEROR", "MASTER"]
+ORB_FONT = {
+    "A": ".##.|#..#|#..#|####|#..#|#..#|#..#", "D": "###.|#..#|#..#|#..#|#..#|#..#|###.",
+    "E": "####|#...|#...|###.|#...|#...|####", "F": "####|#...|#...|###.|#...|#...|#...",
+    "H": "#..#|#..#|#..#|####|#..#|#..#|#..#", "I": "###|.#.|.#.|.#.|.#.|.#.|###",
+    "K": "#..#|#..#|#.#.|##..|#.#.|#..#|#..#", "L": "#...|#...|#...|#...|#...|#...|####",
+    "M": "#...#|##.##|#.#.#|#.#.#|#...#|#...#|#...#", "N": "#..#|##.#|##.#|#.##|#.##|#..#|#..#",
+    "O": ".##.|#..#|#..#|#..#|#..#|#..#|.##.", "P": "###.|#..#|#..#|###.|#...|#...|#...",
+    "R": "###.|#..#|#..#|###.|#.#.|#..#|#..#", "S": ".###|#...|#...|.##.|...#|...#|###.",
+    "T": "###|.#.|.#.|.#.|.#.|.#.|.#.", "U": "#..#|#..#|#..#|#..#|#..#|#..#|.##.",
+    "W": "#...#|#...#|#...#|#.#.#|#.#.#|##.##|#...#", "Y": "#...#|#...#|.#.#.|..#..|..#..|..#..|..#..",
+}
+
+
+def _orb_word(word):
+    """Bool ink mask (7 rows) of a caps word, 1 px between letters."""
+    gl = [np.array([[c == "#" for c in r] for r in ORB_FONT[ch].split("|")]) for ch in word]
+    out = np.zeros((7, sum(g.shape[1] for g in gl) + len(gl) - 1), bool)
+    x = 0
+    for g in gl:
+        out[:, x:x + g.shape[1]] = g
+        x += g.shape[1] + 1
+    return out
+
+
+def _lum(c):
+    return 0.3 * (c & 31) + 0.59 * (c >> 5 & 31) + 0.11 * (c >> 10 & 31)
+
+
+def orb(idx, clut, word):
+    """Redraw one 40x40 orb (4bpp indices) with its CLUT (16 u16): rim kept, inside a lit sphere quantized to the
+    CLUT's own colours (darkest..lightest by luminance), word dark with a light outline."""
+    idx = idx.copy()
+    yy, xx = np.mgrid[0:40, 0:40]
+    r = np.hypot(yy - 19.5, xx - 19.5)
+    inside = (idx != 15) | (r < 16)               # the art has a few transparent highlight pixels inside
+    rim = inside & (r >= 17)
+    lum = np.array([_lum(int(c)) for c in clut[:15]])
+    order = np.argsort(lum)                       # palette indices dark -> light
+    lit = 1 - np.hypot(yy - 12, xx - 13) / 34     # highlight upper left
+    lit = np.clip(lit * 1.15, 0, 1) ** 1.3
+    shade = order[np.clip((lit * 14).round().astype(int), 0, 14)]
+    body = inside & ~rim
+    idx[body] = shade[body]
+    m = _orb_word(word)
+    h, w = m.shape
+    y0, x0 = 20 - h // 2, 20 - (w + 1) // 2
+    ink = np.zeros((40, 40), bool)
+    ink[y0:y0 + h, x0:x0 + w] = m
+    halo = np.zeros_like(ink)
+    for dy in (-1, 0, 1):
+        for dx in (-1, 0, 1):
+            halo |= np.roll(np.roll(ink, dy, 0), dx, 1)
+    idx[halo & inside & ~ink] = order[-1]
+    idx[ink] = order[0]
+    return idx
+
+
+def orb_sheet(d):
+    """Decoded g09 orb stream (w, h + TIM) -> new TIM bytes (same layout), every orb redrawn."""
+    assert struct.unpack_from("<hhIIIhhhh", d) == (ORB_W, ORB_H, 0x10, 8, 0x6C0C, 960, 40, 64, 216)
+    assert struct.unpack_from("<hhhh", d, 27676) == (960, 0, 60, 255)
+    t = bytearray(d[4:])
+    cb = unpack(bytes(t[20:20 + 128 * 216]), 128)
+    ib = unpack(bytes(t[27680:27680 + 120 * 255]), 120)
+    for k, word in enumerate(ORB_WORDS):
+        clut = struct.unpack_from("<16H", t, 20 + 128 * k + 96)
+        blk, x = (ib, 40 * k) if k < 6 else (cb, 40 * (k - 6))
+        blk[0:40, x:x + 40] = orb(blk[0:40, x:x + 40], clut, word)
+    t[20:20 + 128 * 216] = (cb[:, 0::2] | cb[:, 1::2] << 4).astype(np.uint8).tobytes()
+    t[27680:27680 + 120 * 255] = (ib[:, 0::2] | ib[:, 1::2] << 4).astype(np.uint8).tobytes()
+    return bytes(t)
+
+
+def orb_preview(d, new):
+    """Original over redrawn orbs in their CLUT colours, 4x (PIL image)."""
+    rows = []
+    for t in (d[4:], new):
+        cb = unpack(bytes(t[20:20 + 128 * 216]), 128)
+        ib = unpack(bytes(t[27680:27680 + 120 * 255]), 120)
+        tiles = []
+        for k in range(10):
+            clut = np.array(struct.unpack_from("<16H", t, 20 + 128 * k + 96))
+            o = ib[0:40, 40 * k:40 * k + 40] if k < 6 else cb[0:40, 40 * (k - 6):40 * (k - 6) + 40]
+            c = clut[o]
+            rgb = np.stack([(c & 31) << 3, (c >> 5 & 31) << 3, (c >> 10 & 31) << 3], -1)
+            rgb[o == 15] = (40, 40, 80)
+            tiles.append(rgb.astype(np.uint8))
+        rows.append(np.concatenate(tiles, 1))
+    im = Image.fromarray(np.concatenate(rows, 0))
+    return im.resize((im.width * 4, im.height * 4), Image.NEAREST)
 
 
 def pack(cov, ink0=True):
@@ -587,6 +729,12 @@ def patch(tree, exe, unn, log):
     assert len(s) <= end - off, f"swap logo {len(s):#x} > {end - off:#x}"
     log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx disc swap logo g09")
     unn[off:off + len(s)] = s
+    off = gr_index.toc(exe)[9][0] * SECTOR + ORB_REL
+    d, end = tx03.decompress(unn, off)
+    s = stream(orb_sheet(d), ORB_W)
+    assert len(s) <= end - off, f"element orbs {len(s):#x} > {end - off:#x}"
+    log("DATA/UNN.PAK", off, unn[off:off + len(s)], s, "gfx element orbs g09")
+    unn[off:off + len(s)] = s
     # mode 0 (DISC 1 screen) loads an uncompressed TIM copy of the sheet: g9 entry 8, pixels at +0x60
     o = (gr_index.toc(exe)[9][0] + {t: e for _, t, e in gr_index.subtables(exe)}[G9_TAB][8][0]) * SECTOR
     assert struct.unpack_from("<IIIhhhh", unn, o)[:2] == (0x10, 8) and struct.unpack_from("<hh", unn, o + 0x5C) == (
@@ -627,6 +775,8 @@ if __name__ == "__main__":
     d = tx03.decompress(unn, gr_index.toc(exe)[9][0] * SECTOR + SWAP_REL)[0]
     idx = swap_sheet(unpack(d[4:], SWAP_W))
     Image.fromarray((idx * 17).astype(np.uint8)).save(out / "swap_sheet.png")
+    d = tx03.decompress(unn, gr_index.toc(exe)[9][0] * SECTOR + ORB_REL)[0]
+    orb_preview(d, orb_sheet(d)).save(out / "orbs.png")
     for o, old, new in swap_layout(idx, (tree / "DATA/DAY.BIN").read_bytes()):
         print(f"DAY {o + DAY_BASE:08X}: {old.hex()} -> {new.hex()}")
     import tim
