@@ -78,7 +78,7 @@
   {
    "id": "g23.28.007",
    "jp": "真由\n「あんたらの理屈げな、どげんでん\n　よか。そこどいてくれんね」\n{wait}",
-   "en": "Mayu\n\"I don't care none about your reasons. Just\nget outta the way, will ya?\"\n{wait}",
+   "en": "Mayu\n\"I don't care 'bout your reasons. Just get\noutta the way, will ya?\"\n{wait}",
    "slots": [
     7
    ],
@@ -128,7 +128,7 @@
   {
    "id": "g23.28.012",
    "jp": "麗子\n「あたし、こう見えても強いのよ。\n　うふふっ、後悔させてあ・げ・る」\n{wait}",
-   "en": "Reiko\n\"I may not look it, but I'm strong. Ufufu, I'll\nmake you re-gret it.\"\n{wait}",
+   "en": "Reiko\n\"I may not look it, but I'm strong. Ufufu, I'll\nmake you re-gret it~\"\n{wait}",
    "slots": [
     12
    ],
@@ -478,7 +478,7 @@
   {
    "id": "g23.28.047",
    "jp": "るり\n「もういいわよね？」\n{wait}",
-   "en": "Ruri\n\"It's time now, right?\"\n{wait}",
+   "en": "Ruri\n\"It's okay now, right?\"\n{wait}",
    "slots": [
     47
    ],

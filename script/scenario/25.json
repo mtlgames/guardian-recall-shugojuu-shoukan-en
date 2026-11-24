@@ -380,7 +380,7 @@
   {
    "id": "g23.25.037",
    "jp": "晶\n「じゃ、ここまで来て入れないですか！\n　そんな～」\n{wait}",
-   "en": "Akira\n\"So we came all this way and can't get in, yes\nindeed!? Nooo~\"\n{wait}",
+   "en": "Akira\n\"So we came all this way and can't get\nin!? Nooo~\"\n{wait}",
    "slots": [
     37
    ],

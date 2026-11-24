@@ -278,7 +278,7 @@
   {
    "id": "g23.33.027",
    "jp": "知美\n「・・・４人がかりでもないわね。\n　白虎と青龍がいれば十分だわ」\n{wait}「私たち、しばらく見物させて\n　もらいましょう」\n{wait}",
-   "en": "Tomomi\n\"...We hardly need all four of us. Byakko and\nSeiryu will be quite enough.\"\n{wait}\"Let's sit back and watch for a while.\"\n{wait}",
+   "en": "Tomomi\n\"...We hardly need all four of us, do we?\nByakko and Seiryu will be quite enough.\"\n{wait}\"Let us sit back and enjoy the show\nfor a while.\"\n{wait}",
    "slots": [
     27
    ],

@@ -83,7 +83,7 @@
   {
    "id": "g23.64.007",
    "jp": "これが『地』の属性の相性だ。\n{wait}この表から『主』や『雷』に有利。逆に\n『海』や『飛』にやや不利だということ\nがわかる。\n{wait}だから、もし『海』や『飛』の属性の敵\nが出てきたら別の属性の仲間にまかせて\nしまうといい。\n{wait}逆に『雷』の敵が出てきたら、自分が前\nに出て戦ってやるといいってわけだ。\n{wait}",
-   "en": "This is the compatibility of the 'Earth'\nelement.\n{wait}From this chart, you can see it has the\nadvantage against 'Master' and 'Thunder',\nand a slight disadvantage against 'Sea'\n{wait}and 'Wind'.\n{wait}So if an enemy with the 'Sea' or 'Wind'\nelement shows up, leave it to an ally with a\ndifferent 'element'.\n{wait}On the other hand, if a 'Thunder' enemy\nshows up, step forward and fight it yourself.\n{wait}",
+   "en": "This is the compatibility of the 'Earth'\nelement.\n{wait}This chart shows it has the advantage\nagainst 'Master' and 'Thunder', and a slight\ndisadvantage against 'Sea' and 'Wind'.\n{wait}So if an enemy with the 'Sea' or 'Wind'\nelement shows up, leave it to an ally with a\ndifferent 'element'.\n{wait}On the other hand, if a 'Thunder' enemy\nshows up, step forward and fight it yourself.\n{wait}",
    "slots": [
     7
    ],
@@ -93,7 +93,7 @@
   {
    "id": "g23.64.008",
    "jp": "こちらは『炎』の相性。『飛』と『主』\nに有利で、『海』に不利ってことがわか\nる。\n{wait}ちなみにマスターである『主』に対して\nは、どの属性の守護獣でも自動的に有利\nになる。\n{wait}考えてみれば当たり前の話だ。マスター\nはしょせん普通の人間なんだから、守護\n獣なんかに殴られたらイチコロだね。\n{wait}",
-   "en": "This is 'Flame' compatibility. You can see it has\nthe advantage against 'Wind' and 'Master',\nand a disadvantage against 'Sea'.\n{wait}By the way, against 'Master', the Masters, a\nGuardian of any 'element' automatically has\nthe advantage.\n{wait}When you think about it, that's obvious.\nMasters are just ordinary humans, so one\npunch from a Guardian and they're done for.\n{wait}",
+   "en": "This is 'Flame' compatibility. You can see it has\nthe advantage against 'Wind' and 'Master',\nand a disadvantage against 'Sea'.\n{wait}By the way, against 'Master' (that is, the\nMasters), a Guardian of any 'element'\nautomatically has the advantage.\n{wait}When you think about it, that's obvious.\nMasters are just ordinary humans, so one\npunch from a Guardian and they're done for.\n{wait}",
    "slots": [
     8
    ],

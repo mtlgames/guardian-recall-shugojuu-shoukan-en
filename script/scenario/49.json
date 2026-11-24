@@ -27,7 +27,7 @@
   {
    "id": "g23.49.301",
    "jp": "美由紀\n「あたし、\n　ひょっとして・・・」\n{wait}「迷子・・・」\n{wait}",
-   "en": "Miyuki\n\"Could it be that I'm...\"\n{wait}\"lost...\"\n{wait}",
+   "en": "Miyuki\n\"Maybe I'm...\"\n{wait}\"lost...?\"\n{wait}",
    "slots": [
     301
    ],
@@ -209,7 +209,7 @@
   {
    "id": "g23.49.319",
    "jp": "謎の女性\n「少しばかりおだやかでない連中の\n　監視区域だ。ついさっきからな」\n{wait}",
-   "en": "Mysterious Woman\n\"It's a zone being watched by some\nrather unfriendly people. As of just a little\nwhile ago.\"\n{wait}",
+   "en": "Mysterious Woman\n\"It's a zone being watched by some\nrather unfriendly people. Since just a little\nwhile ago.\"\n{wait}",
    "slots": [
     319
    ],
@@ -379,7 +379,7 @@
   {
    "id": "g23.49.336",
    "jp": "謎の女性\n「・・・そうだな」\n{wait}",
-   "en": "Mysterious Woman\n\"...I see.\"\n{wait}",
+   "en": "Mysterious Woman\n\"...I suppose so.\"\n{wait}",
    "slots": [
     336
    ],
@@ -480,7 +480,7 @@
   {
    "id": "g23.49.346",
    "jp": "美由紀\n「そっかぁ、よかったー。美里ちゃん、\n　見つかったんだ・・・」\n{wait}",
-   "en": "Miyuki\n\"Really? Phew. So you found Misato-chan...\"\n{wait}",
+   "en": "Miyuki\n\"I see! Phew. So you found Misato-chan...\"\n{wait}",
    "slots": [
     346
    ],
@@ -924,7 +924,7 @@
   {
    "id": "g23.49.390",
    "jp": "麗子\n「見間違いじゃないの？」\n{wait}",
-   "en": "Reiko\n\"Didn't they just see wrong?\"\n{wait}",
+   "en": "Reiko\n\"Couldn't they have just seen wrong?\"\n{wait}",
    "slots": [
     390
    ],
@@ -974,7 +974,7 @@
   {
    "id": "g23.49.501",
    "jp": "美由紀\n「蘭ちゃんだね、あたし美由紀！」\n{wait}",
-   "en": "Miyuki\n\"Ran-chan! I'm Miyuki.\"\n{wait}",
+   "en": "Miyuki\n\"Ran-chan, huh? I'm Miyuki!\"\n{wait}",
    "slots": [
     501
    ],
@@ -1134,7 +1134,7 @@
   {
    "id": "g23.49.517",
    "jp": "瞳\n「ほら、これを使え」\n{wait}「どうもお前は、見ていて頼りなくて\n　しょうがない」\n{wait}",
-   "en": "Hitomi\n\"Here, use this.\"\n{wait}\"Watching you, I can't help feeling you need\nall the help you can get.\"\n{wait}",
+   "en": "Hitomi\n\"Here, use this.\"\n{wait}\"Watching you, I can't help thinking you're\nunreliable.\"\n{wait}",
    "slots": [
     517
    ],
@@ -1205,7 +1205,7 @@
   {
    "id": "g23.49.524",
    "jp": "鈴音\n「バレバレだっつーの」\n{wait}",
-   "en": "Suzune\n\"Yeah, like I believe that.\"\n{wait}",
+   "en": "Suzune\n\"That's sooo obvious.\"\n{wait}",
    "slots": [
     524
    ],

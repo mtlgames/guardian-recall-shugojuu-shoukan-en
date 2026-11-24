@@ -101,7 +101,7 @@
   {
    "id": "g23.57.009",
    "jp": "こんなふうに超力がとどかなくなってし\nまう。これではせっかくの援護も無意味\nだ。\n{wait}マスターと守護獣が離れすぎると良くな\nいってことだね。\n{wait}ちなみにこの超力の射程はマスターによ\nって異なるんだけど、誰でもレベルアッ\nプすれば長くなっていく。\n{wait}自分の仲間が現在どのくらいの射程なの\nか必ずチェックしておくようにしよう。\n{wait}",
-   "en": "the Psi can no longer reach, like this. Then all\nthat support is meaningless.\n{wait}So a Master and Guardian shouldn't be too\nfar apart.\n{wait}By the way, this Psi range differs from\nMaster to Master, but everyone's grows\nlonger as they level up.\n{wait}Always check how much range each of your\nallies has right now.\n{wait}",
+   "en": "the Psi can no longer reach, like this. All that\nsupport goes to waste.\n{wait}So a Master and Guardian shouldn't be too\nfar apart.\n{wait}By the way, this Psi range differs from\nMaster to Master, but everyone's grows\nlonger as they level up.\n{wait}Always check how much range each of your\nallies has right now.\n{wait}",
    "slots": [
     9
    ],

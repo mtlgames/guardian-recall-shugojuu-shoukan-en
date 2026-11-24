@@ -653,7 +653,7 @@
   {
    "id": "g23.17.064",
    "jp": "かおる\n「言う言う」\n{wait}",
-   "en": "Kaoru\n\"She said it, she said it.\"\n{wait}",
+   "en": "Kaoru\n\"Listen to her!\"\n{wait}",
    "slots": [
     64
    ],
@@ -997,7 +997,7 @@
   {
    "id": "g23.17.204",
    "jp": "ゆかり\n「反省してるわ・・・」\n{wait}",
-   "en": "Yukari\n\"I've been reflecting on it...\"\n{wait}",
+   "en": "Yukari\n\"I know. I overdid it...\"\n{wait}",
    "slots": [
     204
    ],

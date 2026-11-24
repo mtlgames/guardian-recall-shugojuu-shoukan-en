@@ -48,7 +48,7 @@
   {
    "id": "g13.04.004",
    "jp": "敵に体当たり攻撃を\nしかけさせる。\n攻撃対象がいない場\n合は実行しない。\n",
-   "en": "The Guardian rams the\nenemy. Not done if\nthere is no target.\n",
+   "en": "The Guardian rams the\nenemy. Does nothing if\nthere is no target.\n",
    "slots": [
     4
    ],
@@ -88,7 +88,7 @@
   {
    "id": "g13.04.008",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ接近\n戦力が上昇する。\n",
-   "en": "The Guardian builds up\npower. Raises melee\npower next turn only.\n",
+   "en": "The Guardian builds up\npower. Raises Melee\nnext turn only.\n",
    "slots": [
     8
    ],
@@ -99,7 +99,7 @@
   {
    "id": "g13.04.009",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ投射\n戦力が上昇する。\n",
-   "en": "The Guardian builds up\npower. Raises ranged\npower next turn only.\n",
+   "en": "The Guardian builds up\npower. Raises Ranged\nnext turn only.\n",
    "slots": [
     9
    ],
@@ -110,7 +110,7 @@
   {
    "id": "g13.04.010",
    "jp": "守護獣にパワーを\nたくわえさせる。\n次のターンのみ治癒\n力が上昇する。\n",
-   "en": "The Guardian builds up\npower. Raises healing\npower next turn only.\n",
+   "en": "The Guardian builds up\npower. Raises Healing\nnext turn only.\n",
    "slots": [
     10
    ],

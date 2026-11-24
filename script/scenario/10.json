@@ -824,7 +824,7 @@
   {
    "id": "g23.10.081",
    "jp": "　龍脈が解放された時、私たち龍脈を\n　守護する龍は、その魂を日本各地に\n　飛ばし器となるべき人間を探した。\n{wait}　私はお前を選んだのだ。\n{wait}",
-   "en": "When the dragon veins were released, we\ndragons who guard them sent our souls\nacross Japan in search of humans to be\n{wait}our vessels.\n{wait}I have chosen you.\n{wait}",
+   "en": "When the dragon veins were released, we\ndragons who guard them sent our souls\nacross Japan seeking human vessels.\n{wait}I have chosen you.\n{wait}",
    "slots": [
     81
    ],

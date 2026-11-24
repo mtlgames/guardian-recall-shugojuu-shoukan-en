@@ -327,7 +327,7 @@
   {
    "id": "g23.27.032",
    "jp": "めぐみ\n「ほざくなっ！」\n{wait}",
-   "en": "Megumi\n\"Silence!\"\n{wait}",
+   "en": "Megumi\n\"Hold your tongue!\"\n{wait}",
    "slots": [
     32
    ],
@@ -427,7 +427,7 @@
   {
    "id": "g23.27.042",
    "jp": "ちかな\n「そろそろいいかな」\n{wait}",
-   "en": "Chikana\n\"About time, I'd say.\"\n{wait}",
+   "en": "Chikana\n\"Time to move, I guess?\"\n{wait}",
    "slots": [
     42
    ],
@@ -557,7 +557,7 @@
   {
    "id": "g23.27.201",
    "jp": "めぐみ\n「ほざくな！」\n{wait}",
-   "en": "Megumi\n\"Silence!\"\n{wait}",
+   "en": "Megumi\n\"Hold your tongue!\"\n{wait}",
    "slots": [
     201
    ],

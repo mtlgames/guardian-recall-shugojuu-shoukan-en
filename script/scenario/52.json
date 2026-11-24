@@ -18,7 +18,7 @@
   {
    "id": "g23.52.001",
    "jp": "『召喚』は「行動」コマンドの中だ。\nこれを実行すると、\n{wait}",
-   "en": "'Summon' is in the 'Action' commands. When\nyou use it,\n{wait}",
+   "en": "'Summon' is in the 'Action' command. When\nyou use it,\n{wait}",
    "slots": [
     1
    ],
@@ -80,7 +80,7 @@
   {
    "id": "g23.52.007",
    "jp": "さて、ここで\n　「なんで送還する必要があるの？」\nと疑問に思ったかもしれない。\n{wait}戦闘を続けるのに必要な守護獣を、\nなぜわざわざ引っ込めてしまうのか？\nということだね。\n{wait}実は後で説明するんだけど、守護獣を\nコントロールするっていう行為は、\n精神的疲労をともなうんだ。\n{wait}ゲーム的に言うと守護獣を出してる間中\nＭＰ（思考ポイント）が１ターンごとに\n消費されていく。\n{wait}ちょっとステータスを見てみようか。\n{wait}",
-   "en": "Now, you may be wondering, \"Why would I\never need to Dismiss it?\"\n{wait}Why go out of your way to put away the\nGuardian you need to keep fighting, right?\n{wait}I'll explain it later, but controlling a Guardian\nis actually mentally tiring.\n{wait}In game terms, the whole time your\nGuardian is out, MP (Tactic Points) are used\nup every turn.\n{wait}Let's take a look at the status.\n{wait}",
+   "en": "Now, you may be wondering, \"Why would I\never need to Dismiss it?\"\n{wait}Why go out of your way to put away the\nGuardian you need to keep fighting, right?\n{wait}I'll explain it later, but controlling a Guardian\nis actually mentally tiring.\n{wait}In game terms, the whole time your\nGuardian is out, MP (Tactic Points) is used up\nevery turn.\n{wait}Let's take a look at the status.\n{wait}",
    "slots": [
     7
    ],
@@ -91,7 +91,7 @@
   {
    "id": "g23.52.008",
    "jp": "ＳＰの下のＭＰってゲージの値が減って\nいるのが、わかると思う。\n{wait}このＭＰの値が低くなると守護獣をコン\nトロールできなくなってしまうんだ。\n{wait}だから、守護獣をいったん引っ込めるこ\nとで、ＭＰの回復をはかるってわけ。\n{wait}",
-   "en": "You can see the gauge value called MP, under\nSP, has gone down.\n{wait}When this MP value gets low, you can no\nlonger control your Guardian.\n{wait}So by putting the Guardian away for a while,\nyou let its MP recover.\n{wait}",
+   "en": "You can see the gauge value called MP, under\nSP, has gone down.\n{wait}When this MP value gets low, you can no\nlonger control your Guardian.\n{wait}So by putting the Guardian away for a while,\nyou let your MP recover.\n{wait}",
    "slots": [
     8
    ],

@@ -116,7 +116,7 @@
   {
    "id": "g23.55.011",
    "jp": "このように思考は、守護獣の行動だけで\nなく、能力自体にも影響を与えている。\n{wait}例えば『攻撃せよ』は攻撃に集中してる\n分、攻撃力は上がるけど、実は防御がお\nろそかになっている。\n{wait}敵に突っ込むのはいいが、反撃されると\nダメージも大きいってことだね。\n{wait}『何もするな！』は全く何もしない思考\nと紹介したけど、身動きしない分、防御\n力が少しだけ上昇してたりするんだ。\n{wait}細かい数値の話だけど、思考を使いこな\nせるようになってきたら、こういう点に\nも気を配るといいよ。\n{wait}本当に＋１の差が勝敗を分けることもあ\nるからね。\n{wait}",
-   "en": "Like this, Tactics affect not only a Guardian's\nactions but its abilities themselves.\n{wait}For example, 'Attack!' focuses on attacking,\nso its attack power goes up, but it actually\nneglects defense.\n{wait}Charging the enemy is fine, but the damage\nfrom a counterattack will be big.\n{wait}I introduced 'Do nothing!' as a Tactic that\ndoes nothing at all, but since it stays still, its\nDefense goes up a little.\n{wait}These are small numbers, but once you're\ngetting good with Tactics, keep an eye on\npoints like these.\n{wait}Sometimes a difference of just +1 really can\ndecide a battle.\n{wait}",
+   "en": "Like this, Tactics affect not only a Guardian's\nactions but its abilities themselves.\n{wait}For example, 'Attack!' focuses on attacking,\nso its attack power goes up, but it actually\nneglects defense.\n{wait}Rushing the enemy is fine, but the damage\nfrom a counterattack will be big.\n{wait}I introduced 'Do nothing!' as a Tactic that\ndoes nothing at all, but since it stays still, its\nDefense goes up a little.\n{wait}These are small numbers, but once you're\ngetting good with Tactics, keep an eye on\npoints like these.\n{wait}Sometimes a difference of just +1 really can\ndecide a battle.\n{wait}",
    "slots": [
     11
    ],

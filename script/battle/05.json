@@ -82,7 +82,7 @@
   {
    "id": "g13.05.007",
    "jp": "ユニットの種類です。\nＭａｓｔｅｒ：マスターユニット\nＧｕａｒｄｉａｎ：守護獣ユニット\n{wait}さらに守護獣ユニットは育て方によっ\nていくつかの形態に進化するようにな\nります。最初は守護獣ですが、やがて\n{wait}守護闘獣：接近戦が得意な守護獣\n守護撃獣：投射戦が得意な守護獣\n守護珠獣：治癒行動が得意な守護獣\n{wait}などという名の形態に進化していきま\nす。ここで挙げた他にも多くの形態が\nあります。\n{wait}",
-   "en": "The unit's type.\nMaster: a Master unit\nGuardian: a Guardian unit\n{wait}Guardian units also evolve into several\nForms depending on how they're raised.\nThey start out as Guardian, but in time\n{wait}Battle Guardian: good at melee\nShooter Guardian: good at ranged\nOrb Guardian: good at healing\n{wait}they evolve into Forms with names like\nthese. There are many more Forms\nbesides these.\n{wait}",
+   "en": "The unit's type.\nMaster: a Master unit\nGuardian: a Guardian unit\n{wait}Guardian units also evolve into several\nForms depending on how they're\nraised. They start out as plain\n{wait}Guardians, but in time\n{wait}Battle Guardian: good at melee\nShooter Guardian: good at ranged\nOrb Guardian: good at healing\n{wait}they evolve into Forms with names like\nthese. There are many more Forms\nbesides these.\n{wait}",
    "slots": [
     7
    ],
@@ -136,7 +136,7 @@
   {
    "id": "g13.05.012",
    "jp": "マスターの防御力です。敵に攻撃され\nた時のダメージの値に影響します。\n{wait}この値は守護獣の防御力に反映されま\nす。\n{wait}数値は\n　現在値／基本値\nという表記になっています。\n{wait}基本値：\n右側の値です。ユニット固有の数値を\n示しています。\n{wait}現在値：\n左側の値です。装備アイテムの修正を\n加えた数値を示しています。\n{wait}現在値が青い数字の時は現在値が\n基本値より上昇していることを、\n{wait}現在値が赤い数字の時は現在値が\n基本値より低下していることを\n表しています。\n{wait}",
-   "en": "The Master's defense. Affects the damage\ntaken when attacked by an enemy.\n{wait}This value is reflected in the Guardian's\nDefense.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It includes modifiers\nfrom equipped items.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
+   "en": "The Master's Defense. Affects the damage\ntaken when attacked by an enemy.\n{wait}This value is reflected in the Guardian's\nDefense.\n{wait}The numbers are shown as\ncurrent / base.\n{wait}Base:\nThe value on the right. It's the unit's\nown value.\n{wait}Current:\nThe value on the left. It includes modifiers\nfrom equipped items.\n{wait}When the current value is blue, it has risen\nabove the base value;\n{wait}when it's red, it has dropped below the\nbase value.\n{wait}",
    "slots": [
     12
    ],

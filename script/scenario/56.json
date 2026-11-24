@@ -28,7 +28,7 @@
   {
    "id": "g23.56.002",
    "jp": "ＭＰを見てみると、\n　１４０／１６０\nとなっている。２０減ってるね。\n{wait}このように「召喚」という行動だけで、\nＭＰは２０消費されてしまう。\n{wait}マップによっては戦闘開始前のイベント\nシーンで守護獣が召喚済みになっている\n場合もあるけど、\n{wait}そういう時は、１ターン目開始時にすで\nにＭＰが２０減った状態でスタートする\nことになるので注意しよう。\n{wait}",
-   "en": "If we look at MP, it's now 140/160. It went\ndown by 20.\n{wait}Like this, just the act of 'Summon' uses\nup 20 MP.\n{wait}On some maps, Guardians are already\nsummoned in the event scene before the\nbattle starts,\n{wait}and in that case you'll start the first turn\nwith 20 MP already gone, so be careful.\n{wait}",
+   "en": "If we look at MP, it's now 140/160. It went\ndown by 20.\n{wait}Like this, just the 'Summon' action alone uses\nup 20 MP.\n{wait}On some maps, Guardians are already\nsummoned in the event scene before the\nbattle starts,\n{wait}and in that case you'll start the first turn\nwith 20 MP already gone, so be careful.\n{wait}",
    "slots": [
     2
    ],
@@ -90,7 +90,7 @@
   {
    "id": "g23.56.008",
    "jp": "このように思考によってＭＰの消費値は\n異なるわけだ。思考を選ぶ時はＭＰの残\n量にも注意しなくてはならない。\n{wait}ところで、思考は種類以外にもＭＰの\n消費値が変動する場合がある。それは\nマスターと守護獣の距離の差だ。\n{wait}",
-   "en": "So the MP cost differs from Tactic to Tactic.\nWhen choosing a Tactic, you also have to\nwatch how much MP you have left.\n{wait}By the way, besides the kind of Tactic,\nthere's another thing that can change the\nMP cost: the distance between the Master\n{wait}and the Guardian.\n{wait}",
+   "en": "So the MP cost differs from Tactic to Tactic.\nWhen choosing a Tactic, you also have to\nwatch how much MP you have left.\n{wait}Besides the kind of Tactic, one more thing\nchanges the MP cost: the distance between\nMaster and Guardian.\n{wait}",
    "slots": [
     8
    ],
@@ -155,7 +155,7 @@
   {
    "id": "g23.56.014",
    "jp": "守護獣の色が変わった。そして現在の思\n考名が「暴走」になっている。\n{wait}これが守護獣の暴走状態ってやつだ。残\nりＭＰが少なくなると、こんな状態にな\nってしまう。\n{wait}こうなると守護獣はこちらのコントロー\nルを受けつけなくなる。\n{wait}いくら「思考」で命令しても言うことを\n聞いてくれなくなるんだ。\n{wait}そればかりか自分以外はみんな敵と判断\nして味方にも攻撃をしかけてくる手に負\nえない状態になってしまう。\n{wait}暴走が始まったら、どうしようも無い。\nマスターを近づけて早く「送還」してし\nまおう。\n{wait}",
-   "en": "The Guardian changed color, and its current\nTactic name now reads 'Berserk'.\n{wait}This is what's called a Guardian's\nberserk state. When its MP runs low, it\nends up like this.\n{wait}Once this happens, the Guardian no longer\naccepts your control.\n{wait}No matter what 'Tactic' you order, it\nwon't listen.\n{wait}Worse, it decides everyone but itself is an\nenemy and attacks even its allies. It's\ncompletely out of hand.\n{wait}Once it goes berserk, there's nothing you\ncan do. Bring its Master close and 'Dismiss'\nit quickly.\n{wait}",
+   "en": "The Guardian changed color, and its current\nTactic name now reads 'Berserk'.\n{wait}This is what's called a Guardian's\nberserk state. When its MP runs low, it\nends up like this.\n{wait}Once this happens, the Guardian no longer\naccepts your control.\n{wait}No matter what 'Tactic' you order, it\nwon't listen.\n{wait}Worse, it decides everyone but itself is an\nenemy and attacks even its allies. It's\ncompletely out of hand.\n{wait}Once it goes berserk, there's nothing you\ncan do. Bring its Master next to it and\n'Dismiss' it quickly.\n{wait}",
    "slots": [
     14
    ],

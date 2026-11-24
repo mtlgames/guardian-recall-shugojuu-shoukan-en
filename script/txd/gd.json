@@ -706,7 +706,7 @@
   {
    "id": "gd.0139",
    "jp": "&s(64,20)&g(14,32)&c(0)&e()軽機動拳闘骸骨&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()けいきどうけんとうがいこつ&d()&c(2)&n()&g(14,24)&f(14,10)属性は炎。拳闘骸骨の弱点である機動性をアップさせたもの。",
-   "en": "&s(64,20)&g(14,32)&c(0)&e()Swift Bone Boxer&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A Bone Boxer&n()with more mobility, its weak&n()point.",
+   "en": "&s(64,20)&g(14,32)&c(0)&e()Swift Bone Boxer&d()&c(2)&n()&g(14,24)&g(0,-14)&n()&f(20,0)&g(13,30)&c(1)&e()&d()&c(2)&n()&g(14,24)&f(14,10)Element: Flame. A Bone Boxer&n()with better mobility, once its&n()weak point.",
    "slots": [
     139
    ],

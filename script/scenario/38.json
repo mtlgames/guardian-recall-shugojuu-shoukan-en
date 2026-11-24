@@ -170,7 +170,7 @@
   {
    "id": "g23.38.022",
    "jp": "瞳\n「だとしても、４人の精神力を統一\n　させるダミーのマスター・・・」\n{wait}「おそらく、そんなものを形成して\n　ヤツを操っている・・・・という\n　仮説は成り立つ」\n{wait}",
-   "en": "Hitomi\n\"Even so, a dummy Master that unifies the\nfour's strength of will...\"\n{wait}\"It's a reasonable hypothesis that they\nformed something like that and control it\nthrough it.\"\n{wait}",
+   "en": "Hitomi\n\"Even so, a dummy Master that unifies the\nfour's strength of will...\"\n{wait}\"It's a reasonable hypothesis that they've\nformed something like that, and that's how\nthey control it.\"\n{wait}",
    "slots": [
     22
    ],
@@ -363,7 +363,7 @@
   {
    "id": "g23.38.042",
    "jp": "聡美\n「・・・どうだか」\n{wait}",
-   "en": "Satomi\n\"...If you say so.\"\n{wait}",
+   "en": "Satomi\n\"...Is that so.\"\n{wait}",
    "slots": [
     42
    ],

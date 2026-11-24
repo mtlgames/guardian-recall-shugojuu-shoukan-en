@@ -83,7 +83,7 @@
   {
    "id": "g23.43.007",
    "jp": "白虎\n「あのねー・・・」\n{wait}「あなたが由美を可愛がってたのは知\n　ってるけど、あたしにあたるのはス\n　ジ違いよ」\n{wait}",
-   "en": "Byakko\n\"Look...\"\n{wait}\"I know Yumi was your little pet, but taking it\nout on me is way out of line.\"\n{wait}",
+   "en": "Byakko\n\"Look...\"\n{wait}\"I know you doted on Yumi, but taking it out\non me is way out of line.\"\n{wait}",
    "slots": [
     7
    ],
@@ -247,7 +247,7 @@
   {
    "id": "g23.43.022",
    "jp": "美由紀\n「うん！\n　ここにはいないみたいだけど・・・」\n{wait}「こっちでいいんでしょ？」\n{wait}",
-   "en": "Miyuki\n\"Yeah!\"\n{wait}\"She doesn't seem to be around here,\nthough... This is the right way, isn't it?\"\n{wait}",
+   "en": "Miyuki\n\"Yeah! She doesn't seem to be here, though...\"\n{wait}\"This is the right way, isn't it?\"\n{wait}",
    "slots": [
     22
    ],
@@ -982,7 +982,7 @@
   {
    "id": "g23.43.089",
    "jp": "真由\n「う・・・」\n{wait}「やーやね。\n　もーあんたんこつ信用せんけんねー」\n{wait}",
-   "en": "Mayu\n\"Ugh...\"\n{wait}\"No way. I ain't trustin' you ever again.\"\n{wait}",
+   "en": "Mayu\n\"Ugh...\"\n{wait}\"No way. I ain't trustin' you anymore, hmph.\"\n{wait}",
    "slots": [
     89
    ],
@@ -1036,7 +1036,7 @@
   {
    "id": "g23.43.094",
    "jp": "白虎\n「ふぅん・・・やるわね」\n{wait}「なかなか楽しませてくれるじゃない\n　・・・クスクスッ」\n{wait}",
-   "en": "Byakko\n\"Hmm... Not bad.\"\n{wait}\"They're turning out to be pretty fun...\nTee-hee.\"\n{wait}",
+   "en": "Byakko\n\"Hmm... Not bad, I'll give you that.\"\n{wait}\"They're turning out to be pretty fun...\nTee-hee.\"\n{wait}",
    "slots": [
     94
    ],

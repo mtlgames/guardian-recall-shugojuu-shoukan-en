@@ -198,7 +198,7 @@
   {
    "id": "g23.21.019",
    "jp": "晶\n「そんなワケの分からない人に、\n　なんでみんな、ついて行くですか」\n{wait}",
-   "en": "Akira\n\"Why would everyone follow someone so\nmysterious, yes indeed?\"\n{wait}",
+   "en": "Akira\n\"Why would everyone follow someone so\nmysterious?\"\n{wait}",
    "slots": [
     19
    ],

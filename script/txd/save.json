@@ -7,7 +7,7 @@
   {
    "id": "save.0000",
    "jp": "&e()データをチェック中です&d()&n()&e()メモリーカードを抜かないで下さい&d()&n()",
-   "en": "&e()Checking data...&d()&n()&e()Do not remove the memory card.&d()&n()",
+   "en": "&e()Checking data...&d()&n()&e()Do not remove the Memory Card.&d()&n()",
    "slots": [
     0
    ],
@@ -18,7 +18,7 @@
   {
    "id": "save.0004",
    "jp": "&e()メモリーカードが初期化されていません&d()&n()",
-   "en": "&e()The memory card is not formatted.&d()&n()",
+   "en": "&e()The Memory Card is not formatted.&d()&n()",
    "slots": [
     4
    ],
@@ -29,7 +29,7 @@
   {
    "id": "save.0008",
    "jp": "&e()メモリーカードを初期化しますか？&d()&n()",
-   "en": "&e()Format the memory card?&d()&n()",
+   "en": "&e()Format the Memory Card?&d()&n()",
    "slots": [
     8
    ],
@@ -40,7 +40,7 @@
   {
    "id": "save.0012",
    "jp": "&e()メモリーカードを初期化中です&d()&n()&e()メモリーカードを抜かないで下さい&d()&n()",
-   "en": "&e()Formatting the memory card...&d()&n()&e()Do not remove the memory card.&d()&n()",
+   "en": "&e()Formatting the Memory Card...&d()&n()&e()Do not remove the Memory Card.&d()&n()",
    "slots": [
     12
    ],
@@ -51,7 +51,7 @@
   {
    "id": "save.0016",
    "jp": "&e()メモリーカードの空きブロックが足りません&d()&n()",
-   "en": "&e()Not enough free blocks on the memory card.&d()&n()",
+   "en": "&e()Not enough free blocks on the Memory Card.&d()&n()",
    "slots": [
     16
    ],
@@ -84,7 +84,7 @@
   {
    "id": "save.0028",
    "jp": "&e()システムファイルを作成中です&d()&n()&e()メモリーカードを抜かないで下さい&d()&n()",
-   "en": "&e()Creating the system file...&d()&n()&e()Do not remove the memory card.&d()&n()",
+   "en": "&e()Creating the system file...&d()&n()&e()Do not remove the Memory Card.&d()&n()",
    "slots": [
     28
    ],
@@ -117,7 +117,7 @@
   {
    "id": "save.0044",
    "jp": "&e()<a>中です&d()&n()&e()メモリーカードを抜かないで下さい&d()&n()",
-   "en": "&e()Please wait: <a> in progress.&d()&n()&e()Do not remove the memory card.&d()&n()",
+   "en": "&e()Please wait: <a> in progress.&d()&n()&e()Do not remove the Memory Card.&d()&n()",
    "slots": [
     44
    ],
@@ -150,7 +150,7 @@
   {
    "id": "save.0084",
    "jp": "&e()<a>中です&d()&n()&e()メモリーカードを抜かないで下さい&d()&n()",
-   "en": "&e()Please wait: <a> in progress.&d()&n()&e()Do not remove the memory card.&d()&n()",
+   "en": "&e()Please wait: <a> in progress.&d()&n()&e()Do not remove the Memory Card.&d()&n()",
    "slots": [
     84
    ],
@@ -172,7 +172,7 @@
   {
    "id": "save.0092",
    "jp": "&e()メモリーカードが初期化されていません&d()&n()",
-   "en": "&e()The memory card is not formatted.&d()&n()",
+   "en": "&e()The Memory Card is not formatted.&d()&n()",
    "slots": [
     92
    ],
@@ -183,7 +183,7 @@
   {
    "id": "save.0096",
    "jp": "&e()ガーディアンリコールの&d()&n()&e()システムファイルの存在する&d()&n()&e()メモリーカードを差し込んで下さい&d()&n()&e()よろしいですか？&d()&n()",
-   "en": "&e()Please insert a memory card&d()&n()&e()that holds the Guardian Recall&d()&n()&e()system file.&d()&n()&e()Is that OK?&d()&n()",
+   "en": "&e()Please insert a Memory Card&d()&n()&e()that holds the Guardian Recall&d()&n()&e()system file.&d()&n()&e()Is that OK?&d()&n()",
    "slots": [
     96
    ],
@@ -238,7 +238,7 @@
   {
    "id": "save.0116",
    "jp": "&e()メモリーカードが差されていません&d()&n()",
-   "en": "&e()No memory card is inserted.&d()&n()",
+   "en": "&e()No Memory Card is inserted.&d()&n()",
    "slots": [
     116
    ],
@@ -249,7 +249,7 @@
   {
    "id": "save.0120",
    "jp": "&e()注意：ゲーム中の<a>をするには&d()&n()&e()２ブロック以上空きのある&d()&n()&e()メモリーカードが必要です&d()&n()",
-   "en": "&e()Note: to <a> during the game,&d()&n()&e()you need a memory card with&d()&n()&e()2 or more free blocks.&d()&n()",
+   "en": "&e()Note: to <a> during the game,&d()&n()&e()you need a Memory Card with&d()&n()&e()2 or more free blocks.&d()&n()",
    "slots": [
     120
    ],
@@ -304,7 +304,7 @@
   {
    "id": "save.0140",
    "jp": "&e()メモリーカードが壊れています&d()&n()",
-   "en": "&e()The memory card is damaged.&d()&n()",
+   "en": "&e()The Memory Card is damaged.&d()&n()",
    "slots": [
     140
    ],
@@ -315,7 +315,7 @@
   {
    "id": "save.0144",
    "jp": "&e()クリア情報を<a>中です&d()&n()&e()メモリーカードを抜かないで下さい&d()&n()",
-   "en": "&e()Please wait: clear data <a> in progress.&d()&n()&e()Do not remove the memory card.&d()&n()",
+   "en": "&e()Please wait: clear data <a> in progress.&d()&n()&e()Do not remove the Memory Card.&d()&n()",
    "slots": [
     144
    ],
@@ -348,7 +348,7 @@
   {
    "id": "save.0156",
    "jp": "&e()再びメモリーカードをチェックします&d()&n()",
-   "en": "&e()Checking the memory card again.&d()&n()",
+   "en": "&e()Checking the Memory Card again.&d()&n()",
    "slots": [
     156
    ],
@@ -359,7 +359,7 @@
   {
    "id": "save.0160",
    "jp": "&e()<a>する場合はメモリーカードを差してください&d()&n()&e()&d()&n()&e()メモリーカードの準備はよろしいですか？&d()&n()",
-   "en": "&e()To <a>, please insert a memory card.&d()&n()&e()&d()&n()&e()Is the memory card ready?&d()&n()",
+   "en": "&e()To <a>, please insert a Memory Card.&d()&n()&e()&d()&n()&e()Is the Memory Card ready?&d()&n()",
    "slots": [
     160
    ],
@@ -381,7 +381,7 @@
   {
    "id": "save.0168",
    "jp": "&s(0,-20)&e()注意：ゲーム中の<a>をするには&d()&n()&e()システム（１ブロック）と&d()&n()&e()セーブデータ（１ブロック）を作成する為&d()&n()&e()２ブロック以上の空きのある&d()&n()&e()メモリーカードが必要です&d()&n()&s(0,0)",
-   "en": "&s(0,-20)&e()Note: to <a> during the game,&d()&n()&e()a system file (1 block) and&d()&n()&e()save data (1 block) are created,&d()&n()&e()so you need a memory card&d()&n()&e()with 2 or more free blocks.&d()&n()&s(0,0)",
+   "en": "&s(0,-20)&e()Note: to <a> during the game,&d()&n()&e()a system file (1 block) and&d()&n()&e()save data (1 block) are created,&d()&n()&e()so you need a Memory Card&d()&n()&e()with 2 or more free blocks.&d()&n()&s(0,0)",
    "slots": [
     168
    ],

@@ -17,7 +17,7 @@
   {
    "id": "g23.44.001",
    "jp": "真由\n「最近ね」\n{wait}",
-   "en": "Mayu\n\"Since recently.\"\n{wait}",
+   "en": "Mayu\n\"Just lately.\"\n{wait}",
    "slots": [
     1
    ],
@@ -798,7 +798,7 @@
   {
    "id": "g23.44.078",
    "jp": "真由\n「東京が占拠されたままんなっとる\n　訳がよ」\n{wait}「普通ん人に守護獣は見えんとやもん\n　・・・勝てる訳なかよ」\n{wait}",
-   "en": "Mayu\n\"Why Tokyo's still under their control.\"\n{wait}\"Normal folks can't see Guardians... There's no\nway they could win.\"\n{wait}",
+   "en": "Mayu\n\"No wonder Tokyo's still under their control.\"\n{wait}\"Normal folks can't see Guardians... There's no\nway they could win.\"\n{wait}",
    "slots": [
     78
    ],

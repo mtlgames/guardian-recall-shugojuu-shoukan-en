@@ -38,7 +38,7 @@
   {
    "id": "g13.02.003",
    "jp": "帽子：\n英国特殊戦闘員が落と\nしていった軍帽。\nＤｆ＋３\n",
-   "en": "Hat:\nA beret dropped by\na British commando.\nDf+3\n",
+   "en": "Hat:\nA military cap dropped\nby a British commando.\nDf+3\n",
    "slots": [
     3
    ],
@@ -336,7 +336,7 @@
   {
    "id": "g13.02.032",
    "jp": "アクセサリ：\n青龍こと聡美が持ち歩\nく扇。武器にもなる。\nＡｔ＋８\n",
-   "en": "Accessory:\nSatomi (Seiryu)'s\nfan. Also a weapon.\nAt+8\n",
+   "en": "Accessory:\nThe fan of Satomi, a.k.a.\nSeiryu. A weapon too.\nAt+8\n",
    "slots": [
     32
    ],
@@ -471,7 +471,7 @@
   {
    "id": "g13.02.065",
    "jp": "（幻魂丹）消費：\n幻獣の魂から産まれた\nとされる謎の漢方薬。\nＭｐ６０回復。\n",
-   "en": "Phantom Pill:\nA mystery remedy born\nof a phantom's soul.\nMp +60.\n",
+   "en": "Phantom Pill:\nA mystery remedy born\nof a mythical beast's soul.\nMp +60.\n",
    "slots": [
     65
    ],

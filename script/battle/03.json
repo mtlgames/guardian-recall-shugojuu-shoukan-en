@@ -108,7 +108,7 @@
   {
    "id": "g13.03.010",
    "jp": "（きあい）能力向上系：\n１ターンの間、接近戦力＆投射戦力を\n高める。\n",
-   "en": "(Focus) Ability Boost:\nRaises melee and ranged power for one turn.\n",
+   "en": "(Focus) Ability Boost:\nRaises Melee and Ranged for one turn.\n",
    "slots": [
     10
    ],
@@ -185,7 +185,7 @@
   {
    "id": "g13.03.017",
    "jp": "（いんえい）特殊状態系：\n１ターンの間、敵から攻撃をされなく\nなる。反撃も受けない。\n",
-   "en": "(Shadow) Special Status:\nFor one turn, enemies can't attack the unit. No\ncounterattacks either.\n",
+   "en": "(Shadow) Special Status:\nFor one turn, enemies can't attack the unit.\nEnemies won't counterattack it either.\n",
    "slots": [
     17
    ],
@@ -218,7 +218,7 @@
   {
    "id": "g13.03.020",
    "jp": "（ひりき）攻撃系：\n敵に使う。１ターンの間、接近戦力＆\n投射戦力を低下させる。\n",
-   "en": "(Weaken) Attack:\nUse on an enemy. Lowers its melee and ranged\npower for one turn.\n",
+   "en": "(Weaken) Attack:\nUse on an enemy. Lowers its Melee and Ranged\nfor one turn.\n",
    "slots": [
     20
    ],

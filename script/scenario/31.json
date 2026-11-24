@@ -280,7 +280,7 @@
   {
    "id": "g23.31.027",
    "jp": "ゆかり\n「たくましくなったわよ」\n{wait}",
-   "en": "Yukari\n\"You've gotten sturdier.\"\n{wait}",
+   "en": "Yukari\n\"You've gotten tougher.\"\n{wait}",
    "slots": [
     27
    ],
@@ -300,7 +300,7 @@
   {
    "id": "g23.31.029",
    "jp": "裕子\n「龍鬼妃・・・どこにいるんだい？」\n{wait}",
-   "en": "Yuko\n\"Ryukihi... Where is she?\"\n{wait}",
+   "en": "Yuko\n\"Ryukihi... Where's she at?\"\n{wait}",
    "slots": [
     29
    ],
@@ -320,7 +320,7 @@
   {
    "id": "g23.31.199",
    "jp": "美由紀\n「やっぱヘンだよね」\n{wait}「守護獣の話をすると、みんな言うこと\n　バラバラなの。マスターのイメージだ\n　とか、分身だとか、守護霊だとか」\n{wait}",
-   "en": "Miyuki\n\"It's kinda weird, huh?\"\n{wait}\"Whenever we talk about Guardians,\neverybody says something different. Like it's\nthe Master's image, or your other self, or a\n{wait}guardian spirit.\"\n{wait}",
+   "en": "Miyuki\n\"It's kinda weird, huh?\"\n{wait}\"Everybody says something different about\nGuardians. The Master's image, your other\nself, a guardian spirit.\"\n{wait}",
    "slots": [
     199
    ],
@@ -608,7 +608,7 @@
   {
    "id": "g23.31.227",
    "jp": "さやか\n「うにぃ、敵が多いのぉ～」\n{wait}",
-   "en": "Sayaka\n\"Ugh, there's so many enemies~\"\n{wait}",
+   "en": "Sayaka\n\"Ugh, there're so many ene-emies~\"\n{wait}",
    "slots": [
     227
    ],
@@ -688,7 +688,7 @@
   {
    "id": "g23.31.235",
    "jp": "さやか\n「あ、なんか落ちてる。ラッキー！」\n{wait}",
-   "en": "Sayaka\n\"Oh, something's on the ground. Lucky!\"\n{wait}",
+   "en": "Sayaka\n\"Oh, there's something on the\ngrou-ound~ Lucky!\"\n{wait}",
    "slots": [
     235
    ],
@@ -769,7 +769,7 @@
   {
    "id": "g23.31.243",
    "jp": "巴澄\n「それで終わりじゃないところが\n　つらいな・・・」\n{wait}",
-   "en": "Hasumi\n\"Too bad it doesn't end there...\"\n{wait}",
+   "en": "Hasumi\n\"The hard part is that it doesn't end there...\"\n{wait}",
    "slots": [
     243
    ],
@@ -840,7 +840,7 @@
   {
    "id": "g23.31.250",
    "jp": "るり\n（いるのだ・・・言い切り。\n　なに緊張してんだろ）\n{wait}（・・・？）\n{wait}（人に話しかけといて、\n　緊張するって事は・・・\n　まさか・・・！）\n{wait}",
-   "en": "Ruri\n(It senses... so dramatic. What's he so\ntense about?)\n{wait}(...?)\n{wait}(He talks to me, and he's nervous... That\nmeans... could it be...!)\n{wait}",
+   "en": "Ruri\n(It senses... he always states it so flatly.\nWhat's he so tense about?)\n{wait}(...?)\n{wait}(He talks to me, and he's nervous... That\nmeans... could it be...!)\n{wait}",
    "slots": [
     250
    ],
@@ -870,7 +870,7 @@
   {
    "id": "g23.31.253",
    "jp": "武神\n「伝説の七龍の復活・・・いったい、\n　なにを意味しているのか」\n{wait}「お主、どう見る？」\n{wait}",
-   "en": "Takegami\n\"The revival of the legendary Seven\nDragons... what could it mean?\"\n{wait}\"How do you see it?\"\n{wait}",
+   "en": "Takegami\n\"The revival of the legendary Seven\nDragons... what could it mean?\"\n{wait}\"What say you?\"\n{wait}",
    "slots": [
     253
    ],

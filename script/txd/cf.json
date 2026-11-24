@@ -112,7 +112,7 @@
   {
    "id": "cf.0042",
    "jp": "&s(165,87)&c(7)&g(13,16)明るくいつも元気、好奇心盛んで、かつ天然ボケな女の子。国会議事堂で天龍の魂を持つ者として覚醒した。",
-   "en": "&s(165,87)&c(7)&g(13,16)A cheerful,&n()ever-energetic girl and a&n()born airhead. Awakened&n()to the Sky Dragon's soul&n()at the National Diet&n()Building.",
+   "en": "&s(165,87)&c(7)&g(13,16)A cheerful,&n()ever-energetic, curious&n()girl and a born airhead.&n()Awakened to the Sky&n()Dragon's soul at the&n()National Diet Building.",
    "slots": [
     42
    ],
@@ -854,7 +854,7 @@
   {
    "id": "cf.0189",
    "jp": "&s(165,87)&c(7)&g(13,16)接触テレパス。大地震で両親を失い、また、テレパシー能力のせいで少々内向的な性格になっている。二条城で飛龍の声を聞いた。",
-   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath.&n()Orphaned by the great&n()quake, her telepathy&n()made her a bit withdrawn.&n()Heard the Wind Dragon's&n()voice at Nijo Castle.",
+   "en": "&s(165,87)&c(7)&g(13,16)A touch telepath.&n()Orphaned by the great&n()quake; telepathy made&n()her a bit withdrawn.&n()Heard the Wind Dragon's&n()voice at Nijo Castle.",
    "slots": [
     189
    ],
@@ -2831,7 +2831,7 @@
   {
    "id": "cf.0617",
    "jp": "&s(165,87)&c(7)&g(13,16)荏狗覇菟の首領。人間に失望し日本全土を破壊し、浄化を行おうとたくらむ。外見は若く美しい女性だが、その素性は全く謎。",
-   "en": "&s(165,87)&c(7)&g(13,16)Leader of Egubado.&n()Disillusioned with&n()humanity, she plots to&n()destroy and purify Japan.&n()Young and lovely, but a&n()total mystery.",
+   "en": "&s(165,87)&c(7)&g(13,16)Leader of Egubado.&n()Disillusioned with&n()humanity, she plots to&n()destroy and purify Japan.&n()Looks young and lovely,&n()but her past is a mystery.",
    "slots": [
     617
    ],

@@ -518,7 +518,7 @@
   {
    "id": "g23.34.051",
    "jp": "めぐみ\n「フッ、無駄なことを。\n　よかろう、相手になってやる」\n{wait}「後悔しろ仁・・・\n　裏切りの報い、受け取れいっ」\n{wait}",
-   "en": "Megumi\n\"Hah, a pointless effort. Very well, I'll\ntake you on.\"\n{wait}\"Regret it, Jin... Receive the price of your\nbetrayal!\"\n{wait}",
+   "en": "Megumi\n\"Hah, a pointless effort. Very well, I'll\ntake you on.\"\n{wait}\"Regret it, Jin... Pay for your betrayal!\"\n{wait}",
    "slots": [
     51
    ],
@@ -548,7 +548,7 @@
   {
    "id": "g23.34.201",
    "jp": "晶\n「むうう～」\n{wait}「ならば“こんな事もあろうかと\n　ひそかに開発してあるハズ”の\n　新必殺技が・・・っ！」\n{wait}",
-   "en": "Akira\n\"Mmmph~\"\n{wait}\"Then the new finishing move that 'I surely\ndeveloped in secret in case something like this\nhappened'...!\"\n{wait}",
+   "en": "Akira\n\"Mmmph~\"\n{wait}\"Then my new finishing move, 'secretly\ndeveloped in case something like this\nhappened'...!\"\n{wait}",
    "slots": [
     201
    ],
@@ -620,7 +620,7 @@
   {
    "id": "g23.34.208",
    "jp": "るり\n「そんなんばっかし」\n{wait}「あんたたちはイイケドね。\n　強いから」\n{wait}",
-   "en": "Ruri\n\"It's always that with you.\"\n{wait}\"It's fine for you guys. You're strong.\"\n{wait}",
+   "en": "Ruri\n\"It's always 'no choice' with you.\"\n{wait}\"It's fine for you guys. You're strong.\"\n{wait}",
    "slots": [
     208
    ],

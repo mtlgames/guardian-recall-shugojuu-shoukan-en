@@ -38,7 +38,7 @@
   {
    "id": "dic.0004",
    "jp": "阿那律&n()&n()あなりつ　北海道&n()方面の監視をまか&n()されていた&c(2)闘士&c(0)。&n()&c(2)守護獣&c(0)は&c(4)長射双砲&n()蟹&c(0)。&c(2)大雪山&c(0)の&c(2)龍脈&c(0)&n()を解放した&c(1)裕子&c(0)ら&n()を&c(2)青函トンネル&c(0)で&n()迎え討つが、あえ&n()なく敗れた。&n()",
-   "en": "Anaritsu&n()&n()A &c(2)Warrior&c(0) watching&n()Hokkaido. &c(2)Guardian&c(0): &c(4)&n()Long Gun Crab&c(0).&n()Ambushed &c(1)Yuko&c(0)'s&n()group in the &c(2)Seikan&n()Tunnel&c(0) after they&n()freed the &c(2)dragon&n()vein&c(0) of &c(2)Mt. Taisetsu&c(0).&n()Lost fast.",
+   "en": "Anaritsu&n()&n()A &c(2)Warrior&c(0) watching&n()Hokkaido. &c(2)Guardian&c(0): &c(4)&n()Long Gun Crab&c(0).&n()Ambushed &c(1)Yuko&c(0)'s&n()group in the &c(2)Seikan&n()Tunnel&c(0) after they&n()freed the &c(2)dragon&n()vein&c(0) of &c(2)Mt. Taisetsu&c(0),&n()but lost easily.",
    "slots": [
     4
    ],
@@ -122,7 +122,7 @@
   {
    "id": "dic.0016",
    "jp": "岩見沢家&n()&n()いわみざわけ　代&n()々&c(2)大雪山&c(0)の&c(2)龍脈&c(0)を&n()守っていた一族。&n()&c(2)大雪山&c(0)の&c(2)龍脈&c(0)だけ&n()が&c(2)荏狗覇菟&c(0)に奪わ&n()れてなかったのは&n()この一族の力によ&n()る。現時点では生&n()き残りは&c(1)唯&c(0)のみ。&n()",
-   "en": "Iwamizawa Family&n()&n()Guarded the &c(2)dragon&n()vein&c(0) of &c(2)Mt. Taisetsu&c(0)&n()for generations;&n()thanks to them, &c(2)&n()Egubado&c(0) never took&n()that &c(2)dragon vein&c(0) of &c(2)&n()Mt. Taisetsu&c(0). &c(1)Yui&c(0) is&n()the last survivor.",
+   "en": "Iwamizawa Family&n()&n()Guarded the &c(2)dragon&n()vein&c(0) of &c(2)Mt. Taisetsu&c(0)&n()for generations;&n()thanks to them, &c(2)Mt.&n()Taisetsu&c(0)'s was the&n()one &c(2)dragon vein&c(0) &c(2)&n()Egubado&c(0) never&n()took. &c(1)Yui&c(0) is the last&n()survivor.",
    "slots": [
     16
    ],
@@ -928,7 +928,7 @@
   {
    "id": "dic.0130",
    "jp": "新宿中央公園&n()&n()しんじゅくちゅう&n()おうこうえん　新&n()宿都庁の横に広が&n()る公園。ちなみに&n()その都庁の方は&c(2)列&n()島大地震&c(0)でブッ壊&n()れたようで登場し&n()ない。&n()",
-   "en": "Shinjuku Central&n()Park&n()&n()A park beside the&n()Tokyo Metropolitan&n()Government&n()Building, which&n()seems to have been&n()wrecked in the &c(2)&n()Great Archipelago&n()Earthquake&c(0).",
+   "en": "Shinjuku Central&n()Park&n()&n()A park beside the&n()Tokyo Metropolitan&n()Government&n()Building, which the &c(2)&n()Great Archipelago&n()Earthquake&c(0)&n()wrecked, so it's not&n()in the game.",
    "slots": [
     130
    ],
@@ -1118,7 +1118,7 @@
   {
    "id": "dic.0157",
    "jp": "１９９９年&n()&n()１９９９ねん　二&n()十世紀最後の年。&n()・・・は２０００&n()年。正確には１年&n()前。いろんな作品&n()でいろんなことが&n()起きる予定の年。&n()本作品では&c(2)列島大&n()地震&c(0)が発生した。&n()",
-   "en": "1999&n()&n()The last year of the&n()20th century. ...No,&n()that's 2000; this is&n()the year before.&n()The year all kinds of&n()stories set things in.&n()Here, the &c(2)Great&n()Archipelago&n()Earthquake&c(0) struck.",
+   "en": "1999&n()&n()The last year of the&n()20th century. ...No,&n()that's 2000; this is&n()the year before.&n()The year so many&n()stories pick for big&n()events. Here, the &c(2)&n()Great Archipelago&n()Earthquake&c(0) struck.",
    "slots": [
     157
    ],

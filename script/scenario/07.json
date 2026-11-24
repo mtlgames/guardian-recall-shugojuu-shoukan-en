@@ -254,7 +254,7 @@
   {
    "id": "g23.07.024",
    "jp": "景子\n「余計な事、言うから・・・たいてい\n　イヤがられちゃう」\n{wait}「周りにいた大人はみんな、\n　私に触れるのイヤがってました。\n　ううん・・・怖がってた」\n{wait}",
-   "en": "Keiko\n\"I say things I shouldn't... so people usually\nend up hating it.\"\n{wait}\"All the grown-ups around me hated touching\nme. No... they were afraid.\"\n{wait}",
+   "en": "Keiko\n\"I say things I shouldn't... so people usually\nend up put off by me.\"\n{wait}\"All the grown-ups around me hated touching\nme. No... they were afraid.\"\n{wait}",
    "slots": [
     24
    ],
@@ -274,7 +274,7 @@
   {
    "id": "g23.07.026",
    "jp": "景子\n「あなたも・・・！」\n{wait}",
-   "en": "Keiko\n\"Are you...!\"\n{wait}",
+   "en": "Keiko\n\"You too...!\"\n{wait}",
    "slots": [
     26
    ],

@@ -178,7 +178,7 @@
   {
    "id": "g23.29.017",
    "jp": "瞳\n「・・・そうだろうな」\n{wait}",
-   "en": "Hitomi\n\"...I'm sure you didn't.\"\n{wait}",
+   "en": "Hitomi\n\"...I figured as much.\"\n{wait}",
    "slots": [
     17
    ],
@@ -801,7 +801,7 @@
   {
    "id": "g23.29.219",
    "jp": "巴澄\n「大雪では世話になったな」\n{wait}",
-   "en": "Hasumi\n\"Thanks for looking after me back at\nTaisetsu.\"\n{wait}",
+   "en": "Hasumi\n\"Thanks for looking after me back at Mt.\nTaisetsu.\"\n{wait}",
    "slots": [
     219
    ],

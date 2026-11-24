@@ -48,7 +48,7 @@
   {
    "id": "g23.58.004",
    "jp": "このマークが戦闘補助系超力だ。\n{wait}この戦闘補助系の超力の特徴として、\n持続時間が１戦闘のみってのがある。\n{wait}そんなに短いの？　と思うかもしれない\nけど、一度かけると１回戦闘するまで何\nターンでも持続するんだ。\n{wait}ためしに『幸運』をかけてみよう。\n{wait}",
-   "en": "This mark means battle-support Psi.\n{wait}A feature of battle-support Psi is that it\nlasts for only one battle.\n{wait}That short? you might think, but once it's on,\nit lasts however many turns it takes until one\nbattle happens.\n{wait}Let's try using 'Luck'.\n{wait}",
+   "en": "This mark means battle-support Psi.\n{wait}A feature of battle-support Psi is that it\nlasts for only one battle.\n{wait}You might think, \"That short?\" But once it's\non, it lasts however many turns it takes until\none battle happens.\n{wait}Let's try using 'Luck'.\n{wait}",
    "slots": [
     4
    ],
@@ -166,7 +166,7 @@
   {
    "id": "g23.58.015",
    "jp": "このマークが特殊状態化超力。\n{wait}名前からしてわかりにくいが効果も非常\nに特殊な超力だ。\n{wait}最初はこの系統は無視してても構わない\nかな。他の系統の超力に慣れてきてから\n使えばいい。\n{wait}この系統の超力を使えないとゲームが進\nめないってことは無いしね。\n{wait}逆に使いこなせると、いろいろと役に立\nつ超力でもある。\n{wait}ちなみにこの系統も能力向上系と同じく\n持続は１ターンのみだ。有効に使おう。\n{wait}",
-   "en": "This mark means special-status Psi.\n{wait}The name doesn't tell you much, and the\neffects are very special too.\n{wait}At first, it's fine to ignore this type. Use it\nonce you're used to the other types of Psi.\n{wait}It's not as if you can't progress without this\ntype of Psi.\n{wait}Then again, once you master it, it's Psi that\ncomes in handy in all sorts of ways.\n{wait}By the way, like ability-boost Psi, this type\nalso lasts only one turn. Use it wisely.\n{wait}",
+   "en": "This mark means special-status Psi.\n{wait}The name doesn't tell you much, and the\neffects are quite unusual too.\n{wait}At first, it's fine to ignore this type. Use it\nonce you're used to the other types of Psi.\n{wait}It's not as if you can't progress without this\ntype of Psi.\n{wait}Then again, once you master it, it's useful in\nall sorts of ways.\n{wait}By the way, like ability-boost Psi, this type\nalso lasts only one turn. Use it wisely.\n{wait}",
    "slots": [
     15
    ],

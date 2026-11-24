@@ -68,7 +68,7 @@
   {
    "id": "g23.36.006",
    "jp": "琴音\n「私たち、このまま・・・」\n{wait}",
-   "en": "Kotone\n\"Are we going to...\"\n{wait}",
+   "en": "Kotone\n\"Are we just going to...\"\n{wait}",
    "slots": [
     6
    ],
@@ -168,7 +168,7 @@
   {
    "id": "g23.36.016",
    "jp": "知美\n「まあ・・・往生際の悪い」\n{wait}",
-   "en": "Tomomi\n\"My... such sore losers.\"\n{wait}",
+   "en": "Tomomi\n\"My... you just don't know when to quit.\"\n{wait}",
    "slots": [
     16
    ],
@@ -379,7 +379,7 @@
   {
    "id": "g23.36.205",
    "jp": "ちかな\n「なぁーんか、思ってた通りの展開に\n　なっちまった」\n{wait}",
-   "en": "Chikana\n\"Things went just the way I figured\nthey would.\"\n{wait}",
+   "en": "Chikana\n\"Man, things turned out just the way I\nfigured.\"\n{wait}",
    "slots": [
     205
    ],
@@ -440,7 +440,7 @@
   {
    "id": "g23.36.211",
    "jp": "ちかな\n「出た出た」\n{wait}",
-   "en": "Chikana\n\"Yeah, yeah.\"\n{wait}",
+   "en": "Chikana\n\"Yep, sure am!\"\n{wait}",
    "slots": [
     211
    ],

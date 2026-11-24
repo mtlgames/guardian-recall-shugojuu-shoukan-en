@@ -232,6 +232,7 @@ in the English; `/` separates alternatives; Avoid spellings fail). Readings come
 | 超力ポイント | Psi Points | | AP | |
 | 思考ポイント | Tactic Points | | MP | |
 | 気力ポイント | Spirit Points | | SP | |
+| 簡易ステータス | short status | | the small status panel at the bottom of the map (tutorials 56-59) | |
 | 治癒 | Cure / heal | | Psi "Cure"; the healing skill (Short/Long/Heal ranks) = "healing", 治癒行動経験値 = healing skill EXP | |
 | 岩楯 | Rock Shield | | Psi | |
 | 加護 | Blessing | | Psi | |

@@ -49,7 +49,7 @@
   {
    "id": "g23.61.004",
    "jp": "前のステップでの『私を守護せよ』の時\nの守護獣の行動を思い出してほしい。\n{wait}『私を守護せよ』ではマスターと敵が離\nれている場合は、攻撃をしかけようとせ\nずにマスターの側に寄ってきたよね。\n{wait}今回の『攻撃せよ』はマスターを無視し\nて、敵の方へまっすぐ攻撃しにいった。\n{wait}つまりは『攻撃せよ』は\n敵の方へ敵の方へと進んで攻撃をしかけ\nる好戦的な思考ってわけだ。\n{wait}",
-   "en": "Think back to how the Guardian acted under\n'Guard me!' in the previous step.\n{wait}With 'Guard me!', when the Master and the\nenemy were apart, it didn't try to attack. It\nstayed by its Master's side, right?\n{wait}This time, with 'Attack!', it ignored its Master\nand went straight for the enemy.\n{wait}In other words, 'Attack!' is an aggressive\nTactic that keeps pushing toward the enemy\nto attack.\n{wait}",
+   "en": "Think back to how the Guardian acted under\n'Guard me!' in the previous step.\n{wait}With 'Guard me!', when the Master and the\nenemy were apart, it didn't try to attack. It\ncame back to its Master's side, right?\n{wait}This time, with 'Attack!', it ignored its Master\nand went straight for the enemy.\n{wait}In other words, 'Attack!' is an aggressive\nTactic that keeps pushing toward the enemy\nto attack.\n{wait}",
    "slots": [
     4
    ],
@@ -82,7 +82,7 @@
   {
    "id": "g23.61.007",
    "jp": "『命令実行』どころかユニットコマンド\nの『思考』そのものが実行できなくなっ\nているのがわかるね。\n{wait}当然、『思考変更』もできなくなるって\nわけだ。\n{wait}だから『命令実行』は、この思考で本当\nに大丈夫か、というのをしっかり考えて\nから実行するようにしよう。\n{wait}",
-   "en": "See? Not just 'Execute Order': the unit\ncommand 'Tactic' itself can't be used\nanymore.\n{wait}So naturally, 'Change Tactic' is out too.\n{wait}That's why you should only 'Execute Order'\nafter thinking hard about whether this Tactic\nis really OK.\n{wait}",
+   "en": "See? Not only can't you 'Execute Order'\nagain, the unit command 'Tactic' itself can't\nbe used anymore.\n{wait}So naturally, 'Change Tactic' is out too.\n{wait}That's why you should only 'Execute Order'\nafter thinking hard about whether this Tactic\nis really OK.\n{wait}",
    "slots": [
     7
    ],

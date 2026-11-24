@@ -329,7 +329,7 @@
   {
    "id": "g23.32.211",
    "jp": "美由紀\n「・・・いやみだ」\n{wait}「真由ちゃん、あたしが天龍でホントは\n　ガッカリしたんでしょ」\n{wait}「どーせ・・・あたしじゃ頼りなくて\n　イヤなんでしょ。わかってるもん」\n{wait}",
-   "en": "Miyuki\n\"...That's sarcasm.\"\n{wait}\"Mayu-chan, you were really disappointed I'm\nthe Sky Dragon, weren't you?\"\n{wait}\"I bet... you hate it 'cause I'm so unreliable. I\nknow it.\"\n{wait}",
+   "en": "Miyuki\n\"...That's so snide.\"\n{wait}\"Mayu-chan, you were really disappointed I'm\nthe Sky Dragon, weren't you?\"\n{wait}\"I bet... you hate it 'cause I'm so unreliable. I\nknow it.\"\n{wait}",
    "slots": [
     211
    ],

@@ -972,7 +972,7 @@
   {
    "id": "g23.12.095",
    "jp": "「裕子、みんなにも、分かって欲しい」\n{wait}「私と直江は、いつか荏狗覇菟を倒す\n　ために戦って来たわ。私たちの国を\n　奴らの毒牙から護るために」\n{wait}「だから、これは直江の意志でも\n　あるのよ。今までは受け身だったけど\n　これからは違う」\n{wait}「お願い、あなた方の力が必要なの。\n　私に協力して」\n{wait}",
-   "en": "\"Yuko, everyone, I want you to understand.\"\n{wait}\"Naoe and I have been fighting so that\nsomeday we can defeat the Egubado. To\nprotect our country from their\n{wait}poisonous fangs.\"\n{wait}\"So this is Naoe's will too. Until now we've only\nreacted, but from here on, that changes.\"\n{wait}\"Please, I need your strength. Help me.\"\n{wait}",
+   "en": "\"Yuko, everyone, I want you to understand.\"\n{wait}\"Naoe and I fight so that someday we can\ndefeat the Egubado. To protect our country\nfrom their poisonous fangs.\"\n{wait}\"So this is Naoe's will too. Until now we've only\nreacted, but from here on, that changes.\"\n{wait}\"Please, I need your strength. Help me.\"\n{wait}",
    "slots": [
     95
    ],
@@ -1092,7 +1092,7 @@
   {
    "id": "g23.12.106",
    "jp": "唯\n「わたし、やっぱり・・・鏡を追うわ」\n{wait}「わたしのために捕まったのに、\n　知らん顔なんかできない」\n{wait}",
-   "en": "Yui\n\"I'm sorry... I'm going after Kagami.\"\n{wait}\"She was captured because of me. I can't\njust pretend I don't know.\"\n{wait}",
+   "en": "Yui\n\"I've thought it over... I'm going after\nKagami.\"\n{wait}\"She was captured because of me. I can't\njust pretend I don't know.\"\n{wait}",
    "slots": [
     106
    ],

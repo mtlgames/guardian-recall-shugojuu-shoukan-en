@@ -3,116 +3,116 @@
 Minor review findings, fixed or waived in one polish pass before release (`- [ ] id - note`; tick `[x]` with the fix
 or `waived: reason`).
 
-- [ ] g23.00.001 - 最近ね "...Since recently." reads stiff: "...Just lately."
+- [x] g23.00.001 - 最近ね "...Since recently." reads stiff: "...Just lately." -> fixed (polish01, 2026-11-25)
 - [x] g23.01.016 - 知美 いらっしゃいな is silky, not curt: fixed as Important (docs/review.md b004)
 - [x] g23.04.047 - 由美 フフフッ = a low chuckle, not "Hahaha": fixed as Important (b008)
-- [ ] g23.07.024 - イヤがられちゃう: "people usually end up hating it" -> "people usually end up put off by me"
-- [ ] g23.07.026 - あなたも・・・！ = "You too...!" (was "Are you...!")
-- [ ] g23.11.017 - 例えじゃないわ: "It's no 'for example.'" -> "It's not just an example."
-- [ ] g23.12.106 - "I'm sorry..." not in JP (やっぱり): "After all... I'm going after Kagami."
-- [ ] g23.13.128 - narration ・・・ given quotes; narration takes none: "............" -> ............
-- [ ] g23.14.204 - "punished by I, Akira Ikazuchi" -> "by me, Akira Ikazuchi" (unless the grammar slip is meant as her stiffness)
-- [ ] g23.17.064 - 言う言う: "She said it, she said it." -> "Listen to her!"
-- [ ] g23.17.204 - 反省してるわ: "I've been reflecting on it..." -> "I know. I overdid it..."
-- [ ] g23.21.019 - "yes indeed" on a question reads odd: drop it
-- [ ] g23.23.037 - "Why not starting today instead of someday?" -> "Why wait? How about starting today?"
-- [ ] g23.24.018 - まだかな: "Are they back yet..." -> "I wonder when they'll be back..."
-- [ ] g23.25.037 - "yes indeed!?" on a question: drop it
+- [x] g23.07.024 - イヤがられちゃう: "people usually end up hating it" -> "people usually end up put off by me" -> fixed (polish01, 2026-11-25)
+- [x] g23.07.026 - あなたも・・・！ = "You too...!" (was "Are you...!") -> fixed (polish01, 2026-11-25)
+- [x] g23.11.017 - 例えじゃないわ: "It's no 'for example.'" -> "It's not just an example." -> fixed (polish01, 2026-11-25)
+- [x] g23.12.106 - "I'm sorry..." not in JP (やっぱり): "After all... I'm going after Kagami." -> fixed (polish01, 2026-11-25)
+- [x] g23.13.128 - narration ・・・ given quotes; narration takes none: "............" -> ............ -> fixed (polish01, 2026-11-25)
+- [x] g23.14.204 - "punished by I, Akira Ikazuchi" -> "by me, Akira Ikazuchi" (unless the grammar slip is meant as her stiffness) -> fixed (polish01, 2026-11-25)
+- [x] g23.17.064 - 言う言う: "She said it, she said it." -> "Listen to her!" -> fixed (polish01, 2026-11-25)
+- [x] g23.17.204 - 反省してるわ: "I've been reflecting on it..." -> "I know. I overdid it..." -> fixed (polish01, 2026-11-25)
+- [x] g23.21.019 - "yes indeed" on a question reads odd: drop it -> fixed (polish01, 2026-11-25)
+- [x] g23.23.037 - "Why not starting today instead of someday?" -> "Why wait? How about starting today?" -> fixed (polish01, 2026-11-25)
+- [x] g23.24.018 - まだかな: "Are they back yet..." -> "I wonder when they'll be back..." -> fixed (polish01, 2026-11-25)
+- [x] g23.25.037 - "yes indeed!?" on a question: drop it -> fixed (polish01, 2026-11-25)
 - [x] g23.29.016 - あんたなんて！: fixed as Important (b032)
 - [x] g23.32.210 - 余裕やね: fixed as Important (b035)
-- [ ] g23.36.016 - 往生際の悪い = won't give up (cf. 27.022): "such sore losers" -> "you just don't know when to quit"
-- [ ] g23.44.001 - same as g23.00.001 ("Since recently.")
-- [ ] g23.44.078 - 訳がよ: "Why Tokyo's still under their control." -> "No wonder Tokyo's still under their control."
-- [ ] g23.49.336 - そうだな: "...I see." -> "...I suppose so." (Miyuki answers "...Right!?")
-- [ ] g23.06.002 - 舎利ちゃん is Reiko's cute clipping: "Shari-chan" (glossary allows 舎利 = Sharihotsu; consider a nickname note)
-- [ ] g13.13.019 - 巴澄 その時はよろしくな: "Take care of me when we do." -> "I'll be counting on you then."
-- [ ] cf.0189 - dangling modifier "Orphaned by the great quake, her telepathy made her..." -> "Orphaned by the great quake and made a bit withdrawn by her telepathy."
-- [ ] day.0008 - double "just": "isn't just the Kamikado's problem, just mine, anymore" -> "isn't just the Kamikado's problem, mine alone, anymore"
-- [ ] dic.0016 - repeats "dragon vein of Mt. Taisetsu": "thanks to them, it was the one vein Egubado never took."
-- [ ] dic.0157 - "The year all kinds of stories set things in." -> "The year so many stories pick for big events."
-- [ ] gd.0139 - "with more mobility, its weak point" reads as if mobility were still weak -> "with better mobility, once its weak point"
-- [ ] Memory Card - EXE/overlay messages (action.*) say "Memory Card", save.* txd says "memory card": pick one (Sony style = "MEMORY CARD"/"Memory Card")
-- [ ] g23.26.234 - 美里 組みたくない: "I do not want to be on your team" stiff -> "I don't wanna be on your team..."
-- [ ] g23.27.032, 27.201 - めぐみ ほざくな: "Silence!" -> "Hold your tongue!" / "Don't spout nonsense!"
-- [ ] g23.27.042 - ちかな そろそろいいかな: "About time, I'd say." -> "Time to move, I guess?"
-- [ ] g23.28.047 - るり もういいわよね？: "It's time now, right?" -> "It's okay now, right?"
-- [ ] g23.28.007 - 真由 どげんでんよか: "I don't care none" -> "I don't care 'bout your reasons."
-- [ ] g23.29.017 - 瞳 そうだろうな: "I'm sure you didn't." -> "I figured as much."
-- [ ] g23.28.012 - 麗子: "re-gret" -> "I'll make you re-gret it~"
-- [ ] g23.30.006 - 知美 ご苦労様ね: "Well, you've come a long way" (more mocking)
-- [ ] g23.29.219 - 大雪 "Taisetsu" -> "Mt. Taisetsu" (JP abbreviates; optional)
-- [ ] g23.31.250 - るり on Takegami's flat declaratives: "so dramatic" -> "he always states it so flatly"
-- [ ] g23.31.253 - 武神 お主、どう見る？ -> "What say you?"
-- [ ] g23.31.243 - 巴澄 つらいな: "Too bad" -> "The hard part is that it doesn't end there..."
-- [ ] g23.31.227 (+31.235/237) - さやか drawl light: "There're so many ene-emies~"
-- [ ] g23.31.029 - 裕子 どこにいるんだい: "Where's she at?" (optional)
-- [ ] g23.31.027 - ゆかり たくましく: "sturdier" -> "tougher"
-- [ ] g23.32.211 - 美由紀 いやみだ: "That's sarcasm." -> "That's so snide."
-- [ ] g23.34.002 - 美里 漢字四つじゃない: "Not a four-character idiom this time?"
-- [ ] g23.33.027 - 知美 ４人がかりでもない: a touch silkier
-- [ ] g23.34.051 - 玄武 受け取れいっ: "Receive the price" -> "Pay for your betrayal!"
-- [ ] g23.34.201 - 晶 ハズ joke clunky: "that new finishing move 'secretly developed in case something like this happened'...!"
-- [ ] g23.35.005 - "everybody's not here" -> "But the others aren't here!"
-- [ ] g23.35.002 - "This fortress really flies?" -> "Does this fortress really fly?"
-- [ ] g23.34.208 - るり そんなんばっかし: "It's always 'no choice' with you."
-- [ ] g23.36.006 - 琴音 このまま dropped: "Are we just going to..."
-- [ ] g23.36.205 - ちかな なぁーんか: "Man, things turned out just the way I figured."
-- [ ] g23.36.211 - ちかな 出た出た: "Yeah, yeah." reads dismissive -> "Yep, totally back."
-- [ ] g23.38.022 - 瞳 "control it through it" clumsy
-- [ ] g23.37.205 - 美里 ばかね: "You idiot, stay back."
-- [ ] g23.38.042 - 聡美 どうだか: "If you say so" -> "...Is that so."
-- [ ] g23.41.016 - 晶 やったです: "We did it, yes indeed!" (optional lighter)
-- [ ] g23.43.022 - page split: "Yeah! She doesn't seem to be here, though..." / "This is the right way, isn't it?"
-- [ ] g23.43.007 - 可愛がってた: "little pet" adds a sneer -> "I know you doted on Yumi"
-- [ ] g23.43.025 - 真由 なんって: "What do you mean, 'what'..."
-- [ ] g23.43.089 - 真由 もー...信用せんけんねー: "No way. I ain't trustin' you anymore, hmph."
-- [ ] g23.43.094 - 白虎 やるわね: "Hmm... Not bad, I'll give you that."
-- [ ] g23.49.319 - 仁 ついさっきからな: "Since just a moment ago."
-- [ ] g23.49.346 - 美由紀 そっかぁ、よかったー: "I see! Phew."
-- [ ] g23.49.301 - 美由紀 ひょっとして: "Maybe I'm... lost...?"
-- [ ] g23.49.390 - 麗子 見間違いじゃないの: "Couldn't they have just seen wrong?"
-- [ ] g23.49.517 - 瞳 頼りなくてしょうがない: "Watching you, I can't help thinking you're unreliable."
-- [ ] g23.49.524 - 鈴音 バレバレだっつーの: "That's so obvious."
-- [ ] g23.49.501 - 美由紀 蘭ちゃんだね: "Ran-chan, huh? I'm Miyuki!"
-- [ ] g23.52.008 - MP is the Master's: "you let your MP recover"
-- [ ] g23.52.007 - "MP (Tactic Points) is used up"
-- [ ] g23.52.001 - "in the 'Action' command"
-- [ ] g23.51.016 - "again" added (harmless)
-- [ ] g23.56.001 - "I'll summon one now."
-- [ ] g23.56.002 - "just the Summon action alone uses up 20 MP"
-- [ ] g23.55.011 - "Charging" reads as the Charge Tactic -> "Rushing the enemy is fine, but..."
-- [ ] g23.59.008, 64.008 - "against 'Master', the Masters" -> "against 'Master' (that is, the Masters)"
-- [ ] g23.58.015 - "once you master it, it's useful in all sorts of ways"; "the effects are quite unusual too"
-- [ ] g23.61.004 - 寄ってきた: "It came back to its Master's side, right?"
-- [ ] g23.61.008 (+61.005/006) - menu name as verb: "unless you change the Tactic again"
-- [ ] g23.61.007 - "Not only can't you 'Execute Order' again, ..."
-- [ ] g23.62.005, 67.005 - "ranged attack power (Al)" vs "Healing (Hl)": one form, capitalised per glossary
-- [ ] g23.62.010, 67.010 - "since none of them have one" -> "since none of your allies has a rank-D skill"
-- [ ] g23.63.008 - "NO" in double quotes -> 'NO'
-- [ ] g23.66.020 - 自分の直線ライン: "in a straight line with the Guardian"
-- [ ] g23.66.022, 64.007, 66.017 - EN page split mid-sentence (see orphan pages)
-- [ ] g13.00.023 - 手応えのない: "Not a shred of a challenge in that lot."
-- [ ] g13.02.003 - 軍帽 = military cap, not beret
-- [ ] g13.02.032 - "The fan Satomi (a.k.a. Seiryu) carries." (match .029-.031)
-- [ ] g13.02.065 - 幻獣 = mythical beast, not "phantom"
-- [ ] g13.03.017 - "Enemies won't counterattack it either."
-- [ ] g13.04.004 - "Does nothing if there is no target."
-- [ ] g13.03.010/020, 04.008-010 - Melee/Ranged/Healing capitalised as in the glossary
-- [ ] g13.05.012 - "defense"/"Defense" in one entry: "Defense" both
-- [ ] g13.05.007 - "They start out as plain Guardians."
-- [ ] g23.54.021 - "block" vs "squares" in one tutorial: "at least 3 blocks away"
-- [ ] g23.54.012 - いい感じだよ: "Pretty nice, huh?"
-- [ ] g23.58.004 - "That short? you might think," -> "You might think, 'That short?' But..."
-- [ ] g23.57.009 - "Then all that support is meaningless" -> "All that support goes to waste."
-- [ ] g23.56.014 - "Bring its Master next to it and 'Dismiss' it quickly."
-- [ ] 簡易ステータス "short status" (56-58): add a glossary row
-- [ ] orphan pages - the scenario fitter runs 1-3 words of a sentence onto their own {wait} page ("...against 'Sea'" / "and 'Wind'."):
+- [x] g23.36.016 - 往生際の悪い = won't give up (cf. 27.022): "such sore losers" -> "you just don't know when to quit" -> fixed (polish01, 2026-11-25)
+- [x] g23.44.001 - same as g23.00.001 ("Since recently.") -> fixed (polish01, 2026-11-25)
+- [x] g23.44.078 - 訳がよ: "Why Tokyo's still under their control." -> "No wonder Tokyo's still under their control." -> fixed (polish01, 2026-11-25)
+- [x] g23.49.336 - そうだな: "...I see." -> "...I suppose so." (Miyuki answers "...Right!?") -> fixed (polish01, 2026-11-25)
+- [x] g23.06.002 - 舎利ちゃん is Reiko's cute clipping: "Shari-chan" (glossary allows 舎利 = Sharihotsu; consider a nickname note) -> waived: glossary name Sharihotsu kept so players tie it to the guardian; -chan carries the cuteness
+- [x] g13.13.019 - 巴澄 その時はよろしくな: "Take care of me when we do." -> "I'll be counting on you then." -> fixed earlier (already "I'll be counting on you then.")
+- [x] cf.0189 - dangling modifier "Orphaned by the great quake, her telepathy made her..." -> "Orphaned by the great quake and made a bit withdrawn by her telepathy." -> fixed (polish01, 2026-11-25)
+- [x] day.0008 - double "just": "isn't just the Kamikado's problem, just mine, anymore" -> "isn't just the Kamikado's problem, mine alone, anymore" -> fixed earlier (already "isn't only the Kamikado's problem anymore. Not just mine.")
+- [x] dic.0016 - repeats "dragon vein of Mt. Taisetsu": "thanks to them, it was the one vein Egubado never took." -> fixed (polish01, 2026-11-25)
+- [x] dic.0157 - "The year all kinds of stories set things in." -> "The year so many stories pick for big events." -> fixed (polish01, 2026-11-25)
+- [x] gd.0139 - "with more mobility, its weak point" reads as if mobility were still weak -> "with better mobility, once its weak point" -> fixed (polish01, 2026-11-25)
+- [x] Memory Card - EXE/overlay messages (action.*) say "Memory Card", save.* txd says "memory card": pick one (Sony style = "MEMORY CARD"/"Memory Card") -> fixed (polish01): save.* txd now "Memory Card" like action.*
+- [x] g23.26.234 - 美里 組みたくない: "I do not want to be on your team" stiff -> "I don't wanna be on your team..." -> fixed (polish01, 2026-11-25)
+- [x] g23.27.032, 27.201 - めぐみ ほざくな: "Silence!" -> "Hold your tongue!" / "Don't spout nonsense!" -> fixed (polish01, 2026-11-25)
+- [x] g23.27.042 - ちかな そろそろいいかな: "About time, I'd say." -> "Time to move, I guess?" -> fixed (polish01, 2026-11-25)
+- [x] g23.28.047 - るり もういいわよね？: "It's time now, right?" -> "It's okay now, right?" -> fixed (polish01, 2026-11-25)
+- [x] g23.28.007 - 真由 どげんでんよか: "I don't care none" -> "I don't care 'bout your reasons." -> fixed (polish01, 2026-11-25)
+- [x] g23.29.017 - 瞳 そうだろうな: "I'm sure you didn't." -> "I figured as much." -> fixed (polish01, 2026-11-25)
+- [x] g23.28.012 - 麗子: "re-gret" -> "I'll make you re-gret it~" -> fixed (polish01, 2026-11-25)
+- [x] g23.30.006 - 知美 ご苦労様ね: "Well, you've come a long way" (more mocking) -> fixed (polish01, 2026-11-25)
+- [x] g23.29.219 - 大雪 "Taisetsu" -> "Mt. Taisetsu" (JP abbreviates; optional) -> fixed (polish01, 2026-11-25)
+- [x] g23.31.250 - るり on Takegami's flat declaratives: "so dramatic" -> "he always states it so flatly" -> fixed (polish01, 2026-11-25)
+- [x] g23.31.253 - 武神 お主、どう見る？ -> "What say you?" -> fixed (polish01, 2026-11-25)
+- [x] g23.31.243 - 巴澄 つらいな: "Too bad" -> "The hard part is that it doesn't end there..." -> fixed (polish01, 2026-11-25)
+- [x] g23.31.227 (+31.235/237) - さやか drawl light: "There're so many ene-emies~" -> fixed (polish01, 2026-11-25)
+- [x] g23.31.029 - 裕子 どこにいるんだい: "Where's she at?" (optional) -> fixed (polish01, 2026-11-25)
+- [x] g23.31.027 - ゆかり たくましく: "sturdier" -> "tougher" -> fixed (polish01, 2026-11-25)
+- [x] g23.32.211 - 美由紀 いやみだ: "That's sarcasm." -> "That's so snide." -> fixed (polish01, 2026-11-25)
+- [x] g23.34.002 - 美里 漢字四つじゃない: "Not a four-character idiom this time?" -> waived: "No fancy idiom this time?" carries the tease for players who don't know yojijukugo
+- [x] g23.33.027 - 知美 ４人がかりでもない: a touch silkier -> fixed (polish01, 2026-11-25)
+- [x] g23.34.051 - 玄武 受け取れいっ: "Receive the price" -> "Pay for your betrayal!" -> fixed (polish01, 2026-11-25)
+- [x] g23.34.201 - 晶 ハズ joke clunky: "that new finishing move 'secretly developed in case something like this happened'...!" -> fixed (polish01, 2026-11-25)
+- [x] g23.35.005 - "everybody's not here" -> "But the others aren't here!" -> fixed (polish01, 2026-11-25)
+- [x] g23.35.002 - "This fortress really flies?" -> "Does this fortress really fly?" -> fixed (polish01, 2026-11-25)
+- [x] g23.34.208 - るり そんなんばっかし: "It's always 'no choice' with you." -> fixed (polish01, 2026-11-25)
+- [x] g23.36.006 - 琴音 このまま dropped: "Are we just going to..." -> fixed (polish01, 2026-11-25)
+- [x] g23.36.205 - ちかな なぁーんか: "Man, things turned out just the way I figured." -> fixed (polish01, 2026-11-25)
+- [x] g23.36.211 - ちかな 出た出た: "Yeah, yeah." reads dismissive -> "Yep, totally back." -> fixed (polish01, 2026-11-25)
+- [x] g23.38.022 - 瞳 "control it through it" clumsy -> fixed (polish01, 2026-11-25)
+- [x] g23.37.205 - 美里 ばかね: "You idiot, stay back." -> fixed (polish01, 2026-11-25)
+- [x] g23.38.042 - 聡美 どうだか: "If you say so" -> "...Is that so." -> fixed (polish01, 2026-11-25)
+- [x] g23.41.016 - 晶 やったです: "We did it, yes indeed!" (optional lighter) -> waived: "yes indeed" is Akira's verbal tic (style reference)
+- [x] g23.43.022 - page split: "Yeah! She doesn't seem to be here, though..." / "This is the right way, isn't it?" -> fixed (polish01, 2026-11-25)
+- [x] g23.43.007 - 可愛がってた: "little pet" adds a sneer -> "I know you doted on Yumi" -> fixed (polish01, 2026-11-25)
+- [x] g23.43.025 - 真由 なんって: "What do you mean, 'what'..." -> fixed earlier (already "What d'you mean, what...")
+- [x] g23.43.089 - 真由 もー...信用せんけんねー: "No way. I ain't trustin' you anymore, hmph." -> fixed (polish01, 2026-11-25)
+- [x] g23.43.094 - 白虎 やるわね: "Hmm... Not bad, I'll give you that." -> fixed (polish01, 2026-11-25)
+- [x] g23.49.319 - 仁 ついさっきからな: "Since just a moment ago." -> fixed (polish01, 2026-11-25)
+- [x] g23.49.346 - 美由紀 そっかぁ、よかったー: "I see! Phew." -> fixed (polish01, 2026-11-25)
+- [x] g23.49.301 - 美由紀 ひょっとして: "Maybe I'm... lost...?" -> fixed (polish01, 2026-11-25)
+- [x] g23.49.390 - 麗子 見間違いじゃないの: "Couldn't they have just seen wrong?" -> fixed (polish01, 2026-11-25)
+- [x] g23.49.517 - 瞳 頼りなくてしょうがない: "Watching you, I can't help thinking you're unreliable." -> fixed (polish01, 2026-11-25)
+- [x] g23.49.524 - 鈴音 バレバレだっつーの: "That's so obvious." -> fixed (polish01, 2026-11-25)
+- [x] g23.49.501 - 美由紀 蘭ちゃんだね: "Ran-chan, huh? I'm Miyuki!" -> fixed (polish01, 2026-11-25)
+- [x] g23.52.008 - MP is the Master's: "you let your MP recover" -> fixed (polish01, 2026-11-25)
+- [x] g23.52.007 - "MP (Tactic Points) is used up" -> fixed (polish01, 2026-11-25)
+- [x] g23.52.001 - "in the 'Action' command" -> fixed (polish01, 2026-11-25)
+- [x] g23.51.016 - "again" added (harmless) -> waived: harmless, reads naturally
+- [x] g23.56.001 - "I'll summon one now." -> waived: command names stay quoted as in the JP 「召喚」
+- [x] g23.56.002 - "just the Summon action alone uses up 20 MP" -> fixed (polish01, 2026-11-25)
+- [x] g23.55.011 - "Charging" reads as the Charge Tactic -> "Rushing the enemy is fine, but..." -> fixed (polish01, 2026-11-25)
+- [x] g23.59.008, 64.008 - "against 'Master', the Masters" -> "against 'Master' (that is, the Masters)" -> fixed (polish01, 2026-11-25)
+- [x] g23.58.015 - "once you master it, it's useful in all sorts of ways"; "the effects are quite unusual too" -> fixed (polish01, 2026-11-25)
+- [x] g23.61.004 - 寄ってきた: "It came back to its Master's side, right?" -> fixed (polish01, 2026-11-25)
+- [x] g23.61.008 (+61.005/006) - menu name as verb: "unless you change the Tactic again" -> waived: 『思考変更』 stays the quoted command name, as in the JP
+- [x] g23.61.007 - "Not only can't you 'Execute Order' again, ..." -> fixed (polish01, 2026-11-25)
+- [x] g23.62.005, 67.005 - "ranged attack power (Al)" vs "Healing (Hl)": one form, capitalised per glossary -> fixed (polish01, 2026-11-25)
+- [x] g23.62.010, 67.010 - "since none of them have one" -> "since none of your allies has a rank-D skill" -> fixed (polish01, 2026-11-25)
+- [x] g23.63.008 - "NO" in double quotes -> 'NO' -> waived: double quotes are the English norm for a quoted answer
+- [x] g23.66.020 - 自分の直線ライン: "in a straight line with the Guardian" -> fixed (polish01, 2026-11-25)
+- [x] g23.66.022, 64.007, 66.017 - EN page split mid-sentence (see orphan pages) -> fixed (polish01, 2026-11-25)
+- [x] g13.00.023 - 手応えのない: "Not a shred of a challenge in that lot." -> fixed (polish01, 2026-11-25)
+- [x] g13.02.003 - 軍帽 = military cap, not beret -> fixed (polish01, 2026-11-25)
+- [x] g13.02.032 - "The fan Satomi (a.k.a. Seiryu) carries." (match .029-.031) -> fixed (polish01, 2026-11-25)
+- [x] g13.02.065 - 幻獣 = mythical beast, not "phantom" -> fixed (polish01, 2026-11-25)
+- [x] g13.03.017 - "Enemies won't counterattack it either." -> fixed (polish01, 2026-11-25)
+- [x] g13.04.004 - "Does nothing if there is no target." -> fixed (polish01, 2026-11-25)
+- [x] g13.03.010/020, 04.008-010 - Melee/Ranged/Healing capitalised as in the glossary -> fixed (polish01): g13.03.010/020, 04.008-010 now Melee / Ranged / Healing
+- [x] g13.05.012 - "defense"/"Defense" in one entry: "Defense" both -> fixed (polish01, 2026-11-25)
+- [x] g13.05.007 - "They start out as plain Guardians." -> fixed (polish01, 2026-11-25)
+- [x] g23.54.021 - "block" vs "squares" in one tutorial: "at least 3 blocks away" -> fixed (polish01, 2026-11-25)
+- [x] g23.54.012 - いい感じだよ: "Pretty nice, huh?" -> fixed (polish01, 2026-11-25)
+- [x] g23.58.004 - "That short? you might think," -> "You might think, 'That short?' But..." -> fixed (polish01, 2026-11-25)
+- [x] g23.57.009 - "Then all that support is meaningless" -> "All that support goes to waste." -> fixed (polish01, 2026-11-25)
+- [x] g23.56.014 - "Bring its Master next to it and 'Dismiss' it quickly." -> fixed (polish01, 2026-11-25)
+- [x] 簡易ステータス "short status" (56-58): add a glossary row -> fixed: glossary row added (polish01)
+- [x] orphan pages - the scenario fitter runs 1-3 words of a sentence onto their own {wait} page ("...against 'Sea'" / "and 'Wind'."): -> fixed (polish01): every listed id rephrased shorter, 01.036 in the story pass; 51.019 "...That's it." kept as its own beat. Scratch scan of all g23/g13 records: no other fitter-made 1-line page of <= 3 words
   g23.59.007, 64.007, 01.036, 10.081, 12.095, 24.010, 31.199, 51.019, 53.006, 54.017, 54.022, 56.008, 66.017, 66.022
   (62.012 "...like so." is the JP's own page). Rephrase a few words shorter, or make the fitter balance the last pages.
-- [ ] cf.0042 - Miyuki profile drops 好奇心盛んで ("curious about everything") if the 6 lines allow it
-- [ ] cf.0617 - "Young and lovely, but a total mystery" -> "She looks young and lovely, but..." (外見は)
-- [ ] dic.0004 - "Lost fast." -> "...but was easily beaten."; dic.0130 - add "so it doesn't appear in the game"
-- [ ] gd.0139 - "A Bone Boxer with more mobility, its weak point." -> "A Bone Boxer with better mobility, its old weak point."
-- [ ] exe.026dc-0271c - True Ryuki boss parts abbreviated "R. Arm / L. Shoulder" for the 108 px status-panel name (D14); revisit if a wider name slot is found
-- [ ] exe.026fc/0270c - VS banner: "True Ryuki R./L. Shoulder" (108 px) runs onto the right plate's end-cap (x 203-309, plate ~297) and past the left plate's start ornament (x 11); legible, all other names fit. Visual QA (phase 8) to judge
-- [ ] tac_info_g guardian list (情報 Guardian tab) - "Thunder Dragon" ends at x 102, Type column starts x 107: the 4 px gap equals a word space, so it reads "Thunder Dragon Guardian"; shift Type/Ali right 2-4 px if the row has room (work/qa/tour/tac_info_g/f004950.png)
+- [x] cf.0042 - Miyuki profile drops 好奇心盛んで ("curious about everything") if the 6 lines allow it -> fixed (polish01): "ever-energetic, curious girl"
+- [x] cf.0617 - "Young and lovely, but a total mystery" -> "She looks young and lovely, but..." (外見は) -> fixed (polish01, 2026-11-25)
+- [x] dic.0004 - "Lost fast." -> "...but was easily beaten."; dic.0130 - add "so it doesn't appear in the game" -> fixed (polish01): "but lost easily" (11-line page); dic.0130 "so it's not in the game"
+- [x] gd.0139 - "A Bone Boxer with more mobility, its weak point." -> "A Bone Boxer with better mobility, its old weak point." -> fixed (polish01, 2026-11-25)
+- [x] exe.026dc-0271c - True Ryuki boss parts abbreviated "R. Arm / L. Shoulder" for the 108 px status-panel name (D14); revisit if a wider name slot is found -> waived: D14 (108 px status-panel slot; no wider slot found)
+- [x] exe.026fc/0270c - VS banner: "True Ryuki R./L. Shoulder" (108 px) runs onto the right plate's end-cap (x 203-309, plate ~297) and past the left plate's start ornament (x 11); legible, all other names fit. Visual QA (phase 8) to judge -> waived: legible, phase-8 visual QA passed the VS banner sheets
+- [x] tac_info_g guardian list (情報 Guardian tab) - "Thunder Dragon" ends at x 102, Type column starts x 107: the 4 px gap equals a word space, so it reads "Thunder Dragon Guardian"; shift Type/Ali right 2-4 px if the row has room (work/qa/tour/tac_info_g/f004950.png) -> waived: game's own column positions; the Type column header separates them; phase-8 visual QA ok

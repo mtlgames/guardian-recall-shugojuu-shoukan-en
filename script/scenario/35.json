@@ -27,7 +27,7 @@
   {
    "id": "g23.35.002",
    "jp": "美里\n「空の上・・・\n　この要塞、ホントに飛んでるの？」\n{wait}",
-   "en": "Misato\n\"Up in the sky... This fortress really flies?\"\n{wait}",
+   "en": "Misato\n\"Up in the sky... Is this fortress really flying?\"\n{wait}",
    "slots": [
     2
    ],
@@ -57,7 +57,7 @@
   {
    "id": "g23.35.005",
    "jp": "美由紀\n「だけどみんながいないよ」\n{wait}「ちかちゃんも、仁も・・・\n　鈴ちゃんも琴ちゃんも！」\n{wait}",
-   "en": "Miyuki\n\"But everybody's not here.\"\n{wait}\"Not Chika-chan, not Jin... not Suzu-chan or\nKoto-chan either!\"\n{wait}",
+   "en": "Miyuki\n\"But the others aren't here!\"\n{wait}\"Not Chika-chan, not Jin... not Suzu-chan or\nKoto-chan either!\"\n{wait}",
    "slots": [
     5
    ],

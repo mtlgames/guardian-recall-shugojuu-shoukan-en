@@ -702,7 +702,7 @@
   {
    "id": "g23.14.204",
    "jp": "晶\n「安心して任せるです！」\n{wait}「堤防爆破などという言語道断な\n　たくらみは、この雷晶が、\n　天に代わって成敗するですっ！」\n{wait}",
-   "en": "Akira\n\"Fear not, leave it to me!\"\n{wait}\"A scheme as outrageous as blowing up an\nembankment shall be punished by I, Akira\nIkazuchi, on behalf of the heavens!\"\n{wait}",
+   "en": "Akira\n\"Fear not, leave it to me!\"\n{wait}\"A scheme as outrageous as blowing up an\nembankment shall be punished by me, Akira\nIkazuchi, on behalf of the heavens!\"\n{wait}",
    "slots": [
     204
    ],

@@ -108,7 +108,7 @@
   {
    "id": "g23.24.010",
    "jp": "ゆかり\n「そう」\n{wait}「荏狗覇菟から龍脈を解放してきた\n　事で私たちは少なくとも、地脈の\n　異変からは日本を守ってきた」\n{wait}「その発端は、龍の声でしょう？」\n{wait}「そして、もうひとつ。天龍と地龍が\n　目覚めて七龍がそろった時・・・\n　私たちの前にいるのは、龍鬼妃よ」\n{wait}「日本を混乱させようとしている\n　龍鬼妃を倒す事は、ある意味で\n　日本を救うことになるわ」\n{wait}",
-   "en": "Yukari\n\"Yes.\"\n{wait}\"By freeing the dragon veins from the\nEgubado, we've at least protected Japan\nfrom upheavals in the earth's veins.\"\n{wait}\"And it all started with the dragons' voices,\ndidn't it?\"\n{wait}\"And one more thing. When the Sky Dragon\nand Earth Dragon awaken and the Seven\nDragons are gathered... Ryukihi is who we'll\n{wait}be facing.\"\n{wait}\"Defeating Ryukihi, who's trying to throw\nJapan into chaos, will in a sense mean\nsaving Japan.\"\n{wait}",
+   "en": "Yukari\n\"Yes.\"\n{wait}\"By freeing the dragon veins from the\nEgubado, we've at least protected Japan\nfrom upheavals in the earth's veins.\"\n{wait}\"And it all started with the dragons' voices,\ndidn't it?\"\n{wait}\"One more thing. When the Sky Dragon and\nEarth Dragon awaken and the Seven Dragons\ngather... we face Ryukihi.\"\n{wait}\"Defeating Ryukihi, who's trying to throw\nJapan into chaos, will in a sense mean\nsaving Japan.\"\n{wait}",
    "slots": [
     10
    ],
@@ -189,7 +189,7 @@
   {
    "id": "g23.24.018",
    "jp": "美由紀\n「うん。まだかな・・・」\n{wait}",
-   "en": "Miyuki\n\"Yeah. Are they back yet...\"\n{wait}",
+   "en": "Miyuki\n\"Yeah. I wonder when they'll be back...\"\n{wait}",
    "slots": [
     18
    ],

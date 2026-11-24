@@ -67,7 +67,7 @@
   {
    "id": "g23.30.006",
    "jp": "知美\n「ご苦労様ね。でも折角だけど、\n　あなた方には死んでもらうわ」\n{wait}「龍鬼妃様の御命令なの。\n　悪く思わないでね」\n{wait}",
-   "en": "Tomomi\n\"Thank you for coming all this way. But I'm\nafraid you'll have to die.\"\n{wait}\"Ryukihi-sama's orders. Don't take it\npersonally.\"\n{wait}",
+   "en": "Tomomi\n\"Well, you've come a long way. But I'm afraid\nyou'll have to die.\"\n{wait}\"Ryukihi-sama's orders. Don't take it\npersonally.\"\n{wait}",
    "slots": [
     6
    ],
