@@ -2,18 +2,24 @@
 
 Updated at the end of every session. Keep it to what the next session needs; history is in git.
 
-- **Phase:** 9. Release in progress: story pass read 00-42, polish list next (phase 8 closed 2026-11-24 (30): vqa gates d1/d2/s1/s2 exit 0, textcover exits 0, inkbox
-  and stress done, smoke ok).
-  Last build: 2026-11-24 (30) `build.py` (= (29) + dic.0253 wrap fix; disc 1 sha1 ac96b569.., disc 2 74d1d0ca..;
-  write check ok both discs), check.py green (51), smoke ok.
-  **vqa gates green** on (30): d1 re-inited on (30) after re-shooting opt_dictionary_sweep; d2/s1/s2 hotfix-waived
-  for (30) (only GRETC.RLZ dic.txd changed, 4 sectors per disc; no scene there shows the dictionary).
-  **textcover green** on (30): 7336/7696 shown, 360 waived, 0 failing (dic sweep re-run with --cover).
-  Next = phase 9 (see "Next (phase 9)" below).
+- **Phase:** 9. Release done (2026-11-25 (31)): `tools/release.py` exit 0 end to end ->
+  release/Guardian_Recall_Shugojuu_Shoukan_EN_v1.0.zip (sha1 7eeb2aa0..; Disc1/Disc2 .xdelta + README.txt, stored),
+  each patch re-applied to rom/ = build. Not published (owner's call, see "Waiting on the user").
+  Last build (31): disc 1 sha1 48ea392b.., disc 2 8f003f26..; write check ok, check.py green (51), smoke ok,
+  jp_scan clean, story gate 43/43, vqa d1/d2/s1/s2 green (text-only hotfix waiver for (31), reason in
+  manifest.tsv.waive), textcover 7336/7696 shown, 360 waived, 0 failing, docs/polish.md all ticked.
+  **(31) polish pass:** 107 Minors -> 130 entries changed through `work/tl/polish01.{tsv,out.tsv}` +
+  `batches.py merge polish01 --overwrite` (rows started from the b*.out.tsv translator form, substring fixes, lint
+  gated), Memory Card capitalised in save.* txd, orphan pages rephrased (scan of all g23/g13: none left but the
+  intended 51.019 beat), glossary row 簡易ステータス = short status; waivers with reasons in docs/polish.md.
+  Coverage re-shot for the 140 changed strings: new `tools/debug/recover_scen.py IDS OUTDIR` (scen_sweep.lua
+  `SLOTS`: changed slots only, block forced into ev11; work/qa/cover/re31, 43 blocks x ~1 min), g13_sweep.sh 0 2 3 4 5,
+  txd_sweep (work/qa/cover/txd7, want file txd_want7.txt). work/qa/cover/strings.tsv = (31) hashes (for --runs-for).
+  Story chapters 00/03/07/09-14/17/21/23-38 re-inited and re-verdicted (polish lines).
   **Phase 9 progress (2026-11-24 (31)):** `tools/release.py` written (gate order: check -> build -> smoke ->
   jp_scan -> qa_gate check on every work/qa/**/manifest.tsv -> textcover -> polish all ticked -> README placeholders
   -> xdelta3 -B per disc, re-applied + compared -> release/Guardian_Recall_Shugojuu_Shoukan_EN_v1.0.zip, stored;
-  README template docs/release-readme.txt); not run end to end yet. `tools/jp_scan.py` (re-extracts every
+  README template docs/release-readme.txt); ran end to end 2026-11-25 (above). `tools/jp_scan.py` (re-extracts every
   container from the built trees, jp_refs on both EXEs, new SJIS runs in changed files): **clean** on (30) (pristine
   tree gives 6571 hits = the scan works). README.md filled (status table, base hashes). Debug tool = external Lua
   only (warp.lua, --qa/--marker build flags): release.py runs plain build.py, so nothing to switch off.
@@ -27,11 +33,9 @@ Updated at the end of every session. Keep it to what the next session needs; his
   the rebuild, run story.py, `qa_gate.py init work/qa/story/manifest.tsv work/qa/story/chapters --glob "*.txt"`
   (check the original init args in git log / manifest), then re-write the verdict files (same content) so they
   postdate init, and `qa_gate.py check work/qa/story/manifest.tsv work/qa/story/verdicts`.
-  **Text edited since build (30), not rebuilt yet:** g23.01.036, 03.039, 03.058, 09.066-068, 10.028, 21.014,
-  24.251, 38.031 (all `batches.py fit` OK). **Next:** docs/polish.md has 107 unticked Minors: fix (batches.py fit,
-  then Edit the json) or tick `waived: reason`; then once: build, re-shoot coverage for changed ids
-  (`textcover.py ... --runs-for IDS`), `qa_gate waive` d1/d2/s1/s2 (text-only hotfix) or re-tour, story pass
-  re-init above, release.py.
+  **After any later text fix:** batches.py check/merge, build, `textcover.py work/qa/cover work/qa/cover/strings.tsv
+  --runs-for IDS` (old hashes) or recover_scen.py for g23, copy build/strings.tsv to work/qa/cover/, story re-init
+  as above, `qa_gate waive` d1/d2/s1/s2 for a text-only change, bump release.py VERSION, run release.py.
 - **Done:**
   - Step 0: PCSX-Redux + SCPH-5500 BIOS in tools/ (original disc 1 boots, circle input + Lua probe verified),
     mkpsxiso/dumpsxiso 2.30, armips 0.11.0, xdelta3 3.1.0 in tools/; rom.sha1 pinned; pre-commit runs
@@ -468,6 +472,11 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open bugs:** none.
 - **Waiting on the user:** (non-blocking) FMVs are voiced Japanese with no subtitles; default = no FMV subtitles,
   only the STAFF.STR credits get English (D3). Ask if subtitles are wanted.
+  (non-blocking) Publishing v1.0 (GitHub release / upload) is the owner's call: release/Guardian_Recall_Shugojuu_Shoukan_EN_v1.0.zip
+  is built and verified, never published by an agent.
+  (non-blocking) Disc 2 patch is 51.6 MB (disc 1 0.77 MB): both images grow by 50 sectors, and on disc 2 the growth
+  lands before most of the data, so every later sector's header/ECC differs. Works as is; shrinking it would mean
+  keeping disc 2's LBAs (grown file moved to the end of the layout), only if the game finds files by name (unchecked).
 - **Gotchas:** this PCSX-Redux nightly's `L.dump_ppu` writes 2 MB (first 1 MB = VRAM). Context-mode trims tool
   output > ~4 KB: read files with limit, keep command output short. Exec/read hooks need `emu.py --debugger`.
   `codex exec` hit its usage limit (until 2026-11-26): no codex reviews before then. Other repos' emulators share

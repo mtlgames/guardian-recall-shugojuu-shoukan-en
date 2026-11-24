@@ -33,10 +33,13 @@ L.on_exec(0x8001FE48, function()
     local b = scen_buf()
     local n, seen = r32(b), {}
     if n == 0 then n = 254 end  -- g23 entry 43: count 0 but 254 slots (docs/re/text.md)
+    -- --var "SLOTS='39,58'": sweep just these script/ "slots" numbers (= table index i - 2), to re-cover changed text
+    local only = nil
+    if SLOTS then only = {}; for s in tostring(SLOTS):gmatch("%d+") do only[tonumber(s) + 2] = true end end
     slots = {}
     for i = 2, n + 1 do
       local o = r32(b + 4 * i)
-      if o ~= 0 and o < 0x6A78 and not seen[o] then seen[o] = true; slots[#slots + 1] = i end
+      if o ~= 0 and o < 0x6A78 and not seen[o] and (not only or only[i]) then seen[o] = true; slots[#slots + 1] = i end
     end
     L.log(string.format("SWEEP start f=%d op@%04X buf=%08X count=%d slots=%d", frame, P, b, n, #slots))
   end
