@@ -30,6 +30,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   index 15 - ink, but the card CLUT is 0 white, 15 black, 1-14 dark->light grey (g17 TIM), so ~94% ink edge pixels
   became near-black. Fixed (full ink 0, none 15, partial = same index; tests/test_gfx.py); Sky Chapter (39) and
   Episode 1 re-shot clean (work/qa/chapter_fix, work/qa/card_fix).
+  **Location cards rough (user report, 雪花旅館 "Yukibana Inn"):** same class: g24 wrote ink level = index, but its
+  CLUT on screen is 0 bg, 1-5 ~bg, 6 faint, 7-13 grey 156->255, 14 = grey 131, 15 white (measured per index on a
+  PCSX shot, original card 51 matches). `gfx.LOC_LUT` maps ink to the index of matching brightness; ev02 (51) and
+  ev04 (20) re-shot smooth (work/qa/one/loc_en2, loc_en4).
   **Patch size (after v1.1):** v1.1 patches were 225 + 255 MB: a re-encoded macroblock shifted every later bit of
   the frame. `staff_str.fit` (shared by fmv_subs and the staff credits): pads each re-encoded run to the original's
   bit length mod 16 (`align`/`pad`: forced escapes, zero-level escapes; picture unchanged) so the rest of the frame

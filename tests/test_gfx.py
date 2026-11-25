@@ -21,6 +21,12 @@ def test_card_pack_follows_clut():
     assert gfx.pack(cov, ink0=False) == bytes([0x00 << 4 | 0x0F, 0x01 << 4 | 0x0E])
 
 
+def test_location_ink_brightens_monotonically():
+    """Location cards: more ink never maps to a darker on-screen index (14 is a dark grey in that CLUT)."""
+    lum = [gfx.LOC_LUM[i] for i in gfx.LOC_LUT]
+    assert lum == sorted(lum) and gfx.LOC_LUT[15] == 15 and 14 not in gfx.LOC_LUT[10:]
+
+
 @pytest.mark.skipif(not RLZ.exists(), reason="needs a dumped disc (build.py)")
 def test_gretc_images_keep_tim_layout():
     """Redrawn GRETC TIMs keep header + CLUT and size; only pixels change, and every one changes something."""

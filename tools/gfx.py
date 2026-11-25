@@ -171,10 +171,17 @@ def location(idx, lines, maxsize=34):
     d = ImageDraw.Draw(img)
     for i, t in enumerate(lines):
         d.text((x, cy - hgt / 2 + lh * (i + 0.5)), t, font=f, fill=255, anchor=anchor + "m")
-    new = np.rint(np.asarray(img, np.float32) * 15 / 255).astype(np.uint8)
+    lvl = np.rint(np.asarray(img, np.float32) * 15 / 255).astype(np.uint8)
     out = idx.copy()
     out[y0:y1] = 0
-    return np.maximum(out, new)
+    return np.where(lvl > 0, LOC_LUT[lvl], out).astype(np.uint8)
+
+
+# g24 CLUT as it shows on screen (PCSX-Redux, card 51 over its gradient, ~85 grey there): index -> brightness.
+# Not a ramp: 1-5 ~ background, 14 = dark grey 131. Ink level k -> the index nearest bg + k/15 of the way to white
+# (index = ink level put 94% edge pixels on grey 131: rough letters, user report on 雪花旅館).
+LOC_LUM = {0: 85, 6: 98, 14: 131, 7: 156, 8: 180, 9: 189, 10: 213, 11: 230, 12: 238, 15: 255}
+LOC_LUT = np.array([min(LOC_LUM, key=lambda i: abs(LOC_LUM[i] - (85 + 170 * k / 15))) for k in range(16)], np.uint8)
 
 
 def unpack(data, w):
