@@ -25,7 +25,16 @@ Updated at the end of every session. Keep it to what the next session needs; his
   work/qa/fmv_vqa/manifest.tsv work/qa/verdicts` passes (78 sheets); epilogue cold boot in the emulator ok;
   check.py 54 passed. Re-QA recipe: `fmv_subs.py STEM --preview work/fmv/preview` (one stem per call), sheet.py
   into work/qa/fmv_vqa/<STEM>/ (crop 0,96,304,64 zoom 2 cols 2 max 14), `qa_gate.py init/todo` + visual-qa.
-  Reviewers flag lines ~4-7 px from the frame edge (TV overscan risk, not clipped). **Release zip v1.0 is now stale**: bump release.py VERSION and run release.py for
+  Reviewers flag lines ~4-7 px from the frame edge (TV overscan risk, not clipped).
+  **Patch size (after v1.1):** v1.1 patches were 225 + 255 MB: a re-encoded macroblock shifted every later bit of
+  the frame. `staff_str.fit` (shared by fmv_subs and the staff credits): pads each re-encoded run to the original's
+  bit length mod 16 (`align`/`pad`: forced escapes, zero-level escapes; picture unchanged) so the rest of the frame
+  is the original shifted by whole words; before requantising a frame that no longer fits, drops AC levels with
+  |level| x q <= DEAD from the redone blocks only (`dead`). DEAD 64 -> 202 MB but broken letters on busy
+  backgrounds; DEAD 16 -> 231 MB, i-dots lost on q=1 frames; **DEAD 8 -> 124 + 160 MB (284 MB, -41%)**, visual
+  QA clean (84 sheets, credits re-shot in the emulator). The 50-sector layout shift costs ~nothing (xdelta copes);
+  disc 2's extra is STAFF.STR. Not released: v1.2 needs release.py (VERSION, vqa d1/d2/s1/s2 re-waive for the
+  new build, FMV-only change). **Release zip v1.0 is now stale**: bump release.py VERSION and run release.py for
   v1.1 (not published without the owner).
   Last build (31): disc 1 sha1 48ea392b.., disc 2 8f003f26..; write check ok, check.py green (51), smoke ok,
   jp_scan clean, story gate 43/43, vqa d1/d2/s1/s2 green (text-only hotfix waiver for (31), reason in

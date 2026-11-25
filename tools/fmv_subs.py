@@ -42,7 +42,6 @@ HOLD, MIN_SHOW = 0.3, 1.0        # seconds a line stays after its end; shortest 
 READ, CPS = 0.3, 30              # check(): shortest page time (a quick "Right." is 0.34 s), fastest chars/second
 SECTORS_PER_S = 150              # 2x CD speed
 
-
 WEAK = {"i", "a", "an", "the", "of", "to", "and", "or", "but", "my", "your", "our", "their", "his", "her", "its", "in",
         "on", "at", "for", "with", "from", "no", "not", "be", "is", "are", "was", "were", "you", "we", "they", "he",
         "she", "it", "i'm", "i'll", "i've", "you're", "we're", "they're", "it's", "that's", "has", "have", "had",
@@ -200,19 +199,7 @@ def redraw(data, a_t, a_o, cap):
     new = draw(mdec.to_pixels(q0, blocks, W, H).astype(float), a_t, a_o)
     order = mdec.mb_order(W, H)
     redo = [i for i, (mx, my) in enumerate(order) if a_o[my * 16:my * 16 + 16, mx * 16:mx * 16 + 16].max() > 0.01]
-    for q in range(q0, 64):
-        out = list(blocks if q == q0 else staff_str._renum(staff_str.requant(blocks, q0, q)))
-        for i in redo:
-            mx, my = order[i]
-            bl = staff_str.rgb_blocks(new[my * 16:my * 16 + 16, mx * 16:mx * 16 + 16], q)
-            if bl is None:
-                break
-            out[6 * i:6 * i + 6] = bl
-        else:
-            data = mdec.encode(q, out)
-            if len(data) <= cap:
-                return data
-    raise ValueError("frame does not fit at any qscale")
+    return staff_str.fit(q0, blocks, redo, new, order, cap)
 
 
 def times(s, fr):

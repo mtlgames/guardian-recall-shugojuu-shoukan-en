@@ -207,20 +207,89 @@ def redraw(data, off, todo, cap):
     new = np.clip(np.rint(new), 0, 255)
     # only macroblocks the redrawn rows touch are re-encoded; the rest keep their coefficients
     redo = [i for i, (mx, my) in enumerate(mdec.mb_order()[:LEFT_MBS]) if my in touched]
-    for q in range(q0, 64):
-        out = blocks if q == q0 else _renum(requant(blocks, q0, q))
-        out = list(out)
+    return fit(q0, blocks, redo, new, mdec.mb_order(), cap)
+
+
+DEAD = 8         # fit(): largest AC level x qscale dropped from redrawn blocks before requantising the frame
+
+
+def fit(q0, blocks, redo, new, order, cap):
+    """Frame bytes (<= cap) with macroblocks redo (stream indices) re-encoded from the pixels new. Keeps q0 and the
+    other blocks' bits: first drops small AC levels from the redone blocks only (dead zone), then aligns (align());
+    requantising the whole frame is the last resort, since it changes every byte of it (and the patch)."""
+    dz = [t for t in (0, 1, 2, 3, 4, 6, 8, 12, 16, 24, 32) if t * q0 <= DEAD]     # same coefficient size at any q
+    for q, t in [(q0, t) for t in dz] + [(q, 0) for q in range(q0 + 1, 64)]:
+        out = list(blocks if q == q0 else _renum(requant(blocks, q0, q)))
         for i in redo:
-            mx, my = mdec.mb_order()[i]
+            mx, my = order[i]
             bl = rgb_blocks(new[my * 16:my * 16 + 16, mx * 16:mx * 16 + 16], q)
             if bl is None:
                 break
-            out[6 * i:6 * i + 6] = bl
+            out[6 * i:6 * i + 6] = [dead(b, t) for b in bl]
         else:
+            if q == q0:
+                align(blocks, out, redo)
             data = mdec.encode(q, out)
             if len(data) <= cap:
                 return data
     raise ValueError("frame does not fit at any qscale")
+
+
+def dead(block, t):
+    """block with every AC level |l| <= t dropped (its run merged into the next)."""
+    dc, ac = block
+    out, run = [], 0
+    for r, l in ac:
+        if abs(l) <= t:
+            run += r + 1
+        else:
+            out.append((run + r, l))
+            run = 0
+    return dc, out
+
+
+def pad(blocks, p):
+    """Add n bits (n = p mod 16, fewest) to blocks without changing the picture: rewrite a VLC item as an escape
+    (+21 - code length), or append a zero-level escape after a block's last coefficient (+22). False if no way."""
+    best = {0: (0, ())}                               # residue -> (bits added, ops)
+    ops = [(21 - len(mdec.VLC[(r, abs(l))]), ("esc", b, k)) for b, (_, ac) in enumerate(blocks)
+           for k, (r, l, *esc) in enumerate(ac) if not esc and (r, abs(l)) in mdec.VLC]
+    room = [63 - sum(r + 1 for r, *_ in ac) for _, ac in blocks]
+    ops += [(22, ("zero", b, z)) for b, n in enumerate(room) for z in range(min(n, 7))]
+    for inc, op in ops[:400]:                         # shortcut: 400 ops always reach every residue in practice
+        for res, (cost, done) in list(best.items()):
+            r2 = (res + inc) % 16
+            if r2 not in best or cost + inc < best[r2][0]:
+                best[r2] = (cost + inc, done + (op,))
+    if p not in best:
+        return False
+    for kind, b, k in best[p][1]:
+        dc, ac = blocks[b]
+        if kind == "esc":
+            r, l = ac[k][:2]
+            ac = ac[:k] + [(r, l, True)] + ac[k + 1:]
+        else:
+            ac = ac + [(0, 0)]
+        blocks[b] = (dc, ac)
+    return True
+
+
+def align(old, new, redo):
+    """Pad each run of re-encoded macroblocks (consecutive in stream order) to the old run's bit length mod 16, so
+    the bitstream after it is the original's, shifted by whole 16-bit words: xdelta then matches the rest of the
+    frame instead of storing it (a 1-bit shift made every later byte differ: v1.1 patches were 480 MB)."""
+    runs = []
+    for i in redo:
+        if runs and runs[-1][-1] == i - 1:
+            runs[-1].append(i)
+        else:
+            runs.append([i])
+    for run in runs:
+        a, b = 6 * run[0], 6 * run[-1] + 6
+        p = (sum(map(mdec.block_bits, old[a:b])) - sum(map(mdec.block_bits, new[a:b]))) % 16
+        seg = list(new[a:b])
+        if p and pad(seg, p):
+            new[a:b] = seg
 
 
 _S = {}

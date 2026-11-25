@@ -7,6 +7,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools"))
 import fmv_subs  # noqa: E402
 import mdec  # noqa: E402
+import staff_str  # noqa: E402
 
 
 def test_fmv_lines():
@@ -36,6 +37,22 @@ def test_redraw_fits_and_decodes():
     new = fmv_subs.redraw(data, a_t, a_o, len(secs) * mdec.DATA)
     pix = mdec.to_pixels(*mdec.decode(new, fmv_subs.W, fmv_subs.H)[:2], fmv_subs.W, fmv_subs.H).mean(-1)
     assert pix[a_t > 0.9].mean() > 200 and len(new) <= len(secs) * mdec.DATA
+
+
+def test_pad_keeps_picture_and_aligns():
+    """_pad adds bits (escape rewrites, zero-level escapes) to any residue mod 16 without changing the decoded
+    coefficients; _dead drops small levels keeping positions."""
+    import numpy as np
+    blocks = [(5, [(0, 3), (2, -1), (0, 1)]), (-2, [(1, 2)]), (0, []), (0, []), (7, [(0, 1)]), (0, [])]
+    want = [mdec.block_coefs(*b, 8) for b in blocks]
+    base = sum(map(mdec.block_bits, blocks))
+    for p in range(1, 16):
+        seg = list(blocks)
+        assert staff_str.pad(seg, p)
+        assert (sum(map(mdec.block_bits, seg)) - base) % 16 == p
+        q, dec = mdec.decode(mdec.encode(8, seg * 190), 304, 160)[:2]
+        assert all(np.array_equal(mdec.block_coefs(*d, 8), w) for d, w in zip(dec[:6], want))
+    assert staff_str.dead((1, [(0, 1), (2, 5), (0, -2)]), 2) == (1, [(3, 5)])
 
 
 def test_sync_snaps_to_voice():

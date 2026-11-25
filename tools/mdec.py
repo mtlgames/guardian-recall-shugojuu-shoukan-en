@@ -111,12 +111,13 @@ def decode(data, w=320, h=240):
 
 
 def encode(q, blocks, end=True):
-    """Frame bytes for (qscale, blocks): header + bitstream (+ end code), padded to 32 bits."""
+    """Frame bytes for (qscale, blocks): header + bitstream (+ end code), padded to 32 bits. An AC item
+    (run, level, True) is written as an escape code even when a VLC exists (bit padding, see block_bits)."""
     out, codes = [], 0
     for dc, ac in blocks:
         out.append(f"{dc & 0x3FF:010b}")
-        for r, l in ac:
-            c = VLC.get((r, abs(l)))
+        for r, l, *esc in ac:
+            c = None if esc else VLC.get((r, abs(l)))
             out.append(c + ("1" if l < 0 else "0") if c else f"000001{r:06b}{l & 0x3FF:010b}")
         out.append("10")
         codes += len(ac) + 2
@@ -127,6 +128,12 @@ def encode(q, blocks, end=True):
     words = [int(s[i:i + 16], 2) for i in range(0, len(s), 16)]
     head = struct.pack("<HHHH", (codes + 63) // 64 * 32, 0x3800, q, 2)
     return head + struct.pack(f"<{len(words)}H", *words)
+
+
+def block_bits(block):
+    """Bits encode() spends on one block: DC + each AC code (+ sign) or 22-bit escape + end of block."""
+    dc, ac = block
+    return 12 + sum(22 if esc or (r, abs(l)) not in VLC else len(VLC[(r, abs(l))]) + 1 for r, l, *esc in ac)
 
 
 QUANT = np.array([2, 16, 19, 22, 26, 27, 29, 34, 16, 16, 22, 24, 27, 29, 34, 37, 19, 22, 26, 27, 29, 34, 34, 38,
