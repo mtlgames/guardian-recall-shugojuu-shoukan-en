@@ -17,11 +17,15 @@ Updated at the end of every session. Keep it to what the next session needs; his
   (f007350 subtitle). Visual QA: `fmv_subs.py --preview work/fmv/preview` -> sheets work/qa/fmv_vqa/<STEM>/
   (bottom crop, zoom 2), manifest work/qa/fmv_vqa/manifest.tsv. Visual QA rounds 1-2 flagged only line/page
   breaks; fixed by `pages()` (one DP over page + line breaks, PAGE/BRK costs, WEAK/KEEP/TAIL lists) and a few
-  hand ' / ' breaks; csv quote-eating bug fixed (plain tab I/O). **Next:** the round-3 rebuild was killed by the
-  OS for low memory: re-run `build.py`, `fmv_subs.py --preview work/fmv/preview`, sheet.py per movie into
-  work/qa/fmv_vqa/<STEM>/ (crop 0,96,304,64 zoom 2 cols 2 max 14; delete old sheet*.png with find first),
-  `qa_gate.py init` + `todo` + visual-qa agents until `qa_gate.py check work/qa/fmv_vqa/manifest.tsv
-  work/qa/verdicts` passes. **Release zip v1.0 is now stale**: bump release.py VERSION and run release.py for
+  hand ' / ' breaks; csv quote-eating bug fixed (plain tab I/O). Timing (user: start on the voice, not the
+  silence): `tools/fmv_sync.py --apply` moved 455 of 649 starts later, 21 earlier (Silero VAD onsets, within 30 ms
+  of the RMS rise; Whisper ran ~0.35 s early; >1 s jumps gated by re-transcribing the later audio, 17 of 45 passed;
+  rerun after any re-ASR; changes row ids, work/tl batches stale). Visual QA round 3 on the synced build: 8 breaks fixed
+  (forced ' / ' and '|'), `check()` now rejects a forced '|' line wider than the frame; `qa_gate.py check
+  work/qa/fmv_vqa/manifest.tsv work/qa/verdicts` passes (78 sheets); epilogue cold boot in the emulator ok;
+  check.py 54 passed. Re-QA recipe: `fmv_subs.py STEM --preview work/fmv/preview` (one stem per call), sheet.py
+  into work/qa/fmv_vqa/<STEM>/ (crop 0,96,304,64 zoom 2 cols 2 max 14), `qa_gate.py init/todo` + visual-qa.
+  Reviewers flag lines ~4-7 px from the frame edge (TV overscan risk, not clipped). **Release zip v1.0 is now stale**: bump release.py VERSION and run release.py for
   v1.1 (not published without the owner).
   Last build (31): disc 1 sha1 48ea392b.., disc 2 8f003f26..; write check ok, check.py green (51), smoke ok,
   jp_scan clean, story gate 43/43, vqa d1/d2/s1/s2 green (text-only hotfix waiver for (31), reason in

@@ -316,6 +316,8 @@ def check(only=None):
                 errs.append(f"{stem}.tsv:{n}: no English")
             prev = a
         for a, b, p in lines(stem):
+            if any(len(_greedy(ln, _font())) > 1 for ln in p.split("|")):     # a forced '|' line wider than the frame
+                errs.append(f"{stem} {a:.2f}s: line too wide: {p}")
             if b - a < READ or len(p) / (b - a) > CPS:
                 errs.append(f"{stem} {a:.2f}s: {b - a:.1f} s for {len(p)} chars: {p}")
     return errs

@@ -36,3 +36,24 @@ def test_redraw_fits_and_decodes():
     new = fmv_subs.redraw(data, a_t, a_o, len(secs) * mdec.DATA)
     pix = mdec.to_pixels(*mdec.decode(new, fmv_subs.W, fmv_subs.H)[:2], fmv_subs.W, fmv_subs.H).mean(-1)
     assert pix[a_t > 0.9].mean() > 200 and len(new) <= len(secs) * mdec.DATA
+
+
+def test_sync_snaps_to_voice():
+    """fmv_sync.sync: a start in silence moves to the voice onset, ends never shrink, a short line before the next
+    one keeps reading time, '-' rows are not moved."""
+    import numpy as np
+    import fmv_sync
+    sr = fmv_sync.SR
+    pcm = np.zeros(sr * 10, np.float32)
+    pcm[int(1.4 * sr):int(3 * sr)] = 0.3                # voice 1.4-3.0 (Whisper said 1.0)
+    pcm[int(4.5 * sr):int(5 * sr)] = 0.3                # short line voiced 4.5-5.0, next line at 4.8
+    pcm[int(6.5 * sr):int(7 * sr)] = 0.3
+    rows = [{"start": "1.00", "end": "3.20", "ja": "あ", "en": "Hello there."},
+            {"start": "3.10", "end": "3.60", "ja": "い", "en": "-"},       # not shown: no cap on the line before
+            {"start": "4.30", "end": "4.80", "ja": "う", "en": "You and me."},
+            {"start": "4.80", "end": "5.50", "ja": "え", "en": "Hi."},
+            {"start": "6.00", "end": "7.00", "ja": "お", "en": "-"}]
+    new = fmv_sync.sync(rows, [(1.4, 3.0), (4.5, 5.0), (6.5, 7.0)], pcm, {})
+    assert new[0] == (1.4, 3.2) and new[1] == (3.1, 3.6) and new[4] == (6.0, 7.0)
+    assert new[2] == (4.38, 4.8)                        # leads its voice: 11 chars need 0.37 s before 4.8
+    assert new[3] == (4.8, 5.5)
