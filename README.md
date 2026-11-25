@@ -19,7 +19,7 @@ helps most.
 | Title screen, chapter cards, other graphics with text | Translated |
 | Name entry | None in this game (fixed cast) |
 | Staff credits movie | Translated (names romanized) |
-| Voiced movies (FMV) | Japanese voice, no subtitles |
+| Voiced movies (FMV) | English subtitles (burned in) |
 
 Tested in PCSX-Redux (SCPH-5500 BIOS), both discs, from a cold boot. Known issues: none known, see
 [Issues](../../issues).
@@ -50,7 +50,7 @@ Base discs (Redump, BIN/CUE, one track each; the patches fit only these):
 Needs Python 3.12+ and your own dump of the Japanese game.
 
 ```sh
-git clone https://github.com/minhnhattonthat/guardian-recall-shugojuu-shoukan-en
+git clone https://github.com/mtlgames/guardian-recall-shugojuu-shoukan-en
 cd guardian-recall-shugojuu-shoukan-en
 # copy both discs (.bin + .cue, Redump names above) to rom/; the build refuses any other dump, see rom.sha1
 # tools: mkpsxiso 2.30 into tools/mkpsxiso/, xdelta3 3.1.0 into tools/xdelta/ (AGENTS.md "Paths")

@@ -23,7 +23,7 @@ from skill import SKILL  # noqa: E402
 
 PY = [sys.executable, "-X", "utf8"]
 S = Path(SKILL) / "scripts"
-VERSION = "1.0"
+VERSION = "1.1"
 SLUG = "Guardian_Recall_Shugojuu_Shoukan_EN"
 XDELTA = ROOT / "tools/xdelta/xdelta3-3.1.0-x86_64.exe"
 ORIG = "rom/Guardian Recall - Shugojuu Shoukan (Japan) (Disc {}).bin"

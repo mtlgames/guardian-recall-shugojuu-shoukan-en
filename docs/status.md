@@ -494,8 +494,8 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open bugs:** none.
 - **Waiting on the user:** (non-blocking) opening song (OP_A4SND/OP_B_SND) lyrics left unsubtitled: Whisper's lyric
   transcript is unreliable and partly English; ask if wanted (lyrics would need a proper source).
-  (non-blocking) Publishing v1.0 (GitHub release / upload) is the owner's call: release/Guardian_Recall_Shugojuu_Shoukan_EN_v1.0.zip
-  is built and verified, never published by an agent.
+  (non-blocking) Repo mtlgames/guardian-recall-shugojuu-shoukan-en is private: the v1.1 release (D19) is only
+  visible to collaborators until the owner makes it public.
   (non-blocking) Disc 2 patch is 51.6 MB (disc 1 0.77 MB): both images grow by 50 sectors, and on disc 2 the growth
   lands before most of the data, so every later sector's header/ECC differs. Works as is; shrinking it would mean
   keeping disc 2's LBAs (grown file moved to the end of the layout), only if the game finds files by name (unchecked).

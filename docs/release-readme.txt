@@ -40,14 +40,19 @@ Translation status
   Dictionaries, character files, guardian pages   translated
   Title screen, chapter cards, other graphic text translated
   Staff credits movie                             translated (names romanized)
-  Voiced movies (FMV)                             Japanese voice, no subtitles
+  Voiced movies (FMV)                             English subtitles (burned in)
 
 Tested in PCSX-Redux with the SCPH-5500 BIOS, both discs, from a cold boot.
+
+Changes
+-------
+v1.1  English subtitles in every voiced movie (story movies, summons, epilogues), timed to the voice.
+v1.0  First release.
 
 Known issues
 ------------
 None known. Please report bugs (untranslated text, typos, text running out of its box, crashes) at
-https://github.com/minhnhattonthat/guardian-recall-shugojuu-shoukan-en/issues - a savestate helps most.
+https://github.com/mtlgames/guardian-recall-shugojuu-shoukan-en/issues - a savestate helps most.
 
 Credits and notes
 -----------------
