@@ -720,10 +720,12 @@ def label_writes(battle):
 
 
 def pack(cov, ink0=True):
-    """4bpp, low nibble = left pixel; ink0: index 15 - ink level (title cards), else index = ink level."""
+    """4bpp, low nibble = left pixel. ink0 (title cards): CLUT 0 = white, 15 = black, 1-14 = dark to light grey
+    (g17 TIM: ffff 8421 9084 .. f7bd 8000), so full ink -> 0, none -> 15, partial levels keep their index (15 - ink
+    put 94% ink on near-black index 1: black specks inside letters). Else index = ink level."""
     idx = np.rint(cov.astype(np.float32) * 15 / 255).astype(np.uint8)
     if ink0:
-        idx = 15 - idx
+        idx = np.where(idx == 15, 0, np.where(idx == 0, 15, idx)).astype(np.uint8)
     return (idx[:, 0::2] | idx[:, 1::2] << 4).astype(np.uint8).tobytes()
 
 

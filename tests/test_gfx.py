@@ -12,6 +12,15 @@ RLZ = ROOT / "work/iso/d1/tree/DATA/GRETC.RLZ"
 BATTLE = ROOT / "work/iso/d1/tree/DATA/BATTLE.BIN"
 
 
+def test_card_pack_follows_clut():
+    """Title-card CLUT: 0 white, 15 black, 1-14 dark -> light grey. Full ink 0, none 15, 94% ink a light grey (14),
+    never the near-black index 1 (black specks inside letters)."""
+    import numpy as np
+    cov = np.array([[255, 0, 238, 17]], np.uint8)
+    assert gfx.pack(cov) == bytes([0x0F << 4 | 0x00, 0x01 << 4 | 0x0E])
+    assert gfx.pack(cov, ink0=False) == bytes([0x00 << 4 | 0x0F, 0x01 << 4 | 0x0E])
+
+
 @pytest.mark.skipif(not RLZ.exists(), reason="needs a dumped disc (build.py)")
 def test_gretc_images_keep_tim_layout():
     """Redrawn GRETC TIMs keep header + CLUT and size; only pixels change, and every one changes something."""

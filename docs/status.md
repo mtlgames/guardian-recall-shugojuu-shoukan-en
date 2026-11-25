@@ -26,6 +26,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   check.py 54 passed. Re-QA recipe: `fmv_subs.py STEM --preview work/fmv/preview` (one stem per call), sheet.py
   into work/qa/fmv_vqa/<STEM>/ (crop 0,96,304,64 zoom 2 cols 2 max 14), `qa_gate.py init/todo` + visual-qa.
   Reviewers flag lines ~4-7 px from the frame edge (TV overscan risk, not clipped).
+  **Title/chapter card specks (user report, DuckStation; PCSX shots had them too, missed by QA):** `gfx.pack` used
+  index 15 - ink, but the card CLUT is 0 white, 15 black, 1-14 dark->light grey (g17 TIM), so ~94% ink edge pixels
+  became near-black. Fixed (full ink 0, none 15, partial = same index; tests/test_gfx.py); Sky Chapter (39) and
+  Episode 1 re-shot clean (work/qa/chapter_fix, work/qa/card_fix).
   **Patch size (after v1.1):** v1.1 patches were 225 + 255 MB: a re-encoded macroblock shifted every later bit of
   the frame. `staff_str.fit` (shared by fmv_subs and the staff credits): pads each re-encoded run to the original's
   bit length mod 16 (`align`/`pad`: forced escapes, zero-level escapes; picture unchanged) so the rest of the frame
