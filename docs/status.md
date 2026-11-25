@@ -41,9 +41,10 @@ Updated at the end of every session. Keep it to what the next session needs; his
   |level| x q <= DEAD from the redone blocks only (`dead`). DEAD 64 -> 202 MB but broken letters on busy
   backgrounds; DEAD 16 -> 231 MB, i-dots lost on q=1 frames; **DEAD 8 -> 124 + 160 MB (284 MB, -41%)**, visual
   QA clean (84 sheets, credits re-shot in the emulator). The 50-sector layout shift costs ~nothing (xdelta copes);
-  disc 2's extra is STAFF.STR. Not released: v1.2 needs release.py (VERSION, vqa d1/d2/s1/s2 re-waive for the
-  new build, FMV-only change). **Release zip v1.0 is now stale**: bump release.py VERSION and run release.py for
-  v1.1 (not published without the owner).
+  disc 2's extra is STAFF.STR.
+  **v1.2 released (D20):** card fixes + patch shrink; fmv_vqa + vqa d1/d2/s1/s2 waived for the new build (reason in
+  manifest.tsv.waive). Audit of the other ink->index sites (title copyright, disc-swap words, condition cards g18):
+  smooth on screen, no change (shots work/qa/audit_en vs audit_jp).
   Last build (31): disc 1 sha1 48ea392b.., disc 2 8f003f26..; write check ok, check.py green (51), smoke ok,
   jp_scan clean, story gate 43/43, vqa d1/d2/s1/s2 green (text-only hotfix waiver for (31), reason in
   manifest.tsv.waive), textcover 7336/7696 shown, 360 waived, 0 failing, docs/polish.md all ticked.
@@ -511,7 +512,7 @@ Updated at the end of every session. Keep it to what the next session needs; his
 - **Open bugs:** none.
 - **Waiting on the user:** (non-blocking) opening song (OP_A4SND/OP_B_SND) lyrics left unsubtitled: Whisper's lyric
   transcript is unreliable and partly English; ask if wanted (lyrics would need a proper source).
-  (non-blocking) Repo mtlgames/guardian-recall-shugojuu-shoukan-en is private: the v1.1 release (D19) is only
+  (non-blocking) Repo mtlgames/guardian-recall-shugojuu-shoukan-en is private: the v1.1/v1.2 releases (D19, D20) are only
   visible to collaborators until the owner makes it public.
   (non-blocking) Disc 2 patch is 51.6 MB (disc 1 0.77 MB): both images grow by 50 sectors, and on disc 2 the growth
   lands before most of the data, so every later sector's header/ECC differs. Works as is; shrinking it would mean

@@ -46,6 +46,7 @@ Tested in PCSX-Redux with the SCPH-5500 BIOS, both discs, from a cold boot.
 
 Changes
 -------
+v1.2  Smooth letters on chapter and location title cards (no black specks); much smaller patch.
 v1.1  English subtitles in every voiced movie (story movies, summons, epilogues), timed to the voice.
 v1.0  First release.
 
